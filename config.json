@@ -1,0 +1,16 @@
+{"additionalInfo": {
+        "header": "Enterprise",
+        "homePage": {
+            "name": "Overview",
+            "fileName": "overview"
+        },
+        "url": {
+            "demo": "https://on-premise-demo.boldreports.com/",
+            "download": "https://www.boldreports.com/account/downloads/enterprise"
+        },
+        "pdf": {
+            "tocLevel": 1,
+            "date": "September 2,2020"
+        }
+    }
+}
