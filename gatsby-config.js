@@ -1,12 +1,3 @@
-/*!
-*  filename: gatsby-config.js
-*  version : 2.3.26
-*  Copyright © 2001 - 2021 Syncfusion Inc. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 const toc = require('./left-toc.json');
 module.exports = {
   pathPrefix: toc.pathPrefix ? toc.pathPrefix : '/',
@@ -35,6 +26,14 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          "gatsby-remark-reading-time",
+          {
+            resolve: "gatsby-remark-embed-video",
+            options: {
+              loadingStrategy: 'lazy',
+             },
+          },
+          "gatsby-remark-responsive-iframe",
           {
             resolve: `gatsby-remark-prismjs`,
             options: {

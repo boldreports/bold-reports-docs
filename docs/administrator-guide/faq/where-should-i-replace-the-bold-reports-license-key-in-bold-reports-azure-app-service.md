@@ -20,7 +20,7 @@ By default, the Bold Reports Azure App Service will have an expired license key.
 
 ## See also
 
-[Create Bold Reports Azure App Service using ARM template](./../../create-app-service/)
+[Create Bold Reports Azure App Service using ARM template](./../../installation/azure-app-service/)
 
 [Upgrade Bold Reports Azure App Service from v1.x to latest](./../../upgrade/azure/upgrade-v1.x/)
 

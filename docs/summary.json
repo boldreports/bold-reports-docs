@@ -1,8 +1,19 @@
 {
     "Administrator Guide":{
     "Getting Started": "getting-started.md",
-    "Installation and Deployment": "installation-and-deployment.md",
-    "Azure App Service Installation": "create-app-service.md",
+    "Installation": {
+        "Windows Installer":"windows-installer.md",
+        "Deploy in Azure App Service":"azure-app-service.md",
+        "Deploy in Linux":{
+            "Prerequisites":"prerequisites.md",
+            "Bold Reports on Ubuntu":"bold-report-ubuntu.md",
+            "Install optional libraries":"install-opt-library.md",
+            "Upgrading Bold Reports Linux package to the Latest Version":"upgrade-linux-server.md"
+        },
+		"Deploy in Kubernetes":{
+            "Bold Reports on Kubernetes":"bold-report-kubernetes.md"
+        }
+    },
     "Application Startup": "application-startup.md",
     "Manage Users": {
         "Users": {
@@ -86,7 +97,7 @@
     "How To": {
         "Map a domain name to Bold Reports site before startup": "map-a-domain-name-to-bold-reports-site-before-startup.md",
         "How to resolve unavailable error when deploying on Bold Reports site":"resolve-unavailable-error-when-site-fails-incase-of-domain-name-change.md",
-        "Setup the staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
+        "Setup the development staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-development-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
         "Set up Azure Active Directory": "set-up-azure-active-directory.md",
         "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
         "Add parameters with Report link": "report-link-with-filter-parameters.md",
@@ -107,7 +118,9 @@
         "Is it possible to migrate Syncfusion Report Platform Report Server to Bold Reports Report Server": "is-it-possible-to-migrate-syncfusion-report-platform-report-server-to-bold-reports-report-server.md",
         "Where should I replace the Bold Reports license key in Bold Reports Azure App Service": "where-should-i-replace-the-bold-reports-license-key-in-bold-reports-azure-app-service.md",
         "Where does the data resides in Bold Reports": "where-does-the-data-resides-in-bold-reports.md",
-        "Does Report Server store reports execution data to server database": "does-report-server-store-reports-execution-data-to-server-database.md"
+        "Does Report Server store reports execution data to server database": "does-report-server-store-reports-execution-data-to-server-database.md",
+        "How many server deployments supported in a single license?":"how-many-server-deployments-supported-in-a-single-license.md",
+        "How to install PhantomJS manually?":"how-to-install-phantomjs-manually.md"
     }
 },
 "Designer Guide":{
@@ -115,18 +128,21 @@
     "Report Creation": "design-rdl-report-in-web-report-designer.md",
         "Manage Data": {
             "Data Connectors": {
-                "SQL": "sql-data-source.md",
-                "Rest API": "rest-api-data-source.md",
-                "JSON": "json-data-source.md",
-                "XML": "xml-data-source.md",
-                "OData":"odata-data-source.md",
-                "Oracle":"oracle-data-source.md",
-                "OLEDB":"oledb-data-source.md",
-                "ODBC":"odbc-data-source.md",
-                "PostgreSQL":"postgresql-data-source.md",
-                "Excel":"excel-data-source.md",
+                "Azure SQL":"azure-sql-data-warehouse.md",
                 "CSV":"csv-data-source.md",
-                "MySQL":"mysql-data-source.md"
+                "Excel":"excel-data-source.md",
+                "JSON": "json-data-source.md",
+                "MariaDB":"mariadb-data-source.md",
+                "MemSQL":"memsql-data-source.md",
+                "MySQL":"mysql-data-source.md",
+                "ODBC":"odbc-data-source.md",
+                "OData":"odata-data-source.md",
+                "OLEDB":"oledb-data-source.md",
+                "Oracle":"oracle-data-source.md",
+                "PostgreSQL":"postgresql-data-source.md",
+                "Rest API": "rest-api-data-source.md",
+                "Microsoft SQL": "sql-data-source.md",
+                "XML": "xml-data-source.md"
             },
             "DataSource": {
                 "Create an Embedded DataSource": "create-an-embedded-data-source.md",
@@ -197,6 +213,8 @@
                 "Drillthrough Action": "create-ssrs-drill-through-report.md",
                 "Multiple Column Report": "create-multiple-column-report-ssrs.md",
                 "Interactive Sorting": "interactive-sorting.md",
+                "Document Map":"document-map.md",
+                "Bookmark": "bookmark.md",
                 "Unit Switcher": "unit-switcher.md",
                 "Layouting": "layout-ordering.md",
                 "Expressions": {
@@ -243,7 +261,8 @@
                     "Simple Table Design": "design-ssrs-rdl-report-using-table.md",
                     "Add Grouping and Totals": "add-grouping-and-totals-in-tablix-design.md",
                     "Conditional Formatting": "conditional-formatting-tablix-data-region.md",
-                    "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md"
+                    "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md",
+                    "No Rows Message": "no-rows-message.md"
                 },
                 "Matrix":{
                     "Create a Matrix Report":"design-ssrs-matrix-report.md"
@@ -292,6 +311,8 @@
                     "Line Chart" : "line-chart.md",
                     "Area Chart" : "area-chart.md",
                     "Radar Chart" : "radar-chart.md",
+                    "Series": "series.md",
+                    "Switch Chart Type": "switch-chart-type.md",
                     "Show Legend" : "legend.md",
                     "Show Marker" : "marker.md",
                     "Show Data Label": "data-label.md",
@@ -301,7 +322,8 @@
                     "Chart Types" : "types.md",
                     "Embedding Charts within a Tablix" : "nested-data-region.md",
                     "Filter Data": "add-filters-to-chart-data-region.md",
-                    "Sort Data": "sort-data-in-chart-data-region.md"
+                    "Sort Data": "sort-data-in-chart-data-region.md",
+                    "No Data Message": "no-data-message.md"
                 },
                 "Indicator": "indicator.md",
                 "Gauge": {
@@ -317,33 +339,39 @@
                 "Barcode": {
                     "Create a Product Details Report": "design-ssrs-rdl-report-using-barcode.md",
                     "Supported Barcode Types": "supported-barcode-types.md"
-                }            },
-            "Open a report": "open-report-in-web-designer.md",
-            "Save a report": "save-report-in-web-designer.md",
-            "Preview a report": "preview-report-in-web-designer.md",
+                }
+            },
+ 			"Open a report": "open-report.md",
+            "Publish a report": "publish-report.md",
+            "Preview a report": "preview-report.md",
             "Supported Items": "supported-unsupported-features.md",
             "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
             "How To": {
                 "Configure Map Shapes": "configure-map-shapes.md",
                 "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md",
-                "How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md"
+                "How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md",
+                "Resolve misused headers error":"resolve-misused-header-name-error-rest-api-data-source.md",
+                "Pass form data with post action":"pass-form-data-in-rest-api-data-source.md"
             }
         },
     "Manage Content": {
         "Reports": {
             "Create Report": "create-report.md",
             "Edit Report": "edit-report.md",
+            "Report Info": "report-info.md",
             "Upload Report": "upload-report.md",
             "Update Report": "update-report.md",
             "Favorite Reports": "favorite-report.md",
             "Move Copy and Clone Reports ": "move-copy-and-clone-reports.md",
             "Caching Report": "caching-report.md",
             "Sharing Reports": "share-report.md",
+            "Publish Reports": "publish-reports.md",
             "Public Reports": "public-report.md",
             "Delete Reports": "delete-report.md",
             "Version History": "version-history-of-report.md",
             "Download Report": "download-report.md",
-            "Manage Report Views": "manage-report-views.md"
+            "Manage Report Views": "manage-report-views.md",
+            "Export report": "export-report.md"
         },
         "DataSources": "data-sources-management.md",
         "DataSet": "dataset-management.md"

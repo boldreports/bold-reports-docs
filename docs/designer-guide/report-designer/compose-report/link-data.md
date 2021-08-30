@@ -97,3 +97,11 @@ Hyperlink is used to link to a webpages in a report. Follow the below steps to a
 2. In **URL** option, enter URL or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the URL as shown below.   ![provide-the-url](/static/assets/on-premise/images/report-designer/compose-report/link-data/enable-link-url-save.png)
 
 3. To view the link, click **Preview** and click on the report item, it will navigate to the given **URL** link.
+
+### Link a bookmark
+
+1. Select the text box, image, or chart series to which you want to link a bookmark. The respective item properties will be listed in the `Properties` pane.
+2. Under `Link` category, choose `Bookmark` option. An option to link the bookmark will be enabled.
+![Choose Bookmark](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-bookmark-option.png)
+3. In the bookmark dropdown, type or select a bookmark or set an expression that evaluates to a bookmark.
+![Choose value](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-value.png)

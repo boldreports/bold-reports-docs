@@ -1,0 +1,41 @@
+.cache/
+.vscode
+.git
+
+# dist
+public/
+
+# packages
+node_modules/
+yarn.lock
+package-lock.json
+
+# src
+src/
+
+# common
+stack.json
+.htmllintrc
+.jshintrc
+.markdownlint.json
+gatsby-config.js
+gatsby-node.js
+
+# misc
+cireports
+docs-utilities/
+temp/
+.github-js/
+.github-angular/
+pdf/
+docs-utilities/
+url-validation-error.log
+left-toc.json
+sitemap.xml
+
+# static
+static/*
+!static/assets/
+
+# startFiles
+# endFiles

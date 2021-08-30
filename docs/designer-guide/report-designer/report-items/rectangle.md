@@ -35,6 +35,12 @@ Border properties are used to add or customize the border around a rectangle ite
 
 Using the background color property you can color the rectangle background. To set background color using properties panel refer [Background color](./../../compose-report/common-properties/#background-color) section.
 
+### Background Image
+
+Background image property can be used to display company logos, watermarks, or any other background image to the rectangle. To set background image to the report refer [Background Image](./../../compose-report/background-image/) section.
+
+![Background image](/static/assets/on-premise/images/report-designer/report-items/rectangle/background-image.png)
+
 ### Page break
 
 The page break property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for rectangle item.
@@ -99,6 +105,16 @@ This property can be used to set the values for rectangle custom properties. To 
 #### Tooltip
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for rectangle report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
 
 ## Set expression
 

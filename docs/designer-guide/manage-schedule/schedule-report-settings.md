@@ -69,3 +69,11 @@ This section explain about schedule report settings to compress the exporting re
         </td>
     </tr>
 </table>
+
+## Save as file
+
+1. Click on the `Settings` option in Report Server left-side panel and navigate to `Reports` tab.
+2. Switch to `Schedule` tab as in following image
+ ![Schedule report settings tab in Report Server](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
+3. We have to save export path value for exporitng report into mentioned location. By default, the directory root path will be **C:\BoldServices\app_data\reporting\Jobs**.![Default Export path Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-export-default.png)
+4. you can edit the default directory root path value which is provided on "Export path" option and click on the `Save` button to save the changes.![Required Export path Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-export-required.png)

@@ -176,7 +176,7 @@ You can view the query in `Query Editor` pane for already created a data source 
 
 For example, I have dragged the `SalesOrderDetail` table in design view and applied filters too.
 
-Then, I tried to enable the `Code Swither` to view the query, this query shows the applied filters and whatever changes that made in the table.
+Then, I tried to enable the `Code Switcher` to view the query, this query shows the applied filters and whatever changes that made in the table.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/design-to-query.png)
 

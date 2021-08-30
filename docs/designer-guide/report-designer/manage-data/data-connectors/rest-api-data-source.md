@@ -223,9 +223,18 @@ The above action will post the information into specified REST API URL and take 
 **Syntax 1** :
    When passing data as JSON object, it should be enclosed with in double quotes, the key/value strings should be enclosed within single quotes. Otherwise it can follow any syntax which supports the Client-Server transaction.
 
+   ```json
+
+   = "{'ItemType':'Dataset','ReportReferences':['3fe0ea1c-b6a1-4b20-95dd-158edd24ae4b']}"
+   ```
+
    ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/raw-syntax-1.png)
 
 **Syntax 2** :  To use the Parameters, Data fields, or Variables along with Json object, follow the below syntax.
+
+   ```json
+   ="{'ItemType':'Dataset','ReportReferences':['" & Parameters!ReportParameter1.Value & "']}"
+   ```
 
    ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/syntax-raw-2.png)
 

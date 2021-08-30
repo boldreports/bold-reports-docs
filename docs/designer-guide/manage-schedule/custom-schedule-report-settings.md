@@ -27,4 +27,5 @@ By selecting the variable the scheduled user variable is assigned directly from 
 * {Report Name}: Scheduled report name
 * {Report Link}: Link to the scheduled report
 * {Export Format}: Export file format which is chosen the schedule
+* {Date}: Date represents when the schedule triggered
 * {Organization Name}: [Organization name](./../../../administrator-guide/custom-rebranding/#organization-name) is retrieved from the site setting

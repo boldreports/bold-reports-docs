@@ -147,9 +147,17 @@ Position property is used to set the width, height, left and top position of the
 
 Visibility property is used to conditionally show or hide the barcode report item on report preview or export action. To set visibility of barcode item using properties panel refer [Visibility](./../../compose-report/common-properties/#visibility) section.
 
-### Tooltip
+### Miscellaneous
+
+#### Tooltip
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for barcode item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
+
+You can set the static or dynamic text as value for bookmark property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 ## Set expression
 

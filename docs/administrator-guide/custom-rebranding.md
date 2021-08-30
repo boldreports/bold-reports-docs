@@ -18,7 +18,7 @@ Organization name is the name displayed on the title bar of the browser. To modi
 
 ## Site URL
 
-Modify the `Site URL` field to change the Report Server URL in the Server Settings page and to get this change reflected, you should configure the same in the IIS. Refer to this [link](./../installation-and-deployment/#how-to-change-the-binding-in-the-bold-reports-enterprise-reporting) to add binding in IIS and change site URL.
+Modify the `Site URL` field to change the Report Server URL in the Server Settings page and to get this change reflected, you should configure the same in the IIS. Refer to this [link](./../installation/windows-installer/#how-to-change-the-binding-in-the-bold-reports-enterprise-reporting) to add binding in IIS and change site URL.
 
 ## Login screen
 

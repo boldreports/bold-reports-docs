@@ -12,84 +12,77 @@ Data label can be added to a chart series by using the `Show Data Label` propert
 
 To show/hide data label in the chart series, toggle the `Show Data Label` checkbox in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/show-data-label-checkbox.png)
+![Show data label](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/show-data-label-checkbox.png)
 
 If you enable the `Show Data Label` checkbox, the label will displayed in the respective series of chart. In the `Choose Series` drop-down `Sales1` series is selected, so the data label is enabled for that specific series in the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/data-label-indication.png)
+![Data label design](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/data-label-indication.png)
 
 You can also enable or disable the data label based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
-## Format data label
-
-You can customize the data label appearance through the properties provided in the `Advanced` menu of show data label property. Click on the square icon in the right side of the `Show Data Label` checkbox and click on `Advanced` option in the menu.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/show-data-label-advanced-menu.png)
-
-Now, the data label properties will be displayed in the `Advanced Options` category.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/advanced-properties.png)
-
-### Show border
+## Show border
 
 Show border property can be used to set border for data labels in the chart. To enable data label border, toggle the `Show Border` checkbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/enable-data-label-border.png)
+![Label border](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/enable-data-label-border.png)
 
 Now, default border will be enabled to the data label.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/enable-border-design-view.png)
+![Enable border design](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/enable-border-design-view.png)
 
-Also, set of border properties will get enabled in the  `Advanced Options` category.
+Also, set of border properties will get enabled in the properties list.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/data-label-border.png)
+![Label border properties](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/data-label-border.png)
 
 Using the border color and width property, you can customize the border for the data label. You can also set border properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/expression-menu.png)
 
-### Background color
+![Border expression menu](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/expression-menu.png)
+
+## Background color
 
 Background color property can be used to set the background color for the data label.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/background-color.png)
+![Baclground color](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/background-color.png)
 
 Now, the background color property will be applied to the data label.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/set-background-property.png)
+![Choose background color](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/set-background-property.png)
 
 You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
-### Font
+## Font
 
 The font family, font size, and font color properties can be used to customize the labels.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-property.png)
+![Font properties](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-property.png)
 
 You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-property-expression.png)
 
-### Font Style and Weight
+![Font expression menu](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-property-expression.png)
+
+## Font Style and Weight
 
 The font style and weight properties can be used to set the style and weight for the legend text.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-style.png)
+![Font style](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-style.png)
 
 You can also apply font style and weight properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-style-expression.png)
 
-### Position
+![Font style expression menu](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-style-expression.png)
+
+## Position
 
 You can position the label to the top, center or bottom position of the segment by using the `Position` property for the chart types such as column, bar, stacked bar, stacked column, 100% stacked bar and 100% stacked column.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/position-property.png)
+![Label position](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/position-property.png)
 
 Now, the data labels will be center positioned in the chart series.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/position-design-colum.png)
+![Label position design](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/position-design-colum.png)
 
 The label can be positioned inside or outside the perimeter of the series by using the label position option for the chart types such as Pie, Doughnut, Pyramid and Funnel. You can use the `CustomAttributes` property in the chart report item, to position the label for Pie, Doughnut, Pyramid and Funnel chart types,
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/custom-attributes.png)
+![Custom Attributes](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/custom-attributes.png)
 
 For Pie and Doughnut chart,
 
@@ -105,32 +98,32 @@ For Pyramid and Funnel Chart,
 | Outside                |PyramidLabelStyle=Outside|
 | Inside               |PyramidLabelStyle=Inside|
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/set-userdefined-text.png)
+![User defined attribute](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/set-userdefined-text.png)
 
 You can also set position property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
-### Label Rotation
+## Label Rotation
 
 Labels can be rotated by using the `Lable Rotation` property.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/lable-rotation.png)
+![Label rotation](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/lable-rotation.png)
 
 Increase or decrease the value in the `Label Rotation` property field to set the rotation angle for the data label.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/lable-rotation-design.png)
+![Label rotation design](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/lable-rotation-design.png)
 
 You can also set label rotation property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
-### Format
+## Format
 
 Format property is used format data label values. To open the format dialog click on the icon highlighted in the below snap or you can type the format directly in the textbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/format-property.png)
+![Label format](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/format-property.png)
 
 To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** or **Custom** formats using format dialog follow the steps provided in [Format](./../../../compose-report/format-data/#format) section.
 You can also set format property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
-### Label
+## Label
 
 You can use case-sensitive, chart-specific keywords to represent an item that exists in the chart. The following is a list of chart keywords.
 
@@ -150,17 +143,17 @@ These keywords are listed in the `Label` property drop-down,
 |#PERCENT |Percentage of the data point Y value.|
 |#TOTAL |Total of all Y values in the series.|
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/chart-keywords-list.png)
+![Label Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/chart-keywords-list.png)
 
 For example, if you want to show the values in the data labels as percentages, you can use choose a keyword `#PERCENT` in the drop-down.
 
 You can also set label property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.> If `Use Value as Label` checkbox is enabled, `Label` property will have no effect in the data label.
 
-### Use Value as Label
+## Use Value as Label
 
 Toggle this checkbox to display actual values of series in the data label on report preview.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/use-value-as-label.png)
+![Use value as label](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/use-value-as-label.png)
 
 > If this checkbox is enabled, `Label` property will have no effect in the data label.
 

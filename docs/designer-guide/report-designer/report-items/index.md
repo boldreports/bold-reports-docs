@@ -32,6 +32,10 @@ Bold Report Designer offers rich set of report items to present the data in comp
 
 [Tablix](./../report-items/tablix/)
 
+[List](./../report-items/list/)
+
+[Matrix](./../report-items/matrix/)
+
 [Chart](./../report-items/chart/)
 
 [Map](./../report-items/map/)

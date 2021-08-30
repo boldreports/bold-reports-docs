@@ -107,16 +107,26 @@ Once you are done with the report designing, click on the `Publish` option.
 2. Now, the report preview can be visualized like below.
 ![Chart report preview](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-preview-page.png)
 
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/manage-content/test.rdl).
+
 ## See also
 
 [Design a Basic Table Report](./../../../report-designer/design-rdl-report-in-web-report-designer/)
+
 [Create an Embedded DataSource](./../../../report-designer/manage-data/datasource/create-an-embedded-data-source/)
+
 [Create an Embedded DataSet](./../../../report-designer/manage-data/dataset/create-an-embedded-dataset/)
+
 [Link a Shared DataSource into a Report](./../../../report-designer/manage-data/datasource/link-a-shared-data-source/)
+
 [Link a Shared DataSet into a Report](./../../../report-designer/manage-data/dataset/link-a-shared-dataset/)
+
 [Create a Duplicate Copy of DataSource in a Report](./../../../report-designer/manage-data/datasource/duplicate-a-data-source/)
+
 [Create a Duplicate Copy of DataSet in a Report](./../../../report-designer/manage-data/dataset/duplicate-a-dataset/)
+
 [Add a Report Parameter to a Report](./../../../report-designer/report-parameters/add/)
+
 [Embed an Image in a Report](./../../../report-designer/image-manager/add-image/)
 
 ## REST API Reference

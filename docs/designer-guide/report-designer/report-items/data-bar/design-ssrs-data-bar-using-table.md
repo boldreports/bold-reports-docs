@@ -64,11 +64,13 @@ Now, the report design will look like below.
 1. Now, switch to the `PROPERTIES` tab in the properties panel.
 2. Choose the `Sales` series in the  `Choose Series` dropdown.
 ![Choose series in chart](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/choose-series.png)
-3. Enable  [Data Label](./../../../report-items/chart/data-label/) property checkbox.
+3. Click on the edit icon to open series properties.
+![Series properties](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/edit-icon.png)
+4. Under data label settings category, enable  [Data Label](./../../../report-items/chart/data-label/) property checkbox.
 ![Chart data label](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/enable-data-label.png)
-4. Format the numbers produced by the `Data labels`, using `Format` property. Under the `Advanced Options`, set the `'$'#,0;('$'#,0)` as value format property field.
+5. Format the numbers produced by the `Data labels`, using `Format` property. Set the `'$'#,0;('$'#,0)` as value in format property field.
 ![Format datalabel value](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-values.png)
-5. In the below design background color and font styles are changed in table cells to improvise the report design.
+6. In the below design background color and font styles are changed in table cells to improvise the report design.
 ![Format table design](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-report.png)
     > Refer the [Cell Properties](./../../../report-items/tablix/cell-properties/#cell-properties) to style the table cell.
 

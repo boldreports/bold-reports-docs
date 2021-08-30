@@ -24,8 +24,11 @@ By default, a table, matrix, or list, report items created with `Details` group 
 ## Group types
 
 * **Row groups and column groups** - The data can be organized into groups by rows or columns. On report preview, the row groups expand vertically on a page and the column groups expand horizontally on a page. You can create a nested group or adjacent groups in the data regions. When you create a group for a data region, set of rows or columns will be added to the data region and these rows or columns are used to display group data. Refer [Row Groups](./../../../report-items/tablix/insert-or-delete-a-row-group-ssrs/) and [Column groups](./../../../report-items/tablix/insert-or-delete-a-column-group-ssrs/) section to create groups in tablix data region.
+
 * **Details Group** - The Details group displays all data from the dataset after applying the dataset and data region filters. The `Details` group is the only group that has no group expression. By default, a table or list report item is created with the Details group and adds a row to display the detail data. On report preview, the details row repeats once for every value in the data which is applied to the respective data region. Refer [Create Details Group](./../../../report-items/tablix/add-or-delete-a-details-group-ssrs/) section to create details group in tablix data region.
-   > A details group is added as a child group in the Grouping panel, you cannot add child group to the details group further.## Edit group properties
+   > A details group is added as a child group in the Grouping panel, you cannot add child group to the details group further.
+
+## Edit group properties
 
 After creating groups, the group properties such as [filters](./../../../compose-report/filter-data/), [sort](./../../../compose-report/sort-data/), and [groups expressions](./../../../compose-report/group-data/) can be modified to organize the data visualization of the respective group in data region. To edit an existing group, select the respective member in the Row or Column Groups pane of the grouping panel. Now, the respective member properties will be listed in the properties panel.![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png)
 

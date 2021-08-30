@@ -84,6 +84,14 @@ Using the background color property you can color the list background. To set ba
 
 Position property is used to set the width, height, left and top position of the list in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.
 
+### No Rows
+
+No Rows property is used to display static text when dataset results with a empty or zero rows at run time.
+
+![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/no-rows.png)
+
+To set/reset no data message properties, refer [No Rows](../tablix/no-rows-message/) property section.
+
 ### Data Element
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
@@ -120,6 +128,18 @@ The page name property is used to name the first worksheet of the Excel workbook
 ![Page name property](/static/assets/on-premise/images/report-designer/report-items/list/page-name.png)
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
+
+You can set the static or dynamic text as value for bookmark property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 #### Custom attributes
 
