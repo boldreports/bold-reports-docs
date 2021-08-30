@@ -23,6 +23,6 @@ Bold Report Server can be upgraded to version 2.x at any time manually, and ther
 
 * Once done, uninstall the current Bold Report Server.
 
-* Install the latest Bold Report Server by following this [link](./../../../../installation-and-deployment/) and configure the application using SQL Database by following this [link](./../../../../application-startup/).
+* Install the latest Bold Report Server by following this [link](./../../../../installation/) and configure the application using SQL Database by following this [link](./../../../../application-startup/).
 
 * Once configuration is done, you can migrate your old data to this application by following the [document](./../data-migration/).

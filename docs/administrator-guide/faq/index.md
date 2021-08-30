@@ -29,3 +29,5 @@ This section helps to get the answer for the frequently asked questions in `Bold
 * [Where does the data resides in Bold Reports?](./../faq/where-does-the-data-resides-in-bold-reports/)
 
 * [Does Report Server store reports execution data to the server database?](./../faq/does-report-server-store-reports-execution-data-to-server-database/)
+
+* [How to install PhantomJS manually?](./how-to-install-phantomjs-manually/)

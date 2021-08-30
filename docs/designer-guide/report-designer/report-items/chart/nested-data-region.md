@@ -28,6 +28,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ## Add matrix to the report
 
 The matrix report item is listed in the item panel under the `Data Regions` category.
+
 ![Matrix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/item-panel-view.png)
 
 Drag and drop the matrix report item into the design area from the item panel. The properties of matrix report item will be listed in properties panel. By default, it will be named as `Tablix1`.
@@ -94,10 +95,6 @@ In the below design background color and font styles are changed in matrix cells
 
 Select the chart in the table cell. Now, the chart properties will be listed in the properties panel.
 
-Enable the chart data label checkbox,
-
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/enable-data-label.png)
-
 Disable the show legend checkbox,
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/show-legend.png)
@@ -106,12 +103,23 @@ Disable the chart title property,
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/chart-title.png)
 
+Edit the `Sales` series properties.
+
+![Edit series properties](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/edit-series.png)
+
+Under `Data Label Settings`, enable the chart data label checkbox.
+
+![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/enable-data-label.png)
+
 Now, set the data label text value as `#AXISLABEL` in the `Label` property.
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/data-label-value.png)
 
 Refer [Show Data Label](./../../../report-items/chart/data-label/) section to customize data label in chart.
-To set label position for pie chart, set `PieLabelStyle=Outside` as value in `UserDefined` property.
+
+To set label position for pie chart, set `PieLabelStyle=Outside` custom attributes property.
+
+![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/custom-attributes.png)
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/set-label-position.png)
 

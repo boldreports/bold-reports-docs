@@ -9,17 +9,41 @@ In on-premise server, we can configure the custom shape data to visualize it on 
 
 ## Place custom shape data file in installed location
 
-In on-premise application, build-in shape data files are located at `{Installed_location}\Bold Reports\Report Server\ReportService\bin\ShapeData`.
+In on-premise application, build-in shape data files are located at,
+
+<span style="font-weight:bold">Version below 3.1</span>
+
+`{Installed_location}\Bold Reports\Report Server\ReportService\bin\ShapeData`.
+
 ![Shape data installed location](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/installed-location.png)
 
+<span style="font-weight:bold">Version above 3.1</span>
+
+`{Installed_location}\BoldServices\reporting\reportservice\ShapeData`.
+
+![Shape data installed location](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/version-installed-location.png)
+
 Copy your shape data file and paste at this location. For example, **storelocations.js**
+
+<span style="font-weight:bold">Version below 3.1</span>
+
 ![Shape data installed location](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/add-new-file.png)
+
+<span style="font-weight:bold">Version above 3.1</span>
+
+![Shape data installed location](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/version-add-new-file.png)
 
 ## Add file entry
 
 Once you paste the file in mentioned location, open mapshapes.txt file which is available in same location.
 
+<span style="font-weight:bold">Version below 3.1</span>
+
 ![Shape data installed location](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/map-shapes-file.png)
+
+<span style="font-weight:bold">Version above 3.1</span>
+
+![Shape data installed location](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/version-map-shapes-file.png)
 
 Add the entry of your file name and display name as shown below and save the file,
 

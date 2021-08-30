@@ -95,6 +95,18 @@ The font family, font size, and font color properties can be used to customize t
 
 You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-font-design.png)
 
+## Interval
+
+Interval and interval type property can be used to to set the interval for category and value axes. The interval property allows you to define the number of intervals you want in the category (x) and value (y) axes and it provides the consistent measurement of the data points in the chart report.
+
+![Interval](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/interval.png)
+
+## Labels AutoFit Disabled
+
+By default, the Interval Auto setting for the chart axis can cause the labels of X/Y axis to show only every second interval. This property can be used to avoid skipping labels at runtime. Enable or disable this property based on the label rendering behaviour of chart design.
+
+![Interval](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-autofit.png)
+
 ## Tick
 
 Tick properties can used to set style, width, color, and length of the axis tick, and to set the visibility of the major and minor tick marks.

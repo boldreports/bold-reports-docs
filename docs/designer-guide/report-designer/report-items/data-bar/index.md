@@ -72,75 +72,23 @@ To configure data into data bar follow the below steps:
 
 Refer to the [Properties panel](./../../compose-report/properties-panel/) section before proceeding with the following properties.
 
-### General Settings
-
-![Name property](/static/assets/on-premise/images/report-designer/report-items/data-bar/name-property.png)
-
-<span style="font-weight:bold">Name</span>
+### Name
 
 Name property can be used to provide an unique name to the data bar item in the report.
+
+![Name property](/static/assets/on-premise/images/report-designer/report-items/data-bar/name-property.png)
 
 ### Basic Settings
 
 ![Chart Basic settings](/static/assets/on-premise/images/report-designer/report-items/data-bar/basic-settings.png)
 
-> Note: The properties under basic setting will be enabled in the chart properties panel, after assigning the data to the chart.
-
-<span style="font-weight:bold">Chart Type</span>
-
-Supported data bar types will be listed in the `Chart Type` property dropdown, you can switch the required data bar type based on the data.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/data-bar/chart-type.png)
-
-<span style="font-weight:bold">Choose Series</span>
+### Choose Series
 
 You can add multiple series to the chart and the available series will be listed in the `Choose Series` drop-down. To customize the series appearance choose the required series name in the drop-down.
 
 ![Choose series](/static/assets/on-premise/images/report-designer/report-items/data-bar/single-series-list-in-drop-down.png)
 
-<span style="font-weight:bold">Show Marker</span>
-
-Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](./../../report-items/chart/marker/) property.> The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-<span style="font-weight:bold">Show Data Label</span>
-
-Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](./../../report-items/chart/data-label/) property.![Chart data label](/static/assets/on-premise/images/report-designer/report-items/data-bar/data-label-design.png)
-
-> The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-<span style="font-weight:bold">Enable Smart Label</span>
-
-Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset smart label properties, refer [Enable Smart Label](./../../report-items/chart/smart-label/) property.![Chart smart label](/static/assets/on-premise/images/report-designer/report-items/data-bar/enable-smart-label.png)
-
-> To apply smart label properties, enable `Data Label` for chart data region.
-
-<span style="font-weight:bold">Series Border</span>
-
-Series border properties can be used to customize the chart series border in the design.
-
-![Format chart series border](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/series-border.png)
-
-In the below design, border color, width and style properties are applied to the chart series.
-
-![Chart series border design](/static/assets/on-premise/images/report-designer/report-items/data-bar/border-design.png)
-
-> The series border properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.![Dynamic chart series border](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
-
-<span style="font-weight:bold">Series Color</span>
-
-Series Color property can be used to customize the series colors in the chart area. If the chart has multiple series, you can differentiate the series using this property.
-
-Choose series in the `Choose Series` drop-down and choose color in `Series Color` property palette. Now, the selected color will be applied to the respective series in the chart design.
-
-![Chart series color](/static/assets/on-premise/images/report-designer/report-items/data-bar/series-color.png)
-
-You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-
-<span style="font-weight:bold">Link To</span>
-
-You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../compose-report/link-data/) section to set or reset link property for chart series.![Link To property](/static/assets/on-premise/images/report-designer/report-items/data-bar/link-to-property.png)
+Refer [Series](../chart/series/) section, to customize each series using the properties panel.
 
 ### Appearance
 
@@ -153,6 +101,14 @@ The border style, color, width and background color properties can be used to st
 Chart Area properties such as border width, color, and background color can be used to customize the area of the chart design. These properties are listed under `Chart Area` category.
 
 ![Chart Area](/static/assets/on-premise/images/report-designer/report-items/chart/chart-area.png)
+
+### No Data
+
+No Data property is used to display static text when dataset results with a empty or zero rows at run time.
+
+![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/no-data.png)
+
+To set/reset no data message properties, refer [No Data Message](../chart/no-data-message/) property section.
 
 ### Page break
 
@@ -173,7 +129,7 @@ Data element can be used to control visibility of a report item when exporting t
 
 ![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
 
-<span style="font-weight:bold">Name</span>
+#### Name
 
 You can assign a custom name for the databar element using the `Name` field. The databar will be exported with the provided name.
 
@@ -181,7 +137,7 @@ You can assign a custom name for the databar element using the `Name` field. The
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
-<span style="font-weight:bold">Output</span>
+#### Output
 
 On exporting the report, the visibility of the databar can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
 
@@ -203,6 +159,18 @@ The page name property is used to name the first worksheet of the Excel workbook
 ![Page name property](/static/assets/on-premise/images/report-designer/report-items/data-bar/page-name.png)
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
+
+You can set the static or dynamic text as value for bookmark property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 #### Custom attributes
 

@@ -12,6 +12,10 @@
     "application/json"
   ],
   "tags": [ 
+    {
+      "name": "Groups",
+      "description": "To retrieve a list of groups, or retrieve, create a particular group in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
+    },
   	{
       "name": "Items",
       "description": "To retrieve a list of items, or retrieve, create, modify, and delete a particular item in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
@@ -75,6 +79,60 @@
           "417": {
             "description": "Failed to copy report"
           }         
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v2.0/groups/{name}/users": {
+      "post": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Add user(s) to the particular group",
+        "description": "With this endpoint, administrators can add a list of users to a particular group by providing the group name in the path parameter and the user email(s) in the request body.",
+        "operationId": "Groups_AddUserToGroup",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "description": "Group name",
+            "x-nullable": false
+          },
+          {
+            "name": "apiGroupUsers",
+            "in": "body",
+            "required": true,
+            "description": "User(s) added from the group",
+            "schema": {
+              "$ref": "#/definitions/ApiGroupUsers"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "User(s) are added successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "Group detail is not found"
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "405": {
+            "description": "Request type was not POST"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "417": {
+            "description": "Failed to add user to the group"
+          }
         }
       }
     }
@@ -146,6 +204,41 @@
           "description": "Returns the status message from the API."
         }     
       }
+    },
+    "ApiGroupUsers": {
+      "type": "object",
+      "description": "User(s) added from the group",
+      "properties": {
+        "UserEmail": {
+          "type": "array",
+          "description": "List of user email(s)",
+          "items": {
+            "type": "string",
+            "required":"true"
+          }
+        }
+      }
+    },
+    "ApiResponse": {
+      "type": "object",
+      "required": [
+        "ApiStatus",
+        "Status"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API"
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request"
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API"
+        }
+      } 
     }
   },   
   "parameters": {},

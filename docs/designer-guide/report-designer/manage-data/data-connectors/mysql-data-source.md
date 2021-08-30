@@ -54,6 +54,6 @@ Enable the **Save Password** option to embed the credentials within the report w
 
 **Prompt** - When you configure a data source connection to use prompted credentials, each user who access the report must enter a user name and password on preview action to retrieve the data.
 
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/prompt.png)
+![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/prompt.png)
 
 **None** - Choose the authentication type as `None`, when the authentication details or any other arguments required to connect with the data source are provided in connection string.

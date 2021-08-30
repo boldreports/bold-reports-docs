@@ -8,7 +8,7 @@ documentation: ug
 
 # Report Server report using the Bold Reporting Tools Report Viewer
 
-Bold Report Server provides build-in Restful API to embed Report Server reports using the Bold Reporting Tools Report Viewer. For this, set the `serviceAuthorizationToken`,`reportServiceUrl`, and `reportPath` property for Report Viewer.
+Bold Report Server provides build-in Restful API to embed Report Server reports using the Bold Reporting Tools Report Viewer. For this, set the `serviceAuthorizationToken`,`reportServiceUrl` and `reportPath` property for Report Viewer.
 
    `serviceAuthorizationToken` - Pass the access token of the user. Get access token using the Bold Reports Server  <a href="../../../rest-api-reference/v1.0/#operation/Authentication" target="_blank">Authentication API</a>.
 
@@ -30,7 +30,7 @@ You can get more details of embedding with Bold Reporting Tools respective platf
 
   [Javascript](https://help.boldreports.com/javascript/report-viewer/reportserver-report/)
 
-  [React](https://help.boldreports.com/react/report-viewer/reportserver-report/)
+  [React](https://help.boldreports.com/embedded-reporting/react-reporting/report-viewer/reportserver-report/)
 
   [UWP](https://help.boldreports.com/uwp/report-viewer/reportserver-report/)
 

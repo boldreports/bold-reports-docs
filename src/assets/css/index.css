@@ -490,6 +490,13 @@ div#toc .e-toc-active.e-acrdn-item .e-acrdn-header:hover {
 #md-cnt .doc-tab {
   margin: 14px 0px 0px;
 }
+#timeToRead{
+  padding-top: 16px;
+  padding-bottom: 6px;
+  color: #707070;
+  font-size: 14px;
+  font-family: Helvetica;
+}
 
 #doc-bread-crumb {
   position: absolute;

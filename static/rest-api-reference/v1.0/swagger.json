@@ -1,0 +1,4474 @@
+﻿{
+  "swagger": "1.0",
+  "info": {
+    "title": "API Reference",
+    "version": "1.0",
+    "description": "# Introduction\n You can manage users,groups,items and permissions in the Bold Reports On-Premise using the REST API."
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "tags": [
+    {
+      "name": "Authentication",
+      "description": "When you sign in to the Bold Reports On-Premise, an authentication token is provided that should be attached in the request header(Authorization) for all subsequent API calls to authenticate the requests.\n"
+    },
+    {
+      "name": "Users",
+      "description": "To retrieve a list of users, or retrieve, create  a particular user in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
+    },
+    {
+      "name": "Groups",
+      "description": "To retrieve a list of groups, or retrieve, create a particular group in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
+    },
+	{
+      "name": "Items",
+      "description": "To retrieve a list of items, or retrieve, create, modify, and delete a particular item in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
+    },
+    {
+      "name": "Permission",
+      "description": "To retrieve a list of permissions, or retrieve, create and delete a particular permission in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
+    }
+	],
+  "paths": {
+    "/api/site/{tenant-name}/token": {
+      "post": {
+        "tags": [
+          "Authentication"
+        ],
+        "summary": "Authenticate User",
+        "operationId": "Authentication",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "username",
+            "in": "formData",
+            "required": true,
+            "x-nullable": false,
+            "description": "Email ID of the user."
+          },
+          {
+            "type": "string",
+            "name": "password",
+            "in": "formData",
+            "required": true,
+            "x-nullable": false,
+            "description": "Password of the user."
+          },
+          {
+            "type": "string",
+            "name": "grant_type",
+            "in": "formData",
+            "required": true,
+            "x-nullable": false,
+            "description": "The type of credentials used to authorize the request for an access token. Valid values: `\"password\"`"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "User logged in successfully",
+            "schema": {
+              "$ref": "#/definitions/Response"
+            },
+            "x-nullable": true
+          },
+          "400": {
+            "description": "Email ID is empty"
+          },
+          "404": {
+            "description": "User details are not found"
+          },
+          "401": {
+            "description": "Invalid username or password"
+          },
+          "405": {
+            "description": "Request type was not POST"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/groups": {
+      "post": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Adds a group to the server",
+        "description": "With this endpoint, administrators can add a group to the server by providing the group details in the request body.",
+        "operationId": "Groups_AddGroup",
+        "parameters": [
+          {
+            "name": "groupDetail",
+            "in": "body",
+            "required": true,
+            "description": "Detail of the group.",
+            "schema": {
+              "$ref": "#/definitions/ApiGroupAdd"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Group was created successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "409": {
+            "description": "Group name already exists"
+          },
+          "405": {
+            "description": "Request type was not POST"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "417": {
+            "description": "Failed to add group"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Returns the list of groups on the server",
+        "description": "With this endpoint, users can get the list of group information from the server.",
+        "operationId": "Groups_GetGroupsV2",
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of groups was retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiGroupListV2"
+            }
+          },
+          "404": {
+            "description": "Group list is empty"
+          },
+          "405": {
+            "description": "Request type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/groups/{id}": {
+      "delete": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Deletes the specified group on the server",
+        "description": "With this endpoint administrator can delete the specific group on the server by providing group id in the id parameter.",
+        "operationId": "Groups_DeleteGroup",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID of the group.",
+            "format": "int32",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Group was deleted",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "406": {
+            "description": "Invalid group ID"
+          },
+          "404": {
+            "description": "Group detail not found"
+          },
+          "405": {
+            "description": "Request type was not DELETE"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "417": {
+            "description": "Failed to delete the group"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Modifies information about a specified group",
+        "description": "With this endpoint, administrators can modify a group to the server by providing the group details in the request body.",
+        "operationId": "Groups_EditGroup",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID of the group.",
+            "format": "int32",
+            "x-nullable": false
+          },
+          {
+            "name": "groupDetail",
+            "in": "body",
+            "required": true,
+            "description": "Detail of the group.",
+            "schema": {
+              "$ref": "#/definitions/ApiGroupEdit"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Group was modified successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Group detail not found"
+          },
+          "409": {
+            "description": "Group name already exists"
+          },
+          "405": {
+            "description": "Request type was not PUT"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "417": {
+            "description": "Failed to update group"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Returns group details on the server for a specified group.",
+        "description": "With this endpoint, administrators can get the group information from the server by providing the Group ID in the path parameter.",
+        "operationId": "Groups_GetGroupDetail",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID of the group.",
+            "format": "int32",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Group detail was retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiGroup"
+            }
+          },
+          "404": {
+            "description": "Group detail not found"
+          },
+          "405": {
+            "description": "Request type was not GET"
+          },
+          "417": {
+            "description": "Failed to get group detail"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/groups/{id}/users": {
+      "get": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Returns a list of users on the server for the specified group",
+        "description": "With this endpoint, users can get the list of user information for the specified groups from the server by providing the group ID in the path parameter.",
+        "operationId": "Groups_GetUsesFromGroup",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID of the group.",
+            "format": "int32",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of users was retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiUserList"
+            }
+          },
+          "204": {
+            "description": "User list is empty"
+          },
+          "406": {
+            "description": "Invalid Group ID"
+          },
+          "405": {
+            "description": "Request type was not GET"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "417": {
+            "description": "Failed to check the group status"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Add user(s) to the particular group",
+        "description": "With this endpoint, administrators can add a list of users to a particular group by providing the group ID in the path parameter and the user IDs in the request body.",
+        "operationId": "Groups_AddUserToGroup",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Group ID",
+            "format": "int32",
+            "x-nullable": false
+          },
+          {
+            "name": "apiGroupUsers",
+            "in": "body",
+            "required": true,
+            "description": "User(s) added/removed from the group",
+            "schema": {
+              "$ref": "#/definitions/ApiGroupUsers"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "User(s) are added successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "Group detail is not found"
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "405": {
+            "description": "Request type was not POST"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "417": {
+            "description": "Failed to add user to the group"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Delete user(s) from the particular group",
+        "description": "With this endpoint, administrators can delete a list of users from the particular group by providing the group ID in the path parameter and the user IDs in the request body.",
+        "operationId": "Groups_DeleteUserFromGroup",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Group ID",
+            "format": "int32",
+            "x-nullable": false
+          },
+          {
+            "name": "apiGroupUsers",
+            "in": "body",
+            "required": true,
+            "description": "User(s) added/removed from the group",
+            "schema": {
+              "$ref": "#/definitions/ApiGroupUsers"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "User(s) deleted",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "404": {
+            "description": "Group detail is not found"
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "405": {
+            "description": "Request type was not DELETE"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "417": {
+            "description": "Failed to delete the user from the group"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/items/{id}": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Returns item details from the server for a specified item",
+        "description": "Server retrieves the respective item details for the values (CategoryId, DashboardId, DatasourceId, WidgetId, ScheduleId) provided in id parameter for the current user.",
+        "operationId": "Items_GetItemDetail",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Item ID. Valid values: `\"CategoryId\"` `\"ReportId\"` `\"DatasourceId\"` `\"DatasetId\"` `\"ScheduleId\"`",
+            "format": "guid",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Item detail was retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiSpecifiedItemDetail"
+            }
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          },
+          "401": {
+            "description": "Access Denied"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Deletes the specified items on the server",
+        "description": "Users who have a delete access for item (Category, Dashboard, Datasource, Widget, Schedule), can delete the item on the server by providing (CategoryId, DashboardId, DatasourceId, WidgetId, ScheduleId) in id parameter.",
+        "operationId": "Items_DeleteItem",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Item ID. Valid values: `\"CategoryId\"` `\"ReportId\"` `\"DatasourceId\"` `\"DatasetId\"` `\"ScheduleId\"`",
+            "format": "guid",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "204": {
+            "x-nullable": false,
+            "description": "Item deleted",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "Item ID is empty"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "417": {
+            "description": "Failed to delete item"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request type was not DELETE"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/categories": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Add a new category to the server",
+        "description": "Users who have a create access for categories, can add a new category to the server by providing respective category details in the request body.",
+        "operationId": "Items_AddCategory",
+        "parameters": [
+          {
+            "name": "apiCategoryAdd",
+            "in": "body",
+            "required": true,
+            "description": "Details about the category passed will be added to the server.",
+            "schema": {
+              "$ref": "#/definitions/ApiCategoryAdd"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Category was created successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to add category"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          },
+          "401": {
+            "description": "Access Denied"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Update category to the server",
+        "description": "Users who have a write access for categories, can update an existing category on the server by providing respective category details in the request body.",
+        "operationId": "Items_UpdateCategory",
+        "parameters": [
+          {
+            "name": "apiCategoryUpdate",
+            "in": "body",
+            "required": true,
+            "description": "Details about the category passed will be updated to the specified category id.",
+            "schema": {
+              "$ref": "#/definitions/ApiCategoryUpdate"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Category was modified successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to update category"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not PUT"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/items/is-name-exists": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Checks whether the item name already exists in the server",
+        "description": "Current user can check whether the item (category, report, data source, dataset, schedule) is already exists or not on the server by providing item name (category name, report name, data source name, dataset name, schedule name) and item type (category, report, datasource, dataset, schedule) in the request body.",
+        "operationId": "Items_IsItemNameExists",
+        "parameters": [
+          {
+            "name": "apiValidateItemName",
+            "in": "body",
+            "required": true,
+            "description": "Details about the item passed will be checked on the server.",
+            "schema": {
+              "$ref": "#/definitions/ApiValidateItemName"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Returns an item existence",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "417": {
+            "description": "Failed to validate item name"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Add report",
+        "description": "Users who have create access for reports can add a new report to the server by providing report details in the request body. In the request body, for DataSourceMappingInfo and DataSetMappingInfo we can pass Datasource Name and Dataset Name from the server and providing either the item content or by passing the RDL report file server path, respectively.",
+        "operationId": "Items_AddReport",
+        "parameters": [
+          {
+            "name": "apiReportAddV5",
+            "in": "body",
+            "required": true,
+            "description": "Report details",
+            "schema": {
+              "$ref": "#/definitions/ApiReportAddV5"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Report was created successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiItemResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to add report"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "403": {
+            "description": "Refusing to fulfill the request"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Update report",
+        "description": "Users who have write access for reports can update an existing report on the server by providing report details in the request body. In the request body, for DataSourceMappingInfo and DataSetMappingInfo, we can pass Datasource Name and Dataset Name from the server, respectively.",
+        "operationId": "Items_UpdateReport",
+        "parameters": [
+          {
+            "name": "apiReportUpdateV5",
+            "in": "body",
+            "required": true,
+            "description": "Report details",
+            "schema": {
+              "$ref": "#/definitions/ApiReportUpdateV5"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Report was modified successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "403": {
+            "description": "Refusing to fulfill the request"
+          },
+          "417": {
+            "description": "Failed to update report"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not PUT"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports/data-sources": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Add a new datasource to the server.",
+        "description": "Users who have a create access for datasources, can add a new datasource to the server by providing respective datasource details in the request body.In the request body, we can also pass Datasource Name from the server.",
+        "operationId": "Items_AddDataSource",
+        "parameters": [
+          {
+            "name": "apiReportDataSourceAdd",
+            "in": "body",
+            "required": true,
+            "description": "Datasource details",
+            "schema": {
+              "$ref": "#/definitions/ApiReportDataSourceAdd"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "DataSource was created successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiItemResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to add datasource"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Update datasource",
+        "description": "Users who have write access for the DataSource can update an existing DataSource on the server by providing respective DataSource details in the request body. In the request body, we can also pass Datasource Name from the server.",
+        "operationId": "Items_UpdateDataSource",
+        "parameters": [
+          {
+            "name": "apiReportDataSourceUpdateV5",
+            "in": "body",
+            "required": true,
+            "description": "Datasource details",
+            "schema": {
+              "$ref": "#/definitions/ApiReportDataSourceUpdateV5"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Datasource was modified successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to update datasource"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not PUT"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports/datasets": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Add dataset",
+        "description": "Users who have create access for datasets can add a new dataset to the server by providing the dataset details in the request body. In the request body, for DataSourceMappingInfo, we can also pass the Datasource Name from the server.",
+        "operationId": "Items_AddDataSet",
+        "parameters": [
+          {
+            "name": "apiReportDataSetAddV5",
+            "in": "body",
+            "required": true,
+            "description": "Dataset details",
+            "schema": {
+              "$ref": "#/definitions/ApiReportDataSetAddV5"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Dataset was created successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiItemResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to add dataset"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Update dataset",
+        "description": "Users who have write access for datasets can update an existing dataset on the server by providing details of the dataset in the request body. In the request body, for DataSourceMappingInfo, we can also pass Datasource Name from the server.",
+        "operationId": "Items_UpdateDataSet",
+        "parameters": [
+          {
+            "name": "apiReportDataSetUpdateV5",
+            "in": "body",
+            "required": true,
+            "description": "Dataset details",
+            "schema": {
+              "$ref": "#/definitions/ApiReportDataSetUpdateV5"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Dataset was modified successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to update dataset"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not PUT"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/items": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Returns list of items from the server",
+        "description": "Server retrieves the list of items for the current user.",
+        "operationId": "Items_GetItems",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "itemType",
+            "in": "query",
+            "required": true,
+            "description": "Item type",
+            "x-schema": {
+              "$ref": "#/definitions/ItemType"
+            },
+            "x-nullable": false,
+            "enum": [
+              "None",
+              "Category",
+              "Report",
+              "Datasource",
+              "Dataset",
+              "Schedule"
+            ]
+          },
+          {
+            "type": "string",
+            "name": "serverPath",
+            "in": "query",
+            "description": "Category path",
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of items retrieved succesfully",
+            "schema": {
+              "$ref": "#/definitions/ApiItemDetail"
+            }
+          },
+          "204": {
+            "description": "Item list is empty"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports/schedule": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Add Schedule",
+        "description": "Users who have create access for schedule can add new schedule to the server by providing respective details in the request body.",
+        "operationId": "Items_AddSchedule",
+        "parameters": [
+          {
+            "name": "apiScheduleRequest",
+            "in": "body",
+            "required": true,
+            "description": "Details about the schedule passed will be added to the server.",
+            "schema": {
+              "$ref": "#/definitions/ApiScheduleRequest"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Schedule created successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiScheduleResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to create schedule"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleid}": {
+      "put": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Update Schedule",
+        "description": "Users who have write access for schedule can update an existing schedule to the server by providing details of the respective schedule in the request body.",
+        "operationId": "Items_UpdateSchedule",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "scheduleid",
+            "in": "path",
+            "required": true,
+            "description": "Schedule ID.",
+            "format": "guid",
+            "x-nullable": false
+          },
+          {
+            "name": "apiUpdateScheduleRequest",
+            "in": "body",
+            "required": true,
+            "description": "Details about the schedule passed will be updated to the server.",
+            "schema": {
+              "$ref": "#/definitions/ApiUpdateScheduleRequest"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Schedule has been updated successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiScheduleResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "409": {
+            "description": "Item name already exists"
+          },
+          "417": {
+            "description": "Failed to update schedule"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not PUT"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports/schedule/items": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Get ScheduleItems",
+        "description": "Server retrieves the list of scheduled items for the current user.",
+        "operationId": "Items_GetScheduleItems",
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of scheduled items retrieved succesfully",
+            "schema": {
+              "$ref": "#/definitions/ApiItemDetail"
+            }
+          },
+          "204": {
+            "description": "Item list is empty"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleId}": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Get ScheduleItemDetail",
+        "description": "Server retrieves the respective scheduled item details for the values (ScheduleId) provided in id parameter for the current user.",
+        "operationId": "Items_GetScheduleItemDetail",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "scheduleId",
+            "in": "path",
+            "required": true,
+            "format": "guid",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Schedule Item detail was retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiScheduledItemDetail"
+            }
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/schedules/{scheduleId}/run": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Run Scheduled Report",
+        "description": "Users who have read access for schedule can run the scheduled report by providing the ID in the path parameter.",
+        "operationId": "Items_RunScheduleReport",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "scheduleId",
+            "in": "path",
+            "required": true,
+            "description": "Schedule ID",
+            "format": "guid",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Schedule has been started successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missed or incomplete"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "404": {
+            "description": "Item detail not found"
+          },
+          "417": {
+            "description": "Failed to run the specified schedule"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/items/{itemId}/location": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Get Item Location",
+        "description": "Server returns the item location of the specified item for the value Report ID, DataSource ID, DataSet ID provided in the id parameter.",
+        "operationId": "Items_GetItemLocation",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "itemId",
+            "in": "path",
+            "required": true,
+            "description": "Item ID",
+            "format": "guid",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Item location has been retrieved successfully",
+            "schema": {
+              "type": "string"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missed or incomplete"
+          },
+          "404": {
+            "description": "Item details not found"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          },
+          "417": {
+            "description": "Failed to get the item location"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports/export": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Export report",
+        "description": "Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Micorosft Word) in the request body. The response will be in an array of bytes.",
+        "operationId": "Items_ExportReport",
+        "parameters": [
+          {
+            "name": "apiExportReport",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ApiExportReport"
+            },
+            "x-nullable": true,
+            "description": "Details about the report to be exported from the server."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Report has been exported successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiExportReportResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Item detail not found"
+          },
+          "417": {
+            "description": "Failed to export an item"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request type was not POST"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/reports/{reportId}/{exportType}/export-filter": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Export report with filters",
+        "description": "Users who have read access for reports can export the reports by providing the report ID and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Micorosft Word) in the request URL and filter parameters in the request body. The response will be in an array of bytes.",
+        "operationId": "Items_ExportReportWithFilters",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "reportId",
+            "in": "path",
+            "required": true,
+            "format": "guid",
+            "x-nullable": false
+          },
+          {
+            "type": "string",
+            "name": "exportType",
+            "in": "path",
+            "required": true,
+            "x-nullable": false,
+            "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"` `\"XML\"`"
+          },
+          {
+            "name": "parameters",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ExportFilterParameters"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Report has been exported successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiExportReportResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Item detail not found"
+          },
+          "417": {
+            "description": "Failed to export an item"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request type was not POST"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v2.0/report/{reportId}/copy": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary":"Copy report",
+        "description":"Users who have access to the report, can copy the report by providing respective report details in the request body.",
+        "operationId":"Items_CopyReport",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "reportId",
+            "in": "path",
+            "required": true,
+            "format": "guid",
+            "x-nullable": false
+          },
+          {
+            "name": "apiCopyReport",
+            "in": "body",
+            "required": true,
+            "description": "Details of the report passed will be copied",
+            "schema": {
+            "$ref": "#/definitions/ApiCopyReport"
+            },
+            "x-nullable": false
+          }        
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Report has been copied successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiCopyReportResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "403":{
+            "description": "Do not have permission to set report will be copied as public"
+          },
+          "404": {
+            "description": "Item detail not found"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },          
+          "409":{
+            "description": "Report will be copied name already exists"
+          },
+          "417": {
+            "description": "Failed to copy report"
+          }         
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
+      "get": {
+        "tags": [
+          "Permission"
+        ],
+        "summary": "Return list of permissions of user",
+        "description": "By this endpoint administrator can retrieves the list of permissions of a specific user by providing user id in the id parameter.",
+        "operationId": "Permission_GetUserPermission",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "User ID.",
+            "format": "int32",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "List of user permissions retrieved succesfully",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ApiUserPermissionDetail"
+              }
+            }
+          },
+          "400": {
+            "description": "User ID is empty"
+          },
+          "404": {
+            "description": "User detail not found"
+          },
+          "204": {
+            "description": "Permission list is empty"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request type was not GET"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Permission"
+        ],
+        "summary": "Delete user permission from the server",
+        "description": "By this endpoint administrator can delete the specific user permissions on the server by providing user permission id in the id parameter.",
+        "operationId": "Permission_DeleteUserPermission",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "User permission ID.",
+            "format": "int32",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "204": {
+            "x-nullable": true,
+            "description": "User permission deleted",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "Permission id is empty"
+          },
+          "417": {
+            "description": "Failed to delete user permission"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request type was not DELETE"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/permissions/groups/{id}": {
+      "get": {
+        "tags": [
+          "Permission"
+        ],
+        "summary": "Return list of permissions of group",
+        "description": "By this endpoint administrator can retrieves the list of permissions of a specific group by providing group id in the id parameter.",
+        "operationId": "Permission_GetGroupPermission",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Group ID.",
+            "format": "int32",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "List of group permissions retrieved succesfully",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ApiGroupPermissionDetail"
+              }
+            }
+          },
+          "406": {
+            "description": "Group id is invalid"
+          },
+          "404": {
+            "description": "Group detail not found"
+          },
+          "204": {
+            "description": "Permission list is empty"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request type was not GET"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Permission"
+        ],
+        "summary": "Delete group permission from the server",
+        "description": "By this endpoint administrator can delete the specific group permissions on the server by providing group permission id in the id parameter.",
+        "operationId": "Permission_DeleteGroupPermission",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "Group permission ID.",
+            "format": "int32",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "204": {
+            "x-nullable": true,
+            "description": "Group permission deleted",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "Permission id is empty"
+          },
+          "417": {
+            "description": "Failed to delete group permission"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request type was not DELETE"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/permissions/users": {
+      "post": {
+        "tags": [
+          "Permission"
+        ],
+        "summary": "Add a user permission to the server",
+        "description": "With this endpoint administrator can add the specific user permissions on the server by providing user permission details in the request body.",
+        "operationId": "Permission_AddUserPermission",
+        "parameters": [
+          {
+            "name": "apiUserPermissionAdd",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ApiUserPermissionAdd"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "User permission was created successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "User detail not found"
+          },
+          "409": {
+            "description": "Permission already exists"
+          },
+          "417": {
+            "description": "Failed to add user permission"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/permissions/groups": {
+      "post": {
+        "tags": [
+          "Permission"
+        ],
+        "summary": "Add a group permission to the server",
+        "description": "With this endpoint administrator can add the specific group permissions on the server by providing group permission details in the request body.",
+        "operationId": "Permission_AddGroupPermission",
+        "parameters": [
+          {
+            "name": "apiGroupPermissionAdd",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/definitions/ApiGroupPermissionAdd"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": true,
+            "description": "Group permission was created successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "Group detail not found"
+          },
+          "409": {
+            "description": "Permission already exists"
+          },
+          "417": {
+            "description": "Failed to add group permission"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/users": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Adds a user to the server",
+        "description": "With this endpoint, administrators can add a user to the server by providing the user details in the request body.",
+        "operationId": "Users_AddUserV2",
+        "parameters": [
+          {
+            "name": "userDetail",
+            "in": "body",
+            "required": true,
+            "description": "Detail of the user.",
+            "schema": {
+              "$ref": "#/definitions/ApiUserAdd"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "User was added successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "405": {
+            "description": "Request type was not POST"
+          },
+          "409": {
+            "description": "Email address already exists"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "417": {
+            "description": "Failed to add user"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Returns the list of users on the server",
+        "description": "With this endpoint, the user can get the list of users information from the server.",
+        "operationId": "Users_GetUsers",
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of users retrieved succesfully",
+            "schema": {
+              "$ref": "#/definitions/ApiUserList"
+            }
+          },
+          "405": {
+            "description": "Request type was not GET"
+          },
+          "204": {
+            "description": "User list is empty"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/users/{user}": {
+      "delete": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Deletes the specified user on the server",
+        "description": "With this endpoint administrator can delete the specific user on the server by providing user email address in the user parameter.",
+        "operationId": "Users_DeleteUser",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "user",
+            "in": "path",
+            "required": true,
+            "description": "Email address of the user.",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "204": {
+            "x-nullable": false,
+            "description": "User deleted",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "404": {
+            "description": "User detail not found"
+          },
+          "405": {
+            "description": "Request type was not DELETE"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "417": {
+            "description": "Failed to delete user"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Modifies information about the specified user",
+        "description": "With this endpoint, administrators can modify a user to the server by providing the user details in the request body.",
+        "operationId": "Users_EditUser",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "user",
+            "in": "path",
+            "required": true,
+            "description": "Email address of the user.",
+            "x-nullable": false
+          },
+          {
+            "name": "userDetail",
+            "in": "body",
+            "required": true,
+            "description": "Detail of the user.",
+            "schema": {
+              "$ref": "#/definitions/ApiUserEdit"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "User was modified successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },
+          "405": {
+            "description": "Request type was not PUT"
+          },
+          "409": {
+            "description": "Email address already exists"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "404": {
+            "description": "User detail not found"
+          },
+          "417": {
+            "description": "Failed to update user"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Returns user details on the server for a specified user",
+        "description": "With this endpoint, users can get the profile information from the server by providing the Email ID in the path parameter.",
+        "operationId": "Users_GetUserDetailV2",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "user",
+            "in": "path",
+            "required": true,
+            "description": "Email address of the user.",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "User detail was retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiUserDetail"
+            }
+          },
+          "405": {
+            "description": "Request type was not GET"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "404": {
+            "description": "User detail not found"
+          },
+          "417": {
+            "description": "Failed to get user detail"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Activate or deactivate user account",
+        "description": "With this endpoint, administrators can activate or de-activate the user account in the server by providing the  email address in the path parameter and activation or de-activation request in the request body.",
+        "operationId": "Users_ActivateDeactivateuser",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "user",
+            "in": "path",
+            "required": true,
+            "description": "Email address of the user.",
+            "x-nullable": false
+          },
+          {
+            "name": "activationRequest",
+            "in": "body",
+            "required": true,
+            "description": "User activation or deactivation request",
+            "schema": {
+              "$ref": "#/definitions/ApiUserActivationRequest"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "The response is sent as ApiResponse object",
+            "schema": {
+              "$ref": "#/definitions/ApiResponse"
+            }
+          },
+          "405": {
+            "description": "Request type was not POST"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "400": {
+            "description": "The content of the request body is invalid"
+          },
+          "417": {
+            "description": "Failed to activate or deactivate user account"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/csv-users/download-template": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Downloads CSV template from the server.",
+        "description": "With this endpoint, administrators can download the CSV templates from the server.",
+        "operationId": "Users_DownloadCsvTemplate",
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Template is downloaded successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiDownloadCsvTemplate"
+            }
+          },
+          "405": {
+            "description": "Request type was not GET"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "417": {
+            "description": "Failed to download the CSV template file"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/csv-users": {
+      "post": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Add CSV user",
+        "description": "With this endpoint, administrators can add a CSV of users to the server by providing the CSV file as an array of bytes in the request body.",
+        "operationId": "Users_CsvUserImport",
+        "parameters": [
+          {
+            "name": "apiCsvUserImportRequest",
+            "in": "body",
+            "required": true,
+            "description": "Contains CSV user import request.",
+            "schema": {
+              "$ref": "#/definitions/ApiCsvUserImportRequest"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "User(s) can be added successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiCsvUserImportResponse"
+            }
+          },
+          "405": {
+            "description": "Request type was not POST"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "417": {
+            "description": "Failed to add CSV users"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/users/{user}/groups": {
+      "get": {
+        "tags": [
+          "Users"
+        ],
+        "summary": "Get group details of particular user",
+        "description": "With this endpoint, administrators can get the group details of particular users from the server by providing email address, or user ID in the path parameter.",
+        "operationId": "Users_GetGroupsOfUser",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "user",
+            "in": "path",
+            "required": true,
+            "description": "User ID or Email address of the user.",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Group details can be retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiGroupList"
+            }
+          },
+          "204": {
+            "description": "Group list empty"
+          },
+          "405": {
+            "description": "Request type was not GET"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "404": {
+            "description": "User detail not found"
+          },
+          "417": {
+            "description": "Failed to get group details"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Response": {
+      "type": "object",
+      "x-typeName": "Response",
+      "additionalProperties": false,
+
+      "properties": {
+        "access_token": {
+          "type": "string",
+          "description": "Authentication token of the user"
+        },
+        "token_type": {
+          "type": "string",
+          "description": "Type of the token assigned by the authorization server"
+        },
+        "expires_in": {
+          "type": "string",
+          "description": "The lifetime in seconds of the access token"
+        },
+        "userName": {
+          "type": "string",
+          "description": "Username of the authenticated user"
+        }
+      }
+    },
+    "ApiResponse": {
+      "type": "object",
+      "required": [
+        "ApiStatus",
+        "Status"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Data": {
+          "description": "Returns data from the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        },
+        "Message": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        }
+      }
+    },
+    "ApiGroupAdd": {
+      "type": "object",
+      "description": "Group detail",
+      "required": [
+        "Name"
+      ],
+      "properties": {
+        "Description": {
+          "type": "string",
+          "description": "Description of the group."
+        },
+        "Name": {
+          "type": "string",
+          "description": "Name of the group."
+        }
+      }
+    },
+    "ApiGroupEdit": {
+      "type": "object",
+      "description": "Group detail",
+      "properties": {
+        "Description": {
+          "type": "string",
+          "description": "Description of the group."
+        },
+        "Name": {
+          "type": "string",
+          "description": "Name of the group."
+        }
+      }
+    },
+    "ApiGroup": {
+      "type": "object",
+      "description": "Group detail",
+      "required": [
+        "Id",
+        "IsActiveDirectoryGroup",
+        "IsAzureADGroup"
+      ],
+      "properties": {
+        "Description": {
+          "type": "string",
+          "description": "Description of the group."
+        },
+        "Id": {
+          "type": "integer",
+          "description": "ID of the group.",
+          "format": "int32"
+        },
+        "IsActiveDirectoryGroup": {
+          "type": "boolean",
+          "description": "Returns true if the group is added from Active Directory"
+        },
+        "IsAzureADGroup": {
+          "type": "boolean",
+          "description": "Returns true if the group is added from Azure Active Directory"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Name of the group."
+        }
+      }
+    },
+    "ApiUserList": {
+      "type": "object",
+      "description": "List of users",
+      "properties": {
+        "UserList": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ApiUser"
+          }
+        }
+      }
+    },
+    "ApiUser": {
+      "type": "object",
+      "description": "User detail",
+      "required": [
+        "IsActive",
+        "IsActiveDirectoryUser",
+        "IsAzureAdUser",
+        "UserId",
+        "UserStatus"
+      ],
+      "properties": {
+        "ContactNumber": {
+          "type": "string",
+          "description": "Phone number of the user."
+        },
+        "DisplayName": {
+          "type": "string",
+          "description": "Display name of the user."
+        },
+        "Email": {
+          "type": "string",
+          "description": "Email address of the user."
+        },
+        "FirstName": {
+          "type": "string",
+          "description": "First name of the user."
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the user is an active user."
+        },
+        "IsActiveDirectoryUser": {
+          "type": "boolean",
+          "description": "Returns true if the user is added from Active Directory"
+        },
+        "IsAzureAdUser": {
+          "type": "boolean",
+          "description": "Returns true if the user is added from Azure Active Directory."
+        },
+        "Lastname": {
+          "type": "string",
+          "description": "Last name of the user."
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "ID of the user.",
+          "format": "int32"
+        },
+        "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+        "UserStatus": {
+          "description": "Returns the status of the user.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/UserStatus"
+            }
+          ]
+        }
+      }
+    },
+    "UserStatus": {
+      "type": "integer",
+      "description": "",
+      "x-enumNames": [
+        "Active",
+        "InActive"
+      ],
+      "enum": [
+        0,
+        1
+      ]
+    },
+    "ApiGroupUsers": {
+      "type": "object",
+      "description": "User(s) added/removed from the group.",
+      "properties": {
+        "Id": {
+          "type": "array",
+          "description": "List of user IDs",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        }
+      }
+    },
+    "ApiGroupListV2": {
+      "type": "object",
+      "properties": {
+        "GroupList": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ApiGroupV2"
+          }
+        }
+      }
+    },
+    "ApiGroupV2": {
+      "type": "object",
+      "required": [
+        "Id",
+        "IsActiveDirectoryGroup",
+        "IsAzureADGroup",
+        "UserCount"
+      ],
+      "properties": {
+        "Description": {
+          "type": "string",
+          "description": "Description of the group."
+        },
+        "Id": {
+          "type": "integer",
+          "description": "ID of the group.",
+          "format": "int32"
+        },
+        "IsActiveDirectoryGroup": {
+          "type": "boolean",
+          "description": "Returns true if the group is added from Active Directory"
+        },
+        "IsAzureADGroup": {
+          "type": "boolean",
+          "description": "Returns true if the group is added from Azure Active Directory"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Name of the group."
+        },
+        "UserCount": {
+          "type": "integer",
+          "description": "User(s) count",
+          "format": "int32"
+        }
+      }
+    },
+    "ApiSpecifiedItemDetail": {
+      "type": "object",
+      "description": "Item Details.",
+      "required": [
+        "Id",
+        "CreatedById",
+        "ItemCreatedDate",
+        "ItemModifiedDate",
+        "ModifiedById",
+        "IsPublic",
+        "IsActive"
+      ],
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "Item ID.",
+          "format": "guid"
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Item type."
+        },
+        "Name": {
+          "type": "string",
+          "description": "Item name."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Item description."
+        },
+        "CreatedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item creator.",
+          "format": "int32"
+        },
+        "CloneOf": {
+          "type": "string",
+          "description": "Item ID from where the item was cloned.",
+          "format": "guid"
+        },
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID.",
+          "format": "guid"
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Category name."
+        },
+        "ItemCreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "ItemModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in string format."
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in string format."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format": "int32"
+        },
+        "Extension": {
+          "type": "string",
+          "description": "Item extension."
+        },
+        "IsPublic": {
+          "type": "boolean",
+          "description": "Returns true if the item is public."
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        }
+      }
+    },
+    "ApiCategoryAdd": {
+      "type": "object",
+      "description": "Category details.",
+      "required": [
+        "Name"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Category name."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Category description."
+        }
+      }
+    },
+    "ApiValidateItemName": {
+      "type": "object",
+      "description": "Validation details of the item.",
+      "required": [
+        "ItemName",
+        "ItemType"
+      ],
+      "properties": {
+        "ItemName": {
+          "type": "string",
+          "description": "Item name. Valid values: `\"report name\"` `\"Datasource name\"` `\"dataset name\"` `\"Schedule name\"` "
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Category name."
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Item type. Valid values: `\"Category\"` `\"Report\"` `\"Datasource\"` `\"Dataset\"` `\"Schedule\"`"
+        }
+      }
+    },
+    "ApiCategoryUpdate": {
+      "type": "object",
+      "description": "Category details.",
+      "required": [
+        "CategoryId"
+      ],
+      "properties": {
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID.",
+          "format": "guid"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Category name."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Category description."
+        }
+      }
+    },
+    "ApiItemResponse": {
+      "type": "object",
+      "description": "Response details of item.",
+      "required": [
+        "ApiStatus",
+        "Status",
+        "PublishedItemId",
+        "Version"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        },
+        "PublishedItemId": {
+          "type": "string",
+          "description": "Returns the ID of the published item.",
+          "format": "guid"
+        },
+        "Version": {
+          "type": "integer",
+          "description": "Returns the version of the published file item.",
+          "format": "int32"
+        }
+      }
+    },
+    "ApiReportAddV5": {
+      "type": "object",
+      "description": "Report details",
+      "required": [
+        "Name",
+        "CategoryId",
+        "IsPublic",
+        "ItemContent"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Report name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Report description"
+        },
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID",
+          "format": "guid"
+        },
+        "ServerPath": {
+          "type": "string",
+          "description": "Specify the relative Path of the item"
+        },
+        "IsPublic": {
+          "type": "boolean",
+          "description": "Specify true to set the item as a public"
+        },
+        "DataSetMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of dataset",
+          "items": {
+            "$ref": "#/definitions/DataSetMappingInfoV5"
+          }
+        },
+        "DataSourceMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of datasource",
+          "items": {
+            "$ref": "#/definitions/DataSourceMappingInfoV5"
+          }
+        },
+        "ItemContent": {
+          "type": "string",
+          "description": "Provide items in an array of bytes",
+          "format": "byte"
+        }
+      }
+    },
+    "DataSetMappingInfoV5": {
+      "type": "object",
+      "description": "Mapping information of dataset",
+      "required": [
+        "DataSetId"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Name"
+        },
+        "DataSetId": {
+          "type": "string",
+          "description": "Dataset ID",
+          "format": "guid"
+        },
+        "DataSetName": {
+          "type": "string",
+          "description": "Dataset name"
+        }
+      }
+    },
+    "DataSourceMappingInfoV5": {
+      "type": "object",
+      "description": "Mapping information of datasource",
+      "required": [
+        "DataSourceId"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Name"
+        },
+        "DataSourceId": {
+          "type": "string",
+          "description": "Datasource ID",
+          "format": "guid"
+        },
+        "DataSourceName": {
+          "type": "string",
+          "description": "Datasource name"
+        }
+      }
+    },
+    "ApiReportDataSourceAdd": {
+      "type": "object",
+      "description": "Datasource details",
+      "required": [
+        "Name"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Datasource name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Datasource description"
+        },
+        "DataSourceDefinition": {
+          "description": "Datasource definition",
+          "allOf": [
+            {
+              "$ref": "#/definitions/DataSourceDefinition"
+            }
+          ]
+        }
+      }
+    },
+    "DataSourceDefinition": {
+      "type": "object",
+      "description": "Datasource definition",
+      "required": [
+        "CredentialRetrieval",
+        "Enabled",
+        "EnabledSpecified",
+        "ImpersonateUser",
+        "ImpersonateUserSpecified",
+        "OriginalConnectStringExpressionBased",
+        "UseOriginalConnectString",
+        "WindowsCredentials",
+        "WindowsCredentialsSpecified",
+        "ServerType"
+      ],
+      "properties": {
+        "ConnectString": {
+          "type": "string",
+          "description": "Datasource connection string"
+        },
+        "CredentialRetrieval": {
+          "description": "Set the type of credentials to secure data",
+          "allOf": [
+            {
+              "$ref": "#/definitions/CredentialRetrieval"
+            }
+          ]
+        },
+        "ImpersonateUser": {
+          "type": "boolean",
+          "description": "Set to true to impersonate  the authenticated user after a connection has been made to the datasource"
+        },
+        "Password": {
+          "type": "string",
+          "description": "Specifies the password of connection credentials"
+        },
+        "Prompt": {
+          "type": "string",
+          "description": "Specifies the text that prompts users for a username and password"
+        },
+        "UserName": {
+          "type": "string",
+          "description": "Specifies the username of connection credentials"
+        },
+        "WindowsCredentials": {
+          "type": "boolean",
+          "description": "Set to true to use Windows credentials when connecting to the datasource"
+        },
+        "ServerType": {
+          "description": "Specify the server type",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ServerType"
+            }
+          ]
+        }
+      }
+    },
+    "CredentialRetrieval": {
+      "type": "integer",
+      "description": "Set the type of credentials to secure data\nPrompt: Credentials should be supplied by the user while running the report,\nStore: Credentials that stored securely in the report server,\nIntegrated: Use the Windows credentials of the current user to access the data source,\nNone: Credentials are not required.",
+      "x-enumNames": [
+        "Prompt",
+        "Store",
+        "Integrated",
+        "None"
+      ],
+      "enum": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "ServerType": {
+      "type": "integer",
+      "description": "Select the server type to make datasource connection",
+      "x-enumNames": [
+        "None",
+        "SQL",
+        "SQLCE",
+        "OLEDB",
+        "ODBC",
+        "Oracle",
+        "XML",
+        "SSAS",
+        "PostgreSQL"
+      ],
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "ApiReportDataSetAddV5": {
+      "type": "object",
+      "description": "Dataset details",
+      "required": [
+        "Name",
+        "ItemContent"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Dataset name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Dataset description"
+        },
+        "DataSourceMappingInfo": {
+          "type": "array",
+          "description": "Datasource mapping information",
+          "items": {
+            "$ref": "#/definitions/DataSourceMappingInfoV5"
+          }
+        },
+        "ItemContent": {
+          "type": "string",
+          "description": "Provide items in an array of bytes",
+          "format": "byte"
+        }
+      }
+    },
+    "ApiReportUpdateV5": {
+      "type": "object",
+      "description": "Report details",
+      "required": [
+        "ItemId",
+        "CategoryId",
+        "IsPublic"
+      ],
+      "properties": {
+        "ItemId": {
+          "type": "string",
+          "description": "Item ID",
+          "format": "guid"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Report name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Report description"
+        },
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID",
+          "format": "guid"
+        },
+        "VersionComment": {
+          "type": "string",
+          "description": "Comments about update"
+        },
+        "ServerPath": {
+          "type": "string",
+          "description": "Specify the relative Path of the item"
+        },
+        "IsPublic": {
+          "type": "boolean",
+          "description": "Specify true to set item as public"
+        },
+        "DataSetMappingInfo": {
+          "type": "array",
+          "description": "Dataset mapping information",
+          "items": {
+            "$ref": "#/definitions/DataSetMappingInfoV5"
+          }
+        },
+        "DataSourceMappingInfo": {
+          "type": "array",
+          "description": "Datasource mapping information",
+          "items": {
+            "$ref": "#/definitions/DataSourceMappingInfoV5"
+          }
+        },
+        "ItemContent": {
+          "type": "string",
+          "description": "Provide items in an array of bytes",
+          "format": "byte"
+        }
+      }
+    },
+    "ApiReportDataSourceUpdateV5": {
+      "type": "object",
+      "description": "Datasource details",
+      "required": [
+        "ItemId"
+      ],
+      "properties": {
+        "ItemId": {
+          "type": "string",
+          "description": "Item ID",
+          "format": "guid"
+        },
+        "DataSourceName": {
+          "type": "string",
+          "description": "Current Datasource name"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Updating Datasource name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Datasource description"
+        },
+        "VersionComment": {
+          "type": "string",
+          "description": "Comments about update"
+        },
+        "DataSourceDefinition": {
+          "description": "Datasource definition",
+          "allOf": [
+            {
+              "$ref": "#/definitions/DataSourceDefinition"
+            }
+          ]
+        }
+      }
+    },
+    "ApiReportDataSetUpdateV5": {
+      "type": "object",
+      "description": "Dataset details",
+      "required": [
+        "ItemId"
+      ],
+      "properties": {
+        "ItemId": {
+          "type": "string",
+          "description": "Item ID",
+          "format": "guid"
+        },
+        "DataSetName": {
+          "type": "string",
+          "description": "Dataset name"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Dataset name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Dataset description"
+        },
+        "VersionComment": {
+          "type": "string",
+          "description": "Comments about update"
+        },
+        "DataSourceMappingInfo": {
+          "type": "array",
+          "description": "Datasource mapping information",
+          "items": {
+            "$ref": "#/definitions/DataSourceMappingInfoV5"
+          }
+        },
+        "ItemContent": {
+          "type": "string",
+          "description": "Provide items in an array of bytes",
+          "format": "byte"
+        }
+      }
+    },
+    "ApiItemDetail": {
+      "type": "object",
+      "description": "Item details",
+      "required": [
+        "CanRead",
+        "CanWrite",
+        "CanDelete",
+        "CanDownload",
+        "CanSchedule",
+        "CanOpen",
+        "CanMove",
+        "CanCopy",
+        "CanClone",
+        "CanCreateItem",
+        "Id",
+        "ItemType",
+        "CreatedById",
+        "ModifiedById",
+        "ItemModifiedDate",
+        "ItemCreatedDate",
+        "ReportId"
+      ],
+      "properties": {
+        "CanRead": {
+          "type": "boolean",
+          "description": "Specifies the read permission of the item"
+        },
+        "CanWrite": {
+          "type": "boolean",
+          "description": "Specifies the write permission of the item"
+        },
+        "CanDelete": {
+          "type": "boolean",
+          "description": "Specifies the delete permission of the item"
+        },
+        "CanDownload": {
+          "type": "boolean",
+          "description": "Specifies the download permission of the item"
+        },
+        "CanSchedule": {
+          "type": "boolean",
+          "description": "Specifies the schedule permission of the item"
+        },
+        "CanOpen": {
+          "type": "boolean",
+          "description": "Specifies the open permission of the item"
+        },
+        "CanMove": {
+          "type": "boolean",
+          "description": "Specifies the move permission of the item"
+        },
+        "CanCopy": {
+          "type": "boolean",
+          "description": "Specifies the copy permission of the item"
+        },
+        "CanClone": {
+          "type": "boolean",
+          "description": "Specifies the clone permission of the item"
+        },
+        "CanCreateItem": {
+          "type": "boolean",
+          "description": "Specifies the create permission of the item"
+        },
+        "Id": {
+          "type": "string",
+          "description": "Item ID",
+          "format": "guid"
+        },
+        "ItemType": {
+          "description": "Item type",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ItemType"
+            }
+          ]
+        },
+        "Name": {
+          "type": "string",
+          "description": "Item name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Item description"
+        },
+        "ItemLocation": {
+          "type": "string",
+          "description": "Item location"
+        },
+        "CreatedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item creator",
+          "format": "int32"
+        },
+        "CreatedByDisplayName": {
+          "type": "string",
+          "description": "Specifies the display name of the user who created the item"
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier",
+          "format": "int32"
+        },
+        "ModifiedByFullName": {
+          "type": "string",
+          "description": "Specifies the full name of the user who modified the item"
+        },
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID",
+          "format": "guid"
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Category name"
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in string format"
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in string format"
+        },
+        "ItemModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format",
+          "format": "date-time"
+        },
+        "ItemCreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format",
+          "format": "date-time"
+        },
+        "ReportId": {
+          "type": "string",
+          "format": "guid"
+        },
+        "ReportName": {
+          "type": "string"
+        }
+      }
+    },
+    "ItemType": {
+      "type": "integer",
+      "description": "Item type",
+      "x-enumNames": [
+        "None",
+        "Category",
+        "Dashboard",
+        "Report",
+        "Datasource",
+        "Dataset",
+        "File",
+        "Schedule",
+        "Widget",
+        "ItemView",
+        "Slideshow"
+      ],
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "ItemDownloadResponse": {
+      "type": "object",
+      "required": [
+        "Status"
+      ],
+      "properties": {
+        "FileContent": {
+          "type": "string",
+          "description": "Declare a File Content property of type array of byte.",
+          "format": "byte"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Declare a Item Name property of type string."
+        },
+        "Extension": {
+          "type": "string",
+          "description": "Declare a Extension property of type string."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Declare a Status property of type bool."
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Declare a Status Message property of type string."
+        }
+      }
+    },
+    "ApiScheduleResponse": {
+      "type": "object",
+      "description": "Response Details of schedules created.",
+      "required": [
+        "ScheduleId"
+      ],
+      "properties": {
+        "ScheduleName": {
+          "type": "string",
+          "description": "Returns the schedule name."
+        },
+        "ScheduleId": {
+          "type": "string",
+          "description": "Returns the schedule ID.",
+          "format": "guid"
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        },
+        "ScheduleType": {
+          "type": "string",
+          "description": "Returns the schedule type."
+        },
+        "NextRun": {
+          "type": "string",
+          "description": "Returns the schedule’s next run."
+        }
+      }
+    },
+    "ApiScheduleRequest": {
+      "type": "object",
+      "description": "Details about the schedule passed will be added to the server.",
+      "required": [
+        "Name",
+        "ItemId",
+        "ExportType",
+        "StartTime",
+        "NeverEnd",
+        "EndAfterOccurrence",
+        "ScheduleType",
+        "Enabled"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Schedule name."
+        },
+        "Description": {
+          "type": "string",
+          "description": "File description"
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Type of the Item"
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Item ID.",
+          "format": "guid"
+        },
+        "ExportType": {
+          "type": "string",
+          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV` `XML`."
+        },
+        "StartTime": {
+          "type": "string",
+          "description": "Specifies the UTC start date-time of schedule. The format should be ISO 8601 i.e. `yyyy-mm-ddTHH:mm:ssZ`."
+        },
+        "NeverEnd": {
+          "type": "boolean",
+          "description": "Sets the schedule with no end when specified as true. \\n\\n Note: By default, the NeverEnd is set to true. To set the end time for schedule, fill the properties of either EndAfterOccurrence or EndDate; otherwise it remains empty."
+        },
+        "EndAfterOccurrence": {
+          "type": "integer",
+          "description": "Specifies the number of occurrences after which the schedule will be completed. \\n\\n For example: If you provide 5, the schedule will end after the completion of 5 occurrences.",
+          "format": "int32"
+        },
+        "EndDate": {
+          "type": "string",
+          "description": "Specifies the UTC end date-time of schedule after which schedule will be completed. The format should be ISO 8601 i.e. `yyyy-mm-ddTHH:mm:ssZ`. \\n\\n For example: If you provide the end date-time, the schedule will end when the end date-time is reached."
+        },
+        "UserList": {
+          "type": "array",
+          "description": "Provides the list of email addresses or user IDs to the recipients who will get the schedules.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "GroupList": {
+          "type": "array",
+          "description": "Provides the list of group IDs to the recipients in the group list who will get the schedules.",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "ExternalRecipientsList": {
+          "type": "array",
+          "description": "Provides the list of email addresses to the email recipients who will get the schedules. ",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ScheduleType": {
+          "type": "string",
+          "description": "Specifies the schedule type to schedule the report. Valid values: `Hourly` `Daily` `Weekly` `Monthly` `Yearly`. \\n\\n Note: If you chose the schedule type as `Monthly`, provide a values to the MonthlySchedule property, and leave the (HourlySchedule, DailySchedule, WeeklySchedule and YearlySchedule) properties empty."
+        },
+        "HourlySchedule": {
+          "description": "Runs the schedules on an hourly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiHourlySchedule"
+            }
+          ]
+        },
+        "DailySchedule": {
+          "description": "Runs the schedules on a daily basis. ",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiDailySchedule"
+            }
+          ]
+        },
+        "WeeklySchedule": {
+          "description": "Runs the schedule on a weekly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiWeeklySchedule"
+            }
+          ]
+        },
+        "MonthlySchedule": {
+          "description": "Runs the schedule on a monthly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiMonthlySchedule"
+            }
+          ]
+        },
+        "YearlySchedule": {
+          "description": "Runs the schedules on a yearly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiYearlySchedule"
+            }
+          ]
+        },
+        "Enabled": {
+          "type": "boolean",
+          "description": "If True, Schedule is active."
+        },
+        "ReportParameter": {
+          "type": "array",
+          "description": "Specify the schedule parameter",
+          "items": {
+            "$ref": "#/definitions/ApiReportParameter"
+          }
+        }
+      }
+    },
+    "ApiHourlySchedule": {
+      "type": "object",
+      "description": "Runs the schedules on an hourly basis.",
+      "required": [
+        "ScheduleInterval"
+      ],
+      "properties": {
+        "ScheduleInterval": {
+          "type": "string",
+          "description": "Specifies the hour interval. Based on this interval the schedule will run continuously until the end time. The format should be `HH:mm`."
+        }
+      }
+    },
+    "ApiDailySchedule": {
+      "type": "object",
+      "description": "Runs the schedules on a daily basis. \n            ",
+      "required": [
+        "RecurrenceType",
+        "EveryNdays",
+        "EveryWeekday"
+      ],
+      "properties": {
+        "RecurrenceType": {
+          "type": "string",
+          "description": "Specifies the recurrence type, whether the schedule recurs every day or every working day.  Valid values: `EveryNdays` `EveryWeekday`. \\n\\n Note: If you chose the recurrence type as EveryNdays, provide a value to the EveryNdays property, and leave the (EveryWeekday) property empty."
+        },
+        "EveryNdays": {
+          "type": "integer",
+          "description": "Specifies the day interval the schedule recurs. \\n\\n For example: If you provide 2, the schedule recurs every 2 days.",
+          "format": "int32"
+        },
+        "EveryWeekday": {
+          "type": "boolean",
+          "description": "For the schedule to recur every working day, set to true."
+        }
+      }
+    },
+    "ApiWeeklySchedule": {
+      "type": "object",
+      "description": "Runs the schedule on a weekly basis.",
+      "required": [
+        "RecurrenceWeeks",
+        "RecurrenceDays"
+      ],
+      "properties": {
+        "RecurrenceWeeks": {
+          "type": "integer",
+          "description": "Specifies the number of weeks the schedule recurs. \\n\\n For example: If you provide 2, the schedule will recur every 2 weeks.  ",
+          "format": "int32"
+        },
+        "RecurrenceDays": {
+          "type": "array",
+          "description": "Specifies the list of  days the schedule recurs. Valid values `Sunday` `Monday` `Tuesday` `Wednesday` `Thursday` `Friday` `Saturday`. \\n\\n For example: If you provide `Sunday`, the schedule will recur sunday's of every 2 weeks.",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ApiMonthlySchedule": {
+      "type": "object",
+      "description": "Runs the schedule on a monthly basis.",
+      "required": [
+        "RecurrenceType"
+      ],
+      "properties": {
+        "RecurrenceType": {
+          "type": "string",
+          "description": "Specifies the recurrence type, whether the schedule recurs on a specific day or on the customized day basis. Valid values: `DayRecurrence` `CustomRecurrence` \\n\\n Note: If you chose the recurrence type as DayRecurrence, provide a value to the DayRecurrence property and leave the (CustomRecurrence) property empty."
+        },
+        "DayRecurrence": {
+          "description": "The schedule recurs on the day specified on the month interval.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiMonthlyScheduleDayRecurrence"
+            }
+          ]
+        },
+        "CustomRecurrence": {
+          "description": "The schedule recurs on the customized day of the specified month interval.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiMonthlyScheduleCustomRecurrence"
+            }
+          ]
+        }
+      }
+    },
+    "ApiMonthlyScheduleDayRecurrence": {
+      "type": "object",
+      "description": "The schedule recurs on the day specified on the month interval.",
+      "required": [
+        "DayInterval",
+        "MonthInterval"
+      ],
+      "properties": {
+        "DayInterval": {
+          "type": "integer",
+          "description": "Specifies the number of day interval the schedule recurs. \\n\\n For example: If you provide 10, the schedule will recur every 10th day. ",
+          "format": "int32"
+        },
+        "MonthInterval": {
+          "type": "integer",
+          "description": "Specifies the number of month interval the schedule recurs. \\n\\n For example: If you provide 3, the schedule will recur 10th day of every 3 months.",
+          "format": "int32"
+        }
+      }
+    },
+    "ApiMonthlyScheduleCustomRecurrence": {
+      "type": "object",
+      "description": "The schedule recurs on the customized day of the specified month interval.",
+      "required": [
+        "WeekOfMonth",
+        "DayOfWeek",
+        "MonthInterval"
+      ],
+      "properties": {
+        "WeekOfMonth": {
+          "type": "string",
+          "description": "Specifies the week of the month the schedule recurs. Valid values: `first` `second` `third` `fourth` `last`. \\n\\n For example: If you provide second, the schedule will recur on the second week."
+        },
+        "DayOfWeek": {
+          "type": "string",
+          "description": "Specifies the day of the week the schedule recurs. Valid values: `day` `weekday` `weekendday` `Sunday` `Monday` `Tuesday` `Wednesday` `Thursday` `Friday` `Saturday`. \\n\\n For example: If you provide Sunday, the schedule will recur on the second week of sunday."
+        },
+        "MonthInterval": {
+          "type": "integer",
+          "description": "Specifies the number of month interval the schedule recurs. \\n\\n For example: If you provide 5, the schedule will recur second week of sunday's of every 5 months.",
+          "format": "int32"
+        }
+      }
+    },
+    "ApiYearlySchedule": {
+      "type": "object",
+      "description": "Runs the schedules on a yearly basis.",
+      "required": [
+        "YearInterval",
+        "RecurrenceType"
+      ],
+      "properties": {
+        "YearInterval": {
+          "type": "integer",
+          "description": "Specifies the number of years the schedule recurs. \\n\\n For example: If you provide 5, the schedule will recur every 5 years.",
+          "format": "int32"
+        },
+        "RecurrenceType": {
+          "type": "string",
+          "description": "Specifies the recurrence type, whether the schedule recurs on a month basis or on the customized month basis. Valid values: `MonthRecurrence` `CustomRecurrence`. \\n\\n Note: If you chose the recurrence type as MonthRecurrence, provide a value to the MonthRecurrence property, and leave the (CustomRecurrence) property empty."
+        },
+        "MonthRecurrence": {
+          "description": "The schedule recurs on the month and number of years specified in YearInterval property.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiYearlyScheduleMonthRecurrence"
+            }
+          ]
+        },
+        "CustomRecurrence": {
+          "description": "The schedule recurs in the customized month based on the number of years provided in the YearInterval property.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiYearlyScheduleCustomRecurrence"
+            }
+          ]
+        }
+      }
+    },
+    "ApiYearlyScheduleMonthRecurrence": {
+      "type": "object",
+      "description": "The schedule recurs on the month and number of years specified in YearInterval property.",
+      "required": [
+        "MonthOfYear",
+        "DayOfMonth"
+      ],
+      "properties": {
+        "MonthOfYear": {
+          "type": "string",
+          "description": "Specifies the month the schedule recurs. Valid values: `January` `February` `March` `April` `May` `June` `July` `August` `September` `October` `November` `December`. \\n\\n For example: If you provide April, the schedule will recur in April of every year. Here the (year) is the value provided in the YearInterval property."
+        },
+        "DayOfMonth": {
+          "type": "integer",
+          "description": "Specifies the day of the month the schedule recurs. \\n\\n For example: If you provide 20, the schedule will recur 20th April of every year.  Here the (year) is the value provided in the YearInterval property.",
+          "format": "int32"
+        }
+      }
+    },
+    "ApiYearlyScheduleCustomRecurrence": {
+      "type": "object",
+      "description": "The schedule recurs in the customized month based on the number of years provided in the YearInterval property.",
+      "required": [
+        "WeekOfMonth",
+        "DayOfWeek",
+        "MonthOfYear"
+      ],
+      "properties": {
+        "WeekOfMonth": {
+          "type": "string",
+          "description": "Specifies the week of the month the schedule recurs. Valid values: `first` `second` `third` `fourth` `last`. \\n\\n For example: If you provide second, the schedule will recur on the second week."
+        },
+        "DayOfWeek": {
+          "type": "string",
+          "description": "Specifies the day of week the schedule recurs. Valid values: `day` `weekday` `weekendday` `Sunday` `Monday` `Tuesday` `Wednesday` `Thursday` `Friday` `Saturday`.\\n\\n For example: If you provide Sunday, the schedule will recur on every sunday's of the second week."
+        },
+        "MonthOfYear": {
+          "type": "string",
+          "description": "Specifies the month the schedule recurs.  Valid values: `January` `February` `March` `April` `May` `June` `July` `August` `September` `October` `November` `December`. \\n\\n For example: If you provide March, the schedule will recur on the sunday's of the second week of March every year. Here the (year) is the value provided in the YearInterval property."
+        }
+      }
+    },
+    "ApiReportParameter": {
+      "type": "object",
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Parameter name"
+        },
+        "Values": {
+          "type": "array",
+          "description": "Parameter values. The Date parameters input values are validated based on the server culture. Valid formats for en-us culture as following: `mm/dd/yyyy` `yyyy/mm/dd` `dd/mmm/yyyy` `mmm/dd/yyyy` `yyyy/dd/mmm` `yyyy/mmm/dd`.",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "ApiUpdateScheduleRequest": {
+      "type": "object",
+      "description": "Details about the schedule passed will be updated to the server.",
+      "required": [
+        "ItemId",
+        "NeverEnd",
+        "EndAfterOccurrence",
+        "Enabled"
+      ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Schedule name."
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Item ID.",
+          "format": "guid"
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Type of the Item"
+        },
+        "ExportType": {
+          "type": "string",
+          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV` `XML`."
+        },
+        "Description": {
+          "type": "string",
+          "description": "File description"
+        },
+        "StartTime": {
+          "type": "string",
+          "description": "Specifies the UTC start date-time of schedule. The format should be ISO 8601 i.e. `yyyy-mm-ddTHH:mm:ssZ`."
+        },
+        "NeverEnd": {
+          "type": "boolean",
+          "description": "Sets the schedule with no end when specified as true. \\n\\n Note: By default, the NeverEnd is set to true. To set the end time for the schedule, fill the properties of either EndAfterOccurrence or EndDate; otherwise remains empty."
+        },
+        "EndAfterOccurrence": {
+          "type": "integer",
+          "description": "Specifies the number of occurrences after which the schedule will be completed. \\n\\n For example: If you provide 5, the schedule will end after the completion of 5 occurrences.",
+          "format": "int32"
+        },
+        "EndDate": {
+          "type": "string",
+          "description": "Specifies the UTC end date-time of schedule after which schedule will be completed. The format should be ISO 8601 i.e. `yyyy-mm-ddTHH:mm:ssZ`. \\n\\n For example: If you provide the end date-time, the schedule will end once the end date-time is reached."
+        },
+        "UserList": {
+          "type": "array",
+          "description": "Provides the list of email addresses or user IDs to the recipients who will get the schedules.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "GroupList": {
+          "type": "array",
+          "description": "Provides the list of group IDs to the recipients in the group list who will get the schedules.",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "ExternalRecipientsList": {
+          "type": "array",
+          "description": "Provides the list of email addresses to the email recipients who will get the schedules. ",
+          "items": {
+            "type": "string"
+          }
+        },
+        "RemoveUserList": {
+          "type": "array",
+          "description": "Provides the list of email addresses or user IDs to remove recipients from the schedule subscriptions.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "RemoveGroupList": {
+          "type": "array",
+          "description": "Provides the list of group IDs to remove groups from the schedule subscriptions.",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "RemoveExternalRecipientsList": {
+          "type": "array",
+          "description": "Provides the list of email addresses to remove email recipients from the schedule subscriptions.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "ScheduleType": {
+          "type": "string",
+          "description": "Specifies the schedule type to schedule the report. Valid values: `Hourly` `Daily` `Weekly` `Monthly` `Yearly`. \\n\\n Note: If you chose the schedule type as `Monthly`, provide a values to the MonthlySchedule property, and leave the (HourlySchedule, DailySchedule, WeeklySchedule and YearlySchedule) property empty."
+        },
+        "HourlySchedule": {
+          "description": "Runs the schedules on an hourly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiHourlySchedule"
+            }
+          ]
+        },
+        "DailySchedule": {
+          "description": "Runs the schedules on a daily basis. ",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiDailySchedule"
+            }
+          ]
+        },
+        "WeeklySchedule": {
+          "description": "Runs the schedule on a weekly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiWeeklySchedule"
+            }
+          ]
+        },
+        "MonthlySchedule": {
+          "description": "Runs the schedule on a monthly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiMonthlySchedule"
+            }
+          ]
+        },
+        "YearlySchedule": {
+          "description": "Runs the schedules on a yearly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiYearlySchedule"
+            }
+          ]
+        },
+        "ExportFileSettingsInfo": {
+          "type": "string",
+          "description": "Export File settings information."
+        },
+        "Enabled": {
+          "type": "boolean",
+          "description": "If True, Schedule is active."
+        },
+        "ReportParameter": {
+          "type": "array",
+          "description": "Specify the schedule parameter",
+          "items": {
+            "$ref": "#/definitions/ApiReportParameter"
+          }
+        }
+      }
+    },
+    "ApiScheduledItemDetail": {
+      "type": "object",
+      "required": [
+        "CreatedById",
+        "CreatedDate",
+        "ExportTypeId",
+        "IsActive",
+        "IsEnabled",
+        "ModifiedDate",
+        "ModifiedById",
+        "RecurrenceTypeId",
+        "ReportId",
+        "ScheduleId",
+        "StartDate",
+        "NeverEnd",
+        "EndAfterOccurrence"
+      ],
+      "properties": {
+        "CreatedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item creator.",
+          "format": "int32"
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "ExportType": {
+          "type": "string",
+          "description": "Specifies the report export type."
+        },
+        "EndDate": {
+          "type": "string",
+          "description": "Specifies the the end date of the schedule.",
+          "format": "date-time"
+        },
+        "ExportTypeId": {
+          "type": "integer",
+          "description": "Specifies the export type id of schedule.",
+          "format": "int32"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true, if the Schedule is active."
+        },
+        "IsEnabled": {
+          "type": "boolean",
+          "description": "Returns true, if the Schedule is enabled."
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Specifies the ItemType."
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format": "int32"
+        },
+        "NextSchedule": {
+          "type": "string",
+          "description": "Specifies the Next scheduled date and time.",
+          "format": "date-time"
+        },
+        "RecurrenceInfo": {
+          "type": "string",
+          "description": "Specifies the recurrence information of the schedule."
+        },
+        "RecurrenceTypeId": {
+          "type": "integer",
+          "description": "Specifies the recurrence Id of the schedule.",
+          "format": "int32"
+        },
+        "RecurrenceType": {
+          "type": "string",
+          "description": "Specifies the recurrence type of the schedule."
+        },
+        "ReportId": {
+          "type": "string",
+          "description": "Item ID.",
+          "format": "guid"
+        },
+        "ReportName": {
+          "type": "string",
+          "description": "Item name."
+        },
+        "ScheduleId": {
+          "type": "string",
+          "description": "Schedule ID.",
+          "format": "guid"
+        },
+        "ScheduleName": {
+          "type": "string",
+          "description": "Schedule name."
+        },
+        "StartDate": {
+          "type": "string",
+          "description": "Specifies the start date of the schedule.",
+          "format": "date-time"
+        },
+        "NeverEnd": {
+          "type": "boolean",
+          "description": "Sets the schedule with no end when specified as true. \\n\\n Note: By default, the NeverEnd is set to true. To set the end time for the schedule, fill the properties of either EndAfterOccurrence or EndDate; otherwise remains empty."
+        },
+        "EndAfterOccurrence": {
+          "type": "integer",
+          "description": "Specifies the number of occurrences after which the schedule will be completed. \\n\\n For example: If you provide 5, the schedule will end after the completion of 5 occurrences.",
+          "format": "int32"
+        },
+        "UserList": {
+          "type": "array",
+          "description": "Provides the list of username, email, or user IDs to the recipients who will get the schedules.",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "GroupList": {
+          "type": "array",
+          "description": "Provides the list of group IDs to the recipients in the group list who will get the schedules.",
+          "items": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "ExternalRecipientsList": {
+          "type": "array",
+          "description": "Provides the list of email IDs to the email recipients who will get the schedules. ",
+          "items": {
+            "type": "string"
+          }
+        },
+        "HourlySchedule": {
+          "description": "Runs the schedules on an hourly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiHourlySchedule"
+            }
+          ]
+        },
+        "DailySchedule": {
+          "description": "Runs the schedules on a daily basis. ",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiDailySchedule"
+            }
+          ]
+        },
+        "WeeklySchedule": {
+          "description": "Runs the schedule on a weekly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiWeeklySchedule"
+            }
+          ]
+        },
+        "MonthlySchedule": {
+          "description": "Runs the schedule on a monthly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiMonthlySchedule"
+            }
+          ]
+        },
+        "YearlySchedule": {
+          "description": "Runs the schedules on a yearly basis.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ApiYearlySchedule"
+            }
+          ]
+        },
+        "ReportParameter": {
+          "type": "array",
+          "description": "Specify the schedule parameter",
+          "items": {
+            "$ref": "#/definitions/ApiReportParameter"
+          }
+        }
+      }
+    },
+    "ApiUserPermissionDetail": {
+      "type": "object",
+      "description": "User permission details from the server.",
+      "required": [
+        "UserId",
+        "PermissionId",
+        "PermissionEntity",
+        "PermissionAccess"
+      ],
+      "properties": {
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/PermissionAccess"
+            }
+          ]
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/PermissionEntity"
+            }
+          ]
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "User ID.",
+          "format": "int32"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Item name."
+        },
+        "PermissionId": {
+          "type": "integer",
+          "description": "Permission ID.",
+          "format": "int32"
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Item ID.",
+          "format": "guid"
+        }
+      }
+    },
+    "PermissionAccess": {
+      "type": "string",
+      "description": "Specify an access type for item.",
+      "x-enumNames": [
+        "None",
+        "Create",
+        "Read",
+        "ReadWrite",
+        "ReadWriteDelete",
+        "ReadDownload",
+        "ReadWriteDownload",
+        "ReadWriteDeleteDownload"
+      ],
+      "enum": [
+        "None",
+        "Create",
+        "Read",
+        "ReadWrite",
+        "ReadWriteDelete",
+        "ReadDownload",
+        "ReadWriteDownload",
+        "ReadWriteDeleteDownload"
+      ]
+    },
+    "PermissionEntity": {
+      "type": "string",
+      "description": "Specify an entity of item for permission.",
+      "x-enumNames": [
+        "None",
+        "AllReports",
+        "ReportsInCategory",
+        "SpecificReports",
+        "AllCategories",
+        "SpecificCategory",
+        "AllDataSources",
+        "SpecificDataSource",
+        "AllFiles",
+        "SpecificFile",
+        "AllSchedules",
+        "SpecificSchedule",
+        "AllDashboards",
+        "DashboardsInCategory",
+        "SpecificDashboard",
+        "AllWidgets",
+        "SpecificWidget",
+        "AllDatasets",
+        "SpecificDataset",
+        "SpecificItemView",
+        "AllItemViews",
+        "SpecificSlideshow",
+        "AllSlideshow"
+      ],
+      "enum": [
+        "None",
+        "AllReports",
+        "ReportsInCategory",
+        "SpecificReports",
+        "AllCategories",
+        "SpecificCategory",
+        "AllDataSources",
+        "SpecificDataSource",
+        "AllFiles",
+        "SpecificFile",
+        "AllSchedules",
+        "SpecificSchedule",
+        "AllDashboards",
+        "DashboardsInCategory",
+        "SpecificDashboard",
+        "AllWidgets",
+        "SpecificWidget",
+        "AllDatasets",
+        "SpecificDataset",
+        "SpecificItemView",
+        "AllItemViews",
+        "SpecificSlideshow",
+        "AllSlideshow"
+      ]
+    },
+    "ApiGroupPermissionDetail": {
+      "type": "object",
+      "description": "Group Permission details from the server.",
+      "required": [
+        "GroupId",
+        "PermissionId"
+      ],
+      "properties": {
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item."
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission."
+        },
+        "GroupId": {
+          "type": "integer",
+          "description": "Group ID.",
+          "format": "int32"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Item name."
+        },
+        "PermissionId": {
+          "type": "integer",
+          "description": "Permission ID.",
+          "format": "int32"
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Item ID.",
+          "format": "guid"
+        }
+      }
+    },
+    "ApiUserPermissionAdd": {
+      "type": "object",
+      "description": "Permission details.",
+      "required": [
+        "UserId"
+      ],
+      "properties": {
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/PermissionAccess"
+            }
+          ]
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "User ID.",
+          "format": "int32"
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/PermissionEntity"
+            }
+          ]
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Specify the item ID while assigning permission to particular item.",
+          "format": "guid"
+        }
+      }
+    },
+    "ApiGroupPermissionAdd": {
+      "type": "object",
+      "description": "Permission details.",
+      "required": [
+        "GroupId"
+      ],
+      "properties": {
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/PermissionAccess"
+            }
+          ]
+        },
+        "GroupId": {
+          "type": "integer",
+          "description": "Group ID.",
+          "format": "int32"
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/PermissionEntity"
+            }
+          ]
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Specify the item ID while assigning permission to particular item.",
+          "format": "guid"
+        }
+      }
+    },
+    "ApiUserAdd": {
+      "type": "object",
+      "description": "User detail",
+      "required": [
+        "Email",
+        "FirstName"
+      ],
+      "properties": {
+        "Email": {
+          "type": "string",
+          "description": "Email address of the user."
+        },
+        "FirstName": {
+          "type": "string",
+          "description": "First name of the user."
+        },
+        "Lastname": {
+          "type": "string",
+          "description": "Last name of the user."
+        },
+        "Password": {
+          "type": "string",
+          "description": "Password of the user."
+        }
+      }
+    },
+    "ApiUserEdit": {
+      "type": "object",
+      "description": "User detail",
+      "properties": {
+        "ContactNumber": {
+          "type": "string",
+          "description": "Phone number of the user."
+        },
+        "Email": {
+          "type": "string",
+          "description": "Email address of the user."
+        },
+        "FirstName": {
+          "type": "string",
+          "description": "First name of the user."
+        },
+        "Lastname": {
+          "type": "string",
+          "description": "Last name of the user."
+        }
+      }
+    },
+    "ApiUserDetail": {
+      "type": "object",
+      "description": "Detail of the User",
+      "required": [
+        "IsActive",
+        "IsActiveDirectoryUser",
+        "UserStatus",
+        "UserId",
+        "IsAzureAdUser"
+      ],
+      "properties": {
+        "ContactNumber": {
+          "type": "string",
+          "description": "Phone number of the user."
+        },
+        "DisplayName": {
+          "type": "string",
+          "description": "Display name of the user."
+        },
+        "Email": {
+          "type": "string",
+          "description": "Email address of the user."
+        },
+        "FirstName": {
+          "type": "string",
+          "description": "First name of the user."
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the user is an active user."
+        },
+        "IsActiveDirectoryUser": {
+          "type": "boolean",
+          "description": "Returns true if the user is added from Active Directory"
+        },
+        "Lastname": {
+          "type": "string",
+          "description": "Last name of the user."
+        },
+        "UserStatus": {
+          "description": "Returns the status of the user.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/UserStatus"
+            }
+          ]
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "ID of the user.",
+          "format": "int32"
+        },
+        "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+        "IsAzureAdUser": {
+          "type": "boolean",
+          "description": "Returns true if the user is added from Azure Active Directory."
+        },
+        "UserDomain": {
+          "type": "string",
+          "description": "Domain of the Active Directory User"
+        },
+        "Avatar": {
+          "type": "string",
+          "description": "Profile picture of the User",
+          "format": "byte"
+        }
+      }
+    },
+    "ApiDownloadCsvTemplate": {
+      "type": "object",
+      "description": "Contains response of downloaded CSV template file.",
+      "required": [
+        "ApiStatus",
+        "Status"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        },
+        "FileContent": {
+          "type": "string",
+          "description": "Returns CSV file in array of bytes.",
+          "format": "byte"
+        }
+      }
+    },
+    "ApiCsvUserImportResponse": {
+      "type": "object",
+      "description": "Contains response of Csv user import",
+      "required": [
+        "ApiStatus",
+        "Status"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        },
+        "CsvErrorContent": {
+          "type": "string",
+          "description": "Returns CSV file in array of bytes if the importing users find errors.",
+          "format": "byte"
+        }
+      }
+    },
+    "ApiCsvUserImportRequest": {
+      "type": "object",
+      "description": "Contains CSV user import request.",
+      "required": [
+        "CsvFileContent"
+      ],
+      "properties": {
+        "CsvFileContent": {
+          "type": "string",
+          "description": "Provides the CSV file in an array of bytes.",
+          "format": "byte"
+        }
+      }
+    },
+    "ApiUserActivationRequest": {
+      "type": "object",
+      "description": "User activation or deactivation request",
+      "required": [
+        "Activate"
+      ],
+      "properties": {
+        "Activate": {
+          "type": "boolean",
+          "description": "Status update for the user."
+        }
+      }
+    },
+    "ApiGroupList": {
+      "type": "object",
+      "properties": {
+        "GroupList": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/ApiGroup"
+          }
+        }
+      }
+    },
+    "ApiExportReport": {
+      "type": "object",
+      "description": "Details about the report to be exported",
+      "required": [
+        "ReportId",
+        "ExportType"
+      ],
+      "properties": {
+        "ReportId": {
+          "type": "string",
+          "description": "Report ID.",
+          "format": "guid"
+        },
+        "ServerPath": {
+          "type": "string",
+          "description": "Specifies the relative URL of the report."
+        },
+        "ExportType": {
+          "type": "string",
+          "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"` `\"XML\"`"
+        }
+      }
+    },
+    "ApiExportReportResponse": {
+      "type": "object",
+      "required": [
+        "ApiStatus",
+        "Status"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        },
+        "FileContent": {
+          "type": "string",
+          "description": "Returns the exported report in an array of bytes.",
+          "format": "byte"
+        }
+      }
+    }, 
+    "ApiCopyReport": {
+      "type": "object",
+      "required": [
+        "CategoryId",
+        "Name"
+      ],
+      "properties": {
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID.",
+          "format": "guid"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Report name"
+        },
+        "Description":{
+          "type":"string",
+          "description":"Report description"
+        },
+        "IsPublic": {
+          "type": "boolean",
+          "description": "Specify true to set the item as a public."
+        },
+        "IsCopyDatasource":{
+          "type":"boolean",
+          "description":"Copy the datasource of the report based on this value"
+        },
+        "IsCopyDataset":{
+          "type":"boolean",
+          "description":"Copy the dataset of the report based on this value"
+        }
+      }
+    },
+    "ApiCopyReportResponse": {
+      "type": "object",
+      "required": [
+        "ApiStatus",
+        "Status",
+        "PublishedItemId",
+        "Version"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "PublishedItemId":{
+          "type":"string",
+          "description":"Returns the published report item id",
+          "format":"guid"
+        },
+        "Version":{
+          "type":"integer",
+          "description":"Returns the version number of the report",
+          "format":"int32"
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        }
+      }
+    },
+    "ExportFilterParameters": {
+      "type": "object",
+      "description": "Filter Parameters details",
+      "properties": {
+        "FilterParameters": {
+          "type": "string",
+          "description": "Specify the filter parameter values to be applied in reports. The JSON for the different types of parameters includes, \n\n 1. For String parameter - {\"FilterParameters\":\"{\\'SalesOrderNumber':['SO50750']}\"} \n\n  2. For Integer parameter - {\"FilterParameters\":\"{\\'InvoiceID':['10252']}\"} \n\n 3. For Date parameter - {\"FilterParameters\":\"{\\'StartDate':['1/1/2003'],\\'EndDate':['1/31/2003']}\"} \n\n 4. For Boolean parameter - {\"FilterParameters\":\"{\\'ReportParameter1':['true']}\"} \n\n The Date parameters input values are validated based on the server culture. Valid formats for en-us culture as following: `mm/dd/yyyy` `yyyy/mm/dd` `dd/mmm/yyyy` `mmm/dd/yyyy` `yyyy/dd/mmm` `yyyy/mmm/dd`."
+        }
+      }
+    }
+  },
+    "parameters": {},
+    "responses": {},
+    "securityDefinitions": {}
+}

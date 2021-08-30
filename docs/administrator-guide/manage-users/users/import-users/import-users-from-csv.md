@@ -10,7 +10,7 @@ documentation: ug
 
 You can add large number of users to Bold Report On-Premise by importing users from a CSV file. To automate the process of adding large number of users, download the CSV template file and add the users to it, then import the file.
 
-You can navigate to user management page by click `User Management` drop down under the `Admin` menu as below.
+You can navigate to user management page by clicking `User Management` drop down under the `Admin` menu as below.
 
 ![Import from CSV - Navigation](/static/assets/on-premise/images/manage-users-and-groups/users/usermanagement.png)
 

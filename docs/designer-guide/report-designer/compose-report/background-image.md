@@ -6,7 +6,7 @@ keywords: ejReportDesigner, reportdesigner, background image, ssrs, embedded ima
 
 # Background image
 
-Background image property allows you to show an image in the background of a report sections such as the page header, page footer, or report body. The source for background image can be a URL of an image on the report server, an image from a dataset field, or an embedded image.
+Background image property allows you to show an image in the background of a report sections such as the page header, page footer, or report body and to a report item such as a rectangle. The source for background image can be a URL of an image on the report server, an image from a dataset field, or an embedded image.
 
 Open the properties of report sections(page header, page footer, or report body) to which you want to add a background image. The background image properties are listed under `Background Image` category in properties panel.
 

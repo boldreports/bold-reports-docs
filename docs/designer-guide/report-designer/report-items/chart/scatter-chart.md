@@ -86,104 +86,26 @@ To format scatter chart follow the below steps:
 
 You can see the list of properties available for the widget with default value.
 
-### General Settings
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/name-property.png)
-
-<span style="font-weight:bold">Name</span>
+### Name
 
 Name property can be used to provide an unique name to the chart item in the report.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/name-property.png)
 
 ### Basic Settings
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/basic-settings.png)
 
-> Note: The properties under basic setting will be enabled in the chart properties panel, after assigning the data to the chart.
-
-<span style="font-weight:bold">Chart Type</span>
-
-Supported chart types will be listed in the `Chart Type` property dropdown, you can switch to the required chart type based on the data.
-
-<span style="font-weight:bold">Show Legend</span>
+#### Show Legend
 
 A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](./../../../report-items/chart/legend/) property.
 
-<span style="font-weight:bold">Choose Series</span>
+#### Choose Series
 
 You can add multiple series to the chart and the available series will be listed in the `Choose Series` drop-down. To customize the series appearance choose the required series name in the drop-down.
 
-In the below snap, the chart has single series.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/chart-with-single-series.png)
-
-So, only one series is listed in the drop-down,
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/single-series-list-in-drop-down.png)
-
-If the chart has multiple series as below,
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/chart-with-multiple-series.png)
-
-Now, both series will be listed in the properties panel.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/multi-series-list-in-drop-down.png)
-
-<span style="font-weight:bold">Show Marker</span>
-
-Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](./../../../report-items/chart/marker/) property. The marker properties will be applied to the selected series in the  `Choose Series` drop-down.![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/marker-design.png)
-
-<span style="font-weight:bold">Show Data Label</span>
-
-Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](./../../../report-items/chart/data-label/) property. The data label properties will be applied to the selected series in the  `Choose Series` drop-down.![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/data-label.png)
-
-<span style="font-weight:bold">Enable Smart Label</span>
-
-Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset data label properties, refer [Enable Smart Label](./../../../report-items/chart/smart-label/) property.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smart-label/enable-smart-label.png)
-
-> To apply smart label properties, enable `Data Label` for chart data region.
-
-<span style="font-weight:bold">Series Border</span>
-
-Series border properties can be used to customize the chart series border in the design.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/series-border.png)
-
-In the below design, border color, width and style properties are applied to the chart series.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/border-design.png)
-
-> The series border properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
-
-<span style="font-weight:bold">Series Color</span>
-
-Series Color property can be used to customize the series colors in the chart area. If the chart has multiple series, you can differentiate the series using this property.
-
-Choose first series in the `Choose Series` drop-down and choose color in `Series Color` property palette.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/series-color-first-series.png)
-
-Now, the selected color will be applied to the `Sales1` series in the chart design.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/first-series-color-design.png)
-
-Then, choose second series in the `Choose Series` drop-down and choose color in `Series Color` property palette.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/series-color-second-series.png)
-
-Now, the selected color will be applied to the second series in the chart design.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/second-series-color-design.png)
-
-You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.> The series color properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-<span style="font-weight:bold">Link To</span>
-
-You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.![Link To property](/static/assets/on-premise/images/report-designer/report-items/chart/link-to-property.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/series/multi-series-list-in-drop-down.png)
+Refer [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
 
 ### Appearance
 
@@ -215,6 +137,14 @@ To show/hide the chart title, toggle the `Show Chart Title` checkbox.
 
 Using these properties the font color, font text, font style, border, background and position of the title can be customized in the chart design.
 
+### No Data
+
+No Data property is used to display static text when dataset results with a empty or zero rows at run time.
+
+![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/no-data.png)
+
+To set/reset no data message properties, refer [No Data Message](./../../../report-items/chart/no-data-message/) property section.
+
 ### Category Axis
 
 Category axis displays the text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under `Category Axis` category in the chart properties.
@@ -237,7 +167,7 @@ The Grid line properties can be set to category and value axis.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/grid-line.png)
 
-<span style="font-weight:bold">Category Axis</span>
+#### Category Axis
 
 To show the grid line for category axis, enable the `Category Axis` checkbox.
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/category-axis-grid-line.png)
@@ -247,7 +177,7 @@ You can also enable the `Minor Grid Lines` and customize the major and minor gri
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/category-axis-minor-grid-lines.png)
 
-<span style="font-weight:bold">Value Axis</span>
+#### Value Axis
 
 To show the grid line for value axis, enable the `Value Axis` checkbox.
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/value-axis-grid-line.png)
@@ -272,7 +202,7 @@ Data element can be used to control visibility of a report item when exporting t
 
 ![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
 
-<span style="font-weight:bold">Name</span>
+#### Name
 
 You can assign a custom name for the chart element using the `Name` field. The chart report item will be exported with the provided name.
 
@@ -280,7 +210,7 @@ You can assign a custom name for the chart element using the `Name` field. The c
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
-<span style="font-weight:bold">Output</span>
+#### Output
 
 On exporting the report, the visibility of the chart can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
 
@@ -298,6 +228,18 @@ The page name property is used to name the first worksheet of the Excel workbook
 ![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/page-name.png)
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../../compose-report/bookmark/) section to configure bookmark in the report design.
+
+You can set the static or dynamic text as value for bookmark property. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
 
 #### Custom attributes
 

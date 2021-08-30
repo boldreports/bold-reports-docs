@@ -24,3 +24,7 @@ When users select `Email Activation` mode, user accounts will not be activated w
 The activation link sent to the user will be valid for only 3 days. If the user did not activate within 3 days, a new activation link will be sent again to the user from the user edit page. Refer to the activate users section for more details.
 
 The account will be in inactive status until the user activates the account from the activation email.
+
+## User Email
+
+User can also select whether an email address is required for creating new user or not

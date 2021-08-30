@@ -12,7 +12,7 @@ This section explains how to upgrade Bold Reports Azure app Service from 1.x to 
 
 ## Create a Bold Reports Azure App Service with latest version
 
-* Create the Bold Reports Report Server Azure App Service by following this [link](./../../../create-app-service/) and also configure the application using the database by following this [link](./../../../create-app-service/#configure-a-new-bold-reports).
+* Create the Bold Reports Report Server Azure App Service by following this [link](./../../../installation/azure-app-service/) and also configure the application using the database by following this [link](./../../../installation/azure-app-service/#configure-a-new-bold-reports).
 
 ## File storage resources for migration
 

@@ -1,15 +1,6 @@
-/*!
-*  filename: gatsby-node.js
-*  version : 2.3.26
-*  Copyright © 2001 - 2021 Syncfusion Inc. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 const _ = require('lodash')
 const Promise = require('bluebird')
-const { updateContent } = require('./build/content.js');
+const { updateContent, isReleaseNotes } = require('./node_modules/@boldreports/docs-helper/src/content.js');
 const config = require('./config.json');
 const path = require('path')
 const typeRegex = /`(`|)[^`]+(`|)`/;
@@ -20,7 +11,7 @@ const apiLinkRegex = /\[[^\]]+\]\([^\)]+\)/g;
 const apiTypeRegex = /`[^\`]+`/g;
 const apiAndRegex = /&#124;/g;
 const apiSpanRegex = /<span class='doc-prop-name'>/;
-
+const releaseNotes = [/#(.*) Bug Fixes/, /#(.*) New Features/, /#(.*) Breaking Changes/, /#(.*) Upgrade/];
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
     if (stage === 'build-javascript') {
@@ -50,7 +41,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
             node.internal.content = updateContent(node.internal.content, slug, node.frontmatter);
         }
         createNodeField({ node, name: "slug", value: slug });
-        var header = getHeader(node.rawMarkdownBody.match(/(#[#]+ [^\n]+|\<span class\=\'doc-prop-name\'\>[^\<]+)/g));
+        var header = getHeader(node.rawMarkdownBody.match(/(#[#]+ [^\n]+|\<span class\=\'doc-prop-name\'\>[^\<]+)/g), isReleaseNotes(slug));
         createNodeField({ node, name: "header", value: header });
         createRedirect({ fromPath: '/uwp', toPath: 'https://help.syncfusion.com/uwp/sfreportviewer/', isPermanent: true });
         createRedirect({ fromPath: '/wpf', toPath: 'https://help.syncfusion.com/wpf/reportviewer/', isPermanent: true });
@@ -113,18 +104,18 @@ exports.createPages = ({ graphql, actions }) => {
     })
 }
 
-let getHeader = (headers) => {
+let getHeader = (headers, isReleaseNotes) => {
     var toc = '';
     if (headers && headers.length && headers.length !== 1) {
         toc = '<div id="doc-right-toc"><span>Contents</span>\n<ul>';
         for (var header of headers) {
-            
+            if (!(isReleaseNotes && releaseNotes.some((exp) => header.match(exp)))) {
                 var hLevel = header.match(/#/g) ? header.match(/#/g).length : 3;
                 var hName = header.trim().replace(apiSpanRegex, '').replace(/[#]+ /, '').replace(apiLinkRegex, '').replace(apiTypeRegex, '')
                     .replace(apiAndRegex, '').replace(specialRegex, '').replace(mdLinkRegex, '').replace(typeRegex, '').replace(separateRegex, '').trim();
                 var hId = hName.toLowerCase().replace(/[ ]+/g, '-');
                 toc += `\n  <li class="doc-anchor-h${hLevel}"><a href="#${hId}">${hName}</a></li>`;
-            
+            }
         }
         toc += '\n</ul></div>';
     }

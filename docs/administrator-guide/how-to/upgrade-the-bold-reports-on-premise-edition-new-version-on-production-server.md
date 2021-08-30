@@ -12,7 +12,7 @@ This section explains how to upgrade Bold Reports On-Premise Edition in staging 
 
 ## Steps to upgrade Bold Reports On-Premise Edition in staging machine
 
-* Install Bold latest Bold Reports On-Premise build by following the [Installation link](../../installation-and-deployment/).
+* Install Bold latest Bold Reports On-Premise build by following the [Installation link](../../installation/).
 
 * If Bold Reports On-Premise Edition is configured using the new domain on older version, then after the upgrade installation completed, update that domain URL on configuration files by following these steps:
 

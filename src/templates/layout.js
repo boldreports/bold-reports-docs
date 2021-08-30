@@ -1,12 +1,3 @@
-/*!
-*  filename: layout.js
-*  version : 2.3.26
-*  Copyright © 2001 - 2021 Syncfusion Inc. All rights reserved.
-*  Use of this code is subject to the terms of our license.
-*  A copy of the current license can be obtained at any time by e-mailing
-*  licensing@syncfusion.com. Any infringement will be prosecuted under
-*  applicable laws. 
-*/
 import React from "react";
 import Helmet from "react-helmet";
 import styled from "styled-components"
@@ -78,6 +69,7 @@ export default class LayoutTemplate extends React.Component {
     this.selectedToc();
     this.configureHamburger();
     this.configureRightSideBar();
+    this.integrateReadingTime();
     select('.doc-toc-search-icon').addEventListener('click', () => {
       let leftTocSearch = select('#auto-complete');
       if (leftTocSearch && leftTocSearch.value && leftTocSearch.ej2_instances) {
@@ -797,6 +789,20 @@ export default class LayoutTemplate extends React.Component {
       </Layout>
     );
   }
+  integrateReadingTime() {
+    const postNode = this.props.data.postBySlug;
+    const timeToRead = postNode.fields.readingTime.text;
+    var readTime=(timeToRead=="1 min read")? timeToRead.replace("min","minute to"):timeToRead.replace("min","minutes to");
+    const mTime = this.props.data.allFile.edges[0].node.mtime;
+    const date = new Date(mTime);
+    const lastModifiedDate=date.toDateString().split(" ");
+    const formatedLastModifiedDate=lastModifiedDate[2]+" "+lastModifiedDate[1]+" "+lastModifiedDate[3];
+    const element = document.getElementById('md-cnt');
+    const timestampElement = document.createElement("div");
+    timestampElement.setAttribute("id", "timeToRead");
+    timestampElement.innerHTML=formatedLastModifiedDate + " / " + readTime;
+    element.insertBefore(timestampElement, element.childNodes[1]);
+  }
 }
 
 function gcseCallback() {
@@ -893,6 +899,13 @@ const LeftPane = styled.div`
 /* eslint no-undef: "off"*/
 export const pageQuery = graphql`
   query LayoutBySlug($slug: String!) {
+    allFile {
+      edges {
+        node {
+            mtime        
+        }
+      }
+    }
     allPostTitles: allMarkdownRemark{
         edges {
           node {
@@ -914,6 +927,9 @@ export const pageQuery = graphql`
         }
         fields {
           slug
+          readingTime {
+            text
+          }
         }
       }
   }

@@ -6,7 +6,7 @@ keywords: report-platform
 
 # How to export the Report with filter parameter using API from the postman
 
-Users who have read access for reports can export the report by providing the report, filter parameter, and export type (Microsoft Excel, PDF, HTML, PPT, CSV, and Word) in the request body.
+Users who have read access for reports can export the report by providing the report, filter parameter, and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Word) in the request body.
 
  1. Open the `Postman` application and create a new `POST` Http request.
  2. First, you need to generate the [access token](../generate-access-token-for-bold-reports-server-using-api/).
