@@ -19,6 +19,7 @@ Report documentation was built on [Gatsby](https://www.gatsbyjs.org/)'s applicat
 The Bold Reports document should be placed inside the docs location. The documents should have written in markdown(.md)format.
 
 Refer to the below folder structure for further details.
+
 ```console
      --> docs (1)
         --> angular
@@ -62,35 +63,36 @@ Refer to the below folder structure for further details.
                 --> index.html
                 --> index.js
 ```
+
 1. This is where all the markdown files should be placed.
 2. summary.json will hold the information about `TOC` titles (key) and path (value) of the md file.
 
     * For common documentations like introduction, system requirements, we need to create summary.json file at the root of the docs folder.
-```console
-     {
-        "Introduction": "introduction.md",
-        "System Requirements": "system-requirements.md"
-    }
-```
+    ```console
+        {
+            "Introduction": "introduction.md",
+            "System Requirements": "system-requirements.md"
+        }
+    ```
     * For each platform (Angular, React), we need to create a separate summary.json at that root of the platform folder.
-```console
-     {
-        "Angular": {
-            "Report Designer": {
-                "Overview": "overview.md",
-                "How TO": {
-                "customization": "customization.md"
-                }
-            },
-            "Report Viewer": {
-                "Overview": "overview.md",
-                "How TO": {
-                "customization": "customization.md"
+    ```console
+        {
+            "Angular": {
+                "Report Designer": {
+                    "Overview": "overview.md",
+                    "How TO": {
+                    "customization": "customization.md"
+                    }
+                },
+                "Report Viewer": {
+                    "Overview": "overview.md",
+                    "How TO": {
+                    "customization": "customization.md"
+                    }
                 }
             }
         }
-    }
-```
+    ```
     We need to specify MD file name alone not a full path. We will evaluate the path based on your hierarchical key name (We will convert the key name to lower case and replace space with a hyphen).
 
 3. This is where common MD files like introduction, system requirements should be placed.
