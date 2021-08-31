@@ -1,5 +1,5 @@
 # Bold Reports Docs guidelines
 
-We have documented the guidelines in the below confluence page.
+We have documented the guidelines in the below sharepoint page.
 
-[Docs guidelines](https://syncfusion.atlassian.net/wiki/spaces/RR/pages/1247510616/Documentation)
+[Docs guidelines](https://syncfusion.sharepoint.com/sites/boldreports/SitePages/Documentation.aspx)
