@@ -19,7 +19,7 @@ Report documentation was built on [Gatsby](https://www.gatsbyjs.org/)'s applicat
 The Bold Reports document should be placed inside the docs location. The documents should have written in markdown(.md)format.
 
 Refer to the below folder structure for further details.
-    ```console
+```console
      --> docs (1)
         --> angular
             --> report-designer
@@ -61,19 +61,19 @@ Refer to the below folder structure for further details.
              --> overview
                 --> index.html
                 --> index.js
-    ```
+```
 1. This is where all the markdown files should be placed.
 2. summary.json will hold the information about `TOC` titles (key) and path (value) of the md file.
 
     * For common documentations like introduction, system requirements, we need to create summary.json file at the root of the docs folder.
-    ```console
+```console
      {
         "Introduction": "introduction.md",
         "System Requirements": "system-requirements.md"
     }
-    ```
+```
     * For each platform (Angular, React), we need to create a separate summary.json at that root of the platform folder.
-    ```console
+```console
      {
         "Angular": {
             "Report Designer": {
@@ -90,7 +90,7 @@ Refer to the below folder structure for further details.
             }
         }
     }
-    ```
+```
     We need to specify MD file name alone not a full path. We will evaluate the path based on your hierarchical key name (We will convert the key name to lower case and replace space with a hyphen).
 
 3. This is where common MD files like introduction, system requirements should be placed.
@@ -107,12 +107,12 @@ We need to define 3 important frontmatter in every MD files.
 
 `description` - Description of the document (Characters should be between 100 and 160)
 
-    ```console
+```console
      ---
         title: Overview of Embedded Reporting Tools | Bold Reports
         description: Embedded Reporting Tools contains complete reporting tools that can be embedded within your applications to create and preview the RDL and RDLC reports.
     ---
-    ```
+```
 
 ## Demo samples - (supported platforms - JavaScript and Angular)
 
@@ -123,20 +123,20 @@ We need to define 3 important frontmatter in every MD files.
 
 ### JS-index.html
 
-    ```console
+```console
      <div id="viewer"></div>
-    ```
+```
 
 ### JS-index.js
 
-    ```console
+```console
      $(function () {
         $("#viewer").boldReportViewer({
             reportServiceUrl: "{{site.reportserviceurl}}api/ReportViewer",
             reportPath: '~/Resources/docs/sales-order-detail.rdl'
         });
     });
-    ```
+```
 
 ## Referring to the sample in the MD file
 
@@ -268,46 +268,46 @@ The below gulp tasks can be used to build and serve the documentation.
 
 Run the below command to `build the application`.
 
-    ```console
+```console
      gulp build
-    ```
+```
 
 Run the below command to `serve the application`. After running the command, Navigate to [localhost:8000](http://localhost:8000).
 
-    ```console
+```console
      gulp serve
-    ```
+```
 
 Run the below command to `test markdown lint`.
 
-    ```console
+```console
      gulp md-lint
-    ```
+```
 
 Run the below command to `test typo error`.
 This task will throw an error on using custom words like `ej, localhost`. For that, we need to include these words (need to have a valid reason for using these custom names in `.spelling` file.
 
-    ```console
+```console
      gulp typo
-    ```
+```
 
 Run the below command to `test file name validation`.
 This task will throw an error on using custom file names. For that, we need to include these names(need to have a valid reason for using these custom names) in `.customnames` file.
 
-    ```console
+```console
      gulp file-validation
-    ```
+```
 
 Run the below command to `test markdown lint, typo error and file name validation`.
 
-    ```console
+```console
      gulp test
-    ```
+```
 
 Run the below command to `generate the white label documentation`.
 
-    ```console
+```console
      gulp white-label-docs
-    ```
+```
 
 The above task is applicable only for `cloud` and `enterprises` platform.
