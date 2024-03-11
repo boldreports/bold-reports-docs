@@ -1,0 +1,22 @@
+{
+    "branch": "hotfix/boldreports_v5.4.20",
+    "siteVersion": "2.3.26",
+    "umsVersion": "2.3.26",
+    "reportserviceurl": "https://demos.boldreports.com/services/",
+    "githubserviceloc": "https://github.com/boldreports/demo-services/",
+    "additionalInfo": {
+        "header": "Enterprise",
+        "homePage": {
+            "name": "Overview",
+            "fileName": "overview"
+        },
+        "url": {
+            "freeTrial": "https://www.boldreports.com/pricing",
+            "scheduleFreeDemo": "https://www.boldreports.com/schedule-free-demo"
+        },
+        "pdf": {
+            "tocLevel": 1,
+            "date": "September 2,2020"
+        }
+    }
+}

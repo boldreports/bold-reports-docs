@@ -1,0 +1,17 @@
+{
+  "name": "enterprise-docs",
+  "version": "1.0.0",
+  "description": "Bold Reports documentation",
+  "author": "Syncfusion Inc.",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "gulp production-build",
+    "test": "gulp ci-test",
+    "ci-publish": "gulp publish",
+    "postinstall": "gulp postinstall"
+  },
+  "dependencies": {
+    "gatsby": "5.12.4",
+    "@boldreports/docs-helper": "1.0.47"
+  }
+}

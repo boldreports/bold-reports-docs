@@ -1,0 +1,153 @@
+.ej-doc-header {
+    background-color: #fff;
+    box-shadow: 0 8px 11px -6px rgba(0, 0, 0, 0.12);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.ej-doc-header .ej-doc-left-side {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.ej-doc-header .ej-doc-left-side .ej-doc-syncfusion-logo {
+    margin-left: 20px;
+    height: 40px;
+    width: 162px;
+    background-image: url('logo.svg');
+    background-repeat: no-repeat;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.ej-doc-header .ej-doc-left-side a {
+    color: #212529;
+    text-decoration: none;
+}
+
+
+.ej-doc-header .ej-doc-left-side .ej-doc-divider {
+    border-left: 1px solid rgb(196, 196, 196);
+    height: 40px;
+
+}
+.ej-doc-header .ej-doc-left-side .ej-doc-platform-name {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    opacity: 1;
+    margin-left: 10px;
+    font-weight: 600;
+    color: #ff4801
+}
+
+.ej-doc-header .ej-doc-right-side {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.ej-doc-header .ej-doc-right-side a {
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 20px 0px 0;
+    color: #333;
+    opacity: 1;
+}
+
+.ej-doc-header .ej-doc-right-side a:hover {
+    color: #ff4801;
+}
+
+.ej-doc-header .ej-doc-right-side a.ej-doc-button {
+    height: 32px;
+    font-size: 14px;
+    font-weight: 700;
+    opacity: 1;
+    text-decoration: none;
+    padding: 5.5px 13px;
+    cursor: pointer;
+    background-color: #ff5f23;
+    color: #ffffff;
+    border-radius: 2px;
+}
+
+.ej-doc-header .ej-doc-right-side a.ej-doc-button:hover {
+    background: #ff4801;
+}
+
+@media only screen and (max-width: 750px) {
+    .ej-doc-header .ej-doc-right-side {
+      display: none;
+    }
+  }
+
+  .menu-root > side-menu-items > li:nth-child(2) {
+    display: none;
+}
+
+.api-info-wrapper > h1 + p {
+    display: none;
+}
+
+.redoc-markdown-block h1:nth-child(3), .method-api-url {
+    display: none;
+}
+[_nghost-redoc-19] .redoc-json {
+    margin-bottom: 0px;
+    color: white;
+}
+pre {
+    border: none !important;
+}
+
+  .api-content[_ngcontent-redoc-45], .menu-content[_ngcontent-redoc-45] {
+      top: 60px !important;
+  }
+
+  #resources-nav h5.menu-header, .api-content .api-info-wrapper h1, .methods .tag .tag-info h1.sharable-header,
+  side-menu-items[_nghost-redoc-37] .menu-item-depth-1[_ngcontent-redoc-37] > .menu-item-header[_ngcontent-redoc-37]:hover, 
+  side-menu-items[_nghost-redoc-37] .menu-item-depth-1.active[_ngcontent-redoc-37] > .menu-item-header[_ngcontent-redoc-37],
+  side-menu-items[_nghost-redoc-37] .menu-item-depth-2[_ngcontent-redoc-37] > .menu-item-header[_ngcontent-redoc-37]:hover, 
+  side-menu-items[_nghost-redoc-37] .menu-item-depth-2.active[_ngcontent-redoc-37] > .menu-item-header[_ngcontent-redoc-37] {
+    color: #ff4801;
+  }
+
+.mobile-nav[_ngcontent-redoc-35] {
+    overflow: hidden !important;
+}
+
+h1, h2
+{
+	padding-top:0px !important;
+}
+
+.tag-info, [_nghost-redoc-29]
+{
+	padding-bottom:0px !important;
+}
+
+[_ngcontent-redoc-41] h2
+{
+	padding-top:20px !important;
+	color: #ff4801 !important;
+}
+
+[_nghost-redoc-41] h1:nth-child(11), [_nghost-redoc-41] h1:nth-child(7) {
+    display: none !important;
+}
+
+[_nghost-redoc-45] a {
+    color: #dcad13 !important;
+}
+
+[_nghost-redoc-19] a {
+     color: #ffffff !important; 
+}

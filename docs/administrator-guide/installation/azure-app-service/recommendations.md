@@ -1,0 +1,78 @@
+---
+layout: post
+title: DEV, TEST and PROD Environments – App Service | Bold Reports
+description: Learn the recommended Azure App service configuration to install the Bold Reports application in test, development, and production environments for embedding use.
+platform: bold-reports
+documentation: ug
+---
+
+# Recommended Azure App service configuration to use Bold Reports on the Microsoft Azure App service
+
+This section will explain the recommended Azure App service configuration to install the Bold Reports application. For a complete list of Azure App service plans, refer to this [Windows Azure App service plan](https://azure.microsoft.com/en-in/pricing/details/app-service/windows).
+
+You have to choose the correct Azure App service configuration to have a better experience with Bold Reports.
+
+## Azure App service plans for test, development, and production environments
+
+The basic service plan can be used in a test or development environment. Also, you can use the same basic service plan for the production environment if your app receives only low or medium-level traffic.
+
+## Recommended specifications for test and development environments
+
+<table>
+ <tr>
+    <td>
+       <span style="font-weight:bold">Component</span>
+    </td>
+     <td>
+        <span style="font-weight:bold">Azure App Service</span>
+    </td>
+ </tr>
+ <tr>
+ <td> App Service Plan </td>
+ <td> B3 </td>
+ </tr>
+ <tr>
+ <td> CPU </td>
+ <td> 4+ vCPU </td>
+ </tr>
+ <td> Memory </td>
+ <td> 7+ GB RAM </td>
+ </tr>
+ <tr>
+ <td> Storage </td>
+ <td> 10 GB or larger volume for Bold Reports server storage </td>
+ </tr>
+ </table>
+
+ > **NOTE:**  Also, you can use the above-recommended configuration of the Azure App service plan for the low-traffic production servers.
+
+The Premium service plan can be used in a high-traffic and large-data processing production environment. For more information about the Premium service plan, refer to this [App service plans](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/).
+
+## Recommended specifications for the production environment
+
+<table>
+ <tr>
+    <td>
+       <span style="font-weight:bold">Component</span>
+    </td>
+     <td>
+        <span style="font-weight:bold">Azure App Service</span>
+    </td>
+ </tr>
+ <tr>
+ <td> App Service Plan </td>
+ <td> P3v2 </td>
+ </tr>
+ <tr>
+ <td> CPU </td>
+ <td> 4+ vCPU </td>
+ </tr>
+ <tr>
+ <td> Memory </td>
+ <td> 14+ GB RAM </td>
+ </tr>
+ <tr>
+ <td> Storage </td>
+ <td> 50 GB or larger volume for Bold Reports server storage </td>
+ </tr>
+ </table>
