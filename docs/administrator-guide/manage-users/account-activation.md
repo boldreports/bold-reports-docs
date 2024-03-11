@@ -8,19 +8,44 @@ documentation: ug
 
 # Account Activation
 
-Account Activation should be configured to activate a user or group before importing from an existing database. To manage the activation mode, click **Settings** in the Report Server left-side panel and navigate to the User tab as shown in following image.
+Account activation should be configured to activate a user before importing from an existing database. To manage the activation mode, click on **Settings** in the left-side panel of the Report Server and navigate to the `Accounts` tab, as shown in the following image.
+
 ![Open Account activation settings](/static/assets/on-premise/images/manage-users-and-groups/account-activation.png)
 
-There are two account activation modes available in the Report Server.
+## Account activation modes
+
+There are two account activation modes available in the Bold Reports Report Server.
 
 ## Automatic activation
 
-When users select `Automatic Activation` mode, user accounts will be activated automatically while adding users to the Report Server. But, account activation mails will not be sent.
+When user activation is set to `Automatic Activation` mode, user accounts will be activated automatically when added in the Bold Reports Server. However, account activation emails will not be sent.
 
 ## Email activation
 
-When users select `Email Activation` mode, user accounts will not be activated while adding users to the Report Server and an account activation email will be sent to the email address with activation link to activate the user management account.
+When user activation is set to `Email Activation` mode in the Bold Reports Server, user accounts will not be activated upon addition, and an account activation email will be sent to the provided email address containing an activation link to activate the user account.
 
-The activation link sent to the user will be valid for only 3 days. If the user did not activate within 3 days, a new activation link will be sent again to the user from the user edit page. Refer to the activate users section for more details.
+The activation link sent to the user will be valid for only 3 days. If the user does not activate within this timeframe, a new activation link will be sent to the user again from the user edit page. For further details, refer to the [activate users](./../../manage-users/users/manage-users/#activate-users) section.
 
-The account will be in inactive status until the user activates the account from the activation email.
+The account will remain in an inactive status until the user activates it from the activation email.
+
+> **Note:** By default, the setting will be `Automatic`.
+
+![Default Activation Mode](/static/assets/on-premise/images/manage-users-and-groups/default-mode.png)
+
+## User Email
+
+This setting controls whether an email address is required for creating new users or not.
+
+## Email required
+
+When the user email setting is set to `Required` mode, an email address is mandatory for adding users in the Bold Reports server.
+
+> **Note:** When the account activation preference is set to email, an email address is mandatory for activating the account.
+
+## Email not required
+
+When the user email setting is set to `Not required` mode, an email address is not mandatory for adding users in the Bold Reports server.
+
+> **Note:** By default, the setting will be `Required`.
+
+![Email Default Mode](/static/assets/on-premise/images/manage-users-and-groups/email-default-mode.png)

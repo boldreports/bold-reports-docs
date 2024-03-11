@@ -9,16 +9,16 @@ Indicate your own number of data ranges to decide the distribution of values.
 
 Once you select the data value, the properties required to configure distribution type will start displaying under shape color rule category,
 
-![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-properties.png)
+![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-properties.png '#width=385px')
 
 Choose `Custom` in `Distribution Type` dropdown.
 Now an option called **Buckets** will start displaying, click on the edit icon.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/edit-icon.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/edit-icon.png '#width=355px')
 
 Now, you will be taken to the **Map Bucket** panel.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/mapbucket-panel.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/mapbucket-panel.png '#width=355px')
 
 ## Buckets
 
@@ -28,7 +28,7 @@ To define the data ranges explicitly in the `Buckets` property, refer [Custom Bu
 
 This property can be used to set format of content in a legend. To format the content of legend, use map legend keywords and custom formats.
 
-![Legend text](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/custom-legend-text.png)
+![Legend text](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/custom-legend-text.png '#width=355px')
 
 | Format | Description |
 |---------------------|-----------|

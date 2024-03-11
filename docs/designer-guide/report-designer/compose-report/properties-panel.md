@@ -11,11 +11,11 @@ The Properties panel allows you to view and edit the properties of the selected 
 ## Open properties panel
 
 To open the properties panel, click on the `Properties` icon in the configuration panel.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/properties-icon.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/properties-icon.png '#width=300px')
 
 Now, the properties panel will be displayed like below.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/initial-properties-view.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/initial-properties-view.png '#width=350px')
 
 > By default, the properties panel will display the `Report` properties.
 
@@ -60,41 +60,41 @@ Some of the common properties like name, border, background etc are applicable f
 ## Set expression
 
 1. Click on the square icon at the right corner of the respective property.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/expression-menu.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/expression-menu.png '#width=350px')
 2. Click on `Expression` menu to open the expression builder.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/expression-dialog.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/expression-dialog.png '#width=400px')
 
    > To learn more about handling expressions in report designer refer [Expressions](./../../compose-report/expressions/) section.
 3. The square icon will be indicated in `Black color`, if the expression is applied to the specific property.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/set-expression-indication.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/set-expression-indication.png '#width=400px')
 
 ## Reset expression
 
 1. Click on the square icon at the right corner of the respective property.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/expression-menu.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/expression-menu.png '#width=350px')
 2. Click on `Reset` menu option to remove the expression for the specific property.
 3. The icon will be indicated in `White color`, after reset action.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/reset-expression-indication.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/reset-expression-indication.png '#width=400px')
 
 ## Advanced properties
 
 Specific properties contain nested properties, which are listed under the `Advanced` property menu in the properties panel.
 
 1. Click the square icon at the right corner of the respective property.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/advanced-menu.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/advanced-menu.png '#width=350px')
 2. Click on `Advanced...` menu option. Now, the advanced properties of the respective category will be listed like below.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/advanced-option-properties.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/advanced-option-properties.png '#width=350px')
 3. After customizing the properties, click on the `Close` icon to close the `Advanced Options` menu.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/close-advanced-menu.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/close-advanced-menu.png '#width=350px')
 
 ## Dependent properties
 
 There are specific properties in a report items, which will be enabled in the properties view based on the value of some other property. For example when you drag and drop the chart item into design area, the `Title` property will be listed in the properties view like below.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/rectangle-page-break-property-initial-view.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/rectangle-page-break-property-initial-view.png '#width=350px')
 
 If the `Show Chart Title` property is set to true, the dependent title properties will be listed in the properties view like below.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/enable-page-break-property.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/enable-page-break-property.png '#width=350px')
 
 Again, if the `Show Chart Title` property is set to false, the dependent title properties will be hidden from the properties view.

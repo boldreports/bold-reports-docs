@@ -8,7 +8,7 @@ documentation: ug
 
 # Dataset management in Report Server
 
-You can create and store dataset on a Report Server that can be used by multiple reports. When you create or upload a dataset to Report Server, it is considered as shared dataset and it always placed in the `Datasets` page. A shared dataset must be based on a shared data source. Datasets are accessible to the user depending on the user’s permission. This section explains about dataset management in Report Server. Allows you to create, edit, update, sharing permissions and delete data sets in the Bold Reports On-Premise. The following image shows the list of options available to manage dataset.
+You can create and store datasets on a Report Server that can be used by multiple reports. When you create or upload a dataset to the Report Server, it is considered a shared dataset and is always placed on the `Dataset` page. A shared dataset must be based on a shared data source. Datasets are accessible to users depending on their permissions. This section explains about dataset management in the Report Server. Allows you to create, edit, update, sharing permissions and delete datasets in Bold Reports On-Premise. The following image shows the list of options available to manage dataset.
 
 ![Options available to manage data sets](/static/assets/on-premise/images/manage-content/manage-data-sets/managing-datasets.png)
 
@@ -42,7 +42,12 @@ We can create dataset by following ways.
     ![Upload DataSet](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-option.png)
 
 2. Enter the name and description of the dataset.
+
 3. Click `Browse` and select the `.rsd` file to upload.
+    ![Auto-Filled Dataset Name](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-name.png)
+
+    > If the name field is left blank, the system will auto-populate it with the name of the uploaded `.rsd` file.
+
 4. Select the `DataSource`. In the select data source dialog, you can either select a data source that is already available in the Report Server or create a new data source at that time itself.
     ![Select a data source for the uploaded dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-dialog.png)
 
@@ -61,6 +66,16 @@ Click the `Actions` button in the dataset grid context menu and select `Create R
 Click the `Actions` button in the dataset grid context menu and select `Edit Dataset` to edit a dataset.
     ![Edit dataset properties](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset.png)
 
+## Edit dataset as XML
+
+This XML editor provides a user-friendly interface for you to make necessary modifications to the dataset in the Report Server. This means you can make necessary changes to the dataset without downloading it and using a separate text editor.
+
+1. Click the `Actions` button in the dataset grid context menu and select `Edit As XML` to edit a dataset.
+    ![Edit dataset in XML](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset-xml.png)
+
+2. The respective dataset will be opened in a new tab as XML, allowing you to make modifications, and you can save the edited dataset by publishing it from the XML editor.
+    ![Edit dataset XML View](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset-xml-view.png)
+
 ## Share dataset
 
 This section explains on how to share dataset with the other users in the Report Server.
@@ -70,17 +85,19 @@ This section explains on how to share dataset with the other users in the Report
 1. Click the `Actions` button in the dataset grid context menu and select `Sharing Permissions` option.
     ![Manage dataset permission option](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permissions.png)
 
-2. Sharing permission dialog will open. By default it will open dialog with `Share To` tab. Select the permission access from the `Select Access` dropdown and select the users or groups to share the dataset.
+2. Click the `Manage Access` button.
     ![Set permissions to share a dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permission-dialog.png)
 
-3. After selecting the access and users or groups, click on the `Add Permission` button.
+3. Select the permission access and the users or groups to share the dataset.
     ![Add permission to dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/add-dataset-permission.png)
 
-    > Only the user who created the dataset can share the dataset with other Report Server users.
+4. After selecting the access and users or groups, click on the `Add` button.
+    ![Add button](/static/assets/on-premise/images/manage-content/manage-data-sets/add-access-dataset-permission.png)
+    > Only the user who have share permission can share the dataset with other Report Server users.
 
-### Remove permission
+### Remove dataset permission
 
-Click on the `Shared With` tab. The user who created the dataset can remove the shared dataset permissions using the `Remove` option in the `Actions` column of the each permissions.
+The user who will have specific permission can remove the shared dataset permissions using the `Remove` option in the `Actions` column of the each permissions.
 ![Remove Permission](/static/assets/on-premise/images/manage-content/manage-data-sets/remove-dataset-permission.png)
 
 ## Version history
@@ -104,7 +121,9 @@ For each change in the dataset including changes in the event, user and date.
     ![Update DataSet](/static/assets/on-premise/images/manage-content/manage-data-sets/update-dataset-option.png)
 
 2. Enter the name and description of the dataset.
+
 3. Click `Browse` and select the `.rsd` file to upload.
+
 4. Select the `DataSource`. In the select data source dialog, you can either select a data source that is already available in the Report Server or create a new data source at that time itself.
     ![Select a data source for the uploaded dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/update-dataset-dialog.png)
 
@@ -141,7 +160,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_AddDataSet">AddDataset</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_AddDataSet">AddDataset</a>
         </td>
         <td>
             POST
@@ -155,7 +174,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_UpdateDataSet">UpdateDataset</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_UpdateDataSet">UpdateDataset</a>
         </td>
         <td>
             PUT
@@ -169,7 +188,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>  
         <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItems">GetDataSets</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItems">GetDataSets</a>
         </td>
         <td>
             GET
@@ -183,7 +202,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
         <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemLocation">GetDataSetLocation</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItemLocation">GetDataSetLocation</a>
         </td>
         <td>
             GET
@@ -197,7 +216,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_IsItemNameExists">IsDataSetNameExists</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_IsItemNameExists">IsDataSetNameExists</a>
         </td>
         <td>
             POST
@@ -211,7 +230,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemDetail">GetDataSetDetail</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItemDetail">GetDataSetDetail</a>
         </td>
         <td>
             GET
@@ -225,7 +244,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
         <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_DeleteItem">DeleteDataSet</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_DeleteItem">DeleteDataSet</a>
         </td>
         <td>
             DELETE

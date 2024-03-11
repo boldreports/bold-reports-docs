@@ -12,11 +12,11 @@ Charts can be used to summarize the data in visual format. It helps to present d
 
 To add a `Chart data` region to the report, drag and drop the chart type of your choice from the item panel into design area.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/drag-chart-from-item-panel.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/drag-chart-from-item-panel.png '#width=245px')
 
 Now, the chart item will be rendered in the design area and the chart properties will be listed in properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/initial-view-of-column-chart.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/initial-view-of-column-chart.png '#width=600px')
 
 Configure data and format the chart to visualize the data.
 
@@ -26,4 +26,4 @@ Configure data and format the chart to visualize the data.
 
 The following snap shows the different elements used in the chart.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-parts.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-parts.png '#width=600px')

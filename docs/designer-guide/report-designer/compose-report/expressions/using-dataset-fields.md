@@ -11,10 +11,10 @@ Dataset Fields that are available in the report are listed in the **Data** dropd
 ## Displaying Fields Collection
 
 1. Choose the **Dataset Fields** that are listed in the **data** option.
-![list-of-dataset-fields](/static/assets/on-premise/images/report-designer/compose-report/expressions/dataset-fields-listed.png)
+   ![list-of-dataset-fields](/static/assets/on-premise/images/report-designer/compose-report/expressions/dataset-fields-listed.png '#width=350px')
 
 2. Fields Collections are listed below in the list view, double click on any fields collection.
-![field collection in list view](/static/assets/on-premise/images/report-designer/compose-report/expressions/field-collection-list.png)
+   ![field collection in list view](/static/assets/on-premise/images/report-designer/compose-report/expressions/field-collection-list.png '#width=150px')
 
 3. Dataset field values are shown as expression in the textarea and click **OK** to save the selected expression.
-![field collection in list view](/static/assets/on-premise/images/report-designer/compose-report/expressions/selected-expression.png)
+   ![field collection in list view](/static/assets/on-premise/images/report-designer/compose-report/expressions/selected-expression.png '#width=400px')

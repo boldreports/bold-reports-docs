@@ -8,20 +8,22 @@ documentation: ug
 
 # OpenID Connect support in BoldReports
 
-OpenID Connect for Single sign-On (SSO) in BoldReports application, so that the user can login to BoldReports application after authenticating using the OpenID Connect
+The Bold Reports application can be configured to support OpenID Connect for Single Sign-On (SSO), allowing users to log in directly to the Bold Reports application after authenticating using OpenID Connect.
 
 ## Prerequisites
 
 1. An account with an OpenID Connect provider.
 
-2. Register the BoldReports application in the OpenID Connect provider.
+2. Register the Bold Reports application in the OpenID Connect provider.
 
 ## Steps to configure OpenID Connect in BoldReports
 
-1. To configure the OpenID Connect connection details, click the settings option in the Report Server left-side panel.
+1. Click the **Settings** option in the left-side panel of the Report Server.
 
-2. Navigate to the Authentication tab and OpenID Connect as shown in the following image
-![Active Directory Settings](/static/assets/on-premise/images/settings/authentication-settings.png)
+2. Navigate to the `Authentication` tab and `OpenID Connect` as shown in the following image
+    ![Active Directory Settings](/static/assets/on-premise/images/settings/authentication-settings.png)
+
+    ![Active Directory Settings](/static/assets/on-premise/images/settings/openid-connect-authentication.png)
 
 3. Provide the following details in the OpenID Connect settings of BoldReports application.
 <table>
@@ -30,7 +32,7 @@ OpenID Connect for Single sign-On (SSO) in BoldReports application, so that the 
         Provider Name
     </td>
     <td>
-        It represents the name of the authentication provider to be displayed in the login page.
+        It represents the name of the authentication provider to be displayed on the login page.
     </td>
 </tr>
 <tr>
@@ -38,7 +40,7 @@ OpenID Connect for Single sign-On (SSO) in BoldReports application, so that the 
         Provider Logo
     </td>
     <td>
-        It represents the logo of the authentication provider to be displayed in the login page.
+        It represents the logo of the authentication provider to be displayed on the login page.
     </td>
 </tr>
 <tr>
@@ -46,7 +48,7 @@ OpenID Connect for Single sign-On (SSO) in BoldReports application, so that the 
         Authority
     </td>
     <td>
-        It is the instance created for the user in the provider.
+        It is the instance created within the provider for the user.
     </td>
 </tr>
 <tr>
@@ -54,7 +56,7 @@ OpenID Connect for Single sign-On (SSO) in BoldReports application, so that the 
         Client ID
     </td>
     <td>
-        It is an unique identifier provided to each of the applications while registering in the providers.
+        It is a unique identifier provided to each of the applications while registering with the providers.
     </td>
 </tr>
 <tr>
@@ -62,7 +64,7 @@ OpenID Connect for Single sign-On (SSO) in BoldReports application, so that the 
         Client Secret
     </td>
     <td>
-        It is a secret key that is used to authorize the applications.
+        It is a secret key used to authorize the applications.
     </td>
 </tr>
 <tr>
@@ -70,9 +72,9 @@ OpenID Connect for Single sign-On (SSO) in BoldReports application, so that the 
         Identifier
     </td>
     <td>
-        It is the property name that holds the email address of the user in the deserialized ID token.
+        It is the property name that stores the email address of the user in the deserialized ID token.
     </td>
 </tr>
 </table>
 
-![Active Directory Settings](/static/assets/on-premise/images/settings/openid-connect-authentication.png)
+> **Note:** Please refer to the [OpenID Connect authentication](./../../authentication/single-sign-on/openid-connect/) documentation for more information.

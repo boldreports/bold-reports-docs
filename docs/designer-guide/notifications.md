@@ -10,7 +10,7 @@ documentation: ug
 
 You can configure the notifications settings to notify the users when any comment is added to the reports in the Bold Reports On-Premise. Notifications can be configured by both the System Administrator and user.
 
-To change the notification settings, click the Setting option in the Report Server left-side panel and navigate to the Notification tab as shown in the following image.
+To change the notification **Settings**, click the Setting option in the Report Server left-side panel and navigate to the **Notification** tab as shown in the following image.
 ![Notification settings page](/static/assets/on-premise/images/notifications/notifications-settings.png)
 
 ## Admin notification settings
@@ -25,7 +25,7 @@ To view the system notifications, click on the `Notification` icon in the Report
 
 ### Mail notifications
 
-Enabling the mail notifications option will notify the users through email for comments.
+Enabling the mail notifications option will notify the users through email for comments, permissions, schedules, views, user(s) and group(s) (manual and schedule) synchronization and user account activation.
 
 ### Auto watch comments of created items
 

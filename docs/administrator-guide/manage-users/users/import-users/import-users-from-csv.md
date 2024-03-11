@@ -8,30 +8,32 @@ documentation: ug
 
 # Import users from CSV
 
-You can add large number of users to Bold Report On-Premise by importing users from a CSV file. To automate the process of adding large number of users, download the CSV template file and add the users to it, then import the file.
+To automate the process of adding a large number of users to Bold Report On-Premise, download the CSV template file, add the users to it, and then import the file.
 
-You can navigate to user management page by click `User Management` drop down under the `Admin` menu as below.
+You can navigate to the user management page by clicking the `User` menu, as shown below.
 
 ![Import from CSV - Navigation](/static/assets/on-premise/images/manage-users-and-groups/users/usermanagement.png)
 
-## Add users from CSV file
+## Add users from the CSV file
 
-In Bold Reports On-Premise, click `Import from csv`.
+In `New User`, click on `Import from csv`.
 
 ![Import from CSV - Goto Import CSV users page](/static/assets/on-premise/images/manage-users-and-groups/users/goto-import-csv-users.png)
 
 ## CSV template requirements
 
-The first row in the CSV template represents the column heading. Bold Reports On-Premise assumes that the data from the second line in the file represents the user.
+The first row in the CSV template represents the column heading. Bold Reports assumes that the data starting from the second line in the file represents the user information.
 
-We have the following columns are considered as mandatory in the downloaded CSV file.
+We consider the following columns as mandatory in the downloaded CSV file.
 
-* Email address
+* Username
+* Email address (It is mandatory only in the [Email required](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/account-activation/#email-required) mode).
 * Full Name
+* Password (It is mandatory only in the [Automatic activation](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/account-activation/#automatic-activation) mode).
 
 Follow the below steps to add users using the CSV template
 
-1. Download CSV template.
+1. Download a CSV template.
 
     ![Import from CSV - Download CSV template](/static/assets/on-premise/images/manage-users-and-groups/users/csv-import.png)
 
@@ -43,10 +45,10 @@ Follow the below steps to add users using the CSV template
 
     ![Import from CSV - Upload CSV file](/static/assets/on-premise/images/manage-users-and-groups/users/csv-import-upload.png)
 
-4. Once the file is uploaded the user details will be shown in the grid as like in the below image.
+4. Once the file is uploaded, the user details will be displayed in the grid, as shown in the image below.
 
     ![Import from CSV - User detail in grid](/static/assets/on-premise/images/manage-users-and-groups/users/csv-import-grid.png)
 
-5. After uploaded the users in Bold Reports On-Premise the results are displayed as below.
+5. After importing users in Bold Reports, the success message is displayed as shown below:
 
     ![Import from CSV - Success Message](/static/assets/on-premise/images/manage-users-and-groups/users/import-csv-users-confirmation.png)

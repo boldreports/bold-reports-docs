@@ -8,7 +8,7 @@ keywords: ejReportDesigner, reportdesigner, list, reportitem, bold reports, docu
 
 List report item can be used to create free-form layouts. You can arrange report items to create a form with text boxes, images, and other data regions placed anywhere within the list. It acts as a container to place multiple report items side by side to design a free-form layout. A simple list design has a single cell in a row associated with the detail group and the cell contains a `Rectangle` report item.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-list-design.png)
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-list-design.png '#width=165px')
 
 By default, no group expression is defined on List. When no group expression is defined, List repeats for each row in the datasource. When a group expression is defined on a List, the List repeats for each group in the datasource.
 
@@ -18,21 +18,21 @@ By default, no group expression is defined on List. When no group expression is 
 
 To add report items in list cell, drag report items from itempanel or data fields from the `Data` panel to the cell. By default, the cell contains a rectangle that acts as a container.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-report-item-to-list.png)
+![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-report-item-to-list.png '#width=385px')
 
 Now, the report item will be dropped in the list container as shown in the below snap.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-report-item-to-list-design.png)
+![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-report-item-to-list-design.png '#width=385px')
 
 > When you right click in the list cell, the menu that appears is respect with the cell. If you insert a report item into the cell using the `Insert` option from cell context menu, the rectangle report item in the cell will be replaced by a new report item. So, to insert items inside the list cell, drag and drop the required report item into the cell containing rectangle.
 
 In the following snap a simple design is created using the list to display product details.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/initial-design.png)
+![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/initial-design.png '#width=385px')
 
 On report preview, the List repeats for each row in the datasource.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/list-reportitem-design-preview.png)
+![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/list-reportitem-design-preview.png '#width=410px')
 
 ## Properties
 
@@ -40,7 +40,7 @@ Refer the [Properties panel](./../../compose-report/properties-panel/) section b
 
 ### Data
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/data-category-property.png)
+![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/data-category-property.png '#width=385px')
 
 #### Dataset
 
@@ -48,7 +48,7 @@ This property is used to assign the dataset to the list. The available datasets 
 
 > Each list report item can only show data from one dataset.
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/dataset-drop-down-view.png)
+![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/dataset-drop-down-view.png '#width=355px')
 
 > Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
 
@@ -56,7 +56,7 @@ This property is used to assign the dataset to the list. The available datasets 
 
 Filters is used to filter the data in the list. To open the `Filter` dialog, click on the `Set Filters...` button. Now, the filter dialog will be opened like below.
 
-![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
+![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png '#width=355px')
 
 Refer [Filter Data](./../../compose-report/filter-data/) section to add/remove filters in the filter dialog.
 
@@ -64,7 +64,7 @@ Refer [Filter Data](./../../compose-report/filter-data/) section to add/remove f
 
 To sort the numeric or string field in the list, sorting can be used. In list, the sorting can be applied to the whole data region or for each group, including the details group. To open the sort dialog, click on the `Set Sorts...` button. Now, the sort dialog will be opened like below.
 
-![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
+![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png '#width=355px')
 
 Refer [Sort Data](./../../compose-report/sort-data/) section to add/remove sort expressions in the sort dialog.
 
@@ -84,17 +84,25 @@ Using the background color property you can color the list background. To set ba
 
 Position property is used to set the width, height, left and top position of the list in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.
 
+### No Rows
+
+No Rows property is used to display static text when dataset results with a empty or zero rows at run time.
+
+![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/no-rows.png '#width=355px')
+
+To set/reset no data message properties, refer [No Rows](../tablix/no-rows-message/) property section.
+
 ### Data Element
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 You can assign a custom name for the list element using the `Name` field. The list report item will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -105,7 +113,7 @@ On exporting the report, the visibility of the list can be controlled using the 
 * **Auto** or **Output** - Exports the list report item
 * **NoOutput** - Does not export the list report item
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -117,9 +125,21 @@ Visibility property is used to conditionally show or hide the list report item o
 
 The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/list/page-name.png)
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/list/page-name.png '#width=355px')
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
+
+You can set the static or dynamic text as value for bookmark property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 #### Custom attributes
 

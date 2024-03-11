@@ -4,7 +4,7 @@ description: This documentation explains how to resolve unavailable error when s
 keywords: report-platform, reporting
 ---
 
-# How to resolve unavailable error when deploying on Bold Reports site
+# How to resolve unavailable error when deploying on Bold Reports site version up to 2.x
 
 If Bold Reports Enterprise Reporting site fails to launch, you have to change the Bold Reports URL in `Config.xml` file of Bold Reports Enterprise Reporting.
 

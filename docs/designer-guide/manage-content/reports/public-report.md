@@ -10,9 +10,9 @@ documentation: ug
 
 This section explains on how to make public report to allow access to anonymous users and make private reports to access only to registered users in the Report Server.
 
-Public Reports are accessible to anonymous users who has the Report link.
+Public reports are accessible to anonymous users who have the report link.
 
-Private Reports are accessible to the registered users in the Report Server who has appropriate permissions.
+Private reports are accessible to registered users on the Report Server who have appropriate permissions.
 
 ## Make public
 

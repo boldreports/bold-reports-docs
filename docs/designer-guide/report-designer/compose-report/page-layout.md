@@ -33,7 +33,9 @@ Reports exported using PDF will have a consistent page size and well suitable fo
 
 Number of pages within a report and how report items are arranged on these pages is termed as pagination. Pagination varies based on the rendering layout used to view and export the report. Reports exported by using the data and soft page page-break layouts are typically not affected by pagination. But, hard page-break have the most impact on report layout and physical page size.
 
-To control pagination, specify the page-related properties which are provided in [Report Properties](./../../compose-report/report-properties/). Each rendering layout supports page properties in different manner, therefore same report will paginate differently depending on the rendering layout used.* `Hard page-break` rendering layout is page-oriented format. Therefore, you can set page properties to control the page breaks in reports when viewed in PDF.
+To control pagination, specify the page-related properties which are provided in [Report Properties](./../../compose-report/report-properties/). Each rendering layout supports page properties in different manner, therefore same report will paginate differently depending on the rendering layout used.
+
+* `Hard page-break` rendering layout is page-oriented format. Therefore, you can set page properties to control the page breaks in reports when viewed in PDF.
 
 * `Soft page-break` rendering layout is not oriented to physical pages. If the report contains interactive features that causes a report to expand horizontally or vertically, you cannot control the page breaks in reports with `Word`, `Excel` and `HTML` formats. Pagination is applied to reports only in vertical direction. Page margins are not applied.
 
@@ -41,7 +43,9 @@ To control pagination, specify the page-related properties which are provided in
 
 ## Paper size
 
-The [paper size](./../../compose-report/report-properties/#paper-size) that you specify for the report in the Report Properties will define the pagination for the report while rendering and printing report in the print layout.* Reports exported using hard page break rendering layout inserts page break both horizontally and vertically based on the paper size.
+The [paper size](./../../compose-report/report-properties/#paper-size) that you specify for the report in the Report Properties will define the pagination for the report while rendering and printing report in the print layout.
+
+* Reports exported using hard page break rendering layout inserts page break both horizontally and vertically based on the paper size.
   > Page break is inserted in horizontal direction when the report body grows outside of the page in right side direction and in vertical direction when the report body grows outside of the page in bottom direction.
 
 * Reports exported using soft page break rendering layout inserts page breaks horizontally based on the paper size.

@@ -8,7 +8,7 @@ documentation: ug
 
 # Multi-tenancy
 
-Bold Reports Enterprise Reporting has comes with multi-tenancy, which allows administrator to deploy multiple tenants and manage their reports. Each tenant has its own database for managing its reports and resources so they are isolated from each other tenant under single Bold Reports deployment.
+Bold Reports Enterprise Reporting has multi-tenant support, which allows administrators to deploy multiple tenants and manage their reports. Each tenant has its own database for managing its reports and resources, so they are isolated from each other tenant under single Bold Reports deployment.
 
 ## Architecture
 

@@ -31,10 +31,18 @@
     {
       "name": "Permission",
       "description": "To retrieve a list of permissions, or retrieve, create and delete a particular permission in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
+    },
+    {
+      "name": "Settings",
+      "description": "To update the details of the email settings in the Bold Reports Enterprise edition, use the corresponding endpoints below.\n"
+    },
+    {
+      "name": "Audit Logs",
+      "description": "To retrieve a list of activities performed in the Bold Reports Enterprise edition, use the corresponding endpoints below.\n"
     }
 	],
   "paths": {
-    "/api/site/{tenant-name}/token": {
+    "{domain}/reporting/api/site/{tenant-name}/token": {
       "post": {
         "tags": [
           "Authentication"
@@ -90,12 +98,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/groups": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/groups": {
       "post": {
         "tags": [
           "Groups"
         ],
-        "summary": "Adds a group to the server",
+        "summary": "Add Group",
         "description": "With this endpoint, administrators can add a group to the server by providing the group details in the request body.",
         "operationId": "Groups_AddGroup",
         "parameters": [
@@ -142,7 +150,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Returns the list of groups on the server",
+        "summary": "Get List Of Groups",
         "description": "With this endpoint, users can get the list of group information from the server.",
         "operationId": "Groups_GetGroupsV2",
         "responses": {
@@ -162,12 +170,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/groups/{id}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/groups/{id}": {
       "delete": {
         "tags": [
           "Groups"
         ],
-        "summary": "Deletes the specified group on the server",
+        "summary": "Delete Group",
         "description": "With this endpoint administrator can delete the specific group on the server by providing group id in the id parameter.",
         "operationId": "Groups_DeleteGroup",
         "parameters": [
@@ -210,7 +218,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Modifies information about a specified group",
+        "summary": "Edit Group",
         "description": "With this endpoint, administrators can modify a group to the server by providing the group details in the request body.",
         "operationId": "Groups_EditGroup",
         "parameters": [
@@ -269,7 +277,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Returns group details on the server for a specified group.",
+        "summary": "Get Specific Group Detail",
         "description": "With this endpoint, administrators can get the group information from the server by providing the Group ID in the path parameter.",
         "operationId": "Groups_GetGroupDetail",
         "parameters": [
@@ -303,12 +311,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/groups/{id}/users": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/groups/{id}/users": {
       "get": {
         "tags": [
           "Groups"
         ],
-        "summary": "Returns a list of users on the server for the specified group",
+        "summary": "Get List Of Users From Group",
         "description": "With this endpoint, users can get the list of user information for the specified groups from the server by providing the group ID in the path parameter.",
         "operationId": "Groups_GetUsesFromGroup",
         "parameters": [
@@ -351,7 +359,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Add user(s) to the particular group",
+        "summary": "Add User(s) To The Group",
         "description": "With this endpoint, administrators can add a list of users to a particular group by providing the group ID in the path parameter and the user IDs in the request body.",
         "operationId": "Groups_AddUserToGroup",
         "parameters": [
@@ -404,7 +412,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Delete user(s) from the particular group",
+        "summary": "Delete User(s) From The Group",
         "description": "With this endpoint, administrators can delete a list of users from the particular group by providing the group ID in the path parameter and the user IDs in the request body.",
         "operationId": "Groups_DeleteUserFromGroup",
         "parameters": [
@@ -454,12 +462,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/items/{id}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items/{id}": {
       "get": {
         "tags": [
           "Items"
         ],
-        "summary": "Returns item details from the server for a specified item",
+        "summary": "Get Specific Item Detail",
         "description": "Server retrieves the respective item details for the values (CategoryId, DashboardId, DatasourceId, WidgetId, ScheduleId) provided in id parameter for the current user.",
         "operationId": "Items_GetItemDetail",
         "parameters": [
@@ -496,7 +504,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Deletes the specified items on the server",
+        "summary": "Delete Item",
         "description": "Users who have a delete access for item (Category, Dashboard, Datasource, Widget, Schedule), can delete the item on the server by providing (CategoryId, DashboardId, DatasourceId, WidgetId, ScheduleId) in id parameter.",
         "operationId": "Items_DeleteItem",
         "parameters": [
@@ -536,12 +544,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/categories": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/categories": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Add a new category to the server",
+        "summary": "Add Category",
         "description": "Users who have a create access for categories, can add a new category to the server by providing respective category details in the request body.",
         "operationId": "Items_AddCategory",
         "parameters": [
@@ -588,7 +596,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Update category to the server",
+        "summary": "Update Category",
         "description": "Users who have a write access for categories, can update an existing category on the server by providing respective category details in the request body.",
         "operationId": "Items_UpdateCategory",
         "parameters": [
@@ -635,12 +643,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/items/is-name-exists": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items/is-name-exists": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Checks whether the item name already exists in the server",
+        "summary": "Item Name Exists",
         "description": "Current user can check whether the item (category, report, data source, dataset, schedule) is already exists or not on the server by providing item name (category name, report name, data source name, dataset name, schedule name) and item type (category, report, datasource, dataset, schedule) in the request body.",
         "operationId": "Items_IsItemNameExists",
         "parameters": [
@@ -678,12 +686,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Add report",
+        "summary": "Add Report",
         "description": "Users who have create access for reports can add a new report to the server by providing report details in the request body. In the request body, for DataSourceMappingInfo and DataSetMappingInfo we can pass Datasource Name and Dataset Name from the server and providing either the item content or by passing the RDL report file server path, respectively.",
         "operationId": "Items_AddReport",
         "parameters": [
@@ -733,7 +741,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Update report",
+        "summary": "Update Report",
         "description": "Users who have write access for reports can update an existing report on the server by providing report details in the request body. In the request body, for DataSourceMappingInfo and DataSetMappingInfo, we can pass Datasource Name and Dataset Name from the server, respectively.",
         "operationId": "Items_UpdateReport",
         "parameters": [
@@ -783,12 +791,56 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/data-sources": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items/download": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Add a new datasource to the server.",
+        "summary": "Download Report",
+        "description": "With this endpoint, users can download the report from the server by providing the respective details.",
+        "operationId": "Items_DownloadReport",
+        "parameters": [
+          {
+            "type": "guid",
+            "name": "ItemId",
+            "in": "formData",
+            "required": true,
+            "x-nullable": false,
+            "description": "Item ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Item has been downloaded successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiDownloadReport"
+            },
+            "x-nullable": true
+          },
+          "400": {
+            "description": "Item ID is empty"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "404": {
+            "description": "Item detail not found"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          },
+          "417": {
+            "description": "Failed to download the report"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/data-sources": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Add Datasource",
         "description": "Users who have a create access for datasources, can add a new datasource to the server by providing respective datasource details in the request body.In the request body, we can also pass Datasource Name from the server.",
         "operationId": "Items_AddDataSource",
         "parameters": [
@@ -835,7 +887,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Update datasource",
+        "summary": "Update Datasource",
         "description": "Users who have write access for the DataSource can update an existing DataSource on the server by providing respective DataSource details in the request body. In the request body, we can also pass Datasource Name from the server.",
         "operationId": "Items_UpdateDataSource",
         "parameters": [
@@ -882,12 +934,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/datasets": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/datasets": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Add dataset",
+        "summary": "Add Dataset",
         "description": "Users who have create access for datasets can add a new dataset to the server by providing the dataset details in the request body. In the request body, for DataSourceMappingInfo, we can also pass the Datasource Name from the server.",
         "operationId": "Items_AddDataSet",
         "parameters": [
@@ -934,7 +986,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Update dataset",
+        "summary": "Update Dataset",
         "description": "Users who have write access for datasets can update an existing dataset on the server by providing details of the dataset in the request body. In the request body, for DataSourceMappingInfo, we can also pass Datasource Name from the server.",
         "operationId": "Items_UpdateDataSet",
         "parameters": [
@@ -981,12 +1033,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/items": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items": {
       "get": {
         "tags": [
           "Items"
         ],
-        "summary": "Returns list of items from the server",
+        "summary": "Get List Of Items",
         "description": "Server retrieves the list of items for the current user.",
         "operationId": "Items_GetItems",
         "parameters": [
@@ -1013,7 +1065,7 @@
             "type": "string",
             "name": "serverPath",
             "in": "query",
-            "description": "Category path",
+            "description": "To get the report details, provide your report path, like `/{category name}/{report name}`.\\\n To obtain details for the Category, Datasource, Dataset, or Schedule, specify the name of the respective item.",
             "x-nullable": true
           }
         ],
@@ -1034,7 +1086,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/schedule": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/schedule": {
       "post": {
         "tags": [
           "Items"
@@ -1086,7 +1138,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleid}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleid}": {
       "put": {
         "tags": [
           "Items"
@@ -1147,7 +1199,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/schedule/items": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/schedule/items": {
       "get": {
         "tags": [
           "Items"
@@ -1172,7 +1224,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleId}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleId}": {
       "get": {
         "tags": [
           "Items"
@@ -1210,7 +1262,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/schedules/{scheduleId}/run": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/schedules/{scheduleId}/run": {
       "get": {
         "tags": [
           "Items"
@@ -1255,7 +1307,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/items/{itemId}/location": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items/{itemId}/location": {
       "get": {
         "tags": [
           "Items"
@@ -1297,13 +1349,13 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/export": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/export": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Export report",
-        "description": "Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV and Micorosft Word) in the request body. The response will be in an array of bytes.",
+        "summary": "Export Report",
+        "description": "Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Micorosft Word) in the request body. The response will be in an array of bytes.",
         "operationId": "Items_ExportReport",
         "parameters": [
           {
@@ -1346,13 +1398,13 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/{reportId}/{exportType}/export-filter": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/{reportId}/{exportType}/export-filter": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Export report with filters",
-        "description": "Users who have read access for reports can export the reports by providing the report ID and export type (Microsoft Excel, PDF, HTML, PPT, CSV and Micorosft Word) in the request URL and filter parameters in the request body. The response will be in an array of bytes.",
+        "summary": "Export Report With Filters",
+        "description": "Users who have read access for reports can export the reports by providing the report ID and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Micorosft Word) in the request URL and filter parameters in the request body. The response will be in an array of bytes.",
         "operationId": "Items_ExportReportWithFilters",
         "parameters": [
           {
@@ -1369,7 +1421,7 @@
             "in": "path",
             "required": true,
             "x-nullable": false,
-            "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"`"
+            "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"` `\"XML\"`"
           },
           {
             "name": "parameters",
@@ -1410,12 +1462,37 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/Tags": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Get All Tags",
+        "description": "With this endpoint, the user can get the list of report tags from the server.",
+        "operationId": "Report_Tags",
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of tags retrieved succesfully",
+            "schema": {
+              "type": "array"
+            }
+          },
+          "404": {
+            "description": "Report Tag was empty"
+          },
+          "405": {
+            "description": "Request type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
       "get": {
         "tags": [
           "Permission"
         ],
-        "summary": "Return list of permissions of user",
+        "summary": "Get List Of Permissions Of User",
         "description": "By this endpoint administrator can retrieves the list of permissions of a specific user by providing user id in the id parameter.",
         "operationId": "Permission_GetUserPermission",
         "parameters": [
@@ -1461,7 +1538,7 @@
         "tags": [
           "Permission"
         ],
-        "summary": "Delete user permission from the server",
+        "summary": "Delete User Permission",
         "description": "By this endpoint administrator can delete the specific user permissions on the server by providing user permission id in the id parameter.",
         "operationId": "Permission_DeleteUserPermission",
         "parameters": [
@@ -1498,12 +1575,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/permissions/groups/{id}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/groups/{id}": {
       "get": {
         "tags": [
           "Permission"
         ],
-        "summary": "Return list of permissions of group",
+        "summary": "Get List Of Permissions Of Group",
         "description": "By this endpoint administrator can retrieves the list of permissions of a specific group by providing group id in the id parameter.",
         "operationId": "Permission_GetGroupPermission",
         "parameters": [
@@ -1549,7 +1626,7 @@
         "tags": [
           "Permission"
         ],
-        "summary": "Delete group permission from the server",
+        "summary": "Delete Group Permission",
         "description": "By this endpoint administrator can delete the specific group permissions on the server by providing group permission id in the id parameter.",
         "operationId": "Permission_DeleteGroupPermission",
         "parameters": [
@@ -1586,12 +1663,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/permissions/users": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/users": {
       "post": {
         "tags": [
           "Permission"
         ],
-        "summary": "Add a user permission to the server",
+        "summary": "Add User Permission",
         "description": "With this endpoint administrator can add the specific user permissions on the server by providing user permission details in the request body.",
         "operationId": "Permission_AddUserPermission",
         "parameters": [
@@ -1637,12 +1714,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/permissions/groups": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/groups": {
       "post": {
         "tags": [
           "Permission"
         ],
-        "summary": "Add a group permission to the server",
+        "summary": "Add Group Permission",
         "description": "With this endpoint administrator can add the specific group permissions on the server by providing group permission details in the request body.",
         "operationId": "Permission_AddGroupPermission",
         "parameters": [
@@ -1688,12 +1765,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/users": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/users": {
       "post": {
         "tags": [
           "Users"
         ],
-        "summary": "Adds a user to the server",
+        "summary": "Add User",
         "description": "With this endpoint, administrators can add a user to the server by providing the user details in the request body.",
         "operationId": "Users_AddUserV2",
         "parameters": [
@@ -1740,7 +1817,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Returns the list of users on the server",
+        "summary": "Get List Of Users",
         "description": "With this endpoint, the user can get the list of users information from the server.",
         "operationId": "Users_GetUsers",
         "responses": {
@@ -1760,12 +1837,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/users/{user}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/users/{user}": {
       "delete": {
         "tags": [
           "Users"
         ],
-        "summary": "Deletes the specified user on the server",
+        "summary": "Delete User",
         "description": "With this endpoint administrator can delete the specific user on the server by providing user email address in the user parameter.",
         "operationId": "Users_DeleteUser",
         "parameters": [
@@ -1810,7 +1887,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Modifies information about the specified user",
+        "summary": "Edit User",
         "description": "With this endpoint, administrators can modify a user to the server by providing the user details in the request body.",
         "operationId": "Users_EditUser",
         "parameters": [
@@ -1868,7 +1945,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Returns user details on the server for a specified user",
+        "summary": "Get Specific User Detail",
         "description": "With this endpoint, users can get the profile information from the server by providing the Email ID in the path parameter.",
         "operationId": "Users_GetUserDetailV2",
         "parameters": [
@@ -1907,7 +1984,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Activate or deactivate user account",
+        "summary": "Activate Or Deactivate User",
         "description": "With this endpoint, administrators can activate or de-activate the user account in the server by providing the  email address in the path parameter and activation or de-activation request in the request body.",
         "operationId": "Users_ActivateDeactivateuser",
         "parameters": [
@@ -1953,12 +2030,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/csv-users/download-template": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/csv-users/download-template": {
       "get": {
         "tags": [
           "Users"
         ],
-        "summary": "Downloads CSV template from the server.",
+        "summary": "Download CSV Template",
         "description": "With this endpoint, administrators can download the CSV templates from the server.",
         "operationId": "Users_DownloadCsvTemplate",
         "responses": {
@@ -1981,12 +2058,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/csv-users": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/csv-users": {
       "post": {
         "tags": [
           "Users"
         ],
-        "summary": "Add CSV user",
+        "summary": "Add CSV User",
         "description": "With this endpoint, administrators can add a CSV of users to the server by providing the CSV file as an array of bytes in the request body.",
         "operationId": "Users_CsvUserImport",
         "parameters": [
@@ -2024,12 +2101,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/users/{user}/groups": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/users/{user}/groups": {
       "get": {
         "tags": [
           "Users"
         ],
-        "summary": "Get group details of particular user",
+        "summary": "Get Group Details Of Particular User",
         "description": "With this endpoint, administrators can get the group details of particular users from the server by providing email address, or user ID in the path parameter.",
         "operationId": "Users_GetGroupsOfUser",
         "parameters": [
@@ -2064,6 +2141,553 @@
           },
           "417": {
             "description": "Failed to get group details"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/settings/email": {
+      "put": {
+        "tags": [
+          "Settings"
+        ],
+        "summary": "Update Email Settings",
+        "description": "With this endpoint, User who have permission to modify email settings can edit the details in the request body.",
+        "operationId": "Settings_EditEmailSettingsOfSite",
+        "parameters": [
+          {
+            "name": "EmailDetail",
+            "in": "body",
+            "required": true,
+            "description": "Detail of the email settings.",
+            "schema": {
+              "$ref": "#/definitions/ApiEmailEdit"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Email settings has been updated successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponseEmail"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "405": {
+            "description": "Request type was not PUT"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "404": {
+            "description": "Attribute not found"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "All Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve list of all activities performed in the site.",
+        "operationId": "Audit-Logs_AllActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activitymodule",
+            "in": "query",
+            "required": false,
+            "x-nullable": false,
+            "description": "Module in which the activity performed",
+            "enum":[
+              "Group",
+              "GroupPermission",
+              "User",
+              "UserPermission",
+              "Comment",
+              "Schedule",
+              "System",
+              "Item"
+            ]
+          },
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Synchronized",
+              "Imported",
+              "Visited",
+              "UserAdded",
+              "UserRemoved",
+              "PermissionAdded",
+              "PermissionRemoved",
+              "Edited",
+              "Replied",
+              "UserMentioned",
+              "Success",
+              "Failed",
+              "Run",
+              "Activated",
+              "Retried",
+              "Enabled",
+              "Disabled",
+              "Visited",
+              "Moved",
+              "Copied",
+              "Cloned",
+              "Restored",
+              "Rollbacked"
+            ],
+            "description": "Type of the activity performed.(It depends on ActivityModule)"
+          },
+          {
+            "type": "string",
+            "name": "itemtype",
+            "in": "query",
+            "required": false,
+            "description": "Type of the Item.(Only for Item module)",
+            "x-schema": {
+              "$ref": "#/definitions/ItemType"
+            },
+            "x-nullable": false,
+            "enum": [
+              "Category",
+              "Report",
+              "Datasource",
+              "Dataset",
+              "Schedule"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=group": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Group Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in group module.",
+        "operationId": "Audit-Logs_GroupActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Synchronized",
+              "Imported",
+              "Visited",
+              "UserAdded",
+              "UserRemoved"
+            ],
+            "description": "Type of group activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of group activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/GroupActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Group activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=grouppermission": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Group Permission Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in group permission module.",
+        "operationId": "Audit-Logs_GroupPermissionActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "PermissionAdded",
+              "PermissionRemoved"
+            ],
+            "description": "Type of group permission activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of group permission activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/GroupPermissionActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Group permission activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=user": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "User Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in user module.",
+        "operationId": "Audit-Logs_UserActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Synchronized",
+              "Imported",
+              "Visited"
+            ],
+            "description": "Type of user activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of user activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/UserActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "User activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=userpermission": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "User Permission Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in user permission module.",
+        "operationId": "Audit-Logs_UserPermissionActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "PermissionAdded",
+              "PermissionRemoved"
+            ],
+            "description": "Type of user permission activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of user permission activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/UserPermissionActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "User permission activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=comment": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Comment Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in comment module.",
+        "operationId": "Audit-Logs_CommentActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Edited",
+              "Deleted",
+              "Replied",
+              "UserMentioned"
+            ],
+            "description": "Type of comment activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of comment activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/CommentActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Comment activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=schedule": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Schedule Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in schedule module.",
+        "operationId": "Audit-Logs_ScheduleActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Success",
+              "Failed",
+              "Run"
+            ],
+            "description": "Type of schedule activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of schedule activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ScheduleActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Schedule activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=system": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "System Settings Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in system settings module.",
+        "operationId": "Audit-Logs_SystemSettingsActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Activated",
+              "Retried",
+              "Enabled",
+              "Disabled",
+              "Visited"
+            ],
+            "description": "Type of system settings activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of system settings activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/SystemActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "System settings activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=item": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Item Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in item module.",
+        "operationId": "Audit-Logs_ItemActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Edited",
+              "Deleted",
+              "Moved",
+              "Copied",
+              "Cloned",
+              "Restored",
+              "Rollbacked",
+              "Visited"
+            ],
+            "description": "Type of item activity performed."
+          },
+          {
+            "type": "string",
+            "name": "itemtype",
+            "in": "query",
+            "required": false,
+            "description": "Type of the item",
+            "x-schema": {
+              "$ref": "#/definitions/ItemType"
+            },
+            "x-nullable": false,
+            "enum": [
+              "Category",
+              "Report",
+              "Datasource",
+              "Dataset",
+              "Schedule"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of item activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ItemActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Item activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
           }
         }
       }
@@ -2436,6 +3060,34 @@
         }
       }
     },
+    "ApiDownloadReport": {
+      "type": "object",
+      "x-typeName": "ApiDownReport",
+      "additionalProperties": false,
+
+      "properties": {
+        "FileContent": {
+          "type": "string",
+          "description": "Returns the downloaded report in an array of bytes"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Item name"
+        },
+        "Extension": {
+          "type": "string",
+          "description": "Item extension"
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request"
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        }
+      }
+    },
     "ApiValidateItemName": {
       "type": "object",
       "description": "Validation details of the item.",
@@ -2537,6 +3189,13 @@
           "description": "Category ID",
           "format": "guid"
         },
+        "Tags": {
+          "type":"array",
+          "description": "Specify the list of tag names for the report",
+          "items": {
+            "type": "string"
+          }
+        },
         "ServerPath": {
           "type": "string",
           "description": "Specify the relative Path of the item"
@@ -2569,9 +3228,6 @@
     "DataSetMappingInfoV5": {
       "type": "object",
       "description": "Mapping information of dataset",
-      "required": [
-        "DataSetId"
-      ],
       "properties": {
         "Name": {
           "type": "string",
@@ -2579,7 +3235,7 @@
         },
         "DataSetId": {
           "type": "string",
-          "description": "Dataset ID",
+          "description": "Dataset ID. \n\n **Note:** It is not a mandatory field but we must provide either `DataSetId` or `DataSetName` property to map the dataset",
           "format": "guid"
         },
         "DataSetName": {
@@ -2591,9 +3247,6 @@
     "DataSourceMappingInfoV5": {
       "type": "object",
       "description": "Mapping information of datasource",
-      "required": [
-        "DataSourceId"
-      ],
       "properties": {
         "Name": {
           "type": "string",
@@ -2601,7 +3254,7 @@
         },
         "DataSourceId": {
           "type": "string",
-          "description": "Datasource ID",
+          "description": "Datasource ID. \n\n  **Note:** It is not a mandatory field but we must provide either `DataSourceId` or `DataSourceName` property to map the datasource.",
           "format": "guid"
         },
         "DataSourceName": {
@@ -2642,8 +3295,6 @@
         "CredentialRetrieval",
         "Enabled",
         "EnabledSpecified",
-        "ImpersonateUser",
-        "ImpersonateUserSpecified",
         "OriginalConnectStringExpressionBased",
         "UseOriginalConnectString",
         "WindowsCredentials",
@@ -2656,16 +3307,8 @@
           "description": "Datasource connection string"
         },
         "CredentialRetrieval": {
-          "description": "Set the type of credentials to secure data",
-          "allOf": [
-            {
-              "$ref": "#/definitions/CredentialRetrieval"
-            }
-          ]
-        },
-        "ImpersonateUser": {
-          "type": "boolean",
-          "description": "Set to true to impersonate  the authenticated user after a connection has been made to the datasource"
+          "type": "string",
+          "description": "Set the type of credentials to secure data. Valid values: `Prompt`, `Store`, `Integrated`, `None`"
         },
         "Password": {
           "type": "string",
@@ -2684,57 +3327,10 @@
           "description": "Set to true to use Windows credentials when connecting to the datasource"
         },
         "ServerType": {
-          "description": "Specify the server type",
-          "allOf": [
-            {
-              "$ref": "#/definitions/ServerType"
-            }
-          ]
+          "type": "string",
+          "description": "Specify the server type. Valid values: `SQL`, `SQLCE`, `OLEDB`, `ODBC`, `Oracle`, `XML`, `SSAS`, `PostgreSQL`"
         }
       }
-    },
-    "CredentialRetrieval": {
-      "type": "integer",
-      "description": "Set the type of credentials to secure data\nPrompt: Credentials should be supplied by the user while running the report,\nStore: Credentials that stored securely in the report server,\nIntegrated: Use the Windows credentials of the current user to access the data source,\nNone: Credentials are not required.",
-      "x-enumNames": [
-        "Prompt",
-        "Store",
-        "Integrated",
-        "None"
-      ],
-      "enum": [
-        0,
-        1,
-        2,
-        3
-      ]
-    },
-    "ServerType": {
-      "type": "integer",
-      "description": "Select the server type to make datasource connection",
-      "x-enumNames": [
-        "None",
-        "SQL",
-        "SQLCE",
-        "OLEDB",
-        "ODBC",
-        "Oracle",
-        "XML",
-        "SSAS",
-        "PostgreSQL"
-      ],
-      "enum": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ]
     },
     "ApiReportDataSetAddV5": {
       "type": "object",
@@ -2804,6 +3400,13 @@
         "IsPublic": {
           "type": "boolean",
           "description": "Specify true to set item as public"
+        },
+        "Tags": {
+          "type":"array",
+          "description": "Specify the tag names for the report",
+          "items": {
+            "type": "string"
+          }
         },
         "DataSetMappingInfo": {
           "type": "array",
@@ -3170,7 +3773,7 @@
         },
         "ExportType": {
           "type": "string",
-          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV`."
+          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV` `XML`."
         },
         "StartTime": {
           "type": "string",
@@ -3518,7 +4121,7 @@
         },
         "ExportType": {
           "type": "string",
-          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV`."
+          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV` `XML`."
         },
         "Description": {
           "type": "string",
@@ -4296,11 +4899,11 @@
         },
         "ServerPath": {
           "type": "string",
-          "description": "Specifies the relative URL of the report."
+          "description": "To get the export report details, provide your report path, like `/{category name}/{report name}`."
         },
         "ExportType": {
           "type": "string",
-          "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"`"
+          "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"` `\"XML\"`"
         }
       }
     },
@@ -4329,7 +4932,53 @@
           "format": "byte"
         }
       }
-    }, 
+    },
+    "ApiDatasetMapping": {
+      "type": "object",
+      "description": "Returns the dataset mapping information like shared dataset id, shared dataset name and name of the dataset",
+      "required": [
+        "SharedDataSetId",
+        "SharedDataSetName",
+        "Name"
+      ],
+      "properties": {
+        "SharedDataSetId": {
+          "type": "string",
+          "description": "Returns the shared dataset id of the report"
+        },
+        "SharedDataSetName": {
+          "type": "string",
+          "description": "Returns the shared dataset name of the report"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Returns the name of the dataset"
+        }
+      }
+    },
+    "ApiDatasourceMapping": {
+      "type": "object",
+      "description": "Returns the datasource mapping information like shared datasource id, shared datasource name and name of the datasource",
+      "required": [
+        "SharedDataSourceId",
+        "SharedDataSourceName",
+        "Name"
+      ],
+      "properties": {
+        "SharedDataSourceId": {
+          "type": "string",
+          "description": "Returns the shared datasource id of the report"
+        },
+        "SharedDataSourceName": {
+          "type": "string",
+          "description": "Returns the shared datasource name of the report"
+        },
+                "Name": {
+          "type": "string",
+          "description": "Returns the name of the datasource"
+        }
+      }
+    },
     "ExportFilterParameters": {
       "type": "object",
       "description": "Filter Parameters details",
@@ -4337,6 +4986,948 @@
         "FilterParameters": {
           "type": "string",
           "description": "Specify the filter parameter values to be applied in reports. The JSON for the different types of parameters includes, \n\n 1. For String parameter - {\"FilterParameters\":\"{\\'SalesOrderNumber':['SO50750']}\"} \n\n  2. For Integer parameter - {\"FilterParameters\":\"{\\'InvoiceID':['10252']}\"} \n\n 3. For Date parameter - {\"FilterParameters\":\"{\\'StartDate':['1/1/2003'],\\'EndDate':['1/31/2003']}\"} \n\n 4. For Boolean parameter - {\"FilterParameters\":\"{\\'ReportParameter1':['true']}\"} \n\n The Date parameters input values are validated based on the server culture. Valid formats for en-us culture as following: `mm/dd/yyyy` `yyyy/mm/dd` `dd/mmm/yyyy` `mmm/dd/yyyy` `yyyy/dd/mmm` `yyyy/mmm/dd`."
+        }
+      }
+    },
+    "ApiEmailEdit": {
+      "type": "object",
+      "description": "Email detail",
+      "required": [
+        "SMTPServer",
+        "SMTPPort",
+        "SenderName",
+        "SenderEmailAddress",
+        "AuthenticationType",
+        "Username",
+        "Password",
+        "EnableSSL"
+      ],
+      "properties": {
+        "SMTPServer": {
+          "type": "string",
+          "description": "SMTP server."
+        },
+        "SMTPPort": {
+          "type": "string",
+          "description": "SMTP port."
+        },
+        "SenderName": {
+          "type": "string",
+          "description": "Specifies the sender name of the user."
+        },
+        "SenderEmailAddress": {
+          "type": "string",
+          "description": "Email address of the user."
+        },
+        "AuthenticationType": {
+          "type": "string",
+          "description": "Authentication type. Vaild values: `\"Basic\"` `\"Anonymous\"`."
+        },
+         "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+         "Password": {
+          "type": "string",
+          "description": "Password of the user."
+        },
+        "EnableSSL": {
+          "type": "boolean",
+          "description": "Enable SSL."
+        }
+      }
+    },
+    "ApiResponseEmail": {
+      "type": "object",
+      "required": [
+        "ApiStatus",
+        "Status"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        }
+      }
+    },
+    "ActivityLogResponseList":{
+      "type": "array",
+      "description": "Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/ActivityLogResponse"
+      }
+    },
+    "ActivityLogResponse":{
+      "type": "object",
+      "description": "Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "ActivityModule": {
+          "type": "string",
+          "description": "Name of the module in which the activity performed."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "OldValue": {
+          "type": "string",
+          "description": "Specifies the value before update."
+        },
+        "NewValue": {
+          "type": "string",
+          "description": "Specifies the value after update."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "GroupId": {
+          "type": "integer",
+          "description": "ID of the group.",
+          "format":"int32"
+        },
+        "GroupName": {
+          "type": "string",
+          "description": "Name of the group."
+        },
+        "SourceTypeId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the source type.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "SourceType": {
+          "type": "string",
+          "description": "Specifies the source type.",
+          "enum":[
+            "Web",
+            "API",
+            "Schedule"
+          ]
+        },
+        "ActivityStatusId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the activity status.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "ActivityStatus": {
+          "type": "string",
+          "description": "Status of the activity.",
+          "enum":[
+            "Start",
+            "Success",
+            "Fail"
+          ]
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "ID of the user.",
+          "format":"int32"
+        },
+        "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+        "GroupPermissionId": {
+          "type": "integer",
+          "description": "Specifies the ID of the group permission.",
+          "format":"int32"
+        },
+        "CommentId": {
+          "type": "integer",
+          "description": "ID of the comment.",
+          "format":"int32"
+        },
+        "Url": {
+          "type": "string",
+          "description": "Specifies the URL of the report."
+        },
+        "ParentCommentId": {
+          "type": "integer",
+          "description": "ID of the comment which is replied.",
+          "format":"int32"
+        },
+        "NotificationTo": {
+          "type": "integer",
+          "description": "ID of the user who receives notification.",
+          "format":"int32"
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "IsRead": {
+          "type": "boolean",
+          "description": "Returns true if comment was read."
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Id of the item.",
+          "format":"guid"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Name of the item."
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Type of the item."
+        },
+        "ItemVersionId": {
+          "type": "string",
+          "description": "Specifies the version ID of the item."
+        },
+        "ParentId": {
+          "type": "string",
+          "description": "Specifies the category ID."
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Specifies the category name."
+        },
+        "FromCategoryId": {
+          "type": "string",
+          "description": "Specifies the source category ID."
+        },
+        "FromCategoryName": {
+          "type": "string",
+          "description": "Specifies the source category name."
+        },
+        "ToCategoryId": {
+          "type": "string",
+          "description": "Specifies the destination category ID."
+        },
+        "ToCategoryName": {
+          "type": "string",
+          "description": "Specifies the destination category name."
+        },
+        "UserPermissionId": {
+          "type": "string",
+          "description": "Specifies the ID of the user permission."
+        },
+        "ExecutedDate": {
+          "type": "string",
+          "description": "Schedule executed date in date format.",
+          "format": "date-time"
+        },
+        "IsOnDemand": {
+          "type": "string",
+          "description": "Returns true if schedule is on-demand."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "ScheduleName": {
+          "type": "string",
+          "description": "Name of the schedule."
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission."
+        },
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item."
+        },
+        "ActivityLogInfo": {
+          "type": "object",
+          "description": "Report Execution Information",
+          "properties":{
+            "TimeStart": {
+              "type": "string",
+              "description": "Date-Time at which the report starts to render.",
+              "format": "date-time"
+            },
+            "TimeEnd": {
+              "type": "string",
+              "description": "Date-Time at which the report stops to render.",
+              "format": "date-time"
+            },
+            "TimeDataRetrieval": {
+              "type": "integer",
+              "description": "Data retrieval time in milliseconds.",
+              "format":"int32"
+            },
+            "TimeProcessing": {
+              "type": "integer",
+              "description": "Data processing time in milliseconds.",
+              "format":"int32"
+            },
+            "RowCount": {
+              "type": "integer",
+              "description": "Specifies the number of rows retrieved.",
+              "format":"int32"
+            }
+          }
+        }
+      }
+    },
+    "GroupActivityLogResponseList":{
+      "type": "array",
+      "description": "Group Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/GroupActivityLogResponse"
+      }
+    },
+    "GroupActivityLogResponse":{
+      "type": "object",
+      "description": "Group Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "OldValue": {
+          "type": "string",
+          "description": "Specifies the value before update."
+        },
+        "NewValue": {
+          "type": "string",
+          "description": "Specifies the value after update."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "GroupId": {
+          "type": "integer",
+          "description": "ID of the group.",
+          "format":"int32"
+        },
+        "GroupName": {
+          "type": "string",
+          "description": "Name of the group."
+        },
+        "SourceTypeId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the source type.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "SourceType": {
+          "type": "string",
+          "description": "Specifies the source type.",
+          "enum":[
+            "Web",
+            "API",
+            "Schedule"
+          ]
+        },
+        "ActivityStatusId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the activity status.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "ActivityStatus": {
+          "type": "string",
+          "description": "Status of the activity.",
+          "enum":[
+            "Start",
+            "Success",
+            "Fail"
+          ]
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        }
+      }
+    },
+    "GroupPermissionActivityLogResponseList":{
+      "type": "array",
+      "description": "Group Permission Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/GroupPermissionActivityLogResponse"
+      }
+    },
+    "GroupPermissionActivityLogResponse":{
+      "type": "object",
+      "description": "Group Permission Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "GroupId": {
+          "type": "integer",
+          "description": "ID of the group.",
+          "format":"int32"
+        },
+        "GroupName": {
+          "type": "string",
+          "description": "Name of the group."
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "GroupPermissionId": {
+          "type": "integer",
+          "description": "Specifies the ID of the group permission.",
+          "format":"int32"
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission."
+        },
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item."
+        }
+      }
+    },
+    "UserActivityLogResponseList":{
+      "type": "array",
+      "description": "User Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/UserActivityLogResponse"
+      }
+    },
+    "UserActivityLogResponse":{
+      "type": "object",
+      "description": "User Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "OldValue": {
+          "type": "string",
+          "description": "Specifies the value before update."
+        },
+        "NewValue": {
+          "type": "string",
+          "description": "Specifies the value after update."
+        },
+        "ActivityStatusId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the activity status.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "ActivityStatus": {
+          "type": "string",
+          "description": "Status of the activity.",
+          "enum":[
+            "Start",
+            "Success",
+            "Fail"
+          ]
+        },
+        "SourceTypeId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the source type.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "SourceType": {
+          "type": "string",
+          "description": "Specifies the source type.",
+          "enum":[
+            "Web",
+            "API",
+            "Schedule"
+          ]
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "ID of the user.",
+          "format":"int32"
+        },
+        "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        }
+      }
+    },
+    "UserPermissionActivityLogResponseList":{
+      "type": "array",
+      "description": "User Permission Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/UserPermissionActivityLogResponse"
+      }
+    },
+    "UserPermissionActivityLogResponse":{
+      "type": "object",
+      "description": "User Permission Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "UserPermissionId": {
+          "type": "string",
+          "description": "Specifies the ID of the user permission."
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Id of the item.",
+          "format":"guid"
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "ID of the user.",
+          "format":"int32"
+        },
+        "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission."
+        },
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item."
+        }
+      }
+    },
+    "CommentActivityLogResponseList":{
+      "type": "array",
+      "description": "Comment Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/CommentActivityLogResponse"
+      }
+    },
+    "CommentActivityLogResponse":{
+      "type": "object",
+      "description": "Comment Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "CommentId": {
+          "type": "integer",
+          "description": "ID of the comment.",
+          "format":"int32"
+        },
+        "Url": {
+          "type": "string",
+          "description": "Specifies the URL of the report."
+        },
+        "ParentCommentId": {
+          "type": "integer",
+          "description": "ID of the comment which is replied.",
+          "format":"int32"
+        },
+        "NotificationTo": {
+          "type": "integer",
+          "description": "ID of the user who receives notification.",
+          "format":"int32"
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "IsRead": {
+          "type": "boolean",
+          "description": "Returns true if comment was read."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        }
+      }
+    },
+    "ScheduleActivityLogResponseList":{
+      "type": "array",
+      "description": "Schedule Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/ScheduleActivityLogResponse"
+      }
+    },
+    "ScheduleActivityLogResponse":{
+      "type": "object",
+      "description": "Schedule Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Type of the item."
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Id of the item.",
+          "format":"guid"
+        },
+        "ExecutedDate": {
+          "type": "string",
+          "description": "Schedule executed date in date format.",
+          "format": "date-time"
+        },
+        "IsOnDemand": {
+          "type": "string",
+          "description": "Returns true if schedule is on-demand."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "ScheduleName": {
+          "type": "string",
+          "description": "Name of the schedule."
+        }
+      }
+    },
+    "SystemActivityLogResponseList":{
+      "type": "array",
+      "description": "System Settings Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/SystemActivityLogResponse"
+      }
+    },
+    "SystemActivityLogResponse":{
+      "type": "object",
+      "description": "System Settings Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "OldValue": {
+          "type": "string",
+          "description": "Specifies the value before update."
+        },
+        "NewValue": {
+          "type": "string",
+          "description": "Specifies the value after update."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "ActivityStatusId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the activity status.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "ActivityStatus": {
+          "type": "string",
+          "description": "Status of the activity.",
+          "enum":[
+            "Start",
+            "Success",
+            "Fail"
+          ]
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        }
+      }
+    },
+    "ItemActivityLogResponseList":{
+      "type": "array",
+      "description": "Item Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/ItemActivityLogResponse"
+      }
+    },
+    "ItemActivityLogResponse":{
+      "type": "object",
+      "description": "Item Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "SourceTypeId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the source type.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "SourceType": {
+          "type": "string",
+          "description": "Specifies the source type.",
+          "enum":[
+            "Web",
+            "API",
+            "Schedule"
+          ]
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Id of the item.",
+          "format":"guid"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Name of the item."
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Type of the item."
+        },
+        "ItemVersionId": {
+          "type": "string",
+          "description": "Specifies the version ID of the item."
+        },
+        "ParentId": {
+          "type": "string",
+          "description": "Specifies the category ID."
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Specifies the category name."
+        },
+        "FromCategoryId": {
+          "type": "string",
+          "description": "Specifies the source category ID."
+        },
+        "FromCategoryName": {
+          "type": "string",
+          "description": "Specifies the source category name."
+        },
+        "ToCategoryId": {
+          "type": "string",
+          "description": "Specifies the destination category ID."
+        },
+        "ToCategoryName": {
+          "type": "string",
+          "description": "Specifies the destination category name."
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "ActivityLogInfo": {
+          "type": "object",
+          "description": "Report Execution Information",
+          "properties":{
+            "TimeStart": {
+              "type": "string",
+              "description": "Date-Time at which the report starts to render.",
+              "format": "date-time"
+            },
+            "TimeEnd": {
+              "type": "string",
+              "description": "Date-Time at which the report stops to render.",
+              "format": "date-time"
+            },
+            "TimeDataRetrieval": {
+              "type": "integer",
+              "description": "Data retrieval time in milliseconds.",
+              "format":"int32"
+            },
+            "TimeProcessing": {
+              "type": "integer",
+              "description": "Data processing time in milliseconds.",
+              "format":"int32"
+            },
+            "RowCount": {
+              "type": "integer",
+              "description": "Specifies the number of rows retrieved.",
+              "format":"int32"
+            }
+          }
         }
       }
     }

@@ -15,3 +15,5 @@ You can learn more details about upgrading classic platform Report Server to Bol
 [Upgrade Syncfusion Report Server v4.x to Bold Reports](./../on-premises/upgrade-from-classic-platform/data-migration/)
 
 [Upgrade Bold Reports v1.x to latest](./../on-premises/upgrade-from-classic-platform/upgrade-bold-reports-from-v1.x-to-latest/)
+
+> **Note:** During the upgrade process, it is essential to grant all the required permissions to the user. Please ensure that users have the necessary [permissions](../../../administrator-guide/faq/what-are-the-database-permissions-required-to-set-up-bold-reports/).

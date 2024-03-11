@@ -28,7 +28,7 @@ Border properties can be used to add or customize the border around header, body
 
 The background color property can be used to set the background color of the header/body/footer sections.
 
-![Background color](/static/assets/on-premise/images/report-designer/report-items/properties-panel/body-background-color-picker.png)
+![Background color](/static/assets/on-premise/images/report-designer/report-items/properties-panel/body-background-color-picker.png '#width=350px')
 
 ### Background Image
 
@@ -40,19 +40,19 @@ Background image property can be used to display company logos, watermarks, or a
 
 Height property can be used to increase or decrease the height of the report header and footer area. This property is listed under the `General` category of header/footer properties in the properties panel.
 
-![Header and footer height property](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-footer-height.png)
+![Header and footer height property](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-footer-height.png '#width=350px')
 
 ### Print on first page
 
 Enable this option to display header/footer only on the first page of a report instead of every page.
 
-![Print on first page](/static/assets/on-premise/images/report-designer/report-items/properties-panel/print-on-page-property.png)
+![Print on first page](/static/assets/on-premise/images/report-designer/report-items/properties-panel/print-on-page-property.png '#width=350px')
 
 ### Print on last page
 
 Enable this option to display header/footer only on the last page of a report instead of every page.
 
-![Print on last page](/static/assets/on-premise/images/report-designer/report-items/properties-panel/print-on-last-page-property.png)
+![Print on last page](/static/assets/on-premise/images/report-designer/report-items/properties-panel/print-on-last-page-property.png '#width=350px')
 
 ## Body properties
 
@@ -60,6 +60,6 @@ Enable this option to display header/footer only on the last page of a report in
 
 Size property can be used to set the width and height of the report body area in the report design. This property is listed under the `Position` category of body properties in the properties panel.
 
-![Report body width and height](/static/assets/on-premise/images/report-designer/report-items/properties-panel/body-size-property.png)
+![Report body width and height](/static/assets/on-premise/images/report-designer/report-items/properties-panel/body-size-property.png '#width=350px')
 
 > The width of report header and footer will be same as the report body area.

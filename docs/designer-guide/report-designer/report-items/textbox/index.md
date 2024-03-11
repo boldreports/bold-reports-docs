@@ -11,11 +11,11 @@ TextBox can be used to display static text for titles, highlighting key informat
 ## Add a textbox to the report
 
 1. The textbox report item is listed in the item panel under the `Basic Items` category.
-![Textbox listed in item panel](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-in-item-panel.png)
+   ![Textbox listed in item panel](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-in-item-panel.png '#width=145px')
 2. Drag and drop the textbox report item into the design area from the item panel.
-![Drag and drop textbox report item into design area](/static/assets/on-premise/images/report-designer/report-items/textbox/drag-and-drop-textbox.png)
+   ![Drag and drop textbox report item into design area](/static/assets/on-premise/images/report-designer/report-items/textbox/drag-and-drop-textbox.png '#width=410px')
 3. Once you drop the textbox item into design area, respective textbox properties will be listed in the properties panel.
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-item-with-properties-view.png)
+   ![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-item-with-properties-view.png)
 
 ## Properties
 
@@ -45,19 +45,19 @@ The font family, font size, font color, font style, and font weight properties a
 
 Supported font family names are listed in the drop-down under `Basic Settings` category. To change the `Font Family` of the textbox, choose the required font family from the drop-down list.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-family-drop-down.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-family-drop-down.png '#width=355px')
 
 <span style="font-weight:bold">Font Color</span>
 
 To set font color for the content in the textbox, click on the color palette icon and choose the required color in the `Color Palette`
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-color-picker.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-color-picker.png '#width=355px')
 
 <span style="font-weight:bold">Font Size</span>
 
 Font size property allows you to increase the size of the text in the textbox. You can increase the font size using the numeric drop-down highlighted in below snap.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-size-numeric-drop-down.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-size-numeric-drop-down.png '#width=355px')
 
 <span style="font-weight:bold">Font Styles</span>
 
@@ -67,13 +67,13 @@ To change font style of the content in textbox, choose the required font style i
 * Normal
 * Italic
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-style-drop-down.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-style-drop-down.png '#width=355px')
 
 <span style="font-weight:bold">Font Weight</span>
 
 To change the font weight of the content in textbox, choose the required type of font weight property from the drop-down list.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-weight-property.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/font-weight-property.png '#width=355px')
 
 <span style="font-weight:bold">Text Decoration </span>
 
@@ -86,13 +86,13 @@ Text decoration property sets the appearance of decorative lines on text.
 
 Underline and Overline decorations are positioned under the text, line-through over it.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/text-decoration.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/text-decoration.png '#width=355px')
 
 <span style="font-weight:bold">Format </span>
 
 Format property is used format an entire text box or specific text, numbers, expressions, or fields within the text box. To open the format dialog click on the icon highlighted in the below snap or you can type the format directly in the textbox.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/format-button.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/format-button.png '#width=355px')
 
 To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** or **Custom** formats using format dialog follow the steps provided in [Format](./../../compose-report/format-data/#format) section.
 
@@ -100,7 +100,7 @@ To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percent
 
 You can specify a hyperlink inside the textbox content to link another report. Select the `Enable  Link` checkbox, to enable the sub properties.
 
-![Border width](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking.png)
+![Border width](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking.png '#width=355px')
 
 To set the hyperlink to a selected text or over all textbox follow the steps provided in [Linking](./../../compose-report/link-data/#report-linking) section.
 
@@ -114,25 +114,25 @@ The following properties are only specific to the over all textbox item:
 
 You can align the textbox content or specific content in a textbox using the `Text Alignment` property. Choose the respective text alignment property from the drop-down list to align the text in `Left`, `Right`, or `Center` positions.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/text-alignment-property.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/text-alignment-property.png '#width=355px')
 
 <span style="font-weight:bold">Vertical alignment</span>
 
 You can align the textbox content or specific content in a textbox in `Top`, `Middle`, and `Bottom` positions. Choose the required vertical alignment property from the drop-down list.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/vertical-alignment.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/vertical-alignment.png '#width=355px')
 
 <span style="font-weight:bold">Line height</span>
 
 Line height property is used to increase space between lines of a textbox. Increase or decrease the values in numeric dropdown to set the line height.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/line-height-property.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/line-height-property.png '#width=355px')
 
 #### Appearance
 
 The border style, color, width and background color properties are used to style the textbox and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
 
-![Textbox appearance settings](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-appearance.png)
+![Textbox appearance settings](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-appearance.png '#width=355px')
 
 <span style="font-weight:bold">Background color</span>
 
@@ -150,13 +150,13 @@ Position property is used to set the width, height, left and top position of the
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/textbox/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/textbox/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 You can assign a custom name for the textbox element using the `Name` field. The textbox will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/textbox/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/textbox/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -167,13 +167,13 @@ On exporting the report, the visibility of the textbox can be controlled using t
 * **Auto** or **Output** - Exports the textbox report item
 * **NoOutput** - Does not export the textbox report item
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/textbox/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/textbox/output-property.png '#width=355px')
 
 <span style="font-weight:bold">Style</span>
 
 The `Style` property can be used to set the export type of the textbox report item. Choosing **Auto** or **Element** style will export the textbox as an XML element. The **Attribute** style will export the textbox as an XML attribute.
 
-![Data element style property](/static/assets/on-premise/images/report-designer/report-items/textbox/style-property.png)
+![Data element style property](/static/assets/on-premise/images/report-designer/report-items/textbox/style-property.png '#width=355px')
 
 #### Visibility
 
@@ -181,7 +181,7 @@ Visibility property is used to conditionally show or hide the textbox report ite
 
 #### Miscellaneous
 
-![Visibility property](/static/assets/on-premise/images/report-designer/report-items/textbox/miscellenous-property.png)
+![Visibility property](/static/assets/on-premise/images/report-designer/report-items/textbox/miscellenous-property.png '#width=355px')
 
 <span style="font-weight:bold">Can Grow</span>
 
@@ -199,29 +199,39 @@ This property can be used to set the values for textbox custom properties. To cr
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for textbox report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
 
+<span style="font-weight:bold">Document Map</span>
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+<span style="font-weight:bold">Bookmark</span>
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
+
 #### Localization
 
 <span style="font-weight:bold">Direction</span>
 
 The **Direction** property can be used to configure the content rendering direction for textbox report item. On preview, content in the textbox will be rendered based on the provided direction. You can set either Right-To-Left or Left-To-Right direction.
 
-![Text direction](/static/assets/on-premise/images/report-designer/report-items/textbox/direction.png)
+![Text direction](/static/assets/on-premise/images/report-designer/report-items/textbox/direction.png '#width=355px')
 
 By default, content renders in Left-To-Right direction.
 
 **Left-To-Right** report preview:
 
-![Left-To-Right direction](/static/assets/on-premise/images/report-designer/report-items/textbox/left-to-right.png)
+![Left-To-Right direction](/static/assets/on-premise/images/report-designer/report-items/textbox/left-to-right.png '#width=410px')
 
 **Right-To-Left** report preview:
 
-![Right-To-Left direction](/static/assets/on-premise/images/report-designer/report-items/textbox/right-to-left.png)
+![Right-To-Left direction](/static/assets/on-premise/images/report-designer/report-items/textbox/right-to-left.png '#width=410px')
 
 <span style="font-weight:bold">Language</span>
 
 The **Language** property can be used to set the locale on a textbox which determines the default formats for displaying report data in textbox. Select the required language in the **Language** property dropdown.
 
-![Report Language](/static/assets/on-premise/images/report-designer/report-items/textbox/language.png)
+![Report Language](/static/assets/on-premise/images/report-designer/report-items/textbox/language.png '#width=385px')
 
 > The language property on a text box overrides the language property on the report.
 
@@ -231,7 +241,7 @@ The **Language** property can be used to set the locale on a textbox which deter
 
 Markup type property can be used to render the selected text as plain text or HTML-formatted text. Select the required text and choose the type in `Markup Type` property dropdown.
 
-![Textbox Markup Type](/static/assets/on-premise/images/report-designer/report-items/textbox/markup-type.png)
+![Textbox Markup Type](/static/assets/on-premise/images/report-designer/report-items/textbox/markup-type.png '#width=385px')
 
 **Plain Text** - Displays the selected text as simple text and the HTML will be treated as literal text.
 
@@ -239,25 +249,25 @@ Markup type property can be used to render the selected text as plain text or HT
 
 #### Paragraph Settings
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/paragraph-settings.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/paragraph-settings.png '#width=385px')
 
 <span style="font-weight:bold">Text Alignment</span>
 
 You can align the textbox content or specific content in a textbox using the `Text Alignment` property. Choose the required text alignment property from the drop-down list.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/paragraph-settings-text-alignment.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/paragraph-settings-text-alignment.png '#width=385px')
 
 <span style="font-weight:bold">Indent</span>
 
 To indent the text in the paragraph you can use this property. Increase/decrease the left and right indent in the text box using the numeric drop-down.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/indent-property.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/indent-property.png '#width=385px')
 
 <span style="font-weight:bold">Space</span>
 
 Using this property you can add space before and after the paragraphs in the textbox.
 
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/space-property.png)
+![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/space-property.png '#width=385px')
 
 ## Set expression
 

@@ -19,8 +19,8 @@ The user can upgrade or downgrade the reports between 2008, 2010 or 2016 RDL sch
 
 Follow the below steps to upgrade or downgrade the report using Bold Reports Designer,
 
-1. Launch Enterprise Server application and edit a target report.![Open report](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/open-report.png)
-2. Open [Report Properties](./../../compose-report/report-properties/). Under `Miscellaneous` category, choose the target version in `Version` property drop-down.![Choose version](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/choose-version.png)
+1. Launch Enterprise Server application and edit a target report.![Open report](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/open-report.png '#width=400px')
+2. Open [Report Properties](./../../compose-report/report-properties/). Under `Miscellaneous` category, choose the target version in `Version` property drop-down.![Choose version](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/choose-version.png '#width=350px')
 3. Now, save the report.
 
 ## Upgrading

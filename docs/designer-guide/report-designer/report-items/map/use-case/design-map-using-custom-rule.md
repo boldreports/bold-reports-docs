@@ -10,32 +10,32 @@ The following steps guides you to design a map using custom color rule and custo
 ## Create data set
 
 1. In the data panel, click `New Data`.
-![New data](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/new-data.png)
+   ![New data](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/new-data.png '#width=350px')
 2. Choose the `JSON` connection type.
-![JSON connection](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/sql-connection.png)
+   ![JSON connection](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/sql-connection.png '#width=350px')
 3. Choose `File` as `Type`.
-![Choose source type](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/type.png)
+   ![Choose source type](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/type.png '#width=425px')
 4. Click on the upload button, browse and upload the JSON file in `File Path` field.
-![Provide connection details](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/connection-details.png)
+   ![Provide connection details](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/connection-details.png '#width=380px')
 5. Click on the `Connect` button.
 6. In the query builder, the available fields in JSON file will be loaded under default table name, `Result`.
-![Enter query](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/query-designer.png)
+   ![Enter query](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/query-designer.png)
 7. Drag and drop the `Result` table and execute.
-![Execute table](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/execute-query.png)
+   ![Execute table](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/execute-query.png)
 8. Modify the data set `Name` and click Finish.
-![Data list](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/data-list.png)
+   ![Data list](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/data-list.png '#width=385px')
 
->Note: Download the sample JSON file from [here](https://www.syncfusion.com/downloads/support/directtrac/general/ze/World-GDP-Growth-JSON-185214165). This data is downloaded from [Data world bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
+> Note: Download the sample JSON file from [here](https://www.syncfusion.com/downloads/support/directtrac/general/ze/World-GDP-Growth-JSON-185214165). This data is downloaded from [Data world bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
 
 ## Add map to the report design
 
 The `Map` report item is listed under `Data Regions` category in the item panel.
 
-![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/map-listed-in-item-panel.png)
+![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/map-listed-in-item-panel.png '#width=175px')
 
 To add a `Map` report item to the report, drag the map from the item panel into design area.
 
-![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/drag-map-item.png)
+![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/drag-map-item.png '#width=350px')
 
 Now, the map item will be rendered in the design area and the map properties will be listed in properties panel.
 
@@ -47,14 +47,14 @@ Now, the map item will be rendered in the design area and the map properties wil
 
 In the Properties panel, under the **Basic Settings** category, choose the data set in the **DataSet** property.
 
-![Basic map rendering](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/assign-data.png)
+![Basic map rendering](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/assign-data.png '#width=385px')
 
 Then click on the edit icon for the [Binding Data](./../../../../report-items/map/binding-data/) property under **Basic Settings**.
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/binding-data-edit-icon.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/binding-data-edit-icon.png '#width=385px')
 
 Refer [Binding Data](./../../../../report-items/map/binding-data/) section and match analytical and shape data. Choose **name** in the **Field Name** drop-down and choose the **=Fields!Country.Value** expression in **Binding Expression**.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/match-field.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/match-field.png '#width=385px')
 
 Click on the Update.
 
@@ -66,38 +66,38 @@ Let’s customize the map title, legend, color settings, and other properties.
 
 Under the **Appearance** category, set the border width and color properties as required.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/border.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/border.png '#width=385px')
 
 ### Title
 
 Under the [Title](./../../properties/#title) category, set the title text, position, and font properties for the map title. First, enable the Enable Title check box. Then, add the title and position.
-![Title text](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/title.png)
+![Title text](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/title.png '#width=385px')
 
 ### Legend
 
 Under the [Legend](./../../properties/#legend) category, enable the **Enable Legend** check box. Set the background color as **White**, position **BottomCenter**, legend mode as **Interactive**, and set the `=Fields!IndicatorName.Value` as [expression](./../../../../compose-report/expressions/) for **Title**.
-![Legend](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/legend.png)
+![Legend](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/legend.png '#width=385px')
 
 ### Shape settings
 
 Under the [Shape Settings](./../../shape-settings/), set the border color as `#81808c` and width as `0.667px` and tooltip as `= Fields!Country.Value + " : "+ Round(Fields!GDP.Value, 3)` expression.
-![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/shape-settings.png)
+![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/shape-settings.png '#width=385px')
 
 ### Shape color rule
 
 Under [Shape color rule](./../../../../report-items/map/shape-color-rule/) category, enable the **Enable Color Rule** check box.
 * Choose the Sum(GDP) in **Data Value**.
-* Choose **Custom** as the Type. Refer [Custom colors](./../../../../report-items/map/custom-color-shape-rule/) section and set the color codes following colors in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png)
+* Choose **Custom** as the Type. Refer [Custom colors](./../../../../report-items/map/custom-color-shape-rule/) section and set the color codes following colors in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png '#width=385px')
 * Choose **Custom** for **Distribution** type. Indicate your own number of data ranges to decide the distribution of values.
-* Refer [Custom distribution](./../../../../report-items/map/custom-color-shape-rule/) section and define custom range as follows:![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-distribution.png)
+* Refer [Custom distribution](./../../../../report-items/map/custom-color-shape-rule/) section and define custom range as follows:![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-distribution.png '#width=385px')
 
 The shape color rule configuration should be as below,
 
-![shape-color-rule](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/shape-color-rule.png)
+![shape-color-rule](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/shape-color-rule.png '#width=385px')
 
 Now, the colors are applied to the map shapes but with sample data.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/initial-design.png)
+![Initial design](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/initial-design.png '#width=385px')
 
 To see the actual data on map surface, preview the report. Before that, resize the width and height of the map, so as to view the information clearly in preview.
 

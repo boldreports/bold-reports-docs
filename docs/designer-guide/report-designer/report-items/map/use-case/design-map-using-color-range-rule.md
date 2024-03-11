@@ -10,20 +10,20 @@ The following steps guides you to design a map using color range rule and optima
 ## Create data set
 
 1. In the data panel, click `New Data`.
-![New data](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/new-data.png)
+   ![New data](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/new-data.png '#width=350px')
 2. Choose the `JSON` connection type.
-![JSON connection](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/sql-connection.png)
+   ![JSON connection](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/sql-connection.png '#width=350px')
 3. Choose `File` as `Type`.
-![Choose source type](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/type.png)
+   ![Choose source type](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/type.png '#width=385px')
 4. Click on the upload button, browse and upload the JSON file in `File Path` field.
-![Provide connection details](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/connection-details.png)
+   ![Provide connection details](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/connection-details.png '#width=385px')
 5. Click on the `Connect` button.
 6. In the query builder, the available fields in JSON file will be loaded under default table name, `Result`.
-![Enter query](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/query-designer.png)
+   ![Enter query](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/query-designer.png)
 7. Drag and drop the `Result` table and execute.
-![Execute table](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/execute-query.png)
+   ![Execute table](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/execute-query.png)
 8. Modify the data set `Name` and click Finish.
-![Data list](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/data-list.png)
+   ![Data list](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/data-list.png '#width=385px')
 
 > Note: The population data we used here is an approximate measure. The live population data may vary from this. Download the sample JSON file from [here](https://www.syncfusion.com/downloads/support/directtrac/general/ze/World-population-JSON799813027).
 
@@ -31,11 +31,11 @@ The following steps guides you to design a map using color range rule and optima
 
 The `Map` report item is listed under `Data Regions` category in the item panel.
 
-![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/map-listed-in-item-panel.png)
+![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/map-listed-in-item-panel.png '#width=185px')
 
 To add a `Map` report item to the report, drag the map from the item panel into design area.
 
-![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/drag-map-item.png)
+![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/drag-map-item.png '#width=300px')
 
 Now, the map item will be rendered in the design area and the map properties will be listed in properties panel.
 
@@ -47,18 +47,18 @@ Now, the map item will be rendered in the design area and the map properties wil
 
 In the Properties panel, under the **Basic Settings** category, choose the data set in the **DataSet** property.
 
-![Basic map rendering](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/assign-data.png)
+![Basic map rendering](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/assign-data.png '#width=385px')
 
 Then click on the edit icon for the [Binding Data](./../../../../report-items/map/binding-data/) property under **Basic Settings**.
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/binding-data-edit-icon.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/binding-data-edit-icon.png '#width=385px')
 
 Refer [Binding Data](./../../../../report-items/map/binding-data/) section and match analytical and shape data. Choose **admin** in the **Field Name** drop-down and choose the **=Fields!Country.Value** expression in **Binding Expression**.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/match-field.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/match-field.png '#width=385px')
 
 Click on the Update.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/set-binding-fields.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/set-binding-fields.png '#width=385px')
 
 ## Customize map appearance
 
@@ -68,28 +68,28 @@ Let’s customize the map name, title, legend, color settings, and other propert
 
 In the **Name** property, you can provide a unique name for specific map report items.
 
-![Set name](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/set-name.png)
+![Set name](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/set-name.png '#width=385px')
 
 ### Appearance
 
 Under the **Appearance** category, set the border width and color properties as required.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/border.png)
+![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/border.png '#width=385px')
 
 ### Title
 
 Under the [Title](./../../../../report-items/map/properties/#title) category, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
-![Title text](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/title.png)
+![Title text](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/title.png '#width=385px')
 
 ### Legend
 
 Under the [Legend](./../../../../report-items/map/properties/#legend) category, enable the **Enable Legend** check box. Set the background color as **White**, position **BottomCenter**, and set the `Range` as **Title**.
-![Legend](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/legend.png)
+![Legend](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/legend.png '#width=385px')
 
 ### Shape settings
 
 Under the [Shape Settings](./../../../../report-items/map/shape-settings/), set the border color as `#08519c` and width as `1.152px` and tooltip as `=Fields!Country.Value & " : " & FormatNumber(Fields!Population.Value,0)` expression.
-![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/shape-settings.png)
+![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/shape-settings.png '#width=385px')
 
 ### Shape color rule
 
@@ -102,11 +102,11 @@ Under [Shape color rule](./../../../../report-items/map/shape-color-rule/) categ
 
 The shape color rule configuration should be as below,
 
-![shape-color-rule](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/shape-color-rule.png)
+![shape-color-rule](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/shape-color-rule.png '#width=385px')
 
 Now, the colors are applied to the map shapes but with sample data.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/initial-design.png)
+![Initial design](/static/assets/on-premise/images/report-designer/report-items/map/color-range-use-case/initial-design.png '#width=385px')
 
 To see the actual data on map surface, preview the report. Before that, resize the width and height of the map, so as to view the information clearly in preview.
 

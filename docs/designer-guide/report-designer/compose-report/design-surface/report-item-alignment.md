@@ -14,7 +14,7 @@ Bold Report Designer provides a set of interactive alignment options to improve 
 
 You can align the report items in design surface in left, center, right,  top, middle and bottom directions. To enable this options in the toolbar, you must select minimum two report items in the design surface.
 
-![Alignment options](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/align-options.png)
+![Alignment options](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/align-options.png '#width=250px')
 
 ### Left align
 
@@ -22,11 +22,11 @@ The selected items are aligned to left position based on the report item which h
 
 **Before aligning**:
 
-![Before left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png)
+![Before left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png '#width=250px')
 
 **After aligning**:
 
-![After left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-left-align.png)
+![After left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-left-align.png '#width=250px')
 
 ### Center align
 
@@ -34,11 +34,11 @@ The selected report items are aligned to center position based on the left-most 
 
 **Before aligning**:
 
-![Before left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png)
+![Before left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png '#width=250px')
 
 **After aligning**:
 
-![After left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-center-align.png)
+![After left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-center-align.png '#width=250px')
 
 ### Right align
 
@@ -46,11 +46,11 @@ The selected items are aligned to right position based on the report item which 
 
 **Before aligning**:
 
-![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png)
+![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png '#width=250px')
 
 **After aligning**:
 
-![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-right-align.png)
+![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-right-align.png '#width=250px')
 
 ### Top align
 
@@ -58,11 +58,11 @@ The selected items are aligned to top position based on the report item which ha
 
 **Before aligning**:
 
-![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png)
+![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png '#width=250px')
 
 **After aligning**:
 
-![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-top-align.png)
+![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-top-align.png '#width=250px')
 
 ### Middle align
 
@@ -70,11 +70,11 @@ The selected report items are aligned to middle position based on the top-most a
 
 **Before aligning**:
 
-![Before left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png)
+![Before left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png '#width=250px')
 
 **After aligning**:
 
-![After left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-middle-alignment.png)
+![After left align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-middle-alignment.png '#width=250px')
 
 ### Bottom align
 
@@ -82,11 +82,11 @@ The selected items are aligned to bottom position based on the report item which
 
 **Before aligning**:
 
-![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png)
+![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-left-align.png '#width=250px')
 
 **After aligning**:
 
-![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-bottom-align.png)
+![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-bottom-align.png '#width=250px')
 
 ### Center horizontally
 
@@ -94,11 +94,11 @@ Aligns the selected report items to the center position of the design surface or
 
 **Before aligning**:
 
-![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-center-horizontal-align.png)
+![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-center-horizontal-align.png '#width=300px')
 
 **After aligning**:
 
-![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-center-horizontal-align.png)
+![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-center-horizontal-align.png '#width=300px')
 
 ### Center vertically
 
@@ -106,17 +106,17 @@ Aligns the selected report items to the center position of the design surface or
 
 **Before aligning**:
 
-![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-center-vertical-align.png)
+![Before right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-center-vertical-align.png '#width=300px')
 
 **After aligning**:
 
-![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-center-vertical-align.png)
+![After right align](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-center-vertical-align.png '#width=300px')
 
 ## Distribute
 
 The Distribute option can be used to place the selected report items with equal spacing in both horizontal and vertical direction.
 
-![Distribute Report Items](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/distribution.png)
+![Distribute Report Items](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/distribution.png '#width=300px')
 
 ### Horizontally
 
@@ -124,11 +124,11 @@ The horizontal option distributes the report items in the design surface with eq
 
 **Before aligning**:
 
-![Before horizontal distribution](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-distribution.png)
+![Before horizontal distribution](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-distribution.png '#width=300px')
 
 **After aligning**:
 
-![After horizontal distribution](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-horizontal-distribution.png)
+![After horizontal distribution](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-horizontal-distribution.png '#width=300px')
 
 ### Vertically
 
@@ -136,17 +136,17 @@ The vertical option distributes the report items in the design surface with equa
 
 **Before aligning**:
 
-![Before vertical distribution](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-vertical-distribution.png)
+![Before vertical distribution](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/before-vertical-distribution.png '#width=300px')
 
 **After aligning**:
 
-![After vertical distribution](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-vertical-distribution.png)
+![After vertical distribution](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/after-vertical-distribution.png '#width=300px')
 
 ## Sizing
 
 Sizing option can be used to provide equal sizing for the selected report items in the design surface.
 
-![Sizing](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/sizing-report-item.png)
+![Sizing](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/sizing-report-item.png '#width=300px')
 
 ### Same size
 
@@ -164,10 +164,10 @@ Resizes the width of the selected report items to the width of the first selecte
 
 Snaps the top left of the selected report items to the closest grid line in the design surface.
 
-![Align to grid](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/align-to-grid.png)
+![Align to grid](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/align-to-grid.png '#width=250px')
 
 ## Size to grid
 
 Snaps the selected report item to the closest gridline by resizing the report item on all four sides.
 
-![Size to grid](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/size-to-grid.png)
+![Size to grid](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/size-to-grid.png '#width=250px')

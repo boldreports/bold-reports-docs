@@ -12,7 +12,7 @@ The supported chart types are listed in the itempanel under the following catego
 * Proportion
 * Distribution
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-types-in-item-panel.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-types-in-item-panel.png '#width=225px')
 
 Choose an appropriate chart type, based on the type of data you are presenting.
 
@@ -25,6 +25,7 @@ Choose an appropriate chart type, based on the type of data you are presenting.
 | Column                |Column Chart allows you to compare values for a set of unordered items across categories through vertical bars ordered horizontally.|
 | StackedColumn         |Stacked Column Chart allows you to compare multiple measures through bars stacked one after the other vertically.|
 | StackedColumnPercent  |100% Stacked Column Chart allows you to compare multiple measures through bars stacked one after the other vertically.|
+| RangeColumn           |Range Column Chart displays information as a range of data by plotting two Y-values (low and high) per data point.|
 
 ### Bar
 
@@ -33,6 +34,7 @@ Choose an appropriate chart type, based on the type of data you are presenting.
 | Bar                   |Bar Chart allows you to compare values for a set of unordered items across categories through horizontal bars ordered vertically.|
 | StackedBar            |Stacked Bar Chart allows you to compare multiple measures through bars stacked one after the other horizontally.|
 | StackedBarPercent     |100% Stacked Bar Chart allows you to compare multiple measures through bars stacked one after the other horizontally.|
+| RangeBar              | Range Bar Chart allows you to describe start and end value in a bar chart.|
 
 ## Proportion
 
@@ -61,6 +63,8 @@ Choose an appropriate chart type, based on the type of data you are presenting.
 | SmoothArea            |An area chart where the data points are connected by a smooth line instead of a regular line. Compares the distribution of values over a time period connected using the smooth lines.|
 | StackedArea           |Stacked Area Chart allows you to compare multiple measures through filled curves stacked one after the other vertically.|
 | StackedAreaPercent    |100% Stacked Area Chart allows you to compare multiple measures through filled curves stacked one after the other vertically.|
+| RangeArea             |Range Area Chart displays information as a range of data by plotting two Y-values (low and high) per data point.|
+| SmoothRangeAreaChart  |Smooth Range Area Chart is a range area chart in which data points are connected by smooth curves. It displays information as a range of data by plotting two Y-values (low and high) per data point.
 
 ### Line
 

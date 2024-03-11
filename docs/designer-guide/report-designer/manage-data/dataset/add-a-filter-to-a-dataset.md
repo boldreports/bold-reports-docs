@@ -15,11 +15,11 @@ Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#c
 ## Apply filters at dataset level
 
 1. Select a data in the `DATA` panel to which you want to apply filter.
-![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png)
+   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=355px')
 2. Click the above highlighted icon to open the filter menu for the selected data.
-![Dataset filter menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-context-menu.png)
+   ![Dataset filter menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-context-menu.png '#width=355px')
 3. Click on `Filter...` option in the context menu, it will launch the filter dialog like below.
-![Filter dialog](/static/assets/on-premise/images/report-designer/manage-data/dataset/filters-dialog.png)
+   ![Filter dialog](/static/assets/on-premise/images/report-designer/manage-data/dataset/filters-dialog.png '#width=345px')
 
 ### Add filters
 
@@ -38,7 +38,7 @@ Refer [Remove filter](./../../../compose-report/filter-data/#remove-filters) sec
 We can filter the `ProductID` field values at dataset level like below.
 
 1. Create a filter equation as in the below snap, and click `OK`.
-![Filter equation for product id field](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-product-id-field.png)
+   ![Filter equation for product id field](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-product-id-field.png '#width=355px')
 2. Now, assign the dataset to the `Table` report item. Refer [Design a basic table report](./../../../design-rdl-report-in-web-report-designer/) section.
 3. Preview the report. Observe the below snap, it displays the records for `ProductID` value **712** based on the filter equation.
-![Preview output for dataset filters](/static/assets/on-premise/images/report-designer/manage-data/dataset/dataset-filter-preview.png)
+   ![Preview output for dataset filters](/static/assets/on-premise/images/report-designer/manage-data/dataset/dataset-filter-preview.png '#width=410px')

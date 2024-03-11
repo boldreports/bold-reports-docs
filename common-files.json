@@ -1,0 +1,31 @@
+{
+    "cloud-docs": [
+        {
+            "src": "administrator-guide/manage-app-settings/cors-settings.md",
+            "dest": "administrator-guide/manage-app-settings/",
+            "frontmatter": {
+                "title": " Configure Cross-Origin Resource Sharing in Bold Reports",
+                "description": "Learn about how to configure CORS(Cross-Origin Resource Sharing) settings and how to customize it in Bold Reports embedded application."
+            }
+            
+        },
+        {
+            "src": "administrator-guide/manage-app-settings/content-security-policy.md",
+            "dest": "administrator-guide/manage-app-settings/",
+            "frontmatter": {
+                "title": " Configure Content Security Policy | Bold Reports on-premise",
+                "description": "Learn about how to configure Content Security Policy (CSP) settings to secure sites in the Bold Reports embedded application."
+            }
+            
+        },
+        {
+            "src": "administrator-guide/manage-app-settings/x-frame-options.md",
+            "dest": "administrator-guide/manage-app-settings/",
+            "frontmatter": {
+                "title": " Configure X-Frame-Options | Bold Reports on-premise",
+                "description": "Learn about how to enable X-Frame-Options and restrict pages rendering in a frame to the current domain to secure sites in the Bold Reports embedded application."
+            }
+            
+        }
+    ]
+}

@@ -8,11 +8,11 @@ documentation: ug
 
 # Manage users and Groups
 
-User is an individual who has access to Bold Reports Report Server reports, dataset, data source, schedule based on permission.
+A User is an individual who has access to Bold Reports Report Server reports, datasets, data sources, and schedules based on permission.
 
-Group is a collection of users who has access to Bold Reports Report Server reports, dataset, data source, schedule based on permission.
+A Group is a collection of users who have access to Bold Reports Report Server reports, datasets, data sources, schedules based on permission.
 
-You can learn more details about users and groups from the following sections:
+You can learn more details about users and groups in the following sections:
 
 * [Users](./../manage-users/users/)
 

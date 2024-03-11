@@ -8,7 +8,7 @@ keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, do
 
 Tablix report item is used to display paginated report data from a dataset in cells that are organized into rows and columns. It is the combination of `Table`, `Matrix`, and `List` report items `(Table + Matrix + List = Tablix)`. The `Tablix` report items are listed under `Data Regions` category in the item panel.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/item-panel-initial-view.png)
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/item-panel-initial-view.png '#width=185px')
 
 > Matrix report item is not provided as separate report item. The table report item can be used to create a matrix layout.
 
@@ -18,19 +18,19 @@ The following section explains about these report items.
 
 Table can be used to display data in tabular format. A simple table design contains a table header row, and a details row with three columns. Table can have only row groups.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/table-initial-design.png)
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/table-initial-design.png '#width=355px')
 
 ## Matrix
 
 Matrix can be used to display summarized data. It can have row groups and column groups. A simple matrix design contains a row group, a column group, a corner cell, and a data cell.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-matrix-design.png)
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-matrix-design.png '#width=355px')
 
 ## List
 
 List report item can be used to create free-form layouts. It acts as a container to place multiple report items side by side to design a free-form layout.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-list-design.png)
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-list-design.png '#width=185px')
 
 ## Tablix sections
 
@@ -43,7 +43,7 @@ Tablix data region can be classified into four sections:
 
  The following snap shows the areas for a tablix region with nested row groups and column groups
 
-![Tablix areas](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-areas.png)
+![Tablix areas](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-areas.png '#width=410px')
 
 > The tablix body area always exists in the tablix data region. The other areas are optional.
 
@@ -53,7 +53,7 @@ When you select a tablix cell, row and column grippers and group indicators insi
 
 The following snap shows a matrix with both row and column groups, and a total row and a total column.
 
-![Groups and total ](/static/assets/on-premise/images/report-designer/report-items/tablix/groups-and-total-sketch.png)
+![Groups and total ](/static/assets/on-premise/images/report-designer/report-items/tablix/groups-and-total-sketch.png '#width=410px')
 
 ## Properties
 
@@ -61,7 +61,7 @@ Refer the [Properties panel](./../../compose-report/properties-panel/) section b
 
 ### Data
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/data-category-property.png)
+![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/data-category-property.png '#width=385px')
 
 #### Dataset
 
@@ -69,7 +69,7 @@ This property is used to assign the dataset to the tablix. The available dataset
 
 > Each tablix report item can only show data from one dataset.
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/dataset-drop-down-view.png)
+![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/dataset-drop-down-view.png '#width=385px')
 
 > Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
 
@@ -77,7 +77,7 @@ This property is used to assign the dataset to the tablix. The available dataset
 
 Filters is used to filter the data in the tablix. To open the `Filter` dialog, click on the `Set Filters...` button. Now, the filter dialog will be opened like below.
 
-![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
+![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png '#width=385px')
 
 Refer [Filter Data](./../../compose-report/filter-data/) section to add/remove filters in the filter dialog.
 
@@ -85,7 +85,7 @@ Refer [Filter Data](./../../compose-report/filter-data/) section to add/remove f
 
 To sort the numeric or string field in the tablix, sorting can be used. In tablix, the sorting can be applied to the whole data region or for each group, including the details group. To open the sort dialog, click on the `Set Sorts...` button. Now, the sort dialog will be opened like below.
 
-![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
+![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png '#width=385px')
 
 Refer [Sort Data](./../../compose-report/sort-data/) section to add/remove sort expressions in the sort dialog.
 
@@ -105,29 +105,29 @@ Using the background color property you can color the tablix background. To set 
 
 Page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for tablix report item.
 
-![Tablix keep together](/static/assets/on-premise/images/report-designer/report-items/tablix/page-break.png)
+![Tablix keep together](/static/assets/on-premise/images/report-designer/report-items/tablix/page-break.png '#width=385px')
 
 #### Break location
 
 The Break Location property specifies where the page break should occur. Choose the required `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/tablix/break-location-types.png)
+![Break location](/static/assets/on-premise/images/report-designer/report-items/tablix/break-location-types.png '#width=385px')
 
 #### Page number reset
 
 To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/tablix/page-number-reset.png)
+![Reset page number](/static/assets/on-premise/images/report-designer/report-items/tablix/page-number-reset.png '#width=385px')
 
 #### Keep together
 
 Enable this checkbox, to keep the entire tablix together on one page if possible.
 
-![Keep together tablix](/static/assets/on-premise/images/report-designer/report-items/tablix/keep-together.png)
+![Keep together tablix](/static/assets/on-premise/images/report-designer/report-items/tablix/keep-together.png '#width=385px')
 
 ### Headers
 
 Headers property can used to configure the tablix row and column headers behaviour when previewing the report.
 
-![Tablix headers](/static/assets/on-premise/images/report-designer/report-items/tablix/headers.png)
+![Tablix headers](/static/assets/on-premise/images/report-designer/report-items/tablix/headers.png '#width=385px')
 
 <span style="font-weight:bold">Fixed Row</span>
 
@@ -149,17 +149,25 @@ Repeat column property can be used to show the column header on every single pag
 
 Position property is used to set the width, height, left and top position of the tablix in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.
 
+### No Rows
+
+No Rows property is used to display static text when dataset results with a empty or zero rows at run time.
+
+![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/no-rows.png '#width=315px')
+
+To set/reset no data message properties, refer [No Rows](./no-rows-message/) property section.
+
 ### Data Element
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 You can assign a custom name for the tablix element using the `Name` field. The tablix will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -170,7 +178,7 @@ On exporting the report, the visibility of the tablix can be controlled using th
 * **Auto** or **Output** - Exports the tablix report item
 * **NoOutput** - Does not export the tablix report item
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -182,13 +190,25 @@ Visibility property is used to conditionally show or hide the tablix report item
 
 The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/tablix/page-name.png)
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/tablix/page-name.png '#width=355px')
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 #### Custom attributes
 
 This property can be used to set the values for tablix custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
+
+You can set the static or dynamic text as value for bookmark property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 #### Tooltip
 

@@ -7,7 +7,7 @@ description: This section describes how to define a color rule for Map Report It
 
 The shape color rule properties can be used to define color filling rules for map shapes/polygons with a user specified number of ranges. The shape color rules plays major role when designing choropleth maps.
 
-![Map Shape](/static/assets/on-premise/images/report-designer/report-items/map/shape-settings/sketch.png)
+![Map Shape](/static/assets/on-premise/images/report-designer/report-items/map/shape-settings/sketch.png '#width=385px')
 
 ## Rules
 
@@ -29,7 +29,7 @@ Shape color rules can be applied once you match the map shapes based on shape da
 
 These properties are listed under **Shape Color Rule** in the map properties. To enable/disable shape color rule in the map surface, toggle the `Enable Color Rule` checkbox.
 
-![Map Shape properties](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/initial.png)
+![Map Shape properties](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/initial.png '#width=550px')
 
 Once you enable the shape color rule, other properties required for defining shape color rule will start displaying under **Shape Color Rule** category and by default **Color Range** type will be applied on the map surface as shown below,
 
@@ -39,16 +39,16 @@ Once you enable the shape color rule, other properties required for defining sha
 
 The data value field will list the available shape data fields and analytical data fields depending on the source of shape data and analytical data in the report.
 
-![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/data-value.png)
+![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/data-value.png '#width=355px')
 
 For example, to display population of each country on a map, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/data-value-expression.png)
+![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/data-value-expression.png '#width=355px')
 
 ### Type
 
 As explained earlier, the map shape color rule has three types of color rules: Color Range, Color Palette, and Custom. These options are listed in the **Type** drop-down,
 
-![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/types.png)
+![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/types.png '#width=355px')
 
 Refer following sections to learn about each shape color rule,
 
@@ -60,11 +60,11 @@ Refer following sections to learn about each shape color rule,
 
 The color distribution options govern the way colors are visualized on the map surface. Once you set value for `Data Value` property, the properties required to configure distribution type will start displaying under shape color rule category,
 
-![Map distribution properties](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-properties.png)
+![Map distribution properties](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-properties.png '#width=355px')
 
 These options are listed in the **Distribution Type** drop-down,
 
-![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-types.png)
+![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-types.png '#width=355px')
 
 Refer the following sections to design map using each distribution type,
 

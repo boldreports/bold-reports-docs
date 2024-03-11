@@ -14,9 +14,9 @@ To present data in the list format, create a dataset and bind data to the list d
 
 ```sql
 SELECT Emp.Photo as Photo, Emp.FirstName, Emp.LastName,
-(DATENAME(WEEKDAY,Emp.BirthDate)+', '+ DATENAME(DAY,Emp.BirthDate)+' '+DATENAME(MONTH,Emp.BirthDate)+' '+DATENAME(YEAR,Emp.BirthDate)) as BirthDate,
+(DATENAME(WEEKDAY,Emp.BirthDate)+', '+ DATENAME(DAY,Emp.BirthDate)+'+DATENAME(MONTH,Emp.BirthDate)+'+DATENAME(YEAR,Emp.BirthDate)) as BirthDate,
 Emp.Address, Emp.Title, Emp.Region, Emp.City, Emp.Country, Emp.TitleOfCourtesy, Rep.FirstName as ReportingFirstName, Rep.LastName as ReportingLastName,
-(DATENAME(WEEKDAY,Emp.HireDate)+', '+DATENAME(DAY,Emp.HireDate)+' '+DATENAME(MONTH,Emp.HireDate)+' '+DATENAME(YEAR,Emp.HireDate))as HireDate,
+(DATENAME(WEEKDAY,Emp.HireDate)+', '+DATENAME(DAY,Emp.HireDate)+'+DATENAME(MONTH,Emp.HireDate)+'+DATENAME(YEAR,Emp.HireDate))as HireDate,
 Emp.Notes, Emp.HomePhone    FROM  Employees Emp INNER JOIN Employees Rep ON Rep.EmployeeID=emp.ReportsTo
 
 ```
@@ -26,19 +26,19 @@ Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#c
 ## Configure a list
 
 1. The list report item is listed in the item panel under the `Data Regions` category.
-![List item listed in item panel](/static/assets/on-premise/images/report-designer/report-items/list/item-panel-view.png)
+   ![List item listed in item panel](/static/assets/on-premise/images/report-designer/report-items/list/item-panel-view.png '#width=165px')
 2. Drag and drop the list report item into the design area from the item panel.
-![Drag and drop list report item into design area](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-list.png)
+   ![Drag and drop list report item into design area](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-list.png '#width=395px')
 3. Respective list properties will be listed in the properties panel.
-![List item with properties view](/static/assets/on-premise/images/report-designer/report-items/list/list-item-with-properties-view.png)
+   ![List item with properties view](/static/assets/on-premise/images/report-designer/report-items/list/list-item-with-properties-view.png)
 4. In the `DataSet` drop-down list choose the required dataset.
-![Assign dataset](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset.png)
+   ![Assign dataset](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset.png '#width=385px')
 
 ## Initial design
 
 Once you drop the list item, the `Table` renders with a single cell in a row associated with the detail group in the design area. By default, the cell contains a rectangle that acts as a container.
 
-![List basic view](/static/assets/on-premise/images/report-designer/report-items/list/list-basic-view.png)
+![List basic view](/static/assets/on-premise/images/report-designer/report-items/list/list-basic-view.png '#width=245px')
 
 > The cell in a list contains a rectangle. You can replace a default report item in a cell with any other report item.
 
@@ -47,34 +47,34 @@ Once you drop the list item, the `Table` renders with a single cell in a row ass
 In list data regions, you can place the report items anywhere instead of being limited to a table layout. To create a mail merge template place the images, rectangles and textboxes inside of the list report item in a free-form manner.
 
 1. Drag and drop two rectangle report items inside the list, to display the employee image and personal details side-by-side. Resize the list report item width and height to the required size.
-![Add rectangle item](/static/assets/on-premise/images/report-designer/report-items/list/add-rectangle-item.png)
+   ![Add rectangle item](/static/assets/on-premise/images/report-designer/report-items/list/add-rectangle-item.png '#width=425px')
 2. Then, drag and drop the image item in the left rectangle to display the employee image in the report.
-![Add image item](/static/assets/on-premise/images/report-designer/report-items/list/add-image-item.png)
+   ![Add image item](/static/assets/on-premise/images/report-designer/report-items/list/add-image-item.png)
 3. Bind the `Photo` field from the database to the image item.
-![Bind data to the image](/static/assets/on-premise/images/report-designer/report-items/list/bind-data-to-the-image.png)
+   ![Bind data to the image](/static/assets/on-premise/images/report-designer/report-items/list/bind-data-to-the-image.png '#width=355px')
 4. To display the employee name, add textbox in the bottom position of image report item.
-![Add textbox item](/static/assets/on-premise/images/report-designer/report-items/list/add-textbox-item.png)
+   ![Add textbox item](/static/assets/on-premise/images/report-designer/report-items/list/add-textbox-item.png)
 5. Now, right click in the textbox and click on `Expression` option.
-![Assign expression in textbox](/static/assets/on-premise/images/report-designer/report-items/list/open-textbox-menu.png)
+   ![Assign expression in textbox](/static/assets/on-premise/images/report-designer/report-items/list/open-textbox-menu.png '#width=355px')
 6. In the expression editor, choose `FirstName` field from the dataset.
-![Bind data to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset-field-in-textbox.png)
+   ![Bind data to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset-field-in-textbox.png '#width=550px')
 7. Similarly, assign `LastName` field and create another expression. Then, customize the text appearance using the textbox properties in properties panel.
-![Bind data field to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-expression-in-textbox.png)
+   ![Bind data field to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-expression-in-textbox.png)
    > Refer [Display dynamic text using expression](./../../../report-items/textbox/design-rdl-report-using-textbox/#display-dynamic-text-using-expression) section to assign expression in textbox report item.
 8. To display other employee details place other report items in the list item. In the below snap, the employee information are placed in the textboxes and the values are bound as expression to fetch dynamic data from the database.
-![Mail merge template](/static/assets/on-premise/images/report-designer/report-items/list/mail-merge-template.png)
+   ![Mail merge template](/static/assets/on-premise/images/report-designer/report-items/list/mail-merge-template.png)
 9. On report preview, each employee details will be displayed as list. To separate the each employee information you can drag and drop a line report item in the inside bottom position of the list cell.
-![Mail merge template](/static/assets/on-premise/images/report-designer/report-items/list/add-line-report-item.png)
+   ![Mail merge template](/static/assets/on-premise/images/report-designer/report-items/list/add-line-report-item.png)
 
 ## Report header
 
 1. Enable the  report `Header` to add a title to the report.
-![Enable header tag](/static/assets/on-premise/images/report-designer/report-items/list/enable-header-tag.png)
+   ![Enable header tag](/static/assets/on-premise/images/report-designer/report-items/list/enable-header-tag.png '#width=200px')
    > Refer [Show or hide header and footer](./../../../compose-report/show-or-hide-header-footer-in-report/) section to add or remove header/footer in the report
 2. Now, add a rectangle report item in the report header area and a textbox within the rectangle.
-![Add report items in header area](/static/assets/on-premise/images/report-designer/report-items/list/add-report-items-in-header-area.png)
+   ![Add report items in header area](/static/assets/on-premise/images/report-designer/report-items/list/add-report-items-in-header-area.png)
 3. Set the report title text in the textbox and customize the appearance of the title using the textbox and rectangle properties in properties panel as required.
-![Report title text](/static/assets/on-premise/images/report-designer/report-items/list/report-title-text.png)
+   ![Report title text](/static/assets/on-premise/images/report-designer/report-items/list/report-title-text.png)
 
 ## Final design
 

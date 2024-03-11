@@ -6,7 +6,7 @@ keywords: report-platform
 
 # How to export the Report using API from the postman
 
-Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV and Word) in the request body. The response will be in an array of bytes.
+Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Word) in the request body. The response will be in an array of bytes.
 
  1. Open the `Postman` application and create a new `POST` Http request.
  2. First, you need to generate the [access token](../generate-access-token-for-bold-reports-server-using-api/).

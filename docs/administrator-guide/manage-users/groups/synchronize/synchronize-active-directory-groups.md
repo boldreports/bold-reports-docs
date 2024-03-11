@@ -8,32 +8,34 @@ documentation: ug
 
 # Synchronize Active Directory Group
 
-This section explains how to synchronize the imported Active Directory groups and its users with the Active Directory.
+This section explains the process of synchronizing the imported Active Directory groups and their users with the Active Directory.
 
-> Before synchronizing the Active Directory groups, follow the given steps:
+> Before synchronizing the Active Directory groups, follow these steps:
 > * Configure the [Active Directory Settings](./../../../../manage-app-settings/active-directory/).
-> * [Import Active Directory Groups](./../../import-groups/import-active-directory-groups/) to the Bold Reports On-Premise.
+> * [Import Active Directory Groups](./../../import-groups/import-active-directory-groups/) into Bold Reports On-Premise.
 
-Navigate to the user synchronization page from users page by clicking the `Active Directory Synchronization` button as shown in the following image.
+You can navigate to the group synchronization page from the groups page.
 ![Active Directory synchronization button selection](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-active-directory-groups/active-directory-synchronization.png)
 
 ## Synchronize groups
 
-Already imported Active Directory groups are displayed in a grid as shown in the following image.
+Bold Reports Server will display a list of Active Directory groups that have already been imported.
 ![Active Directory imported group list](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-active-directory-groups/active-direcory-group-list.png)
 
-Choose the groups you want to synchronize and click `Synchronize` at the top.
+Select the groups you wish to synchronize, and click on `Synchronize` located at the top right corner.
 ![Active Directory group synchronize button](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-active-directory-groups/synchronize-button.png)
 
 ### Synchronization procedure
 
-* The group details such as name and description are synchronized with the Active Directory Server.
-* Report Server will delete the group if the group has deleted from the Active Directory Server.
-* Deletes the user from Report Server group, if the user has been deleted from Active Directory Server group. Adds the user into Report Server, if a new user is added into the Active Directory group. If the new user is not present in the Report Server, then a new user account will be created and added into the group.
-* After synchronization completes, the number of groups modified, deleted, and duplicated will be shown in the success message box.
+* The group details, such as name and description, are synchronized with the Active Directory Server.
+* The Bold Report Server will delete the group if it has been deleted from the Active Directory Server.
+* The Bold Reports Server will remove a user from the server group if the user has been deleted from the Active Directory Server group. Additionally, if a new user is added to the Active Directory group, the Bold Reports Server will add the user to the server group. If the new user is not already present in the Bold Reports Server, a new user account will be created and added to the group.
+
+* After synchronization completes, the success message box will display the number of groups modified, deleted, and duplicated.
 ![Synchronization confirmation window](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-active-directory-groups/group-synchronization-success.png)
 
 ## Duplicate groups
 
-Groups with same group name as that of the Report Server groups(which is are already present) will be marked as duplicate group. It will not be allowed to synchronize into Active Directory.
+Active Directory groups with the same group name as those of the Bold Reports Server groups (which are already present) will be identified as duplicate groups and will not be allowed to synchronize with Active Directory.
+
 ![Displays duplicated groups in synchronization](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-active-directory-groups/highlight-duplicate-group.png)

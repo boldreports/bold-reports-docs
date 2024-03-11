@@ -15,20 +15,20 @@ You can add a column in two ways:
 By selecting respective column,
 
 1. Right-click on a column gripper where you want to insert a column.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/right-click-and-open-menu-to-insert-column.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/right-click-and-open-menu-to-insert-column.png '#width=315px')
 2. Click on `Insert Column` and then click `Left` or `Right`.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-menu-options.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-menu-options.png '#width=315px')
 
 By selecting a respective cell,
 
 1. Right-click a cell in the tablix where you want to insert a column.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/open-cell-menu-to-insert-column.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/open-cell-menu-to-insert-column.png '#width=355px')
 2. Click on `Insert Column` and then click `Left` or `Right`.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-menu-options-in-cell.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-menu-options-in-cell.png '#width=355px')
 
 Now, a new column will be added above or below of the target column.
 
-![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-output.png)
+![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-output.png '#width=315px')
 
 ## Insert a column in a group
 
@@ -37,27 +37,27 @@ You can add a column in a group in two ways:
 By selecting respective row,
 
 1. Right-click on a column group gripper where you want to insert a column.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/right-click-and-open-menu-to-insert-column-in-a-column-group.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/right-click-and-open-menu-to-insert-column-in-a-column-group.png '#width=355px')
 2. Click on `Insert Column`.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-in-a-column-group-menu-options.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-in-a-column-group-menu-options.png '#width=355px')
 
 By selecting a respective cell,
 
 1. Right-click a column group cell  in the tablix where you want to insert a column.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/open-cell-menu-to-insert-column-in-a-group.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/open-cell-menu-to-insert-column-in-a-group.png '#width=355px')
 2. Click on `Insert Column`
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-in-group-menu-options-in-cell.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-in-group-menu-options-in-cell.png '#width=355px')
 
 The following options will be listed in the `Insert Column` menu.
 
 1. **Inside Group - Left** - A new column is added inside the target group but in the left position. In the below snap, the `Grouping Indicator` denotes that the column is added inside the group.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-inside-group-left.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-inside-group-left.png '#width=315px')
 2. **Inside Group - Right** - A new column is added inside the target group but in the right position. In the below snap, the `Grouping Indicator` denotes that the column is added inside the group.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-inside-group-right.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-inside-group-right.png '#width=315px')
 3. **Outside Group - Left** - A new column is added outside of the target group but in the left position. In the below snap, notice that the `Grouping Indicator` is shown only for the target group.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-outside-group-left.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-outside-group-left.png '#width=315px')
 4. **Outside Group - Right** - A new column is added outside of the target group but in the right position. In the below snap, notice that the `Grouping Indicator` is shown only for the target group.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-outside-group-right.png)
+   ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-column-outside-group-right.png '#width=315px')
 
 ## Delete a column
 
@@ -66,27 +66,27 @@ You can delete a column in two ways:
 By selecting respective column,
 
 1. Select a column that you want to delete.
-![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/select-a-column-to-delete.png)
+   ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/select-a-column-to-delete.png '#width=315px')
 2. Right-click on the column gripper of the respective column.
-![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/open-delete-menu-of-selected-column.png)
+   ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/open-delete-menu-of-selected-column.png '#width=315px')
 3. Then click on the `Delete Columns` in the context menu.
 
 By selecting a respective cell,
 
 1. Right-click a cell in the tablix where you want to delete a column.
-![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/open-delete-menu-of-selected-cell-to-delete-column.png)
+   ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/open-delete-menu-of-selected-cell-to-delete-column.png '#width=355px')
 2. Then click on the `Delete Columns` in the context menu.
 
 Now, a selected column will be deleted from the tablix.
 
-![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-column-ouput.png)
+![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-column-ouput.png '#width=315px')
 
 ## Delete a column from a group
 
 1. Right-click a column group cell in the column group of a tablix.
-![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/open-delete-menu-of-selected-cell-column-group.png)
+   ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/open-delete-menu-of-selected-cell-column-group.png '#width=355px')
 2. Then click `Delete Columns`.
 
 Now, a selected column will be deleted from the tablix.
 
-![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-column-group-ouput.png)
+![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-column-group-ouput.png '#width=315px')

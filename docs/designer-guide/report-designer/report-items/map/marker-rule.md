@@ -13,57 +13,57 @@ Marker rule can be applied when you have matched the map shapes based on shape d
 
 These properties are listed under **Marker Rule** in the map properties. To enable/disable marker rule in the map surface, toggle the `Enable Marker Rule` checkbox.
 
-![Map Rule properties](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/initial.png)
+![Map Rule properties](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/initial.png '#width=355px')
 
 Once you enable the marker rule, other properties required for defining marker styles will start displaying under **Marker Rule** category.
 
-![Map marker rule](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/enable-marker-rule.png)
+![Map marker rule](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/enable-marker-rule.png '#width=355px')
 
 ### Markers
 
 This option can be used to define any number of marker style sets based on your desired output. To define marker styles, follow these steps:
 
 1. Click on the edit icon for the `Markers` property.
-![Markers style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/edit-icon.png)
+   ![Markers style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/edit-icon.png '#width=355px')
 2. Now, you will be taken to the **Map Marker** panel.
-![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/panel.png)
+   ![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/panel.png '#width=355px')
 3. Click on the **ADD** icon in the top-right corner. A new field with option to set marker style will be added in the panel.
-![Add new marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/add-field.png)
+   ![Add new marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/add-field.png '#width=355px')
 4. Set the desired style in the marker style field.
-![Set marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/set-style.png)
+   ![Set marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/set-style.png '#width=355px')
 5. Click on the **Update**.
 
 You can also set marker style based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,
-![Expression menu](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/expression-menu.png)
+![Expression menu](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/expression-menu.png '#width=385px')
 
 Repeat the above steps to create multiple marker style sets or edit existing style sets. For example, I have added six marker styles in marker style panel and it will be distributed on the map surface based on the distribution type and data range.
 
-![Marker multiple styles](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/multiple-style.png)
+![Marker multiple styles](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/multiple-style.png '#width=445px')
 
 #### Delete style set
 
 To delete the existing style set, click on the edit icon for the `Markers` property. Now, the available style sets will be listed **Map Marker** panel. Click on the `Delete` icon in the right corner of required style set and click on the **Update**.
 
-![Delete marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/delete-custom-style.png)
+![Delete marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/delete-custom-style.png '#width=385px')
 
 ### Data value
 
 The data value field will list the available shape data fields and analytical data fields depending on the source of shape data and analytical data in the report.
 
-![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/data-value.png)
+![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/data-value.png '#width=385px')
 
 For example, to vary the marker styles based on population of each country, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/data-value-expression.png)
+![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/data-value-expression.png '#width=385px')
 
 Once you select the data value, the properties required to configure distribution type will start displaying under marker rule category,
 
-![Map distribution properties](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/distribution-properties.png)
+![Map distribution properties](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/distribution-properties.png '#width=385px')
 
 ### Distribution type
 
 The marker distribution options govern the way markers are visualized on the map surface. There are four types of distribution rules: Optimal, Equal Interval, Equal Distribution, and Custom. These options are listed in the **Distribution Type** drop-down,
 
-![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/distribution-types.png)
+![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/distribution-types.png '#width=385px')
 
 On report preview, based on the selected distribution type the analytical data will be split into ranges and the specified color rules will be applied to the map markers.
 
@@ -76,11 +76,11 @@ On report preview, based on the selected distribution type the analytical data w
 
 For example, to display population of each country on a map, you can set minimum population as start value and maximum population as end value.
 
-![Specify start and end value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/start-end-value.png)
+![Specify start and end value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/start-end-value.png '#width=385px')
 
 **Bucket count** - Based on specified bucket count, splits the data ranges. For example, if you specify bucket count as 25, the data between start and end values will be split into 25 ranges.
 
-![Bucket count](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/bucket-count.png)
+![Bucket count](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/bucket-count.png '#width=385px')
 
 You can also set bucket based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 For optimal, equal interval and equal distribution the data ranges are split using algorithm when processing the report. You can also define the data ranges explicitly using the `Custom distribution` type. Refer [Custom distribution](./../../../report-items/map/custom-distribution-marker-rule/) section.

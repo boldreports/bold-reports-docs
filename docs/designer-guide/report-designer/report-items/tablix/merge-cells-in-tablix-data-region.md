@@ -20,7 +20,7 @@ The cells in the each area of a data region can be merged within the respective 
 
 In the following sections, merge action for each area of tablix data region is demonstrated using company sales report.
 
-![Tablix areas](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-split-sketch.png)
+![Tablix areas](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-split-sketch.png '#width=425px')
 
 ### Corner area
 
@@ -28,9 +28,9 @@ In the following sections, merge action for each area of tablix data region is d
 2. Right click in the cell to open cell menu, in the menu list click on the `Merge Cells` option.
    > If the cell selection is invalid or across boundaries, `Merge Cells` option will not be available in the menu.
 
-   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-corner-cells.png)
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-corner-cells.png '#width=410px')
 3. Now, the selected cell in the corner area will be merged like below.
-![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/corner-cell-merge-output.png)
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/corner-cell-merge-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.
 
@@ -40,9 +40,9 @@ In the following sections, merge action for each area of tablix data region is d
 2. Right click in the cell to open cell menu, in the menu list click on the `Merge Cells` option.
    > If the cell selection is invalid or across boundaries, `Merge Cells` option will not be available in the menu.
 
-   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-body-area-for-merge-action.png)
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-body-area-for-merge-action.png '#width=410px')
 3. Now, the selected cell in the body area will be merged like below.
-![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/body-cells-merge-output.png)
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/body-cells-merge-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.
 
@@ -52,9 +52,9 @@ In the following sections, merge action for each area of tablix data region is d
 2. Right click in the cell to open cell menu, in the menu list click on the `Merge Cells` option.
    > If the cell selection is invalid or across boundaries, `Merge Cells` option will not be available in the menu.
 
-    ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-row-group-area-for-merge-action.png)
+    ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-row-group-area-for-merge-action.png '#width=410px')
 3. Now, the selected cell in the row group area will be merged like below.
-![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-row-group-cells-output.png)
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-row-group-cells-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.
 
@@ -64,9 +64,9 @@ In the following sections, merge action for each area of tablix data region is d
 2. Right click in the cell to open cell menu, in the menu list click on the `Merge Cells` option.
    > If the cell selection is invalid or across boundaries, `Merge Cells` option will not be available in the menu.
 
-   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-column-group-area-for-merge-action.png)
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-column-group-area-for-merge-action.png '#width=410px')
 3. Now, the selected cell in the column group area will be merged like below.
-![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-row-group-cells-output.png)
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-row-group-cells-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.
 
@@ -78,8 +78,8 @@ Once a cell is merged, you can split using the `Split Cells` option in the menu 
 2. Right click in the cell to open cell menu, in the menu list click on the `Split Cells` option.
    > If the cell selection is invalid or across boundaries, `Split Cells` option will not be available in the menu.
 
-   ![Split corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-column-group-area-for-split-action.png)
+   ![Split corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-column-group-area-for-split-action.png '#width=410px')
 3. Now, the selected cell in the column group area will split like below.
-![Split corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/split-row-group-cells-output.png)
+   ![Split corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/split-row-group-cells-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.

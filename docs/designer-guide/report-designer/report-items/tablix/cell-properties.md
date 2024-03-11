@@ -19,26 +19,26 @@ A tablix cell contains the report items to display the data in the tabular forma
 
 Drag and drop the required report item into the table cell from item panel.
 
-![Drag and drop line into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-image-into-table-cell.png)
+![Drag and drop line into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-image-into-table-cell.png '#width=355px')
 
 Now, the item will replace the existing textbox in the cell and inserts a line report item.
 
-![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-image-into-table-cell-output.png)
+![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-image-into-table-cell-output.png '#width=315px')
 
 Similarly, you can insert other report items into the table cell. The following snap shows the tablix cells with different report items
 
-![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-cell-with-different-reprt-items.png)
+![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-cell-with-different-reprt-items.png '#width=385px')
 
 > When you drag and drop an item into the cell which contains text box, line, image, sub-reports, chart or barcode report item, the old item in the cell will be replaced by a new report item. If the cell contains a report items such as a rectangle, list, table, or matrix, the new item is added to the containing item instead of replacing it. To replace such report item with a new item, delete the respective item from the cell. Deleting the rectangle, list, table, or matrix item replaces it with a text box, which you can then replace with another item.
 
 ### Insert item using cell menu
 
 1. Select a cell in tablix and right click in the respective cell. Now, the cell menu will be opened like below.
-![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/open-cell-menu.png)
+   ![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/open-cell-menu.png '#width=355px')
 2. Choose the required report item from the `Insert` menu option.
-![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-report-item-menu-items.png)
+   ![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-report-item-menu-items.png '#width=355px')
 3. Now, the old report item in the cell will be replaced by new report item.
-![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-image-into-table-cell-output.png)
+   ![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-image-into-table-cell-output.png '#width=315px')
 
     > Here, line report item is used to demonstrate the behaviour.
 
@@ -54,15 +54,15 @@ Refer the [Properties panel](./../../../compose-report/properties-panel/) sectio
 
 To delete the item from the tablix cell, select cell and right click. Click on `Delete` option.
 
-![Delete cell menu](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-cell-menu.png)
+![Delete cell menu](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-cell-menu.png '#width=315px')
 
 Now, a new `Textbox` will be inserted in the respective cell.
 
-![Delete cell menu](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-cell-menu-output.png)
+![Delete cell menu](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-cell-menu-output.png '#width=315px')
 
 You can also, delete the item from cell using `Delete` option in the toolbar. Select the cell and click on the delete icon in the toolbar.
 
-![Delete cell menu](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-item-from-cell-using-delete-option.png)
+![Delete cell menu](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-item-from-cell-using-delete-option.png '#width=325px')
 
 ## Cut Copy and Paste cell contents
 
@@ -84,42 +84,42 @@ You can also use the following keyboard shortcuts to perform cut, copy and paste
 
 **Cut** :
 1. Select a tablix cell, use the `Cut` icon in the toolbar or right-click and select the `Cut` option from the menu.
-![Cut menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/cut-option-in-menu-and-toolbar.png)
+   ![Cut menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/cut-option-in-menu-and-toolbar.png '#width=325px')
 2. Now, the report item will be deleted and new `Textbox` will be inserted in the respective cell.
-![Cut menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/cut-action-output.png)
+   ![Cut menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/cut-action-output.png '#width=285px')
 
 **Copy** :
 
 1. Select a tablix cell, use the `Copy` icon in the toolbar or right-click and select the `Copy` option from the menu.
-![Copy menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/copy-option-in-menu-and-toolbar.png)
+   ![Copy menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/copy-option-in-menu-and-toolbar.png '#width=325px')
 2. The copied cell content can be later inserted in any other cell in the tablix or in the design area.
 
 **Paste** :
 
 1. Select a tablix cell, use the `Paste` icon in the toolbar or right-click and select the `Paste` option in the cell menu.
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-option-in-menu-and-toolbar.png)
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-option-in-menu-and-toolbar.png '#width=325px')
 2. Now, previously copied item will be pasted in the selected cell.
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-single-cell.png)
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-single-cell.png '#width=285px')
 
 ### Cut Copy and Paste operation in multiple cell
 
 You can perform the cut/copy and paste action in multiple cells at a time.
 
 1. Select the required cells in the tablix data region and perform copy or cut action. Here, copy action is performed.
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/multiple-cell-selection-for-copy-action.png)
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/multiple-cell-selection-for-copy-action.png '#width=325px')
 2. Now, select the cells in which you need to paste the copied cell content in the tablix data region and perform paste action.
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/perform-paste-action.png)
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/perform-paste-action.png '#width=325px')
 3. The copied cell contents will be pasted in the selected cells like below,
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-multiple-cell-output.png)
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-multiple-cell-output.png '#width=285px')
 
 The copied cell content area and target cell content area to perform paste action need to be same. In the below example, the cell content in the second row, first two columns are copied and trying to pasting the cell content in second row, last column.
 
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/copy-multiple-cell-content.png)
+![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/copy-multiple-cell-content.png '#width=355px')
 
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-content-in-multiple-cell.png)
+![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-content-in-multiple-cell.png '#width=355px')
 
 Now, the following alert message will be shown in the design area.
 
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-alert.png)
+![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-alert.png '#width=325px')
 
 So, whenever performing the paste action, the target area must have enough left, top, right, and bottom cell areas.

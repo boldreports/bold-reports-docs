@@ -16,7 +16,7 @@ Click on the `Expression` icon in the query designer toolbar to open `Query Expr
 
 Now the `Query Expressions` dialog will be launched like below.
 
-![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/query-expression-dialog.png)
+![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/query-expression-dialog.png '#width=450px')
 
 > Note: The expression icon in the tools pane will be in disabled state, if there is no table found dropped in table design view.
 
@@ -24,7 +24,7 @@ Now the `Query Expressions` dialog will be launched like below.
 
 1. To create a new expression column, click on the `Add` button in the `Query Expressions` dialog .
 2. In **Name** field, type the name for the expression column or use the default name. By default, manually-created expression columns name are similar to `Expression1`.
-  ![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/expression-name-field.png)
+   ![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/expression-name-field.png '#width=350px')
 3. Define an expression in an **Expression** text area. The syntax for defining a simple expression is,
 
    `{function name(}[columnname]{operator[columnname])…}`
@@ -37,13 +37,13 @@ Now the `Query Expressions` dialog will be launched like below.
 
       2. [Freight]+100 – To compute the total with 100 added to Freight.
 4. To include the function names and the column names in the `Expression` text area, double click on the respective function or column name in the Functions or Column Settings list view.
-![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/list-view.png)
+   ![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/list-view.png '#width=350px')
 5. After, designing the expression value in text area, click on the `Save` button.
-![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/save-expression.png)
+   ![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/save-expression.png '#width=450px')
 6. To create multiple expression columns, repeat the above steps.
-![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/create-multiple-expression.png)
+   ![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/create-multiple-expression.png '#width=450px')
 7. The newly added expressions will be listed under the `Column Settings` list view like below.
-![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/expressions-listed-in-list-view.png)
+   ![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/expressions-listed-in-list-view.png '#width=250px')
 
 > Refer [Supported Built-in functions](./../../transforming-data/supported-functions-in-query-expression/) section to know more about supported built-in functions.
 
@@ -57,10 +57,10 @@ Now the `Query Expressions` dialog will be launched like below.
 
 Click on the `delete` icon in the expression field to delete an expression column.
 
-![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/delete-expression.png)
+![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/delete-expression.png '#width=300px')
 
 ## Close query expression dialog
 
 To close the dialog click on the `Cancel` button in dialog footer or `Close` icon in the dialog header.
 
-![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/close-query-expression-dialog.png)
+![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/close-query-expression-dialog.png '#width=450px')

@@ -8,7 +8,7 @@ documentation: ug
 
 # Manage schedules
 
-Schedule is a process of sending scheduled report to the users by email on the specific time. User who has the permission, can create, edit, delete the schedule in Bold Reports Report Server.
+Schedule is the process of sending scheduled reports to users by email at specific times. Users with the necessary permissions can create, edit, or delete schedules on the Bold Reports Report Server.
 
 You can learn more details about schedule from the following sections:
 

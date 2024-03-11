@@ -8,7 +8,7 @@ keywords: ejReportDesigner, reportdesigner, built-in fields, references, express
 
 Built-in fields collection are the global variables that are used in a report to specify the report name, page number, execution time. It includes Globals and the User collections.
 
-![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/build-in-fields.png)
+![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/build-in-fields.png '#width=400px')
 
 ## Global Collection
 

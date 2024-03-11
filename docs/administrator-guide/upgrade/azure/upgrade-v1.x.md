@@ -1,18 +1,18 @@
 ---
 layout: post
 title: Upgrade steps for Bold Reports Azure app service
-description: Explains how to upgrade the Bold Reports Azure App Service version from 1.x to the latest versions in Azure.
+description: Explains how to upgrade the Bold Reports Azure App Service version from 1.x to the 2.3.x versions in Azure.
 platform: report-platform
 documentation: ug
 ---
 
-# Upgrade Bold Reports Azure App Service version from v1.x to latest
+# Upgrade Bold Reports Azure App Service version from v1.x to v2.3.x
 
-This section explains how to upgrade Bold Reports Azure app Service from 1.x to latest.
+This section explains how to upgrade Bold Reports Azure app Service from v1.x to v2.3.x .
 
 ## Create a Bold Reports Azure App Service with latest version
 
-* Create the Bold Reports Report Server Azure App Service by following this [link](./../../../create-app-service/) and also configure the application using the database by following this [link](./../../../create-app-service/#configure-a-new-bold-reports).
+* Create the Bold Reports Report Server Azure App Service by following this [link](./../../../installation/azure-app-service/using-arm-template/) and also configure the application using the database by following this [link](./../../../installation/azure-app-service/using-arm-template/#configure-a-new-bold-reports).
 
 ## File storage resources for migration
 

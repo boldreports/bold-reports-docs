@@ -12,7 +12,7 @@ A cell is the intersection between a row and a column in a tablix data region. E
 
 In the below snap, the table item contains three row and columns, the border behaviour for each cell varies based on its position in the table.
 
-![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/tablix-design.png)
+![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/tablix-design.png '#width=315px')
 
 If we apply border for the cell in position (0,0) of the table, the border will be applied to the respective cell based on the collapsing borders model behaviour.
 
@@ -23,7 +23,7 @@ If we apply border for the cell in position (0,0) of the table, the border will 
 |border-right|Yes|
 |border-bottom|No|
 
-![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/border-first-row-first-cell.png)
+![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/border-first-row-first-cell.png '#width=315px')
 
 If we apply border for the cell in position (0,1) of the table,
 
@@ -34,13 +34,13 @@ If we apply border for the cell in position (0,1) of the table,
 |border-right|Yes|
 |border-bottom|No|
 
-![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/border-first-row-second-cell.png)
+![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/border-first-row-second-cell.png '#width=315px')
 
 The other cells in the first row inherits the same behaviour as (0,1) cell.
 
 Except last row of the table, other rows in the table inherits the above border behaviour.
 
-![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/common-border-behaviour.png)
+![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/common-border-behaviour.png '#width=315px')
 
 If we apply border for last row, first cell position,
 
@@ -51,11 +51,11 @@ If we apply border for last row, first cell position,
 |border-right|Yes|
 |border-bottom|Yes|
 
-![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/border-last-row-first-cell.png)
+![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/border-last-row-first-cell.png '#width=315px')
 
 If we apply border for last row, second cell position,
 
-![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/border-last-row-second-cell.png)
+![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/border-last-row-second-cell.png '#width=315px')
 
 |Border Type           | Applicable         |
 |-----------------------|-----------------------|
@@ -66,8 +66,8 @@ If we apply border for last row, second cell position,
 
 The other cells in the last row inherits the same behaviour as second cell position.
 
-![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/last-row-border-behaviour.png)
+![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/last-row-border-behaviour.png '#width=315px')
 
 On report preview, the border properties will be applied to the four sides of each cell in the table.
 
-![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/preview.png)
+![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/preview.png '#width=315px')

@@ -1026,6 +1026,20 @@ Returns a zero-based integer representing the current depth level.
 <td><code class="language-text" style="word-break: break-word;">=Level("GroupByInitial")</code></td>
 </tr>
 <tr>
+<td><code class="language-text" style="word-break: break-word;">Lookup</code></td>
+<td>
+Use Lookup to retrieve the value from the specified dataset for a name-value pair where there is a 1-to-1 relationship.
+</td>
+<td><code class="language-text" style="word-break: break-word;">=Lookup(Fields!SaleProdId.Value, Fields!ProductID.Value,  Fields!Name.Value, "Product")</code></td>
+</tr>
+<tr>
+<td><code class="language-text" style="word-break: break-word;">LookupSet</code></td>
+<td>
+Use LookupSet to retrieve a set of values from the specified dataset for a name-value pair where there is a 1-to-many relationship.
+</td>
+<td><code class="language-text" style="word-break: break-word;">=LookupSet(Fields!TerritoryGroupID.Value, Fields!TerritoryID.Value, Fields!StoreName.value, "Stores")</code></td>
+</tr>
+<tr>
 <td><code class="language-text" style="word-break: break-word;">Previous</code></td>
 <td>
 Returns the value of the expression for the previous row of data.

@@ -12,12 +12,9 @@ The following steps to change the Bold Reports URL:
 
 1. Go to the deployed location and update the new binding values in following configuration files.
 
-   >By default, Bold Reports will be deployed on C:\Bold Reports.
+   >By default, Bold Reports will be deployed on C:\BoldServices.
 
-   * Update the **`InternalAppReportUrl`** value in config file from the following location.
-   **`{Deployed Location}`**\IDP\UMS\Configuration\boldreports\Config.xml
-   ![IDP Config File](/static/assets/on-premise/images/getting-started/idp-config.png)
-   * Update the **`InternalAppDataServiceUrl`**, and **`InternalAppIdpUrl`** values in the config file from the following location.
-   **`{Deployed Location}`**\Report Server\Configuration\Config.xml
-   ![RS Config File](/static/assets/on-premise/images/getting-started/rs-config.png)
+   * Update the **`InternalAppUrls`** value in config file in below location  
+**`{Deployed Location}`**\app_data\configuration\config.xml  
+![IDP Config File](/static/assets/on-premise/images/getting-started/boldservice-config.png)
 2. Restart the site in IIS and browse the site. Configure the Bold Reports On-Premise Edition startup by referring this [link](../../application-startup/).

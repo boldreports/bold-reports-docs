@@ -12,11 +12,11 @@ They represents multiple data points, often used in table and matrices.
 ## Add sparkline to the report
 
 1. The sparkline report item is listed in the item panel under the `KPI` category.
-![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-panel.png)
+   ![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-panel.png '#width=125px')
 2. Drag and drop the sparkline report item into the design area or inside tablix cell from the item panel.
-![Drag and drop sparkline report item into design area](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-drag.png)
+   ![Drag and drop sparkline report item into design area](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-drag.png '#width=385px')
 3. After dropping the sparkline item in the design area or inside tablix cell, the respective item properties will be listed in the properties panel.
-![Sparkline item with properties view](/static/assets/on-premise/images/report-designer/report-items/sparkline/designer-area.png)
+   ![Sparkline item with properties view](/static/assets/on-premise/images/report-designer/report-items/sparkline/designer-area.png '#width=600px')
 
 ## Create data
 
@@ -42,157 +42,113 @@ To configure data into sparkline follow the below steps:
 
 1. To bind data to a sparkline report item, focus on that report item.
 2. Click `Properties` icon in the configuration panel, the property pane opens. Now, switch to `DATA` tab.
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/sparkline/chart-properties-pane.png)
+   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/sparkline/chart-properties-pane.png '#width=600px')
 3. The available data in the report will be listed in the drop-down, choose a data in the drop-down list.
-   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/data-assign-drop-down.png)
+   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/data-assign-drop-down.png '#width=315px')
 4. The numeric columns and numeric expressions are listed under the `Measures` section; other type of columns and dimension expressions are listed under the `Dimensions` section.
-   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/sparkline/measures-dimensions-category.png)
+   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/sparkline/measures-dimensions-category.png '#width=315px')
 5. **Drag and Drop Measure Element**:
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
-   ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/sparkline/add-y-values-field.png)
+   ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/sparkline/add-y-values-field.png '#width=315px')
    Now, the report item design will look like below:
-   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/sparkline/y-value-chart-design-view.png)
+   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/sparkline/y-value-chart-design-view.png '#width=285px')
 6. **Aggregate Options**:
    Click the `Settings` icon (highlighted below) to open the aggregation type drop-down list.
-   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/sparkline/aggregation-settings-icon.png)
+   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/sparkline/aggregation-settings-icon.png '#width=245px')
    You can set the aggregation type by which you can compute the selected column.
-   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/sparkline/aggregation-settings-menu.png)
+   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/sparkline/aggregation-settings-menu.png '#width=315px')
 7. **Drag and Drop Dimension Element**:
    Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop into the `Column(s)` section.  
-   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/sparkline/add-field-to-column-section.png)
+   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/sparkline/add-field-to-column-section.png '#width=315px')
    Now, the report item design will look like below:
-   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/sparkline/column-field-design-preview.png)
+   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/sparkline/column-field-design-preview.png '#width=245px')
 8. **Grouping**:
    You can group the added column element with another column, by adding the respective dimension element into Row(s) section.
-   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/sparkline/add-field-to-rows-section.png)
+   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/sparkline/add-field-to-rows-section.png '#width=315px')
    Now, the report item design will look like below.
-   ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/sparkline/row-field-design-preview.png)
+   ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/sparkline/row-field-design-preview.png '#width=245px')
 
 ## Properties
 
 Refer to the [Properties panel](./../../compose-report/properties-panel/) section before proceeding with the following properties.
 
-### General Settings
-
-![Name property](/static/assets/on-premise/images/report-designer/report-items/sparkline/name-property.png)
-
-<span style="font-weight:bold">Name</span>
+### Name
 
 Name property can be used to provide an unique name to the sparkline item in the report.
 
+![Name property](/static/assets/on-premise/images/report-designer/report-items/sparkline/name-property.png '#width=315px')
+
 ### Basic Settings
 
-![Chart Basic settings](/static/assets/on-premise/images/report-designer/report-items/sparkline/basic-settings.png)
+![Chart Basic settings](/static/assets/on-premise/images/report-designer/report-items/sparkline/basic-settings.png '#width=315px')
 
-> Note: The properties under basic setting will be enabled in the chart properties panel, after assigning the data to the chart.
-
-<span style="font-weight:bold">Chart Type</span>
-
-Supported line chart types will be listed in the `Chart Type` property dropdown, you can switch the required sparkline type based on the data.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/sparkline/chart-type.png)
-
-<span style="font-weight:bold">Choose Series</span>
+#### Choose Series
 
 You can add multiple series to the chart and the available series will be listed in the `Choose Series` drop-down. To customize the series appearance choose the required series name in the drop-down.
 
-![Choose series](/static/assets/on-premise/images/report-designer/report-items/sparkline/single-series-list-in-drop-down.png)
+![Choose series](/static/assets/on-premise/images/report-designer/report-items/sparkline/single-series-list-in-drop-down.png '#width=315px')
 
-<span style="font-weight:bold">Show Marker</span>
-
-Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](./../../report-items/chart/marker/) property.> The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-<span style="font-weight:bold">Show Data Label</span>
-
-Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](./../../report-items/chart/data-label/) property.![Chart data label](/static/assets/on-premise/images/report-designer/report-items/sparkline/data-label-design.png)
-
-> The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-<span style="font-weight:bold">Enable Smart Label</span>
-
-Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset smart label properties, refer [Enable Smart Label](./../../report-items/chart/smart-label/) property.![Chart smart label](/static/assets/on-premise/images/report-designer/report-items/sparkline/enable-smart-label.png)
-
-> To apply smart label properties, enable `Data Label` for chart data region.
-
-<span style="font-weight:bold">Series Border</span>
-
-Series border properties can be used to customize the chart series border in the design.
-
-![Format chart series border](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/series-border.png)
-
-In the below design, border color, width and style properties are applied to the chart series.
-
-![Chart series border design](/static/assets/on-premise/images/report-designer/report-items/sparkline/border-design.png)
-
-> The series border properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.![Dynamic chart series border](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
-
-<span style="font-weight:bold">Series Color</span>
-
-Series Color property can be used to customize the series colors in the chart area. If the chart has multiple series, you can differentiate the series using this property.
-
-Choose series in the `Choose Series` drop-down and choose color in `Series Color` property palette. Now, the selected color will be applied to the respective series in the chart design.
-
-![Chart series color](/static/assets/on-premise/images/report-designer/report-items/sparkline/series-color.png)
-
-You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-
-<span style="font-weight:bold">Link To</span>
-
-You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../compose-report/link-data/) section to set or reset link property for chart series.![Link To property](/static/assets/on-premise/images/report-designer/report-items/sparkline/link-to-property.png)
+Refer [Series](../chart/series/) section, to customize each series using the properties panel.
 
 ### Appearance
 
 The border style, color, width and background color properties can be used to style the chart and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
 
-![Chart appearance](/static/assets/on-premise/images/report-designer/report-items/chart/appearance-property.png)
+![Chart appearance](/static/assets/on-premise/images/report-designer/report-items/chart/appearance-property.png '#width=315px')
 
 ### Chart Area
 
 Chart Area properties such as border width, color, and background color can be used to customize the area of the chart design. These properties are listed under `Chart Area` category.
 
-![Chart Area](/static/assets/on-premise/images/report-designer/report-items/chart/chart-area.png)
+![Chart Area](/static/assets/on-premise/images/report-designer/report-items/chart/chart-area.png '#width=315px')
+
+### No Data
+
+No Data property is used to display static text when dataset results with a empty or zero rows at run time.
+
+![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/no-data.png '#width=315px')
+
+To set/reset no data message properties, refer [No Data Message](../chart/no-data-message/) property section.
 
 ### Page break
 
 The page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for sparkline report item.
 
 1. The Break Location property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png)
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=315px')
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png)
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=315px')
 
 ### Position
 
-Position property is used to set the width, height, left and top position of the sparkline in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.![Chart postion](/static/assets/on-premise/images/report-designer/report-items/sparkline/position.png)
+Position property is used to set the width, height, left and top position of the sparkline in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.![Chart postion](/static/assets/on-premise/images/report-designer/report-items/sparkline/position.png '#width=315px')
 
 ### Data Element
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=315px')
 
-<span style="font-weight:bold">Name</span>
+#### Name
 
 You can assign a custom name for the sparkline element using the `Name` field. The sparkline will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=315px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
-<span style="font-weight:bold">Output</span>
+#### Output
 
 On exporting the report, the visibility of the sparkline can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
 
 * **Auto** or **Output** - Exports the sparkline report item
 * **NoOutput** - Does not export the sparkline report item
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=315px')
 
 ### Visibility
 
-The visibility property is used to conditionally show or hide the sparkline report item on report preview or export action. To set visibility of sparkline item using properties panel, refer to the [Visibility](./../../compose-report/common-properties/#visibility) section.![Chart visibility](/static/assets/on-premise/images/report-designer/report-items/sparkline/visibility.png)
+The visibility property is used to conditionally show or hide the sparkline report item on report preview or export action. To set visibility of sparkline item using properties panel, refer to the [Visibility](./../../compose-report/common-properties/#visibility) section.![Chart visibility](/static/assets/on-premise/images/report-designer/report-items/sparkline/visibility.png '#width=315px')
 
 ### Miscellaneous
 
@@ -200,13 +156,25 @@ The visibility property is used to conditionally show or hide the sparkline repo
 
 The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/sparkline/page-name.png)
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/sparkline/page-name.png '#width=315px')
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 #### Custom attributes
 
 This property can be used to set the values for chart custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
+
+You can set the static or dynamic text as value for bookmark property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 #### Tooltip
 

@@ -18,20 +18,20 @@ At run time, the value of report variables is calculated once and is maintained 
 For example, we may want to add report printing time in each page of the report, but using direct expression in a text box will print different time in each page. To get round this problem, we can create a report variable to hold the same time in each page. To create a report variable follow the below steps,
 
 1. The report variables property is listed under Report properties. Click on the Properties icon to open Report Properties.
-![Report properties](/static/assets/on-premise/images/report-designer/compose-report/report-variables/report-properties.png)
+   ![Report properties](/static/assets/on-premise/images/report-designer/compose-report/report-variables/report-properties.png '#width=350px')
 2. The report variable option is provided under the **Code** category.
-![Property category](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-option.png)
+   ![Property category](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-option.png '#width=350px')
 3. Click on the editor icon, to open the **Variables** panel.
-![Open variables panel](/static/assets/on-premise/images/report-designer/compose-report/report-variables/edit-icon.png)
+   ![Open variables panel](/static/assets/on-premise/images/report-designer/compose-report/report-variables/edit-icon.png '#width=350px')
 4. Click on the ADD icon in the top right corner, to add new variable field.
-![Add new variable field](/static/assets/on-premise/images/report-designer/compose-report/report-variables/add-option.png)
+   ![Add new variable field](/static/assets/on-premise/images/report-designer/compose-report/report-variables/add-option.png '#width=300px')
 5. Enter the name of the variable in **Name** field.
    > Note: A name should start with an alphabet character and it should not contain spaces and special characters except underscore.
 6. In value field, enter the direct value in the text field or click on the small square icon to enter an expression.
 7. Disable the checkbox, to specify the variable type as **Read-write**. By default, it is set to **Read-only**.
 
 Finally, click on the **Update** button in the variable panel to save the report variables state.
-![New report variable](/static/assets/on-premise/images/report-designer/compose-report/report-variables/new-variable.png)
+![New report variable](/static/assets/on-premise/images/report-designer/compose-report/report-variables/new-variable.png '#width=300px')
 
 You can edit the variable name and value anytime in the report. Open the variables panel and edit the required variables, then click on the update button.
 
@@ -39,14 +39,14 @@ You can edit the variable name and value anytime in the report. Open the variabl
 
 To delete the variable from the report, click on the delete icon present on the right side of each variable field and update.
 
-![Delete a report variable](/static/assets/on-premise/images/report-designer/compose-report/report-variables/delete-option.png)
+![Delete a report variable](/static/assets/on-premise/images/report-designer/compose-report/report-variables/delete-option.png '#width=300px')
 
 ## Call report variable in a report
 
 You can call the report variable in any expression. The report variables available in the report are listed under **Data** dropdown in Expression Builder.
 
-![Variables listed in expression builder](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-in-expression-builder.png)
+![Variables listed in expression builder](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-in-expression-builder.png '#width=400px')
 
 Double click on the variable name to insert them into the text editor and click OK.
 
-![Call variable from expression builder](/static/assets/on-premise/images/report-designer/compose-report/report-variables/choose-expression.png)
+![Call variable from expression builder](/static/assets/on-premise/images/report-designer/compose-report/report-variables/choose-expression.png '#width=400px')

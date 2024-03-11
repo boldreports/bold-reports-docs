@@ -11,11 +11,11 @@ Report item multiselection allows to set/edit the properties of report items in 
 ## Open properties panel
 
 To open the properties panel, click on the `Properties` icon in the configuration panel.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/properties-icon.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/properties-icon.png '#width=300px')
 
 Now, the properties panel will be displayed like below.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/initial-properties-view.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/initial-properties-view.png '#width=300px')
 
 > By default, the properties panel will display the `Report` properties.
 

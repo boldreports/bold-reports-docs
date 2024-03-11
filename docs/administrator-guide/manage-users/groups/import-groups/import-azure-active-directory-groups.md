@@ -8,38 +8,38 @@ documentation: ug
 
 # Azure Active Directory Group Import
 
-This section explain on how to search and import groups from Azure Active Directory into the Bold Reports On-Premise.
+This section explains how to search and import groups from Azure Active Directory into the Bold Reports On-Premise.
 
-> Azure Active Directory connection has to be configured in the [Azure Active Directory Settings](./../../../../manage-app-settings/azure-active-directory/) in the `General` page for importing groups.
+> **Note:** Azure Active Directory connection must be configured in the [Azure Active Directory Settings](./../../../../manage-app-settings/azure-active-directory/) for importing groups.
 
-Users belonging to the `System Administrator` group only can import Azure Active Directory groups into the Bold Reports On-Premise.
+Only users belonging to the `System Administrator` group can import Azure Active Directory groups into the Bold Reports On-Premise.
 
 ## Search Groups
 
-Initially, any Active Directory groups cannot be displayed until searching for the group.
+Initially, Active Directory groups will not be displayed until a search for the group is performed.
 
-You can search the Azure Active Directory groups with any one of the below properties and choose them to import into Bold Reports On-Premise.
+You can search the Azure Active Directory groups using the property `Group name` and choose them to import into Bold Reports.
 
-* Group name
+A maximum of 1000 groups will be searched and retrieved from Azure Active Directory in a single request.
 
-A maximum of 1000 groups will be searched and pulled from Azure Active Directory in a single request.
-
-Bold Reports On-Premise will list the search results of the groups in the grid as shown in the below figure.
+Bold Reports On-Premise will list the search results of the groups in the grid, as shown in the image below.
 
 ![Import groups from Azure Active Directory Server](/static/assets/on-premise/images/manage-users-and-groups/groups/import-from-azure-active-directory/Searched-azure-groups-list.png)
 
 ## Import Groups
 
-To import the Azure Active Directory groups into the Bold Reports On-Premise, you have to choose the groups from the list and click on the `Import groups` button at the top right corner.
+To import Azure Active Directory groups into Bold Reports On-Premise, you need to select the groups from the list and click the `Import groups` button located at the top right corner.
 
-Bold Reports On-Premise will import the chosen groups and a confirmation message will be displayed as shown in the below figure.
+![Import groups from Azure Active Directory](/static/assets/on-premise/images/manage-users-and-groups/groups/import-from-azure-active-directory/import-groups-from-azure.png)
+
+Bold Reports On-Premise will import the selected groups, and a confirmation message will be displayed, as shown in the image below.
 
 ![Success message after imported the Azure Active Directory groups](/static/assets/on-premise/images/manage-users-and-groups/groups/import-from-azure-active-directory/Azure-Active-Directory-group-import-success-window.png)
 
-The success message box explains the users who all are get imported/not imported into the Bold Reports On-Premise.
+The success message box provides information on which users have been successfully imported and which ones were not imported into Bold Reports On-Premise.
 
 ## Duplicate Groups
 
-Azure Active Directory groups who has the same group name as that of the Bold Reports On-Premise groups(which are already present) will be marked as duplicate groups and will not be allowed to import into Bold Reports On-Premise.
+Azure Active Directory groups with the same group name as those already present in Bold Reports On-Premise will be identified as duplicate groups and will not be permitted for import.
 
 ![Duplicated Azure Active Directory Groups](/static/assets/on-premise/images/manage-users-and-groups/groups/import-from-azure-active-directory/Azure-Active-Directory-Duplicate-group.png)

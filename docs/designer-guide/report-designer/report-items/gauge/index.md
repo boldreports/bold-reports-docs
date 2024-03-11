@@ -12,7 +12,7 @@ Gauge report items are used to visualize the key performance indicators (KPIs) t
 
 There are two types of gauges, namely `Linear` and `Radial`. These are listed in the item panel under the `Deviation category`.
 
-![Gauge Types](/static/assets/on-premise/images/report-designer/report-items/gauge/gauge-types-in-item-panel.png)
+![Gauge Types](/static/assets/on-premise/images/report-designer/report-items/gauge/gauge-types-in-item-panel.png '#width=145px')
 
 ## See Also
 

@@ -14,6 +14,7 @@ It has three rules to fill colors on map marker icons,
 * [Color palette](./../../../report-items/map/color-palette-marker-rule/)
 * [Color ranges](./../../../report-items/map/color-range-marker-rule/)
 * [Custom colors](./../../../report-items/map/custom-color-marker-rule/)
+
 Similarly, it has four distribution types to distribute colors on map marker icons,
 
 * [Equal](./../../../report-items/map/equal-distribution-marker-rule/)
@@ -27,7 +28,7 @@ Marker color rules can be applied once you match the map shapes based on shape d
 
 These properties are listed under **Marker Color Rule** in the map properties. To enable/disable marker color rule in the map surface, toggle the `Enable Color Rule` checkbox.
 
-![Map Shape properties](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/initial.png)
+![Map Shape properties](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/initial.png '#width=385px')
 
 Once you enable the marker color rule, other properties required for defining marker color rule will start displaying under **Marker Color Rule** category and by default, **Color Range** type will be applied on the map surface as shown in below,
 
@@ -37,16 +38,16 @@ Once you enable the marker color rule, other properties required for defining ma
 
 The data value field will list the available shape data fields and analytical data fields depending on the source of shape data and analytical data in the report.
 
-![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/data-value.png)
+![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/data-value.png '#width=385px')
 
 For example, to vary the marker colors based on population of each country, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/data-value-expression.png)
+![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/data-value-expression.png '#width=385px')
 
 ### Type
 
 As explained earlier, the map marker color rule has three types of color rules: Color Range, Color Palette, and Custom. These options are listed in the **Type** drop-down,
 
-![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/types.png)
+![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/types.png '#width=385px')
 
 Refer following sections to learn about each marker color rule,
 
@@ -58,11 +59,11 @@ Refer following sections to learn about each marker color rule,
 
 The color distribution options govern the way colors are visualized on the marker icons. Once you set value for `Data Value` property, the properties required to configure distribution type will start displaying under marker color rule category,
 
-![Map distribution properties](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/distribution-properties.png)
+![Map distribution properties](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/distribution-properties.png '#width=355px')
 
 These options are listed in the **Distribution Type** drop-down,
 
-![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/distribution-types.png)
+![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/distribution-types.png '#width=385px')
 
 Refer the following sections to design map marker using each distribution type,
 

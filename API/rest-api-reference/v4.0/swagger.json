@@ -1,0 +1,631 @@
+﻿{
+  "swagger": "4.0",
+  "info": {
+    "title": "API Reference",
+    "version": "4.0",
+    "description": "# Introduction\n You can manage items in the Bold Reports On-Premise using the REST API."
+  },
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "tags": [ 
+  	{
+      "name": "Items",
+      "description": "To retrieve a list of items, or retrieve, create, modify, and delete a particular item in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
+    }
+	],
+  "paths": {   
+    "{domain}/reporting/api/site/{tenant-name}/v4.0/report/copy": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary":"Copy report",
+        "description":"Users who have access to the report, can copy the report by providing respective report details in the request body.",
+        "operationId":"Items_CopyReport",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "serverPath",
+            "in": "query",
+            "required": true,
+            "x-nullable": true,
+            "description": "Provide the report path like `/{category name}/{report name}`"
+          },
+          {
+            "name": "apiCopyReport",
+            "in": "body",
+            "required": true,
+            "description": "Details of the report passed will be copied.",
+            "schema": {
+            "$ref": "#/definitions/ApiCopyReport"
+            },
+            "x-nullable": false
+          }        
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Report has been copied successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiCopyReportResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "404": {
+            "description": "Item detail not found"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },          
+          "409":{
+            "description": "Report will be copied name already exists"
+          },
+          "417": {
+            "description": "Failed to copy report"
+          }         
+        }
+      }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v4.0/items": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Get Items",
+        "description": "Return a list of reports along with the mapping info(data source, dataset, sub report) and the server retrieves the list of reports for the current user using tag name.",
+        "operationId": "Items_GetItems",
+        "parameters": [
+          {
+            "type": "integer",
+            "name": "itemType",
+            "in": "query",
+            "required": true,
+            "description": "Item type",
+            "x-nullable": false,
+            "enum": [
+              "Report"
+            ]
+          },
+          {
+            "type": "string",
+            "name": "serverPath",
+            "in": "query",
+            "description": "Category path",
+            "x-nullable": true
+          },
+          {
+            "type": "string",
+            "name": "tags",
+            "in": "query",
+            "required": false,
+            "description": "Provide the report tag name(s). \\\n **Note**: If there are multiple tag names, they should be passed as comma-separated values i.e tags=tag1,tag2,tag3\\\n It is possible to obtain report details without using the tag query parameter.",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of items retrieved succesfully",
+            "schema": {
+              "$ref": "#/definitions/ApiItemDetail"
+            }
+          },
+          "204": {
+            "description": "Item list is empty"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "ApiCopyReport": {
+      "type": "object",
+      "required": [
+        "CategoryId",
+        "Name"
+        ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Report name"
+        },
+        "Description":{
+          "type":"string",
+          "description":"Report description"
+        },
+        "IsOverwrite": {
+          "type": "boolean",
+          "description": "Specify true to overwrite the report while copy."
+        },
+        "CategoryId": {
+          "type": "string",
+          "description": "Target Category ID. If you don't have the ID means you may leave this property as empty and provide your existing category name in below `CategoryName` property.",
+          "format": "guid"
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Target Category name "
+        },
+        "CopyDataSetMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy dataset",
+          "items": {
+            "$ref": "#/definitions/CopyDataSetMappingInfo"
+          }
+        },
+        "CopyDataSourceMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy datasource",
+          "items": {
+            "$ref": "#/definitions/CopyDataSourceMappingInfo"
+          }
+        },
+        "CopySubReportMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy sub report",
+          "items": {
+            "$ref": "#/definitions/CopySubReportMappingInfo"
+          }
+        }
+      }
+    },
+    "ApiChangeDatasource": {
+      "type": "object",
+      "required": [
+          "Name"
+        ],
+      "properties": {
+        "Name": {
+          "type": "string",
+          "description": "Dataset name"
+        },
+        "Description":{
+          "type":"string",
+          "description":"Dataset description"
+        },
+        "IsOverwrite":{
+          "type": "boolean",
+          "description": "Specify true to overwrite the dataset."
+        },       
+        "CopyDataSourceMappingInfoV4": {
+          "type": "array",
+          "description": "Mapping information of datasource",
+          "items": {
+            "$ref": "#/definitions/CopyDataSourceMappingInfoV4"
+          }
+        }
+      }
+    },
+    "ApiCopyReportResponse": {
+      "type": "object",
+      "required": [
+        "ApiStatus",
+        "Status",
+        "PublishedItemId",
+        "Version"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "PublishedItemId":{
+          "type":"string",
+          "description":"Returns the published report item id",
+          "format":"guid"
+        },
+        "Version":{
+          "type":"integer",
+          "description":"Returns the version number of the report",
+          "format":"int32"
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        }     
+      }
+    },
+    "ApiChangeDatasourceResponse": {
+      "type": "object",
+      "required": [
+        "ApiStatus",
+        "Status",
+        "PublishedItemId"
+      ],
+      "properties": {
+        "FileContent": {
+          "type": "string",
+          "description": "Returns the filecontent."
+        },
+        "GroupList": {
+          "type": "string",
+          "description": "Returns the grouplist."
+        },
+        "IsFavorite": {
+          "type": "boolean",
+          "description": "Returns true if the item is favorite. ."
+        },
+        "IsPublic": {
+          "type": "boolean",
+          "description": "Returns true if the item is public.."
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Item name."
+        },
+        "ItemsView": {
+          "type": "string",
+          "description": "Returns Itemsview."
+        },
+        "ItemType": {
+          "type": "ItemType (integer)",
+          "description": "Item type."
+        },
+        "ItemViewId": {
+          "type": "string <guid> ",
+          "description": "Returns ItemViewId."
+        },
+        "PublishedItemId":{
+          "type":"string",
+          "description":"Returns the published report item id",
+          "format":"guid"
+        },
+        "ResponseContent": {
+          "type": "string",
+          "description": "Returns ResponseContent."
+        },
+        "SSOSettingsResponse": {
+          "type": "string",
+          "description": "Returns SSOSettingsResponse."
+        },
+        "SystemSettingsResponse": {
+          "type": "string",
+          "description": "Returns SystemSettingsResponse."
+        },
+        "UserDetailResponse": {
+          "type": "string",
+          "description": "Returns UserDetailResponse."
+        },
+        "UserList": {
+          "type": "string",
+          "description": "Returns UserList."
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "CategoryName."
+        },
+        "Extension": {
+          "type": "string",
+          "description": "Returns Extension."
+        },
+        "Version": {
+          "type": "integer",
+          "description": "Returns the version of the published file item.",
+          "format":"int32"
+        },
+        "ItemReference": {
+          "type": "string",
+          "description": "Returns ItemReference."
+        },
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Data": {
+          "type": "<anything>",
+          "description": "Returns data from the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
+        },
+        "Message": {
+          "type": "string",
+          "description": "Returns the message from the API."
+        } 
+      }
+    },
+    "CopyDataSourceMappingInfoV4": {
+      "type": "object",
+      "description": "Mapping information of datasource",
+
+      "properties": {
+        "SharedDataSourceName": {
+          "type": "string",
+          "description": "Shared datasource Name. If you don't have the Name means you may leave this property as empty and provide your Shared datasource Id in below `SharedDataSourceId` property."
+        },
+        "SharedDataSourceId": {
+          "type": "string",
+          "description": "Shared datasource ID",
+          "format": "guid"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Data source name saved in the report file"
+        }
+      }
+    },
+    "ApiItemDetail": {
+      "type": "object",
+      "description": "Item details",
+      "properties": {
+        "CanRead": {
+          "type": "boolean",
+          "description": "Specifies the read permission of the item"
+        },
+        "CanWrite": {
+          "type": "boolean",
+          "description": "Specifies the write permission of the item"
+        },
+        "CanDelete": {
+          "type": "boolean",
+          "description": "Specifies the delete permission of the item"
+        },
+        "CanDownload": {
+          "type": "boolean",
+          "description": "Specifies the download permission of the item"
+        },
+        "CanSchedule": {
+          "type": "boolean",
+          "description": "Specifies the schedule permission of the item"
+        },
+        "CanOpen": {
+          "type": "boolean",
+          "description": "Specifies the open permission of the item"
+        },
+        "CanMove": {
+          "type": "boolean",
+          "description": "Specifies the move permission of the item"
+        },
+        "CanCopy": {
+          "type": "boolean",
+          "description": "Specifies the copy permission of the item"
+        },
+        "CanClone": {
+          "type": "boolean",
+          "description": "Specifies the clone permission of the item"
+        },
+        "CanCreateItem": {
+          "type": "boolean",
+          "description": "Specifies the create permission of the item"
+        },
+        "Id": {
+          "type": "string",
+          "description": "Item ID",
+          "format": "guid"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Item name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Item description"
+        },
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID",
+          "format": "guid"
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Category name"
+        },
+        "CategoryDescription": {
+          "type": "string",
+          "description": "Category description"
+        },
+        "Tags":{
+          "type": "array",
+          "description": "Report tags",
+          "format": "string"
+        },
+        "DataSetMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy dataset",
+          "items": {
+            "$ref": "#/definitions/CopyDataSetMappingInfo"
+          }
+        },
+        "DataSourceMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy datasource",
+          "items": {
+            "$ref": "#/definitions/CopyDataSourceMappingInfo"
+          }
+        },
+        "SubReportMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy sub report",
+          "items": {
+            "$ref": "#/definitions/CopySubReportMappingInfo"
+          }
+        },
+        "DrillThroughMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy sub report",
+          "items": {
+            "$ref": "#/definitions/DrillThroughMappingInfo"
+          }
+        },
+        "CreatedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item creator",
+          "format": "int32"
+        },
+        "CreatedByDisplayName": {
+          "type": "string",
+          "description": "Specifies the display name of the user who created the item"
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier",
+          "format": "int32"
+        },
+        "ModifiedByFullName": {
+          "type": "string",
+          "description": "Specifies the full name of the user who modified the item"
+        },
+        "ItemLocation": {
+          "type": "string",
+          "description": "Item location"
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in string format"
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in string format"
+        },
+        "ItemModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format",
+          "format": "date-time"
+        },
+        "ItemCreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format",
+          "format": "date-time"
+        },
+        "ItemType": {
+          "description": "Item type",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ItemType"
+            }
+          ]
+        },
+        "ReportId": {
+          "type": "string",
+          "format": "guid"
+        }
+      }
+    },
+    "ItemType": {
+      "type": "integer",
+      "description": "Item type",
+      "x-enumNames": [
+        "None",
+        "Category",
+        "Dashboard",
+        "Report",
+        "Datasource",
+        "Dataset",
+        "File",
+        "Schedule",
+        "Widget",
+        "ItemView",
+        "Slideshow"
+      ],
+      "enum": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    "CopyDataSetMappingInfo": {
+      "type": "object",
+      "description": "Mapping information of copy dataset",
+
+      "properties": {
+        "SharedDataSetName": {
+          "type": "string",
+          "description": "Shared dataset Name. If you don't have the Name means you may leave this property as empty and provide your shared dataset Id in below `SharedDatasetId` property."
+        },
+        "SharedDataSetId": {
+          "type": "string",
+          "description": "Shared dataset ID",
+          "format": "guid"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Dataset name saved in the report file"
+        }
+      }
+    },
+    "CopyDataSourceMappingInfo": {
+      "type": "object",
+      "description": "Mapping information of copy datasource",
+
+      "properties": {
+        "SharedDataSourceName": {
+          "type": "string",
+          "description": "Shared datasource Name. If you don't have the Name means you may leave this property as empty and provide your shared datasource Id in below `SharedDatasourceId` property."
+        },
+        "SharedDataSourceId": {
+          "type": "string",
+          "description": "Shared datasource ID",
+          "format": "guid"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Data source name saved in the report file"
+        }
+      }
+    },
+    "CopySubReportMappingInfo": {
+      "type": "object",
+      "description": "Mapping information of copy sub report",
+
+      "properties": {
+        "SubReportPath": {
+          "type": "string",
+          "description": "Path of the sub report"
+        },
+
+        "Name": {
+          "type": "string",
+          "description": "Report Name"
+        }
+      }
+    },
+    "DrillThroughMappingInfo": {
+      "type": "object",
+      "description": "Mapping information of Drill Through report",
+
+      "properties": {
+        "DrillThroughPath": {
+          "type": "string",
+          "description": "Path of the drill through report"
+        },
+
+        "Name": {
+          "type": "string",
+          "description": "Report Name"
+        }
+      }
+    }
+  },
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {}
+}

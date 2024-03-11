@@ -36,59 +36,63 @@ FROM dbo.DimProduct as prod
 ## Add sparkline report item
 
 1. Drag and drop table report item to the design area.
-![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-table.png)
+   ![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-table.png '#width=285px')
 2. Assign [dataset](./../../../report-items/tablix/assign-data-to-tablix-data-region/#assign-data-from-properties-panel) to the table.
-![Assign dataset to table](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-data.png)
+   ![Assign dataset to table](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-data.png '#width=355px')
 3. Assign `EnglishProductSubcategoryName` field in the first cell as shown below.
-![Assign value in table cell](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-group-value.png)
+   ![Assign value in table cell](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-group-value.png '#width=355px')
 4. Click on `Details group` in `Row Groups` pane, now the respective tablix member properties will be listed in the properties panel.
-![Group properties](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/select-detail-group.png)
+   ![Group properties](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/select-detail-group.png)
 5. Click on the `Set Groups...` button in the properties panel. Now, the `Grouping` dialog will be opened like below.
-![Group dialog](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/group-dialog.png)
+   ![Group dialog](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/group-dialog.png '#width=385px')
 6. Click on `Add` button and select `EnglishProductSubcategoryName` and click OK.
-![Group data in table ](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/group-data.png)
+   ![Group data in table ](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/group-data.png '#width=385px')
 7. Assign `Sales` field in the second cell as shown below.
-![Assign value in table cell](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-sales-field.png)
-8. Now select the `Sales` text box and [assign the following expression](./../../../report-items/tablix/assign-data-to-tablix-data-region/#edit-expression-in-properties-panel) `=Sum(Fields!SalesAmount.Value)` in the cell.![Sum sales value](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/sum-sales-value.png)
+   ![Assign value in table cell](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-sales-field.png '#width=355px')
+8. Now select the `Sales` text box and [assign the following expression](./../../../report-items/tablix/assign-data-to-tablix-data-region/#edit-expression-in-properties-panel) `=Sum(Fields!SalesAmount.Value)` in the cell.
+   ![Sum sales value](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/sum-sales-value.png '#width=355px')
 9. Drag and drop the sparkline report item into last cell of the table as shown below.
-![Add Sparkline item in table](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-sparkline.png)
+   ![Add Sparkline item in table](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-sparkline.png '#width=355px')
 
 Now, the report design will look like below.
 
-![Basic design of sparkline report](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/intial-design.png)
+![Basic design of sparkline report](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/intial-design.png '#width=385px')
 
 > Cannot insert a sparkline into a detail cell. Detail members can only contain the static inner members.
 
 ## Assign data
 
 1. Select the cell containing sparkline report item and switch to `DATA` tab in properties panel.
-![Assign data to chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/switch-data-assign.png)
+   ![Assign data to chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/switch-data-assign.png)
 2. Drag and drop `TotalProductCost` field into `Y-Values` section as shown below.
-![Add series to sparkline](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-series-value.png)
+   ![Add series to sparkline](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-series-value.png '#width=385px')
 3. Drag and drop `OrderDate` field into `Column` section as shown below.
-![Add column to sparkline](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-column-value.png)
+   ![Add column to sparkline](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-column-value.png '#width=385px')
 
 Now, the report design will look like below.
 
-![Basic design of sparkline report](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-data-design.png)
+![Basic design of sparkline report](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-data-design.png '#width=410px')
 
 ## Configure properties
 
 1. Now, switch to the `PROPERTIES` tab in the properties panel.
 2. Choose the `Sales` series in the  `Choose Series` dropdown.
-![Choose series in chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/choose-series.png)
-3. Enable  [Data Label](./../../../report-items/chart/data-label/) property checkbox.
-![Chart data label](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/enable-data-label.png)
-4. Format the numbers produced by the `Data labels`, using `Format` property. Under the `Advanced Options`, set the `'$'#,0;('$'#,0)` as value format property field.
-![Format datalabel value](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/format-values.png)
-5. In the below design background color and font styles are changed in table cells to improvise the report design.
-![Format table design](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/format-report.png)
-    > Refer the [Cell Properties](./../../../report-items/tablix/cell-properties/#cell-properties) to style the table cell.
+   ![Choose series in chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/choose-series.png '#width=385px')
+3. Click on the edit icon to open series properties.
+   ![Series properties](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/edit-icon.png '#width=385px')
+4. Under data label settings category, enable  [Data Label](./../../../report-items/chart/data-label/) property checkbox.
+   ![Chart data label](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/enable-data-label.png '#width=385px')
+5. Format the numbers produced by the `Data labels`, using `Format` property. Set the `'$'#,0;('$'#,0)` as value format property field.
+   ![Format datalabel value](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/format-values.png '#width=385px')
+6. In the below design background color and font styles are changed in table cells to improvise the report design.
+   ![Format table design](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/format-report.png '#width=385px')
+
+> Refer the [Cell Properties](./../../../report-items/tablix/cell-properties/#cell-properties) to style the table cell.
 
 ## Report preview
 
 On report preview, the report is showing sales amount progress from start year to till end.
 
-![Sparkline RDL report preview](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/report-preview.png)
+![Sparkline RDL report preview](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/report-preview.png '#width=425px')
 
 > Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/sparkline/design-ssrs-sparkline-using-table.rdl)

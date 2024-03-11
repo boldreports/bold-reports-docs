@@ -18,3 +18,5 @@ You can refer the below documentation for creating and upgrading your Azure App 
 [Upgrade Bold Reports Azure App Service from v2.x to latest](./../azure/upgrade-app-service/)
 
 [Upgrade Syncfusion Report Server Azure App Service from v4.x to latest](./../azure/migrate-syncfusion-report-server-app-service/)
+
+> **Note:** During the upgrade process, it is essential to grant all the required permissions to the user. Please ensure that users have the necessary [permissions](../../../administrator-guide/faq/what-are-the-database-permissions-required-to-set-up-bold-reports/).

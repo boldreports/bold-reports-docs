@@ -6,7 +6,7 @@ keywords: report-platform
 
 # How to export the report from Bold Reports Report Server
 
-You can export the report into any format(Excel, PDF, HMTL, PPT CSV, and Word) from Bold Reports Server by using the <a href="../../../rest-api-reference/v1.0/#operation/Items_ExportReport" target="_blank">Export Report API</a>.
+You can export the report into any format(Excel, PDF, HMTL, PPT CSV, XML and Word) from Bold Reports Server by using the <a href="../../../rest-api-reference/v1.0/#operation/Items_ExportReport" target="_blank">Export Report API</a>.
 
 >User must have `Read` permission for the reports.
 
@@ -16,7 +16,7 @@ Pass the following parameters in request body.
 
    `Server Path` - Specifies the relative URL of the report.
 
-   `Export Type` - Export Type(PDF, Excel, Html, PPT, Word, and CSV).
+   `Export Type` - Export Type(PDF, Excel, Html, PPT, CSV, XML and Word).
 
 >Access token must be passed in authorization header. To get access token, use the <a href="../../../rest-api-reference/v1.0/#operation/Authentication" target="_blank">Authentication API</a>
 
@@ -57,8 +57,8 @@ public class ItemResponse
 
 public static ItemResponse ExportReport()
 {
-   var BoldReportsURL = "https://on-premise-demo.boldreports.com";
-   var itemId = Guid.Parse("b401dfc7-91f8-42a6-9f30-0b3e1323a5cc");
+   var BoldReportsURL = "https://demo.example.com"; // Provide your Bold Reports URL
+   var itemId = Guid.Parse("b401dfc7-91f8-42a6-9f30-0b3e1323a5cc"); //Provide your Report ID
    var exporttypeId = "PDF";
    var itemRequest = new ApiExportReport
       {

@@ -8,9 +8,9 @@ documentation: ug
 
 # How to migrate SSRS reports to the Bold Reports Report Server
 
-To migrate SSRS reports to the Bold Reports Report Server, you have to manually upload the report and their required dataset and data source into the Bold Reports Report Server.
+To migrate SSRS reports to the Bold Reports Report Server, you have to manually upload the report and its required dataset and data source into the Bold Reports Report Server.
 
-You can learn more details about uploading the report, dataset and data source into the Bold Reports Report Server from the following sections:
+You can learn more details about uploading the report, dataset and data source to the Bold Reports Report Server in the following sections:
 
 * [Upload Report](../../../designer-guide/manage-content/reports/upload-report/)
 

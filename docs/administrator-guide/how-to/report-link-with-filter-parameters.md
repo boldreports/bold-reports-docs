@@ -7,7 +7,7 @@ documentation: ug
 ---
 # Report link with filter parameters
 
-You can pass the parameters to a report by including them in a report URL. Passing parameter values within URL will apply filter in the report on initial load itself.
+You can pass the parameters to a report by including them in a report URL. Passing parameter values within the URL will apply filters in the report on initial load itself.
 
 To set a report parameter within a URL, use the following syntax.
 

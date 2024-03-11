@@ -8,7 +8,7 @@ documentation: ug
 
 # Import Users
 
-You can import Active directory, Azure active directory, CSV, Database users to the Bold Reports Report Server. Learn more details from the following sections:
+You can import Active directory, Azure active directory, CSV, and Database users to the Bold Reports Report Server. Learn more details in the following sections:
 
 * [Import users from CSV](./../import-users/import-users-from-csv/)
 

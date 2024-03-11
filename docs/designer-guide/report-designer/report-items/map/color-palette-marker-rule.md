@@ -9,7 +9,7 @@ Based on applied palette name, the fill color will be applied for each map marke
 
 Choose the **Color Palette** option in the type drop down, under `Marker Color Rule` category. Now the **Palette** drop-down will start displaying under the type drop-down with set of palette options.
 
-![Map palette types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/palette-types.png)
+![Map palette types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/palette-types.png '#width=385px')
 
 For example, set the palette type as `BrightPastel`. Now, the map design with sample data will look like below,
 

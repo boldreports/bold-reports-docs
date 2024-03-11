@@ -16,11 +16,11 @@ To change the height of the report items , place the mouse pointer in the `Cente
 
 Use `CenterBottom` to increase height towards downward direction or to decrease height towards upward direction,
 
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-vertically-downwards.png)
+![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-vertically-downwards.png '#width=250px')
 
 Use `CenterTop` to increase height towards upward direction or to decrease height towards downward direction,
 
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-vertically-upwards.png)
+![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-vertically-upwards.png '#width=250px')
 
 **Resize width**:
 
@@ -28,27 +28,27 @@ To change the width of the report item , place the mouse pointer in the `RightCe
 
 Use `RightCenter` to resize the width outwards or inwards in right side direction,
 
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-right-center.png)
+![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-right-center.png '#width=250px')
 
 Use `LeftCenter` to resize the width outwards or inwards in left direction,
 
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-left-center.png)
+![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-left-center.png '#width=250px')
 
 **Change width and height proportionally**:
 
 1. Select the report item in the design area.
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/select-report-item-to-resize.png)
+   ![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/select-report-item-to-resize.png '#width=250px')
 2. To resize the report item place the mouse pointer in `LeftTop` or `RightTop` or `LeftBottom` or `RightBottom` position on the report item.
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-proportionally.png)
+   ![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/resize-proportionally.png '#width=250px')
 3. Now, the resizer arrow will be enabled in the respective position. Hold and drag the resizer arrow, now the report item will be resized proportionally in all direction.
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/over-all-resize-ouput.png)
+   ![Adjust column width of the table](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/over-all-resize-ouput.png '#width=250px')
 
 ## Resize using width and height properties
 
 1. Select a report item, now the respective item properties will be listed in the properties panel.
-![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/select-report-item-to-resize.png)
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/select-report-item-to-resize.png '#width=250px')
 2. In the properties panel, modify the `Height` and `Width` property of the specific report item.
-![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/width-and-height-properties.png)
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/width-and-height-properties.png '#width=350px')
 
 ## Resize using keyboard shortcuts
 
@@ -70,6 +70,6 @@ To know more about supported keyboard shortcut keys, refer [Design report using 
 
 To increase or decrease the width and height using touch resizer, select the report item and hold any of the highlighted points in below snap.
 
-![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/touch-resizer.png)
+![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-resizing/touch-resizer.png '#width=150px')
 
 Then drag towards the required direction in design area.

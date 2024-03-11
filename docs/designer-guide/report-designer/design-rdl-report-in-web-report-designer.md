@@ -13,22 +13,25 @@ This section describes simple steps to design a report using Web Report Designer
 ## Create Data
 
 1. To add a data, click on the **Data** icon in the `Data Configuration` panel. It opens the `Data` panel.
-![Data panel icon](/static/assets/on-premise/images/report-designer/report-creation/data-icon-configuration-panel.png)
+   ![Data panel icon](/static/assets/on-premise/images/report-designer/report-creation/data-icon-configuration-panel.png '#width=450px')
+
 2. Click on `New Data` button in the data panel.
-![New data button](/static/assets/on-premise/images/report-designer/report-creation/new-data-button-data-panel.png)
+   ![New data button](/static/assets/on-premise/images/report-designer/report-creation/new-data-button-data-panel.png '#width=400px')
+
 3. Choose `SQL` type to connect data.
-![Data source types panel](/static/assets/on-premise/images/report-designer/report-creation/datasource-types-panel.png)
+   ![Data source types panel](/static/assets/on-premise/images/report-designer/report-creation/datasource-types-panel.png '#width=350px')
+
 4. In the new data source panel,
     * In **Name** field, specify the data source name without special characters.
     * In **Server Name** field, you need to select existing server in the local network from the drop-down list or specify the specific remote server name like `myserver.domain.com`.
     * In **Authentication Type** field, choose **Windows** or **SQL Server** authentication.
     * If you have chosen **SQL Server** authentication, specify the **username** and **password** of the server.
     * In **Database** field, choose or enter a existing valid database e.g. AdventureWorks.
-![Data source fields panel](/static/assets/on-premise/images/report-designer/report-creation/datasource-fields-panel.png)
-5. Click the `Connect` button. Now the following view will be displayed.
-![Query designer initial view](/static/assets/on-premise/images/report-designer/report-creation/query-designer-full-view.png)
+       ![Data source fields panel](/static/assets/on-premise/images/report-designer/report-creation/datasource-fields-panel.png '#width=400px')
 
-> Here, an **AdventureWorks** database is used for demonstration.
+5. Click the `Connect` button. Now the following view will be displayed.
+   ![Query designer initial view](/static/assets/on-premise/images/report-designer/report-creation/query-designer-full-view.png)
+   > Here, an **AdventureWorks** database is used for demonstration.
 
 ### Edit dataset name
 
@@ -40,27 +43,30 @@ You can edit the name of the `Data` in the **Name** field that is available in t
 
 The left pane holds the **tables**, **views**, and **procedures** associated with the connected database. Drag your preferred table or view from the left pane and drop into the center pane labeled with `Drag and Drop table here` like below:
 
-![Drag and drop query table to design area](/static/assets/on-premise/images/report-designer/report-creation/drag-drop-table-in-query-designer.png)
+![Drag and drop query table to design area](/static/assets/on-premise/images/report-designer/report-creation/drag-drop-table-in-query-designer.png '#width=300px')
 
 Now, the table will be dropped in the design area like below.
 
-![Query designer with query table](/static/assets/on-premise/images/report-designer/report-creation/drag-drop-table-in-query-designer-output.png)
+![Query designer with query table](/static/assets/on-premise/images/report-designer/report-creation/drag-drop-table-in-query-designer-output.png '#width=300px')
 
 ### Execute query
 
 1. You can execute and visualize the data by using `Run` option in tools pane.
-![Run query icon](/static/assets/on-premise/images/report-designer/report-creation/run-query-in-querydesigner.png)
+   ![Run query icon](/static/assets/on-premise/images/report-designer/report-creation/run-query-in-querydesigner.png '#width=300px')
+
 2. Now, the data will be retrieved based on the specified query.
-![Execute query output](/static/assets/on-premise/images/report-designer/report-creation/execute-query-output.png)
+   ![Execute query output](/static/assets/on-premise/images/report-designer/report-creation/execute-query-output.png)
 
 ### Save Data
 
 1. Click on the `Finish` button in the tools pane.
-![Finish data button](/static/assets/on-premise/images/report-designer/report-creation/finish-data-connection.png)
+   ![Finish data button](/static/assets/on-premise/images/report-designer/report-creation/finish-data-connection.png)
+
 2. Your dataset should now be listed in the `Data` panel like below.
-![Data list view](/static/assets/on-premise/images/report-designer/report-creation/data-list-view.png)
+   ![Data list view](/static/assets/on-premise/images/report-designer/report-creation/data-list-view.png '#width=350px')
+
 3. Expand the icon to view the data fields.
-![Data fields list](/static/assets/on-premise/images/report-designer/report-creation/data-fields-list.png)
+   ![Data fields list](/static/assets/on-premise/images/report-designer/report-creation/data-fields-list.png '#width=300px')
 
 ## Add table report item
 
@@ -69,54 +75,63 @@ The left pane in the design view consists of basic items, data region, data visu
 > Here, the `Table` report item is used for demonstration.
 
 1. Select the `Table` item under `Data Regions` in the item panel, then drag and drop it to the design area.
-![Table report item](/static/assets/on-premise/images/report-designer/report-creation/drag-drop-table-item.png)
+   ![Table report item](/static/assets/on-premise/images/report-designer/report-creation/drag-drop-table-item.png '#width=300px')
+
 2. The above action will render the `Table` with two rows and three columns in the design area.
-![Table initial view](/static/assets/on-premise/images/report-designer/report-creation/table-initial-view.png)
+   ![Table initial view](/static/assets/on-premise/images/report-designer/report-creation/table-initial-view.png '#width=300px')
 
 ### Assign data
 
 > This step is applicable only for the report items that belongs to `data visualization` and `data region` category.
 
 Assign the dataset to the `Dataset` property of the table.
-![Assign dataset to the table](/static/assets/on-premise/images/report-designer/report-creation/assign-dataset-to-table.png)
+![Assign dataset to the table](/static/assets/on-premise/images/report-designer/report-creation/assign-dataset-to-table.png '#width=350px')
 
 ### Add column header
 
 1. Select the first cell in the table, and enter the column header text as `ProductID` to the `Content` property of table.
-![Enter text in table cell](/static/assets/on-premise/images/report-designer/report-creation/enter-text-in-table-cell.png)
+   ![Enter text in table cell](/static/assets/on-premise/images/report-designer/report-creation/enter-text-in-table-cell.png)
+
 2. Similarly, you can add required column header text to other cells in the table.
-![Assign column text output](/static/assets/on-premise/images/report-designer/report-creation/assign-column-text-output.png)
+   ![Assign column text output](/static/assets/on-premise/images/report-designer/report-creation/assign-column-text-output.png '#width=368px')
 
 ### Assign data fields in table cell
 
 1. Select the table cell and click on the `Data assign` menu icon to open data assign menu.
-![Open data assign menu](/static/assets/on-premise/images/report-designer/report-creation/open-data-assign-menu.png)
+   ![Open data assign menu](/static/assets/on-premise/images/report-designer/report-creation/open-data-assign-menu.png '#width=250px')
+
 2. Assign the `ProductID` field in the table cell.
-![Assign fields to table cell](/static/assets/on-premise/images/report-designer/report-creation/assign-fields-to-table-cell.png)
+   ![Assign fields to table cell](/static/assets/on-premise/images/report-designer/report-creation/assign-fields-to-table-cell.png '#width=250px')
+
 3. Similarly, you can assign the required data fields to the table cell.
-![Output of assign fields procedure](/static/assets/on-premise/images/report-designer/report-creation/assign-fields-to-table-cell-output.png)
+   ![Output of assign fields procedure](/static/assets/on-premise/images/report-designer/report-creation/assign-fields-to-table-cell-output.png '#width=350px')
+
 4. Assign `expression` to the table cell.
-![Assign expression to table cell](/static/assets/on-premise/images/report-designer/report-creation/add-expression-to-table-cell.png)
+   ![Assign expression to table cell](/static/assets/on-premise/images/report-designer/report-creation/add-expression-to-table-cell.png '#width=400px')
+
 5. In the expression dialog, add the following expression `=Fields!OrderQty.Value*Round(Fields!UnitPrice.Value,2)` and click OK.
-![Assign expression to table cell](/static/assets/on-premise/images/report-designer/report-creation/unit-price-expression.png)
+   ![Assign expression to table cell](/static/assets/on-premise/images/report-designer/report-creation/unit-price-expression.png '#width=400px')
+
 6. Now, the table will look like below,
-![Assign expression to table cell](/static/assets/on-premise/images/report-designer/report-creation/expression-output-in-table-cell.png)
+   ![Assign expression to table cell](/static/assets/on-premise/images/report-designer/report-creation/expression-output-in-table-cell.png '#width=350px')
 
 ### Resize the column
 
 To improve the report readability, we can resize the table row height and column width.
 
 1. Place the mouse pointer in the respective column border.
-![Resize the table column](/static/assets/on-premise/images/report-designer/report-creation/resize-the-table-column.png)
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/report-creation/resize-the-table-column.png '#width=350px')
+
 2. Drag the column gripper horizontally, to adjust the column width.
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-creation/adjust-column-width-output.png)
+   ![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-creation/adjust-column-width-output.png '#width=350px')
 
 ### Resize the row
 
 1. Place the mouse pointer in the respective row border.
-![Resize the table row](/static/assets/on-premise/images/report-designer/report-creation/resize-the-table-row.png)
+   ![Resize the table row](/static/assets/on-premise/images/report-designer/report-creation/resize-the-table-row.png '#width=350px')
+
 2. Drag the row gripper vertically, to adjust the row height.
-![Adjust row height of the table](/static/assets/on-premise/images/report-designer/report-creation/adjust-row-height-output.png)
+   ![Adjust row height of the table](/static/assets/on-premise/images/report-designer/report-creation/adjust-row-height-output.png '#width=350px')
 
 ### Customize the appearance
 
@@ -127,19 +142,23 @@ Open the `PROPERTIES` pane. This pane holds some general settings and some speci
 ### Add total
 
 1. Select the second row, first cell and Right click -> **Add Total**
-![Add total menu](/static/assets/on-premise/images/report-designer/report-creation/add-total-menu.png)
+   ![Add total menu](/static/assets/on-premise/images/report-designer/report-creation/add-total-menu.png '#width=250px')
+
 2. Now, select the third row, first four columns and Right click -> **Merge cells**
-![Merge cells in table](/static/assets/on-premise/images/report-designer/report-creation/merge-cells-in-table.png)
+   ![Merge cells in table](/static/assets/on-premise/images/report-designer/report-creation/merge-cells-in-table.png '#width=350px')
+
 3. Modify the cell content as `Total` and align the content to `Right` side.
-![Modify the cell content](/static/assets/on-premise/images/report-designer/report-creation/modify-total-cell-content.png)
+   ![Modify the cell content](/static/assets/on-premise/images/report-designer/report-creation/modify-total-cell-content.png '#width=350px')
+
 4. Select the third row, last cell and open the `Data Assign` menu. Then, click on `Add Expression`.
-![Add expression menu](/static/assets/on-premise/images/report-designer/report-creation/add-expression-menu.png)
+   ![Add expression menu](/static/assets/on-premise/images/report-designer/report-creation/add-expression-menu.png '#width=400px')
+
 5. In the expression dialog, add the following expression `=Sum(Fields!OrderQty.Value*Round(Fields!UnitPrice.Value,2))` and click OK.
-![Provide valid expression](/static/assets/on-premise/images/report-designer/report-creation/round-of-the-line-total.png)
+   ![Provide valid expression](/static/assets/on-premise/images/report-designer/report-creation/round-of-the-line-total.png '#width=400px')
 
 Now, the table design will look like below.
 
-![Final design view](/static/assets/on-premise/images/report-designer/report-creation/final-design-view.png)
+![Final design view](/static/assets/on-premise/images/report-designer/report-creation/final-design-view.png '#width=400px')
 
 ## Save report
 
@@ -148,11 +167,12 @@ Once you are done with the report designing, to save a report refer **How to sav
 ## Preview report
 
 1. To see the report preview, click on the **Preview** button in the report header.
-![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-creation/preview-icon.png)
-2. Now, the report preview can be visualized like below.
-![Table report preview](/static/assets/on-premise/images/report-designer/report-creation/report-preview-page-1.png)
+   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-creation/preview-icon.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/design-rdl-report-in-web-report-designer.rdl)
+2. Now, the report preview can be visualized like below.
+   ![Table report preview](/static/assets/on-premise/images/report-designer/report-creation/report-preview-page-1.png)
+
+   > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/design-rdl-report-in-web-report-designer.rdl)
 
 ## See also
 

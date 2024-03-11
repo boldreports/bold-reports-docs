@@ -8,7 +8,7 @@ documentation: ug
 
 # Synchronize Users
 
-You can synchronize Active directory, Azure active directory, Database users to the Bold Reports Report Server. Learn more details from the following sections:
+You can synchronize Active Directory, Azure Active Directory, and Database users to the Bold Reports Report Server. Learn more details from the following sections:
 
 * [Synchronize users from Active Directory](./../synchronize/synchronize-active-directory-users/)
 

@@ -8,41 +8,40 @@ documentation: ug
 
 # Import Active Directory users
 
-Users belonging to the System Administrator group can import Active Directory users to the Report Sever.
+This section explains how to search for and import users from Active Directory into Bold Reports On-Premise.
 
-> Active Directory connection must be configured in the [Active Directory Settings](./../../../../manage-app-settings/active-directory/) for importing users.
+> **Note:** The Active Directory connection must be configured within the [Active Directory Settings](./../../../../manage-app-settings/active-directory/) inorder to import users.
 
-This section explains how to search and import users from Active Directory into the Bold Reports On-Premise.
+Users belonging to the `System Administrator` group can import Active Directory users to the Report Sever.
 
 ## Search users
 
-Initially, any Active Directory user cannot be displayed until searching for users.
+You can search for Active Directory users using any of the properties listed below and choose them to import into the Bold Reports application.
 
-1. Search the Active Directory users with anyone of the following properties:
-    * User name
-    * First name
-    * Last name
-    * Email address
-    * Display name
+* User name
+* First name
+* Last name
+* Email address
+* Display name
 
-2. The Report Server lists the search results in grid as shown in the following image.
+A maximum of 1000 users will be searched and retrieved from Active Directory in a single request.
+
+The Bold Reports application will search for users within the specified distinguished name provided in the Active Directory settings page and display the search results in a grid.
     ![Search Active Directory users](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-active-directory/search-user.png)
-    > The search result will be based on "starts with" query.
-
-3. Choose the users to import into the Report Server.
-    > A maximum of 1000 users will be searched and pulled from Active Directory in a single request.
+> The search result will be based on a "starts with" query.
 
 ## Import users
 
-To import the Active Directory users into the Report Server, choose the users from the list and click **Import and Activate** at the top-right corner. After importing the Active Directory users, a confirmation message will be displayed as shown in the following image.
+To import Active Directory users into the Bold Reports, select the users from the list and click **Import** at the top-right corner. Once the import process is complete, a confirmation message will be displayed, as shown in the following image.
 ![Success message after imported the Active Directory users](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-active-directory/user-imported.png)
 
 ## Duplicate users
 
-Users who has the same username or email address as that of the Report Server users(who are already present) will be marked as duplicate users. It will not be allowed to import into the Report Server.
-![Duplicated Active Directory users](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-active-directory/duplicated-users.png)
+Users with the same username or email address as existing Bold Reports users will be flagged as duplicate users and cannot be imported into Bold Reports.
 
-## Modify Active Directory connection
+![Duplicated users](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-active-directory/duplicated-users.png)
 
-To modify Active Directory configuration settings, click **Modify** as shown in the following image.
+## Modify the Active Directory connection
+
+To modify Active Directory configuration settings, click on **Modify** as shown in the following image.
 ![Modify Active Directory configuration](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-active-directory/modify-configuration.png)

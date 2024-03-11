@@ -27,7 +27,9 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## Add interactive sorting
 
-Design a [simple table report](./../../design-rdl-report-in-web-report-designer/#add-table-report-item) as shown below.![Table design](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/table-design.png)
+Design a [simple table report](./../../design-rdl-report-in-web-report-designer/#add-table-report-item) as shown below.
+
+![Table design](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/table-design.png '#width=300px')
 
 Select the column header textbox of the column to which you want to enable interactive sorting. Here, lets add interactive sorting on the `Product Category` column.
 
@@ -35,16 +37,16 @@ Select the column header textbox of the column to which you want to enable inter
 
 In `User Sort` property, set the interactive sorting using following fields:
 
-![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sorting-properties.png)
+![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sorting-properties.png '#width=350px')
 
 * **Sort Expression**: Available fields in the assigned data set will be listed in the `Sort Expression` field. Select the expression containing the value of the field on which you want to provide sorting.
-   ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-expression-field.png)
+   ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-expression-field.png '#width=350px')
 * **Sort Expression Scope**: Available details, row and column grouping in the respective data region will be listed in the `Sort Expression Scope` field.
     * To enable the interactive sorting on `Details Row` then choose details group.
     * To enable the interactive sorting on `Grouping Column` then choose the group.
-   ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-scope.png)
+      ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-scope.png '#width=350px')
 * **Sort Target**: Select the grouping level or data region within the report to sort.
-   ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-target.png)
+   ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-target.png '#width=350px')
 
 > By default sorting will be applied to the current scope, you can optionally choose a different scope in `Sort Expression Scope` and `Sort Target` fields.
 
@@ -52,7 +54,7 @@ In `User Sort` property, set the interactive sorting using following fields:
 
 On report preview, interactive sorting button will be enabled in the respective column header.
 
-![Preview design](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/preview-design.png)
+![Preview design](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/preview-design.png '#width=350px')
 
 Click on the arrow icon to sort the column dynamically in ascending or descending order.
 

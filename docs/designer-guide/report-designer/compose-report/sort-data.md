@@ -8,16 +8,16 @@ keywords: ejReportDesigner, reportdesigner, sorting, Ascending, Descending
 
 Sorting arrange the data in either ascending or descending order to present data in more readable formats. It can be used to sort the data in a data regions.
 
-![open-sort-dialog](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-dialog.png)
+![open-sort-dialog](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-dialog.png '#width=350px')
 
 ## Add Sorting
 
 1. To add a sort expression, Click on the **Add** icon.
 
-   ![choose-sort-fields](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-to-choose-fields.png)
+   ![choose-sort-fields](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-to-choose-fields.png '#width=350px')
 
 2. Dataset fields are listed in the first drop-down list, choose the necessary field from the drop-down list or set an [Expression](./../../compose-report/sort-data/#set-expression).
-    ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/expression-field.png)
+    ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/expression-field.png '#width=200px')
 
 3. Sort `Direction` types are listed in the second drop-down list, choose a sort direction in the drop-down list.
 
@@ -25,12 +25,12 @@ Sorting arrange the data in either ascending or descending order to present data
 
    * **Descending** sorts the data in Z-A order.
 
-   ![add-field-to-sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-add-field.png)
+      ![add-field-to-sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-add-field.png '#width=350px')
 
 4. Click OK.
 5. To add multiple sort expression, follow steps 1 - 4.
 
-    ![addfield multiple sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/multiple-sort.png)
+    ![addfield multiple sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/multiple-sort.png '#width=350px')
 
 ## Set Expression
 
@@ -38,9 +38,11 @@ Follow steps 1 - 4, to add sort expression.
 
 1. To edit/create an expression, click on the square icon and select `Expression`.
 
-    ![expression-icon](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-expression-icon.png)
+    ![expression-icon](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-expression-icon.png '#width=350px')
 
-2. `Expression` dialog will be open as shown below, Refer [Expression](./../../compose-report/expressions/) section for better understanding with the following sections.   ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-dialog.png)
+2. `Expression` dialog will be open as shown below, Refer [Expression](./../../compose-report/expressions/) section for better understanding with the following sections.
+
+    ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-dialog.png '#width=400px')
 
 3. The icon will be indicated in `Black color`, if the expression is applied to the dataset field.
    ![set-expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/expression-set-black.png)
@@ -48,20 +50,20 @@ Follow steps 1 - 4, to add sort expression.
 ## Reset Expression
 
 1. To reset an expression, click on the square icon and select `Reset`.
-![Select reset expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-reset.png)
+   ![Select reset expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-reset.png '#width=350px')
 
 2. The icon will be indicated in `White color`, after reset action.
-![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/after-reset-expression.png)
+   ![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/after-reset-expression.png)
 
 ## Reordering
 
 To change the order of an sort expression, click and hold the icon in the left corner, and then drag the sort expression to higher or lower position.
 
-![reorder fields in sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/reorder-before.png)
+![reorder fields in sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/reorder-before.png '#width=350px')
 
 The position of dragged sort expression is shown as below:
 
-![after reorder fields in sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/after-reorder.png)
+![after reorder fields in sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/after-reorder.png '#width=350px')
 
 ## Remove Sorting
 

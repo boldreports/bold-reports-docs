@@ -8,7 +8,7 @@ documentation: ug
 
 # Delete report from Report Server
 
-This section explains about how to delete report individually or delete multiple reports from the Bold Reports On-Premise. Reports can also be deleted from the Report Server when they are no longer required.
+This section explains how to delete reports individually or delete multiple reports from the Bold Reports On-Premise. Reports can also be deleted from the Report Server when they are no longer required.
 
 Click the `Actions` button in the Reports grid context menu and click `Delete` to delete the Report.
 ![Delete Report](/static/assets/on-premise/images/manage-content/manage-reports/delete-report.png)
@@ -19,7 +19,7 @@ Click the `Actions` button in the Reports grid context menu and click `Delete` t
 
 All Sample Reports can be deleted in a simpler way by deleting the Sample Category `Sample Reports`, `Sample Reports (Web Designer)`.
 
-Click the `Actions` icon in the context menu and click `Delete` to delete all sample reports as well as sample category.
+Click the `Actions` icon in the context menu and click `Delete` to delete all sample reports as well as the sample category.
 ![Delete All Sample Reports](/static/assets/on-premise/images/manage-content/manage-reports/delete-all-sample-reports.png)
 
 > If the sample category has any modified sample report, or scheduled report, or newly added report, those reports will be skipped and the category will not be deleted.
@@ -45,7 +45,7 @@ The following table illustrates the list of available APIs related to delete rep
    </tr>
    <tr>
       <td>
-         <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_DeleteItem">DeleteReport</a>
+         <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_DeleteItem">DeleteReport</a>
       </td>
       <td>
          DELETE

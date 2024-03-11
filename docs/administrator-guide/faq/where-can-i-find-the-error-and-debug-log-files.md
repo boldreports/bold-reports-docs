@@ -20,6 +20,23 @@ Event log files record the complete user interaction details one after the other
 
 For any configurations made in the Bold Reports, log files are generated in deployed locations under the various modules listed in the following table based on the nature of the error or event.
 
+## Bold Reports version 3.1.31 or later
+
+Admin can download log files from Get diagnostic logs in UMS.
+
+ ![Diagnostic logs](/static/assets/on-premise/images/faq/diagnostic-logs.png)
+
+ You can get the log file manually from the following location for Bold Reports version 3.1.31 or later.
+
+> By default, the Bold Reports is deployed in `C:\BoldServices`.
+
+| Hosted Environment    | Log location                                                  |
+|------------------     |------------------------------------------------------------   |
+| Windows               |  **`{Deployed Location}`**\app_data\logs                      |
+| Linux                 |   /var/www/bold-services/application/app_data/logs            |
+
+## Bold Reports version below 3.1.31
+
 > By default, the Bold Reports is deployed in `C:\Bold Reports`.
 
 | Application           | Log location                                                  |

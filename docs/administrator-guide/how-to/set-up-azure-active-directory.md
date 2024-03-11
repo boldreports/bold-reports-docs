@@ -28,16 +28,21 @@ Log on to the Azure portal to create an `Azure Active Directory`.
 2. Click `Create` in the following screenshot.
     ![Create Directory 1](/static/assets/on-premise/images/how-to/ad-create.png)
 
-3. In the dialog box, enter the `Name`, `Domain Name`, and choose the `Country or Region`, and then click `Create`.
+3. Choose `Azure Active Directory` and click `Next: Configuration`
     ![Create Directory 2](/static/assets/on-premise/images/how-to/ad-create1-1.png)
 
-4. The application will be added to the directory and you can view the details of the application in the `App registrations`.
+4. In the dialog box, enter the `Name`, `Domain Name`, and choose the `Country or Region`, and then click `Next: Review + Create`.
+    ![Create Directory 3](/static/assets/on-premise/images/how-to/ad-create1-2.png)
+5. Crosscheck the details and click `Create`.
+    ![Create Directory 3](/static/assets/on-premise/images/how-to/ad-create1-3.png)
 
-Go to the Azure Active Directory. In the directory, you should add two applications in which one acts as a Web API for authenticate the Bold Reports On-Premise, and an other application that acts as native client application for authenticate Bold Reports On-Premise mobile app.
+6. The application will be added to the directory and you can view the details of the application in the `App registrations`.
+
+Go to the Azure Active Directory. In the directory, you should add two applications, one of which acts as a Web API for authenticating Bold Reports On-Premise and the other as a native client application for authenticating the Bold Reports On-Premise mobile app.
 
 #### Steps to register Bold Reports On-Premise application in Azure Active Directory
 
-1. Enter into the created directory and click `Azure Active Directory`, and then select `App registrations`.
+1. Enter into the created directory and click `Azure Active Directory` and then select `App registrations`.
 
 2. Now, click `New application registration` to add a new application.
     ![Create Application 1](/static/assets/on-premise/images/how-to/add-application-1.png)
@@ -97,37 +102,10 @@ Go to the Azure Active Directory. In the directory, you should add two applicati
     Select the above listed permissions and click on `Update permissions` button.
     ![Update Permissions](/static/assets/on-premise/images/how-to/update-permissions.png)
 
-8. Go to `API permissions`, click `Add a permission` and then click on `Azure Active Directory Graph` as shown below.
-    ![Azure Active Directory Graph](/static/assets/on-premise/images/how-to/azure-active-directory-graph.png)
-
-    <table>
-    <tr>
-     <th>Application Permissions</th>
-     <th></th>
-     </tr>
-     <tr>
-     <td>Directory <td>Read directory data</td></td>
-     </tr>
-     <tr>
-     <th><b>Delegated Permissions</b></th>
-     <th></th>
-     </tr>
-     <tr>
-     <td> 1. Directory <td>Read directory data, Access directory as the signed in user</td></td>
-     </tr>
-     <tr>
-     <td>2. User <td>Sign in and read user profile</td></td>
-     </tr>
-    </table>
-
-    Select the above listed permissions and click on `Add permissions` button.
-
-    ![Add Permissions](/static/assets/on-premise/images/how-to/add-permissions.png)
-
-9. After adding the permissions, click `Grant admin consent` to grant the admin consent for these permission.
+8. After adding the permissions, click `Grant admin consent` to grant the admin consent for these permission.
     ![Grant Admin Consent](/static/assets/on-premise/images/how-to/grant-admin-consent.png)
 
-10. Select `Expose an API` in the left side menu and click on `set` from Application ID URI.
+9. Select `Expose an API` in the left side menu and click on `set` from Application ID URI.
     ![App Id URI](/static/assets/on-premise/images/how-to/set.png)
 
     Enter `App ID URI` and click on `Save` button
@@ -135,7 +113,7 @@ Go to the Azure Active Directory. In the directory, you should add two applicati
 
     >The `Application ID URI` must be in the format `http://{directory domain name}/{application id}`
 
-11. Select `Expose an API` in the left side menu and click on `Add a scope` button.
+10. Select `Expose an API` in the left side menu and click on `Add a scope` button.
     ![App a scope option](/static/assets/on-premise/images/how-to/add-a-scope-option.png)
 
     Enter `Scope name`, choose `Admins and users` on consent and enter `Admin consent display name`, `Admin consent description`, `User consent display name`, `User consent description`. Choose the state as `Enabled`. Click on `Add scope` button.

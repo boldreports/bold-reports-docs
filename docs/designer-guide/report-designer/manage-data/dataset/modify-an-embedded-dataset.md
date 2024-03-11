@@ -9,14 +9,14 @@ This section guides you to modify an embedded dataset in Bold Report Designer. Y
 
 1. Select a data in the `DATA` panel that you want to edit.
 
-   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png#width=540px)
+   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=385px')
 
 2. Click on the above highlighted icon to open the `Edit` context menu of the selected data.
 
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png#width=540px)
+   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png '#width=385px')
 
 3. Choose `Edit` option from the context menu. Now the below view will be displayed to handle your modification.
 
-   ![Query designer edit view](/static/assets/on-premise/images/report-designer/manage-data/dataset/query-designer-edit-view.png#width=540px)
+   ![Query designer edit view](/static/assets/on-premise/images/report-designer/manage-data/dataset/query-designer-edit-view.png '#width=385px')
 
 4. After modifying the fields, click `Finish` button.

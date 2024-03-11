@@ -11,11 +11,11 @@ The rectangle report item is used to visually separate regions of the report or 
 ## Add a rectangle to the report
 
 1. The rectangle report item is listed in the item panel under the `Basic Items` category.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-in-item-panel.png)
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-in-item-panel.png '#width=165px')
 2. Drag and drop the rectangle report item into the design area from the item panel.
-![Drag and drop rectangle report item into design area](/static/assets/on-premise/images/report-designer/report-items/rectangle/drag-and-drop-rectangle.png)
+   ![Drag and drop rectangle report item into design area](/static/assets/on-premise/images/report-designer/report-items/rectangle/drag-and-drop-rectangle.png '#width=225px')
 3. Once you drop the rectangle item into design area, respective item properties will be listed the properties panel.
-![Rectangle item with properties view](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-with-properties-view.png)
+   ![Rectangle item with properties view](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-with-properties-view.png)
 
 ## Properties
 
@@ -25,7 +25,7 @@ Refer the [Properties panel](./../../compose-report/properties-panel/) section b
 
 The border style, color, width and background color properties are used to style the rectangle and customize its appearance in the report design. These properties are listed under the `Basic Settings` category in the properties panel.
 
-![Rectangle basic settings](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-basic-settings.png)
+![Rectangle basic settings](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-basic-settings.png '#width=355px')
 
 #### Border
 
@@ -35,14 +35,20 @@ Border properties are used to add or customize the border around a rectangle ite
 
 Using the background color property you can color the rectangle background. To set background color using properties panel refer [Background color](./../../compose-report/common-properties/#background-color) section.
 
+### Background Image
+
+Background image property can be used to display company logos, watermarks, or any other background image to the rectangle. To set background image to the report refer [Background Image](./../../compose-report/background-image/) section.
+
+![Background image](/static/assets/on-premise/images/report-designer/report-items/rectangle/background-image.png '#width=355px')
+
 ### Page break
 
 The page break property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for rectangle item.
 
 1. Choose any `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png)
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
 2. To reset page number on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png)
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
 
 ### Position
 
@@ -52,13 +58,13 @@ Position property is used to set the width, height, left and top position of the
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/rectangle/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/rectangle/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 You can assign a custom name for the rectangle element using the `Name` field. The rectangle will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/rectangle/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/rectangle/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -70,7 +76,7 @@ On exporting the report, the visibility of the rectangle can be controlled using
 * **NoOutput** - Does not export the rectangle report item
 * **ContentsOnly** - Does not export the rectangle report item, only the contents of it are exported
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/rectangle/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/rectangle/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -82,13 +88,13 @@ Visibility property is used to conditionally show or hide the rectangle report i
 
 Keep together property is used to display the report item or section of a report in a single page, on report preview or export action. Enable the checkbox to keep the content in single page or it will span across multiple pages.
 
-![Keep together property](/static/assets/on-premise/images/report-designer/report-items/rectangle/keep-together-property.png)
+![Keep together property](/static/assets/on-premise/images/report-designer/report-items/rectangle/keep-together-property.png '#width=355px')
 
 #### Page name
 
 The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-name-property.png)
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-name-property.png '#width=355px')
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
@@ -99,6 +105,16 @@ This property can be used to set the values for rectangle custom properties. To 
 #### Tooltip
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for rectangle report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
 
 ## Set expression
 

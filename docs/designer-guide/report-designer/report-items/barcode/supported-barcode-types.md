@@ -108,4 +108,9 @@ variable</td></tr>
 <td>
 <a href="https://en.wikipedia.org/wiki/Pharmacode">Pharmacode</a></td><td>numeric [0..9] and generic;</td><td>
 variable</td></tr>
+
+<tr>
+<td>
+<a href="https://en.wikipedia.org/wiki/GS1-128">GS1Code128</a></td><td>[A, B, or C], numeric [0..9] and FNC1 character</td><td>
+variable</td></tr>
 </table>

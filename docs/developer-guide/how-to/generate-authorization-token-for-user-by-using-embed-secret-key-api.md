@@ -30,6 +30,8 @@ Add the following assemblies in a namespace:
 
 > Refer `Newtonsoft.Json` assembly from [nuget package](https://www.nuget.org/packages/Newtonsoft.Json/).
 
+## .NET,.NET Core, and .NET Framework
+
 ```csharp
 public class Token
 {
@@ -48,8 +50,8 @@ public class Token
 }
 
 private static string tokenurl = "/reporting/api/site/site1/token";
-private static string boldReportsUrl = "https://on-premise-demo.boldreports.com"; // Provide your Bold Reports URL
-private static string username = "guest@boldreports.com"; // Provide your Email ID
+private static string boldReportsUrl = "https://demo.example.com"; // Provide your Bold Reports URL
+private static string username = "user@example.com"; // Provide your Email ID
 private static string nonce = Guid.NewGuid().ToString();
 private static string timeStamp = DateTimeToUnixTimeStamp(DateTime.UtcNow).ToString();
 private static string secretCode = "lettffAEI0FtKDGdrDekEv7WUbHwOwO"; // Provide your embed secret key value from the Bold Reports Report Server Embed Settings.
@@ -116,4 +118,6 @@ After the token is generated, use the generated token by attaching in the reques
 
 ## See also
 
-* [How to generate the access token for Bold Reports Report Server user?](../generate-access-token-for-bold-reports-server-user/)
+* [How to generate the authorization from Report server UI](../generate-access-token-for-bold-reports-server/)
+
+* [How to generate the access token for Bold Reports Report Server using credentials?](../generate-access-token-for-bold-reports-server-using-credentials/)

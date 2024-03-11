@@ -8,7 +8,7 @@ documentation: ug
 
 # Download Report from Report Server
 
-This section explains about how to download report from the Bold Reports On-Premise and share with other users.
+This section explains how to download reports from Bold Reports On-Premise and share them with other users.
 
 Click the `Actions` button in the Reports grid context menu and click `Download Report` to download the Report in `.rdl` format.
 

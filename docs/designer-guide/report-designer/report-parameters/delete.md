@@ -10,9 +10,9 @@ This section describes the steps required to remove a report parameter in Bold R
 
 1. In the configuration panel, click on the `Parameters` icon to open the `PARAMETERS` panel.
 2. Hover the cursor on the report parameter which you want to delete from the list of parameters.
-  ![Parameter list view](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/parameter-list-view.png#width=540px)
+   ![Parameter list view](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/parameter-list-view.png '#width=350px')
 3. Click the `menu` icon in the right corner, to open the context menu.
-  ![Open context menu](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/open-context-menu.png#width=540px)
+   ![Open context menu](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/open-context-menu.png '#width=350px')
 4. Choose `Delete` from the context menu, it will launch the confirmation dialog like below.
-  ![Parameter delete confirmation dialog](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/parameter-delete-confirmation-dialog.png#width=430px)
+   ![Parameter delete confirmation dialog](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/parameter-delete-confirmation-dialog.png '#width=300px')
 5. Click on `Yes` button, now the report parameter will be removed from the report parameter list.

@@ -27,7 +27,8 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## Add drilldown action to a table group
 
-Design a [simple table report](./../../report-items/tablix/insert-or-delete-a-row-group-ssrs/#insert-a-row-group) with a parent group and child group as shown below.![Table design](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/table-final-design.png)
+Design a [simple table report](./../../report-items/tablix/insert-or-delete-a-row-group-ssrs/#insert-a-row-group) with a parent group and child group as shown below.
+![Table design](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/table-final-design.png '#width=350px')
 
 Select `SubCat` field in the grouping panel, now the group properties will be loaded in the properties panel.
 
@@ -35,7 +36,7 @@ Select `SubCat` field in the grouping panel, now the group properties will be lo
 
 In `Visiblity` property, set the visibility of `SubCat` group  to show or hide the group when first time you preview a report.
 
-![Visibility property](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/visibility-property.png)
+![Visibility property](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/visibility-property.png '#width=350px')
 
 * Enable the checkbox to display the group.
 * Disable the checkbox to hide the group.
@@ -49,17 +50,17 @@ Set the visibility for `SubCat` group as `true` in the report so that sub-catego
 
 In `Toggle` property drop-down list, available textbox report items in the report will be listed. Choose the `ProdCat` field textbox to expand or collapse the `SubCat` based on product categories.
 
-![Select group to toggle](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/select-group-to-toggle.png)
+![Select group to toggle](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/select-group-to-toggle.png '#width=350px')
 
 > The text box that you use for the toggle must be in a containing scope that controls the item that you want to show or hide.
 
 To differentiate the values, apply background color and font styles for parent and child group.
 
-![Improve table appearance](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/improve-table-appearance.png)
+![Improve table appearance](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/improve-table-appearance.png '#width=350px')
 
 Now, click on the `Preview` button to see the report preview. Here, `>` symbol before each product category is the drill down action.
 
-![SSRS Drill down report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-group.png)
+![SSRS Drill down report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-group.png '#width=400px')
 
 **Initial Toggle state**:
 
@@ -71,7 +72,7 @@ In the `ProdCat` textbox properties change the `Initial Toggle State` as `false`
 
 Now, click on the `Preview` button and notice the drilldown symbol is in expanded state.
 
-![Initial toggle state](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/drill-down-action-indicator.png)
+![Initial toggle state](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/drill-down-action-indicator.png '#width=400px')
 
 ### Hide group on initial display
 
@@ -85,10 +86,10 @@ Then, set the `Initial Toggle State` as `True` in the `ProdCat` textbox properti
 
 Now, click on the `Preview` button to see the report preview. Notice the sub-category group values are in collapsed state and the drilldown action symbol also is in collapsed state.
 
-![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-group-hidden.png)
+![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-group-hidden.png '#width=350px')
 
 To see the sub-category product and their sales value, expand the group by clicking on the `>` symbol.
 
-![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-single-group.png)
+![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-single-group.png '#width=350px')
 
 > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-ssrs-drill-down-report.rdl)

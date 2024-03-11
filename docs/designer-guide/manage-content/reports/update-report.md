@@ -12,7 +12,7 @@ This section explains about how to update report using API or through update opt
 
 ## Steps to update a Report
 
-Reports can be updated to move the Report to a different category. Name, description and the Report file(`.rdl`) can be changed for the Report in the update Report dialog box.
+Reports can be updated to move them to a different category. The name, description, and report file (`.rdl`) can be changed for the Report in the update Report dialog box.
 
 1. Click on the `Update` option in the context menu of the Report to be updated to open the update Report dialog box.
     ![Update option in context menu](/static/assets/on-premise/images/manage-content/manage-reports/update-context-report.png)
@@ -43,7 +43,7 @@ The following table illustrates the list of available APIs related to update rep
     </tr>
     <tr>
       <td>
-        <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_UpdateReport">UpdateReport</a>
+        <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_UpdateReport">UpdateReport</a>
       </td>
       <td>
         PUT

@@ -11,6 +11,8 @@ Resources are the items stored on the Bold Reports Report Server. You can learn 
 
 * [Manage Reports](./../../designer-guide/manage-content/reports/)
 
-* [Manage Datasets](./../../designer-guide/manage-content/data-sources-management/)
+* [Manage Report Layout](./../../designer-guide/manage-content/report-layout/)
 
 * [Manage Data sources](./../../designer-guide/manage-content/dataset-management/)
+
+* [Manage Datasets](./../../designer-guide/manage-content/data-sources-management/)

@@ -7,7 +7,7 @@ documentation: ug
 
 # How to apply the patches to Bold Reports Enterprise Reporting
 
-The support team provides solutions to the reported issues in the form of patch, which contain assemblies or files and this topic explains how to apply these patches to the Bold Reports Enterprise Reporting.
+The support team provides solutions to the reported issues in the form of patch, which contain assemblies or files and this topic explains how to apply these patches to Bold Reports Enterprise Reporting.
 
 Download and extract the patch provided in the support incident.
 

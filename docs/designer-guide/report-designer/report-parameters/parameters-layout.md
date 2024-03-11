@@ -11,11 +11,11 @@ Parameters order is important when designing a reports with cascading parameters
 You can access the parameters layout by using the `Edit Layout` option in `Parameters Pane`.
 
 1. Open the parameters pane in the navigation panel.
-![Open parameters pane](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/open-parameters-pane.png)
+   ![Open parameters pane](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/open-parameters-pane.png '#width=350px')
 2. Click on `Edit Layout >` option in the parameters pane.
-![Edit layout option to open layout](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/edit-layout.png)
+   ![Edit layout option to open layout](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/edit-layout.png '#width=350px')
 3. Now, the parameters layout dialog will open.
-![Parameters layout dialog](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/parameters-layout-dialog.png)
+   ![Parameters layout dialog](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/parameters-layout-dialog.png '#width=400px')
 
 By default, the layout opens with four columns and two rows. You can manually reorder parameters, insert or delete rows and columns in the parameters layout dialog.
 
@@ -29,17 +29,17 @@ In the grid, you can move parameters to any position by dragging them to the des
 
 To arrange the parameter positions drag a required parameter from a cell and drop into required cell position,
 
-![Ordering parameters](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/swap-positions.png)
+![Ordering parameters](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/swap-positions.png '#width=450px')
 
 Then click OK. Notice the order of parameters in the parameters pane list also changed.
 
 Now, I have arranged the parameters like below,
 
-![After ordering parameters](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/after-arranging-positions.png)
+![After ordering parameters](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/after-arranging-positions.png '#width=450px')
 
 Parameters list in the parameters pane also reordered based on the parameter layout,
 
-![Ordering effect in parameters pane](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/reordering-in-list.png)
+![Ordering effect in parameters pane](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/reordering-in-list.png '#width=450px')
 
 After ordering, at report preview the parameter pane will look like below,
 
@@ -49,28 +49,28 @@ After ordering, at report preview the parameter pane will look like below,
 
 As in any grid-like structure, you can add new columns and rows or remove them. We can add maximum of 8 columns, but the number of rows appears not have a limit. To insert a row or column, right click on a cell around which you want to add row or column. The context menu will show up with `Insert Column` and `Insert Row` options.
 
-![Cell context menu](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/cell-context-menu.png)
+![Cell context menu](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/cell-context-menu.png '#width=400px')
 
 You can add a column to the `Left` or `Right` of the target row.
 
-![Insert row options](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/insert-column-options.png)
+![Insert row options](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/insert-column-options.png '#width=400px')
 
 Similarly, you can add a row `Above` or `Below` the target row.
 
-![Insert column options](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/insert-row-options.png)
+![Insert column options](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/insert-row-options.png '#width=400px')
 
 ## Delete row or column
 
 As like insert row and column actions, you can also delete a parameter or delete a row or column in the parameter layout. Deleting a row or column will also delete all associated parameters on that specific row or column. The delete action in parameters layout will also deletes the respective parameters from parameters pane. To delete a row or column, right click any cell in that respective row or column. The context menu will show up with `Delete Column` and `Delete Row` options.
 
-![Cell context menu](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/cell-context-menu.png)
+![Cell context menu](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/cell-context-menu.png '#width=400px')
 
 Performing delete action on an empty row or column will automatically deletes the respective row or column from the layout. If the row or column contains one or more parameters, it will show a alert confirmation like below.
 
-![Alert confirmation](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/delete-alert-confirmation.png)
+![Alert confirmation](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/delete-alert-confirmation.png '#width=300px')
 
 You can also delete a specific parameter from a row or column using the `Delete` option in the context menu. Right click on the cell in which you want to delete the parameter and select `Delete` option from the menu.
 
-![Delete single parameter](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/delete-single-parameter.png)
+![Delete single parameter](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/delete-single-parameter.png '#width=400px')
 
 Once you click OK. It also deletes the respective parameter from parameters pane.

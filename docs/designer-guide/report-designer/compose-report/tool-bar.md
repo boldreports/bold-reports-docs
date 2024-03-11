@@ -70,7 +70,7 @@ Snaps the selected report item to the closest gridline by resizing the report it
 
 `View` menu contains options to show or hide `Header`, `Footer`, `Grid Lines`, `Snap To Shape`, `Full Screen` in the report design.
 
-![View Menu](/static/assets/on-premise/images/report-designer/compose-report/toolbar/view-menu.png)
+![View Menu](/static/assets/on-premise/images/report-designer/compose-report/toolbar/view-menu.png '#width=300px')
 
 **Header** : Enables/Disables header area in the report. Refer [Header](./../../compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-header) section to add and remove header in designer surface.
 

@@ -12,11 +12,11 @@ Multiple column report displays data in multiple sets of columns across the page
 
 Open or create a table report,
 
-![Grouping Aggregate](/static/assets/on-premise/images/report-designer/compose-report/multi-column/report-design.png)
+![Grouping Aggregate](/static/assets/on-premise/images/report-designer/compose-report/multi-column/report-design.png '#width=300px')
 
 Now, open the `Report Properties` in the properties panel by focusing the mouse pointer outside of the design area. Multi-column properties are listed under the `Page Column` category in the properties list.
 
-![Page column properties](/static/assets/on-premise/images/report-designer/compose-report/multi-column/multi-column-properties.png)
+![Page column properties](/static/assets/on-premise/images/report-designer/compose-report/multi-column/multi-column-properties.png '#width=300px')
 
 In `Columns` property, provide the number of columns in the report.
 
@@ -24,13 +24,13 @@ In `Column Spacing` property, type the width of the space between columns.
 
 Then set the required `Margin` and `Paper Size` properties.
 
-![Set page column properties](/static/assets/on-premise/images/report-designer/compose-report/multi-column/set-properties.png)
+![Set page column properties](/static/assets/on-premise/images/report-designer/compose-report/multi-column/set-properties.png '#width=300px')
 
 ## Preview
 
 Click on the `Preview` button, now the report preview will be displayed as a single column. To view the table in multi-column layout, click `Print Layout` option in Report Viewer toolbar.
 
-![Print Layout](/static/assets/on-premise/images/report-designer/compose-report/multi-column/print-layout.png)
+![Print Layout](/static/assets/on-premise/images/report-designer/compose-report/multi-column/print-layout.png '#width=250px')
 
 In export actions such as HTML, Excel, Word, and CSV, a multi-column layout is displayed as a single column. Only `PDF` and `Power Point` rendering formats displays data in multiple columns.
 

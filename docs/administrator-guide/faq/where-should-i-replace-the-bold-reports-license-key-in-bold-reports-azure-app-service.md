@@ -15,12 +15,12 @@ By default, the Bold Reports Azure App Service will have an expired license key.
 3. Choose the `App Service editor` under the Development tool in the options as follows.
    ![App Service Editor](/static/assets/on-premise/images/faq/app-service-editor.png)
 4. Now, the deployed files will be displayed.
-5. Navigate to this location `/site/wwwroot/Report Server/Configuration/BoldLicense.txt` and replace your license key.
+5. Navigate to this location `/site/wwwroot/app_data/reporting/configuration/boldlicense.txt` and replace your license key.
 6. Then, start the Bold Reports Azure App Service.
 
 ## See also
 
-[Create Bold Reports Azure App Service using ARM template](./../../create-app-service/)
+[Create Bold Reports Azure App Service using ARM template](./../../installation/azure-app-service/)
 
 [Upgrade Bold Reports Azure App Service from v1.x to latest](./../../upgrade/azure/upgrade-v1.x/)
 

@@ -21,7 +21,7 @@ To add or remove header and footer using context menu, right click on the design
 
 Right click on the design surface and click on `Add Header` option in the context menu.
 
-![Add Header](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/add-header.png)
+![Add Header](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/add-header.png '#width=300px')
 
 Now, header will be enabled in the report design.
 
@@ -29,7 +29,7 @@ Now, header will be enabled in the report design.
 
 Right click on the design surface and click on `Add Footer` option in the context menu.
 
-![Add Footer](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/add-footer.png)
+![Add Footer](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/add-footer.png '#width=300px')
 
 Now, footer will be enabled in the report design.
 
@@ -37,7 +37,7 @@ Now, footer will be enabled in the report design.
 
 Right click on the design surface and click on `Remove Header` option in the context menu.
 
-![Remove Header](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/remove-header.png)
+![Remove Header](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/remove-header.png '#width=300px')
 
 Now, header will be removed from the report design.
 
@@ -45,7 +45,7 @@ Now, header will be removed from the report design.
 
 Right click on the design surface and click on `Remove Footer` option in the context menu.
 
-![Remove Header](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/remove-footer.png)
+![Remove Header](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/remove-footer.png '#width=300px')
 
 Now, footer will be removed from the report design.
 
@@ -55,31 +55,31 @@ Now, footer will be removed from the report design.
 
 Right click on the design surface. Based on the target surface (body, footer, or header), the context menu will show the report items list in the `Insert` option.
 
-![Insert report items](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-option.png)
+![Insert report items](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-option.png '#width=350px')
 
 Click on the required report item in the insert menu, will add the report item into the report design.
 
-![Insert report item in design surface](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-design-surface.png)
+![Insert report item in design surface](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-design-surface.png '#width=400px')
 
 ### Insert item at rectangle container
 
 Select the rectangle report item and right click on it.
 
-![Insert item in rectangle](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-rectangle.png)
+![Insert item in rectangle](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-rectangle.png '#width=350px')
 
 Then, click on the required report item type in the insert menu. Now, the the report item will be added into the rectangle.
 
-![Insert item in rectangle](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-rectangle-demo.png)
+![Insert item in rectangle](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-rectangle-demo.png '#width=400px')
 
 ### Insert item at tablix cell
 
 Select the cell in tablix report item and right click on it.
 
-![Insert item in table cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-cell.png)
+![Insert item in table cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-cell.png '#width=300px')
 
 Then, click on the required report item type in the insert menu. Now, the the report item will be added into the target cell.
 
-![Insert item in table cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-table-demo.png)
+![Insert item in table cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/insert-item-in-table-demo.png '#width=400px')
 
 > If a table cell contains rectangle, then insert action will add the new report item as child of rectangle.
 
@@ -89,7 +89,7 @@ Then, click on the required report item type in the insert menu. Now, the the re
 
 Select the required report items in design surface and right click.
 
-![Cut from design surface](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/cut-from-design-surface.png)
+![Cut from design surface](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/cut-from-design-surface.png '#width=400px')
 
 Then, click on `Cut` option in the context menu. Now, the selected report items will be removed from report design.
 
@@ -105,17 +105,17 @@ Then, click on `Cut` option in the context menu. Now, the selected report items 
 
 Select the cell in tablix report item and right click on it.
 
-![Insert item in table cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/cut-from-table-cell.png)
+![Insert item in table cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/cut-from-table-cell.png '#width=300px')
 
 Then, click on `Cut` option in the context menu. Now, the report item will be removed from the target cell.
 
 Select the cell in nested tablix, now the gripper for respective tablix will be enabled like below,
 
-![Select nested tablix](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/select-nested-tablix.png)
+![Select nested tablix](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/select-nested-tablix.png '#width=300px')
 
 Right click on the common gripper area,
 
-![Common gripper area](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/common-gripper.png)
+![Common gripper area](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/common-gripper.png '#width=300px')
 
 Then, click on `Cut` option in the context menu. Now, the respective nested tablix will be removed from the parent tablix cell.
 
@@ -125,7 +125,7 @@ Then, click on `Cut` option in the context menu. Now, the respective nested tabl
 
 Select the required report items in design surface and right click.
 
-![Copy from design surface](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/copy-from-design-surface.png)
+![Copy from design surface](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/copy-from-design-surface.png '#width=400px')
 
 Then, click on `Copy` option in the context menu. Now, the selected report items will be copied in the internal clipboard.
 
@@ -133,7 +133,7 @@ Then, click on `Copy` option in the context menu. Now, the selected report items
 
 Select the required report items in target rectangle report item and right click.
 
-![Copy from rectangle](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/copy-from-rectangle.png)
+![Copy from rectangle](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/copy-from-rectangle.png '#width=400px')
 
 Then, click on `Copy` option in the context menu. Now, the selected report items will be copied in the internal clipboard.
 
@@ -141,17 +141,17 @@ Then, click on `Copy` option in the context menu. Now, the selected report items
 
 Select the cell in tablix report item and right click on it.
 
-![Copy item in table cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/copy-from-table-cell.png)
+![Copy item in table cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/copy-from-table-cell.png '#width=300px')
 
 Then, click on `Copy` option in the context menu. Now, the selected report item will be copied in the internal clipboard.
 
 Select the cell in nested tablix, now the gripper for respective tablix will be enabled like below,
 
-![Select nested tablix](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/select-nested-tablix.png)
+![Select nested tablix](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/select-nested-tablix.png '#width=300px')
 
 Right click on the common gripper area,
 
-![Common gripper area](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/copy-nested-tablix.png)
+![Common gripper area](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/copy-nested-tablix.png '#width=300px')
 
 Then, click on `Copy` option in the context menu. Now, the respective nested tablix will be copied in the internal clipboard.
 
@@ -161,19 +161,19 @@ Then, click on `Copy` option in the context menu. Now, the respective nested tab
 
 Right click on the design surface and click on `Paste` option in the context menu. Last copied item will pasted in the target mouse position.
 
-![Paste in design surface](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/paste-in-design-surface.png)
+![Paste in design surface](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/paste-in-design-surface.png '#width=300px')
 
 ### Paste item at rectangle
 
 Right click on the rectangle report item and click on `Paste` option in the context menu. Last copied item will pasted in the rectangle based on mouse position.
 
-![Paste in rectangle](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/paste-in-rectangle.png)
+![Paste in rectangle](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/paste-in-rectangle.png '#width=300px')
 
 ### Paste item at tablix cell
 
 Right click on the required tablix cell and click on `Paste` option in the context menu. Last copied item will pasted in the tablix cell.
 
-![Paste in tablix cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/paste-in-tablix.png)
+![Paste in tablix cell](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/paste-in-tablix.png '#width=300px')
 
 > If tablix cell contains rectangle, then copied item will be pasted inside the rectangle.
 
@@ -181,4 +181,4 @@ Right click on the required tablix cell and click on `Paste` option in the conte
 
 Select a report item from design surface or rectangle or tablix, then right click on the report item. Now, click on `Delete` option in the context menu. Selected report item will be removed from the report design.
 
-![Delete report item](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/delete-item.png)
+![Delete report item](/static/assets/on-premise/images/report-designer/compose-report/design-surface/context-menu/delete-item.png '#width=300px')

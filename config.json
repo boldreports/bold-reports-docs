@@ -1,12 +1,18 @@
-{"additionalInfo": {
+{
+    "branch": "hotfix/boldreports_v5.4.20",
+    "siteVersion": "2.3.26",
+    "umsVersion": "2.3.26",
+    "reportserviceurl": "https://demos.boldreports.com/services/",
+    "githubserviceloc": "https://github.com/boldreports/demo-services/",
+    "additionalInfo": {
         "header": "Enterprise",
         "homePage": {
             "name": "Overview",
             "fileName": "overview"
         },
         "url": {
-            "demo": "https://on-premise-demo.boldreports.com/",
-            "download": "https://www.boldreports.com/account/downloads/enterprise"
+            "freeTrial": "https://www.boldreports.com/pricing",
+            "scheduleFreeDemo": "https://www.boldreports.com/schedule-free-demo"
         },
         "pdf": {
             "tocLevel": 1,

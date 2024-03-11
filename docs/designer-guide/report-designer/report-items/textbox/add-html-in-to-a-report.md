@@ -12,11 +12,11 @@ The text box report item allows you to insert HTML-formatted text into a report.
 
 Drag and drop a textbox report item in to design surface.
 
-![Add textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/add-textbox.png)
+![Add textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/add-textbox.png '#width=255px')
 
 Enter the text in valid HTML format into text area.
 
-![Enter valid html text](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/set-html-text.png)
+![Enter valid html text](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/set-html-text.png '#width=425px')
 
 Select the text and set `HTML` in `Markup Type` property.
 
@@ -26,7 +26,7 @@ You can also format a dataset field which returns HTML text from database or an 
 
 On report preview, the text will be rendered as shown below,
 
-![Markup type preview](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/preview-html-text.png)
+![Markup type preview](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/preview-html-text.png '#width=410px')
 
 Invalid HTML markup tags and cascading style sheet attributes will be ignored and render as plain text. Following are the few set of HTML tags and cascading style sheet attributes which will render as HTML when defined with HTML markup type,
 
@@ -35,7 +35,7 @@ Invalid HTML markup tags and cascading style sheet attributes will be ignored an
   <li><p>Fonts: &lt;FONT&gt;</p></li>
   <li><p>Header, style and block elements: &lt;H{n}&gt;, &lt;DIV&gt;, &lt;SPAN&gt;,&lt;P&gt;, &lt;DIV&gt;, &lt;LI&gt;, &lt;HN&gt;</p></li>
   <li><p>Text format: &lt;B&gt;, &lt;I&gt;, &lt;U&gt;, &lt;S&gt;</p></li>
-  <li><p>List handling: &lt;OL&gt;, &lt;UL&gt;, &lt;LI&gt;</p></li>
+  <li><p>List handling: &lt;UL&gt;, &lt;LI&gt;</p></li>
   <li><p>text-align, text-indent</p></li>
   <li><p>font-family</p></li>
   <li><p>font-size</p></li>

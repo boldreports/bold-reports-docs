@@ -8,64 +8,80 @@ documentation: ug
 
 # Schedule report settings
 
-This section explain about schedule report settings to compress the exporting reports as a zip file by using the `Enable File Compression` option.
+This section explains how to use schedule report settings to compress the exported reports as a zip file by using the `Enable File Compression` option.
 
-> This is optional setting and you can export the uncompressed report by simply unchecking `Enable File Compression` option.
+> This is an optional setting, and you can export the uncompressed report by simply unchecking the `Enable File Compression` option.
 
 ## Enable file compression
 
-1. Click on the `Settings` option in Report Server left-side panel and navigate to `Reports` tab.
-2. Switch to `Schedule` tab as in following image
- ![Schedule report settings tab in Report Server](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
+1. Click on the `Settings` option in the Report Server left-side panel and navigate to the `Reports` tab.
+
+2. Switch to the `Schedule` tab as shown in the following image:
+    ![Schedule report settings tab in Report Server](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
 
 3. Check the `Enable File Compression` option and click on the `Save` button to save the settings.
-4. You can secure the exporting reports with password protection by enabling the `Enable Password Protection` option. By default, the `Default Password` option is selected.
-    > For default password, the password will be generated in the combination of first and last four characters of email.
 
-5. You can customize the password protection rules for exporting reports by choosing the `Custom Password` option. But, the username or first name is mandatory in the password condition.
-![Custom password compression settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/custom-password-for-compression.png)
+4. Exported reports can be made more secure with password protection by enabling the `Enable Password Protection` option. The `Default Password` option is selected by default.
 
-6. For instance, you have a sample user with details below:
-    First Name : John
-    Last Name :
-    Email: johnmichael@gmail.com
+    > For the default password, the password will be generated as a combination of the first and last four characters of the email.
+
+5. You can customize the password protection rules for exporting reports by choosing the `Custom Password` option. However, the username or first name is mandatory in the password condition.
+    ![Custom password compression settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/custom-password-for-compression.png)
+
+6. For instance, let's consider a sample user with the following details:
+
+    First Name : John<br/>
+    Last Name : Michael<br/>
+    Email: johnmichael@gmail.com<br/>
 
 7. With this sample user, the possible password combination and its unlock password have been explained below.
+    <table>
+        <tr>
+            <th>
+                Password Rule
+            </th>
+            <th>
+                Unlock Password
+            </th>
+        </tr>
+        <tr>
+            <td>
+                The First four characters of the Email <br/> + <br/>
+                The Last four characters of the First Name
+            </td>
+            <td>
+                johnJohn
+            </td>
+        </tr>
+        <tr>
+            <td>
+                First four characters of First Name <br/> + <br/>
+                First four characters of Last Name
+            </td>
+            <td>
+                JohnMich
+            </td>
+        </tr>
+        <tr>
+            <td>
+                First four characters of Email <br/> + <br/>
+                Last four characters of Last Name <br/> + <br/>
+            </td>
+            <td>
+                johnhael
+            </td>
+        </tr>
+    </table>
 
-<table>
-    <tr>
-        <th>
-            Password Rule
-        </th>
-        <th>
-            Unlock Password
-        </th>
-    </tr>
-    <tr>
-        <td>
-            First four characters of Email <br/> + <br/>
-            Last four characters of First Name
-        </td>
-        <td>
-            MichJohn
-        </td>
-    </tr>
-    <tr>
-        <td>
-            First four characters of First Name <br/> + <br/>
-            First four characters of Last Name
-        </td>
-        <td>
-            John
-        </td>
-    </tr>
-    <tr>
-        <td>
-            First four characters of Email <br/> + <br/>
-            Last four characters of Last Name <br/> + <br/>
-        </td>
-        <td>
-            johnhael
-        </td>
-    </tr>
-</table>
+## Save as file
+
+1. Click on the `Settings` option in the Report Server left-side panel and navigate to the `Reports` tab.
+
+2. Switch to the `Schedule` tab as shown in the following image:
+    ![Schedule report settings tab in Report Server](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
+
+3. We need to save the export path value for exporting reports to the mentioned location. By default, the directory root path will be **C:\BoldServices\app_data\reporting\Jobs**.
+    ![Default Export path Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-export-default.png)
+
+4. You can edit the default directory root path value, which is provided on the "Export path" option, and click on the `Save` button to save the changes.
+    ![Required Export path Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-export-required.png)

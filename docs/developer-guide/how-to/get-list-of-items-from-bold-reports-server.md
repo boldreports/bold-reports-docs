@@ -88,7 +88,7 @@ public class ApiItems
 
 public static List<ApiItems> GetItems()
 {
-   var BoldReportsURL = "https://on-premise-demo.boldreports.com";
+   var BoldReportsURL = "https://demo.example.com"; // Provide your Bold Reports URL
    var itemType = "Report";
 
    using (var proxy = new CustomWebClient())

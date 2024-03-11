@@ -8,23 +8,23 @@ documentation: ug
 
 # Azure Active Directory Group Synchronization
 
-This section explains how to synchronize the imported Azure Active Directory group and its users with the Azure Active Directory.
+This section explains the process of synchronizing the imported Azure Active Directory group and its users with the Azure Active Directory.
 
-> Before synchronizing the Azure Active Directory groups, follow the given steps:
-1. Configure [Azure Active Directory Settings](./../../../../manage-app-settings/azure-active-directory/)
-2. Import groups from the Azure Active Directory to the Bold Reports On-Premise by referring the following link [Active Directory Group Import](./../../import-groups/import-azure-active-directory-groups/).
+> *Note:* Before synchronizing the Azure Active Directory groups, follow these steps:
+> 1. Configure the [Azure Active Directory Settings](./../../../../manage-app-settings/azure-active-directory/)
+> 2. Import groups from Azure Active Directory to Bold Reports On-Premise by referring to the following link [Active Directory Group Import](./../../import-groups/import-azure-active-directory-groups/).
 
-You can navigate to the group synchronization page from groups page as shown in the below figure.
+You can navigate to the group synchronization page from the groups page, as shown in the image below.
 
 ![Azure Active Directory Synchronization Link](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-azure-active-directory-groups/Azure-Group-Synchronization-navigation.png)
 
 ## Synchronize Groups
 
-Bold Reports On-Premise will list the Azure Active Directory groups that are already imported as shown in the below figure.
+Bold Reports On-Premise will display the Azure Active Directory groups that have already been imported, as shown in the image below.
 
 ![Azure Active Directory Imported group list](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-azure-active-directory-groups/Azure-Active-Direcory-Group-list.png)
 
-Choose the groups you want to synchronize and click on `Synchronize` at the top.
+Select the groups you wish to synchronize, then click on the `Synchronize` button located at the top right corner.
 
 ![Azure Active Directory Group Synchronize button](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-azure-active-directory-groups/Azure-Group-Synchronize-button.png)
 
@@ -32,16 +32,16 @@ Choose the groups you want to synchronize and click on `Synchronize` at the top.
 
 * Bold Reports On-Premise will update the group's name and description from the Azure Active Directory Server.
 
-* Bold Reports On-Premise will delete the groups if the group has been deleted from the Azure Active Directory Server.
+* Bold Reports On-Premise will delete the groups if they have been deleted from the Azure Active Directory Server.
 
-* Bold Reports On-Premise will delete the user from Bold Reports On-Premise group, if the user has been deleted from Azure Active Directory Server group. Bold Reports On-Premise will add the user into Bold Reports On-Premise, if a new user is added into the Azure Active Directory group. If the new user is not present in the Bold Reports On-Premise, then a new user account will be created in the Bold Reports On-Premise and will be added into the group.
+* Bold Reports will add or delete users from the Bold Reports group if they have been added or deleted from the Azure Active Directory Server group, respectively. If a new user is not present in Bold Reports, a new user account will be created and added to the group.
 
-After synchronization completes, the number of groups modified, deleted, duplicated will be shown in the success message box as shown in the below figure.
+After synchronization completes, the success message box will display the number of groups modified, deleted, and duplicated, as shown in the image below.
 
 ![Synchronization confirmation window](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-azure-active-directory-groups/Synchronize-azure-group-success-window.png)
 
 ## Duplicate Groups
 
-Azure Active Directory groups who has the same group name as that of the Bold Reports  On-Premise groups(which are already present) will be marked as duplicate groups and will not be allowed to synchronize with Azure Active Directory.
+Azure Active Directory groups with the same group name as those already present in Bold Reports On-Premise will be identified as duplicate groups and will not be allowed to synchronize with Azure Active Directory.
 
 ![Display Duplicated groups](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-azure-active-directory-groups/highlight-duplicate-azure-group.png)

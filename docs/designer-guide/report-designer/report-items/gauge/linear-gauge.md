@@ -11,11 +11,11 @@ Linear gauges are rectangular in shape and oriented horizontally or vertically. 
 ## Add a linear gauge to the report
 
 1. The linear gauge report item is listed in the item panel under the `Deviation` category.
-![Linear gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-panel.png)
+   ![Linear gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-panel.png '#width=145px')
 2. Drag the linear gauge report item into the design area from the item panel.
-![Drag and drop linear gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-drag.png)
+   ![Drag and drop linear gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-drag.png '#width=355px')
 3. After dropping the linear gauge item in the design area, the respective item properties will be listed in the properties panel.
-![Linear gauge item with properties view](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/designer-area.png)
+   ![Linear gauge item with properties view](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/designer-area.png)
 
 ## Properties
 
@@ -39,7 +39,7 @@ Using the background color property, you can customize the background color of a
 
 This property is used to assign the dataset to a linear gauge report item. The available datasets in the report will be listed in the `Dataset` property dropdown. You can choose the desired dataset from the dropdown.
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/dataset.png)
+![Data category](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/dataset.png '#width=385px')
 
 > Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
 
@@ -47,7 +47,7 @@ This property is used to assign the dataset to a linear gauge report item. The a
 
 This property is used to select the type of linear gauge report item. You can select `Horizontal`, `Vertical`, or `Auto` from the dropdown.
 
-![Linear Gauge Type](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/type.png)
+![Linear Gauge Type](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/type.png '#width=355px')
 
 * `Horizontal`: Displays the linear gauge horizontally.
 
@@ -143,7 +143,7 @@ This property is used to customize major and minor ticks of a linear gauge.
 
 To show or hide major and minor ticks in a scale, toggle the `Major Tick` and `Minor Tick` checkbox.
 
-You can customize major and minor ticks in the `Advanced Options` menu. To open and handle the nested properties of major and minor ticks, refer to the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Major Tick](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/major-tick.png)
+You can customize major and minor ticks in the `Advanced Options` menu. To open and handle the nested properties of major and minor ticks, refer to the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Major Tick](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/major-tick.png '#width=650px')
 
 Using this property, you can customize the major and minor ticks interval, color, length, and width.
 
@@ -185,13 +185,13 @@ The position property is used to set the width, height, left, and top positions 
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 You can assign a custom name for the linear gauge element using the `Name` field. The linear gauge will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -202,7 +202,7 @@ On exporting the report, the visibility of the linear gauge can be controlled us
 * **Auto** or **Output** - Exports the linear gauge report item
 * **NoOutput** - Does not export the linear gauge report item
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -214,9 +214,21 @@ The visibility property is used to conditionally show or hide the linear gauge r
 
 The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/gauge/page-name.png)
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/gauge/page-name.png '#width=355px')
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
+
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
+
+#### Bookmark
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../../compose-report/bookmark/) section to configure bookmark in the report design.
+
+You can set the static or dynamic text as value for bookmark property. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
 
 #### Custom attributes
 

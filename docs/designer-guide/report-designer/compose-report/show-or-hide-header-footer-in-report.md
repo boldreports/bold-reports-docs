@@ -12,11 +12,11 @@ The header and footer can be enabled or disabled based on the report design requ
 
 By default the report header will be hidden, when you create a new report in Web Report designer. To show or hide the report header, Open the `View` menu in the toolbar. Now, click on the `Header` option in the menu.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-icon-disabled.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-icon-disabled.png '#width=250px')
 
 Now, the `Header` section will be shown in the report.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-icon-enabled.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-icon-enabled.png '#width=400px')
 
 To hide the report header, again click on the `Header` option in the menu.
 
@@ -24,10 +24,10 @@ To hide the report header, again click on the `Header` option in the menu.
 
 By default the report footer will be shown, when you create a new report in Web Report designer. To show or hide the report header, Open the `View` menu in the toolbar. Now, click on the `Footer` option in the menu.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/footer-icon-enabled.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/footer-icon-enabled.png '#width=250px')
 
 Now, the `Footer` section will be hidden in the report.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/footer-icon-disabled.png)
+![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/footer-icon-disabled.png '#width=400px')
 
 To show the report footer, again click on the `Footer` option in the menu.

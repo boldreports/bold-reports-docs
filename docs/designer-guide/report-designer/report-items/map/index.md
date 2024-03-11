@@ -22,11 +22,11 @@ The following snap shows the different elements used in the map.
 
 The `Map` report item is listed under `Data Regions` category in the item panel.
 
-![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/over-view/map-listed-in-item-panel.png)
+![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/over-view/map-listed-in-item-panel.png '#width=175px')
 
 To add a `Map` report item to the report, drag and drop the map from the item panel into design area.
 
-![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/over-view/drag-map-item.png)
+![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/over-view/drag-map-item.png '#width=355px')
 
 Now, the map item will be rendered in the design area and the map properties will be listed in properties panel.
 

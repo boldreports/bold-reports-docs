@@ -8,8 +8,16 @@ documentation: ug
 
 # Single Sign-On
 
-Single Sign-On (SSO) is an authentication scheme that allows you to login into the multiple applications using single id and password. Single Sign-On(SSO) for Bold Reports can be configured with external authentication providers like WS-Federation (ADFS), OAuth 2.0 and Open ID identity specifications.
+This section explains how to configure Azure Active Directory for Single Sign-On (SSO) in the Bold Reports server.
 
-You can refer more details from the following sections to configure Single Sign-On for Bold Reports:
+You can find more details on configuring Single Sign-On for Bold Reports and explore it in detail here.
 
-[OAuth 2.0 - OneLogin in Bold Reports](./../single-sign-on/oauth-2.0/onelogin/)
+* [Overview](./../single-sign-on/overview/)
+
+* [Office 365 support](./../single-sign-on/office-365/)
+
+* [Azure Active Directory](./../single-sign-on/azure-active-directory/)
+
+* [OAuth 2.0](./../single-sign-on/oauth-2.0/)
+
+* [OpenID Connect](./../single-sign-on/openid-connect/)
