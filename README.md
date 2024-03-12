@@ -4,15 +4,26 @@ Report documentation was built on [Gatsby](https://www.gatsbyjs.org/)'s applicat
 
 ## Pre-requisite
 
-* Install stable `NodeJs` from  [https://nodejs.org](https://nodejs.org) and run `node -v` to check whether it is installed properly or not (currently, we recommend node 10 version).
+* Install stable `NodeJs` from  [https://nodejs.org](https://nodejs.org) and run `node -v` to check whether it is installed properly or not (currently, we recommend node 18 version).
 * Install the gatsby-cli package with global access by executing the below command and run `gatsby -v` to check whether it is installed properly or not.
     ```console
-    npm i gatsby-cli@2.19.1 -g
+    npm i gatsby-cli@5.12.1 -g
     ```
 * Install `gulp` package with global access by executing the below command and run `gulp -v` to check whether it is installed properly or not.
     ```console
-     npm i gulp@3.9.1 -g
+     npm i gulp@4.0.2 -g
     ```
+* Install npm packages
+    ```console
+     npm install --legacy-peer-deps
+    ```
+* If npm install encounters package installation problems, run the below commands.
+    ```console
+     npm install yarn --global
+     yarn install
+    ```
+
+**Note :** Avoid including entries for yarn-related packages in package.json during commits, as yarn is only used for source run purposes.
 
 ## Document Structure
 
@@ -175,13 +186,117 @@ You can also override the code snippet of a particular file. For example, If you
     {% endtab %}
 ```
 
-`header` - This field is used for specifying the filename. For example, if your want to override index.html code snippet content, then you need to provide the following header.
+`header` - This field is used for specifying the filename. For example, if you want to override index.html code snippet content, then you need to provide the following header.
 
 ```console
      header="index.html"
 ```
 
 We have used a regular expression for parsing the data. So, use the correct format for the referring sample.
+
+## Embedding Tiles
+
+Tiles enhance content presentation through visually appealing containers, typically containing images, titles, and links, for better organization and engagement.
+
+The tile syntax should be included in the Markdown file in the **docs** folder.
+
+Use the below block to refer **tiles** in your MD file.
+
+{:tiles}
+
+{:tile}
+
+title="Tile Title"
+
+image="/path/to/image.png"
+
+link="https://example.com"
+
+{:endtile}
+
+{:endtiles}
+ 
+**{:tiles}** - Denotes the start of the tile section. It marks the beginning of a collection of tiles within the Markdown file.
+
+**{:tile}** - Denotes a single tile. It marks the beginning of individual tile content within the tile section.
+
+**{:endtile}** - Denotes the end of a single tile. It marks the conclusion of the content specific to one tile.
+
+**{:endtiles}** - Denotes the end of the tile section. It marks the conclusion of the collection of tiles within the Markdown file.
+
+Each **{:tile}** block represents a tile with a **title**, **image**, and **link**. You can customize the content within each **{:tile}** block.
+
+**For including single tile:**
+
+{:tiles}
+
+{:tile}
+
+title="Maximizing Efficiency: 7 Advantages of Embedded Reporting Tools"
+
+image="/assets/tileImages/maximizingEfficiency.png"
+
+link="https://www.boldreports.com/"
+
+{:endtile}
+
+{:endtiles}
+ 
+The **{:tiles}** tag marks the beginning of a section containing multiple tiles. Within this section, each {:tile} tag represents a single tile.
+
+**title** - Specifies the title of the tile.
+
+**image** - Defines the image URL or path displayed within the tile. 
+
+**link** - Specifies the URL that the tile will link to when clicked.
+
+In the above example
+
+"Maximizing Efficiency: 7 Advantages of Embedded Reporting Tools." denotes the title of the tile.
+
+"/assets/tileImages/maximizingEfficiency.png" denotes the image URL.
+
+"https://www.boldreports.com/" denotes the URL that the tile is linked with.
+
+The **{:endtile}** tag marks the end of the content specific to one tile within the **{:tiles}** section. Finally, the **{:endtiles}** tag indicates the conclusion of the tile section.
+
+**For including multiple tiles:**
+
+{:tiles}
+
+{:tile}
+
+title="37 Essential SSRS Expressions Cheat Sheet for Report Designers"
+
+image="/assets/tileImages/essentialSSRS.png"
+
+link="https://www.boldreports.com/"
+
+{:endtile}
+
+{:tile}
+
+title="Bold Report Viewer: A Microservice-Friendly Report Viewer"
+
+image="/assets/tileImages/boldReportViewer.png"
+
+link="https://www.boldreports.com/"
+
+{:endtile}
+
+{:tile}
+
+title="Maximizing Efficiency: 7 Advantages of Embedded Reporting Tools"
+
+image="/assets/tileImages/maximizingEfficiency.png"
+
+link="https://www.boldreports.com/"
+
+{:endtile}
+
+{:endtiles}
+
+**Note:** We have set the **maximum tile count to 3**. Additionally, we have utilized a regular expression for parsing the data in Markdown files. Please ensure to use the correct format when creating the tile.
 
 ## Common Files
 
@@ -313,3 +428,15 @@ Run the below command to `generate the white label documentation`.
 ```
 
 The above task is applicable only for `cloud` and `enterprises` platform.
+
+Run the below command in order to update the nexus domain url by passing the new nexus domain to be updated.
+
+```console
+     gulp update-nexus-domain --newDomain="https://nexus.syncfusioninternal.com"
+```
+
+## Important Markdown formats
+
+Refer to the below link.
+
+[Markdown formats](https://syncfusion.sharepoint.com/sites/boldreports/SitePages/Markdown%20formats.aspx)
