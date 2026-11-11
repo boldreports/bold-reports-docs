@@ -87,51 +87,96 @@ If the spelling or file name check reports a correct technical term, add the ter
 
 ### Site URL prefix
 
-The URL prefix is the folder part of the address where the site is hosted. The production build adds this prefix to every page link, image path, and script path, so the site works only when it is hosted at that path.
+The URL prefix is the folder name that comes after the domain in the website address. For example, in `https://docs.example.com/reports/designer-guide/` the prefix is `/reports`.
 
-#### Where to set it
+You set the prefix once, in `siteLink` in `config.json`. The production build then adds the prefix to every page link, image, and script. Because of this, you must upload the site to a folder with the same name as the prefix. If the folder name and the prefix are different, the pages open without styles or images.
 
-Set it in one place: `siteLink` in `config.json`. The prefix is the path part of that address (everything after the domain). The same `siteLink` is also used for the URLs in `sitemap.xml`.
+#### What to do
 
-| `siteLink` in `config.json` | Prefix | Page address after the production build |
-| --- | --- | --- |
-| `https://help.boldreports.com/enterprise-reporting` (default) | `/enterprise-reporting` | `https://help.boldreports.com/enterprise-reporting/designer-guide/` |
-| `https://docs.example.com/reports` | `/reports` | `https://docs.example.com/reports/designer-guide/` |
-| `https://docs.example.com` | none (site is at the root) | `https://docs.example.com/designer-guide/` |
-
-#### Example: host the site at a different path
-
-To host the site at `https://docs.example.com/reports`, follow these steps.
-
-1. Open `config.json` and change `siteLink`.
+1. Decide the final address of the documentation, for example `https://docs.example.com/reports`.
+2. Open `config.json` and set `siteLink` to that address.
 
     ```json
     "siteLink": "https://docs.example.com/reports"
     ```
 
-2. Run the production build.
+3. Build the site.
 
     ```bash
     npm run build
     ```
 
-3. Upload the contents of `public/` to the `reports` folder on your web server, so that `public/index.html` is available at `https://docs.example.com/reports/index.html`.
+4. Upload everything inside the `public/` folder to the folder on your web server that has the same name as the prefix. Do not upload the `public/` folder itself.
+5. Open the address in a browser and check that the pages, images, and search work.
 
-#### Change the prefix for one build only
+#### Example 1: site inside a folder
 
-To build with a different prefix without editing `config.json`, pass `--prefix`.
+`siteLink` is `https://docs.example.com/reports`, so the prefix is `/reports`.
+
+On the web server, upload the contents of `public/` into a folder named `reports`:
+
+```text
+web server root
+└── reports/                      <- same name as the prefix
+    ├── designer-guide/
+    │   └── index.html            <- the designer guide page
+    ├── page-data/
+    ├── images/
+    └── (other files from public/)
+```
+
+What customers see:
+
+| Address | Result |
+| --- | --- |
+| `https://docs.example.com/reports/` | Opens the home page of the documentation. |
+| `https://docs.example.com/reports/designer-guide/` | Opens the designer guide page. |
+
+#### Example 2: site at the root of the domain
+
+`siteLink` is `https://docs.example.com`, so there is no prefix.
+
+Upload the contents of `public/` directly into the web server root, with no extra folder:
+
+```text
+web server root
+├── designer-guide/
+│   └── index.html                <- the designer guide page
+├── page-data/
+├── images/
+└── (other files from public/)
+```
+
+What customers see:
+
+| Address | Result |
+| --- | --- |
+| `https://docs.example.com/` | Opens the home page of the documentation. |
+| `https://docs.example.com/designer-guide/` | Opens the designer guide page. |
+
+#### About index.html
+
+Every page is built as a folder that contains an `index.html` file, for example `designer-guide/index.html`. Customers do not type `index.html`. The web server opens it automatically when the address ends with `/`.
+
+| Address | Use it? |
+| --- | --- |
+| `https://docs.example.com/reports/designer-guide/` | Yes. Share this address with customers. |
+| `https://docs.example.com/reports/designer-guide/index.html` | It also works, but it is longer. Do not share it. |
+
+Always end page addresses with `/` and do not include `index.html`. The addresses in `sitemap.xml` also end with `/`.
+
+#### Preview the prefix on your computer
+
+* `npm run serve` ignores the prefix. Pages open at `http://localhost:8000/designer-guide/`.
+* `npm run build-preview` builds the site and opens it with the prefix. Pages open at `http://localhost:9000/reports/designer-guide/`. Use your own prefix in place of `/reports`.
+
+#### Use a different prefix for one build
+
+To try another prefix without changing `config.json`, add `--prefix` to the build. The sitemap still uses `siteLink`, so change `siteLink` instead if the sitemap must match.
 
 ```bash
 npm run build -- --prefix=/docs
 ```
-
-The pages are then built for `/docs`, for example `https://docs.example.com/docs/designer-guide/`. The sitemap still uses `siteLink`, so change `siteLink` instead if the sitemap must match.
-
-#### Check the result
-
-* **Development server (`npm run serve`):** the prefix is not used. Pages open at `http://localhost:8000/designer-guide/`.
-* **Production preview (`npm run preview`):** the prefix is used. Pages open at `http://localhost:9000/enterprise-reporting/designer-guide/`. If you set a different prefix, replace `/enterprise-reporting` with it.
-* **Blank page or missing images after hosting:** the folder on the web server does not match the prefix. Make the folder name and the prefix the same, or build again with the correct `siteLink`.
 
 ### Troubleshooting
 
