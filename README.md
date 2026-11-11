@@ -57,6 +57,8 @@ You also need internet access to `registry.npmjs.org` for the first install. All
 | `npm install` | Installs the dependencies. |
 | `npm run serve` (or `npx gulp serve`) | Builds the table of contents and starts the Gatsby development server. |
 | `npm run build` | Runs `gulp production-build` and writes the static site to `public/`. |
+| `npm run preview` | Serves the existing `public/` build at `http://localhost:9000` with the URL prefix, so you can check the production build. Run `npm run build` first. |
+| `npm run build-preview` | Runs the production build, then serves it for preview. |
 | `npm test` | Runs all content checks. See [Run the tests](#run-the-tests). |
 | `npm run clean` (or `npx gulp clean`) | Deletes the Gatsby cache and the generated pages, for a completely fresh start. |
 | `npm run prepare-content` (or `npx gulp build`) | Prepares the content only: clears the cache, copies `docs/` to `src/pages`, and generates `left-toc.json`. |

@@ -10,6 +10,8 @@
     "prepare-content": "gulp build",
     "sitemap": "gulp sitemap",
     "build": "gulp production-build",
+    "preview": "gatsby serve --prefix-paths",
+    "build-preview": "gulp production-build && gatsby serve --prefix-paths",
     "test": "gulp ci-test",
     "postinstall": "gulp postinstall"
   },
