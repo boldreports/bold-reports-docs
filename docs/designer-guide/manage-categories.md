@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Manage Report Categories in Report Server | Bold Reports
-description: Create, open, update, pin, and delete report categories in Bold Reports Report Server, and manage share permissions so the right users can access each one.
+title: Manage Report Categories in Report Server | {{site.productName}}
+description: Create, open, update, pin, and delete report categories in {{site.productName}} Report Server, and manage share permissions so the right users can access each one.
 platform: report-platform
 documentation: ug
 ---
 
-# Manage report categories in Bold Reports<sup>®</sup> Report Server
+# Manage report categories in {{site.productNameTM}} Report Server
 
-In Bold Reports<sup>®</sup> On-Premises Edition, you can create, open, update, and delete categories and manage their share permissions. Your access to categories depends on your permissions.
+In {{site.productNameTM}} On-Premises Edition, you can create, open, update, and delete categories and manage their share permissions. Your access to categories depends on your permissions.
 
 ## Where are categories shown?
 
@@ -82,7 +82,7 @@ To delete a category from the Report Server, follow these steps:
 
 ## REST API Reference
 
-The following table lists the available REST APIs related to categories in Bold Reports<sup>®</sup> On-Premises Edition.
+The following table lists the available REST APIs related to categories in {{site.productNameTM}} On-Premises Edition.
 
 <table>
     <tr>

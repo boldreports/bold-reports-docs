@@ -1,21 +1,21 @@
 ---
 layout: post
-title: Create a Master-Detail Report with Subreport | Bold Reports
-description: Create a master-detail report in Bold Reports Web Report Designer that shows detail records from a subreport, with step-by-step data source and dataset setup.
+title: Create a Master-Detail Report with Subreport | {{site.productName}}
+description: Create a master-detail report in {{site.productName}} Web Report Designer that shows detail records from a subreport, with step-by-step data source and dataset setup.
 platform: embedded-reporting-tools
 documentation: ug
 ---
 
 # How to create master detail report using subreport in Web Report Designer
 
-Bold Reports<sup>®</sup> Web Report Designer lets you create a master-detail report that shows the detail records from a subreport. You build a detail report, build a master report, and then link the detail report into the master report as a subreport.
+{{site.productNameTM}} Web Report Designer lets you create a master-detail report that shows the detail records from a subreport. You build a detail report, build a master report, and then link the detail report into the master report as a subreport.
 
 ## How do I create and customize the detail report?
 
 You create the detail report in Web Report Designer with two hidden parameters, a dataset, and a table.
 
 1. Open the Web Report Designer.
-   ![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png '#width=400px')
+   ![{{site.productName}} designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png '#width=400px')
 
 2. To add parameters to the detail report, click `Parameters`. Then, click `New parameter` in the parameter panel.
 
@@ -61,7 +61,7 @@ You can download the finished detail report from the
 You create the master report in Web Report Designer with the same dataset query, without the parameter filter, and a grouped table.
 
 1. Open the Web Report Designer.
-   ![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png '#width=450px')
+   ![{{site.productName}} designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png '#width=450px')
 
 2. Connect to the data source using the [data source documentation](./../../manage-data/datasource/).
 

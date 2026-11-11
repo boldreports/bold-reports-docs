@@ -1,15 +1,15 @@
 ---
-title: Connect a REST API Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to REST API web services with GET or POST, headers, parameters, and raw data to feed your RDL reports.
+title: Connect a REST API Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to REST API web services with GET or POST, headers, parameters, and raw data to feed your RDL reports.
 ---
 
 # Connect to Rest API data source
 
-Bold Reports<sup>®</sup> supports connecting almost all web services that have a REST API interface. You can use GET or POST actions and pass dynamic values for the URL, headers, parameters, and raw data.
+{{site.productNameTM}} supports connecting almost all web services that have a REST API interface. You can use GET or POST actions and pass dynamic values for the URL, headers, parameters, and raw data.
 
 ## How do I choose the web data source?
 
-To choose the web data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and select the Web API connection type.
+To choose the web data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and select the Web API connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
@@ -22,7 +22,7 @@ To choose the web data source in the Bold Reports<sup>®</sup> Web Report Design
 
 ## How do I connect with a GET action?
 
-To connect the Bold Reports<sup>®</sup> web data source with a GET action, enter the endpoint and choose *GET* as the method.
+To connect the {{site.productNameTM}} web data source with a GET action, enter the endpoint and choose *GET* as the method.
 
 1. Enter a valid REST API endpoint in the URL text box to perform GET action.
 2. Choose *GET* in the **Method** drop-down.
@@ -46,14 +46,14 @@ Drag and drop the table from the left pane in the query design view page and exe
 
 > **Note:**
 > * In schema tree, the nested fields in the specified REST API will be shown as flat structure.
-> * When the JSON or XML data contains duplicate key names at different levels, Bold Reports<sup>®</sup> ensures uniqueness and avoids conflicts by appending the parent keys to each field name using the following format: `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
+> * When the JSON or XML data contains duplicate key names at different levels, {{site.productNameTM}} ensures uniqueness and avoids conflicts by appending the parent keys to each field name using the following format: `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
 
 Click `Finish` to save the data source with a relevant name and continue designing the report.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/data-list.png '#width=350px')
 
 ## How do I connect with a POST action?
 
-To connect the Bold Reports<sup>®</sup> web data source with a POST action, enter the endpoint and choose *POST* as the method.
+To connect the {{site.productNameTM}} web data source with a POST action, enter the endpoint and choose *POST* as the method.
 
 1. Enter a valid REST API endpoint in the URL text box to perform POST action.
 2. Choose *POST* in the **Method** drop-down.
@@ -72,7 +72,7 @@ Drag and drop the table from the left pane in the query design view page and exe
 
 > **Note:**
 > * In schema tree, the nested fields in the specified REST API will be shown as flat structure.
-> * When the JSON or XML data contains duplicate key names at different levels, Bold Reports<sup>®</sup> ensures uniqueness and avoids conflicts by appending the parent keys to each field name using the following format: `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
+> * When the JSON or XML data contains duplicate key names at different levels, {{site.productNameTM}} ensures uniqueness and avoids conflicts by appending the parent keys to each field name using the following format: `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
 
 Click `Finish` to save the data source with a relevant name and continue designing the report.
 
@@ -80,7 +80,7 @@ Click `Finish` to save the data source with a relevant name and continue designi
 
 ## How do I pass a dynamic value for the URL?
 
-The Bold Reports<sup>®</sup> web data source lets you pass dynamic values for the URL with an expression. Follow these steps to set an expression for the URL field:
+The {{site.productNameTM}} web data source lets you pass dynamic values for the URL with an expression. Follow these steps to set an expression for the URL field:
 
 1. Click the square icon in the right corner of the URL field to open the expression menu.
    ![Expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-exp-option.png '#width=385px')
@@ -107,7 +107,7 @@ The query design view opens.
 
 ## How do I pass headers?
 
-The Bold Reports<sup>®</sup> web data source lets you pass the required headers for the REST API URL in the `Headers` property. To add headers, follow these steps:
+The {{site.productNameTM}} web data source lets you pass the required headers for the REST API URL in the `Headers` property. To add headers, follow these steps:
 
 1. Click `+ ADD` to add a new header.
    ![Pass parameters for post action](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/add-header.png '#width=385px')
@@ -119,7 +119,7 @@ Similarly, you can add multiple headers and pass values for them.
 
 ### How do I pass dynamic values for headers?
 
-During report processing, Bold Reports<sup>®</sup> lets you pass dynamic values for each key in headers using expressions. To set an expression for headers, follow these steps:
+During report processing, {{site.productNameTM}} lets you pass dynamic values for each key in headers using expressions. To set an expression for headers, follow these steps:
 
 1. Click the square icon in the right corner of the *Value* field to open the expression menu.
    ![Expression for headers](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-for-headers.png '#width=385px')
@@ -140,13 +140,13 @@ Enter valid header values instead of an expression and click `OK`.
 
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-prompt-header.png '#width=385px')
 
-Bold Reports<sup>®</sup> fetches field information from the specified REST API URL and opens the query design view.
+{{site.productNameTM}} fetches field information from the specified REST API URL and opens the query design view.
 
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/query-view.png)
 
 ## How do I pass parameters?
 
-The Bold Reports<sup>®</sup> web data source shows the parameter option when you choose the *POST* method. To add a parameter, follow these steps:
+The {{site.productNameTM}} web data source shows the parameter option when you choose the *POST* method. To add a parameter, follow these steps:
 
 1. Click `+ ADD` to add a new parameter.
    ![Pass parameters for post action](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/add-parameter.png '#width=385px')
@@ -156,7 +156,7 @@ The Bold Reports<sup>®</sup> web data source shows the parameter option when yo
 
 ### How do I pass dynamic values for parameters?
 
-During report processing, Bold Reports<sup>®</sup> lets you pass dynamic values for each parameter using expressions. To set an expression for a parameter value, follow these steps:
+During report processing, {{site.productNameTM}} lets you pass dynamic values for each parameter using expressions. To set an expression for a parameter value, follow these steps:
 
 1. Click the square icon in the right corner of the *Value* field to open the expression menu.
    ![Expression for parameters](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-for-parameters.png '#width=385px')
@@ -177,13 +177,13 @@ Enter values instead of an expression and click `OK`.
 
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-prompt-parameter.png '#width=385px')
 
-Bold Reports<sup>®</sup> posts the information to the specified REST API URL and opens the query design view.
+{{site.productNameTM}} posts the information to the specified REST API URL and opens the query design view.
 
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/query-view.png)
 
 ## How do I pass raw data?
 
-The Bold Reports<sup>®</sup> web data source lets you post raw data with the **POST** method. To specify a raw value, follow these steps:
+The {{site.productNameTM}} web data source lets you post raw data with the **POST** method. To specify a raw value, follow these steps:
 
 1. Choose the **POST** method and switch the `Raw` radio button. A text area with an option to set an expression appears.
 
@@ -204,7 +204,7 @@ The Bold Reports<sup>®</sup> web data source lets you post raw data with the **
 
 ### How do I pass dynamic values for raw data?
 
-During report processing, Bold Reports<sup>®</sup> lets you pass raw data directly using expressions. To set an expression for a raw value, follow these steps:
+During report processing, {{site.productNameTM}} lets you pass raw data directly using expressions. To set an expression for a raw value, follow these steps:
 
 1. Click the square icon in the right corner of the *Raw* field to open the expression menu.
    ![Expression for parameters](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-menu-raw.png '#width=355px')
@@ -223,13 +223,13 @@ Enter valid data and click `OK`.
 
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-prompt-raw.png '#width=385px')
 
-Bold Reports<sup>®</sup> posts the data to the specified REST API URL and opens the query design view.
+{{site.productNameTM}} posts the data to the specified REST API URL and opens the query design view.
 
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/query-view.png)
 
 ### What syntax do I use for expressions in raw data?
 
-Bold Reports<sup>®</sup> accepts the following syntaxes for expressions in raw data.
+{{site.productNameTM}} accepts the following syntaxes for expressions in raw data.
 
 **Syntax 1**: When passing data as JSON object, it should be enclosed with in double quotes, the key/value strings should be enclosed within single quotes. Otherwise, it can follow any syntax which supports the Client-Server transaction.
 
@@ -251,7 +251,7 @@ Bold Reports<sup>®</sup> accepts the following syntaxes for expressions in raw 
 
 ## Expression Format
 
-Bold Reports<sup>®</sup> requires expressions in a single line format, not in multiple lines. For example, when you provide a JSON object as input, format it as a single line rather than multiple lines, as shown below:
+{{site.productNameTM}} requires expressions in a single line format, not in multiple lines. For example, when you provide a JSON object as input, format it as a single line rather than multiple lines, as shown below:
 
 ```html
 ="{ 'ID': 220, 'Title': 'Book 220', 'Description': 'Book 220 added', 'PageCount': 100, 'Excerpt': 'Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n', 'PublishDate': '2020-08-06T10:42:22.464Z' }"
@@ -284,7 +284,7 @@ To use the Parameters with a Json object, follow this syntax:
 
 ## How do I use pagination?
 
-Pagination allows a REST API to conserve resources, improve response times, and optimize the user experience. To get better response times for huge records in Bold Reports<sup>®</sup>, append pagination properties to the URL or specify them as `Headers`. For example, you can append the pagination parameter in the URL as follows:
+Pagination allows a REST API to conserve resources, improve response times, and optimize the user experience. To get better response times for huge records in {{site.productNameTM}}, append pagination properties to the URL or specify them as `Headers`. For example, you can append the pagination parameter in the URL as follows:
 
 ```html
 https://demo.net/rest/api/2/Books?id=1278&startAt=0&maxResults=33&fields=title,author,price
@@ -292,19 +292,19 @@ https://demo.net/rest/api/2/Books?id=1278&startAt=0&maxResults=33&fields=title,a
 
 ## Which data formats can I use?
 
-The Bold Reports<sup>®</sup> web data source lets you choose the data format of the response for the provided Rest API in the Data format drop-down.
+The {{site.productNameTM}} web data source lets you choose the data format of the response for the provided Rest API in the Data format drop-down.
 
 ![Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/data-format.png '#width=345px')
 
 ### CSV data format
 
-When you select the CSV format in Bold Reports<sup>®</sup>, the `Separator` options appear, as shown in the following image. Choose the separator from the given options.
+When you select the CSV format in {{site.productNameTM}}, the `Separator` options appear, as shown in the following image. Choose the separator from the given options.
 
 ![CSV Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/csv-data-format.png '#width=345px')
 
 ## Authentication types
 
-The Bold Reports<sup>®</sup> web data source supports two authentication types: **None** and **Basic HTTP Authentication**.
+The {{site.productNameTM}} web data source supports two authentication types: **None** and **Basic HTTP Authentication**.
 
 Use the **None** type in the following cases:
 
@@ -315,9 +315,9 @@ Use **Basic Http authentication** if your data source requires a username and pa
 
 ## Configure Timeout setting
 
-Bold Reports<sup>®</sup> lets you configure the timeout setting for the REST API data source. The timeout setting offers greater flexibility and ensures that long-running API requests can complete without interruption. For a step-by-step guide to configuring the timeout setting, check the **How To** section of this guide.
+{{site.productNameTM}} lets you configure the timeout setting for the REST API data source. The timeout setting offers greater flexibility and ensures that long-running API requests can complete without interruption. For a step-by-step guide to configuring the timeout setting, check the **How To** section of this guide.
 
-> Timeout setting is not applicable in the Bold Reports<sup>®</sup> cloud version.
+> Timeout setting is not applicable in the {{site.productNameTM}} cloud version.
 
 ## Frequently asked questions
 

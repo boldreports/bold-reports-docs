@@ -1,16 +1,16 @@
 ---
-title: Create a Scatter Chart in RDL Reports | Bold Reports
-description: Add a scatter chart to an RDL report in the Bold Reports Web Report Designer, bind X and Y values, format the legend, axes, and page breaks, and preview it.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Create a Scatter Chart in RDL Reports | {{site.productName}}
+description: Add a scatter chart to an RDL report in the {{site.productName}} Web Report Designer, bind X and Y values, format the legend, axes, and page breaks, and preview it.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Scatter chart in Bold Reports<sup>®</sup> Web Report Designer
+# Scatter chart in {{site.productNameTM}} Web Report Designer
 
-You add a **Scatter Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to compare a large number of data points shown as dots, irrespective of time.
+You add a **Scatter Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to compare a large number of data points shown as dots, irrespective of time.
 
 ## How do I add a scatter chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the scatter chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the scatter chart under the `Distribution` category in the item panel.
 
 1. Drag the scatter chart from the item panel and drop it into the design area.
 
@@ -22,7 +22,7 @@ The Bold Reports<sup>®</sup> Web Report Designer lists the scatter chart under 
 
 ## How do I create data for the scatter chart?
 
-To present data in a Bold Reports<sup>®</sup> scatter chart, create a dataset and bind it to the chart data region. This example uses the following dataset query to create the dataset.
+To present data in a {{site.productNameTM}} scatter chart, create a dataset and bind it to the chart data region. This example uses the following dataset query to create the dataset.
 
 ```sql
 SELECT PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -39,7 +39,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I assign data to the scatter chart?
 
-A Bold Reports<sup>®</sup> scatter chart needs a minimum of 1 value element and 1 column element to display data. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure onto the `Columns` section. To categorize by a series, also drop the respective dimension onto the `Rows` section.
+A {{site.productNameTM}} scatter chart needs a minimum of 1 value element and 1 column element to display data. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure onto the `Columns` section. To categorize by a series, also drop the respective dimension onto the `Rows` section.
 
 To configure data in the scatter chart, follow these steps:
 
@@ -75,7 +75,7 @@ To configure data in the scatter chart, follow these steps:
 
 ## How do I format the scatter chart?
 
-You format a scatter chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab. Use them to get the view you require.
+You format a scatter chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab. Use them to get the view you require.
 
 To format a scatter chart, follow these steps:
 
@@ -100,7 +100,7 @@ The **Basic Settings** category of the scatter chart contains the `Show Legend` 
 
 #### Show Legend
 
-A legend is text that describes the plotted data in a Bold Reports<sup>®</sup> chart. You can toggle the visibility of the legend in the chart and customize the legend text appearance. To set or reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
+A legend is text that describes the plotted data in a {{site.productNameTM}} chart. You can toggle the visibility of the legend in the chart and customize the legend text appearance. To set or reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
 
 #### Choose Series
 
@@ -149,7 +149,7 @@ To set or reset no data message properties, refer to the [No Data Message](./../
 
 ### Category Axis
 
-The category axis of a Bold Reports<sup>®</sup> chart displays text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Category Axis` category in the chart properties.
+The category axis of a {{site.productNameTM}} chart displays text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Category Axis` category in the chart properties.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/category-axis.png '#width=350px')
 
@@ -157,7 +157,7 @@ To set or reset axis properties, refer to the [Axis Properties](./../../../repor
 
 ### Value Axis
 
-The value axis of a Bold Reports<sup>®</sup> chart uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
+The value axis of a {{site.productNameTM}} chart uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/value-axis.png '#width=350px')
 
@@ -264,7 +264,7 @@ The `Custom Style` property enables the use of external CSS for styling report i
 
 ## How do I preview the scatter chart report?
 
-You preview the scatter chart report in the Bold Reports<sup>®</sup> Web Report Designer by clicking the preview icon in the design view.
+You preview the scatter chart report in the {{site.productNameTM}} Web Report Designer by clicking the preview icon in the design view.
 
 1. The following image shows the final design with the preview icon.
    ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/preview-icon.png)
@@ -277,7 +277,7 @@ You preview the scatter chart report in the Bold Reports<sup>®</sup> Web Report
 
 ### What is the minimum data a scatter chart needs?
 
-A Bold Reports<sup>®</sup> scatter chart needs a minimum of 1 value element and 1 column element to display data.
+A {{site.productNameTM}} scatter chart needs a minimum of 1 value element and 1 column element to display data.
 
 ### Where is the scatter chart in the item panel?
 

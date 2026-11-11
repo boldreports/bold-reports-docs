@@ -1,15 +1,15 @@
 ---
-title: Define Custom Data Ranges for Map Items | Bold Reports
-description: Define custom data ranges for a map report item in the Bold Reports Web Report Designer by using the Custom distribution type and the Buckets property.
+title: Define Custom Data Ranges for Map Items | {{site.productName}}
+description: Define custom data ranges for a map report item in the {{site.productName}} Web Report Designer by using the Custom distribution type and the Buckets property.
 ---
 
-# Define a custom data range for a map in Bold Reports<sup>®</sup>
+# Define a custom data range for a map in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the custom distribution type defines the data ranges explicitly for the map report item. You set each range as a bucket with a start value and an end value.
+In the {{site.productNameTM}} Web Report Designer, the custom distribution type defines the data ranges explicitly for the map report item. You set each range as a bucket with a start value and an end value.
 
 ## How do I open the Map Bucket panel?
 
-You open the Bold Reports<sup>®</sup> **Map Bucket** panel from the distribution properties of the map report item.
+You open the {{site.productNameTM}} **Map Bucket** panel from the distribution properties of the map report item.
 
 1. Choose the **Custom** type in the distribution dropdown.
 
@@ -25,7 +25,7 @@ You open the Bold Reports<sup>®</sup> **Map Bucket** panel from the distributio
 
 ## Add bucket
 
-To add a bucket in the Bold Reports<sup>®</sup> **Map Bucket** panel, click the **ADD** icon in the top-right corner. A new field with **Start Value** and **End Value** options to define a data range is added to the panel.
+To add a bucket in the {{site.productNameTM}} **Map Bucket** panel, click the **ADD** icon in the top-right corner. A new field with **Start Value** and **End Value** options to define a data range is added to the panel.
 
 ![Add field](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/add-field.png '#width=385px')
 
@@ -40,7 +40,7 @@ You can also define start and end values based on dynamic values by using `Expre
 
 ## How do I delete a bucket?
 
-To delete an existing bucket range in the Bold Reports<sup>®</sup> map report item, follow these steps:
+To delete an existing bucket range in the {{site.productNameTM}} map report item, follow these steps:
 
 1. Click the edit icon for the `Buckets` property. The **MapBucket** panel lists the available data ranges.
 2. Click the `Delete` icon in the right corner of the data range you want to remove.

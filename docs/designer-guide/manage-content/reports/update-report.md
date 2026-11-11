@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Update Reports in the Report Server | Bold Reports
-description: Update a report in the Bold Reports Report Server to change its category, name, description, tags, or RDL file, from the context menu or with the REST API.
+title: Update Reports in the Report Server | {{site.productName}}
+description: Update a report in the {{site.productName}} Report Server to change its category, name, description, tags, or RDL file, from the context menu or with the REST API.
 platform: report-platform
 documentation: ug
 ---
 
 # Update reports on the Report Server
 
-You can update reports in Bold Reports<sup>®</sup> On-Premises Edition from the context menu or with the REST API. An update lets you change a report's category, name, description, tags, or report file (`.rdl`).
+You can update reports in {{site.productNameTM}} On-Premises Edition from the context menu or with the REST API. An update lets you change a report's category, name, description, tags, or report file (`.rdl`).
 
 ## How do I update a report in Report Server?
 
-You update a report in Bold Reports<sup>®</sup> Report Server with the **Update Report** dialog box. In the dialog, you can move a report to a different category and modify its name, description, and report file (`.rdl`).
+You update a report in {{site.productNameTM}} Report Server with the **Update Report** dialog box. In the dialog, you can move a report to a different category and modify its name, description, and report file (`.rdl`).
 
 1. Click the **Update** option in the report's context menu.
     ![Update option in context menu](/static/assets/on-premise/images/manage-content/manage-reports/update-context-report.png)
@@ -24,7 +24,7 @@ You update a report in Bold Reports<sup>®</sup> Report Server with the **Update
 
 ## REST API Reference
 
-The following table lists the API for updating reports in Bold Reports<sup>®</sup> On-Premises Edition.
+The following table lists the API for updating reports in {{site.productNameTM}} On-Premises Edition.
 
 <table>
   <tr>
@@ -61,7 +61,7 @@ The following table lists the API for updating reports in Bold Reports<sup>®</s
 
 ### Which report details can I update in Report Server?
 
-In Bold Reports<sup>®</sup> Report Server, you can change a report's category, name, description, tags, and report file (`.rdl`).
+In {{site.productNameTM}} Report Server, you can change a report's category, name, description, tags, and report file (`.rdl`).
 
 ### Can I add comments when I replace the report file?
 

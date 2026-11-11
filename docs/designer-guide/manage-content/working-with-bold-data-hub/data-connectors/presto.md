@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect Presto or Trino to Bold Data Hub | Bold Reports
-description: Connect Presto to Bold Data Hub in Bold Reports with or without authentication. Set the host, port, catalog, and HTTP scheme, then schedule the data refresh.
+title: Connect Presto or Trino to Bold Data Hub | {{site.productName}}
+description: Connect Presto to Bold Data Hub in {{site.productName}} with or without authentication. Set the host, port, catalog, and HTTP scheme, then schedule the data refresh.
 platform: Report-platform
 documentation: ug
 
 ---
 # Connect Presto with Bold Data Hub
 
-The Bold Data Hub Presto connector loads query results from Presto into Bold Reports<sup>®</sup>. [Presto](https://prestodb.io/) is an open-source distributed SQL query engine for fast analytics on large-scale data. Presto lets you query data directly from multiple data sources without moving the data into a separate database.
+The Bold Data Hub Presto connector loads query results from Presto into {{site.productNameTM}}. [Presto](https://prestodb.io/) is an open-source distributed SQL query engine for fast analytics on large-scale data. Presto lets you query data directly from multiple data sources without moving the data into a separate database.
 
 ## Connection Properties
 
@@ -103,7 +103,7 @@ You connect Presto by creating a project in Bold Data Hub and adding the `Presto
 
     ![Presto Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/prestoauth.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -139,7 +139,7 @@ You schedule the Presto pipeline in Bold Data Hub from the schedules tab, or you
 
     ![Presto - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Presto - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

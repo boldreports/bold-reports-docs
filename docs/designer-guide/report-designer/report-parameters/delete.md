@@ -1,12 +1,12 @@
 ---
-title: Delete a Report Parameter from an RDL Report | Bold Reports
-description: Delete a report parameter in the Bold Reports Web Report Designer from the PARAMETERS panel context menu to remove parameters that are no longer in use.
+title: Delete a Report Parameter from an RDL Report | {{site.productName}}
+description: Delete a report parameter in the {{site.productName}} Web Report Designer from the PARAMETERS panel context menu to remove parameters that are no longer in use.
 keywords: delete report parameter, remove report parameter, report-designer, parameters
 ---
 
 # Delete a report parameter
 
-To delete a report parameter in the Bold Reports<sup>®</sup> Web Report Designer, open the `PARAMETERS` panel and choose `Delete` from the parameter's context menu.
+To delete a report parameter in the {{site.productNameTM}} Web Report Designer, open the `PARAMETERS` panel and choose `Delete` from the parameter's context menu.
 
 ## How do I delete a report parameter?
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Change the Report Listing Layout | Bold Reports
-description: Switch the Bold Reports Report Server report listing page from the default card view to a grid view using the layout menu in the top-right corner of the page.
+title: Change the Report Listing Layout | {{site.productName}}
+description: Switch the {{site.productName}} Report Server report listing page from the default card view to a grid view using the layout menu in the top-right corner of the page.
 platform: Report-platform
 documentation: ug
 ---
 
-# Change the report layout in Bold Reports<sup>®</sup> Report Server
+# Change the report layout in {{site.productNameTM}} Report Server
 
-In the Bold Reports<sup>®</sup> Report Server, you can switch the report listing page from the default card view to a grid view.
+In the {{site.productNameTM}} Report Server, you can switch the report listing page from the default card view to a grid view.
 
 ## How do I switch the report listing to grid view?
 

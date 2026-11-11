@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Create and Manage Bold Data Hub Pipelines | Bold Reports
-description: Create a pipeline in Bold Data Hub to import data from a connector into your data store, set pipeline properties and primary keys, and use it in Bold Reports.
+title: Create and Manage Bold Data Hub Pipelines | {{site.productName}}
+description: Create a pipeline in Bold Data Hub to import data from a connector into your data store, set pipeline properties and primary keys, and use it in {{site.productName}}.
 platform: report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Create and manage pipelines in Bold Data Hub
 
-A Bold Data Hub pipeline imports data from one or more connectors into your destination database, so you can use the data in Bold Reports<sup>®</sup>. Before you create a pipeline, configure the [Data Store](../data-store/) to proceed with the subsequent steps.
+A Bold Data Hub pipeline imports data from one or more connectors into your destination database, so you can use the data in {{site.productNameTM}}. Before you create a pipeline, configure the [Data Store](../data-store/) to proceed with the subsequent steps.
 
 ## How do I create a new pipeline?
 
@@ -86,7 +86,7 @@ You run a Bold Data Hub pipeline by saving the configuration, choosing a destina
 
 ![Template1](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png)
 
-When the pipeline run completes, Bold Data Hub creates a data source in Bold Reports<sup>®</sup>.
+When the pipeline run completes, Bold Data Hub creates a data source in {{site.productNameTM}}.
 ![Template1](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png)
 
 To check the current operational status, open the **Logs** tab.
@@ -273,13 +273,13 @@ The result of deleting a Bold Data Hub pipeline depends on whether you select th
 #### If the checkbox is selected
 
 * The selected pipeline will be permanently removed from the Pipelines list.
-* The datasource and dataset created for the pipeline in Bold Reports<sup>®</sup> will be deleted.
+* The datasource and dataset created for the pipeline in {{site.productNameTM}} will be deleted.
 * The schema and its tables associated with the pipeline will also be deleted in the selected destination.
 
 #### If the checkbox is not selected
 
 * The selected pipeline will be permanently removed from the Pipelines list.
-* The datasource, dataset and schema created for the pipeline in Bold Reports<sup>®</sup> will not be deleted.
+* The datasource, dataset and schema created for the pipeline in {{site.productNameTM}} will not be deleted.
 
 ## Frequently asked questions
 
@@ -289,7 +289,7 @@ Yes. You can add multiple connectors to a Bold Data Hub pipeline to transfer dat
 
 ### What happens when a pipeline run completes?
 
-When the pipeline run completes, Bold Data Hub creates a data source in Bold Reports<sup>®</sup>. You can check the status in the **Logs** tab.
+When the pipeline run completes, Bold Data Hub creates a data source in {{site.productNameTM}}. You can check the status in the **Logs** tab.
 
 ## See also
 

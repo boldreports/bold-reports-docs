@@ -1,16 +1,16 @@
 ---
-title: Add and Format a Data Bar in RDL Reports | Bold Reports
-description: Add a data bar report item in the Bold Reports Web Report Designer, assign data, and format it to show trends and changes in data within tables and matrices.
-keywords: ejReportDesigner, reportdesigner, data bar, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format a Data Bar in RDL Reports | {{site.productName}}
+description: Add a data bar report item in the {{site.productName}} Web Report Designer, assign data, and format it to show trends and changes in data within tables and matrices.
+keywords: ejReportDesigner, reportdesigner, data bar, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a data bar in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a data bar in the {{site.productNameTM}} Web Report Designer
 
-A data bar in the Bold Reports<sup>®</sup> Web Report Designer is a small, simple chart that shows trends and changes in data over time, especially over many periods. Data bars convey a lot of information in a little space, and you often use them in tables and matrices.
+A data bar in the {{site.productNameTM}} Web Report Designer is a small, simple chart that shows trends and changes in data over time, especially over many periods. Data bars convey a lot of information in a little space, and you often use them in tables and matrices.
 
 ## How do I add a data bar to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the data bar report item in the item panel under the `KPI` category.
+The {{site.productNameTM}} Web Report Designer lists the data bar report item in the item panel under the `KPI` category.
 
 1. Find the data bar report item under the `KPI` category in the item panel.
    ![Data bar item in item panel](/static/assets/on-premise/images/report-designer/report-items/data-bar/item-panel.png '#width=145px')
@@ -21,7 +21,7 @@ The Bold Reports<sup>®</sup> Web Report Designer lists the data bar report item
 
 ## How do I create data for the data bar?
 
-To present data in a Bold Reports<sup>®</sup> data bar, create a dataset and bind data to it. This example uses the following dataset query to create the dataset.
+To present data in a {{site.productNameTM}} data bar, create a dataset and bind data to it. This example uses the following dataset query to create the dataset.
 
 ```sql
 SELECT PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -37,7 +37,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I assign data to the data bar?
 
-A Bold Reports<sup>®</sup> data bar needs a minimum of 1 value element to show data. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure into the `Columns` section. To categorize by a series, also drop the respective dimension into the `Rows` section.
+A {{site.productNameTM}} data bar needs a minimum of 1 value element to show data. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure into the `Columns` section. To categorize by a series, also drop the respective dimension into the `Rows` section.
 
 To configure data in the data bar, follow these steps:
 
@@ -71,7 +71,7 @@ To configure data in the data bar, follow these steps:
 
 ## Which properties can I set for a data bar?
 
-The Bold Reports<sup>®</sup> data bar properties control its name, series, appearance, page breaks, position, export behavior, and visibility. Before you set the following properties, see the [Properties panel](./../../compose-report/properties-panel/) section.
+The {{site.productNameTM}} data bar properties control its name, series, appearance, page breaks, position, export behavior, and visibility. Before you set the following properties, see the [Properties panel](./../../compose-report/properties-panel/) section.
 
 ### Name
 
@@ -197,21 +197,21 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I set an expression on a data bar property?
 
-You can set an expression on a few Bold Reports<sup>®</sup> data bar properties to process their values based on expressions. To set expressions on data bar report item properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
+You can set an expression on a few {{site.productNameTM}} data bar properties to process their values based on expressions. To set expressions on data bar report item properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## How do I reset an expression?
 
-To `Reset` the expression applied to a Bold Reports<sup>®</sup> data bar property, see the [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+To `Reset` the expression applied to a {{site.productNameTM}} data bar property, see the [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 ## How do I open advanced properties?
 
-A few Bold Reports<sup>®</sup> data bar properties contain nested properties. To open and handle the nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+A few {{site.productNameTM}} data bar properties contain nested properties. To open and handle the nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## Frequently asked questions
 
 ### Where is the data bar in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the data bar report item under the `KPI` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the data bar report item under the `KPI` category in the item panel.
 
 ### What data does a data bar need?
 

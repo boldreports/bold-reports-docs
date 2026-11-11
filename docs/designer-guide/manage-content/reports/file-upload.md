@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Upload Files to the Report Server | Bold Reports
-description: Upload files such as images, HTML, PDF, JSON, and PFX to the Bold Reports On-Premises Report Server, and add a name and description for each uploaded file.
+title: Upload Files to the Report Server | {{site.productName}}
+description: Upload files such as images, HTML, PDF, JSON, and PFX to the {{site.productName}} On-Premises Report Server, and add a name and description for each uploaded file.
 platform: report-platform
 documentation: ug
 ---
 
-# Upload files to Bold Reports<sup>®</sup> Report Server
+# Upload files to {{site.productNameTM}} Report Server
 
-You can upload files to the Bold Reports<sup>®</sup> On-Premises Report Server so users and administrators can manage various file types.
+You can upload files to the {{site.productNameTM}} On-Premises Report Server so users and administrators can manage various file types.
 
 ## Which file formats can I upload?
 
-Bold Reports<sup>®</sup> Report Server supports the following file formats for upload: `.jpg`, `.jpeg`, `.png`, `.html`, `.pdf`, `.json` and `.pfx`.
+{{site.productNameTM}} Report Server supports the following file formats for upload: `.jpg`, `.jpeg`, `.png`, `.html`, `.pdf`, `.json` and `.pfx`.
 
 ## Steps to upload a file
 

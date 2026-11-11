@@ -1,12 +1,12 @@
 ---
-title: Create a Drilldown Report in RDL | Bold Reports
-description: Create a drilldown RDL report in the Bold Reports Web Report Designer so readers expand or collapse table groups with a toggle textbox and Initial Toggle State.
+title: Create a Drilldown Report in RDL | {{site.productName}}
+description: Create a drilldown RDL report in the {{site.productName}} Web Report Designer so readers expand or collapse table groups with a toggle textbox and Initial Toggle State.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
 # Create SSRS drilldown report
 
-**Drilldown action** in Bold Reports<sup>®</sup> Web Report Designer creates an interactive report. Readers can expand or collapse report items, rows, and columns associated with a group in a table or matrix. They no longer see every level of detail at once.
+**Drilldown action** in {{site.productNameTM}} Web Report Designer creates an interactive report. Readers can expand or collapse report items, rows, and columns associated with a group in a table or matrix. They no longer see every level of detail at once.
 
 You add a drilldown action to a table group in the steps below. You control whether the group is expanded or collapsed on first preview. You also keep the drilldown indicator symbol in sync with the group's state.
 
@@ -16,7 +16,7 @@ A drilldown action in the Web Report Designer ties a group's `Visibility` proper
 
 ### What can I do with drilldown actions?
 
-Drilldown actions in Bold Reports<sup>®</sup> let you:
+Drilldown actions in {{site.productNameTM}} let you:
 
 * Show or hide a group's detail rows or columns by default when a report is first previewed.
 * Let readers expand or collapse a group interactively using a toggle textbox.
@@ -127,7 +127,7 @@ Drilldown reports in the Web Report Designer provide these key features:
 
 ## When should I use a drilldown report?
 
-Drilldown reports in Bold Reports<sup>®</sup> suit these common use cases:
+Drilldown reports in {{site.productNameTM}} suit these common use cases:
 
 * **Summarizing sales by category with detail on demand**: Show product category totals by default and let readers drill into subcategory-level sales only when they need it.
 * **Reducing a dense table to a scannable summary**: Collapse detail rows in a large table or matrix so readers see a compact summary first, then expand groups of interest.
@@ -136,11 +136,11 @@ Drilldown reports in Bold Reports<sup>®</sup> suit these common use cases:
 
 ## Who should use this guide?
 
-The drilldown report guide for the Bold Reports<sup>®</sup> Web Report Designer is intended for:
+The drilldown report guide for the {{site.productNameTM}} Web Report Designer is intended for:
 
 * Report authors building interactive tables or matrices with expandable detail.
 * Developers configuring group visibility and toggle properties in the Web Report Designer.
-* Anyone adapting SSRS-style drilldown reports for use in Bold Reports<sup>®</sup>.
+* Anyone adapting SSRS-style drilldown reports for use in {{site.productNameTM}}.
 
 ## What do I need first?
 

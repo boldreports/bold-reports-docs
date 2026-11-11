@@ -1,15 +1,15 @@
 ---
-title: Show Page Margins in Web Report Designer | Bold Reports
-description: Show page margin rulers on the Bold Reports Web Report Designer design surface to see margin areas and edit report-level properties while you design.
+title: Show Page Margins in Web Report Designer | {{site.productName}}
+description: Show page margin rulers on the {{site.productName}} Web Report Designer design surface to see margin areas and edit report-level properties while you design.
 ---
 
-# Show page margins in Bold Reports<sup>®</sup> Web Report Designer
+# Show page margins in {{site.productNameTM}} Web Report Designer
 
-**Page Margin** in Bold Reports<sup>®</sup> Web Report Designer shows the margin areas clearly, so you can manage layout and report properties during report design.
+**Page Margin** in {{site.productNameTM}} Web Report Designer shows the margin areas clearly, so you can manage layout and report properties during report design.
 
 ## What are margin rulers?
 
-**Margin rulers** in Bold Reports<sup>®</sup> Web Report Designer highlight the report's margin areas. Previously, report margins were visible **only in Print Layout** or **Export View** of Report Viewer. With this feature enabled, margins are distinctly displayed in Web Report Designer itself.
+**Margin rulers** in {{site.productNameTM}} Web Report Designer highlight the report's margin areas. Previously, report margins were visible **only in Print Layout** or **Export View** of Report Viewer. With this feature enabled, margins are distinctly displayed in Web Report Designer itself.
 
 ![Page margin displayed clearly within the design surface](/static/assets/on-premise/images/report-designer/compose-report/page-margin/page-margin-user-interface.png '#width=500px')
 

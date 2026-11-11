@@ -1,12 +1,12 @@
 ---
-title: Set Available Values for a Report Parameter | Bold Reports
-description: Define available values for a report parameter in the Bold Reports Web Report Designer so users pick only valid values from a drop-down list at preview.
+title: Set Available Values for a Report Parameter | {{site.productName}}
+description: Define available values for a report parameter in the {{site.productName}} Web Report Designer so users pick only valid values from a drop-down list at preview.
 keywords: report-parameter, add parameter, report-designer, ssrs report parameters, drop-down list parameters
 ---
 
 # Define available values for a parameter
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can specify available values for a report parameter so users select only valid values when they preview the report. The available values you define for the parameter appear in the drop-down list when you preview the report.
+In the {{site.productNameTM}} Web Report Designer, you can specify available values for a report parameter so users select only valid values when they preview the report. The available values you define for the parameter appear in the drop-down list when you preview the report.
 
 ## How do I open the parameter assign dialog?
 

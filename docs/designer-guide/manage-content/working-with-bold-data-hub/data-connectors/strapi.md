@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Strapi CMS Content to Bold Data Hub | Bold Reports
-description: Connect Strapi to Bold Data Hub in Bold Reports. Generate a Strapi API token, set the connection properties, and schedule data refresh for your CMS content.
+title: Connect Strapi CMS Content to Bold Data Hub | {{site.productName}}
+description: Connect Strapi to Bold Data Hub in {{site.productName}}. Generate a Strapi API token, set the connection properties, and schedule data refresh for your CMS content.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Strapi with Bold Data Hub
 
-The Bold Data Hub Strapi connector loads content data from Strapi into Bold Reports<sup>®</sup>. Strapi is a headless CMS (Content Management System) for building API-driven content management systems.
+The Bold Data Hub Strapi connector loads content data from Strapi into {{site.productNameTM}}. Strapi is a headless CMS (Content Management System) for building API-driven content management systems.
 
 ## How do I get a Strapi API token?
 
@@ -72,7 +72,7 @@ You connect Strapi by creating a project in Bold Data Hub and adding the `Strapi
 4. Update the API secret key and domain in the template, and update the resources in the `select` property.
 5. Click **Save** and choose the destination to save the pipeline.
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 >**Warning:**
 
@@ -97,7 +97,7 @@ You schedule the Strapi pipeline in Bold Data Hub from the schedules tab, or you
 
     ![Strapi - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Strapi - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

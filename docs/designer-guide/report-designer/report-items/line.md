@@ -1,18 +1,18 @@
 ---
-title: Draw a Line Report Item in RDL Reports | Bold Reports
-description: Draw a line report item in the Bold Reports Web Report Designer to separate RDL report sections horizontally, vertically, or diagonally, and set its style.
+title: Draw a Line Report Item in RDL Reports | {{site.productName}}
+description: Draw a line report item in the {{site.productName}} Web Report Designer to separate RDL report sections horizontally, vertically, or diagonally, and set its style.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
-# Line report item in Bold Reports<sup>®</sup> Web Report Designer
+# Line report item in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the line report item separates report sections horizontally, vertically, or diagonally. It has a start point and an end point with various style properties. A line has no data associated with it.
+In the {{site.productNameTM}} Web Report Designer, the line report item separates report sections horizontally, vertically, or diagonally. It has a start point and an end point with various style properties. A line has no data associated with it.
 
 ![Line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-designarea.png)
 
 ## How do I draw a line?
 
-You draw a line in a Bold Reports<sup>®</sup> report by dragging the line report item from the item panel onto the designer surface.
+You draw a line in a {{site.productNameTM}} report by dragging the line report item from the item panel onto the designer surface.
 
 1. Drag and drop the line report item from the item panel to the designer surface.
    ![Drag and drop line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/drag-drop-line-reportitem.png '#width=285px')
@@ -22,7 +22,7 @@ You draw a line in a Bold Reports<sup>®</sup> report by dragging the line repor
 
 ## Which properties can I set for a line?
 
-The Bold Reports<sup>®</sup> line report item has line style, border, position, size, visibility, and miscellaneous properties.
+The {{site.productNameTM}} line report item has line style, border, position, size, visibility, and miscellaneous properties.
 
 ### Line Styles
 

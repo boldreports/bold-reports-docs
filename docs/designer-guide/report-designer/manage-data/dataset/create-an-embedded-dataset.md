@@ -1,16 +1,16 @@
 ---
-title: Create an Embedded Dataset in RDL Reports | Bold Reports
-description: Create an embedded dataset in the Bold Reports Web Report Designer by connecting to a data source, designing a query, and saving it for your report items.
+title: Create an Embedded Dataset in RDL Reports | {{site.productName}}
+description: Create an embedded dataset in the {{site.productName}} Web Report Designer by connecting to a data source, designing a query, and saving it for your report items.
 keywords: create data, dataset, report-designer, connect to data, ssrs, reporting
 ---
 
 # Create an embedded dataset
 
-An embedded dataset in the Bold Reports<sup>®</sup> Web Report Designer holds the query data that feeds your report. You create it by designing a query from the `Data` configuration panel.
+An embedded dataset in the {{site.productNameTM}} Web Report Designer holds the query data that feeds your report. You create it by designing a query from the `Data` configuration panel.
 
 ## Design query data
 
-You design query data in the Bold Reports<sup>®</sup> Web Report Designer by connecting to a data source and dragging tables into the query designer.
+You design query data in the {{site.productNameTM}} Web Report Designer by connecting to a data source and dragging tables into the query designer.
 
 1. Click the `Data` icon in the configuration panel to launch the `Data` configuration.
 
@@ -63,7 +63,7 @@ You save the embedded dataset from the tools pane of the Web Report Designer que
 
 ### How do I find a table in a large database?
 
-Use the `Search` field in the left pane of the Bold Reports<sup>®</sup> Web Report Designer query designer to search for a table or view.
+Use the `Search` field in the left pane of the {{site.productNameTM}} Web Report Designer query designer to search for a table or view.
 
 ### Can I rename the dataset?
 

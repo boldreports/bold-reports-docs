@@ -1,17 +1,17 @@
 ---
-title: Upgrade or Downgrade the RDL Schema Version | Bold Reports
-description: Upgrade or downgrade RDL and RDLC reports between 2008, 2010, and 2016 RDL schema versions in Bold Reports Web Report Designer with the Default Version option.
+title: Upgrade or Downgrade the RDL Schema Version | {{site.productName}}
+description: Upgrade or downgrade RDL and RDLC reports between 2008, 2010, and 2016 RDL schema versions in {{site.productName}} Web Report Designer with the Default Version option.
 ---
 
-# How to upgrade or downgrade reports using Bold Reports<sup>®</sup> Designer
+# How to upgrade or downgrade reports using {{site.productNameTM}} Designer
 
-Bold Reports<sup>®</sup> Report Designer lets you upgrade or downgrade reports between 2008, 2010, or 2016 RDL schema versions with the `Default Version` option. You find this option under `Report Properties` in the properties panel.
+{{site.productNameTM}} Report Designer lets you upgrade or downgrade reports between 2008, 2010, or 2016 RDL schema versions with the `Default Version` option. You find this option under `Report Properties` in the properties panel.
 
 ![Version option](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/version-option.png)
 
 ## Which Default Version options are available?
 
-The `Default Version` property in Bold Reports<sup>®</sup> Report Designer has the following options:
+The `Default Version` property in {{site.productNameTM}} Report Designer has the following options:
 
 **Default** - Refers to the 2016 RDL schema version. When you create a new report, the schema version is set to 2016 by default.
 
@@ -21,7 +21,7 @@ The `Default Version` property in Bold Reports<sup>®</sup> Report Designer has 
 
 ## Steps to upgrade or downgrade reports
 
-You upgrade or downgrade a report in Bold Reports<sup>®</sup> Designer by changing the `Default Version` property and saving the report.
+You upgrade or downgrade a report in {{site.productNameTM}} Designer by changing the `Default Version` property and saving the report.
 
 1. Launch the Enterprise Server application and edit a target report.![Open report](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/open-report.png '#width=400px')
 2. Open [Report Properties](./../../compose-report/report-properties/). Under the `Miscellaneous` category, choose the target version in the `Default Version` property drop-down.![Choose version](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/choose-version.png '#width=350px')
@@ -29,7 +29,7 @@ You upgrade or downgrade a report in Bold Reports<sup>®</sup> Designer by chang
 
 ## Which upgrades are supported?
 
-Bold Reports<sup>®</sup> Designer supports the following report upgrades:
+{{site.productNameTM}} Designer supports the following report upgrades:
 
 |Current version | Target version |
 |----------------|----------------|
@@ -38,7 +38,7 @@ Bold Reports<sup>®</sup> Designer supports the following report upgrades:
 
 ## Which downgrades are supported?
 
-Bold Reports<sup>®</sup> Designer supports the following report downgrade:
+{{site.productNameTM}} Designer supports the following report downgrade:
 
 |Current version | Target version |
 |----------------|----------------|

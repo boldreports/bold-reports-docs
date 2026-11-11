@@ -1,12 +1,12 @@
 ---
-title: Delete an Embedded Image from an RDL Report | Bold Reports
-description: Delete an embedded image from the Image Manager pane in Bold Reports Web Report Designer to remove it from your RDL report, after you confirm the action.
+title: Delete an Embedded Image from an RDL Report | {{site.productName}}
+description: Delete an embedded image from the Image Manager pane in {{site.productName}} Web Report Designer to remove it from your RDL report, after you confirm the action.
 keywords: ejReportDesigner, reportdesigner, delete, image, remove
 ---
 
-# Delete an embedded image in Bold Reports<sup>®</sup> Web Report Designer
+# Delete an embedded image in {{site.productNameTM}} Web Report Designer
 
-You delete an embedded image in Bold Reports<sup>®</sup> Web Report Designer from the `IMAGE MANAGER` pane. A confirmation dialog appears before the image is removed from the report.
+You delete an embedded image in {{site.productNameTM}} Web Report Designer from the `IMAGE MANAGER` pane. A confirmation dialog appears before the image is removed from the report.
 
 ## How do I delete an embedded image?
 

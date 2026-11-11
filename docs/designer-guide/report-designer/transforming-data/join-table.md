@@ -1,11 +1,11 @@
 ---
-title: Join Tables in the Dataset Query Designer | Bold Reports
-description: Join tables in the Bold Reports Web Report Designer query designer, create and edit table relations and join conditions, and feed the query data to your report.
+title: Join Tables in the Dataset Query Designer | {{site.productName}}
+description: Join tables in the {{site.productName}} Web Report Designer query designer, create and edit table relations and join conditions, and feed the query data to your report.
 ---
 
 # Join tables in the query designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer query designer, you join tables when the dataset query needs data from more than one table. The following sections give the steps to create and edit the relationships between tables.
+In the {{site.productNameTM}} Web Report Designer query designer, you join tables when the dataset query needs data from more than one table. The following sections give the steps to create and edit the relationships between tables.
 
 Prefer watching over reading? Watch this video on joining tables:
 

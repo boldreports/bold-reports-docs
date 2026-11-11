@@ -1,12 +1,12 @@
 ---
-title: Format Textbox Data in Web Report Designer | Bold Reports
-description: Format textbox values in the Bold Reports Web Report Designer as number, currency, date, time, scientific, percentage, or custom formats in the Format dialog.
+title: Format Textbox Data in Web Report Designer | {{site.productName}}
+description: Format textbox values in the {{site.productName}} Web Report Designer as number, currency, date, time, scientific, percentage, or custom formats in the Format dialog.
 keywords: ejReportDesigner, reportdesigner, number, currency, scientific, decimal places
 ---
 
-# Format data in Bold Reports<sup>®</sup> Web Report Designer
+# Format data in {{site.productNameTM}} Web Report Designer
 
-The Format option in Bold Reports<sup>®</sup> Web Report Designer displays textbox values in various forms, including **Numbers**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage**, and **Custom** formats.
+The Format option in {{site.productNameTM}} Web Report Designer displays textbox values in various forms, including **Numbers**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage**, and **Custom** formats.
 
 ![open-format-dialog](/static/assets/on-premise/images/report-designer/compose-report/format-data/formatdialog.png '#width=400px')
 

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Manage Shared Data Sources in Report Server | Bold Reports
-description: Add, share, edit as XML, update, and delete shared data sources in Bold Reports Report Server so multiple RDL reports and datasets can reuse one connection.
+title: Manage Shared Data Sources in Report Server | {{site.productName}}
+description: Add, share, edit as XML, update, and delete shared data sources in {{site.productName}} Report Server so multiple RDL reports and datasets can reuse one connection.
 platform: Report-Platform
 documentation: ug
 ---
 
 # Data sources management in Report Server
 
-You can create and store a data source on the Bold Reports<sup>®</sup> Report Server when you have a data source that you use often. A data source that you create on the Report Server is a shared data source that multiple reports can use.
+You can create and store a data source on the {{site.productNameTM}} Report Server when you have a data source that you use often. A data source that you create on the Report Server is a shared data source that multiple reports can use.
 
 ## Why should I use shared data sources?
 
-Bold Reports<sup>®</sup> recommends that you use shared data sources as much as possible. Shared data sources are easier to manage and help keep reports and access to data sources more secure. Report Server always places shared data sources on the `Data Sources` page. Users can access them based on their permissions.
+{{site.productNameTM}} recommends that you use shared data sources as much as possible. Shared data sources are easier to manage and help keep reports and access to data sources more secure. Report Server always places shared data sources on the `Data Sources` page. Users can access them based on their permissions.
 
 ## What can I do with data sources in Report Server?
 
@@ -120,7 +120,7 @@ The Report Server XML editor provides a user-friendly interface for making modif
 
 ## How do I update a data source?
 
-You can update shared data sources in Bold Reports<sup>®</sup> Report Server from the data sources grid.
+You can update shared data sources in {{site.productNameTM}} Report Server from the data sources grid.
 
 ### Steps to update the data source
 
@@ -129,7 +129,7 @@ You can update shared data sources in Bold Reports<sup>®</sup> Report Server fr
 
 2. Change the name, description, and other required details, and then select the `Update` option in the update data source dialog box.
    ![Update option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-option.png)
-   >**Note:** This option is available in Bold Reports<sup>®</sup> On-Premises Edition from version `2.2.28` onwards.
+   >**Note:** This option is available in {{site.productNameTM}} On-Premises Edition from version `2.2.28` onwards.
 
 ## How do I delete a data source?
 
@@ -142,7 +142,7 @@ Click the `Actions` menu button in the data sources grid context menu and select
 
 ## REST API Reference
 
-The following table lists the available REST APIs related to data sources in Bold Reports<sup>®</sup> On-Premises Edition.
+The following table lists the available REST APIs related to data sources in {{site.productNameTM}} On-Premises Edition.
 
 <table>
     <tr>

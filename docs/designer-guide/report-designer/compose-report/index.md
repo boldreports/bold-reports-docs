@@ -1,16 +1,16 @@
 ---
-title: Compose RDL Reports in Web Report Designer | Bold Reports
-description: Compose RDL reports in the Bold Reports Web Report Designer with the toolbar, properties panel, filters, sorting, grouping, linking, and expressions.
+title: Compose RDL Reports in Web Report Designer | {{site.productName}}
+description: Compose RDL reports in the {{site.productName}} Web Report Designer with the toolbar, properties panel, filters, sorting, grouping, linking, and expressions.
 keywords: reports, ejreports, reportdesigner, report designer, web designer, bold-reports reportdesigner, Overview, web designer
 ---
 
-# Compose a report in Bold Reports<sup>®</sup> Web Report Designer
+# Compose a report in {{site.productNameTM}} Web Report Designer
 
-Bold Reports<sup>®</sup> Web Report Designer gives you the tools to compose RDL reports: the toolbar, properties panel, ruler, filters, sorting, grouping, report linking, expressions, and formatting. Each section below summarizes one feature and links to its detailed guide.
+{{site.productNameTM}} Web Report Designer gives you the tools to compose RDL reports: the toolbar, properties panel, ruler, filters, sorting, grouping, report linking, expressions, and formatting. Each section below summarizes one feature and links to its detailed guide.
 
 ## Toolbar
 
-The Bold Reports<sup>®</sup> Web Report Designer toolbar contains icons and buttons for common report designing operations.
+The {{site.productNameTM}} Web Report Designer toolbar contains icons and buttons for common report designing operations.
 
 ## Properties panel
 

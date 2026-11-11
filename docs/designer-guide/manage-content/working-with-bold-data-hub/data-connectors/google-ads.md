@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect Google Ads to Bold Data Hub | Bold Reports
-description: Connect Google Ads to Bold Data Hub in Bold Reports. Get OAuth 2.0 credentials, set the developer token and customer ID, and schedule data refresh jobs.
+title: Connect Google Ads to Bold Data Hub | {{site.productName}}
+description: Connect Google Ads to Bold Data Hub in {{site.productName}}. Get OAuth 2.0 credentials, set the developer token and customer ID, and schedule data refresh jobs.
 platform: Report-platform
 documentation: ug
 
 ---
 # Connect Google Ads with Bold Data Hub
 
-The Bold Data Hub Google Ads connector loads ad campaign data from Google Ads into Bold Reports<sup>®</sup>. Google Ads is an online advertising service that tracks ad performance and audience engagement across Google platforms.
+The Bold Data Hub Google Ads connector loads ad campaign data from Google Ads into {{site.productNameTM}}. Google Ads is an online advertising service that tracks ad performance and audience engagement across Google platforms.
 
 ## How do I get Google OAuth 2.0 credentials?
 
@@ -57,7 +57,7 @@ You connect Google Ads by creating a project in Bold Data Hub and authenticating
 
     ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_addTemplate.png#max-width=100%)
 
-5. Update the details required in the template, using the configuration parameters below, and save it to the Bold Reports<sup>®</sup> Data Store.
+5. Update the details required in the template, using the configuration parameters below, and save it to the {{site.productNameTM}} Data Store.
 
     ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_updateDatahub.png#max-width=100%)
 
@@ -92,7 +92,7 @@ You schedule the Google Ads pipeline in Bold Data Hub from the schedules tab, or
 
     ![Google Ads - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Confirm that the ETL process created the data source in Bold Reports<sup>®</sup>.
+4. Confirm that the ETL process created the data source in {{site.productNameTM}}.
 
     ![google ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_newdsDataHub.png#max-width=100%)
 

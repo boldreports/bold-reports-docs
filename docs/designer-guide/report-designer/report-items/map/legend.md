@@ -1,11 +1,11 @@
 ---
-title: Show and Customize a Map Legend in RDL | Bold Reports
-description: Show, hide, and customize the map legend in the Bold Reports Web Report Designer to explain the colors on map shapes, with position, title, and mode options.
+title: Show and Customize a Map Legend in RDL | {{site.productName}}
+description: Show, hide, and customize the map legend in the {{site.productName}} Web Report Designer to explain the colors on map shapes, with position, title, and mode options.
 ---
 
-# Map legend in Bold Reports<sup>®</sup> Web Report Designer
+# Map legend in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a map legend explains the meaning of the colors on map shapes. Use the **Legend** property of the map to toggle the legend visibility and customize the legend appearance in the map design. The property is listed under the **Legend** category in the map properties.
+In the {{site.productNameTM}} Web Report Designer, a map legend explains the meaning of the colors on map shapes. Use the **Legend** property of the map to toggle the legend visibility and customize the legend appearance in the map design. The property is listed under the **Legend** category in the map properties.
 
 ![Map Title Position](/static/assets/on-premise/images/report-designer/report-items/map/legend/initial-state.png '#width=355px')
 
@@ -13,7 +13,7 @@ In the Bold Reports<sup>®</sup> Web Report Designer, a map legend explains the 
 
 ## How do I show or hide the legend?
 
-To show or hide the legend on the Bold Reports<sup>®</sup> map surface, toggle the `Enable Legend` checkbox.
+To show or hide the legend on the {{site.productNameTM}} map surface, toggle the `Enable Legend` checkbox.
 
 ![Enable legend](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/show-legend-checkbox.png '#width=355px')
 
@@ -25,7 +25,7 @@ You can also enable or disable the legend based on dynamic values by using `Expr
 
 ## How do I customize the legend?
 
-After you enable the Bold Reports<sup>®</sup> map legend, the other properties required for legend customization appear under the **Legend** category.
+After you enable the {{site.productNameTM}} map legend, the other properties required for legend customization appear under the **Legend** category.
 
 ![Legend properties](/static/assets/on-premise/images/report-designer/report-items/map/legend/legend-dependent-properties.png '#width=355px')
 

@@ -1,16 +1,16 @@
 ---
-title: Add a Radial Gauge to RDL Reports | Bold Reports
-description: Add a radial gauge to an RDL report in the Bold Reports Web Report Designer and set its dataset, type, pointer, scale angle, ranges, ticks, and custom style.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reporting
+title: Add a Radial Gauge to RDL Reports | {{site.productName}}
+description: Add a radial gauge to an RDL report in the {{site.productName}} Web Report Designer and set its dataset, type, pointer, scale angle, ranges, ticks, and custom style.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, bold reporting
 ---
 
-# Radial gauge in Bold Reports<sup>®</sup> Web Report Designer
+# Radial gauge in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a radial gauge is a circular report item that represents key performance indicators. You can place a radial gauge inside the `Tablix` and `Matrix` report items.
+In the {{site.productNameTM}} Web Report Designer, a radial gauge is a circular report item that represents key performance indicators. You can place a radial gauge inside the `Tablix` and `Matrix` report items.
 
 ## How do I add a radial gauge to the report?
 
-You add a radial gauge to a Bold Reports<sup>®</sup> report by dragging it from the item panel into the design area.
+You add a radial gauge to a {{site.productNameTM}} report by dragging it from the item panel into the design area.
 
 1. Find the radial gauge report item in the item panel under the `Deviation category`.
    ![Radial gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-panel.png '#width=145px')
@@ -21,7 +21,7 @@ You add a radial gauge to a Bold Reports<sup>®</sup> report by dragging it from
 
 ## Which properties can I set for a radial gauge?
 
-The Bold Reports<sup>®</sup> properties panel lists every radial gauge property described below. Read the [Properties panel](./../../../compose-report/properties-panel/) section before you work with the following properties.
+The {{site.productNameTM}} properties panel lists every radial gauge property described below. Read the [Properties panel](./../../../compose-report/properties-panel/) section before you work with the following properties.
 
 ### Basic settings
 
@@ -209,7 +209,7 @@ The position property sets the width, height, left, and top position of the radi
 
 ### Link
 
-The Linking property in Bold Reports<sup>®</sup> lets you create interactive, user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. To learn more, see the [Linking](./../../../compose-report/link-data/) section.
+The Linking property in {{site.productNameTM}} lets you create interactive, user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. To learn more, see the [Linking](./../../../compose-report/link-data/) section.
 ![Radial guage link property](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/enable-link-action.png '#width=355px')
 
 ### Data Element

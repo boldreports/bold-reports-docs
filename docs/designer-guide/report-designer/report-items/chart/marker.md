@@ -1,12 +1,12 @@
 ---
-title: Customize Chart Markers in RDL Reports | Bold Reports
-description: Show or hide markers on chart series in the Bold Reports Web Report Designer and customize marker border, color, shape, and size for RDL chart report items.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reporting
+title: Customize Chart Markers in RDL Reports | {{site.productName}}
+description: Show or hide markers on chart series in the {{site.productName}} Web Report Designer and customize marker border, color, shape, and size for RDL chart report items.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, bold reporting
 ---
 
-# Customize chart markers in the Bold Reports<sup>®</sup> Web Report Designer
+# Customize chart markers in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, chart data markers give the user information about each data point. You can add a shape and label to adorn each data point.
+In the {{site.productNameTM}} Web Report Designer, chart data markers give the user information about each data point. You can add a shape and label to adorn each data point.
 
 ## How do I show or hide a marker?
 

@@ -1,16 +1,16 @@
 ---
-title: Delete a Data Source in Web Report Designer | Bold Reports
-description: Delete an embedded data source that your report no longer uses from the DATASOURCE panel in the Bold Reports Web Report Designer with the Delete option.
+title: Delete a Data Source in Web Report Designer | {{site.productName}}
+description: Delete an embedded data source that your report no longer uses from the DATASOURCE panel in the {{site.productName}} Web Report Designer with the Delete option.
 keywords: delete datasource, report-designer, reporting tool, remove datasource
 ---
 
 # Delete a data source
 
-You delete an embedded data source in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Delete` from the data source context menu in the `DATASOURCE` panel. Delete a data source when your report no longer uses it.
+You delete an embedded data source in the {{site.productNameTM}} Web Report Designer by choosing `Delete` from the data source context menu in the `DATASOURCE` panel. Delete a data source when your report no longer uses it.
 
 ## How do I delete a data source?
 
-You delete a data source from the `DATASOURCE` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You delete a data source from the `DATASOURCE` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the data source in the `DATASOURCE` panel that you want to delete.
 

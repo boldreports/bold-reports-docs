@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Comment on Reports in Report Server | Bold Reports
-description: Comment on reports in Bold Reports Report Server to collaborate with users. Post, reply, edit, and delete comments, and mention users to notify them by email.
+title: Comment on Reports in Report Server | {{site.productName}}
+description: Comment on reports in {{site.productName}} Report Server to collaborate with users. Post, reply, edit, and delete comments, and mention users to notify them by email.
 platform: report-platform
 documentation: ug
 ---
 
-# Collaborate on reports in Bold Reports<sup>®</sup> Report Server
+# Collaborate on reports in {{site.productNameTM}} Report Server
 
-In the Bold Reports<sup>®</sup> Report Server, you can write comments on a report to share with other users who have access to the report. Comments help you track events and provide insights into those events. You can also add links to other reports or to external websites.
+In the {{site.productNameTM}} Report Server, you can write comments on a report to share with other users who have access to the report. Comments help you track events and provide insights into those events. You can also add links to other reports or to external websites.
 
-You collaborate with other users in Bold Reports<sup>®</sup> On-Premises Edition by commenting on reports.
+You collaborate with other users in {{site.productNameTM}} On-Premises Edition by commenting on reports.
 
 ## Who gets notified when I comment?
 

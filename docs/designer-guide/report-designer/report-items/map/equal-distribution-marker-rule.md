@@ -1,15 +1,15 @@
 ---
-title: Set Equal Distribution for Map Markers | Bold Reports
-description: Set the equal distribution type for map markers in the Bold Reports Web Report Designer so each marker color rule data range has an equal number of items.
+title: Set Equal Distribution for Map Markers | {{site.productName}}
+description: Set the equal distribution type for map markers in the {{site.productName}} Web Report Designer so each marker color rule data range has an equal number of items.
 ---
 
-# Equal distribution for map markers in Bold Reports<sup>®</sup>
+# Equal distribution for map markers in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the equal distribution type adjusts the interval limits so that each range has an equal number of items. The result is unequally sized intervals.
+In the {{site.productNameTM}} Web Report Designer, the equal distribution type adjusts the interval limits so that each range has an equal number of items. The result is unequally sized intervals.
 
 ## How do I set equal distribution for map markers?
 
-You set equal distribution for map markers in the Bold Reports<sup>®</sup> Web Report Designer from the color rule distribution properties.
+You set equal distribution for map markers in the {{site.productNameTM}} Web Report Designer from the color rule distribution properties.
 
 1. Set a value for the `Data Value` property. The properties required to configure the distribution type appear under the marker color rule category.
 
@@ -21,7 +21,7 @@ You can also set the distribution type based on dynamic values by using `Express
 
 ## Start and end value
 
-The start and end values set the limits that Bold Reports<sup>®</sup> splits into ranges by using an algorithm in report preview.
+The start and end values set the limits that {{site.productNameTM}} splits into ranges by using an algorithm in report preview.
 
 For example, to display the population of each country on a map, set the minimum population as the start value and the maximum population as the end value.
 
@@ -29,7 +29,7 @@ For example, to display the population of each country on a map, set the minimum
 
 ## Bucket count
 
-The bucket count sets how many data ranges Bold Reports<sup>®</sup> creates. For example, if you specify a bucket count of 25, the data between the start and end values is split into 25 ranges.
+The bucket count sets how many data ranges {{site.productNameTM}} creates. For example, if you specify a bucket count of 25, the data between the start and end values is split into 25 ranges.
 
 ![Bucket count](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/equal-bucket-count.png '#width=385px')
 

@@ -1,12 +1,12 @@
 ---
-title: Align Report Items in Web Report Designer | Bold Reports
-description: Use the alignment options in the Bold Reports Web Report Designer to align, distribute, size, and snap RDL report items to the grid on the design surface.
+title: Align Report Items in Web Report Designer | {{site.productName}}
+description: Use the alignment options in the {{site.productName}} Web Report Designer to align, distribute, size, and snap RDL report items to the grid on the design surface.
 keywords: ejReportDesigner, reportdesigner, align, layout, distribute, report items
 ---
 
 # Report item alignment in Web Report Designer
 
-Bold Reports<sup>®</sup> Web Report Designer provides a set of interactive alignment options that align, distribute, size, and snap report items on the design surface. These options are available under the `Align` context menu in the toolbar.
+{{site.productNameTM}} Web Report Designer provides a set of interactive alignment options that align, distribute, size, and snap report items on the design surface. These options are available under the `Align` context menu in the toolbar.
 
 ![Alignment options](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-alignment/alignment-options.png)
 

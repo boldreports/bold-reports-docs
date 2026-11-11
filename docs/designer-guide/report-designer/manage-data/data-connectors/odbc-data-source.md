@@ -1,15 +1,15 @@
 ---
-title: Connect an ODBC Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to a data source with an ODBC driver or a system DSN connection string and feed query results to RDL reports.
+title: Connect an ODBC Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to a data source with an ODBC driver or a system DSN connection string and feed query results to RDL reports.
 ---
 
 # Connect to ODBC data source
 
-Bold Reports<sup>®</sup> lets you connect to a data source by using an ODBC Driver or DSN names. You enter a connection string and an authentication type, then query the data.
+{{site.productNameTM}} lets you connect to a data source by using an ODBC Driver or DSN names. You enter a connection string and an authentication type, then query the data.
 
 ## How do I choose the ODBC data source?
 
-To choose the ODBC data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and select the ODBC connection type.
+To choose the ODBC data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and select the ODBC connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -20,7 +20,7 @@ To choose the ODBC data source in the Bold Reports<sup>®</sup> Web Report Desig
 
 ## Connection properties
 
-After you click the data source, the Bold Reports<sup>®</sup> `NEW DATASOURCE` configuration panel opens. Follow these steps to create an ODBC data source:
+After you click the data source, the {{site.productNameTM}} `NEW DATASOURCE` configuration panel opens. Follow these steps to create an ODBC data source:
 
 1. Specify the data source name without special characters in the **Name** field.
    ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/odbc-data-source/odbc-properties.png '#width=355px')
@@ -29,7 +29,7 @@ After you click the data source, the Bold Reports<sup>®</sup> `NEW DATASOURCE` 
 
 ### Connection string
 
-A connection string is the text representation of connection properties for a data provider. Bold Reports<sup>®</sup> connects to the ODBC data source using either a system DSN name or a driver name.
+A connection string is the text representation of connection properties for a data provider. {{site.productNameTM}} connects to the ODBC data source using either a system DSN name or a driver name.
 
 To connect using System DSN, specify the connection string as in the following example:
 
@@ -59,7 +59,7 @@ Driver=`{any odbc driver's name}`;OdbcKey1=someValue;OdbcKey2=someValue;
 
 ### Authentication types
 
-The Bold Reports<sup>®</sup> ODBC data source supports database credentials, prompted credentials, or no credentials.
+The {{site.productNameTM}} ODBC data source supports database credentials, prompted credentials, or no credentials.
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/odbc-data-source/authentication.png '#width=385px')
 
@@ -67,7 +67,7 @@ The Bold Reports<sup>®</sup> ODBC data source supports database credentials, pr
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/odbc-data-source/authentication-type.png '#width=385px')
 
-Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 
 > On report download action, the credentials will be not be saved with report data.
 

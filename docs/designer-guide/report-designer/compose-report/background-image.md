@@ -1,12 +1,12 @@
 ---
-title: Set a Background Image in Web Report Designer | Bold Reports
-description: Set a background image for the page header, footer, body, or a rectangle in Bold Reports Web Report Designer from a URL, dataset field, or embedded image.
+title: Set a Background Image in Web Report Designer | {{site.productName}}
+description: Set a background image for the page header, footer, body, or a rectangle in {{site.productName}} Web Report Designer from a URL, dataset field, or embedded image.
 keywords: ejReportDesigner, reportdesigner, background image, ssrs, embedded image, database image
 ---
 
-# Set a background image in Bold Reports<sup>®</sup> Web Report Designer
+# Set a background image in {{site.productNameTM}} Web Report Designer
 
-In Bold Reports<sup>®</sup> Web Report Designer, the Background image property shows an image behind the page header, page footer, report body, or a report item such as a rectangle. The source for background image can be a URL of an image on the Bold Reports<sup>®</sup> Report Server, an image from a dataset field, or an embedded image.
+In {{site.productNameTM}} Web Report Designer, the Background image property shows an image behind the page header, page footer, report body, or a report item such as a rectangle. The source for background image can be a URL of an image on the {{site.productNameTM}} Report Server, an image from a dataset field, or an embedded image.
 
 Prefer watching over reading? Watch the video on setting a background image for a report:
 

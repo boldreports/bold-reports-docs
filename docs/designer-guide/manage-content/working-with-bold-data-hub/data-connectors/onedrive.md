@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect OneDrive Files to Bold Data Hub | Bold Reports
-description: Connect OneDrive to Bold Data Hub in Bold Reports. Register an app in Microsoft Entra ID, set the tenant and client details, and schedule data refresh jobs.
+title: Connect OneDrive Files to Bold Data Hub | {{site.productName}}
+description: Connect OneDrive to Bold Data Hub in {{site.productName}}. Register an app in Microsoft Entra ID, set the tenant and client details, and schedule data refresh jobs.
 platform: report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect OneDrive with Bold Data Hub
 
-The Bold Data Hub OneDrive connector loads data from files stored in OneDrive into Bold Reports<sup>®</sup>. OneDrive is a cloud-based file storage service from Microsoft for storing, syncing, and sharing files. In Bold Data Hub, the OneDrive connector lets you access data stored in your OneDrive documents.
+The Bold Data Hub OneDrive connector loads data from files stored in OneDrive into {{site.productNameTM}}. OneDrive is a cloud-based file storage service from Microsoft for storing, syncing, and sharing files. In Bold Data Hub, the OneDrive connector lets you access data stored in your OneDrive documents.
 
 ## How do I get OneDrive API credentials?
 
@@ -23,7 +23,7 @@ You get the OneDrive API credentials for Bold Data Hub by registering an app in 
    * Choose **Microsoft Graph** > **Delegated permissions** like Files.Read, Files.Read.All, User.Read, Sites.Read.All, offline_access.
    * Go to **Certificates & secrets** > **New client secret** > **Add** and copy the value.
    * In **Overview**, copy the Client ID and Tenant ID.
-   * Use the Client ID, Tenant ID, and Client Secret in Bold Reports<sup>®</sup> to connect OneDrive.
+   * Use the Client ID, Tenant ID, and Client Secret in {{site.productNameTM}} to connect OneDrive.
 
 ## Connection Properties
 
@@ -77,7 +77,7 @@ The Bold Data Hub OneDrive connector uses OAuth to authenticate with your Micros
 
     ![OneDrive Data Hub - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/onedrive_auth_template.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub. For more information on how a Bold Data Hub pipeline relates to its data sources in Bold Reports<sup>®</sup>, see the following article.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub. For more information on how a Bold Data Hub pipeline relates to its data sources in {{site.productNameTM}}, see the following article.
 
 [Relationship between Bold Data Hub Pipeline and associated data sources](https://help.boldbi.com/working-with-data-sources/working-with-bold-data-hub/relationship-between-bold-data-hub-pipeline-and-associated-data-sources-in-boldbi/)
 
@@ -101,7 +101,7 @@ You schedule the OneDrive pipeline in Bold Data Hub from the schedules tab, or y
 
     ![OneDrive - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![OneDrive - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

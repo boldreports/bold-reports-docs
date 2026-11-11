@@ -1,12 +1,12 @@
 ---
-title: Shape Report Item in Web Report Designer | Bold Reports
-description: Add and configure the Shape report item in Bold Reports Web Report Designer, including shape type, rotation, fill color, line style, and star and arrow options.
-keywords: ejReportDesigner, reportdesigner, shape, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Shape Report Item in Web Report Designer | {{site.productName}}
+description: Add and configure the Shape report item in {{site.productName}} Web Report Designer, including shape type, rotation, fill color, line style, and star and arrow options.
+keywords: ejReportDesigner, reportdesigner, shape, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Shape report item in Bold Reports<sup>®</sup>
+# Shape report item in {{site.productNameTM}}
 
-The `Shape` report item in the Bold Reports<sup>®</sup> Web Report Designer is a graphical element used in a report layout. It provides visual structure, separates content areas, or enhances the design without directly displaying data.
+The `Shape` report item in the {{site.productNameTM}} Web Report Designer is a graphical element used in a report layout. It provides visual structure, separates content areas, or enhances the design without directly displaying data.
 
 If you prefer watching over reading, see this video for the shape report item:
 
@@ -14,7 +14,7 @@ If you prefer watching over reading, see this video for the shape report item:
 
 ## How do I add a shape to the report?
 
-You add a shape in the Bold Reports<sup>®</sup> Web Report Designer from the item panel. Follow these steps:
+You add a shape in the {{site.productNameTM}} Web Report Designer from the item panel. Follow these steps:
 
 1. Find the shape report item in the item panel under the `Shapes` category.
    ![Shape listed in item panel](/static/assets/on-premise/images/report-designer/report-items/shape/shape-item-in-item-panel.png '#width=215px')
@@ -25,7 +25,7 @@ You add a shape in the Bold Reports<sup>®</sup> Web Report Designer from the it
 
 ### Common Shape Properties
 
-The common properties of a shape report item in the Bold Reports<sup>®</sup> Web Report Designer are listed under the `Basic Settings` category in the properties panel.
+The common properties of a shape report item in the {{site.productNameTM}} Web Report Designer are listed under the `Basic Settings` category in the properties panel.
 
 ![Shape item with properties view](/static/assets/on-premise/images/report-designer/report-items/shape/shape-basic-settings.png '#width=400px')
 
@@ -77,7 +77,7 @@ The `Line width` property sets the border width for a particular shape report it
 
 ### Additional properties for Star shape
 
-The Star shape in the Bold Reports<sup>®</sup> Web Report Designer has two unique properties: `Star Count` and `Concavity`.
+The Star shape in the {{site.productNameTM}} Web Report Designer has two unique properties: `Star Count` and `Concavity`.
 
 ![Start shape properties](/static/assets/on-premise/images/report-designer/report-items/shape/star-shape-basic-settings.png '#width=400px')
 
@@ -95,7 +95,7 @@ The `Concavity` property adjusts the depth of the star’s inner points. It rang
 
 ### Additional properties for Arrow shape
 
-The Arrow shape in the Bold Reports<sup>®</sup> Web Report Designer has two unique properties: `Arrow Height` and `Arrow Width`.
+The Arrow shape in the {{site.productNameTM}} Web Report Designer has two unique properties: `Arrow Height` and `Arrow Width`.
 
 ![Arrow shape properties](/static/assets/on-premise/images/report-designer/report-items/shape/arrow-shape-basic-settings.png '#width=400px')
 
@@ -113,7 +113,7 @@ The `Arrow Width` property defines the width of the arrow's stem, with a range f
 
 ## General properties
 
-The general properties of the shape report item in the Bold Reports<sup>®</sup> Web Report Designer include name, appearance, link, position, visibility, and miscellaneous properties.
+The general properties of the shape report item in the {{site.productNameTM}} Web Report Designer include name, appearance, link, position, visibility, and miscellaneous properties.
 
 ### Name
 
@@ -166,15 +166,15 @@ The `Custom Style` property enables the application of external CSS for styling 
 
 ## Set expression
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you set an expression on a few properties of the shape report item, so the property values are processed based on expressions. To set expressions on the shape report item properties, see [Set Expression](./../../compose-report/properties-panel/#set-expression).
+The {{site.productNameTM}} Web Report Designer lets you set an expression on a few properties of the shape report item, so the property values are processed based on expressions. To set expressions on the shape report item properties, see [Set Expression](./../../compose-report/properties-panel/#set-expression).
 
 ## Reset expression
 
-To `Reset` the expression applied to a shape property in the Bold Reports<sup>®</sup> Web Report Designer, see [Reset Expression](./../../compose-report/properties-panel/#reset-expression).
+To `Reset` the expression applied to a shape property in the {{site.productNameTM}} Web Report Designer, see [Reset Expression](./../../compose-report/properties-panel/#reset-expression).
 
 ## Advanced properties
 
-A few properties of the shape report item in the Bold Reports<sup>®</sup> Web Report Designer contain nested properties. To open and handle nested properties, see [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties).
+A few properties of the shape report item in the {{site.productNameTM}} Web Report Designer contain nested properties. To open and handle nested properties, see [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties).
 
 ## Frequently asked questions
 

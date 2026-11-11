@@ -1,16 +1,16 @@
 ---
-title: Add and Format an Area Chart in RDL Reports | Bold Reports
-description: Add a stacked area chart to an RDL report in the Bold Reports Web Report Designer, bind data, and format its legend, series, axes, page break, and style.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format an Area Chart in RDL Reports | {{site.productName}}
+description: Add a stacked area chart to an RDL report in the {{site.productName}} Web Report Designer, bind data, and format its legend, series, axes, page break, and style.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Area Chart in Bold Reports<sup>®</sup> Web Report Designer
+# Area Chart in {{site.productNameTM}} Web Report Designer
 
-A stacked area chart in the Bold Reports<sup>®</sup> Web Report Designer compares multiple measures through filled curves stacked one after the other vertically.
+A stacked area chart in the {{site.productNameTM}} Web Report Designer compares multiple measures through filled curves stacked one after the other vertically.
 
 ## How do I add an area chart to the report?
 
-Area charts in the Bold Reports<sup>®</sup> Web Report Designer are listed under the `Distribution` category in the item panel. Drag the area chart from the item panel and drop it into the design area.
+Area charts in the {{site.productNameTM}} Web Report Designer are listed under the `Distribution` category in the item panel. Drag the area chart from the item panel and drop it into the design area.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/area-chart/drag-chart-from-item-panel.png '#width=285px')
 
@@ -39,7 +39,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I assign data to the area chart?
 
-A stacked area chart in Bold Reports<sup>®</sup> needs a minimum of 1 value element and 1 column element. Drop the measure or expression field that you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure into the `Columns` section. To categorize based on a series, also drop the respective dimension into the `Rows` section.
+A stacked area chart in {{site.productNameTM}} needs a minimum of 1 value element and 1 column element. Drop the measure or expression field that you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure into the `Columns` section. To categorize based on a series, also drop the respective dimension into the `Rows` section.
 
 To configure data in the area chart, follow these steps:
 
@@ -73,7 +73,7 @@ To configure data in the area chart, follow these steps:
 
 ## How do I format the area chart?
 
-You format the area chart in the Bold Reports<sup>®</sup> Web Report Designer with the settings in the `Properties` tab, so the view illustrates what you need.
+You format the area chart in the {{site.productNameTM}} Web Report Designer with the settings in the `Properties` tab, so the view illustrates what you need.
 
 To format the area chart, follow these steps:
 
@@ -267,7 +267,7 @@ The `Custom Style` property enables the use of external CSS for styling report i
 
 ## How do I preview the report?
 
-You preview the area chart report from the Bold Reports<sup>®</sup> Web Report Designer design view.
+You preview the area chart report from the {{site.productNameTM}} Web Report Designer design view.
 
 1. Check the final report design, which looks like the following image.
    ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/area-chart/preview-icon.png '#width=455px')
@@ -280,7 +280,7 @@ You preview the area chart report from the Bold Reports<sup>®</sup> Web Report 
 
 ### What data does a stacked area chart need?
 
-A stacked area chart in Bold Reports<sup>®</sup> needs a minimum of 1 value element in the `Y Values` section and 1 column element in the `Columns` section.
+A stacked area chart in {{site.productNameTM}} needs a minimum of 1 value element in the `Y Values` section and 1 column element in the `Columns` section.
 
 ### Where is the area chart in the item panel?
 

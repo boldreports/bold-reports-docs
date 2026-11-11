@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Supported Data Connectors in Bold Data Hub | Bold Reports
-description: Connect Matomo to Bold Data Hub in Bold Reports with an auth token, URL, and site ID, load reports or visits data, and schedule data refresh jobs.
+title: Supported Data Connectors in Bold Data Hub | {{site.productName}}
+description: Connect Matomo to Bold Data Hub in {{site.productName}} with an auth token, URL, and site ID, load reports or visits data, and schedule data refresh jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Matomo with Bold Data Hub
 
-The Bold Data Hub Matomo connector loads web analytics data from ``Matomo`` into Bold Reports. ``Matomo`` is a free and open-source web analytics platform for website and application performance insights.
+The Bold Data Hub Matomo connector loads web analytics data from ``Matomo`` into {{site.productName}}. ``Matomo`` is a free and open-source web analytics platform for website and application performance insights.
 
 ## How do I get Matomo credentials?
 
@@ -84,7 +84,7 @@ You connect Matomo by creating a project in Bold Data Hub and adding the `Matomo
 
 5. Click **Save** and choose the destination to save the pipeline.
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Which Matomo resources can I load?
 
@@ -120,7 +120,7 @@ You schedule the Matomo pipeline in Bold Data Hub from the schedules tab, or you
 
     ![Matomo - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Matomo - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

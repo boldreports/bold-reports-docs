@@ -1,19 +1,19 @@
 ---
-title: How-To Guides for Web Report Designer | Bold Reports
-description: Find how-to guides for Bold Reports Report Designer, such as configuring map shapes, upgrading RDL schema versions, and getting distinct parameter values.
+title: How-To Guides for Web Report Designer | {{site.productName}}
+description: Find how-to guides for {{site.productName}} Report Designer, such as configuring map shapes, upgrading RDL schema versions, and getting distinct parameter values.
 ---
 
-# How-to guides for Bold Reports<sup>®</sup> Designer
+# How-to guides for {{site.productNameTM}} Designer
 
-The Bold Reports<sup>®</sup> Designer how-to guides answer frequently asked questions about designing RDL reports, such as how to configure map shapes and upgrade reports.
+The {{site.productNameTM}} Designer how-to guides answer frequently asked questions about designing RDL reports, such as how to configure map shapes and upgrade reports.
 
 ## Which how-to guides are available?
 
-The Bold Reports<sup>®</sup> Designer how-to guides cover the following tasks:
+The {{site.productNameTM}} Designer how-to guides cover the following tasks:
 
 * [Configure map shapes](./../how-to/configure-map-shapes/)
 
-* [How to upgrade or downgrade reports using Bold Reports<sup>®</sup> Designer](./../how-to/upgrade-or-downgrade-rdl-schema-version/)
+* [How to upgrade or downgrade reports using {{site.productNameTM}} Designer](./../how-to/upgrade-or-downgrade-rdl-schema-version/)
 
 * [Get distinct values in parameter drop down](./../how-to/get-distinct-values-in-ssrs-parameter-drop-down/)
 
@@ -31,7 +31,7 @@ The Bold Reports<sup>®</sup> Designer how-to guides cover the following tasks:
 
 * [Pass form data in REST API data source](./../how-to/pass-form-data-in-rest-api-data-source/)
 
-* [How to create the cover page report in Bold Reports<sup>®</sup>?](./../how-to/create-the-cover-page-report-in-bold-reports/)
+* [How to create the cover page report in {{site.productNameTM}}?](./../how-to/create-the-cover-page-report-in-bold-reports/)
 
 * [How to Repeat Row and Column Headers on Multiple Pages?](./../how-to/repeat-row-and-column-headers-on-multiple-pages/)
 

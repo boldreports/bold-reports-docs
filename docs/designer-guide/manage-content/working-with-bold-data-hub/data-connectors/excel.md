@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect an Excel File to Bold Data Hub | Bold Reports
-description: Connect an Excel file to Bold Data Hub in Bold Reports. Set the file path, sheet name, and range, create a pipeline, and schedule refresh jobs.
+title: Connect an Excel File to Bold Data Hub | {{site.productName}}
+description: Connect an Excel file to Bold Data Hub in {{site.productName}}. Set the file path, sheet name, and range, create a pipeline, and schedule refresh jobs.
 platform: Report-platform
 documentation: ug
 
 ---
 # Connect an Excel file with Bold Data Hub
 
-The Bold Data Hub Excel connector loads data from an Excel workbook into Bold Reports<sup>®</sup>. Excel is a spreadsheet tool used to store and organize data in tables. It helps you analyze information using formulas, filters, and functions. You can also visualize your data through charts, graphs, and pivot tables.
+The Bold Data Hub Excel connector loads data from an Excel workbook into {{site.productNameTM}}. Excel is a spreadsheet tool used to store and organize data in tables. It helps you analyze information using formulas, filters, and functions. You can also visualize your data through charts, graphs, and pivot tables.
 
 ## Example Configuration
 
@@ -67,7 +67,7 @@ You connect an Excel file by creating a pipeline in Bold Data Hub, adding the `E
 
     ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Excel- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -99,7 +99,7 @@ You schedule the Excel pipeline in Bold Data Hub from the schedules tab, or you 
 
     ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

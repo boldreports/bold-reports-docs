@@ -1,16 +1,16 @@
 ---
-title: Supported Shape Types in Web Report Designer | Bold Reports
-description: See every shape type supported by the Shape report item in Bold Reports Web Report Designer, from ellipse and star to arrows and math operators, in RDL reports
-keywords: ejReportDesigner, reportdesigner, shape, reportitem, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Supported Shape Types in Web Report Designer | {{site.productName}}
+description: See every shape type supported by the Shape report item in {{site.productName}} Web Report Designer, from ellipse and star to arrows and math operators, in RDL reports
+keywords: ejReportDesigner, reportdesigner, shape, reportitem, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Shape types in Bold Reports<sup>®</sup> Web Report Designer
+# Shape types in {{site.productNameTM}} Web Report Designer
 
-The Shape report item in the Bold Reports<sup>®</sup> Web Report Designer supports the basic shapes listed below. You choose a shape type from the `Shapes` drop-down in the properties panel.
+The Shape report item in the {{site.productNameTM}} Web Report Designer supports the basic shapes listed below. You choose a shape type from the `Shapes` drop-down in the properties panel.
 
 ## Which shape types are supported?
 
-The Bold Reports<sup>®</sup> Web Report Designer supports the following basic shapes.
+The {{site.productNameTM}} Web Report Designer supports the following basic shapes.
 
   ![Shape Types](/static/assets/on-premise/images/report-designer/report-items/shape/shape-types.png '#width=450px')
 

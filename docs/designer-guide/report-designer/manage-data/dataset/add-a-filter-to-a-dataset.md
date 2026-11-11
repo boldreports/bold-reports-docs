@@ -1,16 +1,16 @@
 ---
-title: Add a Filter to a Dataset in RDL Reports | Bold Reports
-description: Add a filter equation at the dataset level in the Bold Reports Web Report Designer to filter report data after it is retrieved from the data source.
+title: Add a Filter to a Dataset in RDL Reports | {{site.productName}}
+description: Add a filter equation at the dataset level in the {{site.productName}} Web Report Designer to filter report data after it is retrieved from the data source.
 keywords: filter data, dataset filters, report-designer, ssrs filters, ssrs, reporting
 ---
 
 # Add a filter to a dataset
 
-A dataset filter in the Bold Reports<sup>®</sup> Web Report Designer filters report data at the dataset level. You add a filter equation to the dataset to keep only the records you need.
+A dataset filter in the {{site.productNameTM}} Web Report Designer filters report data at the dataset level. You add a filter equation to the dataset to keep only the records you need.
 
 ## What do I need first?
 
-You need a dataset in the Bold Reports<sup>®</sup> Web Report Designer before you add a filter. Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section to create data in the report designer.
+You need a dataset in the {{site.productNameTM}} Web Report Designer before you add a filter. Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section to create data in the report designer.
 
 ## How do I apply filters at the dataset level?
 
@@ -37,7 +37,7 @@ You remove a dataset filter equation from the same filter dialog in the Web Repo
 
 ## Example
 
-The following Bold Reports<sup>®</sup> example filters the `ProductID` field values at the dataset level:
+The following {{site.productNameTM}} example filters the `ProductID` field values at the dataset level:
 
 1. Create a filter equation as shown in the following image, and click `OK`.
    ![Filter equation for product id field](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-product-id-field.png '#width=355px')
@@ -49,7 +49,7 @@ The following Bold Reports<sup>®</sup> example filters the `ProductID` field va
 
 ### When does a dataset filter apply?
 
-A dataset filter in the Bold Reports<sup>®</sup> Web Report Designer filters report data at the dataset level, so every report item that uses the dataset gets the filtered records.
+A dataset filter in the {{site.productNameTM}} Web Report Designer filters report data at the dataset level, so every report item that uses the dataset gets the filtered records.
 
 ### Where do I open the dataset filter dialog?
 

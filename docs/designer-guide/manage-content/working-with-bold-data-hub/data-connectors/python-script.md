@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Load Data with Python in Bold Data Hub | Bold Reports
-description: Run a Python script with the PythonScript connector in Bold Data Hub to load data into Bold Reports. Upload the file, set the file path, and schedule the job.
+title: Load Data with Python in Bold Data Hub | {{site.productName}}
+description: Run a Python script with the PythonScript connector in Bold Data Hub to load data into {{site.productName}}. Upload the file, set the file path, and schedule the job.
 platform: Report-platform
 documentation: ug
 
 ---
 # Load data with a Python script in Bold Data Hub
 
-The Bold Data Hub PythonScript connector runs a Python script to load data into Bold Reports<sup>®</sup>. A PythonScript is a .py file with Python instructions for tasks such as automation, data processing, or analysis.
+The Bold Data Hub PythonScript connector runs a Python script to load data into {{site.productNameTM}}. A PythonScript is a .py file with Python instructions for tasks such as automation, data processing, or analysis.
 
 ## Example Configuration
 
@@ -70,7 +70,7 @@ You connect a Python script by creating a pipeline in Bold Data Hub, adding the 
 
     ![PythonScript - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![PythonScript- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -92,7 +92,7 @@ You schedule the PythonScript pipeline in Bold Data Hub from the schedules tab, 
 
     ![PythonScript - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![PythonScript - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

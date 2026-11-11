@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Configure Custom Attributes in Report Server | Bold Reports
-description: Configure custom attributes at the user, group, and site level in Bold Reports Report Server and use them in custom queries and web connections.
+title: Configure Custom Attributes in Report Server | {{site.productName}}
+description: Configure custom attributes at the user, group, and site level in {{site.productName}} Report Server and use them in custom queries and web connections.
 platform: Report-Platform
 documentation: ug
 ---
 
 # Configuring Custom Attribute
 
-A custom attribute in Bold Reports<sup>®</sup> Report Server is a piece of code that acts like a parameter and is replaced anywhere in the query, varied by the users. The attribute name is replaced by the code, which is saved for each user so that reports render based on it.
+A custom attribute in {{site.productNameTM}} Report Server is a piece of code that acts like a parameter and is replaced anywhere in the query, varied by the users. The attribute name is replaced by the code, which is saved for each user so that reports render based on it.
 
 ## What is the custom attribute hierarchy?
 
-Bold Reports<sup>®</sup> Report Server defines custom attributes at three levels:
+{{site.productNameTM}} Report Server defines custom attributes at three levels:
 
   1. User level
 
@@ -66,7 +66,7 @@ The user **Christ** has the custom attribute value **Resource_Name IN (‘Oil & 
 
 ## Where can I use a custom attribute?
 
-You can use a Bold Reports<sup>®</sup> custom attribute in the following areas:
+You can use a {{site.productNameTM}} custom attribute in the following areas:
 
   1. Custom Query.
   2. Web Connection window.
@@ -114,7 +114,7 @@ In the simple report created here, data is retrieved based on the condition for 
 
 ### Which custom attribute level has the highest priority?
 
-The user level attribute has the highest priority in Bold Reports<sup>®</sup> Report Server. It can override the group and site level attributes.
+The user level attribute has the highest priority in {{site.productNameTM}} Report Server. It can override the group and site level attributes.
 
 ### Can I hide a custom attribute value?
 

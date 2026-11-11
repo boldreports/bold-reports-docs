@@ -1,12 +1,12 @@
 ---
-title: Set Report Properties in Web Report Designer | Bold Reports
-description: View and edit report properties in Bold Reports Web Report Designer, including border, page units, margin, paper size, language, and custom attributes.
+title: Set Report Properties in Web Report Designer | {{site.productName}}
+description: View and edit report properties in {{site.productName}} Web Report Designer, including border, page units, margin, paper size, language, and custom attributes.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
-# Report properties in Bold Reports<sup>®</sup> Web Report Designer
+# Report properties in {{site.productNameTM}} Web Report Designer
 
-Report properties in Bold Reports<sup>®</sup> Web Report Designer control settings for the whole report, such as border, margin, paper size, and language. To open the `Report` properties, focus the mouse pointer outside of the design area.
+Report properties in {{site.productNameTM}} Web Report Designer control settings for the whole report, such as border, margin, paper size, and language. To open the `Report` properties, focus the mouse pointer outside of the design area.
 
 ![Report properties](/static/assets/on-premise/images/report-designer/report-items/properties-panel/open-report-properties.png)
 
@@ -26,16 +26,16 @@ The report background color in Web Report Designer uses the common background co
 
 ## Background Image
 
-The background image property in Bold Reports<sup>®</sup> displays company logos, watermarks, or any other background image in the report. To set a background image for the report, read the [Background Image](./../../compose-report/background-image/) section.
+The background image property in {{site.productNameTM}} displays company logos, watermarks, or any other background image in the report. To set a background image for the report, read the [Background Image](./../../compose-report/background-image/) section.
 
 ### Performance Settings
 
-The Performance Settings section helps you enable best practices for optimizing RDL and RDLC report rendering in Bold Reports<sup>®</sup>. For optimized rendering settings, read the [Performance settings](./../../compose-report/performance-settings/) section.
+The Performance Settings section helps you enable best practices for optimizing RDL and RDLC report rendering in {{site.productNameTM}}. For optimized rendering settings, read the [Performance settings](./../../compose-report/performance-settings/) section.
 ![Performance settings](/static/assets/on-premise/images/report-designer/report-items/properties-panel/performance-settings-property.png '#width=350px')
 
 ## Code
 
-The Code Module in Bold Reports<sup>®</sup> embeds custom code or assemblies in a report. To embed a custom function or assembly in the report, read the [Code Module](./../../compose-report/code-module/) section.
+The Code Module in {{site.productNameTM}} embeds custom code or assemblies in a report. To embed a custom function or assembly in the report, read the [Code Module](./../../compose-report/code-module/) section.
 ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/custom-code-property.png '#width=350px')
 
 ## Page Units
@@ -55,7 +55,7 @@ The paper size property in Web Report Designer specifies the size of the paper w
 
 ### Orientation
 
-Page orientation in Bold Reports<sup>®</sup> is the direction in which a report is displayed or printed. The two basic types are portrait (vertical) and landscape (horizontal). The default orientation is `portrait`.
+Page orientation in {{site.productNameTM}} is the direction in which a report is displayed or printed. The two basic types are portrait (vertical) and landscape (horizontal). The default orientation is `portrait`.
 
 ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/orientation-types.png '#width=350px')
 
@@ -71,7 +71,7 @@ To set a custom width and height for the report layout, choose the `Custom` pape
 
 ## Language
 
-The **Language** property in Bold Reports<sup>®</sup> sets the locale of a report, which determines the default formats for displaying report data.
+The **Language** property in {{site.productNameTM}} sets the locale of a report, which determines the default formats for displaying report data.
 
 ![Report Language](/static/assets/on-premise/images/report-designer/report-items/properties-panel/report-language.png '#width=350px')
 
@@ -85,7 +85,7 @@ The Miscellaneous category in Web Report Designer holds the ConsumeContainerWhit
 
 ### ConsumeContainerWhitespace
 
-The ConsumeContainerWhitespace property in Bold Reports<sup>®</sup> removes unwanted white space in the report preview and export. Set it to true if all whitespace in containers should be consumed; otherwise, false.
+The ConsumeContainerWhitespace property in {{site.productNameTM}} removes unwanted white space in the report preview and export. Set it to true if all whitespace in containers should be consumed; otherwise, false.
 
 ![Consume Container Whitespace](/static/assets/on-premise/images/report-designer/report-items/properties-panel/consume-container-whitespace.png '#width=350px')
 
@@ -96,7 +96,7 @@ The Custom attributes property in Web Report Designer adds custom properties at 
 
 ### Custom Style
 
-The `Custom Style` property in Bold Reports<sup>®</sup> lets you use external CSS to style a report, beyond the built-in styling options. Use this property to meet specific design needs and keep styling consistent across multiple reports. For a step-by-step guide to setting up custom styles in your report, read the **How To** section of this guide.
+The `Custom Style` property in {{site.productNameTM}} lets you use external CSS to style a report, beyond the built-in styling options. Use this property to meet specific design needs and keep styling consistent across multiple reports. For a step-by-step guide to setting up custom styles in your report, read the **How To** section of this guide.
 
 ![Custom Style at report level](/static/assets/on-premise/images/report-designer/report-items/properties-panel/custom-style-report-level.png '#width=450px')
 

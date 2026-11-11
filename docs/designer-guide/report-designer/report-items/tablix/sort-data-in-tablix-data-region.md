@@ -1,16 +1,16 @@
 ---
-title: Sort Data in an RDL Tablix Data Region | Bold Reports
-description: Sort data in a tablix in the Bold Reports Web Report Designer by setting a sort expression for the whole data region or for each group, including details.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, filters
+title: Sort Data in an RDL Tablix Data Region | {{site.productName}}
+description: Sort data in a tablix in the {{site.productName}} Web Report Designer by setting a sort expression for the whole data region or for each group, including details.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, filters
 ---
 
-# Sort data in a tablix data region in the Bold Reports<sup>®</sup> Web Report Designer
+# Sort data in a tablix data region in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you sort data in a tablix data region by setting a sort expression for the data region or for each group, including the details group.
+In the {{site.productNameTM}} Web Report Designer, you sort data in a tablix data region by setting a sort expression for the data region or for each group, including the details group.
 
 ## How do I set a sort expression for the tablix data region?
 
-To sort the whole Bold Reports<sup>®</sup> tablix data region, follow these steps:
+To sort the whole {{site.productNameTM}} tablix data region, follow these steps:
 
 1. Select the tablix data region in the design area.
    ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/select-data-region.png '#width=600px')
@@ -27,7 +27,7 @@ In this example, the sort expression sorts the `ProductCategory` field in descen
 
 ## How do I set a sort expression on a tablix group?
 
-To sort a single group in a Bold Reports<sup>®</sup> tablix, follow these steps:
+To sort a single group in a {{site.productNameTM}} tablix, follow these steps:
 
 1. Click the surface of the tablix data region to open the grouping panel.
    ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/enable-grouping-panel.png '#width=455px')
@@ -44,7 +44,7 @@ To sort a single group in a Bold Reports<sup>®</sup> tablix, follow these steps
 
 ### Can I sort only one group in a tablix?
 
-Yes. In the Bold Reports<sup>®</sup> Web Report Designer, you can set a sort expression for the whole data region or for each group, including the details group.
+Yes. In the {{site.productNameTM}} Web Report Designer, you can set a sort expression for the whole data region or for each group, including the details group.
 
 ## See also
 

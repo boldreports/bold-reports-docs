@@ -1,16 +1,16 @@
 ---
-title: Delete a Dataset in Web Report Designer | Bold Reports
-description: Delete an embedded dataset that your report no longer uses from the DATA panel in the Bold Reports Web Report Designer with the Delete context menu option.
+title: Delete a Dataset in Web Report Designer | {{site.productName}}
+description: Delete an embedded dataset that your report no longer uses from the DATA panel in the {{site.productName}} Web Report Designer with the Delete context menu option.
 keywords: delete data, report-designer, reporting tool, remove data
 ---
 
 # Delete a dataset
 
-You delete an embedded dataset in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Delete` from the dataset context menu in the `DATA` panel. Delete a dataset when your report no longer uses it.
+You delete an embedded dataset in the {{site.productNameTM}} Web Report Designer by choosing `Delete` from the dataset context menu in the `DATA` panel. Delete a dataset when your report no longer uses it.
 
 ## How do I delete a dataset?
 
-You delete a dataset from the `DATA` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You delete a dataset from the `DATA` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the data in the `DATA` panel that you want to delete.
 

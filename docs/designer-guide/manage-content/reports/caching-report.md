@@ -1,13 +1,13 @@
 ---
 layout: post
-title: Cache Reports to Load Faster in Report Server | Bold Reports
-description: Enable report caching in the Bold Reports Report Server so it returns a cached copy of a processed report, which shortens load time for large or busy reports.
+title: Cache Reports to Load Faster in Report Server | {{site.productName}}
+description: Enable report caching in the {{site.productName}} Report Server so it returns a cached copy of a processed report, which shortens load time for large or busy reports.
 documentation: ug
 ---
 
-# Cache reports in Bold Reports<sup>®</sup> Report Server
+# Cache reports in {{site.productNameTM}} Report Server
 
-The Caching Report Option in the Bold Reports<sup>®</sup> Report Server returns a cached copy of a processed report when a user opens it.
+The Caching Report Option in the {{site.productNameTM}} Report Server returns a cached copy of a processed report when a user opens it.
 
 ## How do I enable report caching?
 
@@ -23,7 +23,7 @@ You enable Report Server caching by adding a `CacheStorage` node to the reportin
 
 ## Why should I cache a report?
 
-Bold Reports<sup>®</sup> Report Server can cache a copy of a processed report and return that copy when a user opens the report.
+{{site.productNameTM}} Report Server can cache a copy of a processed report and return that copy when a user opens the report.
 
 * Caching can shorten the time required to retrieve a report if the report is large or accessed frequently.
 * To process the report, click the Actions button in the Reports grid context menu and select Processing Options.

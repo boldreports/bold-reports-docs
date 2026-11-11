@@ -1,16 +1,16 @@
 ---
-title: Show and Format Data Labels in RDL Charts | Bold Reports
-description: Show, position, rotate, and format data labels on chart series in the Bold Reports Web Report Designer by using the Show Data Label property and its settings.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Show and Format Data Labels in RDL Charts | {{site.productName}}
+description: Show, position, rotate, and format data labels on chart series in the {{site.productName}} Web Report Designer by using the Show Data Label property and its settings.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Chart Data Labels in the Bold Reports<sup>®</sup> Web Report Designer
+# Chart Data Labels in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you add data labels to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default.
+In the {{site.productNameTM}} Web Report Designer, you add data labels to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default.
 
 ## How do I show or hide a data label?
 
-To show or hide a data label in a Bold Reports<sup>®</sup> chart series, toggle the `Show Data Label` checkbox in the properties panel.
+To show or hide a data label in a {{site.productNameTM}} chart series, toggle the `Show Data Label` checkbox in the properties panel.
 
 ![Show data label](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/show-data-label-checkbox.png '#width=385px')
 

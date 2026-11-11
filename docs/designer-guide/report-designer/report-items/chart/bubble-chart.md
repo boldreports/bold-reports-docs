@@ -1,16 +1,16 @@
 ---
-title: Add and Format a Bubble Chart in RDL Reports | Bold Reports
-description: Add a bubble chart to an RDL report in the Bold Reports Web Report Designer, bind Y value, column, and size fields, and format its legend, series, and axes.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format a Bubble Chart in RDL Reports | {{site.productName}}
+description: Add a bubble chart to an RDL report in the {{site.productName}} Web Report Designer, bind Y value, column, and size fields, and format its legend, series, and axes.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Bubble Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Bubble Chart in the {{site.productNameTM}} Web Report Designer
 
-You add a **Bubble Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to compare a large number of data points shown as bubbles, where bubble size shows the difference. The bubble chart requires two values per data point. By default, the bubble chart displays data points as circles.
+You add a **Bubble Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to compare a large number of data points shown as bubbles, where bubble size shows the difference. The bubble chart requires two values per data point. By default, the bubble chart displays data points as circles.
 
 ## How do I add a bubble chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the bubble chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the bubble chart under the `Distribution` category in the item panel.
 
 Drag and drop the bubble chart from the item panel into the design area.
 
@@ -22,7 +22,7 @@ The bubble chart renders in the design area, and the properties panel lists the 
 
 ## How do I create data for the bubble chart?
 
-To present data in a Bold Reports<sup>®</sup> bubble chart, create a dataset and bind data to the chart data region. This example uses the following dataset query to create the dataset.
+To present data in a {{site.productNameTM}} bubble chart, create a dataset and bind data to the chart data region. This example uses the following dataset query to create the dataset.
 
 ```sql
 SELECT PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -39,7 +39,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I assign data to the bubble chart?
 
-The Bold Reports<sup>®</sup> bubble chart requires 3 fields (x, y, and size) to plot a point. The size field specifies the size of each bubble segment.
+The {{site.productNameTM}} bubble chart requires 3 fields (x, y, and size) to plot a point. The size field specifies the size of each bubble segment.
 
 To configure data in a bubble chart, follow these steps:
 
@@ -119,7 +119,7 @@ To configure data in a bubble chart, follow these steps:
 
 ## How do I format the bubble chart?
 
-You format a bubble chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab.
+You format a bubble chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab.
 
 To format a bubble chart, follow these steps:
 
@@ -318,7 +318,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the bubble chart report?
 
-You preview the bubble chart report from the design view of the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the bubble chart report from the design view of the {{site.productNameTM}} Web Report Designer.
 
 1. Review the final report design, shown in the following image.
 
@@ -333,7 +333,7 @@ You preview the bubble chart report from the design view of the Bold Reports<sup
 
 ### Where is the bubble chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the bubble chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the bubble chart under the `Distribution` category in the item panel.
 
 ### How do I set the bubble size?
 

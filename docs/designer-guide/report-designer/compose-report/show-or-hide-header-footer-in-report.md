@@ -1,12 +1,12 @@
 ---
-title: Show or Hide Report Header and Footer | Bold Reports
-description: Show or hide the report header and footer in Bold Reports Web Report Designer from the View menu in the toolbar to match your RDL report design needs.
+title: Show or Hide Report Header and Footer | {{site.productName}}
+description: Show or hide the report header and footer in {{site.productName}} Web Report Designer from the View menu in the toolbar to match your RDL report design needs.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
-# Show or hide the report header and footer in Bold Reports<sup>®</sup> Web Report Designer
+# Show or hide the report header and footer in {{site.productNameTM}} Web Report Designer
 
-Bold Reports<sup>®</sup> Web Report Designer lets you show or hide the report header and footer to match your report design requirements. You toggle both from the `View` menu in the toolbar.
+{{site.productNameTM}} Web Report Designer lets you show or hide the report header and footer to match your report design requirements. You toggle both from the `View` menu in the toolbar.
 
 ## Show or hide report header
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Notion Databases to Bold Data Hub | Bold Reports
-description: Connect Notion to Bold Data Hub in Bold Reports. Create a Notion integration, add it to your database, set the API key in the template, and schedule refresh.
+title: Connect Notion Databases to Bold Data Hub | {{site.productName}}
+description: Connect Notion to Bold Data Hub in {{site.productName}}. Create a Notion integration, add it to your database, set the API key in the template, and schedule refresh.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Notion with Bold Data Hub
 
-The Bold Data Hub Notion connector loads data from your Notion workspace into Bold Reports<sup>®</sup>. [Notion](https://www.notion.so/) is a flexible workspace tool with customizable notes, documents, databases, and more.
+The Bold Data Hub Notion connector loads data from your Notion workspace into {{site.productNameTM}}. [Notion](https://www.notion.so/) is a flexible workspace tool with customizable notes, documents, databases, and more.
 
 ## How do I get Notion credentials?
 
@@ -76,7 +76,7 @@ You connect Notion by creating a project in Bold Data Hub and adding the `Notion
 4. Update the API key in the template, and update the resources in the `select` property.
 5. Click **Save** and choose the destination to save the pipeline.
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 >**Warning:**
 
@@ -101,7 +101,7 @@ You schedule the Notion pipeline in Bold Data Hub from the schedules tab, or you
 
     ![Notion - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Notion - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

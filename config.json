@@ -1,60 +1,22 @@
 {
-    "branch": "development",
-    "siteVersion": "2.3.26",
-    "umsVersion": "2.3.26",
-    "reportserviceurl": "https://adhoc.boldreports.com/services/",
-    "githubserviceloc": "https://github.com/boldreports/demo-services/",
+    "product": {
+        "name": "Bold Reports",
+        "trademark": "<sup>®</sup>"
+    },
     "additionalInfo": {
         "header": "Enterprise",
         "homePage": {
             "name": "Overview",
             "fileName": "overview"
-        },
-        "url": {
-            "freeTrial": "https://app.boldid.net/register/reports/enterprise?evaluation=v2",
-            "scheduleFreeDemo": "https://www.boldreports.com/schedule-free-demo",
-            "suggestAFeature": "https://www.boldreports.com/feedback",
-            "blog": "https://boldreports.com/blog/",
-            "support": "https://support.boldreports.com/",
-            "demos": "https://adhoc.boldreports.com"
-        },
-        "pdf": {
-            "tocLevel": 1,
-            "date": "September 2,2020"
         }
     },
-    "pdfPath": "https://help.boldreports.com/enterprise-reporting/boldreports-enterprise-reporting.zip",
     "publish": {
-        "bucketName": "help.boldreports.com",
-        "date": "12:30:00, 1"
+        "bucketName": "help.boldreports.com"
     },
     "repos": {
-        "cloud": {
-            "name": "cloud-docs",
-            "url": "cloud-reporting",
-            "id": 3509,
-            "cx": "e4375449f997ddb5f"
-        },
         "enterprise": {
             "name": "enterprise-docs",
-            "url": "enterprise-reporting",
-            "id": 3510,
-            "cx": "b1da40d49be35307c"
-        },
-        "embedded": {
-            "name": "embedded-docs",
-            "url": "embedded-reporting",
-            "id": 3511,
-            "cx": "11e37b9639ef4251a"
-        },
-        "standaloneDesigner": {
-            "name": "standalone-designer-docs",
-            "url": "standalone-report-designer",
-            "id": 3520,
-            "cx": "5bb4501c47b32e301"
+            "url": "enterprise-reporting"
         }
-    },
-    "largerSizeCommonFileRepo": [
-        "embedded-docs"
-    ]
+    }
 }

@@ -1,16 +1,16 @@
 ---
-title: Add or Delete a Details Group in a Tablix | Bold Reports
-description: Add or delete a details group in a tablix data region in Bold Reports Web Report Designer with the grouping panel, and edit the details group properties.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add or Delete a Details Group in a Tablix | {{site.productName}}
+description: Add or delete a details group in a tablix data region in {{site.productName}} Web Report Designer with the grouping panel, and edit the details group properties.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add or delete a details group in a Bold Reports<sup>®</sup> tablix
+# Add or delete a details group in a {{site.productNameTM}} tablix
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the Details group displays the detailed data in the tablix data region and has no group expression. By default, when you drag and drop the tablix report item in the design area, it renders with a `Details` group.
+In the {{site.productNameTM}} Web Report Designer, the Details group displays the detailed data in the tablix data region and has no group expression. By default, when you drag and drop the tablix report item in the design area, it renders with a `Details` group.
 
 ## How do I add a details group?
 
-You add a details group in the Bold Reports<sup>®</sup> Web Report Designer by adding a child group with `Show detail data` selected.
+You add a details group in the {{site.productNameTM}} Web Report Designer by adding a child group with `Show detail data` selected.
 
 1. Select the tablix data region in the design area. The `Grouping Panel` is enabled in the design view.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/enable-grouping.png '#width=410px')
@@ -25,7 +25,7 @@ You add a details group in the Bold Reports<sup>®</sup> Web Report Designer by 
 
 ## How do I delete a details group?
 
-You delete a details group in the Bold Reports<sup>®</sup> Web Report Designer using either the cell context menu or the group menu in the grouping panel.
+You delete a details group in the {{site.productNameTM}} Web Report Designer using either the cell context menu or the group menu in the grouping panel.
 
 1. Click the icon in the right corner of the `Details` group member. Click the `Delete Group` option in the menu.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/delete-group.png '#width=385px')
@@ -42,7 +42,7 @@ The respective `Details` group information is deleted from the tablix data regio
 
 ## How do I edit group properties?
 
-You edit the properties of a group in a Bold Reports<sup>®</sup> tablix data region from the grouping panel. For the steps, refer to the [Tablix member properties](./../../../report-items/tablix/grouping-panel/#group-member-properties) section.
+You edit the properties of a group in a {{site.productNameTM}} tablix data region from the grouping panel. For the steps, refer to the [Tablix member properties](./../../../report-items/tablix/grouping-panel/#group-member-properties) section.
 
 ## Frequently asked questions
 

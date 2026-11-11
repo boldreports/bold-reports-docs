@@ -1,15 +1,15 @@
 ---
-title: Edit an Embedded Dataset in an RDL Report | Bold Reports
-description: Edit an embedded dataset in the Bold Reports Web Report Designer to change the query, fields, and parameter details that your RDL report uses.
+title: Edit an Embedded Dataset in an RDL Report | {{site.productName}}
+description: Edit an embedded dataset in the {{site.productName}} Web Report Designer to change the query, fields, and parameter details that your RDL report uses.
 ---
 
 # Modify an embedded dataset
 
-You modify an embedded dataset in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Edit` from the dataset context menu in the `DATA` panel. Editing lets you change the query, fields, and parameter details.
+You modify an embedded dataset in the {{site.productNameTM}} Web Report Designer by choosing `Edit` from the dataset context menu in the `DATA` panel. Editing lets you change the query, fields, and parameter details.
 
 ## How do I edit an embedded dataset?
 
-You edit an embedded dataset from the `DATA` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You edit an embedded dataset from the `DATA` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the data in the `DATA` panel that you want to edit.
 

@@ -1,12 +1,12 @@
 ---
-title: Add Custom Code in Web Report Designer | Bold Reports
-description: Use the Code Module in Bold Reports Web Report Designer to add embedded custom code or custom assembly references to an RDL report from Report Properties.
+title: Add Custom Code in Web Report Designer | {{site.productName}}
+description: Use the Code Module in {{site.productName}} Web Report Designer to add embedded custom code or custom assembly references to an RDL report from Report Properties.
 keywords: ejReportDesigner, reportdesigner, code, assemblies, class
 ---
 
 # Add custom code with the Code Module in Web Report Designer
 
-The Code Module in Bold Reports<sup>®</sup> Web Report Designer adds custom code or custom assemblies to a report. The Code Module adds references to custom code embedded in a report or generated with custom assemblies.
+The Code Module in {{site.productNameTM}} Web Report Designer adds custom code or custom assemblies to a report. The Code Module adds references to custom code embedded in a report or generated with custom assemblies.
 
 ## How do I add custom code to a report?
 
@@ -50,7 +50,7 @@ You embed custom assemblies in a Web Report Designer report by creating a simple
 
 ### How do I create a custom assembly?
 
-You create a custom assembly for Bold Reports<sup>®</sup> as a Visual Studio class library that you build into a `.dll`.
+You create a custom assembly for {{site.productNameTM}} as a Visual Studio class library that you build into a `.dll`.
 
 1. Create a Visual Studio class library. Go to **Installed > Visual C#**, and then select **Class Library (.Net Framework)** from the listed templates. Change the application name, and then click **OK**.
    ![To create c sharp class library](/static/assets/on-premise/images/report-designer/compose-report/code-module/assembly-references.png '#width=450px')

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect Asana to Bold Data Hub for Reports | Bold Reports
-description: Connect Asana to Bold Data Hub in Bold Reports with a personal access token and workspace ID, then load your Asana projects and tasks into a data source.
+title: Connect Asana to Bold Data Hub for Reports | {{site.productName}}
+description: Connect Asana to Bold Data Hub in {{site.productName}} with a personal access token and workspace ID, then load your Asana projects and tasks into a data source.
 platform: Report-platform
 documentation: ug
 ---
 
 # Connect Asana with Bold Data Hub
 
-The Asana connector in Bold Data Hub loads data from Asana into a Bold Reports<sup>®</sup> data source. Asana is a work management tool that helps teams plan, organize, and track tasks and projects in one place. It's used to improve team collaboration and productivity.
+The Asana connector in Bold Data Hub loads data from Asana into a {{site.productNameTM}} data source. Asana is a work management tool that helps teams plan, organize, and track tasks and projects in one place. It's used to improve team collaboration and productivity.
 
 ## What Asana credentials do I need?
 
@@ -20,7 +20,7 @@ You generate the Asana personal access token for Bold Data Hub in the Asana deve
 
 1. Go to the [Asana developer console](https://app.asana.com/0/developer-console).
 2. Click **+ New Access Token**.
-3. Enter a name (for example, "Bold Reports<sup>®</sup> Integration").
+3. Enter a name (for example, "{{site.productNameTM}} Integration").
 4. Click **Create Token**.
 5. Copy and securely save the token. Use this value for access_token in your YAML.
 
@@ -112,7 +112,7 @@ You connect Asana by creating a pipeline in Bold Data Hub and adding the Asana c
 
     ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -150,7 +150,7 @@ You schedule the Asana pipeline in Bold Data Hub from the schedules tab, or you 
 
     ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

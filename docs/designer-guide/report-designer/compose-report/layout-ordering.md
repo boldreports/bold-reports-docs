@@ -1,12 +1,12 @@
 ---
-title: Change Report Item Order in RDL Reports | Bold Reports
-description: Change the layout order (z-order) of report items in the Bold Reports Web Report Designer with Send Backward, Bring Forward, Send To Back, and Bring To Front.
+title: Change Report Item Order in RDL Reports | {{site.productName}}
+description: Change the layout order (z-order) of report items in the {{site.productName}} Web Report Designer with Send Backward, Bring Forward, Send To Back, and Bring To Front.
 keywords: ejReportDesigner, reportdesigner, ordering, layout, sendbackward, bringforward
 ---
 
-# Layout ordering in Bold Reports<sup>®</sup> Web Report Designer
+# Layout ordering in {{site.productNameTM}} Web Report Designer
 
-The ordering option in Bold Reports<sup>®</sup> Web Report Designer changes the layout order of report items on the design surface, also known as z-order. It contains the following ordering modes:
+The ordering option in {{site.productNameTM}} Web Report Designer changes the layout order of report items on the design surface, also known as z-order. It contains the following ordering modes:
 
 * Send Backward
 * Bring Forward

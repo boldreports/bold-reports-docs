@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Facebook Ads to Bold Data Hub | Bold Reports
-description: Connect Facebook Ads to Bold Data Hub in Bold Reports with an account ID and access token, load ads or insights incrementally, and schedule data refresh jobs.
+title: Connect Facebook Ads to Bold Data Hub | {{site.productName}}
+description: Connect Facebook Ads to Bold Data Hub in {{site.productName}} with an account ID and access token, load ads or insights incrementally, and schedule data refresh jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Facebook Ads with Bold Data Hub
 
-The Bold Data Hub Facebook Ads connector loads ad data from your Facebook Ads account into Bold Reports<sup>®</sup>. Facebook Ads is the advertising platform for targeted ads on Facebook and its affiliated apps, such as Instagram and Messenger.
+The Bold Data Hub Facebook Ads connector loads ad data from your Facebook Ads account into {{site.productNameTM}}. Facebook Ads is the advertising platform for targeted ads on Facebook and its affiliated apps, such as Instagram and Messenger.
 
 ## What Facebook Ads credentials do I need?
 
@@ -146,9 +146,9 @@ The available resources are supported in Facebook Ads
 - ad_sets
  ```
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![FileSystem - BoldReports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![FileSystem - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 >**Warning:**
 
@@ -173,7 +173,7 @@ You schedule the Facebook Ads pipeline in Bold Data Hub from the schedules tab, 
 
     ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

@@ -1,15 +1,15 @@
 ---
-title: Connect Amazon RDS Data to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to an Amazon RDS database such as MySQL, SQL Server, or Oracle, run a query, and use the data in RDL reports.
+title: Connect Amazon RDS Data to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to an Amazon RDS database such as MySQL, SQL Server, or Oracle, run a query, and use the data in RDL reports.
 ---
 
 # Connect to Amazon RDS data source
 
-To connect Bold Reports<sup>®</sup> to an Amazon RDS data source, open the **Data** configuration panel in the Web Report Designer and create an Amazon RDS data source.
+To connect {{site.productNameTM}} to an Amazon RDS data source, open the **Data** configuration panel in the Web Report Designer and create an Amazon RDS data source.
 
 ## How do I create an Amazon RDS data source?
 
-To create an Amazon RDS data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the Amazon RDS connection type.
+To create an Amazon RDS data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Amazon RDS connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
@@ -38,9 +38,9 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/amazon-rds-data-source/data-list.png '#width=350px')
 
-#### Amazon RDS supported database engine in Bold Reports<sup>®</sup>
+#### Amazon RDS supported database engine in {{site.productNameTM}}
 
-Bold Reports<sup>®</sup> supports the following Amazon RDS database engines:
+{{site.productNameTM}} supports the following Amazon RDS database engines:
 
 * MySQL
 * MariaDB
@@ -56,9 +56,9 @@ The following image shows the **Database Engine** drop-down.
 
 ## Frequently asked questions
 
-### Which Amazon RDS database engines does Bold Reports<sup>®</sup> support?
+### Which Amazon RDS database engines does {{site.productNameTM}} support?
 
-Bold Reports<sup>®</sup> supports MySQL, MariaDB, Amazon Aurora MySQL, PostgreSQL, Amazon Aurora PostgreSQL, SQL Server, and Oracle for Amazon RDS.
+{{site.productNameTM}} supports MySQL, MariaDB, Amazon Aurora MySQL, PostgreSQL, Amazon Aurora PostgreSQL, SQL Server, and Oracle for Amazon RDS.
 
 ### How do I save the Amazon RDS data source?
 

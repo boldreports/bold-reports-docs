@@ -1,12 +1,12 @@
 ---
-title: Use the Design Surface in Web Report Designer | Bold Reports
-description: The Bold Reports Web Report Designer design surface is a WYSIWYG editor where you arrange, resize, align, and order RDL report items as they will print.
+title: Use the Design Surface in Web Report Designer | {{site.productName}}
+description: The {{site.productName}} Web Report Designer design surface is a WYSIWYG editor where you arrange, resize, align, and order RDL report items as they will print.
 keywords: reports, ejreports, reportdesigner, report designer, web designer, bold-reports reportdesigner, Overview, web designer
 ---
 
-# Design surface in Bold Reports<sup>®</sup> Web Report Designer
+# Design surface in {{site.productNameTM}} Web Report Designer
 
-The Bold Reports<sup>®</sup> Web Report Designer comes with a WYSIWYG design surface. You edit a report in a form that resembles its appearance when printed or displayed.
+The {{site.productNameTM}} Web Report Designer comes with a WYSIWYG design surface. You edit a report in a form that resembles its appearance when printed or displayed.
 
 ## What can I do on the design surface?
 

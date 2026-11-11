@@ -1,16 +1,16 @@
 ---
-title: Nest Charts and Tables in RDL Data Regions | Bold Reports
-description: Nest a chart or tablix inside another data region in the Bold Reports Web Report Designer to show different views of one RDL dataset and control data scope.
-keywords: ejReportDesigner, reportdesigner, list, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, nested data regions, tablix
+title: Nest Charts and Tables in RDL Data Regions | {{site.productName}}
+description: Nest a chart or tablix inside another data region in the {{site.productName}} Web Report Designer to show different views of one RDL dataset and control data scope.
+keywords: ejReportDesigner, reportdesigner, list, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, nested data regions, tablix
 ---
 
-# Nested data regions in the Bold Reports<sup>®</sup> Web Report Designer
+# Nested data regions in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can place a data region such as a chart inside another data region such as a tablix. This links more than one data region to the same dataset and provides different views of the same data. For example, you can create a sales report for each sales person. Create a list with text boxes and an image to display information about the employee. Then, add table and chart data regions to the list to show the employee's sales record.
+In the {{site.productNameTM}} Web Report Designer, you can place a data region such as a chart inside another data region such as a tablix. This links more than one data region to the same dataset and provides different views of the same data. For example, you can create a sales report for each sales person. Create a list with text boxes and an image to display information about the employee. Then, add table and chart data regions to the list to show the employee's sales record.
 
 ## How do I assign data to a nested data region?
 
-In Bold Reports<sup>®</sup>, nested data regions inherit the dataset assigned to the parent data region. Nested data regions are based on a single dataset. Data regions based on different datasets cannot be nested inside one another.
+In {{site.productNameTM}}, nested data regions inherit the dataset assigned to the parent data region. Nested data regions are based on a single dataset. Data regions based on different datasets cannot be nested inside one another.
 
 ### How do I assign data to a nested chart?
 
@@ -46,7 +46,7 @@ Select a cell in the nested tablix region and open the data assign menu. The dat
 
 ## What is the scope of data for nested data regions?
 
-In Bold Reports<sup>®</sup>, data binds to nested data regions based on their position in the parent data region. The following points describe the scope for cells in each tablix area:
+In {{site.productNameTM}}, data binds to nested data regions based on their position in the parent data region. The following points describe the scope for cells in each tablix area:
 
 * Tablix corner - The data bind to the nested data regions, after the filter and sort expressions for the dataset and the outer Tablix are applied.
 
@@ -60,7 +60,7 @@ In Bold Reports<sup>®</sup>, data binds to nested data regions based on their p
 
 ## How do I design a simple report with a nested data region?
 
-To design a sales order report with a table nested in a list in the Bold Reports<sup>®</sup> Web Report Designer, follow these steps:
+To design a sales order report with a table nested in a list in the {{site.productNameTM}} Web Report Designer, follow these steps:
 
 1. To present data in the data regions, create a dataset and bind data to the data region. This example uses the following dataset query to create the dataset:
 
@@ -103,7 +103,7 @@ You now have a simple sales order details report designed with list and table da
 
 ### Can I nest data regions that use different datasets?
 
-No. In Bold Reports<sup>®</sup>, nested data regions are based on a single dataset. Data regions based on different datasets cannot be nested inside one another.
+No. In {{site.productNameTM}}, nested data regions are based on a single dataset. Data regions based on different datasets cannot be nested inside one another.
 
 ### Why is the Data tab of a nested chart disabled?
 

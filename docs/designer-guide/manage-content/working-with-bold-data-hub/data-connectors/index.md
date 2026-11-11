@@ -1,19 +1,19 @@
 ---
 layout: post
-title: Bold Data Hub Data Connectors List | Bold Reports
-description: Browse the Bold Data Hub connectors for Bold Reports, from databases and files to CRM, ad, and web API sources, and open the setup guide for each one.
+title: Bold Data Hub Data Connectors List | {{site.productName}}
+description: Browse the Bold Data Hub connectors for {{site.productName}}, from databases and files to CRM, ad, and web API sources, and open the setup guide for each one.
 platform: Report-platform
 documentation: ug
 
 ---
 
-# Bold Data Hub data connectors for Bold Reports<sup>®</sup>
+# Bold Data Hub data connectors for {{site.productNameTM}}
 
-Bold Data Hub connectors load data from databases, files, CRM, advertising, and web API sources into Bold Reports<sup>®</sup>. Each connector has its own setup guide that covers credentials, the YAML template, and scheduling.
+Bold Data Hub connectors load data from databases, files, CRM, advertising, and web API sources into {{site.productNameTM}}. Each connector has its own setup guide that covers credentials, the YAML template, and scheduling.
 
 ## Which data connectors does Bold Data Hub support?
 
-Bold Data Hub supports the following connectors in Bold Reports<sup>®</sup>. Select a connector to open its setup guide.
+Bold Data Hub supports the following connectors in {{site.productNameTM}}. Select a connector to open its setup guide.
 
 [Amazon Redshift](./../../working-with-bold-data-hub/data-connectors/amazon-redshift/)<br>
 [Asana](./../../working-with-bold-data-hub/data-connectors/asana/)<br>

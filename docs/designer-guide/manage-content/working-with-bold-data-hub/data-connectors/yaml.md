@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect a YAML File to Bold Data Hub | Bold Reports
-description: Connect a YAML file to Bold Data Hub in Bold Reports. Upload the file, set the file path in the connector template, create a pipeline, and schedule refresh.
+title: Connect a YAML File to Bold Data Hub | {{site.productName}}
+description: Connect a YAML file to Bold Data Hub in {{site.productName}}. Upload the file, set the file path in the connector template, create a pipeline, and schedule refresh.
 platform: Report-platform
 documentation: ug
 
 ---
 # Connect a YAML file with Bold Data Hub
 
-The Bold Data Hub YAML connector loads data from a YAML file into Bold Reports<sup>®</sup>. YAML is a human-readable format used to store and structure data. YAML is commonly used in configuration files, data storage, or transmission in applications. YAML is easy to write and understand.
+The Bold Data Hub YAML connector loads data from a YAML file into {{site.productNameTM}}. YAML is a human-readable format used to store and structure data. YAML is commonly used in configuration files, data storage, or transmission in applications. YAML is easy to write and understand.
 
 ## Example Configuration
 
@@ -64,7 +64,7 @@ You connect a YAML file by creating a pipeline in Bold Data Hub, adding the `Yam
 
     ![Yaml Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Yaml Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -86,7 +86,7 @@ You schedule the YAML pipeline in Bold Data Hub from the schedules tab, or you r
 
     ![Yaml Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Yaml Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

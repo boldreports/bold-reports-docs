@@ -1,16 +1,16 @@
 ---
-title: Duplicate a Data Source in an RDL Report | Bold Reports
-description: Duplicate an existing data source with the Clone option in the Bold Reports Web Report Designer when report items need their own data-level restrictions.
+title: Duplicate a Data Source in an RDL Report | {{site.productName}}
+description: Duplicate an existing data source with the Clone option in the {{site.productName}} Web Report Designer when report items need their own data-level restrictions.
 keywords: copy data, clone datasource, report-designer, ssrs, reporting
 ---
 
 # Duplicate a data source
 
-You duplicate a data source in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Clone` from the data source context menu in the `DATASOURCE` panel. A duplicate is useful when report items need data-level restrictions.
+You duplicate a data source in the {{site.productNameTM}} Web Report Designer by choosing `Clone` from the data source context menu in the `DATASOURCE` panel. A duplicate is useful when report items need data-level restrictions.
 
 ## How do I duplicate a data source?
 
-You duplicate a data source from the `DATASOURCE` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You duplicate a data source from the `DATASOURCE` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the data source that you need to duplicate in the `DATASOURCE` panel.
    ![Data source item menu icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png '#width=385px')

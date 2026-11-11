@@ -1,12 +1,12 @@
 ---
-title: Switch Measurement Units in the Designer | Bold Reports
-description: Switch the unit type of an RDL report in Bold Reports Web Report Designer between inches, centimeters, pixels, points, millimeters, and picas.
+title: Switch Measurement Units in the Designer | {{site.productName}}
+description: Switch the unit type of an RDL report in {{site.productName}} Web Report Designer between inches, centimeters, pixels, points, millimeters, and picas.
 keywords: ejReportDesigner,reportdesigner, unit, switch
 ---
 
-# Switch report units in Bold Reports<sup>®</sup> Web Report Designer
+# Switch report units in {{site.productNameTM}} Web Report Designer
 
-The unit switcher in Bold Reports<sup>®</sup> Web Report Designer converts the report's unit type from one unit type to another.
+The unit switcher in {{site.productNameTM}} Web Report Designer converts the report's unit type from one unit type to another.
 
 ## Supported Unit Types
 

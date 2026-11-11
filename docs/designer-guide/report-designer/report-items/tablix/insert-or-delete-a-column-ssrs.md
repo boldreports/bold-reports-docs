@@ -1,16 +1,16 @@
 ---
-title: Insert or Delete a Column in an RDL Tablix | Bold Reports
-description: Insert or delete a column in a tablix in the Bold Reports Web Report Designer, inside or outside a group, to organize the data in your RDL report as you need.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Insert or Delete a Column in an RDL Tablix | {{site.productName}}
+description: Insert or delete a column in a tablix in the {{site.productName}} Web Report Designer, inside or outside a group, to organize the data in your RDL report as you need.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Insert or delete a tablix column in the Bold Reports<sup>®</sup> Web Report Designer
+# Insert or delete a tablix column in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can insert or delete columns in a tablix to organize the data in your report.
+In the {{site.productNameTM}} Web Report Designer, you can insert or delete columns in a tablix to organize the data in your report.
 
 ## Insert a column
 
-You can add a column to a Bold Reports<sup>®</sup> tablix in two ways: from the column gripper or from a cell.
+You can add a column to a {{site.productNameTM}} tablix in two ways: from the column gripper or from a cell.
 
 To insert a column by selecting the column:
 
@@ -32,7 +32,7 @@ A new column is added to the left or right of the target column.
 
 ## How do I insert a column in a group?
 
-You can add a column to a group in a Bold Reports<sup>®</sup> tablix in two ways: from the column group gripper or from a column group cell.
+You can add a column to a group in a {{site.productNameTM}} tablix in two ways: from the column group gripper or from a column group cell.
 
 To insert a column by selecting the column group:
 
@@ -63,7 +63,7 @@ The Web Report Designer lists the following options in the `Insert Column` menu:
 
 ## How do I delete a column?
 
-You can delete a column from a Bold Reports<sup>®</sup> tablix in two ways: from the column gripper or from a cell.
+You can delete a column from a {{site.productNameTM}} tablix in two ways: from the column gripper or from a cell.
 
 To delete a column by selecting the column:
 
@@ -85,7 +85,7 @@ The selected column is deleted from the tablix.
 
 ## How do I delete a column from a group?
 
-To delete a column from a column group in a Bold Reports<sup>®</sup> tablix, follow these steps:
+To delete a column from a column group in a {{site.productNameTM}} tablix, follow these steps:
 
 1. Right-click a column group cell in the column group of a tablix.
    ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/open-delete-menu-of-selected-cell-column-group.png '#width=355px')
@@ -99,7 +99,7 @@ The selected column is deleted from the tablix.
 
 ### What is the difference between Inside Group and Outside Group?
 
-In the Bold Reports<sup>®</sup> Web Report Designer, **Inside Group** adds the new column inside the target group. **Outside Group** adds the new column outside the target group, so the `Grouping Indicator` is shown only for the target group.
+In the {{site.productNameTM}} Web Report Designer, **Inside Group** adds the new column inside the target group. **Outside Group** adds the new column outside the target group, so the `Grouping Indicator` is shown only for the target group.
 
 ## See also
 

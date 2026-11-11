@@ -1,15 +1,15 @@
 ---
-title: Create Cascading Parameters in RDL Reports | Bold Reports
-description: Create cascading parameters in the Bold Reports Web Report Designer so the values of one RDL report parameter depend on another and long lists stay manageable.
+title: Create Cascading Parameters in RDL Reports | {{site.productName}}
+description: Create cascading parameters in the {{site.productName}} Web Report Designer so the values of one RDL report parameter depend on another and long lists stay manageable.
 ---
 
-# Create cascading parameters in the Bold Reports<sup>®</sup> Web Report Designer
+# Create cascading parameters in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a cascading parameter is a parameter whose list of values depends on the value chosen in another parameter. Use this type of parameter when a parameter has a long list of values.
+In the {{site.productNameTM}} Web Report Designer, a cascading parameter is a parameter whose list of values depends on the value chosen in another parameter. Use this type of parameter when a parameter has a long list of values.
 
 ## How do I create cascading parameters?
 
-You create Bold Reports<sup>®</sup> cascading parameters in five stages: create the main dataset, create and assign a dataset for the independent parameter, then create and assign a dataset for the dependent parameter. The following sections walk through each stage in the Web Report Designer.
+You create {{site.productNameTM}} cascading parameters in five stages: create the main dataset, create and assign a dataset for the independent parameter, then create and assign a dataset for the dependent parameter. The following sections walk through each stage in the Web Report Designer.
 
 ### How do I create the main dataset?
 
@@ -81,7 +81,7 @@ The independent parameter dataset supplies the list of values for the first para
 
 ### How do I set available values for the independent parameter?
 
-You assign the `CategoryValues` dataset as the available values of the Bold Reports<sup>®</sup> **Category** parameter. Follow these steps:
+You assign the `CategoryValues` dataset as the available values of the {{site.productNameTM}} **Category** parameter. Follow these steps:
 
 1. Click the `Parameter` icon in the configuration panel to open the `PARAMETERS` panel.
     ![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/parameter-icon.png '#width=250px')
@@ -119,7 +119,7 @@ The dependent parameter dataset returns values filtered by the independent param
 
 ### How do I set available values for the dependent parameter?
 
-You assign the `SubcategoryValues` dataset as the available values of the Bold Reports<sup>®</sup> **Subcategory** parameter. Follow these steps:
+You assign the `SubcategoryValues` dataset as the available values of the {{site.productNameTM}} **Subcategory** parameter. Follow these steps:
 
 1. Click the `Parameter` icon in the configuration panel to open the `Parameter` configuration panel.
 2. Edit the **Subcategory** parameter. In the name field, verify that the name is **Subcategory**.
@@ -131,7 +131,7 @@ You assign the `SubcategoryValues` dataset as the available values of the Bold R
 
 ## How do I filter table data based on cascading parameters?
 
-You filter a Bold Reports<sup>®</sup> table with cascading parameters by assigning the main dataset to the table and choosing values at preview. Follow these steps:
+You filter a {{site.productNameTM}} table with cascading parameters by assigning the main dataset to the table and choosing values at preview. Follow these steps:
 
 1. Design a simple table report and assign the `SalesbyCategory` dataset to the table.
     ![Design table report](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/simple-table-report-design.png)
@@ -148,7 +148,7 @@ You filter a Bold Reports<sup>®</sup> table with cascading parameters by assign
 
 ### When should I use a cascading parameter?
 
-Use a Bold Reports<sup>®</sup> cascading parameter when a parameter has a long list of values. The values of the dependent parameter change based on the value chosen in another parameter.
+Use a {{site.productNameTM}} cascading parameter when a parameter has a long list of values. The values of the dependent parameter change based on the value chosen in another parameter.
 
 ### How many query parameters does the main dataset need?
 

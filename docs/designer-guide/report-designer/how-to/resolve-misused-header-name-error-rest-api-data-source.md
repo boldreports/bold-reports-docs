@@ -1,27 +1,27 @@
 ---
-title: Fix Misused Header Name Error in REST API | Bold Reports
-description: Resolve the misused header name error in the Bold Reports REST API data source by removing Content-Type and Content-Length headers from the Header(s) list.
+title: Fix Misused Header Name Error in REST API | {{site.productName}}
+description: Resolve the misused header name error in the {{site.productName}} REST API data source by removing Content-Type and Content-Length headers from the Header(s) list.
 ---
 
 # How to resolve misused header name error
 
-To resolve the misused header name error in a REST API data source in Bold Reports<sup>®</sup>, remove the `Content-Type` and `Content-Length` reserved headers from the `Header(s)` list.
+To resolve the misused header name error in a REST API data source in {{site.productNameTM}}, remove the `Content-Type` and `Content-Length` reserved headers from the `Header(s)` list.
 
 ![Misused header name error](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/misused-header-error.png '#width=400px')
 
 ## When does the error occur?
 
-The misused header name error in the Bold Reports<sup>®</sup> REST API data source occurs when you explicitly pass the `Content-Type` or `Content-Length` reserved headers in the `Header(s)` list.
+The misused header name error in the {{site.productNameTM}} REST API data source occurs when you explicitly pass the `Content-Type` or `Content-Length` reserved headers in the `Header(s)` list.
 
 ![Reserved headers](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/reserved-headers.png '#width=400px')
 
 ## Why does the error occur?
 
-The Bold Reports<sup>®</sup> REST API data source connector already handles the `Content-Type` and `Content-Length` request headers based on the `Data Format` field value. Passing the same values explicitly in the `Headers` list causes the `Misused header name` error.
+The {{site.productNameTM}} REST API data source connector already handles the `Content-Type` and `Content-Length` request headers based on the `Data Format` field value. Passing the same values explicitly in the `Headers` list causes the `Misused header name` error.
 
 ## How do I fix the error?
 
-You fix the error in the Bold Reports<sup>®</sup> REST API data source by removing the reserved headers and choosing the content type in `Data Format`.
+You fix the error in the {{site.productNameTM}} REST API data source by removing the reserved headers and choosing the content type in `Data Format`.
 
 1. Remove the `Content-Type` and `Content-Length` reserved headers from the `Header(s)` list.
 

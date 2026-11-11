@@ -1,16 +1,16 @@
 ---
-title: Repeat Table Headers on Each Page in SSRS RDL | Bold Reports
-description: Repeat column headers on every page of an SSRS RDL table in the Bold Reports Web Report Designer with the RepeatOnNewPage and KeepWithGroup properties.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, repeat headers
+title: Repeat Table Headers on Each Page in SSRS RDL | {{site.productName}}
+description: Repeat column headers on every page of an SSRS RDL table in the {{site.productName}} Web Report Designer with the RepeatOnNewPage and KeepWithGroup properties.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, repeat headers
 ---
 
-# Repeat headers on each page in SSRS reports with Bold Reports<sup>®</sup>
+# Repeat headers on each page in SSRS reports with {{site.productNameTM}}
 
-You repeat table headers on every page in the Bold Reports<sup>®</sup> Web Report Designer by setting the `RepeatOnNewPage` and `KeepWithGroup` properties on the static header row. Follow the steps in this guide to set them up in a table report.
+You repeat table headers on every page in the {{site.productNameTM}} Web Report Designer by setting the `RepeatOnNewPage` and `KeepWithGroup` properties on the static header row. Follow the steps in this guide to set them up in a table report.
 
 ## How do I repeat headers on every page?
 
-To repeat the headers on every page of a report in the Bold Reports<sup>®</sup> Web Report Designer, follow these steps:
+To repeat the headers on every page of a report in the {{site.productNameTM}} Web Report Designer, follow these steps:
 
 1. See the [Simple Table Design](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section and create a table report.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/simple-table-design.png '#width=285px')
@@ -24,7 +24,7 @@ To repeat the headers on every page of a report in the Bold Reports<sup>®</sup>
 
 ## What does the report look like in preview?
 
-When you preview the report in Bold Reports<sup>®</sup>, the header rows show up on every page. The following images show the first and last pages of the report preview.
+When you preview the report in {{site.productNameTM}}, the header rows show up on every page. The following images show the first and last pages of the report preview.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/report-preview-first-page.png '#width=455px')
 

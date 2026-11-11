@@ -1,16 +1,16 @@
 ---
-title: Insert or Delete a Column Group in RDL Tablix | Bold Reports
-description: Insert or delete a column group in a tablix in the Bold Reports Web Report Designer with the cell context menu or grouping panel to show data in a hierarchy.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Insert or Delete a Column Group in RDL Tablix | {{site.productName}}
+description: Insert or delete a column group in a tablix in the {{site.productName}} Web Report Designer with the cell context menu or grouping panel to show data in a hierarchy.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Insert or delete a column group in the Bold Reports<sup>®</sup> Web Report Designer
+# Insert or delete a column group in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can add column groups to a table to display data in a visual hierarchy. You can create both nested groups and adjacent groups. You add a column group with the cell context menu or with the group menu in the grouping panel. The cell context menu shows the `Column Group` option only when a column group can be added at that place.
+In the {{site.productNameTM}} Web Report Designer, you can add column groups to a table to display data in a visual hierarchy. You can create both nested groups and adjacent groups. You add a column group with the cell context menu or with the group menu in the grouping panel. The cell context menu shows the `Column Group` option only when a column group can be added at that place.
 
 ## How do I insert a column group?
 
-The Bold Reports<sup>®</sup> tablix data region groups data with the following options:
+The {{site.productNameTM}} tablix data region groups data with the following options:
 
 * Parent Group
 * Child Group
@@ -47,7 +47,7 @@ You can add child and adjacent groups to the column group in the same way. To ad
 
 ## How do I delete a column group?
 
-You delete a column group in the Bold Reports<sup>®</sup> Web Report Designer with the cell context menu or with the group menu in the grouping panel.
+You delete a column group in the {{site.productNameTM}} Web Report Designer with the cell context menu or with the group menu in the grouping panel.
 
 1. Select and right-click the column group that you want to delete from the tablix data region.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/delete-column-group-menu.png '#width=355px')
@@ -61,13 +61,13 @@ The group information is deleted from the tablix data region.
 
 ## How do I edit column group properties?
 
-To edit the properties of a column group in a Bold Reports<sup>®</sup> tablix data region, see the [Tablix member properties](./../../../report-items/tablix/grouping-panel/#group-member-properties) section.
+To edit the properties of a column group in a {{site.productNameTM}} tablix data region, see the [Tablix member properties](./../../../report-items/tablix/grouping-panel/#group-member-properties) section.
 
 ## Frequently asked questions
 
 ### Why is the Column Group option missing from the cell menu?
 
-The Bold Reports<sup>®</sup> cell context menu shows the `Column Group` option only when a column group can be added at that place.
+The {{site.productNameTM}} cell context menu shows the `Column Group` option only when a column group can be added at that place.
 
 ### What is the difference between parent, child, and adjacent groups?
 

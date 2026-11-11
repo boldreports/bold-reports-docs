@@ -1,12 +1,12 @@
 ---
-title: Select Report Items in Web Report Designer | Bold Reports
-description: Select one or more RDL report items on the Bold Reports Web Report Designer design surface using mouse actions and keyboard shortcuts to position them.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Select Report Items in Web Report Designer | {{site.productName}}
+description: Select one or more RDL report items on the {{site.productName}} Web Report Designer design surface using mouse actions and keyboard shortcuts to position them.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
 # Report item selection in Web Report Designer
 
-Report item selection in Bold Reports<sup>®</sup> Web Report Designer plays a major role in positioning and formatting report items on the design surface. You can select report items with mouse actions or keyboard shortcuts.
+Report item selection in {{site.productNameTM}} Web Report Designer plays a major role in positioning and formatting report items on the design surface. You can select report items with mouse actions or keyboard shortcuts.
 
 ## How do I select report items using the mouse?
 

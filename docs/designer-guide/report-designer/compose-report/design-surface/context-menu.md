@@ -1,12 +1,12 @@
 ---
-title: Use the Context Menu in Web Report Designer | Bold Reports
-description: Use the context menu in the Bold Reports Web Report Designer to cut, copy, paste, delete, and insert report items, and to add or remove the header and footer.
+title: Use the Context Menu in Web Report Designer | {{site.productName}}
+description: Use the context menu in the {{site.productName}} Web Report Designer to cut, copy, paste, delete, and insert report items, and to add or remove the header and footer.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
 # Context menu in Web Report Designer
 
-A context menu in Bold Reports<sup>®</sup> Web Report Designer is a pop-up menu that shows the basic options used in the design surface. When you right-click the design surface, the context menu displays options that depend on the target design surface or report item.
+A context menu in {{site.productNameTM}} Web Report Designer is a pop-up menu that shows the basic options used in the design surface. When you right-click the design surface, the context menu displays options that depend on the target design surface or report item.
 
 ## How do I add or remove the header and footer?
 

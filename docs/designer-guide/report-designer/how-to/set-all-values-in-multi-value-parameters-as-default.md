@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Select All Parameter Values by Default in RDL | Bold Reports
-description: Select all available values in a parameter list by default in Bold Reports Web Report Designer by using the same dataset query for available and default values.
+title: Select All Parameter Values by Default in RDL | {{site.productName}}
+description: Select all available values in a parameter list by default in {{site.productName}} Web Report Designer by using the same dataset query for available and default values.
 platform: report-platform
 documentation: ug
 ---
 
 # How to select all the available values in the parameter list as default in the report
 
-To select all available values by default in Bold Reports<sup>®</sup> Report Designer, use the same dataset query for the parameter's available values and default values. First, review the [Create Parameter](./../../report-parameters/add/#create-parameter) section, and then follow these steps.
+To select all available values by default in {{site.productNameTM}} Report Designer, use the same dataset query for the parameter's available values and default values. First, review the [Create Parameter](./../../report-parameters/add/#create-parameter) section, and then follow these steps.
 
 ![Create new parameter](/static/assets/on-premise/images/report-designer/how-to/set-all-values-in-multi-value-parameters-as-default/new-parameter.png '#width=400px')
 
 ## How do I set the available values?
 
-You set the available values for a Bold Reports<sup>®</sup> parameter in the parameter assign dialog.
+You set the available values for a {{site.productNameTM}} parameter in the parameter assign dialog.
 
 1. Click `Assign Value >>` to open the parameter assign dialog.
 
@@ -26,7 +26,7 @@ You set the available values for a Bold Reports<sup>®</sup> parameter in the pa
 
 ## How do I set all values as default?
 
-You set all values as default in Bold Reports<sup>®</sup> by choosing **Query Value** on the `Default Value` tab with the same dataset and value field.
+You set all values as default in {{site.productNameTM}} by choosing **Query Value** on the `Default Value` tab with the same dataset and value field.
 
 1. Switch to the `Default Value` tab, which has the following options.
 

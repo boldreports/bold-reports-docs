@@ -1,12 +1,12 @@
 ---
-title: Filter Dataset Query Data with Query Filters | Bold Reports
-description: Add and delete query filters in the Bold Reports Web Report Designer query designer to limit dataset fields of a table to the specific data your report needs.
+title: Filter Dataset Query Data with Query Filters | {{site.productName}}
+description: Add and delete query filters in the {{site.productName}} Web Report Designer query designer to limit dataset fields of a table to the specific data your report needs.
 keywords: ejReportDesigner,reportdesigner, filters, opertors, queryfilter
 ---
 
 # Query filters in the Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, query filters limit a dataset to the specific data you need from a database. You filter the data by adding and deleting filters.
+In the {{site.productNameTM}} Web Report Designer, query filters limit a dataset to the specific data you need from a database. You filter the data by adding and deleting filters.
 
 The following image shows the query filters dialog.
 

@@ -1,20 +1,20 @@
 ---
 layout: post
-title: Schedule Report Delivery in Report Server | Bold Reports
-description: Schedule reports in Bold Reports Report Server to email them to users automatically, with recurring, data-driven, and custom per-schedule report settings.
+title: Schedule Report Delivery in Report Server | {{site.productName}}
+description: Schedule reports in {{site.productName}} Report Server to email them to users automatically, with recurring, data-driven, and custom per-schedule report settings.
 platform: report-platform
 documentation: ug
 ---
 
-# Manage report schedules in Bold Reports<sup>®</sup> Report Server
+# Manage report schedules in {{site.productNameTM}} Report Server
 
-**Scheduling** in Bold Reports<sup>®</sup> automates sending reports to users via email at specific times, so recipients receive up-to-date reports without needing to open the Report Server manually. Users with the necessary permissions can create, edit, or delete schedules on the Bold Reports<sup>®</sup> Report Server.
+**Scheduling** in {{site.productNameTM}} automates sending reports to users via email at specific times, so recipients receive up-to-date reports without needing to open the Report Server manually. Users with the necessary permissions can create, edit, or delete schedules on the {{site.productNameTM}} Report Server.
 
 The following sections introduce schedules and link to the detailed pages for managing them.
 
 ## What is a schedule?
 
-A schedule in the Bold Reports<sup>®</sup> Report Server defines when and how often a report is generated and delivered by email, along with any data-driven variations in its recipients or parameters. Once created, a schedule runs automatically on the Report Server without further manual action, until a user with the necessary permission edits or deletes it.
+A schedule in the {{site.productNameTM}} Report Server defines when and how often a report is generated and delivered by email, along with any data-driven variations in its recipients or parameters. Once created, a schedule runs automatically on the Report Server without further manual action, until a user with the necessary permission edits or deletes it.
 
 ### What can I do with scheduling?
 
@@ -27,7 +27,7 @@ Scheduling in the Report Server lets you automate report delivery in the followi
 
 ## What are the key features of report scheduling?
 
-Report scheduling in the Bold Reports<sup>®</sup> Report Server offers the following key features:
+Report scheduling in the {{site.productNameTM}} Report Server offers the following key features:
 
 * **Automated email delivery**: Send a report to its recipients by email at a specific time, without requiring anyone to open the Report Server.
 * **Recurring schedule settings**: Configure a schedule to repeat on a recurring basis, so reports keep arriving without being recreated each time.
@@ -70,7 +70,7 @@ Report Server schedules have the following considerations and limitations:
 
 ### Who can create or edit a schedule?
 
-Only users with the necessary permissions on the Bold Reports<sup>®</sup> Report Server can create, edit, or delete schedules.
+Only users with the necessary permissions on the {{site.productNameTM}} Report Server can create, edit, or delete schedules.
 
 ### Can a schedule send different reports or parameters to different recipients?
 

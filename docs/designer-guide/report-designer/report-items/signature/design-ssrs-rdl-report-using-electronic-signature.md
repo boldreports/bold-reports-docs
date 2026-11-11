@@ -1,12 +1,12 @@
 ---
-title: Add an Electronic Signature to RDL Reports | Bold Reports
-description: Add an electronic signature to an SSRS RDL invoice report in Bold Reports Web Report Designer, then preview, edit, and export the report with the signature.
-keywords: SSRS RDL report, electronic signature, Bold Reports Designer, invoice report signature, add signature to SSRS report, report designer guide, signature item tutorial
+title: Add an Electronic Signature to RDL Reports | {{site.productName}}
+description: Add an electronic signature to an SSRS RDL invoice report in {{site.productName}} Web Report Designer, then preview, edit, and export the report with the signature.
+keywords: SSRS RDL report, electronic signature, {{site.productName}} Designer, invoice report signature, add signature to SSRS report, report designer guide, signature item tutorial
 ---
 
-# Add an electronic signature to an RDL report in Bold Reports<sup>®</sup>
+# Add an electronic signature to an RDL report in {{site.productNameTM}}
 
-The electronic signature item in the Bold Reports<sup>®</sup> Web Report Designer lets users graphically sign a report by drawing a signature directly within the report interface. The item is intended solely for visual representation of a person’s signature on reports or documents.
+The electronic signature item in the {{site.productNameTM}} Web Report Designer lets users graphically sign a report by drawing a signature directly within the report interface. The item is intended solely for visual representation of a person’s signature on reports or documents.
 
 ## How do I design an invoice report with an electronic signature?
 
@@ -14,7 +14,7 @@ You add an electronic signature to the `Invoice Details` report in the Web Repor
 
 ### How do I get the invoice report?
 
-You can download the [invoice sample report (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/design-ssrs-rdl-invoice-report.rdl) to follow along in the Bold Reports<sup>®</sup> Web Report Designer.
+You can download the [invoice sample report (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/design-ssrs-rdl-invoice-report.rdl) to follow along in the {{site.productNameTM}} Web Report Designer.
 
 ### Add the electronic signature item to the report
 
@@ -39,7 +39,7 @@ You add the signature item in the Web Report Designer by dragging it onto the re
 
 ## Preview and edit signature
 
-You can edit an electronic signature in the Bold Reports<sup>®</sup> Web Report Designer preview without returning to design mode.
+You can edit an electronic signature in the {{site.productNameTM}} Web Report Designer preview without returning to design mode.
 
 1. Click the `Preview` button in the report header.
    ![Preview button](/static/assets/on-premise/images/report-designer/report-items/signature/preview-button.png '#width=425px')
@@ -52,7 +52,7 @@ You can edit an electronic signature in the Bold Reports<sup>®</sup> Web Report
 
 ## Is the signature included when I export the report?
 
-Yes. When you export a report from the Bold Reports<sup>®</sup> Web Report Designer, the signature in the preview area is included in the exported report.
+Yes. When you export a report from the {{site.productNameTM}} Web Report Designer, the signature in the preview area is included in the exported report.
 
 > Download the [electronic signature report design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/signature/design-ssrs-rdl-report-using-electronic-signature.rdl).
 
@@ -60,7 +60,7 @@ Yes. When you export a report from the Bold Reports<sup>®</sup> Web Report Desi
 
 ### Is the electronic signature legally binding?
 
-No. Electronic signatures in Bold Reports<sup>®</sup> visually represent a person’s signature and do not include cryptographic security or digital certificate validation.
+No. Electronic signatures in {{site.productNameTM}} visually represent a person’s signature and do not include cryptographic security or digital certificate validation.
 
 ### Can I change the stroke of the signature?
 

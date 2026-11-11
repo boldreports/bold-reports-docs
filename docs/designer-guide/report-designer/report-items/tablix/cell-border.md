@@ -1,16 +1,16 @@
 ---
-title: Tablix Cell Border Behavior in RDL Reports | Bold Reports
-description: Learn how tablix cell borders work in Bold Reports Web Report Designer, where adjacent cells share a border and each border depends on the cell position.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Tablix Cell Border Behavior in RDL Reports | {{site.productName}}
+description: Learn how tablix cell borders work in {{site.productName}} Web Report Designer, where adjacent cells share a border and each border depends on the cell position.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Tablix cell border in Bold Reports<sup>®</sup> Web Report Designer
+# Tablix cell border in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a tablix cell is the intersection between a row and a column in a tablix data region. Cells are visually separated using borders based on the collapsed-border table rendering model. Two adjacent cells share a border.
+In the {{site.productNameTM}} Web Report Designer, a tablix cell is the intersection between a row and a column in a tablix data region. Cells are visually separated using borders based on the collapsed-border table rendering model. Two adjacent cells share a border.
 
 ## How do tablix cell borders behave?
 
-The border behavior of each tablix cell in the Bold Reports<sup>®</sup> Web Report Designer varies based on its position in the table. In the following image, the table item contains three rows and columns.
+The border behavior of each tablix cell in the {{site.productNameTM}} Web Report Designer varies based on its position in the table. In the following image, the table item contains three rows and columns.
 
 ![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/tablix-design.png '#width=315px')
 
@@ -78,7 +78,7 @@ The other cells in the last row inherit the same behavior as the second cell pos
 
 ## How do borders look in report preview?
 
-On report preview in Bold Reports<sup>®</sup>, the border properties are applied to the four sides of each cell in the table.
+On report preview in {{site.productNameTM}}, the border properties are applied to the four sides of each cell in the table.
 
 ![Table design](/static/assets/on-premise/images/report-designer/report-items/tablix-cell-border/preview.png '#width=315px')
 

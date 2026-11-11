@@ -1,16 +1,16 @@
 ---
-title: Create an Embedded Data Source in RDL Reports | Bold Reports
-description: Create an embedded data source in the Bold Reports Web Report Designer to connect a report to SQL Server and other data, then bind the data to report items.
+title: Create an Embedded Data Source in RDL Reports | {{site.productName}}
+description: Create an embedded data source in the {{site.productName}} Web Report Designer to connect a report to SQL Server and other data, then bind the data to report items.
 keywords: create data, add datasource, report-designer, connect to data, embedded data sources, ssrs, reporting
 ---
 
 # Create an embedded data source
 
-An embedded data source in the Bold Reports<sup>®</sup> Web Report Designer is a data connection that only the report in which it is embedded can use. You add it from the **Data** configuration panel.
+An embedded data source in the {{site.productNameTM}} Web Report Designer is a data connection that only the report in which it is embedded can use. You add it from the **Data** configuration panel.
 
 ## How do I add a new data source?
 
-You add a new embedded data source from the `DATASOURCE` panel of the Bold Reports<sup>®</sup> Web Report Designer. To bind data to a report item, you need a minimum of one data source. Create a data source with these steps:
+You add a new embedded data source from the `DATASOURCE` panel of the {{site.productNameTM}} Web Report Designer. To bind data to a report item, you need a minimum of one data source. Create a data source with these steps:
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-icon-configuration-panel.png '#width=235px')
@@ -37,7 +37,7 @@ You add a new embedded data source from the `DATASOURCE` panel of the Bold Repor
 
 ### Can other reports use an embedded data source?
 
-No. In the Bold Reports<sup>®</sup> Web Report Designer, an embedded data source can only be used by the report in which it is embedded.
+No. In the {{site.productNameTM}} Web Report Designer, an embedded data source can only be used by the report in which it is embedded.
 
 ### How many data sources does a report need?
 

@@ -1,12 +1,12 @@
 ---
-title: Use the Grouping Panel in Web Report Designer | Bold Reports
-description: Use the grouping panel in Bold Reports Web Report Designer to view, add, and delete row and column groups and totals for the selected tablix data region.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, grouping pane
+title: Use the Grouping Panel in Web Report Designer | {{site.productName}}
+description: Use the grouping panel in {{site.productName}} Web Report Designer to view, add, and delete row and column groups and totals for the selected tablix data region.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, grouping pane
 ---
 
-# Grouping panel in Bold Reports<sup>®</sup> Web Report Designer
+# Grouping panel in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the grouping panel displays the row and column groups of the selected tablix data region in the design area. The highlighted area in the following image shows the grouping panel in the design area.
+In the {{site.productNameTM}} Web Report Designer, the grouping panel displays the row and column groups of the selected tablix data region in the design area. The highlighted area in the following image shows the grouping panel in the design area.
 
 ![Grouping panel](/static/assets/on-premise/images/report-designer/report-items/tablix/grouping-panel.png '#width=425px')
 
@@ -14,7 +14,7 @@ The row groups of a selected tablix are listed in the `Row Groups` section and c
 
 ## How do I show or hide the grouping panel?
 
-You expand or collapse the Bold Reports<sup>®</sup> grouping panel in the design area at design time using the expand/collapse icon in the right corner of the grouping panel header.
+You expand or collapse the {{site.productNameTM}} grouping panel in the design area at design time using the expand/collapse icon in the right corner of the grouping panel header.
 
 ![Expand collapse icon](/static/assets/on-premise/images/report-designer/report-items/tablix/grouping-panel-expand-collapse-icon.png '#width=385px')
 
@@ -26,13 +26,13 @@ The following image shows the collapsed view of the grouping panel in the design
 
 ## How do I resize the grouping panel?
 
-You increase or decrease the height of the Bold Reports<sup>®</sup> grouping panel in the design area using the resizer.
+You increase or decrease the height of the {{site.productNameTM}} grouping panel in the design area using the resizer.
 
 ![Grouping panel resizer](/static/assets/on-premise/images/report-designer/report-items/tablix/grouping-panel-resizer.png '#width=385px')
 
 ## What modes does the grouping panel have?
 
-The Bold Reports<sup>®</sup> grouping panel has a `Default` mode and an `Advanced` mode.
+The {{site.productNameTM}} grouping panel has a `Default` mode and an `Advanced` mode.
 
 ### Default Mode
 
@@ -56,7 +56,7 @@ After you enable advanced mode, a tick mark appears in the `Advanced` menu, as s
 
 ## Visual Cues
 
-The Bold Reports<sup>®</sup> grouping panel uses symbols and label conventions as visual cues for groups and tablix members.
+The {{site.productNameTM}} grouping panel uses symbols and label conventions as visual cues for groups and tablix members.
 
 ### Groups
 
@@ -90,7 +90,7 @@ The label text for a group member is surrounded by square brackets.
 
 ## Tablix member properties
 
-You edit the static and dynamic tablix member properties in the Bold Reports<sup>®</sup> Web Report Designer by selecting the respective member in the Row or Column Groups pane and changing the property values in the `Properties` panel.
+You edit the static and dynamic tablix member properties in the {{site.productNameTM}} Web Report Designer by selecting the respective member in the Row or Column Groups pane and changing the property values in the `Properties` panel.
 
 ### Static member properties
 
@@ -110,7 +110,7 @@ To set and edit the properties of a group tablix member, refer to the [Group mem
 
 ## How do I add groups or totals?
 
-You add groups or totals to a tablix data region with the Bold Reports<sup>®</sup> grouping panel. To open the group menu, click the icon in the right corner of the row or column group member.
+You add groups or totals to a tablix data region with the {{site.productNameTM}} grouping panel. To open the group menu, click the icon in the right corner of the row or column group member.
 
 ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/group-menu-icon.png '#width=600px')
 
@@ -172,7 +172,7 @@ The total row or column is added in the tablix region for the respective group i
 
 ## How do I delete a group?
 
-You delete a group with the Bold Reports<sup>®</sup> grouping panel by clicking the icon in the right corner of the row or column group member and then clicking the `Delete Group` option in the menu.
+You delete a group with the {{site.productNameTM}} grouping panel by clicking the icon in the right corner of the row or column group member and then clicking the `Delete Group` option in the menu.
 
 ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-group-menu.png '#width=385px')
 

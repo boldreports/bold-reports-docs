@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Zendesk Support to Bold Data Hub | Bold Reports
-description: Connect Zendesk Support to Bold Data Hub in Bold Reports. Authenticate with a password, API token, or OAuth token, then schedule the data refresh jobs.
+title: Connect Zendesk Support to Bold Data Hub | {{site.productName}}
+description: Connect Zendesk Support to Bold Data Hub in {{site.productName}}. Authenticate with a password, API token, or OAuth token, then schedule the data refresh jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Zendesk Support with Bold Data Hub
 
-The Bold Data Hub Zendesk Support connector loads customer service data from Zendesk into Bold Reports<sup>®</sup>. Zendesk is a cloud-based customer service and support platform with ticket management, live chat, and more.
+The Bold Data Hub Zendesk Support connector loads customer service data from Zendesk into {{site.productNameTM}}. Zendesk is a cloud-based customer service and support platform with ticket management, live chat, and more.
 
 ## How does Bold Data Hub authenticate to Zendesk Support?
 
@@ -186,7 +186,7 @@ You connect Zendesk Support by creating a project in Bold Data Hub and adding th
 
     ![Zendesk Support Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/support_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Which Zendesk Support resources are supported?
 
@@ -224,7 +224,7 @@ You schedule the Zendesk Support pipeline in Bold Data Hub from the schedules ta
 
     ![Zendesk Support - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Zendesk Support - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

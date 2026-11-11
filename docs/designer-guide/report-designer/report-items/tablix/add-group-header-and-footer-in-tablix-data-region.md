@@ -1,12 +1,12 @@
 ---
-title: Add Group Header and Footer in a Tablix | Bold Reports
-description: Add a group header and footer to a tablix data region in Bold Reports Web Report Designer with the grouping panel, then merge and edit header and footer cells.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add Group Header and Footer in a Tablix | {{site.productName}}
+description: Add a group header and footer to a tablix data region in {{site.productName}} Web Report Designer with the grouping panel, then merge and edit header and footer cells.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a group header and footer to a tablix in Bold Reports<sup>®</sup>
+# Add a group header and footer to a tablix in {{site.productNameTM}}
 
-You add a group header and footer to a tablix data region in the Bold Reports<sup>®</sup> Web Report Designer from the `Row Groups` pane of the grouping panel. The header adds a static row above each group and the footer adds a static row below it.
+You add a group header and footer to a tablix data region in the {{site.productNameTM}} Web Report Designer from the `Row Groups` pane of the grouping panel. The header adds a static row above each group and the footer adds a static row below it.
 
 ## How do I add a group header and footer?
 
@@ -43,7 +43,7 @@ On report preview, the header and footer are added for each group.
 
 ## How do I format the header and footer?
 
-You can display data, label content or a total in the group header and footer of a tablix data region in the Bold Reports<sup>®</sup> Web Report Designer. The steps below merge cells and set expressions.
+You can display data, label content or a total in the group header and footer of a tablix data region in the {{site.productNameTM}} Web Report Designer. The steps below merge cells and set expressions.
 
 ### How do I merge header cells?
 
@@ -80,7 +80,7 @@ You edit the header cell in the Web Report Designer by setting the `= "Sales Rep
 
 ### What does the report preview show?
 
-The Bold Reports<sup>®</sup> report preview adds the header and footer for each group.
+The {{site.productNameTM}} report preview adds the header and footer for each group.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-header-and-footer/header-and-footer-with-value.png '#width=425px')
 

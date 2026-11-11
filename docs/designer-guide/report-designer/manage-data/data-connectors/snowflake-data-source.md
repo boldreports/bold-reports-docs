@@ -1,15 +1,15 @@
 ---
-title: Connect Snowflake Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to a Snowflake database with a connection string, run a query, and use the data in your RDL reports.
+title: Connect Snowflake Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to a Snowflake database with a connection string, run a query, and use the data in your RDL reports.
 ---
 
 # Connect to Snowflake data source
 
-The `Snowflake` connection type in the Bold Reports<sup>®</sup> Web Report Designer lets you connect to a Snowflake database and use its data in your reports.
+The `Snowflake` connection type in the {{site.productNameTM}} Web Report Designer lets you connect to a Snowflake database and use its data in your reports.
 
 ## How do I choose the Snowflake data source?
 
-You choose the Snowflake data source from the **Data** panel of the Bold Reports<sup>®</sup> Web Report Designer.
+You choose the Snowflake data source from the **Data** panel of the {{site.productNameTM}} Web Report Designer.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -44,7 +44,7 @@ After you click the data source, the Web Report Designer opens the `NEW DATASOUR
 
 ### Which authentication types can I use?
 
-The Snowflake data source in Bold Reports<sup>®</sup> supports database credentials, prompted credentials, or no credentials.
+The Snowflake data source in {{site.productNameTM}} supports database credentials, prompted credentials, or no credentials.
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/snowflake-data-source/authentication.png '#width=355px')
 
@@ -52,7 +52,7 @@ The Snowflake data source in Bold Reports<sup>®</sup> supports database credent
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/snowflake-data-source/authentication-type.png '#width=355px')
 
-Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 
 > On report download action, the credentials will be not be saved with report data.
 
@@ -66,7 +66,7 @@ Enable the Save password option to embed the credentials within the report when 
 
 ### Does the Snowflake data source support a query designer mode?
 
-No. Only query mode is supported for the Snowflake data source in the Bold Reports<sup>®</sup> Web Report Designer.
+No. Only query mode is supported for the Snowflake data source in the {{site.productNameTM}} Web Report Designer.
 
 ### Are saved credentials included when I download a report?
 

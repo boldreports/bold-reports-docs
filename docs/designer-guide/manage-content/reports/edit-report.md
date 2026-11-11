@@ -1,25 +1,25 @@
 ---
 layout: post
-title: Edit Reports in Web Report Designer or as XML | Bold Reports
-description: Edit an existing report from Bold Reports Report Server in the Web Report Designer for visual changes, or open it as XML for direct source-level changes.
+title: Edit Reports in Web Report Designer or as XML | {{site.productName}}
+description: Edit an existing report from {{site.productName}} Report Server in the Web Report Designer for visual changes, or open it as XML for direct source-level changes.
 platform: report-platform
 documentation: ug
 keywords: edit report, report designer, edit as xml, report server
 ---
 
-# Edit reports in Bold Reports<sup>®</sup> Report Server
+# Edit reports in {{site.productNameTM}} Report Server
 
-**Editing a report** opens an existing report from the Bold Reports<sup>®</sup> Report Server directly in Web Report Designer, or, for direct source-level changes, in an XML editor. You can update its layout, data, or report items without starting over. A report launched for editing keeps its existing data sources, datasets, and permissions.
+**Editing a report** opens an existing report from the {{site.productNameTM}} Report Server directly in Web Report Designer, or, for direct source-level changes, in an XML editor. You can update its layout, data, or report items without starting over. A report launched for editing keeps its existing data sources, datasets, and permissions.
 
 You can edit a report in two ways: launch it into Web Report Designer for visual editing, or open its underlying XML for direct changes.
 
 ## What is report editing?
 
-Report editing modifies a report that's already stored on the Report Server, rather than a local copy you'd need to re-upload. Bold Reports<sup>®</sup> supports two approaches: launching the report into the full Web Report Designer for drag-and-drop layout and data changes, or opening the report's underlying XML directly for targeted edits without downloading the file or using a separate text editor. Both approaches save changes back to the Report Server when published.
+Report editing modifies a report that's already stored on the Report Server, rather than a local copy you'd need to re-upload. {{site.productNameTM}} supports two approaches: launching the report into the full Web Report Designer for drag-and-drop layout and data changes, or opening the report's underlying XML directly for targeted edits without downloading the file or using a separate text editor. Both approaches save changes back to the Report Server when published.
 
 ### What can I do with report editing?
 
-With Bold Reports<sup>®</sup> report editing, you can:
+With {{site.productNameTM}} report editing, you can:
 
 * Open any report you have permission to edit directly from the report listing page.
 * Modify layout, data bindings, parameters, and report items using the full Web Report Designer.
@@ -36,7 +36,7 @@ This guide is intended for:
 
 ## What do I need first?
 
-Before you edit a report in Bold Reports<sup>®</sup> Report Server, make sure you have:
+Before you edit a report in {{site.productNameTM}} Report Server, make sure you have:
 
 * Permission from your administrator to edit the report.
 * Familiarity with Web Report Designer for visual edits, or with RDL XML structure for direct XML edits.
@@ -71,7 +71,7 @@ The Report Server XML editor provides a straightforward way to modify a report's
 
 ## What are the key features?
 
-Bold Reports<sup>®</sup> report editing offers the following key features:
+{{site.productNameTM}} report editing offers the following key features:
 
 * **Launch straight into Web Report Designer**: Open a report from the listing page directly into the full visual designer, without a separate export or import step.
 * **Direct XML editing**: Make targeted changes to a report's underlying definition on the server, without downloading the file or using an external editor.
@@ -80,7 +80,7 @@ Bold Reports<sup>®</sup> report editing offers the following key features:
 
 ## What are common use cases?
 
-Bold Reports<sup>®</sup> report editing supports the following common use cases:
+{{site.productNameTM}} report editing supports the following common use cases:
 
 * **Updating report layout or data after publishing**: Adjust a report's design, data bindings, or parameters after it's already live on the server.
 * **Making a quick fix via XML**: Correct a text value, expression, or property directly in the report's XML without opening the full designer.
@@ -89,7 +89,7 @@ Bold Reports<sup>®</sup> report editing supports the following common use cases
 
 ## What are the limits?
 
-Report editing in Bold Reports<sup>®</sup> Report Server has the following considerations and limitations:
+Report editing in {{site.productNameTM}} Report Server has the following considerations and limitations:
 
 * Editing a report requires permission granted by an administrator; without it, the `Edit` option isn't available.
 * Direct XML edits bypass the visual designer's validation, so review changes carefully before publishing.

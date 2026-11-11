@@ -1,16 +1,16 @@
 ---
-title: Edit Tablix Cells and Cell Properties in RDL | Bold Reports
-description: Work with tablix cells in Bold Reports Web Report Designer. Change or delete the item in a cell, set cell properties, and cut, copy, and paste cell contents.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Edit Tablix Cells and Cell Properties in RDL | {{site.productName}}
+description: Work with tablix cells in {{site.productName}} Web Report Designer. Change or delete the item in a cell, set cell properties, and cut, copy, and paste cell contents.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Tablix cell in Bold Reports<sup>®</sup> Web Report Designer
+# Tablix cell in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a tablix cell contains the actual content that the table presents. You can change or delete the item in a cell, set its properties, and cut, copy, and paste cell contents.
+In the {{site.productNameTM}} Web Report Designer, a tablix cell contains the actual content that the table presents. You can change or delete the item in a cell, set its properties, and cut, copy, and paste cell contents.
 
 ## How do I change an item within a cell?
 
-A tablix cell in the Bold Reports<sup>®</sup> Web Report Designer contains the report items that display the data in tabular format. By default, all cells in a tablix contain the `Textbox` report item. You can place any of the other report items supported in the Web Report Designer inside the tablix cell to present data. There are two ways to change an item within a cell:
+A tablix cell in the {{site.productNameTM}} Web Report Designer contains the report items that display the data in tabular format. By default, all cells in a tablix contain the `Textbox` report item. You can place any of the other report items supported in the Web Report Designer inside the tablix cell to present data. There are two ways to change an item within a cell:
 
 * Drag and drop report item into table cell.
 * Insert item using cell menu.
@@ -48,13 +48,13 @@ You insert a report item into a tablix cell with the `Insert` option of the Web 
 
 ## Cell properties
 
-The cell properties in the Bold Reports<sup>®</sup> Web Report Designer are the properties of the report item placed in the respective cell. For example, if the cell contains the line report item, the line report item properties are displayed in the properties panel. To style a tablix cell, select the required cell and modify the respective report item properties in the properties panel.
+The cell properties in the {{site.productNameTM}} Web Report Designer are the properties of the report item placed in the respective cell. For example, if the cell contains the line report item, the line report item properties are displayed in the properties panel. To style a tablix cell, select the required cell and modify the respective report item properties in the properties panel.
 
 Refer to the [Properties panel](./../../../compose-report/properties-panel/) section to set and edit report item properties.
 
 ## How do I delete an item from a cell?
 
-You delete an item from a tablix cell in the Bold Reports<sup>®</sup> Web Report Designer by selecting the cell, right-clicking, and clicking the `Delete` option.
+You delete an item from a tablix cell in the {{site.productNameTM}} Web Report Designer by selecting the cell, right-clicking, and clicking the `Delete` option.
 
 ![Delete cell menu](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-cell-menu.png '#width=315px')
 
@@ -68,7 +68,7 @@ You can also delete the item from a cell using the `Delete` option in the toolba
 
 ## How do I cut, copy, and paste cell contents?
 
-You cut, copy, and paste tablix cell contents in the Bold Reports<sup>®</sup> Web Report Designer with the right-click menu or the corresponding icons in the toolbar.
+You cut, copy, and paste tablix cell contents in the {{site.productNameTM}} Web Report Designer with the right-click menu or the corresponding icons in the toolbar.
 
 * Cut - Select the cell content and use the `Cut` icon in the toolbar, or right-click and select the `Cut` option from the menu, to delete the selected cell content. You can later insert the cut data in any other cell in the tablix or in the design area.
 

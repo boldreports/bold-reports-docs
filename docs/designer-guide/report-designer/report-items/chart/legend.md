@@ -1,16 +1,16 @@
 ---
-title: Show and Format a Chart Legend in RDL Reports | Bold Reports
-description: Show or hide the chart legend and customize its position, title, border, and text style for the chart report item in the Bold Reports Web Report Designer.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Show and Format a Chart Legend in RDL Reports | {{site.productName}}
+description: Show or hide the chart legend and customize its position, title, border, and text style for the chart report item in the {{site.productName}} Web Report Designer.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Chart Legend in the Bold Reports<sup>®</sup> Web Report Designer
+# Chart Legend in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a chart legend is text that describes the plotted data. You can toggle the visibility of the legend and customize the legend appearance in the chart design. The **Show Legend** property is listed under the basic settings category in the chart properties panel.
+In the {{site.productNameTM}} Web Report Designer, a chart legend is text that describes the plotted data. You can toggle the visibility of the legend and customize the legend appearance in the chart design. The **Show Legend** property is listed under the basic settings category in the chart properties panel.
 
 ## How do I show or hide the legend?
 
-To show or hide the legend on a Bold Reports<sup>®</sup> chart surface, toggle the `Show Legend` checkbox in the properties panel.
+To show or hide the legend on a {{site.productNameTM}} chart surface, toggle the `Show Legend` checkbox in the properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/show-legend-checkbox.png '#width=385px')
 
@@ -22,7 +22,7 @@ You can also enable or disable the legend based on dynamic values by using `Expr
 
 ## How do I format the legend?
 
-You customize the Bold Reports<sup>®</sup> chart legend appearance through the properties in the `Advanced` menu of the show legend property. Follow these steps:
+You customize the {{site.productNameTM}} chart legend appearance through the properties in the `Advanced` menu of the show legend property. Follow these steps:
 
 1. Click the square icon on the right side of the `Show Legend` checkbox.
 2. Click the `Advanced` option in the menu.
@@ -85,7 +85,7 @@ You can also apply font style and weight properties based on dynamic values by u
 
 ## How do I add a legend title?
 
-The legend **Title** property adds a title to the Bold Reports<sup>®</sup> chart legend. Enter the required title text in the title property textbox.
+The legend **Title** property adds a title to the {{site.productNameTM}} chart legend. Enter the required title text in the title property textbox.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/title-text.png '#width=385px')
 

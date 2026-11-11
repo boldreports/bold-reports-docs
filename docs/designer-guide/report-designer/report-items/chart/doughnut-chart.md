@@ -1,16 +1,16 @@
 ---
-title: Add and Format Doughnut Charts in RDL Reports | Bold Reports
-description: Add a doughnut chart to an RDL report in the Bold Reports Web Report Designer, bind JSON data, and format its legend, series, data labels, and page breaks.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format Doughnut Charts in RDL Reports | {{site.productName}}
+description: Add a doughnut chart to an RDL report in the {{site.productName}} Web Report Designer, bind JSON data, and format its legend, series, data labels, and page breaks.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Doughnut Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Doughnut Chart in the {{site.productNameTM}} Web Report Designer
 
-You add a **Doughnut Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to show the proportion of each item to the total as doughnut slices. It works best to display data with a small number of categories.
+You add a **Doughnut Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to show the proportion of each item to the total as doughnut slices. It works best to display data with a small number of categories.
 
 ## How do I add a doughnut chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the doughnut chart under the `Proportion` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the doughnut chart under the `Proportion` category in the item panel.
 
 Drag and drop the doughnut chart from the item panel into the design area.
 
@@ -22,13 +22,13 @@ The doughnut chart renders in the design area, and the properties panel lists th
 
 ## How do I create data for the doughnut chart?
 
-To present data in a Bold Reports<sup>®</sup> doughnut chart, create a dataset and bind data to the chart data region. This example creates a dataset using a [JSON data file loaded from disk](./../../../manage-data/data-connectors/json-data-source/#load-from-disk) to design the report. You can download the [expense analysis sample data from GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/data/expense-analysis.json).
+To present data in a {{site.productNameTM}} doughnut chart, create a dataset and bind data to the chart data region. This example creates a dataset using a [JSON data file loaded from disk](./../../../manage-data/data-connectors/json-data-source/#load-from-disk) to design the report. You can download the [expense analysis sample data from GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/data/expense-analysis.json).
 
 > For more information, see [Create an embedded dataset](./../../../manage-data/dataset/create-an-embedded-dataset/).
 
 ## How do I assign data to the doughnut chart?
 
-The Bold Reports<sup>®</sup> **Doughnut Chart** needs a minimum of one value element and one column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, drop the respective dimension into the `Row(s)` section.
+The {{site.productNameTM}} **Doughnut Chart** needs a minimum of one value element and one column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, drop the respective dimension into the `Row(s)` section.
 
 To configure data in a doughnut chart, follow these steps:
 
@@ -86,7 +86,7 @@ To configure data in a doughnut chart, follow these steps:
 
 ## How do I format the doughnut chart?
 
-You format a doughnut chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab.
+You format a doughnut chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab.
 
 To format a doughnut chart, follow these steps:
 
@@ -243,7 +243,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the doughnut chart report?
 
-You preview the doughnut chart report with the **Preview** button in the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the doughnut chart report with the **Preview** button in the {{site.productNameTM}} Web Report Designer.
 
 1. Click the **Preview** button in the top-right corner of the report header.
 
@@ -259,7 +259,7 @@ You preview the doughnut chart report with the **Preview** button in the Bold Re
 
 ### Where is the doughnut chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the doughnut chart under the `Proportion` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the doughnut chart under the `Proportion` category in the item panel.
 
 ### When should I use a doughnut chart?
 

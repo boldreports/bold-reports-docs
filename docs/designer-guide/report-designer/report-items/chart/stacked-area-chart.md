@@ -1,16 +1,16 @@
 ---
-title: Create a Stacked Area Chart in RDL Reports | Bold Reports
-description: Add a stacked area chart to an RDL report in the Bold Reports Web Report Designer, bind data to it, format the legend, series, and axes, and preview it.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Create a Stacked Area Chart in RDL Reports | {{site.productName}}
+description: Add a stacked area chart to an RDL report in the {{site.productName}} Web Report Designer, bind data to it, format the legend, series, and axes, and preview it.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Stacked area chart in Bold Reports<sup>®</sup> Web Report Designer
+# Stacked area chart in {{site.productNameTM}} Web Report Designer
 
-You add a **Stacked Area Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to compare multiple measures through filled curves stacked vertically.
+You add a **Stacked Area Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to compare multiple measures through filled curves stacked vertically.
 
 ## How do I add a stacked area chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the stacked area chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the stacked area chart under the `Distribution` category in the item panel.
 
 1. Drag the stacked area chart from the item panel and drop it into the design area.
 
@@ -22,7 +22,7 @@ The Bold Reports<sup>®</sup> Web Report Designer lists the stacked area chart u
 
 ## How do I create data for the stacked area chart?
 
-To present data in a Bold Reports<sup>®</sup> stacked area chart, create a dataset and bind it to the chart data region. This example uses the following JSON data to create the dataset.
+To present data in a {{site.productNameTM}} stacked area chart, create a dataset and bind it to the chart data region. This example uses the following JSON data to create the dataset.
 
 ```json
 [
@@ -61,7 +61,7 @@ To present data in a Bold Reports<sup>®</sup> stacked area chart, create a data
 
 ## How do I assign data to the stacked area chart?
 
-A Bold Reports<sup>®</sup> **Stacked Area Chart** needs a minimum of 1 value element and 1 column element to display data. Drop the measure or expression field you want to analyze into the `Y value(s)` section. Drop the dimension that categorizes the measure onto the `Column` section. To categorize by a series, also drop the respective dimension onto the `Row(s)` section.
+A {{site.productNameTM}} **Stacked Area Chart** needs a minimum of 1 value element and 1 column element to display data. Drop the measure or expression field you want to analyze into the `Y value(s)` section. Drop the dimension that categorizes the measure onto the `Column` section. To categorize by a series, also drop the respective dimension onto the `Row(s)` section.
 
 To configure data in a stacked area chart, follow these steps:
 
@@ -125,7 +125,7 @@ To configure data in a stacked area chart, follow these steps:
 
 ## How do I format the stacked area chart?
 
-You format a stacked area chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab. Use them to get the view you require.
+You format a stacked area chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab. Use them to get the view you require.
 
 To format a stacked area chart, follow these steps:
 
@@ -151,7 +151,7 @@ The **Basic Settings** category of the stacked area chart contains the `Show Leg
 
 #### Show Legend
 
-A legend is text that describes the plotted data in a Bold Reports<sup>®</sup> chart. You can toggle the visibility of the legend in the chart and customize the legend text appearance. To set or reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
+A legend is text that describes the plotted data in a {{site.productNameTM}} chart. You can toggle the visibility of the legend in the chart and customize the legend text appearance. To set or reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
 
 #### Choose Series
 
@@ -201,7 +201,7 @@ To set or reset no data message properties, refer to the [No Data Message](./../
 
 ### Category Axis
 
-The **Category axis** of a Bold Reports<sup>®</sup> chart displays text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Category Axis` category in the chart properties.
+The **Category axis** of a {{site.productNameTM}} chart displays text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Category Axis` category in the chart properties.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/stacked-area-chart/category-axis.png '#width=350px')
 
@@ -209,7 +209,7 @@ To set or reset axis properties, refer to the [Axis Properties](./../../../repor
 
 ### Value Axis
 
-The **Value axis** of a Bold Reports<sup>®</sup> chart uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
+The **Value axis** of a {{site.productNameTM}} chart uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/stacked-area-chart/value-axis.png '#width=350px')
 
@@ -320,7 +320,7 @@ The `Custom Style` property enables the use of external CSS for styling report i
 
 ## How do I preview the stacked area chart report?
 
-You preview the stacked area chart report in the Bold Reports<sup>®</sup> Web Report Designer by clicking the preview icon in the design view.
+You preview the stacked area chart report in the {{site.productNameTM}} Web Report Designer by clicking the preview icon in the design view.
 
 1. The following image shows the final design view of the report.
 
@@ -336,7 +336,7 @@ You preview the stacked area chart report in the Bold Reports<sup>®</sup> Web R
 
 ### What is the minimum data a stacked area chart needs?
 
-A Bold Reports<sup>®</sup> stacked area chart needs a minimum of 1 value element and 1 column element to display data.
+A {{site.productNameTM}} stacked area chart needs a minimum of 1 value element and 1 column element to display data.
 
 ### Can I filter, sort, or group the Column and Row(s) sections?
 

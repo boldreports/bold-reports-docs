@@ -1,16 +1,16 @@
 ---
-title: Add and Format a Line Chart in RDL Reports | Bold Reports
-description: Add a line chart to an RDL report in the Bold Reports Web Report Designer to show trends over time, bind data, and format its legend, series, and axes.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format a Line Chart in RDL Reports | {{site.productName}}
+description: Add a line chart to an RDL report in the {{site.productName}} Web Report Designer to show trends over time, bind data, and format its legend, series, and axes.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Line Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Line Chart in the {{site.productNameTM}} Web Report Designer
 
-You add a **Line Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to show trends over a time period, with data points connected by straight lines.
+You add a **Line Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to show trends over a time period, with data points connected by straight lines.
 
 ## How do I add a line chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the line chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the line chart under the `Distribution` category in the item panel.
 
 Drag and drop the line chart from the item panel into the design area.
 
@@ -22,7 +22,7 @@ The line chart renders in the design area, and the properties panel lists the ch
 
 ## How do I create data for the line chart?
 
-To present data in a Bold Reports<sup>®</sup> line chart, create a dataset and bind data to the chart data region. This example uses the following dataset query to create the dataset.
+To present data in a {{site.productNameTM}} line chart, create a dataset and bind data to the chart data region. This example uses the following dataset query to create the dataset.
 
 ```sql
 SELECT PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -39,7 +39,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I assign data to the line chart?
 
-The Bold Reports<sup>®</sup> line chart needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure onto the `Columns` section. To categorize by a series, also drop the respective dimension onto the `Rows` section.
+The {{site.productNameTM}} line chart needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure onto the `Columns` section. To categorize by a series, also drop the respective dimension onto the `Rows` section.
 
 To configure data in a line chart, follow these steps:
 
@@ -94,7 +94,7 @@ To configure data in a line chart, follow these steps:
 
 ## How do I format the line chart?
 
-You format a line chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab.
+You format a line chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab.
 
 To format a line chart, follow these steps:
 
@@ -281,7 +281,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the line chart report?
 
-You preview the line chart report with the **Preview** button in the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the line chart report with the **Preview** button in the {{site.productNameTM}} Web Report Designer.
 
 1. Click the **Preview** button in the top-right corner of the report header.
 
@@ -296,7 +296,7 @@ You preview the line chart report with the **Preview** button in the Bold Report
 
 ### Where is the line chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the line chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the line chart under the `Distribution` category in the item panel.
 
 ### When should I use a line chart?
 

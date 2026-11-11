@@ -1,11 +1,11 @@
 ---
-title: Add Bookmarks to Reports in the Designer | Bold Reports
-description: Add bookmarks in Bold Reports Web Report Designer to build internal navigation links or a custom table of contents in SSRS RDL reports, with a worked example.
+title: Add Bookmarks to Reports in the Designer | {{site.productName}}
+description: Add bookmarks in {{site.productName}} Web Report Designer to build internal navigation links or a custom table of contents in SSRS RDL reports, with a worked example.
 ---
 
-# Add bookmarks in Bold Reports<sup>®</sup> Web Report Designer
+# Add bookmarks in {{site.productNameTM}} Web Report Designer
 
-Bookmark links in Bold Reports<sup>®</sup> Web Report Designer let users navigate to different parts of an RDL report. You can add bookmarks to each textbox, image, table or chart, or to the unique group values displayed in a tablix, to direct users to specified locations in the report. The value of the bookmark property can be your own strings or an expression.
+Bookmark links in {{site.productNameTM}} Web Report Designer let users navigate to different parts of an RDL report. You can add bookmarks to each textbox, image, table or chart, or to the unique group values displayed in a tablix, to direct users to specified locations in the report. The value of the bookmark property can be your own strings or an expression.
 
 Prefer watching over reading? Watch the video on designing an interactive bookmark report:
 

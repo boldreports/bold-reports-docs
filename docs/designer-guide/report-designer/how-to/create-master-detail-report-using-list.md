@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Create a Master-Detail Report Using a List | Bold Reports
-description: Create a master-detail report in Bold Reports Web Report Designer with the list report item to show master records and their details in one free-form report.
+title: Create a Master-Detail Report Using a List | {{site.productName}}
+description: Create a master-detail report in {{site.productName}} Web Report Designer with the list report item to show master records and their details in one free-form report.
 platform: embedded-reporting-tools
 documentation: ug
 ---
 
 # How to create master detail report using a list in Web Report Designer
 
-Bold Reports<sup>®</sup> Web Report Designer lets you show master-detail data in a single report with the list report item. Use this when your data source contains a master-detail relationship. This format works well for organizing items that have many details.
+{{site.productNameTM}} Web Report Designer lets you show master-detail data in a single report with the list report item. Use this when your data source contains a master-detail relationship. This format works well for organizing items that have many details.
 
 ## How do I build a master-detail report with a list?
 
-The Bold Reports<sup>®</sup> blog post "Create Impressive Master-Detail Reports using a free-form layout with the list report item" gives step-by-step instructions and tips for getting the most from the customizable templates.
+The {{site.productNameTM}} blog post "Create Impressive Master-Detail Reports using a free-form layout with the list report item" gives step-by-step instructions and tips for getting the most from the customizable templates.
 
 Read the [blog post on master-detail reports using the list report item](https://www.boldreports.com/blog/create-master-detail-reports-using-list) for step-by-step instructions.
 

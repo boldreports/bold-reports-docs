@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Salesforce Reports to Bold Data Hub | Bold Reports
-description: Connect Salesforce Reports to Bold Data Hub in Bold Reports with OAuth or the export option. Set the connection properties and schedule data refresh jobs.
+title: Connect Salesforce Reports to Bold Data Hub | {{site.productName}}
+description: Connect Salesforce Reports to Bold Data Hub in {{site.productName}} with OAuth or the export option. Set the connection properties and schedule data refresh jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Salesforce Reports with Bold Data Hub
 
-The Bold Data Hub Salesforce Reports connector loads data from Salesforce reports into Bold Reports<sup>®</sup>. Salesforce reports let users compile and analyze data from different sources within Salesforce.
+The Bold Data Hub Salesforce Reports connector loads data from Salesforce reports into {{site.productNameTM}}. Salesforce reports let users compile and analyze data from different sources within Salesforce.
 
 ## What credentials do I need for the OAuth option?
 
@@ -115,7 +115,7 @@ You authenticate Salesforce Reports with the export option by choosing it in the
 
     ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/salesforcereports_exportdetails.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -137,7 +137,7 @@ You schedule the Salesforce Reports pipeline in Bold Data Hub from the schedules
 
     ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

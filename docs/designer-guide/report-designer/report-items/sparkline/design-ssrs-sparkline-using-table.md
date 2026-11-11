@@ -1,16 +1,16 @@
 ---
-title: Design an SSRS Sparkline Report Using a Table | Bold Reports
-description: Design an SSRS sparkline report with a table in Bold Reports Web Report Designer to show trends and changes in data over time, then assign data and format it.
-keywords: ejReportDesigner, reportdesigner, table, sparkline, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Design an SSRS Sparkline Report Using a Table | {{site.productName}}
+description: Design an SSRS sparkline report with a table in {{site.productName}} Web Report Designer to show trends and changes in data over time, then assign data and format it.
+keywords: ejReportDesigner, reportdesigner, table, sparkline, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Design an SSRS sparkline report using a table in Bold Reports<sup>®</sup>
+# Design an SSRS sparkline report using a table in {{site.productNameTM}}
 
-To show trends in data over time inside table rows, add a `Sparkline` report item to an SSRS table in the Bold Reports<sup>®</sup> Web Report Designer. You create a dataset, add a table and sparkline, assign data, and format the series.
+To show trends in data over time inside table rows, add a `Sparkline` report item to an SSRS table in the {{site.productNameTM}} Web Report Designer. You create a dataset, add a table and sparkline, assign data, and format the series.
 
 ## How do I create the dataset?
 
-The `Sparkline` report in the Bold Reports<sup>®</sup> Web Report Designer uses the following dataset query:
+The `Sparkline` report in the {{site.productNameTM}} Web Report Designer uses the following dataset query:
 
 ```sql
 SELECT Prodcat.EnglishProductCategoryName,
@@ -35,7 +35,7 @@ FROM dbo.DimProduct as prod
 
 ## How do I add the sparkline report item to a table?
 
-You add a sparkline in the Bold Reports<sup>®</sup> Web Report Designer by placing a table, grouping its rows, and dropping the sparkline into the last cell.
+You add a sparkline in the {{site.productNameTM}} Web Report Designer by placing a table, grouping its rows, and dropping the sparkline into the last cell.
 
 1. Drag and drop the table report item to the design area.
    ![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-table.png '#width=285px')
@@ -64,7 +64,7 @@ The report design now looks like the following image.
 
 ## How do I assign data to the sparkline?
 
-You assign data to a sparkline in the Bold Reports<sup>®</sup> Web Report Designer from the `DATA` tab of the properties panel.
+You assign data to a sparkline in the {{site.productNameTM}} Web Report Designer from the `DATA` tab of the properties panel.
 
 1. Select the cell containing the sparkline report item and switch to the `DATA` tab in the properties panel.
    ![Assign data to chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/switch-data-assign.png)
@@ -79,7 +79,7 @@ The report design now looks like the following image.
 
 ## How do I configure the sparkline properties?
 
-You configure the sparkline series and data labels in the Bold Reports<sup>®</sup> Web Report Designer from the `PROPERTIES` tab.
+You configure the sparkline series and data labels in the {{site.productNameTM}} Web Report Designer from the `PROPERTIES` tab.
 
 1. Switch to the `PROPERTIES` tab in the properties panel.
 2. Choose the `Sales` series in the  `Choose Series` dropdown.
@@ -97,7 +97,7 @@ You configure the sparkline series and data labels in the Bold Reports<sup>®</s
 
 ## What does the report preview show?
 
-The sparkline report preview in Bold Reports<sup>®</sup> shows the sales amount progress from the start year to the end.
+The sparkline report preview in {{site.productNameTM}} shows the sales amount progress from the start year to the end.
 
 ![Sparkline RDL report preview](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/report-preview.png '#width=425px')
 

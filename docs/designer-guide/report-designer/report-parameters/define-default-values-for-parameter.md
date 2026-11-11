@@ -1,12 +1,12 @@
 ---
-title: Define Default Values for a Report Parameter | Bold Reports
-description: Define default values for a report parameter in the Bold Reports Web Report Designer so the report runs automatically when you preview it with those values.
+title: Define Default Values for a Report Parameter | {{site.productName}}
+description: Define default values for a report parameter in the {{site.productName}} Web Report Designer so the report runs automatically when you preview it with those values.
 keywords: report-parameter, add parameter, report-designer, ssrs report parameters, drop-down list parameters
 ---
 
 # Define default values for a parameter
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can specify a list of default values for a report parameter. If the parameters in the report have default values, the report runs automatically when you preview it.
+In the {{site.productNameTM}} Web Report Designer, you can specify a list of default values for a report parameter. If the parameters in the report have default values, the report runs automatically when you preview it.
 
 ## How do I open the Default Value tab?
 

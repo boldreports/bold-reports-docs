@@ -1,12 +1,12 @@
 ---
-title: Keyboard Shortcuts for Web Report Designer | Bold Reports
-description: Design RDL reports in Bold Reports Web Report Designer with keyboard shortcuts to open, save, select, move, resize, copy, and paste report items with no mouse.
+title: Keyboard Shortcuts for Web Report Designer | {{site.productName}}
+description: Design RDL reports in {{site.productName}} Web Report Designer with keyboard shortcuts to open, save, select, move, resize, copy, and paste report items with no mouse.
 keywords: keyboard shortcuts, reportserver
 ---
 
-# Keyboard shortcuts in Bold Reports<sup>®</sup> Web Report Designer
+# Keyboard shortcuts in {{site.productNameTM}} Web Report Designer
 
-Bold Reports<sup>®</sup> Web Report Designer lets you design a report using only the keyboard, without a mouse. Use the following shortcut keys to work with the web designer.
+{{site.productNameTM}} Web Report Designer lets you design a report using only the keyboard, without a mouse. Use the following shortcut keys to work with the web designer.
 
 ## Which shortcut keys can I use?
 

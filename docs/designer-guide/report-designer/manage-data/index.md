@@ -1,21 +1,21 @@
 ---
-title: Manage Report Data in Web Report Designer | Bold Reports
-description: Manage RDL report data in the Bold Reports Web Report Designer by creating data sources and datasets, then visualize the data with tables, matrices, or charts.
+title: Manage Report Data in Web Report Designer | {{site.productName}}
+description: Manage RDL report data in the {{site.productName}} Web Report Designer by creating data sources and datasets, then visualize the data with tables, matrices, or charts.
 canonical: /enterprise-reporting/designer-guide/report-designer/manage-data/
 keywords: reports, ejreports, reportdesigner, report designer, web designer, bold-reports reportdesigner, Overview, web designer
 ---
 
-# Manage data in Bold Reports<sup>®</sup> Web Report Designer
+# Manage data in {{site.productNameTM}} Web Report Designer
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you manage report data without writing code. You can explore data from local or server databases and show it in report items such as tables, matrices, or charts.
+The {{site.productNameTM}} Web Report Designer lets you manage report data without writing code. You can explore data from local or server databases and show it in report items such as tables, matrices, or charts.
 
 ## What does a report need to include data?
 
-A report in the Bold Reports<sup>®</sup> Web Report Designer must have a data source and a dataset to include data.
+A report in the {{site.productNameTM}} Web Report Designer must have a data source and a dataset to include data.
 
 ## What is the difference between a data source and a dataset?
 
-A data source in Bold Reports<sup>®</sup> contains the data connection information. A dataset contains a query and a collection of fields that represent the data returned from the data source.
+A data source in {{site.productNameTM}} contains the data connection information. A dataset contains a query and a collection of fields that represent the data returned from the data source.
 
 ## See also
 

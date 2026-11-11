@@ -1,12 +1,12 @@
 ---
-title: Use the Expression Builder in RDL Reports | Bold Reports
-description: Set expressions in the Bold Reports Web Report Designer using built-in fields, operators, functions, parameters, and dataset fields to control RDL reports.
+title: Use the Expression Builder in RDL Reports | {{site.productName}}
+description: Set expressions in the {{site.productName}} Web Report Designer using built-in fields, operators, functions, parameters, and dataset fields to control RDL reports.
 keywords: ejReportDesigner, reportdesigner, expression, built-in-fields
 ---
 
 # Expression Builder in Web Report Designer
 
-The Expression Builder in Bold Reports<sup>®</sup> Web Report Designer lets you write expressions that control the content, style, data, value, and behavior of your reports. Expressions must start with an equal sign (=). Otherwise, the value is treated as a string literal.
+The Expression Builder in {{site.productNameTM}} Web Report Designer lets you write expressions that control the content, style, data, value, and behavior of your reports. Expressions must start with an equal sign (=). Otherwise, the value is treated as a string literal.
 
 ![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/set-expression.png '#width=400px')
 

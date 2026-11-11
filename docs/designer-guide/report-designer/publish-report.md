@@ -1,15 +1,15 @@
 ---
-title: Publish RDL Reports from Web Report Designer | Bold Reports
-description: Publish an RDL report from the Bold Reports Web Report Designer to a category or subcategory on the on-premises Report Server, and download the report.
+title: Publish RDL Reports from Web Report Designer | {{site.productName}}
+description: Publish an RDL report from the {{site.productName}} Web Report Designer to a category or subcategory on the on-premises Report Server, and download the report.
 ---
 
-# Publish a report from Bold Reports<sup>®</sup> Web Report Designer
+# Publish a report from {{site.productNameTM}} Web Report Designer
 
-You publish a report from the Bold Reports<sup>®</sup> Web Report Designer by clicking **Publish** and choosing a destination category on the on-premises Report Server.
+You publish a report from the {{site.productNameTM}} Web Report Designer by clicking **Publish** and choosing a destination category on the on-premises Report Server.
 
 ## How do I publish a report to an on-premises enterprise server?
 
-You publish a report to the Bold Reports<sup>®</sup> on-premises Report Server from the **Publish** dialog of the Web Report Designer.
+You publish a report to the {{site.productNameTM}} on-premises Report Server from the **Publish** dialog of the Web Report Designer.
 
 1. Click the **Publish** button in the top-right corner of the Web Report Designer, or open the **Publish** dropdown and select **Publish As**.
    ![Publish menu in web designer](/static/assets/on-premise/images/report-designer/save-report/save-menu.png '#width=350px')
@@ -55,7 +55,7 @@ Click `Yes` to replace the existing report, or click `No` to change the report n
 
 ## Create categories from the Publish dialog
 
-The Browse dialog of the Bold Reports<sup>®</sup> Web Report Designer lets you create categories or subcategories directly while you publish a report.
+The Browse dialog of the {{site.productNameTM}} Web Report Designer lets you create categories or subcategories directly while you publish a report.
 
 ### Create a new category
 
@@ -81,21 +81,21 @@ You create a new Report Server subcategory by expanding a parent category and us
 4. Check the Browse dialog. The subcategory list refreshes and the new subcategory appears.
    ![Subcategory success](/static/assets/on-premise/images/report-designer/save-report/sub-category-creation-success.png)
 
-> Bold Reports<sup>®</sup> supports up to three levels of subcategories.
+> {{site.productNameTM}} supports up to three levels of subcategories.
 
 ## How do I refresh the category list?
 
-The Refresh button in the Bold Reports<sup>®</sup> Browse dialog reloads the category list from the server.
+The Refresh button in the {{site.productNameTM}} Browse dialog reloads the category list from the server.
 ![Refresh](/static/assets/on-premise/images/report-designer/save-report/refresh.png)
 
 ## How do I search for a category?
 
-The Search box in the Bold Reports<sup>®</sup> Browse dialog finds a specific category when you type a keyword. The list is filtered instantly to help you locate the category.
+The Search box in the {{site.productNameTM}} Browse dialog finds a specific category when you type a keyword. The list is filtered instantly to help you locate the category.
 ![Search](/static/assets/on-premise/images/report-designer/save-report/search.png)
 
 ## How do I download the report?
 
-You download a published report from the Bold Reports<sup>®</sup> on-premises server home page. Click `Actions` in the report's grid context menu and select `Download Report` to download the report in `.rdl` format.
+You download a published report from the {{site.productNameTM}} on-premises server home page. Click `Actions` in the report's grid context menu and select `Download Report` to download the report in `.rdl` format.
 
 ![Download report](/static/assets/on-premise/images/report-designer/save-report/download-report.png)
 
@@ -103,7 +103,7 @@ You download a published report from the Bold Reports<sup>®</sup> on-premises s
 
 ### How many subcategory levels can I create?
 
-Bold Reports<sup>®</sup> supports up to three levels of subcategories.
+{{site.productNameTM}} supports up to three levels of subcategories.
 
 ### What happens when I publish a report I opened from the server?
 

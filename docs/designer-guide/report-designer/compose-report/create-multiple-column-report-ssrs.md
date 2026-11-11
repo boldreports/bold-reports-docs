@@ -1,12 +1,12 @@
 ---
-title: Create a Multiple-Column RDL Report (SSRS) | Bold Reports
-description: Create a multiple-column RDL report in the Bold Reports Web Report Designer that prints data in several sets of columns across the page, like newspaper columns.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, multi-column, column-spacing
+title: Create a Multiple-Column RDL Report (SSRS) | {{site.productName}}
+description: Create a multiple-column RDL report in the {{site.productName}} Web Report Designer that prints data in several sets of columns across the page, like newspaper columns.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, multi-column, column-spacing
 ---
 
 # Create a multiple-column report in Web Report Designer
 
-A multiple-column report in Bold Reports<sup>®</sup> Web Report Designer displays data in multiple sets of columns across the page. When you print the report, it prints adjacent columns until there is no free space left on a page.
+A multiple-column report in {{site.productNameTM}} Web Report Designer displays data in multiple sets of columns across the page. When you print the report, it prints adjacent columns until there is no free space left on a page.
 
 You cannot design a report that has a multi-column layout on the top half of the report and a table layout on the bottom half of the report.
 
@@ -46,7 +46,7 @@ The Web Report Designer preview displays a multiple-column report as a single co
 
 ## Which export formats show multiple columns?
 
-Only the `PDF` and `Power Point` rendering formats in Bold Reports<sup>®</sup> display data in multiple columns. In export formats such as HTML, Excel, Word, and CSV, a multi-column layout is displayed as a single column.
+Only the `PDF` and `Power Point` rendering formats in {{site.productNameTM}} display data in multiple columns. In export formats such as HTML, Excel, Word, and CSV, a multi-column layout is displayed as a single column.
 
 The following image shows a multi-column report.
 

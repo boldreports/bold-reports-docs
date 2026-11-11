@@ -1,11 +1,11 @@
 ---
-title: Link Dataset Parameters to Report Parameters | Bold Reports
-description: Create dataset parameters or link a dataset parameter with a report parameter in the Bold Reports Web Report Designer query designer when you edit a dataset.
+title: Link Dataset Parameters to Report Parameters | {{site.productName}}
+description: Create dataset parameters or link a dataset parameter with a report parameter in the {{site.productName}} Web Report Designer query designer when you edit a dataset.
 ---
 
 # Create or link dataset parameters
 
-In the Bold Reports<sup>®</sup> Web Report Designer, dataset parameters are created from the query parameters in the dataset query, with an equivalent report parameter for each query variable. The link between a dataset parameter and a report parameter happens automatically. If you rename a report parameter, you must link it manually.
+In the {{site.productNameTM}} Web Report Designer, dataset parameters are created from the query parameters in the dataset query, with an equivalent report parameter for each query variable. The link between a dataset parameter and a report parameter happens automatically. If you rename a report parameter, you must link it manually.
 
 ## What do I need before I work with dataset parameters?
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Stripe Payment Data to Bold Data Hub | Bold Reports
-description: Connect Stripe to Bold Data Hub in Bold Reports. Get your Stripe secret key, choose INCREMENTAL or FULL_TABLE refresh, and schedule the data refresh jobs.
+title: Connect Stripe Payment Data to Bold Data Hub | {{site.productName}}
+description: Connect Stripe to Bold Data Hub in {{site.productName}}. Get your Stripe secret key, choose INCREMENTAL or FULL_TABLE refresh, and schedule the data refresh jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Stripe with Bold Data Hub
 
-The Bold Data Hub Stripe connector loads payment data from your Stripe account into Bold Reports<sup>®</sup>. Stripe is an online payment platform for processing and managing customer transactions.
+The Bold Data Hub Stripe connector loads payment data from your Stripe account into {{site.productNameTM}}. Stripe is an online payment platform for processing and managing customer transactions.
 
 ## How do I get Stripe credentials?
 
@@ -157,7 +157,7 @@ You connect Stripe by creating a project in Bold Data Hub and adding the `Stripe
 
     ![Stripe Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/stripe_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Which Stripe resources are supported?
 
@@ -199,7 +199,7 @@ You schedule the Stripe pipeline in Bold Data Hub from the schedules tab, or you
 
     ![Stripe - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Stripe - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

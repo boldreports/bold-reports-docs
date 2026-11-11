@@ -1,16 +1,16 @@
 ---
-title: Shape Report Item Workflow Use Case Examples | Bold Reports
-description: Explore shape report item use cases in Bold Reports and download sample RDL reports for manufacturing, employee leave approval, and e-commerce order workflows.
-keywords: ejReportDesigner, reportdesigner, shape, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, use case reports
+title: Shape Report Item Workflow Use Case Examples | {{site.productName}}
+description: Explore shape report item use cases in {{site.productName}} and download sample RDL reports for manufacturing, employee leave approval, and e-commerce order workflows.
+keywords: ejReportDesigner, reportdesigner, shape, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, use case reports
 ---
 
-# Shape report item use case examples in Bold Reports<sup>®</sup>
+# Shape report item use case examples in {{site.productNameTM}}
 
-You can use shape report items in Bold Reports<sup>®</sup> to design workflow diagrams, as shown in the following sample use cases. These examples show how shapes create visually engaging workflow diagrams for different business scenarios.
+You can use shape report items in {{site.productNameTM}} to design workflow diagrams, as shown in the following sample use cases. These examples show how shapes create visually engaging workflow diagrams for different business scenarios.
 
 ## Manufacturing Workflow for Tablet PC with SIM and Touch Functionality Options
 
-The Manufacturing Workflow for Tablet PC report in Bold Reports<sup>®</sup> shows a manufacturing workflow. It uses shapes for the start node, decision points, process steps, and connected paths.
+The Manufacturing Workflow for Tablet PC report in {{site.productNameTM}} shows a manufacturing workflow. It uses shapes for the start node, decision points, process steps, and connected paths.
 
 ![Manufacturing Workflow for Tablet PC](/static/assets/on-premise/images/report-designer/report-items/shape/use-case-manufacturing-workflow.png '#width=500px')
 
@@ -18,7 +18,7 @@ The Manufacturing Workflow for Tablet PC report in Bold Reports<sup>®</sup> sho
 
 ## Employee Leave Calculation and Approval Workflow
 
-The Employee Leave Calculation and Approval Workflow report in Bold Reports<sup>®</sup> uses shapes to represent leave types, calculation steps, approval decisions, and final processing.
+The Employee Leave Calculation and Approval Workflow report in {{site.productNameTM}} uses shapes to represent leave types, calculation steps, approval decisions, and final processing.
 
 ![Employee Leave Calculation Workflow](/static/assets/on-premise/images/report-designer/report-items/shape/use-case-employee-leave-workflow.png '#width=500px')
 
@@ -26,7 +26,7 @@ The Employee Leave Calculation and Approval Workflow report in Bold Reports<sup>
 
 ## E-Commerce Order Processing and Payment Workflow
 
-The E-Commerce Order Processing and Payment Workflow report in Bold Reports<sup>®</sup> shows order amount handling, tax calculation, installment selection, and order confirmation paths.
+The E-Commerce Order Processing and Payment Workflow report in {{site.productNameTM}} shows order amount handling, tax calculation, installment selection, and order confirmation paths.
 
 ![E-Commerce Order Processing Workflow](/static/assets/on-premise/images/report-designer/report-items/shape/use-case-ecommerce-workflow.png '#width=500px')
 

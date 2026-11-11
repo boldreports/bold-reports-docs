@@ -1,13 +1,13 @@
 ---
-title: Add a Report Parameter to an RDL Report | Bold Reports
-description: Add a report parameter in the Bold Reports Web Report Designer to filter RDL report data at run time, and set its name, prompt, data type, and visibility.
+title: Add a Report Parameter to an RDL Report | {{site.productName}}
+description: Add a report parameter in the {{site.productName}} Web Report Designer to filter RDL report data at run time, and set its name, prompt, data type, and visibility.
 canonical: /enterprise-reporting/designer-guide/report-designer/report-parameters/add/
 keywords: report-parameter, add parameter, report-designer, ssrs report parameters
 ---
 
-# Add a report parameter to a report in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a report parameter to a report in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, report parameters filter the report data or associate related reports together. Follow the steps in this guide to add a report parameter to your report.
+In the {{site.productNameTM}} Web Report Designer, report parameters filter the report data or associate related reports together. Follow the steps in this guide to add a report parameter to your report.
 
 Prefer watching over reading? Watch this video about report parameters:
 
@@ -15,7 +15,7 @@ Prefer watching over reading? Watch this video about report parameters:
 
 ## Create parameter
 
-You create a Bold Reports<sup>®</sup> report parameter from the `PARAMETERS` panel of the Web Report Designer. Follow these steps:
+You create a {{site.productNameTM}} report parameter from the `PARAMETERS` panel of the Web Report Designer. Follow these steps:
 
 1. Click the `Parameter` icon in the `Data Configuration` panel. The `PARAMETERS` panel opens.
    ![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/parameter-icon.png '#width=250px')
@@ -36,7 +36,7 @@ You create a Bold Reports<sup>®</sup> report parameter from the `PARAMETERS` pa
    * Select **Allow multiple values** if the parameter should accept multiple values. Null values are not allowed.
    * Set the `visibility` option.
      1. Select **Visible** to display the report parameter at the top of the report while running the report. Use this option to select parameter values at run time.
-     2. Select **Hidden** to hide the report parameter in the published report. The report parameter values can still be set on a report URL, in a subscription definition, or on the Bold Reports<sup>®</sup> Report Server.
+     2. Select **Hidden** to hide the report parameter in the published report. The report parameter values can still be set on a report URL, in a subscription definition, or on the {{site.productNameTM}} Report Server.
      3. Select **Internal** to hide the report parameter. In the published report, the report parameter can only be viewed in the report definition.
         ![Create new parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-new-parameter.png '#width=350px')
 4. Click the `Save` button. The parameter is listed under the `PARAMETERS` pane, as shown in the following image.
@@ -44,7 +44,7 @@ You create a Bold Reports<sup>®</sup> report parameter from the `PARAMETERS` pa
 
 ## How do I filter table data based on a report parameter?
 
-A Bold Reports<sup>®</sup> report parameter can filter table data at run time. In this example, the `ProductID` parameter filters the `ProductID` field values.
+A {{site.productNameTM}} report parameter can filter table data at run time. In this example, the `ProductID` parameter filters the `ProductID` field values.
 
 1. Select the table report item to enable the grouping panel in the designer.
    ![Open table data assign menu](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/enable-grouping-panel.png '#width=400px')
@@ -67,7 +67,7 @@ A Bold Reports<sup>®</sup> report parameter can filter table data at run time. 
 
 ### Which data types can a report parameter use?
 
-A Bold Reports<sup>®</sup> report parameter supports the `Boolean`, `DateTime`, `Integer`, `Float`, and `Text` data types.
+A {{site.productNameTM}} report parameter supports the `Boolean`, `DateTime`, `Integer`, `Float`, and `Text` data types.
 
 ### What is the difference between Hidden and Internal visibility?
 

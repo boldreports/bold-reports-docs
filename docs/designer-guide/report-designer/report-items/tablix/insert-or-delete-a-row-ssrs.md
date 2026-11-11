@@ -1,16 +1,16 @@
 ---
-title: Insert or Delete a Row in an RDL Tablix | Bold Reports
-description: Insert or delete a row in a tablix data region in the Bold Reports Web Report Designer, inside or outside a group, to organize the data in your RDL report.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Insert or Delete a Row in an RDL Tablix | {{site.productName}}
+description: Insert or delete a row in a tablix data region in the {{site.productName}} Web Report Designer, inside or outside a group, to organize the data in your RDL report.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Insert or delete a tablix row in the Bold Reports<sup>®</sup> Web Report Designer
+# Insert or delete a tablix row in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can insert or delete rows in a tablix to organize the data in your report.
+In the {{site.productNameTM}} Web Report Designer, you can insert or delete rows in a tablix to organize the data in your report.
 
 ## How do I insert a row?
 
-You can add a row to a Bold Reports<sup>®</sup> tablix in two ways: from the row gripper or from a cell.
+You can add a row to a {{site.productNameTM}} tablix in two ways: from the row gripper or from a cell.
 
 To insert a row by selecting the row:
 
@@ -32,7 +32,7 @@ A new row is added above or below the target row.
 
 ## How do I insert a row in a group?
 
-You can add a row to a group in a Bold Reports<sup>®</sup> tablix in two ways: from the row group gripper or from a row group cell.
+You can add a row to a group in a {{site.productNameTM}} tablix in two ways: from the row group gripper or from a row group cell.
 
 To insert a row by selecting the row group:
 
@@ -63,7 +63,7 @@ The Web Report Designer lists the following options in the `Insert Row` menu:
 
 ## How do I delete a row?
 
-You can delete a row from a Bold Reports<sup>®</sup> tablix in two ways: from the row gripper or from a cell.
+You can delete a row from a {{site.productNameTM}} tablix in two ways: from the row gripper or from a cell.
 
 To delete a row by selecting the row:
 
@@ -85,7 +85,7 @@ The selected row or rows are deleted from the tablix.
 
 ## How do I delete a row from a group?
 
-To delete a row from a row group in a Bold Reports<sup>®</sup> tablix, follow these steps:
+To delete a row from a row group in a {{site.productNameTM}} tablix, follow these steps:
 
 1. Right-click a row group cell in the row group of a tablix.
    ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/open-delete-menu-of-selected-cell-row-group.png '#width=315px')
@@ -99,7 +99,7 @@ The selected row is deleted from the tablix.
 
 ### What is the difference between Inside Group and Outside Group?
 
-In the Bold Reports<sup>®</sup> Web Report Designer, **Inside Group** adds the new row inside the target group. **Outside Group** adds the new row outside the target group, so the `Grouping Indicator` is shown only for the target group.
+In the {{site.productNameTM}} Web Report Designer, **Inside Group** adds the new row inside the target group. **Outside Group** adds the new row outside the target group, so the `Grouping Indicator` is shown only for the target group.
 
 ## See also
 

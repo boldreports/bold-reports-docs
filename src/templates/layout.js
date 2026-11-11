@@ -4,7 +4,6 @@ import HeadTag from '../components/HeadTag';
 import TopNav from '../components/TopNav';
 import LeftToc from '../components/LeftToc';
 import MobileLeftToc from '../components/MobileLeftToc';
-import Footer from '../components/Footer';
 import RightToc from '../components/RightToc';
 import NavigationButtons from '../components/NavigationButtons';
 import MdContents from '../components/MdContents';
@@ -242,7 +241,6 @@ const Layout = ({ pageContext = {} }) => {
                     <RightToc html={html} enableBehavior />
                 </div>
             </div>
-            <Footer />
         </>
     );
 }

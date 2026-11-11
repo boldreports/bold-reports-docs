@@ -1,15 +1,15 @@
 ---
-title: Connect Amazon Redshift Data to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to an Amazon Redshift database, run a query in the query design pane, and use the data in your RDL reports.
+title: Connect Amazon Redshift Data to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to an Amazon Redshift database, run a query in the query design pane, and use the data in your RDL reports.
 ---
 
 # Connect to Amazon Redshift data source
 
-To connect Bold Reports<sup>®</sup> to an Amazon Redshift database, open the **Data** configuration panel in the Web Report Designer and create an Amazon Redshift data source.
+To connect {{site.productNameTM}} to an Amazon Redshift database, open the **Data** configuration panel in the Web Report Designer and create an Amazon Redshift data source.
 
 ## How do I create an Amazon Redshift data source?
 
-To create an Amazon Redshift data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the Amazon Redshift connection type.
+To create an Amazon Redshift data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Amazon Redshift connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')

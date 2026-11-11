@@ -1,11 +1,11 @@
 ---
-title: Define Query Parameters in Query Designer | Bold Reports
-description: Define query parameters in the Bold Reports Web Report Designer query designer, in both design mode and query mode, when you create or edit a dataset.
+title: Define Query Parameters in Query Designer | {{site.productName}}
+description: Define query parameters in the {{site.productName}} Web Report Designer query designer, in both design mode and query mode, when you create or edit a dataset.
 ---
 
 # Define query parameters in the query designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer query designer, you can create query parameters in both design mode and query mode. The following sections give the steps for each mode.
+In the {{site.productNameTM}} Web Report Designer query designer, you can create query parameters in both design mode and query mode. The following sections give the steps for each mode.
 
 ## What do I need before I define query parameters?
 

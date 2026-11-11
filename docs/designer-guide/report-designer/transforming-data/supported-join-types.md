@@ -1,15 +1,15 @@
 ---
-title: Supported SQL Join Types in the Query Joiner | Bold Reports
-description: Learn the join types the Bold Reports Web Report Designer query joiner supports, such as inner join, and the purpose of each join type with example tables.
+title: Supported SQL Join Types in the Query Joiner | {{site.productName}}
+description: Learn the join types the {{site.productName}} Web Report Designer query joiner supports, such as inner join, and the purpose of each join type with example tables.
 ---
 
 # Supported join types in the Web Report Designer query joiner
 
-The Bold Reports<sup>®</sup> Web Report Designer query joiner supports four join types: inner join, left outer join, right outer join, and full outer join. Each join type has its own purpose, as the examples below show.
+The {{site.productNameTM}} Web Report Designer query joiner supports four join types: inner join, left outer join, right outer join, and full outer join. Each join type has its own purpose, as the examples below show.
 
 ## Inner join
 
-An `INNER JOIN` in the Bold Reports<sup>®</sup> query joiner returns the records from two or more tables where the records match in both tables.
+An `INNER JOIN` in the {{site.productNameTM}} query joiner returns the records from two or more tables where the records match in both tables.
 
 An inner join of Table1 and Table2 gives the result of Table1 intersect Table2.
 
@@ -41,7 +41,7 @@ If you join (INNER JOIN) Table1 and Table2 on the Supplier_Id column with equals
 
 ## Left outer join
 
-A `LEFT OUTER JOIN` in the Bold Reports<sup>®</sup> query joiner returns all records from the left table and the matched records from the right table. If there is no match, the result from the right table is NULL.
+A `LEFT OUTER JOIN` in the {{site.productNameTM}} query joiner returns all records from the left table and the matched records from the right table. If there is no match, the result from the right table is NULL.
 
 For example, consider the following two tables.
 
@@ -73,7 +73,7 @@ If you join (LEFT OUTER JOIN) Table1 and Table2 on the Supplier_Id column with e
 
 ## Right outer join
 
-A right outer join in the Bold Reports<sup>®</sup> query joiner preserves the rows from the second (right) table, joining them with a NULL in the shape of the first (left) table.
+A right outer join in the {{site.productNameTM}} query joiner preserves the rows from the second (right) table, joining them with a NULL in the shape of the first (left) table.
 
 For example, consider the following two tables.
 
@@ -103,7 +103,7 @@ If you join (RIGHT OUTER) Table1 and Table2 on the EmployeeID column with equals
 
 ## Full outer join
 
-A FULL OUTER JOIN in the Bold Reports<sup>®</sup> query joiner returns all records when there is a match in either the left (table1) or right (table2) table records.
+A FULL OUTER JOIN in the {{site.productNameTM}} query joiner returns all records when there is a match in either the left (table1) or right (table2) table records.
 
 For example, consider the following two tables.
 

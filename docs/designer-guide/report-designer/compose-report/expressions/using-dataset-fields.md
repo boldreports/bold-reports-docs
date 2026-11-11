@@ -1,12 +1,12 @@
 ---
-title: Use Dataset Fields in RDL Report Expressions | Bold Reports
-description: Use dataset fields in Bold Reports Web Report Designer expressions by picking a field from the Data drop-down list and saving it as an expression in the editor.
+title: Use Dataset Fields in RDL Report Expressions | {{site.productName}}
+description: Use dataset fields in {{site.productName}} Web Report Designer expressions by picking a field from the Data drop-down list and saving it as an expression in the editor.
 keywords: ejReportDesigner, reportdesigner, reports, dataset, fields
 ---
 
 # Dataset fields in expressions
 
-In Bold Reports<sup>®</sup> Web Report Designer, the dataset fields available in the report are listed in the **Data** drop-down list of the expression editor. You can add any of these fields to an expression.
+In {{site.productNameTM}} Web Report Designer, the dataset fields available in the report are listed in the **Data** drop-down list of the expression editor. You can add any of these fields to an expression.
 
 ## How do I add a dataset field to an expression?
 

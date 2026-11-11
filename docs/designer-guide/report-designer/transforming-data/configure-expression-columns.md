@@ -1,12 +1,12 @@
 ---
-title: Create and Edit Query Expression Columns | Bold Reports
-description: Create, edit, and delete expression columns in the Bold Reports query designer by combining data columns, operators, and built-in functions in expressions.
+title: Create and Edit Query Expression Columns | {{site.productName}}
+description: Create, edit, and delete expression columns in the {{site.productName}} query designer by combining data columns, operators, and built-in functions in expressions.
 keywords: 
 ---
 
 # Configure query expression columns in the query designer
 
-In the Bold Reports<sup>®</sup> query designer, an expression column combines data columns, operators, and built-in functions into one expression. The expression column acts as a calculated measure. You can configure it to a report item like other numeric columns as a quantitative measure.
+In the {{site.productNameTM}} query designer, an expression column combines data columns, operators, and built-in functions into one expression. The expression column acts as a calculated measure. You can configure it to a report item like other numeric columns as a quantitative measure.
 
 Prefer watching over reading? Watch this video on configuring an expression column:
 
@@ -14,7 +14,7 @@ Prefer watching over reading? Watch this video on configuring an expression colu
 
 ## How do I open the Query Expressions dialog?
 
-To open the `Query Expressions` dialog in the Bold Reports<sup>®</sup> query designer, click the `Expression` icon in the query designer toolbar.
+To open the `Query Expressions` dialog in the {{site.productNameTM}} query designer, click the `Expression` icon in the query designer toolbar.
 
 ![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/query-expression-icon.png)
 

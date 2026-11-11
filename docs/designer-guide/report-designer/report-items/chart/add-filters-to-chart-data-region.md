@@ -1,16 +1,16 @@
 ---
-title: Add Filters to a Chart in RDL Reports | Bold Reports
-description: Add filters to chart category and series groups in the Bold Reports Web Report Designer to include or exclude specific values in an RDL report chart.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, filters
+title: Add Filters to a Chart in RDL Reports | {{site.productName}}
+description: Add filters to chart category and series groups in the {{site.productName}} Web Report Designer to include or exclude specific values in an RDL report chart.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, filters
 ---
 
 # Add filters to chart data region
 
-Filters on a chart data region in the Bold Reports<sup>®</sup> Web Report Designer include or exclude specific values. Filters also provide a different view of the dataset in multiple data regions.
+Filters on a chart data region in the {{site.productNameTM}} Web Report Designer include or exclude specific values. Filters also provide a different view of the dataset in multiple data regions.
 
 ## In what order are filters processed?
 
-Bold Reports<sup>®</sup> processes the filters applied in the report parts first on the dataset, then on the data region, and then on groups when it processes the report.
+{{site.productNameTM}} processes the filters applied in the report parts first on the dataset, then on the data region, and then on groups when it processes the report.
 
 ## Is there a video?
 
@@ -20,7 +20,7 @@ Yes. Prefer watching over reading? Check out this video on applying filters to a
 
 ## How do I set a filter on a chart category group?
 
-You set a filter on a chart category group from the `DATA` tab of the Bold Reports<sup>®</sup> Web Report Designer properties panel.
+You set a filter on a chart category group from the `DATA` tab of the {{site.productNameTM}} Web Report Designer properties panel.
 
 1. Select the chart data region in the design area.
    ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/select-data-region.png)
@@ -37,7 +37,7 @@ In the above image, the filter equation filters the data in the data region base
 
 ## What does the filtered chart look like?
 
-On report preview, the Bold Reports<sup>®</sup> chart displays the sales of `Q1`, `Q2`, `Q3`, and `Q4` based on the applied filters and the `OrderYear` and `ProductCategory` report parameters.
+On report preview, the {{site.productNameTM}} chart displays the sales of `Q1`, `Q2`, `Q3`, and `Q4` based on the applied filters and the `OrderYear` and `ProductCategory` report parameters.
 
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/report-preview.png '#width=550px')
 

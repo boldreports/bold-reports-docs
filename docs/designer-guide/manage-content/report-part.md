@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Create Report Parts in Report Server | Bold Reports
-description: Create, publish, edit, version, restore, and delete report parts in Bold Reports Report Server, and find unpublished report parts in the Drafts section.
+title: Create Report Parts in Report Server | {{site.productName}}
+description: Create, publish, edit, version, restore, and delete report parts in {{site.productName}} Report Server, and find unpublished report parts in the Drafts section.
 platform: Report-platform
 documentation: ug
 ---
 
-# Create report parts in Bold Reports<sup>®</sup> Report Server
+# Create report parts in {{site.productNameTM}} Report Server
 
-You can create `Report Parts` directly from the Bold Reports<sup>®</sup> Report Server and manage published Report Parts with the available options.
+You can create `Report Parts` directly from the {{site.productNameTM}} Report Server and manage published Report Parts with the available options.
 
 ## How do I create and manage a report part?
 

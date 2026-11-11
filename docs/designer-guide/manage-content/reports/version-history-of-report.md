@@ -1,14 +1,14 @@
 ---
 layout: post
-title: View Report Version History and File Logs | Bold Reports
-description: View every version of a report in the Bold Reports Report Server, open, edit, or download each one, roll back to an older version, and review the file logs.
+title: View Report Version History and File Logs | {{site.productName}}
+description: View every version of a report in the {{site.productName}} Report Server, open, edit, or download each one, roll back to an older version, and review the file logs.
 platform: report-platform
 documentation: ug
 ---
 
 # Version history of a report in Report Server
 
-You can view the version history of a report in Bold Reports<sup>®</sup> On-Premises Edition and roll back to an older version. The Report Server maintains versions and file logs for each report for every change made to the report.
+You can view the version history of a report in {{site.productNameTM}} On-Premises Edition and roll back to an older version. The Report Server maintains versions and file logs for each report for every change made to the report.
 
 ## How do I open the version history of a report?
 
@@ -29,7 +29,7 @@ Report Server logs the modifications for each change in the report, including ch
 
 ### When does Report Server create a new report version?
 
-Bold Reports<sup>®</sup> Report Server creates a new version for each change in the report's `.rdl` file.
+{{site.productNameTM}} Report Server creates a new version for each change in the report's `.rdl` file.
 
 ### Can I restore an older version of a report?
 

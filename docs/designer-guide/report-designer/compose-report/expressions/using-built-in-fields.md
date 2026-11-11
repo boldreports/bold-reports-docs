@@ -1,18 +1,18 @@
 ---
-title: Use Built-in Fields in RDL Report Expressions | Bold Reports
-description: Use built-in fields in Bold Reports Web Report Designer expressions, including the Globals and User collections, to show report name, page number, and run time.
+title: Use Built-in Fields in RDL Report Expressions | {{site.productName}}
+description: Use built-in fields in {{site.productName}} Web Report Designer expressions, including the Globals and User collections, to show report name, page number, and run time.
 keywords: ejReportDesigner, reportdesigner, built-in fields, references, expression
 ---
 
 # Built-in fields in Web Report Designer expressions
 
-Built-in fields in Bold Reports<sup>®</sup> Web Report Designer are global variables that specify the report name, page number, and execution time in a report. They include the Globals and the User collections.
+Built-in fields in {{site.productNameTM}} Web Report Designer are global variables that specify the report name, page number, and execution time in a report. They include the Globals and the User collections.
 
 ![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/build-in-fields.png '#width=400px')
 
 ## Global Collection
 
-The Globals collection in Bold Reports<sup>®</sup> provides values such as the name of the report, the time when report processing starts, and current page numbers for the report header or footer.
+The Globals collection in {{site.productNameTM}} provides values such as the name of the report, the time when report processing starts, and current page numbers for the report header or footer.
 
 <table>
 <tr>
@@ -39,7 +39,7 @@ Integer
 <td>
 String
 </td>
-<td>The full path to the folder containing the report. This does not include the Bold Reports<sup>®</sup> Report Server URL.</td>
+<td>The full path to the folder containing the report. This does not include the {{site.productNameTM}} Report Server URL.</td>
 </tr>
 <tr>
 <td><code class="language-text" style="word-break: break-word;">ReportName</code></td>
@@ -122,7 +122,7 @@ Boolean
 
 ## User Collection
 
-The User collection in Bold Reports<sup>®</sup> provides the user identifier and language settings. You can use these values in expressions to filter results in a report.
+The User collection in {{site.productNameTM}} provides the user identifier and language settings. You can use these values in expressions to filter results in a report.
 
 <table>
 <tr>

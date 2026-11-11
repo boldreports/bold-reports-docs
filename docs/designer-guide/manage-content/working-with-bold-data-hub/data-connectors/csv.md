@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect a CSV File to Bold Data Hub | Bold Reports
-description: Connect a CSV file to Bold Data Hub in Bold Reports. Upload the file, set the file path, create a pipeline, and schedule data refresh for your reports.
+title: Connect a CSV File to Bold Data Hub | {{site.productName}}
+description: Connect a CSV file to Bold Data Hub in {{site.productName}}. Upload the file, set the file path, create a pipeline, and schedule data refresh for your reports.
 platform: Report-platform
 documentation: ug
 
 ---
 # Connect a CSV file with Bold Data Hub
 
-The Bold Data Hub CSV connector loads data from a CSV (Comma Separated Values) file into Bold Reports<sup>®</sup>. A CSV file is a simple text file that stores data in a table format. Each line represents a row, and a comma separates each value in the row. CSV files are commonly used to import and export data between applications like Excel, databases, and reporting tools.
+The Bold Data Hub CSV connector loads data from a CSV (Comma Separated Values) file into {{site.productNameTM}}. A CSV file is a simple text file that stores data in a table format. Each line represents a row, and a comma separates each value in the row. CSV files are commonly used to import and export data between applications like Excel, databases, and reporting tools.
 
 ## Example Configuration
 
@@ -64,7 +64,7 @@ You connect a CSV file by creating a pipeline in Bold Data Hub, adding the `CSV`
 
     ![CSV Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![CSV Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -86,7 +86,7 @@ You schedule the CSV pipeline in Bold Data Hub from the schedules tab, or you ru
 
     ![CSV Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![CSV Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -96,9 +96,9 @@ You schedule the CSV pipeline in Bold Data Hub from the schedules tab, or you ru
 
 The Bold Data Hub CSV template uses the `FileSystem` extractor with `storage: local` and `type: csv`.
 
-### Does a CSV pipeline create a Bold Reports<sup>®</sup> data source?
+### Does a CSV pipeline create a {{site.productNameTM}} data source?
 
-Yes. Creating a pipeline in Bold Data Hub automatically creates a live data source in Bold Reports<sup>®</sup> for the destination database.
+Yes. Creating a pipeline in Bold Data Hub automatically creates a live data source in {{site.productNameTM}} for the destination database.
 
 ## See also
 

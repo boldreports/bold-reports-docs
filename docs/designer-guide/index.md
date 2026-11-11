@@ -1,16 +1,16 @@
 ---
-title: Web Report Designer Features for RDL Reports | Bold Reports
-description: Bold Reports Enterprise Edition includes a built-in Web Report Designer to design, edit, and publish RDL reports with data sources, parameters, and expressions.
-keywords: reports, ejreports, report designer, web report designer, Bold Reports report designer, overview, web designer
+title: Web Report Designer Features for RDL Reports | {{site.productName}}
+description: {{site.productName}} Enterprise Edition includes a built-in Web Report Designer to design, edit, and publish RDL reports with data sources, parameters, and expressions.
+keywords: reports, ejreports, report designer, web report designer, {{site.productName}} report designer, overview, web designer
 ---
 
-# Web Report Designer in Bold Reports<sup>®</sup>
+# Web Report Designer in {{site.productNameTM}}
 
-The Bold Reports<sup>®</sup> **Web Report Designer** is a web-based reporting tool that you use to create and edit RDL (Report Definition Language) standard reports. The Web Report Designer comes with a wide range of report items to transform data into information. You build reports with the help of the following features.
+The {{site.productNameTM}} **Web Report Designer** is a web-based reporting tool that you use to create and edit RDL (Report Definition Language) standard reports. The Web Report Designer comes with a wide range of report items to transform data into information. You build reports with the help of the following features.
 
 ## What are the key features of the Web Report Designer?
 
-The Bold Reports<sup>®</sup> Web Report Designer provides the following key features for designing RDL reports.
+The {{site.productNameTM}} Web Report Designer provides the following key features for designing RDL reports.
 
 **Data sources**: The Web Report Designer supports commonly used data sources such as Microsoft SQL Server, Oracle, OLEDB, ODBC, Web API, OData, JSON, and XML.
 

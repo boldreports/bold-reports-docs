@@ -1,12 +1,12 @@
 ---
-title: Use the List Item for Free-Form Layouts | Bold Reports
-description: Use the list report item in the Bold Reports Web Report Designer to build free-form RDL layouts and set its dataset, filters, sorting, and custom properties.
-keywords: ejReportDesigner, reportdesigner, list, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Use the List Item for Free-Form Layouts | {{site.productName}}
+description: Use the list report item in the {{site.productName}} Web Report Designer to build free-form RDL layouts and set its dataset, filters, sorting, and custom properties.
+keywords: ejReportDesigner, reportdesigner, list, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# List report item in Bold Reports<sup>®</sup> Web Report Designer
+# List report item in {{site.productNameTM}} Web Report Designer
 
-The list report item in the Bold Reports<sup>®</sup> Web Report Designer creates free-form layouts. You can arrange text boxes, images, and other data regions anywhere within the list to create a form. The list acts as a container that places multiple report items side by side. A simple list design has a single cell in a row associated with the detail group, and the cell contains a `Rectangle` report item.
+The list report item in the {{site.productNameTM}} Web Report Designer creates free-form layouts. You can arrange text boxes, images, and other data regions anywhere within the list to create a form. The list acts as a container that places multiple report items side by side. A simple list design has a single cell in a row associated with the detail group, and the cell contains a `Rectangle` report item.
 
 ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-list-design.png '#width=165px')
 
@@ -16,7 +16,7 @@ By default, no group expression is defined on a List. When no group expression i
 
 ## How do I add report items to a list?
 
-To add report items to a Bold Reports<sup>®</sup> list cell, drag report items from the item panel or data fields from the `Data` panel to the cell. By default, the cell contains a rectangle that acts as a container.
+To add report items to a {{site.productNameTM}} list cell, drag report items from the item panel or data fields from the `Data` panel to the cell. By default, the cell contains a rectangle that acts as a container.
 
 ![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-report-item-to-list.png '#width=385px')
 
@@ -36,7 +36,7 @@ On report preview, the List repeats for each row in the datasource.
 
 ## Which properties can I set for a list?
 
-The Bold Reports<sup>®</sup> properties panel lists every list property described below. Read the [Properties panel](./../../compose-report/properties-panel/) section before you set the following properties.
+The {{site.productNameTM}} properties panel lists every list property described below. Read the [Properties panel](./../../compose-report/properties-panel/) section before you set the following properties.
 
 ### Data
 
@@ -161,7 +161,7 @@ The `Custom Style` property lets you use external CSS to style report items, giv
 
 ## How do I set an expression on a list property?
 
-You can set an expression on a few properties of the Bold Reports<sup>®</sup> list report item to process the property values. To set expressions on the list report item properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
+You can set an expression on a few properties of the {{site.productNameTM}} list report item to process the property values. To set expressions on the list report item properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## How do I reset an expression?
 
@@ -169,11 +169,11 @@ To `Reset` the expression applied to a list property, see the [Reset Expression]
 
 ## How do I open nested (advanced) properties?
 
-A few properties of the Bold Reports<sup>®</sup> list report item contain nested properties. To open and handle nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+A few properties of the {{site.productNameTM}} list report item contain nested properties. To open and handle nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## How do I design an RDL report using a list?
 
-To learn how to design a simple list in your Bold Reports<sup>®</sup> report, see the [Design ssrs RDL report using list](./../../report-items/list/design-ssrs-rdl-report-using-list/) section.
+To learn how to design a simple list in your {{site.productNameTM}} report, see the [Design ssrs RDL report using list](./../../report-items/list/design-ssrs-rdl-report-using-list/) section.
 
 ## Frequently asked questions
 

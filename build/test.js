@@ -4,9 +4,7 @@ const { writeFileSync, readFileSync, existsSync, mkdirSync } = require('fs');
 const { cd, exec } = require('shelljs');
 const { join } = require('path');
 const md = require('markdownlint');
-const jshint = require('gulp-jshint');
-const htmllint = require('gulp-htmllint');
-const { getToc, repoName, repos, rootPath, apiBaseFolder, config } = require('./config');
+const { getToc, apiBaseFolder, config } = require('./config');
 const runSequence = require('gulp4-run-sequence');
 
 const branchName = process.env.gitHubTargetBranch; //Needs to update env variable name in machine.
@@ -79,23 +77,8 @@ gulp.task('validate-image-alt-text', function(done) {
     done();
 })
 function getSpelling() {
-    let spellingFile = join(__dirname, '.spelling-common');
-    let spelling = existsSync(spellingFile) ? '\n' + readFileSync(spellingFile, 'utf8') : '';
-    return readFileSync('./.spelling', 'utf8') + spelling;
+    return readFileSync('./.spelling', 'utf8');
 }
-
-gulp.task('js-lint', () => {
-    let config = JSON.parse(readFileSync(rootPath + 'lint/.jshintrc').toString());
-    return gulp.src(['demos/javascript/**/*.js'])
-        .pipe(jshint({ lookup: false, ...config }))
-        .pipe(jshint.reporter('default'))
-        .pipe(jshint.reporter('fail'));
-});
-
-gulp.task('html-lint', () => {
-    return gulp.src('demos/**/*.html')
-        .pipe(htmllint({ failOnError: true, config: rootPath + 'lint/.htmllintrc' }));
-});
 
 function normalizePath(filePath) {
     return filePath.replace(/\\/g, '/');
@@ -219,20 +202,16 @@ ${unusedSummaryFiles.join('\n')}`);
     });
 });
 
-const additionalTestTask = repoName === repos.embedded.name ? ['js-lint', 'html-lint'] : [];
 gulp.task('test', (done) => {
     runSequence('md-file-validation',
-        'common-file-validation',
         'typo',
         'modify-image-width-syntax',
         'validate-image-alt-text',
-        'validate-trademark-symbol',
         'file-validation',
         'seo-validation',
         'internal-url-validation',
         'md-lint',
         'validate-code-highlight',        
-        ...additionalTestTask,
         done);
 });
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect MariaDB Database to Bold Data Hub | Bold Reports
-description: Connect MariaDB to Bold Data Hub in Bold Reports with host, port, credentials, and driver name, then schedule pipeline jobs that load tables for reports.
+title: Connect MariaDB Database to Bold Data Hub | {{site.productName}}
+description: Connect MariaDB to Bold Data Hub in {{site.productName}} with host, port, credentials, and driver name, then schedule pipeline jobs that load tables for reports.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect MariaDB with Bold Data Hub
 
-The Bold Data Hub MariaDB connector loads data from a MariaDB database into Bold Reports<sup>®</sup>. MariaDB is an open-source relational database management system based on SQL (Structured Query Language). It is widely used for web applications, data warehousing, and e-commerce due to its reliability, performance, and rich feature set.
+The Bold Data Hub MariaDB connector loads data from a MariaDB database into {{site.productNameTM}}. MariaDB is an open-source relational database management system based on SQL (Structured Query Language). It is widely used for web applications, data warehousing, and e-commerce due to its reliability, performance, and rich feature set.
 
 ## Connection Properties
 
@@ -76,7 +76,7 @@ You connect MariaDB by creating a project in Bold Data Hub and adding the `Maria
 
     ![MariaDB Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/mariadb_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -110,7 +110,7 @@ You schedule the MariaDB pipeline in Bold Data Hub from the schedules tab, or yo
 
     ![MariaDB - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![MariaDB - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

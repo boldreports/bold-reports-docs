@@ -1,15 +1,15 @@
 ---
-title: Add and Format a Column Chart in RDL Reports | Bold Reports
-description: Add a column chart to an RDL report in the Bold Reports Web Report Designer, bind measures and dimensions, and format its legend, series, axes, and page breaks.
+title: Add and Format a Column Chart in RDL Reports | {{site.productName}}
+description: Add a column chart to an RDL report in the {{site.productName}} Web Report Designer, bind measures and dimensions, and format its legend, series, axes, and page breaks.
 ---
 
-# Add a Column Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Column Chart in the {{site.productNameTM}} Web Report Designer
 
-You add a **Column Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to compare values for unordered items across categories through vertical bars ordered horizontally.
+You add a **Column Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to compare values for unordered items across categories through vertical bars ordered horizontally.
 
 ## How do I add a column chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the column chart under the `Comparison` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the column chart under the `Comparison` category in the item panel.
 
 Drag and drop the column chart from the item panel into the design area.
 
@@ -21,7 +21,7 @@ The column chart renders in the design area, and the properties panel lists the 
 
 ## How do I create data for the column chart?
 
-To present data in a Bold Reports<sup>®</sup> column chart, create a dataset and bind data to the chart data region. This example uses the following dataset query to create the dataset.
+To present data in a {{site.productNameTM}} column chart, create a dataset and bind data to the chart data region. This example uses the following dataset query to create the dataset.
 
 ```sql
 SELECT PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -38,7 +38,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I assign data to the column chart?
 
-The Bold Reports<sup>®</sup> Column Chart needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure onto the `Columns` section. To categorize by a series, also drop the respective dimension onto the `Rows` section.
+The {{site.productNameTM}} Column Chart needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure onto the `Columns` section. To categorize by a series, also drop the respective dimension onto the `Rows` section.
 
 To configure data in a column chart, follow these steps:
 
@@ -93,7 +93,7 @@ To configure data in a column chart, follow these steps:
 
 ## How do I format the column chart?
 
-You format a column chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab.
+You format a column chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab.
 
 To format a column chart, follow these steps:
 
@@ -292,7 +292,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the column chart report?
 
-You preview the column chart report from the design view of the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the column chart report from the design view of the {{site.productNameTM}} Web Report Designer.
 
 1. Review the final design view of the report, shown in the following image.
 
@@ -307,7 +307,7 @@ You preview the column chart report from the design view of the Bold Reports<sup
 
 ### Where is the column chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the column chart under the `Comparison` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the column chart under the `Comparison` category in the item panel.
 
 ### Can I use the same data steps for other charts?
 

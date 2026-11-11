@@ -1,15 +1,15 @@
 ---
-title: Link a Shared Data Source to an RDL Report | Bold Reports
-description: Link a shared data source from Bold Reports Report Server to your report in the Web Report Designer to manage data source properties that often change.
+title: Link a Shared Data Source to an RDL Report | {{site.productName}}
+description: Link a shared data source from {{site.productName}} Report Server to your report in the Web Report Designer to manage data source properties that often change.
 ---
 
 # Link a shared datasource
 
-You link a shared data source in the Bold Reports<sup>®</sup> Web Report Designer by choosing the `Shared` data source type in the `DATASOURCE` panel. A shared data source helps you manage data source properties that often change.
+You link a shared data source in the {{site.productNameTM}} Web Report Designer by choosing the `Shared` data source type in the `DATASOURCE` panel. A shared data source helps you manage data source properties that often change.
 
 ## How do I link a shared data source?
 
-You link a shared data source from the `DATASOURCE` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You link a shared data source from the `DATASOURCE` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Click the `Data` icon in the configuration panel to launch the `Data` configuration.
 
@@ -47,7 +47,7 @@ You link a shared data source from the `DATASOURCE` panel of the Bold Reports<su
 
 ### Can I link more than one shared data source to a report?
 
-Yes. The Bold Reports<sup>®</sup> Web Report Designer lets you link multiple shared data sources into the report.
+Yes. The {{site.productNameTM}} Web Report Designer lets you link multiple shared data sources into the report.
 
 ## See also
 

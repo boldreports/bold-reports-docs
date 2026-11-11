@@ -3,6 +3,7 @@ const yaml = require("js-yaml");
 const { sync } = require("glob");
 const { config, getRepoInfo, repoName } = require('./config.js');
 const argv = require('yargs').argv;
+const { replaceProductNameInJson } = require('./product-name.js');
 
 const STRUCTURE_FILE = "./docs-structure.yaml";
 const DOC_JSON_PATTERN = "./docs/**/summary.json";
@@ -432,16 +433,11 @@ function generateToc() {
 		routerData: routerData,
 		pagesData: pageData,
 		pathPrefix: global.isProduction ? (argv.prefix || '/' + getRepoInfo(repoName).url) : '',
-		siteVersion: argv.siteVersion ? argv.siteVersion : config.siteVersion,
-		umsVersion: argv.umsVersion ? argv.umsVersion : config.umsVersion,
-		reportserviceurl: argv.reportserviceurl ? argv.reportserviceurl : config.reportserviceurl,
-		githubserviceloc: argv.githubserviceloc ? argv.githubserviceloc : config.githubserviceloc,
 		repoBaseUrl: getRepoInfo(repoName).url,
-		cx: getRepoInfo(repoName).cx,
 		additionalInfo: config.additionalInfo
 	};
 
-	fs.writeFileSync(outputJsonPath, JSON.stringify(combinedOutput, null, 2));
+	fs.writeFileSync(outputJsonPath, replaceProductNameInJson(JSON.stringify(combinedOutput, null, 2)));
 }
 
 function removeMisc(fname) {

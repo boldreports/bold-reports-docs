@@ -1,15 +1,15 @@
 ---
-title: Connect an OLE DB Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to an OLEDB database with a connection string and authentication type, then feed query results to RDL reports.
+title: Connect an OLE DB Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to an OLEDB database with a connection string and authentication type, then feed query results to RDL reports.
 ---
 
 # Connect to OLEDB data source
 
-Using the `OLEDB` connection type in the Bold Reports<sup>®</sup> Web Report Designer, you can connect to an OLEDB database. You enter a connection string and an authentication type, then query the data.
+Using the `OLEDB` connection type in the {{site.productNameTM}} Web Report Designer, you can connect to an OLEDB database. You enter a connection string and an authentication type, then query the data.
 
 ## How do I choose the OLEDB data source?
 
-To choose the OLEDB data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and select the OLEDB connection type.
+To choose the OLEDB data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and select the OLEDB connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -20,7 +20,7 @@ To choose the OLEDB data source in the Bold Reports<sup>®</sup> Web Report Desi
 
 ## Connection properties
 
-After you click the data source, the Bold Reports<sup>®</sup> `NEW DATASOURCE` configuration panel opens. Follow these steps to create an OLEDB data source:
+After you click the data source, the {{site.productNameTM}} `NEW DATASOURCE` configuration panel opens. Follow these steps to create an OLEDB data source:
 
 1. Specify the data source name without special characters in the **Name** field.
    ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/oledb-data-source/oledb-properties.png '#width=350px')
@@ -39,7 +39,7 @@ After you click the data source, the Bold Reports<sup>®</sup> `NEW DATASOURCE` 
 
 ### Authentication types
 
-The Bold Reports<sup>®</sup> OLEDB data source supports database credentials, prompted credentials, or no credentials.
+The {{site.productNameTM}} OLEDB data source supports database credentials, prompted credentials, or no credentials.
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/oledb-data-source/authentication.png '#width=385px')
 
@@ -47,7 +47,7 @@ The Bold Reports<sup>®</sup> OLEDB data source supports database credentials, p
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/oledb-data-source/authentication-type.png '#width=385px')
 
-Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 
 > On report download action, the credentials will be not be saved with report data.
 

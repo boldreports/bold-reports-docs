@@ -1,12 +1,12 @@
 ---
-title: Use Operators in RDL Report Expressions | Bold Reports
-description: Use arithmetic, comparison, concatenation, logical, bitwise, and bit shift operators in Bold Reports Web Report Designer expressions to combine RDL values.
+title: Use Operators in RDL Report Expressions | {{site.productName}}
+description: Use arithmetic, comparison, concatenation, logical, bitwise, and bit shift operators in {{site.productName}} Web Report Designer expressions to combine RDL values.
 keywords: ejReportDesigner, reportdesigner, operators, comparison, queryfilter
 ---
 
 # Operators in Web Report Designer expressions
 
-An operator in Bold Reports<sup>®</sup> Web Report Designer expressions is a symbol that performs a simple basic operation. You can use arithmetic, comparison, concatenation, logical or bitwise, and bit shift operators in an expression.
+An operator in {{site.productNameTM}} Web Report Designer expressions is a symbol that performs a simple basic operation. You can use arithmetic, comparison, concatenation, logical or bitwise, and bit shift operators in an expression.
 
 ## Arithmetic
 

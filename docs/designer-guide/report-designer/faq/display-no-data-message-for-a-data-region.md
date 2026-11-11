@@ -1,17 +1,17 @@
 ---
-title: Show a No Data Message in RDL Data Regions | Bold Reports
-description: Show a custom message in Bold Reports Web Report Designer when a table, matrix, list, chart, or subreport has no data by setting the No Rows or No Data message.
+title: Show a No Data Message in RDL Data Regions | {{site.productName}}
+description: Show a custom message in {{site.productName}} Web Report Designer when a table, matrix, list, chart, or subreport has no data by setting the No Rows or No Data message.
 ---
 
 # How to display no data message for a data region
 
-Bold Reports<sup>®</sup> Report Designer can display a message when no data exists in the database or no row matches the user selection in an RDL report. Showing a clear message when there is no data for a user selection is good practice.
+{{site.productNameTM}} Report Designer can display a message when no data exists in the database or no row matches the user selection in an RDL report. Showing a clear message when there is no data for a user selection is good practice.
 
 To show the message, set custom text in the `No Rows` property. No Rows is an option on a matrix, table, chart, sub-report, and similar items that displays alternate text when your query returns no results.
 
 ## To set the NoRowsMessage property for a table, matrix, list, or subreport
 
-You set the no rows message for a table, matrix, list, or subreport in Bold Reports<sup>®</sup> Report Designer from the `No Rows` category in the properties panel.
+You set the no rows message for a table, matrix, list, or subreport in {{site.productNameTM}} Report Designer from the `No Rows` category in the properties panel.
 
 1. Select the table, matrix, or list data region or subreport on the design surface. The `Properties` panel displays the properties for the selected item.
 2. Under the `No Rows` category in the properties panel, enter the text you want to display in the `Message` property field.
@@ -28,7 +28,7 @@ During report preview, the specified message is displayed if the user-specified 
 
 ## To set the NoDataMessage property for a chart
 
-You set the no data message for a chart in Bold Reports<sup>®</sup> Report Designer from the `No Data` category in the properties panel.
+You set the no data message for a chart in {{site.productNameTM}} Report Designer from the `No Data` category in the properties panel.
 
 1. Select the chart on the design surface. The `Properties` panel displays the properties for the selected item.
 2. Under the `No Data` category in the properties panel, enter the text you want to display in the `Message` property field.

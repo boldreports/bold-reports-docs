@@ -1,17 +1,17 @@
 ---
-title: Configure Map Marker Settings in RDL Reports | Bold Reports
-description: Display and customize map markers in Bold Reports Web Report Designer by setting the background color, border, style, size, and tooltip for each marker icon.
+title: Configure Map Marker Settings in RDL Reports | {{site.productName}}
+description: Display and customize map markers in {{site.productName}} Web Report Designer by setting the background color, border, style, size, and tooltip for each marker icon.
 ---
 
-# Map marker settings in Bold Reports<sup>®</sup> Web Report Designer
+# Map marker settings in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a marker identifies a location on a map. By default, a marker uses standard icons. You can set the background color, border, style, size, and tooltip for it.
+In the {{site.productNameTM}} Web Report Designer, a marker identifies a location on a map. By default, a marker uses standard icons. You can set the background color, border, style, size, and tooltip for it.
 
 > When you apply any of the marker color rules or template rule, it will take precedence over basic marker settings.
 
 ## How do I define marker settings?
 
-You can apply marker settings in the Bold Reports<sup>®</sup> Web Report Designer after you match the map shapes based on shape data and analytical data. The analytical data can come from a data set field or from a spatial data source field.
+You can apply marker settings in the {{site.productNameTM}} Web Report Designer after you match the map shapes based on shape data and analytical data. The analytical data can come from a data set field or from a spatial data source field.
 
 The marker properties are listed under **Marker Settings** in the map properties. To enable or disable markers on the map surface, toggle the `Enable Marker` checkbox.
 
@@ -23,7 +23,7 @@ After you enable the marker, the other properties required for defining the mark
 
 ### Background color
 
-The Background color property in the Bold Reports<sup>®</sup> Web Report Designer sets the background color for the marker icons on the map surface.
+The Background color property in the {{site.productNameTM}} Web Report Designer sets the background color for the marker icons on the map surface.
 
 ![Shape Background color](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/bg-color.png '#width=385px')
 
@@ -36,7 +36,7 @@ You can also apply the background color based on dynamic values by using `Expres
 
 ### Border
 
-The Border property in the Bold Reports<sup>®</sup> Web Report Designer draws a border around each marker icon on the map surface. You can set the color and size of the border. The border is applied around the map marker icons, as shown in the following image.
+The Border property in the {{site.productNameTM}} Web Report Designer draws a border around each marker icon on the map surface. You can set the color and size of the border. The border is applied around the map marker icons, as shown in the following image.
 
 ![Shape border in design](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/border-design.png)
 
@@ -45,7 +45,7 @@ You can also set the border properties based on dynamic values by using `Express
 
 ### Style
 
-The Style property in the Bold Reports<sup>®</sup> Web Report Designer sets the style of the marker icon. The supported standard marker icon types are listed in the `Style` property drop-down.
+The Style property in the {{site.productNameTM}} Web Report Designer sets the style of the marker icon. The supported standard marker icon types are listed in the `Style` property drop-down.
 
 ![Style](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/style.png '#width=385px')
 
@@ -58,7 +58,7 @@ You can also set the marker properties based on dynamic values by using `Express
 
 ### Size
 
-The Size property in the Bold Reports<sup>®</sup> Web Report Designer defines the size of the marker icons.
+The Size property in the {{site.productNameTM}} Web Report Designer defines the size of the marker icons.
 
 ![Size](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/size.png)
 
@@ -67,7 +67,7 @@ You can also set the marker properties based on dynamic values by using `Express
 
 ### Tooltip
 
-The `ToolTip` property in the Bold Reports<sup>®</sup> Web Report Designer configures a tooltip for marker icons. Use it to display information, such as descriptive text or data related to the specific marker shape. When you hover over each marker icon in a rendered report, the information appears in the tooltip.
+The `ToolTip` property in the {{site.productNameTM}} Web Report Designer configures a tooltip for marker icons. Use it to display information, such as descriptive text or data related to the specific marker shape. When you hover over each marker icon in a rendered report, the information appears in the tooltip.
 
 You can enter static text or set an expression that evaluates to a value. See [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) to open the set or reset expression menu in the properties panel.
 ![Set dynamic value for tooltip](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/tooltip.png '#width=355px')

@@ -1,12 +1,12 @@
 ---
-title: Tablix Groups and Group Scope in RDL Reports | Bold Reports
-description: Learn how tablix groups organize report data in Bold Reports Web Report Designer, including group types, group properties, and group scope in data regions.
-keywords: ejReportDesigner, reportdesigner, list, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, group scopes, tablix
+title: Tablix Groups and Group Scope in RDL Reports | {{site.productName}}
+description: Learn how tablix groups organize report data in {{site.productName}} Web Report Designer, including group types, group properties, and group scope in data regions.
+keywords: ejReportDesigner, reportdesigner, list, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, group scopes, tablix
 ---
 
-# Tablix groups in Bold Reports<sup>®</sup> Web Report Designer
+# Tablix groups in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a tablix group organizes the report dataset in a data region. Groups help you present different views of the same data in data regions.
+In the {{site.productNameTM}} Web Report Designer, a tablix group organizes the report dataset in a data region. Groups help you present different views of the same data in data regions.
 
 The following image shows the areas of a tablix region with nested row groups and column groups.
 
@@ -16,13 +16,13 @@ Groups are organized as members of one or more hierarchies for each data region.
 
 ## How do I create groups?
 
-A group in a Bold Reports<sup>®</sup> tablix has a name and a set of group expressions. The set of group expressions can be a dataset field or a combination of multiple expressions. During data processing, the group expressions are combined and the resultant data is applied to the specific group. For example, a group can use a date field to organize the data in the data region. On report preview, data is organized by date, and then displayed with other dataset values for each date.
+A group in a {{site.productNameTM}} tablix has a name and a set of group expressions. The set of group expressions can be a dataset field or a combination of multiple expressions. During data processing, the group expressions are combined and the resultant data is applied to the specific group. For example, a group can use a date field to organize the data in the data region. On report preview, data is organized by date, and then displayed with other dataset values for each date.
 
 By default, table, matrix, or list report items are created with the `Details` group only. You can create groups manually to organize and group data in the tablix data regions.
 
 ## What group types are available?
 
-A Bold Reports<sup>®</sup> tablix supports row groups, column groups, and the details group.
+A {{site.productNameTM}} tablix supports row groups, column groups, and the details group.
 
 * **Row groups and column groups** - The data can be organized into groups by rows or columns. On report preview, the row groups expand vertically on a page and the column groups expand horizontally on a page. You can create a nested group or adjacent groups in the data regions. When you create a group for a data region, a set of rows or columns is added to the data region, and these rows or columns display the group data. Refer to the [Row Groups](./../../../report-items/tablix/insert-or-delete-a-row-group-ssrs/) and [Column groups](./../../../report-items/tablix/insert-or-delete-a-column-group-ssrs/) sections to create groups in a tablix data region.
 
@@ -31,13 +31,13 @@ A Bold Reports<sup>®</sup> tablix supports row groups, column groups, and the d
 
 ## How do I edit group properties?
 
-You edit group properties such as [filters](./../../../compose-report/filter-data/), [sort](./../../../compose-report/sort-data/), and [groups expressions](./../../../compose-report/group-data/) in the Bold Reports<sup>®</sup> Web Report Designer after you create groups. These properties organize the data visualization of the respective group in the data region. To edit an existing group, select the respective member in the Row or Column Groups pane of the grouping panel. The member properties are listed in the properties panel.![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=600px')
+You edit group properties such as [filters](./../../../compose-report/filter-data/), [sort](./../../../compose-report/sort-data/), and [groups expressions](./../../../compose-report/group-data/) in the {{site.productNameTM}} Web Report Designer after you create groups. These properties organize the data visualization of the respective group in the data region. To edit an existing group, select the respective member in the Row or Column Groups pane of the grouping panel. The member properties are listed in the properties panel.![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=600px')
 
 Refer to the [Group properties](./../../../report-items/tablix/member-properties/#group-member-properties) section to modify the group properties.
 
 ## What is group scope?
 
-Group scope in a Bold Reports<sup>®</sup> tablix is defined by the hierarchy in which the groups are created in the data regions. You can create a nested group or adjacent groups in the data regions. To help you understand the scope of the groups in the selected tablix data region:
+Group scope in a {{site.productNameTM}} tablix is defined by the hierarchy in which the groups are created in the data regions. You can create a nested group or adjacent groups in the data regions. To help you understand the scope of the groups in the selected tablix data region:
 
 * The visual cues are provided in the tablix data regions.
    ![Groups and total ](/static/assets/on-premise/images/report-designer/report-items/tablix/groups-and-total-sketch.png '#width=600px')

@@ -1,15 +1,15 @@
 ---
-title: Set a Map Marker Rule in Web Report Designer | Bold Reports
-description: Define a marker rule for a map in Bold Reports Web Report Designer to set marker styles for each marker based on ranges of analytical data in RDL reports.
+title: Set a Map Marker Rule in Web Report Designer | {{site.productName}}
+description: Define a marker rule for a map in {{site.productName}} Web Report Designer to set marker styles for each marker based on ranges of analytical data in RDL reports.
 ---
 
-# Map marker rule in Bold Reports<sup>®</sup> Web Report Designer
+# Map marker rule in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the marker rule properties define marker styles for each marker on the map surface. You can vary marker styles across ranges of analytical data.
+In the {{site.productNameTM}} Web Report Designer, the marker rule properties define marker styles for each marker on the map surface. You can vary marker styles across ranges of analytical data.
 
 ## How do I define a marker rule?
 
-You can apply a marker rule in the Bold Reports<sup>®</sup> Web Report Designer after you match the map shapes based on shape data and analytical data. The analytical data can come from a data set field or from a spatial data source field.
+You can apply a marker rule in the {{site.productNameTM}} Web Report Designer after you match the map shapes based on shape data and analytical data. The analytical data can come from a data set field or from a spatial data source field.
 
 The marker rule properties are listed under **Marker Rule** in the map properties. To enable or disable the marker rule on the map surface, toggle the `Enable Marker Rule` checkbox.
 
@@ -21,7 +21,7 @@ After you enable the marker rule, the other properties required for defining mar
 
 ### Markers
 
-The `Markers` property in the Bold Reports<sup>®</sup> Web Report Designer defines any number of marker style sets based on your desired output. To define marker styles, follow these steps:
+The `Markers` property in the {{site.productNameTM}} Web Report Designer defines any number of marker style sets based on your desired output. To define marker styles, follow these steps:
 
 1. Click the edit icon for the `Markers` property.
    ![Markers style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/edit-icon.png '#width=355px')
@@ -42,7 +42,7 @@ Repeat the steps to create multiple marker style sets or edit existing style set
 
 #### How do I delete a style set?
 
-To delete a marker style set in the Bold Reports<sup>®</sup> Web Report Designer, follow these steps:
+To delete a marker style set in the {{site.productNameTM}} Web Report Designer, follow these steps:
 
 1. Click the edit icon for the `Markers` property. The available style sets are listed in the **Map Marker** panel.
 2. Click the `Delete` icon in the right corner of the style set you want to remove.
@@ -52,7 +52,7 @@ To delete a marker style set in the Bold Reports<sup>®</sup> Web Report Designe
 
 ### Data value
 
-The data value field in the Bold Reports<sup>®</sup> Web Report Designer lists the available shape data fields and analytical data fields. The list depends on the source of shape data and analytical data in the report.
+The data value field in the {{site.productNameTM}} Web Report Designer lists the available shape data fields and analytical data fields. The list depends on the source of shape data and analytical data in the report.
 
 ![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/data-value.png '#width=385px')
 
@@ -65,7 +65,7 @@ After you select the data value, the properties required to configure the distri
 
 ### Distribution type
 
-The marker distribution options in the Bold Reports<sup>®</sup> Web Report Designer govern how markers are visualized on the map surface. There are four types of distribution rules: Optimal, Equal Interval, Equal Distribution, and Custom. These options are listed in the **Distribution Type** drop-down.
+The marker distribution options in the {{site.productNameTM}} Web Report Designer govern how markers are visualized on the map surface. There are four types of distribution rules: Optimal, Equal Interval, Equal Distribution, and Custom. These options are listed in the **Distribution Type** drop-down.
 
 ![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/distribution-types.png '#width=385px')
 

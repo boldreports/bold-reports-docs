@@ -1,18 +1,18 @@
 ---
-title: Design an RDL Report in Web Report Designer | Bold Reports
-description: Design an RDL report in Bold Reports Web Report Designer by connecting to SQL data, adding a table, assigning fields, and previewing the result in the browser.
-keywords: reportdesigner, rdl report, design, bold reports, reports
+title: Design an RDL Report in Web Report Designer | {{site.productName}}
+description: Design an RDL report in {{site.productName}} Web Report Designer by connecting to SQL data, adding a table, assigning fields, and previewing the result in the browser.
+keywords: reportdesigner, rdl report, design, {{site.productName}}, reports
 ---
 
-# Design an RDL report in Bold Reports<sup>®</sup> Web Report Designer
+# Design an RDL report in {{site.productNameTM}} Web Report Designer
 
-**Designing a report** in Bold Reports<sup>®</sup> Web Report Designer lets you connect to data, add a table report item, assign fields to it, and preview the result, all in the browser. The following steps show how to design a simple RDL report in Web Report Designer.
+**Designing a report** in {{site.productNameTM}} Web Report Designer lets you connect to data, add a table report item, assign fields to it, and preview the result, all in the browser. The following steps show how to design a simple RDL report in Web Report Designer.
 
 ![Report designer initial view](/static/assets/on-premise/images/report-designer/report-creation/report-designer-initial-view.png)
 
 ## What is RDL report design in Web Report Designer?
 
-RDL report design in Bold Reports<sup>®</sup> Web Report Designer means building a report's data connections, layout, and report items in RDL (Report Definition Language) format directly in the browser. You use the browser-based Web Report Designer rather than a separate desktop tool.
+RDL report design in {{site.productNameTM}} Web Report Designer means building a report's data connections, layout, and report items in RDL (Report Definition Language) format directly in the browser. You use the browser-based Web Report Designer rather than a separate desktop tool.
 
 The designer combines a data configuration panel, a design surface, and a properties pane. You can connect to a data source and drag report items such as tables onto the canvas. You can then bind fields to them and adjust their appearance in one continuous workflow.
 
@@ -198,7 +198,7 @@ You preview the report in Web Report Designer with the **Preview** button in the
 
 ## What are the key features?
 
-Bold Reports<sup>®</sup> Web Report Designer offers the following features for designing a table report:
+{{site.productNameTM}} Web Report Designer offers the following features for designing a table report:
 
 * **Browser-based query designer**: Connect to a SQL data source and build a query visually, without leaving the Web Report Designer.
 * **Drag-and-drop table design**: Add a table report item to the design surface, then assign column headers and data fields directly from the data assign menu.
@@ -207,16 +207,16 @@ Bold Reports<sup>®</sup> Web Report Designer offers the following features for 
 
 ## What are common use cases?
 
-Common use cases for designing RDL reports in Bold Reports<sup>®</sup> Web Report Designer include:
+Common use cases for designing RDL reports in {{site.productNameTM}} Web Report Designer include:
 
 * **Building a tabular report against a SQL database**: Connect to a SQL Server data source, query the required tables, and present the results as a table report.
 * **Adding computed totals to a report**: Use expressions and the `Add Total` action to summarize numeric columns, such as order quantities and prices.
 * **Adjusting report layout for readability**: Resize table columns and rows, and customize cell properties to improve how the report reads once rendered.
-* **Prototyping a report design quickly**: Design and preview an RDL report entirely in the browser before publishing it to the Bold Reports<sup>®</sup> Report Server.
+* **Prototyping a report design quickly**: Design and preview an RDL report entirely in the browser before publishing it to the {{site.productNameTM}} Report Server.
 
 ## Who should use this guide?
 
-The Bold Reports<sup>®</sup> RDL report design guide is intended for:
+The {{site.productNameTM}} RDL report design guide is intended for:
 
 * Report authors designing a table-based RDL report for the first time.
 * Developers connecting reports to SQL Server data sources.

@@ -1,16 +1,16 @@
 ---
-title: Add and Format a Funnel Chart in RDL Reports | Bold Reports
-description: Add a funnel chart to an RDL report in the Bold Reports Web Report Designer, bind JSON inline data, and format its legend, series, data labels, and page breaks.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format a Funnel Chart in RDL Reports | {{site.productName}}
+description: Add a funnel chart to an RDL report in the {{site.productName}} Web Report Designer, bind JSON inline data, and format its legend, series, data labels, and page breaks.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Funnel Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Funnel Chart in the {{site.productNameTM}} Web Report Designer
 
-You add a **Funnel Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to show values across multiple stages in a process, with each stage in a different color. You can make proportional comparisons between values shown in a progressively decreasing manner.
+You add a **Funnel Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to show values across multiple stages in a process, with each stage in a different color. You can make proportional comparisons between values shown in a progressively decreasing manner.
 
 ## How do I add a funnel chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the funnel chart under the `Proportion` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the funnel chart under the `Proportion` category in the item panel.
 
 Drag and drop the funnel chart from the item panel into the design area.
 
@@ -22,7 +22,7 @@ The funnel chart renders in the design area, and the properties panel lists the 
 
 ## How do I create data for the funnel chart?
 
-To present data in a Bold Reports<sup>®</sup> funnel chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
+To present data in a {{site.productNameTM}} funnel chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
 
 ```json
 [
@@ -49,7 +49,7 @@ To present data in a Bold Reports<sup>®</sup> funnel chart, create a dataset an
 
 ## How do I assign data to the funnel chart?
 
-The Bold Reports<sup>®</sup> **Funnel Chart** needs a minimum of one value element and one column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize the measure by a series, drop the respective dimension into the `Row(s)` section.
+The {{site.productNameTM}} **Funnel Chart** needs a minimum of one value element and one column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize the measure by a series, drop the respective dimension into the `Row(s)` section.
 
 To configure data in a funnel chart, follow these steps:
 
@@ -107,7 +107,7 @@ To configure data in a funnel chart, follow these steps:
 
 ## How do I format the funnel chart?
 
-You format a funnel chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab.
+You format a funnel chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab.
 
 To format a funnel chart, follow these steps:
 
@@ -264,7 +264,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the funnel chart report?
 
-You preview the funnel chart report from the design view of the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the funnel chart report from the design view of the {{site.productNameTM}} Web Report Designer.
 
 1. Review the final design view of the report, shown in the following image.
 
@@ -280,7 +280,7 @@ You preview the funnel chart report from the design view of the Bold Reports<sup
 
 ### Where is the funnel chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the funnel chart under the `Proportion` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the funnel chart under the `Proportion` category in the item panel.
 
 ### When should I use a funnel chart?
 

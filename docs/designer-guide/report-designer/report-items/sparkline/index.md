@@ -1,17 +1,17 @@
 ---
-title: Add and Format a Sparkline in RDL Reports | Bold Reports
-description: Add a sparkline report item in Bold Reports Web Report Designer, assign data, and configure its series, appearance, page break, and visibility settings.
-keywords: ejReportDesigner, reportdesigner, sparkline, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format a Sparkline in RDL Reports | {{site.productName}}
+description: Add a sparkline report item in {{site.productName}} Web Report Designer, assign data, and configure its series, appearance, page break, and visibility settings.
+keywords: ejReportDesigner, reportdesigner, sparkline, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Sparkline report item in Bold Reports<sup>®</sup>
+# Sparkline report item in {{site.productNameTM}}
 
-The sparkline report item in the Bold Reports<sup>®</sup> Web Report Designer is a small, simple chart that shows trends and changes in data over time, especially over many periods.
+The sparkline report item in the {{site.productNameTM}} Web Report Designer is a small, simple chart that shows trends and changes in data over time, especially over many periods.
 Sparklines represent multiple data points and are often used in tables and matrices.
 
 ## How do I add a sparkline to the report?
 
-You add a sparkline in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the `KPI` category of the item panel into the design area or a tablix cell.
+You add a sparkline in the {{site.productNameTM}} Web Report Designer by dragging it from the `KPI` category of the item panel into the design area or a tablix cell.
 
 1. Find the sparkline report item in the item panel under the `KPI` category.
    ![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-panel.png '#width=125px')
@@ -22,7 +22,7 @@ You add a sparkline in the Bold Reports<sup>®</sup> Web Report Designer by drag
 
 ## How do I create data for the sparkline?
 
-To present data in the Bold Reports<sup>®</sup> sparkline, create a dataset and bind data to it. This design example uses the following dataset query for dataset creation:
+To present data in the {{site.productNameTM}} sparkline, create a dataset and bind data to it. This design example uses the following dataset query for dataset creation:
 
 ```sql
 SELECT PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -38,7 +38,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I assign data to the sparkline?
 
-A sparkline in the Bold Reports<sup>®</sup> Web Report Designer needs a minimum of 1 value element to showcase data. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure onto the `Columns` section. To categorize based on a series, also drop the respective dimension onto the `Rows` section.
+A sparkline in the {{site.productNameTM}} Web Report Designer needs a minimum of 1 value element to showcase data. Drop the measure or expression field you want to analyze into the `Y Values` section. Drop the dimension that categorizes the measure onto the `Columns` section. To categorize based on a series, also drop the respective dimension onto the `Rows` section.
 
 To configure data for the sparkline, follow these steps:
 
@@ -72,7 +72,7 @@ To configure data for the sparkline, follow these steps:
 
 ## Properties
 
-The sparkline report item in the Bold Reports<sup>®</sup> Web Report Designer has name, series, appearance, chart area, no data, page break, position, data element, visibility, and miscellaneous properties. Refer to the [Properties panel](./../../compose-report/properties-panel/) section before proceeding with the following properties.
+The sparkline report item in the {{site.productNameTM}} Web Report Designer has name, series, appearance, chart area, no data, page break, position, data element, visibility, and miscellaneous properties. Refer to the [Properties panel](./../../compose-report/properties-panel/) section before proceeding with the following properties.
 
 ### Name
 
@@ -196,7 +196,7 @@ The following image shows the `Custom Style` property in the properties panel.
 
 ## How do I set an expression on a sparkline property?
 
-You can set an expression on a few properties of the sparkline report item in the Bold Reports<sup>®</sup> Web Report Designer to process the property values. To set expressions on the sparkline report item properties, refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
+You can set an expression on a few properties of the sparkline report item in the {{site.productNameTM}} Web Report Designer to process the property values. To set expressions on the sparkline report item properties, refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## How do I reset an expression?
 
@@ -204,7 +204,7 @@ You `Reset` an expression applied to a sparkline property from the Web Report De
 
 ## What are advanced properties?
 
-Advanced properties are the nested properties that a few sparkline report item properties contain in the Bold Reports<sup>®</sup> Web Report Designer. To open and handle the nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+Advanced properties are the nested properties that a few sparkline report item properties contain in the {{site.productNameTM}} Web Report Designer. To open and handle the nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## Frequently asked questions
 

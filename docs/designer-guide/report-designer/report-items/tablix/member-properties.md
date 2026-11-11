@@ -1,16 +1,16 @@
 ---
-title: Tablix Row and Column Group Member Properties | Bold Reports
-description: Set static and group tablix member properties in the Bold Reports Web Report Designer, such as fixed data, keep together, page break, filters, and visibility.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, grouping pane
+title: Tablix Row and Column Group Member Properties | {{site.productName}}
+description: Set static and group tablix member properties in the {{site.productName}} Web Report Designer, such as fixed data, keep together, page break, filters, and visibility.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, grouping pane
 ---
 
-# Tablix member properties in the Bold Reports<sup>®</sup> Web Report Designer
+# Tablix member properties in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the properties panel lists the tablix member properties under different categories based on the behavior of each property. Static members and group members each have their own set of properties.
+In the {{site.productNameTM}} Web Report Designer, the properties panel lists the tablix member properties under different categories based on the behavior of each property. Static members and group members each have their own set of properties.
 
 ## Static member properties
 
-The Bold Reports<sup>®</sup> static member properties appear when you click a static tablix member in the `Row Groups` or `Column Groups` pane. The properties panel then lists the properties of that tablix member.
+The {{site.productNameTM}} static member properties appear when you click a static tablix member in the `Row Groups` or `Column Groups` pane. The properties panel then lists the properties of that tablix member.
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-static-member-properties.png '#width=600px')
 
@@ -22,7 +22,7 @@ The static member Miscellaneous category holds the Fixed Data, Keep Together, Ke
 
 #### Fixed Data
 
-The Fixed Data property keeps the row or column headers visible when you scroll the pages of a report in Bold Reports<sup>®</sup> Report Viewer.
+The Fixed Data property keeps the row or column headers visible when you scroll the pages of a report in {{site.productNameTM}} Report Viewer.
 
 * To keep the row header visible when you scroll the pages of a report, select the static header member in the `Row Groups` pane and enable the `Fixed Data` property in the properties panel.
 
@@ -95,7 +95,7 @@ The static member Visibility category holds the Visibility and Toggle settings, 
 
 ## Group member properties
 
-The Bold Reports<sup>®</sup> group member properties appear when you click a group tablix member in the `Row Groups` or `Column Groups` pane. The properties panel then lists the properties of that tablix member.
+The {{site.productNameTM}} group member properties appear when you click a group tablix member in the `Row Groups` or `Column Groups` pane. The properties panel then lists the properties of that tablix member.
 
 ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=600px')
 
@@ -137,7 +137,7 @@ The group member Miscellaneous category holds the Fixed Data, Keep Together, and
 
 #### Fixed Data
 
-The Fixed Data property keeps the row or column group headers visible when you scroll the pages of a report in Bold Reports<sup>®</sup> Report Viewer.
+The Fixed Data property keeps the row or column group headers visible when you scroll the pages of a report in {{site.productNameTM}} Report Viewer.
 
 * To keep the row header visible when you scroll the pages of a report, select the dynamic header member in the `Row Groups` pane and enable the `Fixed Data` property in the properties panel.
 

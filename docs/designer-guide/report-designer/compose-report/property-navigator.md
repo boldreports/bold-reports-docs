@@ -1,11 +1,11 @@
 ---
-title: Find Report Items with the Property Navigator | Bold Reports
-description: Use the Property Navigator in Bold Reports Web Report Designer to view the report structure as a hierarchy, search elements, and select them to set properties.
+title: Find Report Items with the Property Navigator | {{site.productName}}
+description: Use the Property Navigator in {{site.productName}} Web Report Designer to view the report structure as a hierarchy, search elements, and select them to set properties.
 ---
 
-# Property Navigator in Bold Reports<sup>®</sup> Web Report Designer
+# Property Navigator in {{site.productNameTM}} Web Report Designer
 
-The **Property Navigator** in Bold Reports<sup>®</sup> Web Report Designer displays the report structure in a hierarchical format. You can quickly locate and select report elements to configure.
+The **Property Navigator** in {{site.productNameTM}} Web Report Designer displays the report structure in a hierarchical format. You can quickly locate and select report elements to configure.
 
 ![Property Navigator interface showing hierarchical report structure](/static/assets/on-premise/images/report-designer/compose-report/property-navigator/property-navigator-user-interface.png '#width=350px')
 

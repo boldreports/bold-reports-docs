@@ -1,16 +1,16 @@
 ---
-title: Design an SSRS RDL Report Using a Table | Bold Reports
-description: Design an SSRS RDL report with a table in Bold Reports Web Report Designer. Add a table, assign data fields, set expressions and header text, and resize rows.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Design an SSRS RDL Report Using a Table | {{site.productName}}
+description: Design an SSRS RDL report with a table in {{site.productName}} Web Report Designer. Add a table, assign data fields, set expressions and header text, and resize rows.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Design an SSRS RDL report using a table in Bold Reports<sup>®</sup>
+# Design an SSRS RDL report using a table in {{site.productNameTM}}
 
-To design an SSRS RDL report that lists records in a table format, add a table report item in the Bold Reports<sup>®</sup> Web Report Designer and assign data fields. You can then set expressions and header text and resize rows and columns.
+To design an SSRS RDL report that lists records in a table format, add a table report item in the {{site.productNameTM}} Web Report Designer and assign data fields. You can then set expressions and header text and resize rows and columns.
 
 ## Add a table to the report
 
-You add a table in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the `Data Regions` category of the item panel.
+You add a table in the {{site.productNameTM}} Web Report Designer by dragging it from the `Data Regions` category of the item panel.
 
 1. Find the table report item in the item panel under the `Data Regions` category.
    ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/item-panel-view.png '#width=195px')
@@ -21,7 +21,7 @@ You add a table in the Bold Reports<sup>®</sup> Web Report Designer by dragging
 
 ## What does the initial table design look like?
 
-A new `Table` in the Bold Reports<sup>®</sup> Web Report Designer renders with two rows and three columns in the design area after you drop it.
+A new `Table` in the {{site.productNameTM}} Web Report Designer renders with two rows and three columns in the design area after you drop it.
 
 ![Tablix renders with fixed number of row and colums](/static/assets/on-premise/images/report-designer/report-items/tablix/table-basic-view.png '#width=285px')
 
@@ -29,7 +29,7 @@ A new `Table` in the Bold Reports<sup>®</sup> Web Report Designer renders with 
 
 ## How do I assign data fields to the table?
 
-You assign fields to a table in the Bold Reports<sup>®</sup> Web Report Designer in a few different ways:
+You assign fields to a table in the {{site.productNameTM}} Web Report Designer in a few different ways:
 
 * Drag and drop data fields from the `DATA` panel.
 * Select the field from the data assign menu provided in each cell.
@@ -85,7 +85,7 @@ You set header text in a table cell with the `Add Text` option of the Web Report
 
 ## How do I resize a column?
 
-You resize a table column in the Bold Reports<sup>®</sup> Web Report Designer by dragging the column gripper. Resizing the table row height and column width improves report readability.
+You resize a table column in the {{site.productNameTM}} Web Report Designer by dragging the column gripper. Resizing the table row height and column width improves report readability.
 
 1. Place the mouse pointer on the respective column border.
    ![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-column.png '#width=355px')
@@ -94,7 +94,7 @@ You resize a table column in the Bold Reports<sup>®</sup> Web Report Designer b
 
 ## How do I resize a row?
 
-You resize a table row in the Bold Reports<sup>®</sup> Web Report Designer by dragging the row gripper.
+You resize a table row in the {{site.productNameTM}} Web Report Designer by dragging the row gripper.
 
 1. Place the mouse pointer on the respective row border.
    ![Resize the table row](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-row.png '#width=355px')
@@ -103,7 +103,7 @@ You resize a table row in the Bold Reports<sup>®</sup> Web Report Designer by d
 
 ## What does the final design look like?
 
-A simple table design in the Bold Reports<sup>®</sup> Web Report Designer looks like the following image.
+A simple table design in the {{site.productNameTM}} Web Report Designer looks like the following image.
 
 ![Adjust row height of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/simple-table-design.png '#width=355px')
 

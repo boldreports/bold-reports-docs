@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Set Up Bold Data Hub Data Store Destinations | Bold Reports
-description: Configure Bold Data Hub data store destinations in Bold Reports, such as PostgreSQL, SQL Server, MySQL, Snowflake, Oracle, and BigQuery, to load pipeline data.
+title: Set Up Bold Data Hub Data Store Destinations | {{site.productName}}
+description: Configure Bold Data Hub data store destinations in {{site.productName}}, such as PostgreSQL, SQL Server, MySQL, Snowflake, Oracle, and BigQuery, to load pipeline data.
 platform: report-platform
 documentation: ug
 ---
 
 # Bold Data Hub data store destinations
 
-Bold Data Hub in Bold Reports<sup>®</sup> loads pipeline data into a data store destination whose credentials you set in the **Settings** tab.
+Bold Data Hub in {{site.productNameTM}} loads pipeline data into a data store destination whose credentials you set in the **Settings** tab.
 
 ## Which destinations does Bold Data Hub support?
 
@@ -72,13 +72,13 @@ Step 3: Choose the destination where you want to move the data.
 
 Step 4: Enter the credentials for the respective destination.
 
-Step 5: Click **Save** to save the credentials from the Bold Reports<sup>®</sup> Data Store. If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
+Step 5: Click **Save** to save the credentials from the {{site.productNameTM}} Data Store. If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
 
 ## Bold IMDB Datastore
 
-The Bold IMDB Datastore fetches the destination credentials from the Bold Reports<sup>®</sup> Data Store configuration.
+The Bold IMDB Datastore fetches the destination credentials from the {{site.productNameTM}} Data Store configuration.
 
-The data is moved based on the credentials given in the Bold Reports<sup>®</sup> data store.
+The data is moved based on the credentials given in the {{site.productNameTM}} data store.
 
 ![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_imdb.png)
 
@@ -196,7 +196,7 @@ You then need to create a [Google Cloud service account](https://cloud.google.co
 
 A JSON file that includes your service account private key is then downloaded.
 
->**Note:** Bold Data Hub does not support creating a data source in Bold Reports<sup>®</sup> when using Google Bigquery as the data store.
+>**Note:** Bold Data Hub does not support creating a data source in {{site.productNameTM}} when using Google Bigquery as the data store.
 
 ## ClickHouse
 
@@ -238,7 +238,7 @@ Click **Save** to save the credentials.
 
 If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
 
->**Note:** Bold Data Hub does not support creating a data source in Bold Reports<sup>®</sup> when using Firebolt as the data store.
+>**Note:** Bold Data Hub does not support creating a data source in {{site.productNameTM}} when using Firebolt as the data store.
 
 ## Teradata
 
@@ -258,7 +258,7 @@ Click **Save** to save the credentials.
 
 If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
 
->**Note:** Bold Data Hub does not support creating a data source in Bold Reports<sup>®</sup> when using Teradata as the data store.
+>**Note:** Bold Data Hub does not support creating a data source in {{site.productNameTM}} when using Teradata as the data store.
 
 ## SAP HANA Cloud
 
@@ -278,7 +278,7 @@ Click **Save** to save the credentials.
 
 If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
 
->**Note:** Bold Data Hub does not support creating a data source in Bold Reports<sup>®</sup> when using SAP HANA Cloud as the data store.
+>**Note:** Bold Data Hub does not support creating a data source in {{site.productNameTM}} when using SAP HANA Cloud as the data store.
 
 ## IBMDB2
 
@@ -297,7 +297,7 @@ Bold Data Hub needs the following credentials for an IBMDB2 destination:
 
 Click **Save** to save the credentials.
 
->**Note:** Bold Data Hub does not support creating a data source in Bold Reports<sup>®</sup> when using IBMDB2 as the data store.
+>**Note:** Bold Data Hub does not support creating a data source in {{site.productNameTM}} when using IBMDB2 as the data store.
 
 ## Azure Synapse
 
@@ -365,7 +365,7 @@ Bold Data Hub needs the following credentials for a MinIO destination:
 
 Click **Save** to save the credentials.
 
->**Note:** Bold Data Hub does not support creating a data source in Bold Reports<sup>®</sup> when using MinIO as the data store.
+>**Note:** Bold Data Hub does not support creating a data source in {{site.productNameTM}} when using MinIO as the data store.
 
 ## Star Rocks
 
@@ -390,9 +390,9 @@ Click **Save** to save the credentials.
 
 If all the given credentials are valid, Bold Data Hub shows the “Datastore settings are saved successfully” message near the **Save** button.
 
-### Can I create a Bold Reports<sup>®</sup> data source from a Google BigQuery data store?
+### Can I create a {{site.productNameTM}} data source from a Google BigQuery data store?
 
-No. Bold Data Hub does not support creating a data source in Bold Reports<sup>®</sup> when using Google BigQuery as the data store.
+No. Bold Data Hub does not support creating a data source in {{site.productNameTM}} when using Google BigQuery as the data store.
 
 ## See also
 

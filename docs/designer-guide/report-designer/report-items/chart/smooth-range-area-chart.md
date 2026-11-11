@@ -1,15 +1,15 @@
 ---
-title: Add a Smooth Range Area Chart to RDL Reports | Bold Reports
-description: Add a smooth range area chart to an RDL report in the Bold Reports Web Report Designer, bind high and low values, format the legend, series, and axes.
+title: Add a Smooth Range Area Chart to RDL Reports | {{site.productName}}
+description: Add a smooth range area chart to an RDL report in the {{site.productName}} Web Report Designer, bind high and low values, format the legend, series, and axes.
 ---
 
-# Smooth range area chart in Bold Reports<sup>®</sup> Web Report Designer
+# Smooth range area chart in {{site.productNameTM}} Web Report Designer
 
-You add a **Smooth Range Area Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to display a range of data with two Y-values (low and high) per data point, connected by smooth curves. The chart displays information as a range of data by plotting two Y-values (low and high) per data point.
+You add a **Smooth Range Area Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to display a range of data with two Y-values (low and high) per data point, connected by smooth curves. The chart displays information as a range of data by plotting two Y-values (low and high) per data point.
 
 ## How do I add a smooth range area chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the smooth range area chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the smooth range area chart under the `Distribution` category in the item panel.
 
 1. Drag a smooth range area chart from the item panel and drop it into the design area.
 
@@ -21,7 +21,7 @@ The Bold Reports<sup>®</sup> Web Report Designer lists the smooth range area ch
 
 ## How do I create data for the smooth range area chart?
 
-To present data in a Bold Reports<sup>®</sup> smooth range area chart, create a dataset and bind it to the chart data region. This example uses the following JSON data to create the dataset.
+To present data in a {{site.productNameTM}} smooth range area chart, create a dataset and bind it to the chart data region. This example uses the following JSON data to create the dataset.
 
 ```json
 [
@@ -52,7 +52,7 @@ To present data in a Bold Reports<sup>®</sup> smooth range area chart, create a
 
 ## How do I assign data to the smooth range area chart?
 
-A Bold Reports<sup>®</sup> **Smooth Range Area Chart** needs a minimum of 2 value elements and 1 column element to display data. Drop the measure or expression field you want to analyze into the `High(s)` or `Low(s)` section. Drop the dimension that categorizes the measure onto the `Column` section. To categorize by a series, also drop the respective dimension onto the `Row(s)` section.
+A {{site.productNameTM}} **Smooth Range Area Chart** needs a minimum of 2 value elements and 1 column element to display data. Drop the measure or expression field you want to analyze into the `High(s)` or `Low(s)` section. Drop the dimension that categorizes the measure onto the `Column` section. To categorize by a series, also drop the respective dimension onto the `Row(s)` section.
 
 To configure data in a smooth range area chart, follow these steps:
 
@@ -132,7 +132,7 @@ To configure data in a smooth range area chart, follow these steps:
 
 ## How do I format the smooth range area chart?
 
-You format a smooth range area chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab. Use them to get the view you require.
+You format a smooth range area chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab. Use them to get the view you require.
 
 To format a smooth range area chart, follow these steps:
 
@@ -158,7 +158,7 @@ The **Basic Settings** category of the smooth range area chart contains the `Sho
 
 #### Show Legend
 
-A legend is text that describes the plotted data in a Bold Reports<sup>®</sup> chart. You can toggle the visibility of the legend in the chart and customize the legend text appearance. To set or reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
+A legend is text that describes the plotted data in a {{site.productNameTM}} chart. You can toggle the visibility of the legend in the chart and customize the legend text appearance. To set or reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
 
 #### Choose Series
 
@@ -206,7 +206,7 @@ To set or reset no data message properties, refer to the [No Data Message](./../
 
 ### Category Axis
 
-The **Category axis** of a Bold Reports<sup>®</sup> chart displays text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Category Axis` category in the chart properties.
+The **Category axis** of a {{site.productNameTM}} chart displays text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Category Axis` category in the chart properties.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-range-area-chart/category-axis.png '#width=350px')
 
@@ -214,7 +214,7 @@ To set or reset axis properties, refer to the [Axis Properties](./../../../repor
 
 ### Value Axis
 
-The **Value axis** of a Bold Reports<sup>®</sup> chart uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
+The **Value axis** of a {{site.productNameTM}} chart uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-range-area-chart/value-axis.png '#width=350px')
 
@@ -334,7 +334,7 @@ The `Custom Style` property enables the use of external CSS for styling report i
 
 ## How do I preview the smooth range area chart report?
 
-You preview the smooth range area chart report in the Bold Reports<sup>®</sup> Web Report Designer by clicking the preview icon in the design view.
+You preview the smooth range area chart report in the {{site.productNameTM}} Web Report Designer by clicking the preview icon in the design view.
 
 1. The following image shows the final design view of the report.
 
@@ -350,7 +350,7 @@ You preview the smooth range area chart report in the Bold Reports<sup>®</sup> 
 
 ### What is the minimum data a smooth range area chart needs?
 
-A Bold Reports<sup>®</sup> smooth range area chart needs a minimum of 2 value elements and 1 column element. Drop the values into the `High(s)` and `Low(s)` sections.
+A {{site.productNameTM}} smooth range area chart needs a minimum of 2 value elements and 1 column element. Drop the values into the `High(s)` and `Low(s)` sections.
 
 ### How do I show high and low values in the tooltip?
 

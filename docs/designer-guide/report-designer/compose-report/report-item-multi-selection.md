@@ -1,12 +1,12 @@
 ---
-title: Select and Edit Multiple Report Items at Once | Bold Reports
-description: Select multiple report items or tablix cells in Bold Reports Web Report Designer and set their properties, like background or alignment, in one action.
-keywords: ejReportDesigner, reportdesigner, list, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, nested data regions, tablix
+title: Select and Edit Multiple Report Items at Once | {{site.productName}}
+description: Select multiple report items or tablix cells in {{site.productName}} Web Report Designer and set their properties, like background or alignment, in one action.
+keywords: ejReportDesigner, reportdesigner, list, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, nested data regions, tablix
 ---
 
-# Report item multiselection in Bold Reports<sup>®</sup> Web Report Designer
+# Report item multiselection in {{site.productNameTM}} Web Report Designer
 
-Report item multiselection in Bold Reports<sup>®</sup> Web Report Designer lets you set or edit the properties of several report items at once. Changing the properties of more than one report item in a single action makes report design simpler and saves work.
+Report item multiselection in {{site.productNameTM}} Web Report Designer lets you set or edit the properties of several report items at once. Changing the properties of more than one report item in a single action makes report design simpler and saves work.
 
 ## How do I open the properties panel?
 

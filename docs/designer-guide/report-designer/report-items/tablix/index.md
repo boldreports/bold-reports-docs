@@ -1,12 +1,12 @@
 ---
-title: Tablix Table, Matrix, and List in RDL Reports | Bold Reports
-description: Use the Bold Reports Web Report Designer tablix to show RDL report data as a table, matrix, or list, and set its dataset, filters, sorting, and page breaks.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Tablix Table, Matrix, and List in RDL Reports | {{site.productName}}
+description: Use the {{site.productName}} Web Report Designer tablix to show RDL report data as a table, matrix, or list, and set its dataset, filters, sorting, and page breaks.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Tablix report item in Bold Reports<sup>®</sup>
+# Tablix report item in {{site.productNameTM}}
 
-The Bold Reports<sup>®</sup> tablix report item displays paginated report data from a dataset in cells organized into rows and columns. It combines the `Table`, `Matrix`, and `List` report items `(Table + Matrix + List = Tablix)`. You find the `Tablix` report items under the `Data Regions` category in the item panel of the Web Report Designer.
+The {{site.productNameTM}} tablix report item displays paginated report data from a dataset in cells organized into rows and columns. It combines the `Table`, `Matrix`, and `List` report items `(Table + Matrix + List = Tablix)`. You find the `Tablix` report items under the `Data Regions` category in the item panel of the Web Report Designer.
 
 The following image shows the tablix items listed in the item panel.
 
@@ -18,25 +18,25 @@ The following sections explain each of these report items.
 
 ## What is the Table report item?
 
-The Bold Reports<sup>®</sup> Table report item displays data in tabular format. A simple table design contains a table header row and a details row with three columns. A table can have only row groups.
+The {{site.productNameTM}} Table report item displays data in tabular format. A simple table design contains a table header row and a details row with three columns. A table can have only row groups.
 
 ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/table-initial-design.png '#width=355px')
 
 ## What is the Matrix layout?
 
-The Bold Reports<sup>®</sup> matrix layout displays summarized data. A matrix can have row groups and column groups. A simple matrix design contains a row group, a column group, a corner cell, and a data cell.
+The {{site.productNameTM}} matrix layout displays summarized data. A matrix can have row groups and column groups. A simple matrix design contains a row group, a column group, a corner cell, and a data cell.
 
 ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-matrix-design.png '#width=355px')
 
 ## What is the List report item?
 
-The Bold Reports<sup>®</sup> List report item creates free-form layouts. A list acts as a container where you place multiple report items side by side to design a free-form layout.
+The {{site.productNameTM}} List report item creates free-form layouts. A list acts as a container where you place multiple report items side by side to design a free-form layout.
 
 ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-list-design.png '#width=185px')
 
 ## What are the tablix sections?
 
-A Bold Reports<sup>®</sup> tablix data region has four sections:
+A {{site.productNameTM}} tablix data region has four sections:
 
 * Corner cell - It is created when tablix data region has both row groups and column groups.
 * Row group cells - Displays group instance values.
@@ -232,7 +232,7 @@ The Tooltip property displays informative text or a value when the user hovers o
 
 ## How do I set an expression on a tablix property?
 
-You can set an expression on some properties of the Bold Reports<sup>®</sup> tablix report item so that their values are processed from expressions. To set expressions on tablix properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
+You can set an expression on some properties of the {{site.productNameTM}} tablix report item so that their values are processed from expressions. To set expressions on tablix properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## How do I reset an expression?
 
@@ -240,7 +240,7 @@ To `Reset` an expression applied to a tablix property in the Web Report Designer
 
 ## How do I use advanced properties?
 
-Some properties of the Bold Reports<sup>®</sup> tablix report item contain nested properties. To open and handle nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+Some properties of the {{site.productNameTM}} tablix report item contain nested properties. To open and handle nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## How do I design an RDL report using a table?
 
@@ -250,7 +250,7 @@ To learn how to design a simple tablix in your report with the Web Report Design
 
 ### Can a tablix show data from more than one dataset?
 
-No. Each Bold Reports<sup>®</sup> tablix report item can only show data from one dataset.
+No. Each {{site.productNameTM}} tablix report item can only show data from one dataset.
 
 ### Is there a separate Matrix report item?
 

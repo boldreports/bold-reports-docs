@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Schedule Bold Data Hub Pipeline Jobs | Bold Reports
-description: Schedule Bold Data Hub pipelines in Bold Reports to run on demand or at daily or hourly intervals, view schedule history, and set up pipeline mail alerts.
+title: Schedule Bold Data Hub Pipeline Jobs | {{site.productName}}
+description: Schedule Bold Data Hub pipelines in {{site.productName}} to run on demand or at daily or hourly intervals, view schedule history, and set up pipeline mail alerts.
 platform: bold-Reports
 documentation: ug
 
@@ -29,7 +29,7 @@ Bold Data Hub runs a pipeline at regular intervals when you configure an interva
 
 1. Click the **Schedules** tab, select the created pipeline, and click the schedule icon to configure it.
 
-![Zendesk Support - BoldReports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+![Zendesk Support - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
 1. Select the recurrence type, recurrence, start date, and end date in the **Refresh Setting** dialog box. Scheduling supports two recurrence types: ``Daily`` and ``Weekly``.
 
@@ -41,7 +41,7 @@ You can choose one of the following options:
 1. Every N day(s): Runs the schedule once every specified number of days. Example: Every 3 days.
 2. Every Weekday: Runs the schedule Monday to Friday only.
 
-![Schedule - BoldReports](/static/assets/on-premise/images/manage-content/working-with-etl/scheduleDaily.png#max-width=100%)
+![Schedule - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/scheduleDaily.png#max-width=100%)
 
 ### Hourly
 
@@ -50,11 +50,11 @@ The Hourly recurrence type in Bold Data Hub runs the schedule at fixed intervals
 Recur every H hour(s) and M minute(s): Runs the schedule after the specified number of hours and minutes have passed.
 Example: Every 0 hours and 5 minutes (runs every 5 minutes).
 
-![Schedule - BoldReports](/static/assets/on-premise/images/manage-content/working-with-etl/schedulehourly.png#max-width=100%)
+![Schedule - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/schedulehourly.png#max-width=100%)
 
 1. Check the schedule history using the **History** option and the logs.
 
-![Zendesk Support - BoldReports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+![Zendesk Support - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 ## Mail Alert
 

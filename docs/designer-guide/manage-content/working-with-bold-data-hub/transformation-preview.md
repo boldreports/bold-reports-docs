@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Transform and Preview Data in Bold Data Hub | Bold Reports
-description: Transform and preview extracted data in Bold Data Hub for Bold Reports. Clean, filter, aggregate, and normalize data with SQL scripts before you build reports.
+title: Transform and Preview Data in Bold Data Hub | {{site.productName}}
+description: Transform and preview extracted data in Bold Data Hub for {{site.productName}}. Clean, filter, aggregate, and normalize data with SQL scripts before you build reports.
 platform: report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Transform and preview data in Bold Data Hub
 
-Bold Data Hub lets you transform extracted data with SQL scripts and preview the results before you load them for Bold Reports<sup>®</sup>. On the ``Tranformation`` page, you convert extracted data into a suitable format for analysis. This stage includes data cleaning, filtering, aggregation, and normalization. You can also enrich data by integrating it with additional information.
+Bold Data Hub lets you transform extracted data with SQL scripts and preview the results before you load them for {{site.productNameTM}}. On the ``Tranformation`` page, you convert extracted data into a suitable format for analysis. This stage includes data cleaning, filtering, aggregation, and normalization. You can also enrich data by integrating it with additional information.
 
 ## How do I create a transform table in Bold Data Hub?
 

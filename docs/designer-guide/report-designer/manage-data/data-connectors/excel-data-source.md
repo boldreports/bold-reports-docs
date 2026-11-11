@@ -1,27 +1,27 @@
 ---
-title: Connect an Excel Data Source to RDL Reports | Bold Reports
-description: Connect an Excel .xlsx or .xls file from disk or an external URL in the Bold Reports Web Report Designer and import worksheets or tables into RDL reports.
+title: Connect an Excel Data Source to RDL Reports | {{site.productName}}
+description: Connect an Excel .xlsx or .xls file from disk or an external URL in the {{site.productName}} Web Report Designer and import worksheets or tables into RDL reports.
 ---
 
 # Connect to Excel data source
 
-To use spreadsheet data in Bold Reports<sup>®</sup>, create an Excel data source that retrieves data from an Excel file or an external URL. You can import entire worksheets or individual tables.
+To use spreadsheet data in {{site.productNameTM}}, create an Excel data source that retrieves data from an Excel file or an external URL. You can import entire worksheets or individual tables.
 
 ## What file requirements must my Excel workbook meet?
 
-Bold Reports<sup>®</sup> requires Excel files that meet the following prerequisites:
+{{site.productNameTM}} requires Excel files that meet the following prerequisites:
 
-1. Bold Reports<sup>®</sup> supports connecting Excel workbooks created with version 2007 and later with `.xlsx` and `.xls` file extensions.
+1. {{site.productNameTM}} supports connecting Excel workbooks created with version 2007 and later with `.xlsx` and `.xls` file extensions.
 
 2. The prepared workbook must be structured. Create it with unique column names, and keep the values in a row in the same data type as the corresponding columns.
 
-3. Bold Reports<sup>®</sup> considers the first row values of your worksheet as column names by default. Provide unique and meaningful column names in your spreadsheet to make your data easy to identify.
+3. {{site.productNameTM}} considers the first row values of your worksheet as column names by default. Provide unique and meaningful column names in your spreadsheet to make your data easy to identify.
 
 4. You can upload a maximum file size of 20 MB.
 
 ## How do I create an Excel data source?
 
-To create an Excel data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the Excel connection type.
+To create an Excel data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Excel connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -41,7 +41,7 @@ You can connect Excel data using the following two options:
 
 ### How do I load an Excel file from disk?
 
-To load an Excel file from disk in the Bold Reports<sup>®</sup> Web Report Designer, upload the file, choose an extract type, and connect.
+To load an Excel file from disk in the {{site.productNameTM}} Web Report Designer, upload the file, choose an extract type, and connect.
 
 1. Choose the `File` option in the `Type` field. The upload option appears, as shown in the following image.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-upload-option.png '#width=335px')
@@ -59,7 +59,7 @@ To load an Excel file from disk in the Bold Reports<sup>®</sup> Web Report Desi
 
 ### How do I load Excel data from an external URL?
 
-To load Excel data from an external URL in the Bold Reports<sup>®</sup> Web Report Designer, specify the URL, choose an extract type, and connect.
+To load Excel data from an external URL in the {{site.productNameTM}} Web Report Designer, specify the URL, choose an extract type, and connect.
 
 1. Choose the `External` option in the `Type` field.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/external-type.png '#width=355px')
@@ -76,7 +76,7 @@ To load Excel data from an external URL in the Bold Reports<sup>®</sup> Web Rep
 
 ## Importing data
 
-Bold Reports<sup>®</sup> imports Excel data as `Worksheets` and `Tables`.
+{{site.productNameTM}} imports Excel data as `Worksheets` and `Tables`.
 
 * Worksheets: Choose `Worksheets` to fetch an entire worksheet of data along with tables.
 * Table: Choose `Tables` to fetch tables from Excel worksheets.
@@ -85,7 +85,7 @@ Bold Reports<sup>®</sup> imports Excel data as `Worksheets` and `Tables`.
 
 ### How do I import worksheets?
 
-The Bold Reports<sup>®</sup> Excel data connector connects data from different worksheets. The following Excel file has two worksheets.
+The {{site.productNameTM}} Excel data connector connects data from different worksheets. The following Excel file has two worksheets.
 
 ![Excel with multiple worksheet](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/multiple-worksheet.png '#width=600px')
 
@@ -99,7 +99,7 @@ Click `Connect`. The query designer shows the worksheets in a tree view on the l
 
 ### How do I import tables?
 
-The Bold Reports<sup>®</sup> `Excel` data connector connects multiple tables across the worksheets. In the following workbook, the `Order Details` worksheet has two different tables.
+The {{site.productNameTM}} `Excel` data connector connects multiple tables across the worksheets. In the following workbook, the `Order Details` worksheet has two different tables.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/spreadsheet-tables.png '#width=600px')
 
@@ -113,7 +113,7 @@ Click `Connect`. The query designer shows the tables in a tree view on the left 
 
 ## What are the limitations of the Excel data source?
 
-The Bold Reports<sup>®</sup> Excel data source has the following limitations:
+The {{site.productNameTM}} Excel data source has the following limitations:
 
 1. You cannot connect an Excel file with formats other than the .xls and .xlsx extensions.
 2. You cannot connect an empty worksheet.

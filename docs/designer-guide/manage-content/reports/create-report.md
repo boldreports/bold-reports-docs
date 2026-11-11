@@ -1,20 +1,20 @@
 ---
-title: Create an RDL Report in Report Server | Bold Reports
-description: Create an RDL report from scratch in Bold Reports Report Server with the Web Report Designer, connect data, add a chart, and publish or preview the report.
+title: Create an RDL Report in Report Server | {{site.productName}}
+description: Create an RDL report from scratch in {{site.productName}} Report Server with the Web Report Designer, connect data, add a chart, and publish or preview the report.
 keywords : create report, reportserver, web designer
 ---
 
-# Create a report in Bold Reports<sup>®</sup> Report Server
+# Create a report in {{site.productNameTM}} Report Server
 
-> **Note:** Starting from v6.1, the Bold Reports<sup>®</sup> Report Server uses the `new designer` as the default interface for creating or editing reports. The appearance of `old designer` has been `deprecated`. For more information related to this change, see [Breaking changes from v6.x](#breaking-changes-from-v6x).
+> **Note:** Starting from v6.1, the {{site.productNameTM}} Report Server uses the `new designer` as the default interface for creating or editing reports. The appearance of `old designer` has been `deprecated`. For more information related to this change, see [Breaking changes from v6.x](#breaking-changes-from-v6x).
 
-**Creating a report** designs a new report from scratch in Bold Reports<sup>®</sup> On-Premises Edition using the Web Report Designer, and then publishes it to the Report Server. Use this option when you don't already have a designed RDL file to upload and need to build a report against your own data from the ground up.
+**Creating a report** designs a new report from scratch in {{site.productNameTM}} On-Premises Edition using the Web Report Designer, and then publishes it to the Report Server. Use this option when you don't already have a designed RDL file to upload and need to build a report against your own data from the ground up.
 
 The following steps show how to create a report, connect it to data, and add a chart report item. They also cover publishing, previewing the result, and the REST API reference for adding reports programmatically.
 
 ## What is report creation?
 
-Report creation is the process of designing an RDL report entirely within Bold Reports<sup>®</sup>. You connect to a dataset, add report items such as tables and charts, bind data to them, and configure their appearance. Then, you publish the finished report to the Report Server. Uploading brings in an already-designed RDL file. Creating a report starts from a blank canvas in the Web Report Designer. The resulting report is placed into a category that determines who can access it.
+Report creation is the process of designing an RDL report entirely within {{site.productNameTM}}. You connect to a dataset, add report items such as tables and charts, bind data to them, and configure their appearance. Then, you publish the finished report to the Report Server. Uploading brings in an already-designed RDL file. Creating a report starts from a blank canvas in the Web Report Designer. The resulting report is placed into a category that determines who can access it.
 
 * If the user has `All Reports` permission, then the user can create reports in any category.
 * If the user has `Reports in Category` permission for some chosen categories, then the user can only create reports in those chosen categories.
@@ -24,7 +24,7 @@ Report creation is the process of designing an RDL report entirely within Bold R
 
 ### What can I do with report creation?
 
-With Bold Reports<sup>®</sup> report creation, you can:
+With {{site.productNameTM}} report creation, you can:
 
 * Design a report from scratch using the Web Report Designer's drag-and-drop items and data panels.
 * Connect a report to sample data or your own dataset while designing it.
@@ -41,14 +41,14 @@ Intended readers of this guide include:
 
 ## What do I need first?
 
-Before you create a report in Bold Reports<sup>®</sup> Report Server, make sure you have:
+Before you create a report in {{site.productNameTM}} Report Server, make sure you have:
 
 * `All Reports` permission, or `Reports in Category` permission for the category you want to create the report in.
 * A data source or dataset to connect the report to, or use the built-in sample data.
 
 ## Steps to create a report
 
-You start a new report in Bold Reports<sup>®</sup> Report Server from the `[+]` icon in the toolbar.
+You start a new report in {{site.productNameTM}} Report Server from the `[+]` icon in the toolbar.
 
 1. Click the `[+]` icon in the toolbar and click the `Start from Scratch` option.
    ![Add button dropdown toggle](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/add-button-report-server.png)
@@ -165,7 +165,7 @@ You preview a report in the Web Report Designer with the **Preview** button.
 
 ## Breaking changes from v6.x
 
-Bold Reports<sup>®</sup> Report Server opens the new designer by default from v6.1, and the old designer look is deprecated.
+{{site.productNameTM}} Report Server opens the new designer by default from v6.1, and the old designer look is deprecated.
 
 * From v6.1, when you create a new report or edit an existing one, the designer is displayed by default using the `new designer`. The `old designer` look has been `deprecated`.
    ![delete-report-part](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/new-designer-look.png)
@@ -182,7 +182,7 @@ Bold Reports<sup>®</sup> Report Server opens the new designer by default from v
 
 ## What are the key features?
 
-Bold Reports<sup>®</sup> report creation offers the following key features:
+{{site.productNameTM}} report creation offers the following key features:
 
 * **New designer experience**: From v6.1 onwards, you create and edit reports in the new Report Designer by default. During a transition period, you can switch back to the old designer look through server configuration.
 * **Sample and built-in data connections**: Explore built-in sample data to prototype quickly, or connect to your own data source and dataset while designing the report.
@@ -191,7 +191,7 @@ Bold Reports<sup>®</sup> report creation offers the following key features:
 
 ## What are common use cases?
 
-Bold Reports<sup>®</sup> report creation supports the following common use cases:
+{{site.productNameTM}} report creation supports the following common use cases:
 
 * **Building a new report from business data**: Design a report from scratch against a SQL or other data source when no existing RDL file already covers the requirement.
 * **Prototyping with sample data**: Use the built-in sample data to explore report items and layout options before connecting to production data.
@@ -200,7 +200,7 @@ Bold Reports<sup>®</sup> report creation supports the following common use case
 
 ## What are the limits?
 
-Report creation in Bold Reports<sup>®</sup> Report Server has the following considerations and limitations:
+Report creation in {{site.productNameTM}} Report Server has the following considerations and limitations:
 
 * From v6.1, the new designer is used by default for creating and editing reports; the old designer look is deprecated (see Breaking changes from v6.x above).
 * A report must be saved into a category; an unpublished report is stored as a draft on the Drafts listing page until it's published.
@@ -242,7 +242,7 @@ If you run into permission errors, or the Web Report Designer doesn't open as ex
 
 ## REST API Reference
 
-The following table lists the available APIs related to adding reports in Bold Reports<sup>®</sup> On-Premises Edition.
+The following table lists the available APIs related to adding reports in {{site.productNameTM}} On-Premises Edition.
 
 <table>
   <tr>

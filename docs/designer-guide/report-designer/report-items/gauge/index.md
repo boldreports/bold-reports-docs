@@ -1,16 +1,16 @@
 ---
-title: Add Linear and Radial Gauges to RDL Reports | Bold Reports
-description: Use linear and radial gauge report items in the Bold Reports Web Report Designer to show KPIs and progress toward targets in your RDL reports and tables.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reporting
+title: Add Linear and Radial Gauges to RDL Reports | {{site.productName}}
+description: Use linear and radial gauge report items in the {{site.productName}} Web Report Designer to show KPIs and progress toward targets in your RDL reports and tables.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, bold reporting
 ---
 
-# Gauge report items in Bold Reports<sup>®</sup> Web Report Designer
+# Gauge report items in {{site.productNameTM}} Web Report Designer
 
-Gauge report items in the Bold Reports<sup>®</sup> Web Report Designer visualize the key performance indicators (KPIs) that track progress toward your targets or goals. When you place a gauge inside a table or matrix, it shows values inside every cell.
+Gauge report items in the {{site.productNameTM}} Web Report Designer visualize the key performance indicators (KPIs) that track progress toward your targets or goals. When you place a gauge inside a table or matrix, it shows values inside every cell.
 
 ## Which gauge types can I use?
 
-The Bold Reports<sup>®</sup> Web Report Designer offers two gauge types, `Linear` and `Radial`. You find both in the item panel under the `Deviation category`.
+The {{site.productNameTM}} Web Report Designer offers two gauge types, `Linear` and `Radial`. You find both in the item panel under the `Deviation category`.
 
 ![Gauge Types](/static/assets/on-premise/images/report-designer/report-items/gauge/gauge-types-in-item-panel.png '#width=145px')
 

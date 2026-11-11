@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect MySQL over SSH to Bold Data Hub | Bold Reports
-description: Connect a MySQL database over SSH to Bold Data Hub in Bold Reports. Set the SSH and connection properties, create a pipeline, and schedule data refresh.
+title: Connect MySQL over SSH to Bold Data Hub | {{site.productName}}
+description: Connect a MySQL database over SSH to Bold Data Hub in {{site.productName}}. Set the SSH and connection properties, create a pipeline, and schedule data refresh.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect MySQL over SSH with Bold Data Hub
 
-The Bold Data Hub MySQL SSH connector loads data from a MySQL database over an SSH connection into Bold Reports<sup>®</sup>. [MySQL](https://www.mysql.com/) is a relational database management system based on SQL (Structured Query Language). You can use MySQL for a wide range of purposes, including data warehousing, e-commerce, and logging applications.
+The Bold Data Hub MySQL SSH connector loads data from a MySQL database over an SSH connection into {{site.productNameTM}}. [MySQL](https://www.mysql.com/) is a relational database management system based on SQL (Structured Query Language). You can use MySQL for a wide range of purposes, including data warehousing, e-commerce, and logging applications.
 
 ## Connection Properties
 
@@ -77,7 +77,7 @@ You connect MySQL over SSH by creating a project in Bold Data Hub and adding the
 
     ![MySQLSSH Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/mysqlssh_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -115,7 +115,7 @@ You schedule the MySQL SSH pipeline in Bold Data Hub from the schedules tab, or 
 
     ![MySQLSSH - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![MySQLSSH - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

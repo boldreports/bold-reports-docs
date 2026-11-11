@@ -1,15 +1,15 @@
 ---
-title: Connect XML Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to XML data from inline text, a file on disk, or an external URL, and use that data in your RDL reports.
+title: Connect XML Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to XML data from inline text, a file on disk, or an external URL, and use that data in your RDL reports.
 ---
 
 # Connect to XML data source
 
-The XML data source in the Bold Reports<sup>®</sup> Web Report Designer retrieves data from an XML file, a string in XML format, or an external URL so you can use it in reports.
+The XML data source in the {{site.productNameTM}} Web Report Designer retrieves data from an XML file, a string in XML format, or an external URL so you can use it in reports.
 
 ## How do I create an XML data source?
 
-You create an XML data source from the **Data** panel of the Bold Reports<sup>®</sup> Web Report Designer. Follow these steps:
+You create an XML data source from the **Data** panel of the {{site.productNameTM}} Web Report Designer. Follow these steps:
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
@@ -22,7 +22,7 @@ You create an XML data source from the **Data** panel of the Bold Reports<sup>®
 
 ## Which XML source types can I use?
 
-The Bold Reports<sup>®</sup> XML data source connects to XML data using the following three options:
+The {{site.productNameTM}} XML data source connects to XML data using the following three options:
 
 * **Inline** - Inline data.
 * **File Path** - Load from disk.
@@ -96,17 +96,17 @@ You load XML data from an external URL by choosing the `External` type and enter
 
 > **Note:**
 > * In schema tree, the nested fields in the XML data will be shown as flat structure.
-> * When the XML data contains duplicate key names at different levels, Bold Reports<sup>®</sup> ensures uniqueness and avoids conflicts by appending the parent keys to each field name using the following format: `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
+> * When the XML data contains duplicate key names at different levels, {{site.productNameTM}} ensures uniqueness and avoids conflicts by appending the parent keys to each field name using the following format: `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
 
 ## Frequently asked questions
 
 ### How are nested XML fields shown in the schema tree?
 
-The Bold Reports<sup>®</sup> Web Report Designer shows nested fields in the XML data as a flat structure in the schema tree.
+The {{site.productNameTM}} Web Report Designer shows nested fields in the XML data as a flat structure in the schema tree.
 
 ### What happens when XML data has duplicate key names?
 
-Bold Reports<sup>®</sup> appends the parent keys to each field name to keep names unique and avoid conflicts.
+{{site.productNameTM}} appends the parent keys to each field name to keep names unique and avoid conflicts.
 
 ## See also
 

@@ -1,16 +1,16 @@
 ---
-title: Add Barcode Report Items to RDL Reports | Bold Reports
-description: Add one-dimensional and two-dimensional barcode report items to RDL reports in the Bold Reports Web Report Designer and set symbology, text, and rotation.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add Barcode Report Items to RDL Reports | {{site.productName}}
+description: Add one-dimensional and two-dimensional barcode report items to RDL reports in the {{site.productName}} Web Report Designer and set symbology, text, and rotation.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Barcode report item in Bold Reports<sup>®</sup>
+# Barcode report item in {{site.productNameTM}}
 
-The barcode report item in the Bold Reports<sup>®</sup> Web Report Designer represents data in a visual, machine-readable form. You can build reports that display a barcode to make tasks like tracking shipping orders and employee identification numbers easier.
+The barcode report item in the {{site.productNameTM}} Web Report Designer represents data in a visual, machine-readable form. You can build reports that display a barcode to make tasks like tracking shipping orders and employee identification numbers easier.
 
 ## What are one-dimensional barcodes?
 
-One-dimensional barcodes in Bold Reports<sup>®</sup> represent data in the widths and spacings of printed parallel lines. That is why they are also called linear barcodes or symbolics. Linear barcodes are read in one direction (horizontally). Linear symbolics allow the coding of small amounts of information content (a maximum of 20-30 digits or symbols).
+One-dimensional barcodes in {{site.productNameTM}} represent data in the widths and spacings of printed parallel lines. That is why they are also called linear barcodes or symbolics. Linear barcodes are read in one direction (horizontally). Linear symbolics allow the coding of small amounts of information content (a maximum of 20-30 digits or symbols).
 
 ### How do I add a one-dimensional barcode to the report?
 
@@ -85,7 +85,7 @@ To update the orientation of a 1D barcode, select the barcode item in the Web Re
 
 ## What are two-dimensional barcodes?
 
-Two-dimensional (2D) barcodes in Bold Reports<sup>®</sup> code large amounts of information in a barcode, potentially up to several pages worth. Such a barcode consists of square cells, dots, hexagons, and other geometrical figures.
+Two-dimensional (2D) barcodes in {{site.productNameTM}} code large amounts of information in a barcode, potentially up to several pages worth. Such a barcode consists of square cells, dots, hexagons, and other geometrical figures.
 
 ### How do I add a two-dimensional barcode to the report?
 
@@ -187,7 +187,7 @@ To change the orientation of an existing 2D barcode, select the barcode item and
 
 ## General properties
 
-The general properties of the Bold Reports<sup>®</sup> barcode report item set its name, appearance, links, position, visibility, and other options in the properties panel.
+The general properties of the {{site.productNameTM}} barcode report item set its name, appearance, links, position, visibility, and other options in the properties panel.
 
 ### Name
 
@@ -199,7 +199,7 @@ The border style, color, width, and background color properties style the barcod
 
 ### Link
 
-The Linking property in Bold Reports<sup>®</sup> lets you create interactive and user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. Refer to the [Linking](./../../compose-report/link-data/) section to know more about linking.
+The Linking property in {{site.productNameTM}} lets you create interactive and user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. Refer to the [Linking](./../../compose-report/link-data/) section to know more about linking.
 ![Barcode link property](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
 
 ### Border
@@ -250,13 +250,13 @@ You reset an expression applied to a barcode report item property with the `Rese
 
 ## What are advanced properties?
 
-Advanced properties are nested properties that some report item properties contain in the Bold Reports<sup>®</sup> Web Report Designer. To open and handle nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+Advanced properties are nested properties that some report item properties contain in the {{site.productNameTM}} Web Report Designer. To open and handle nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## Frequently asked questions
 
 ### How much data can a one-dimensional barcode hold?
 
-Linear symbolics in Bold Reports<sup>®</sup> allow the coding of small amounts of information content, a maximum of 20-30 digits or symbols.
+Linear symbolics in {{site.productNameTM}} allow the coding of small amounts of information content, a maximum of 20-30 digits or symbols.
 
 ### Which 2D barcodes support the Correction Level property?
 

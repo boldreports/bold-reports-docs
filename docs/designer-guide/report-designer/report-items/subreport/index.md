@@ -1,16 +1,16 @@
 ---
-title: Embed a Subreport in RDL Reports | Bold Reports
-description: Use the subreport report item in Bold Reports Web Report Designer to embed one report inside another, and set its report path, parameters, and no rows message.
+title: Embed a Subreport in RDL Reports | {{site.productName}}
+description: Use the subreport report item in {{site.productName}} Web Report Designer to embed one report inside another, and set its report path, parameters, and no rows message.
 keywords: ejReportDesigner, reportdesigner, subreport, reportitem, border
 ---
 
-# Subreport report item in Bold Reports<sup>®</sup>
+# Subreport report item in {{site.productNameTM}}
 
-The subreport report item in the Bold Reports<sup>®</sup> Web Report Designer embeds another report inside the body of a main report. You can customize the subreport properties along with the report path and parameters.
+The subreport report item in the {{site.productNameTM}} Web Report Designer embeds another report inside the body of a main report. You can customize the subreport properties along with the report path and parameters.
 
 ## Properties
 
-The subreport report item in the Bold Reports<sup>®</sup> Web Report Designer has basic settings, appearance, no rows, position, data element, visibility, and miscellaneous properties.
+The subreport report item in the {{site.productNameTM}} Web Report Designer has basic settings, appearance, no rows, position, data element, visibility, and miscellaneous properties.
 
 ### Basic Settings
 
@@ -206,7 +206,7 @@ The following image shows the `Custom Style` property in the properties panel.
 
 ## How do I set an expression on a subreport property?
 
-You can specify expressions that include two or more data fields and various functions in the Bold Reports<sup>®</sup> Web Report Designer properties panel. To set expressions for the report or report item properties, refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
+You can specify expressions that include two or more data fields and various functions in the {{site.productNameTM}} Web Report Designer properties panel. To set expressions for the report or report item properties, refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## How do I reset an expression?
 
@@ -214,11 +214,11 @@ You `Reset` the property value and expression from the Web Report Designer prope
 
 ## What are advanced properties?
 
-Advanced properties are the nested properties that a few subreport properties contain in the Bold Reports<sup>®</sup> Web Report Designer. To open and handle nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+Advanced properties are the nested properties that a few subreport properties contain in the {{site.productNameTM}} Web Report Designer. To open and handle nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## How do I design an RDL report using a subreport?
 
-The Bold Reports<sup>®</sup> subreport walkthrough shows how to link a report, set parameters, and customize the subreport properties. Refer to the [Design rdl report using subreport](./../../report-items/subreport/design-rdl-report-using-subreport/) section.
+The {{site.productNameTM}} subreport walkthrough shows how to link a report, set parameters, and customize the subreport properties. Refer to the [Design rdl report using subreport](./../../report-items/subreport/design-rdl-report-using-subreport/) section.
 
 ## Frequently asked questions
 

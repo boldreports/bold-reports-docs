@@ -1,16 +1,16 @@
 ---
-title: Add an Image Report Item to RDL Reports | Bold Reports
-description: Add an image report item to an RDL report in the Bold Reports Web Report Designer and load images from an external URL, a database field, or an embedded image.
+title: Add an Image Report Item to RDL Reports | {{site.productName}}
+description: Add an image report item to an RDL report in the {{site.productName}} Web Report Designer and load images from an external URL, a database field, or an embedded image.
 keywords: ejReportDesigner, reportdesigner, image, reportitem, border
 ---
 
-# Image report item in Bold Reports<sup>®</sup> Web Report Designer
+# Image report item in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the image report item displays images in a report from an external link, data fields, or embedded images. Images can be of the BMP, GIF, JPG, PNG, X-PNG, or SVG type.
+In the {{site.productNameTM}} Web Report Designer, the image report item displays images in a report from an external link, data fields, or embedded images. Images can be of the BMP, GIF, JPG, PNG, X-PNG, or SVG type.
 
 ## How do I add an image to the report?
 
-You add an image to a Bold Reports<sup>®</sup> report by dragging the image report item from the item panel into the design area.
+You add an image to a {{site.productNameTM}} report by dragging the image report item from the item panel into the design area.
 
 1. Find the image report item in the item panel under the `Basic Items` category.
     ![image listed in itempanel](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-itempanel.png '#width=410px')
@@ -23,7 +23,7 @@ You add an image to a Bold Reports<sup>®</sup> report by dragging the image rep
 
 ## Which properties can I set for an image?
 
-The Bold Reports<sup>®</sup> image report item has basic settings, link, appearance, size, position, visibility, and miscellaneous properties.
+The {{site.productNameTM}} image report item has basic settings, link, appearance, size, position, visibility, and miscellaneous properties.
 
 ### Basic Settings
 
@@ -56,7 +56,7 @@ The Bold Reports<sup>®</sup> image report item has basic settings, link, appear
 
 ### Link
 
-Linking in Bold Reports<sup>®</sup> creates an interactive report by using the **Hyperlink** and **Report Linking** actions. To learn more, see the [Linking](./../../compose-report/link-data/) section. Select the `Enable  Link` checkbox to enable the sub properties.![Image link property](/static/assets/on-premise/images/report-designer/report-items/image/enable-link-action.png '#width=355px')
+Linking in {{site.productNameTM}} creates an interactive report by using the **Hyperlink** and **Report Linking** actions. To learn more, see the [Linking](./../../compose-report/link-data/) section. Select the `Enable  Link` checkbox to enable the sub properties.![Image link property](/static/assets/on-premise/images/report-designer/report-items/image/enable-link-action.png '#width=355px')
 
 ### Appearance
 

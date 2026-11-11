@@ -1,16 +1,16 @@
 ---
-title: Assign Data and Expressions to a Tablix | Bold Reports
-description: Assign a dataset, fields, and expressions to a tablix data region in Bold Reports Web Report Designer via the data assign menu, DATA panel, or properties panel.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Assign Data and Expressions to a Tablix | {{site.productName}}
+description: Assign a dataset, fields, and expressions to a tablix data region in {{site.productName}} Web Report Designer via the data assign menu, DATA panel, or properties panel.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Assign data to a tablix data region in Bold Reports<sup>®</sup>
+# Assign data to a tablix data region in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the table, matrix, and list report items can display data from a single dataset. You can also assign conditional expressions to filter or sort the dataset columns.
+In the {{site.productNameTM}} Web Report Designer, the table, matrix, and list report items can display data from a single dataset. You can also assign conditional expressions to filter or sort the dataset columns.
 
 ## How do I assign a dataset to a tablix?
 
-You assign a dataset to a tablix in the Bold Reports<sup>®</sup> Web Report Designer in one of two ways:
+You assign a dataset to a tablix in the {{site.productNameTM}} Web Report Designer in one of two ways:
 
 * Assign dataset from data assign menu.
 * Assign dataset in `Dataset` property of tablix.
@@ -43,7 +43,7 @@ You assign a dataset from the `Dataset` property of the tablix in the Web Report
 
 ## How do I assign fields to a tablix cell?
 
-You assign fields to a tablix cell in the Bold Reports<sup>®</sup> Web Report Designer in a few different ways:
+You assign fields to a tablix cell in the {{site.productNameTM}} Web Report Designer in a few different ways:
 
 * Drag and drop data fields from the `DATA` panel.
 * Select the field from the data assign menu provided in each cell.
@@ -72,7 +72,7 @@ You assign a field from the data assign menu that each tablix cell provides in t
 
 ## Assign or edit expression into table cell
 
-You assign or edit an expression in a tablix cell in the Bold Reports<sup>®</sup> Web Report Designer in two ways:
+You assign or edit an expression in a tablix cell in the {{site.productNameTM}} Web Report Designer in two ways:
 
 * Set expression using the `Add Expression` and modify them using the `Edit Expression` option in the Data Assign menu.
 * Set or edit expression using Multi-Text Run Editor Dialog.
@@ -146,7 +146,7 @@ You edit an existing expression in the Multi-Text Run Editor Dialog of the Web R
 
 ## Tablix Cell Editors
 
-Each tablix cell in the Bold Reports<sup>®</sup> Web Report Designer provides flexible editing options to manage text and expressions. These options simplify report design with quick access to text entry or expression assignment.
+Each tablix cell in the {{site.productNameTM}} Web Report Designer provides flexible editing options to manage text and expressions. These options simplify report design with quick access to text entry or expression assignment.
 
 1. **Text Editor icon**: Opens the Multi-Text Run Editor dialog.
 2. **Data Assign Menu icon**: Opens a menu with options to add text or expression.

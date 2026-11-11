@@ -1,16 +1,16 @@
 ---
-title: Design a Mail Merge RDL Report Using a List | Bold Reports
-description: Design a mail merge RDL report with the list report item in the Bold Reports Web Report Designer, and display each employee record in a free-form list layout.
-keywords: ejReportDesigner, reportdesigner, list, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Design a Mail Merge RDL Report Using a List | {{site.productName}}
+description: Design a mail merge RDL report with the list report item in the {{site.productName}} Web Report Designer, and display each employee record in a free-form list layout.
+keywords: ejReportDesigner, reportdesigner, list, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Design an SSRS RDL report using a list in Bold Reports<sup>®</sup>
+# Design an SSRS RDL report using a list in {{site.productNameTM}}
 
-To design a `Mail Merge Report` in the Bold Reports<sup>®</sup> Web Report Designer, create a dataset, add a list report item, and place report items inside the list. Each employee record then displays in a free-form layout.
+To design a `Mail Merge Report` in the {{site.productNameTM}} Web Report Designer, create a dataset, add a list report item, and place report items inside the list. Each employee record then displays in a free-form layout.
 
 ## How do I create the dataset?
 
-You create a dataset in the Bold Reports<sup>®</sup> Web Report Designer to present data in the list format and bind it to the list data region. The following dataset query creates the dataset for this design.
+You create a dataset in the {{site.productNameTM}} Web Report Designer to present data in the list format and bind it to the list data region. The following dataset query creates the dataset for this design.
 
 ```sql
 SELECT Emp.Photo as Photo, Emp.FirstName, Emp.LastName,
@@ -38,7 +38,7 @@ You configure the list by adding the list report item to the design area and ass
 
 ## What does the initial list design look like?
 
-When you drop the list item, the Bold Reports<sup>®</sup> Web Report Designer renders a `Table` with a single cell in a row associated with the detail group. By default, the cell contains a rectangle that acts as a container.
+When you drop the list item, the {{site.productNameTM}} Web Report Designer renders a `Table` with a single cell in a row associated with the detail group. By default, the cell contains a rectangle that acts as a container.
 
 ![List basic view](/static/assets/on-premise/images/report-designer/report-items/list/list-basic-view.png '#width=245px')
 
@@ -46,7 +46,7 @@ When you drop the list item, the Bold Reports<sup>®</sup> Web Report Designer r
 
 ## How do I add report items to the list?
 
-In Bold Reports<sup>®</sup> list data regions, you can place report items anywhere instead of being limited to a table layout. To create a mail merge template, place images, rectangles, and textboxes inside the list report item in a free-form manner.
+In {{site.productNameTM}} list data regions, you can place report items anywhere instead of being limited to a table layout. To create a mail merge template, place images, rectangles, and textboxes inside the list report item in a free-form manner.
 
 1. Drag and drop two rectangle report items inside the list to display the employee image and personal details side by side. Resize the list report item width and height as needed.
    ![Add rectangle item](/static/assets/on-premise/images/report-designer/report-items/list/add-rectangle-item.png '#width=425px')
@@ -70,7 +70,7 @@ In Bold Reports<sup>®</sup> list data regions, you can place report items anywh
 
 ## How do I add a report header?
 
-You add a report title in Bold Reports<sup>®</sup> by enabling the report header and placing a textbox in it.
+You add a report title in {{site.productNameTM}} by enabling the report header and placing a textbox in it.
 
 1. Enable the report `Header` to add a title to the report.
    ![Enable header tag](/static/assets/on-premise/images/report-designer/report-items/list/enable-header-tag.png '#width=200px')
@@ -82,13 +82,13 @@ You add a report title in Bold Reports<sup>®</sup> by enabling the report heade
 
 ## What does the final design look like?
 
-The final design of the Bold Reports<sup>®</sup> Mail Merge Report looks like the following image.
+The final design of the {{site.productNameTM}} Mail Merge Report looks like the following image.
 
 ![Mail merge report design](/static/assets/on-premise/images/report-designer/report-items/list/final-design.png)
 
 ## How does the report look on preview?
 
-On report preview, the Bold Reports<sup>®</sup> mail merge report displays as follows.
+On report preview, the {{site.productNameTM}} mail merge report displays as follows.
 
 ![Mail merge report preview](/static/assets/on-premise/images/report-designer/report-items/list/report-preview.png)
 

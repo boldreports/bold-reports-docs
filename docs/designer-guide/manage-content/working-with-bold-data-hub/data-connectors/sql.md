@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect SQL Server Database to Bold Data Hub | Bold Reports
-description: Connect a Microsoft SQL Server database to Bold Data Hub in Bold Reports. Install the ODBC driver, set connection properties, and use incremental refresh.
+title: Connect SQL Server Database to Bold Data Hub | {{site.productName}}
+description: Connect a Microsoft SQL Server database to Bold Data Hub in {{site.productName}}. Install the ODBC driver, set connection properties, and use incremental refresh.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Microsoft SQL Server with Bold Data Hub
 
-The Bold Data Hub Microsoft SQL Server connector loads data from a SQL Server database into Bold Reports<sup>®</sup>. Microsoft SQL Server is a relational database management system developed by Microsoft. SQL Server stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.
+The Bold Data Hub Microsoft SQL Server connector loads data from a SQL Server database into {{site.productNameTM}}. Microsoft SQL Server is a relational database management system developed by Microsoft. SQL Server stores information in tabular form, with rows and columns representing different data attributes and the various relationships between the data values.
 
 ## What do I need before I connect SQL Server?
 
@@ -52,7 +52,7 @@ You connect Microsoft SQL Server by creating a project in Bold Data Hub and addi
 
     ![sql Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/sql_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -90,7 +90,7 @@ You schedule the SQL Server pipeline in Bold Data Hub from the schedules tab, or
 
     ![SQL - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![SQL - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

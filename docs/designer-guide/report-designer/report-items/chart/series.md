@@ -1,17 +1,17 @@
 ---
-title: Customize Chart Series in RDL Reports | Bold Reports
-description: Customize chart series in the Bold Reports Web Report Designer by setting chart type, border, color, shadow, secondary axis, markers, and data labels.
+title: Customize Chart Series in RDL Reports | {{site.productName}}
+description: Customize chart series in the {{site.productName}} Web Report Designer by setting chart type, border, color, shadow, secondary axis, markers, and data labels.
 ---
 
-# Customize chart series in Bold Reports<sup>®</sup> Web Report Designer
+# Customize chart series in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you customize the chart series appearance by using the properties panel. You can add multiple series to the chart, and the available series are listed in the `Choose Series` drop-down.
+In the {{site.productNameTM}} Web Report Designer, you customize the chart series appearance by using the properties panel. You can add multiple series to the chart, and the available series are listed in the `Choose Series` drop-down.
 
 ![Series selection](/static/assets/on-premise/images/report-designer/report-items/chart/series/choose-series.png '#width=385px')
 
 ## How does the Choose Series drop-down list series?
 
-The `Choose Series` drop-down in the Bold Reports<sup>®</sup> Web Report Designer lists one entry for each series in the chart. In the following image, the chart has a single series.
+The `Choose Series` drop-down in the {{site.productNameTM}} Web Report Designer lists one entry for each series in the chart. In the following image, the chart has a single series.
 
 ![Chart with single series](/static/assets/on-premise/images/report-designer/report-items/chart/series/chart-with-single-series.png)
 
@@ -42,7 +42,7 @@ The secondary panel then displays the properties of the selected series.
 
 ## Basic Settings
 
-The **Basic Settings** of a chart series in Bold Reports<sup>®</sup> contain the chart type, series border, series color, and series shadow properties.
+The **Basic Settings** of a chart series in {{site.productNameTM}} contain the chart type, series border, series color, and series shadow properties.
 
 ### Chart Type
 
@@ -102,7 +102,7 @@ You can also apply shadow properties based on dynamic values by using `Expressio
 
 ## How do I show a series on a secondary axis?
 
-You show a series on a secondary axis in Bold Reports<sup>®</sup> by choosing `Secondary` in the series Category or Value property drop-down. Charts typically have two axes to organize and display data more meaningfully. Primary and secondary axes let you present series data with different ranges or unit types on different axes.
+You show a series on a secondary axis in {{site.productNameTM}} by choosing `Secondary` in the series Category or Value property drop-down. Charts typically have two axes to organize and display data more meaningfully. Primary and secondary axes let you present series data with different ranges or unit types on different axes.
 
 The Category and Value property drop-downs list the `Primary` and `Secondary` axis options.
 
@@ -116,7 +116,7 @@ For example, you may want to show the number of units sold (in unit type numbers
 
 ## Link
 
-The **Link** properties of a chart series make the Bold Reports<sup>®</sup> report interactive.
+The **Link** properties of a chart series make the {{site.productNameTM}} report interactive.
 
 ### Link To
 

@@ -1,12 +1,12 @@
 ---
-title: Publish and Reuse Report Parts in RDL Reports | Bold Reports
-description: Create, publish, and reuse report parts in the Bold Reports Web Report Designer to share tables, charts, and other report items across multiple reports.
-keywords: report parts, report template, report designer, bold reports, ssrs report parts, report components, report part, multiple reports, report items
+title: Publish and Reuse Report Parts in RDL Reports | {{site.productName}}
+description: Create, publish, and reuse report parts in the {{site.productName}} Web Report Designer to share tables, charts, and other report items across multiple reports.
+keywords: report parts, report template, report designer, {{site.productName}}, ssrs report parts, report components, report part, multiple reports, report items
 ---
 
-# Report parts in the Bold Reports<sup>®</sup> Web Report Designer
+# Report parts in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, report parts let you create and publish report item templates that you can reuse across multiple reports. You can publish tables, charts, maps, indicators, and other report items as report parts and reuse them in different reports.
+In the {{site.productNameTM}} Web Report Designer, report parts let you create and publish report item templates that you can reuse across multiple reports. You can publish tables, charts, maps, indicators, and other report items as report parts and reuse them in different reports.
 
 ## What does the report part example use?
 

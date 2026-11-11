@@ -1,12 +1,12 @@
 ---
-title: Toolbar Options in Web Report Designer | Bold Reports
-description: Learn the toolbar options in Bold Reports Web Report Designer, such as cut, copy, paste, undo, redo, zoom, alignment, sizing, and the View menu for RDL design.
+title: Toolbar Options in Web Report Designer | {{site.productName}}
+description: Learn the toolbar options in {{site.productName}} Web Report Designer, such as cut, copy, paste, undo, redo, zoom, alignment, sizing, and the View menu for RDL design.
 keywords: ejReportDesigner,reportdesigner, toolbar, menu items features web designer
 ---
 
-# Bold Reports<sup>®</sup> Web Report Designer toolbar
+# {{site.productNameTM}} Web Report Designer toolbar
 
-The Bold Reports<sup>®</sup> Web Report Designer toolbar contains icons and buttons for common report design operations, such as cut, copy, and paste.
+The {{site.productNameTM}} Web Report Designer toolbar contains icons and buttons for common report design operations, such as cut, copy, and paste.
 
 The following image shows the toolbar items.
 

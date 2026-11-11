@@ -1,16 +1,16 @@
 ---
-title: Add Totals to a Tablix Data Region in RDL | Bold Reports
-description: Add totals to a tablix data region in Bold Reports Web Report Designer to show the sum of numeric values for the tablix body, a row group, or a column group.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add Totals to a Tablix Data Region in RDL | {{site.productName}}
+description: Add totals to a tablix data region in {{site.productName}} Web Report Designer to show the sum of numeric values for the tablix body, a row group, or a column group.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a total to a tablix data region in Bold Reports<sup>®</sup>
+# Add a total to a tablix data region in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the Add Total option displays the sum of numeric values for a tablix group or for the whole tablix data region. You can add a total to the tablix body, a row group, or a column group.
+In the {{site.productNameTM}} Web Report Designer, the Add Total option displays the sum of numeric values for a tablix group or for the whole tablix data region. You can add a total to the tablix body, a row group, or a column group.
 
 ## How do I add a total to the tablix body?
 
-You add a total to the tablix body in the Bold Reports<sup>®</sup> Web Report Designer from the cell context menu.
+You add a total to the tablix body in the {{site.productNameTM}} Web Report Designer from the cell context menu.
 
 1. Select the cell that contains a numeric field in the tablix data region body area.
 2. Right-click in the cell and click the `Add Total` option in the menu.
@@ -23,7 +23,7 @@ If the cell in the body area is common to a row and column group, as shown in th
 
 ## How do I add a total for a row group?
 
-You add a row group total in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Before` or `After` from the `Add Total` menu.
+You add a row group total in the {{site.productNameTM}} Web Report Designer by choosing `Before` or `After` from the `Add Total` menu.
 
 1. Select the cell in the row group area for which you want a total in the tablix data region.
 2. Right-click in the cell and click the `Add Total` option in the menu.
@@ -37,7 +37,7 @@ You add a row group total in the Bold Reports<sup>®</sup> Web Report Designer b
 
 ## How do I add a total for a column group?
 
-You add a column group total in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Before` or `After` from the `Add Total` menu.
+You add a column group total in the {{site.productNameTM}} Web Report Designer by choosing `Before` or `After` from the `Add Total` menu.
 
 1. Select the cell in the column group area for which you want a total in the tablix data region.
 2. Right-click in the cell and click the `Add Total` option in the menu.

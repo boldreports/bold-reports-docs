@@ -1,12 +1,12 @@
 ---
-title: Add Grouping and Totals to a Tablix in RDL | Bold Reports
-description: Add row groups and totals to a tablix data region in Bold Reports Web Report Designer to show grouped records, subtotals, and a grand total in an RDL report.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add Grouping and Totals to a Tablix in RDL | {{site.productName}}
+description: Add row groups and totals to a tablix data region in {{site.productName}} Web Report Designer to show grouped records, subtotals, and a grand total in an RDL report.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add grouping and totals to a tablix in Bold Reports<sup>®</sup>
+# Add grouping and totals to a tablix in {{site.productNameTM}}
 
-To add grouping and totals to an SSRS RDL report in the Bold Reports<sup>®</sup> Web Report Designer, add row groups and totals to the tablix data region with the following steps.
+To add grouping and totals to an SSRS RDL report in the {{site.productNameTM}} Web Report Designer, add row groups and totals to the tablix data region with the following steps.
 
 Prefer watching over reading? Check out this video for adding grouping and totals in a tablix data region:
 
@@ -14,7 +14,7 @@ Prefer watching over reading? Check out this video for adding grouping and total
 
 ## How do I create the dataset?
 
-To present data in tabular format in the Bold Reports<sup>®</sup> Web Report Designer, create a dataset and bind data to the tablix data region. This design example uses the following dataset query for dataset creation:
+To present data in tabular format in the {{site.productNameTM}} Web Report Designer, create a dataset and bind data to the tablix data region. This design example uses the following dataset query for dataset creation:
 
 ```sql
 SELECT Top 50  PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -31,13 +31,13 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I create a simple table design?
 
-You start with a simple table report design in the Bold Reports<sup>®</sup> Web Report Designer by following the steps in the [Table Design](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section.
+You start with a simple table report design in the {{site.productNameTM}} Web Report Designer by following the steps in the [Table Design](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section.
 
 ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/initial-design.png '#width=285px')
 
 ## How do I add group data?
 
-You add group data to a tablix in the Bold Reports<sup>®</sup> Web Report Designer by creating a parent row group and then a child row group from the grouping panel.
+You add group data to a tablix in the {{site.productNameTM}} Web Report Designer by creating a parent row group and then a child row group from the grouping panel.
 
 ### How do I add a parent row group?
 
@@ -76,7 +76,7 @@ A new column is added to the right side of the `Product Category` row group in t
 
 ## How do I add totals?
 
-You add totals to a tablix in the Bold Reports<sup>®</sup> Web Report Designer with the `Add Total` option in the cell menu. The steps below add a product total, a product category total, and a grand total.
+You add totals to a tablix in the {{site.productNameTM}} Web Report Designer with the `Add Total` option in the cell menu. The steps below add a product total, a product category total, and a grand total.
 
 ### How do I add the total yearly sales of a product?
 
@@ -107,7 +107,7 @@ To calculate the grand total of all product sales, follow these steps:
 
 ## How do I edit the total cell content?
 
-You modify the text for each total in the Bold Reports<sup>®</sup> Web Report Designer by editing the cells and setting expressions.
+You modify the text for each total in the {{site.productNameTM}} Web Report Designer by editing the cells and setting expressions.
 
 1. Edit the third row, third column cell that contains the `Total` text and set the expression `= "Total yearly sales of " & Fields!SubCat.Value` in the expression builder.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/set-expression-for-subcat-field.png '#width=355px')
@@ -124,13 +124,13 @@ The final design now looks like the following image:
 
 ## How do I format the total rows?
 
-You format total rows in the Bold Reports<sup>®</sup> Web Report Designer with background colors and font weight. In the following design, the `Background` color of the total column is set with three different colors. The colors differentiate the totals at the details level and the product category level. Set the font weight of the expression fields as `Bold` to improve the table design. The background color of the tablix header row is also changed to improve the report presentation.
+You format total rows in the {{site.productNameTM}} Web Report Designer with background colors and font weight. In the following design, the `Background` color of the total column is set with three different colors. The colors differentiate the totals at the details level and the product category level. Set the font weight of the expression fields as `Bold` to improve the table design. The background color of the tablix header row is also changed to improve the report presentation.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/format-total-row.png '#width=385px')
 
 ## What does the final design and preview look like?
 
-The final Bold Reports<sup>®</sup> report design looks like the following image:
+The final {{site.productNameTM}} report design looks like the following image:
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/final-report-design.png '#width=385px')
 

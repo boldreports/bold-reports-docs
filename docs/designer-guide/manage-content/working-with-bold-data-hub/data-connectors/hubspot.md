@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect HubSpot CRM to Bold Data Hub | Bold Reports
-description: Connect HubSpot to Bold Data Hub in Bold Reports. Create a private app access token, set connection properties, and schedule data refresh for your CRM data.
+title: Connect HubSpot CRM to Bold Data Hub | {{site.productName}}
+description: Connect HubSpot to Bold Data Hub in {{site.productName}}. Create a private app access token, set connection properties, and schedule data refresh for your CRM data.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect HubSpot with Bold Data Hub
 
-The Bold Data Hub HubSpot connector loads CRM data from HubSpot into Bold Reports<sup>®</sup>. HubSpot is a customer relationship management (CRM) and inbound marketing platform.
+The Bold Data Hub HubSpot connector loads CRM data from HubSpot into {{site.productNameTM}}. HubSpot is a customer relationship management (CRM) and inbound marketing platform.
 
 ## How do I get HubSpot credentials?
 
@@ -76,7 +76,7 @@ You connect HubSpot by creating a project in Bold Data Hub and adding the `Hubsp
 
 5. Click **Save** and choose the destination to save the pipeline.
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Hubspot  - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -118,7 +118,7 @@ You schedule the HubSpot pipeline in Bold Data Hub from the schedules tab, or yo
 
     ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

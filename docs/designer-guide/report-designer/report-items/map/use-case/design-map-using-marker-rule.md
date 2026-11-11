@@ -1,15 +1,15 @@
 ---
-title: Design a Map Report with a Marker Rule | Bold Reports
-description: Design a map in Bold Reports Web Report Designer with a marker rule and marker color rule to show the mineral resources production plants of a company in USA.
+title: Design a Map Report with a Marker Rule | {{site.productName}}
+description: Design a map in {{site.productName}} Web Report Designer with a marker rule and marker color rule to show the mineral resources production plants of a company in USA.
 ---
 
-# Design a map using a marker rule in Bold Reports<sup>®</sup>
+# Design a map using a marker rule in {{site.productNameTM}}
 
-You can design a map in the Bold Reports<sup>®</sup> Web Report Designer with a marker rule and color rule. The example map displays the mineral resources production plants of a company in the USA.
+You can design a map in the {{site.productNameTM}} Web Report Designer with a marker rule and color rule. The example map displays the mineral resources production plants of a company in the USA.
 
 ## How do I create the data set?
 
-You create the data set for the map in the Bold Reports<sup>®</sup> Web Report Designer from a JSON file. Follow these steps:
+You create the data set for the map in the {{site.productNameTM}} Web Report Designer from a JSON file. Follow these steps:
 
 1. In the data panel, click `New Data`.
    ![New data](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/new-data.png '#width=350px')
@@ -31,7 +31,7 @@ You create the data set for the map in the Bold Reports<sup>®</sup> Web Report 
 
 ## How do I add a map to the report design?
 
-The `Map` report item in the Bold Reports<sup>®</sup> Web Report Designer is listed under the `Data Regions` category in the item panel.
+The `Map` report item in the {{site.productNameTM}} Web Report Designer is listed under the `Data Regions` category in the item panel.
 
 ![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/map-listed-in-item-panel.png '#width=175px')
 
@@ -47,7 +47,7 @@ The map item is rendered in the design area, and the map properties are listed i
 
 ## How do I bind analytical and shape data?
 
-You bind analytical and shape data in the Bold Reports<sup>®</sup> Web Report Designer from the **Basic Settings** category of the properties panel. Follow these steps:
+You bind analytical and shape data in the {{site.productNameTM}} Web Report Designer from the **Basic Settings** category of the properties panel. Follow these steps:
 
 1. Under the **Basic Settings** category, set `USA` in the `Shapes` property and choose the data set in the **DataSet** property.
 
@@ -63,22 +63,22 @@ You bind analytical and shape data in the Bold Reports<sup>®</sup> Web Report D
 
 ## How do I customize the map appearance?
 
-You customize the map title, color settings, and other properties in the Bold Reports<sup>®</sup> Web Report Designer properties panel.
+You customize the map title, color settings, and other properties in the {{site.productNameTM}} Web Report Designer properties panel.
 
 ### Appearance
 
-Under the **Appearance** category in the Bold Reports<sup>®</sup> Web Report Designer, set the border width and color properties as required.
+Under the **Appearance** category in the {{site.productNameTM}} Web Report Designer, set the border width and color properties as required.
 
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/border.png '#width=385px')
 
 ### Title
 
-Under the [Title](./../../../../report-items/map/properties/#title) category in the Bold Reports<sup>®</sup> Web Report Designer, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, set the title as `= "Mineral Production Plants of " & Fields!CompanyName.Value` and the position as `center`.
+Under the [Title](./../../../../report-items/map/properties/#title) category in the {{site.productNameTM}} Web Report Designer, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, set the title as `= "Mineral Production Plants of " & Fields!CompanyName.Value` and the position as `center`.
 ![Title text](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/title.png '#width=385px')
 
 ### Shape settings
 
-Under the [Shape Settings](./../../../../report-items/map/shape-settings/) in the Bold Reports<sup>®</sup> Web Report Designer, set the following values:
+Under the [Shape Settings](./../../../../report-items/map/shape-settings/) in the {{site.productNameTM}} Web Report Designer, set the following values:
 
 * Background color as `#ffffff`.
 * Border color as `#676767` and width as `0.672px`.
@@ -88,12 +88,12 @@ Under the [Shape Settings](./../../../../report-items/map/shape-settings/) in th
 
 ## How do I define the marker rule?
 
-You define the marker rule in the Bold Reports<sup>®</sup> Web Report Designer after you enable the markers. Under the [Marker Settings](./../../../../report-items/map/marker-settings/) category, enable the **Enable Marker** checkbox. Set the marker size as `12.333` and the tooltip as the `=Fields!Resource.Value` expression, and leave the other values at their defaults.
+You define the marker rule in the {{site.productNameTM}} Web Report Designer after you enable the markers. Under the [Marker Settings](./../../../../report-items/map/marker-settings/) category, enable the **Enable Marker** checkbox. Set the marker size as `12.333` and the tooltip as the `=Fields!Resource.Value` expression, and leave the other values at their defaults.
 ![Marker settings](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/marker-settings.png '#width=385px')
 
 ### Marker rule
 
-Under the [Marker rule](./../../../../report-items/map/marker-rule/) category in the Bold Reports<sup>®</sup> Web Report Designer, enable the **Enable Marker Rule** check box. Then, set the following values:
+Under the [Marker rule](./../../../../report-items/map/marker-rule/) category in the {{site.productNameTM}} Web Report Designer, enable the **Enable Marker Rule** check box. Then, set the following values:
 
 * Choose the `Resource` field in **Data Value**.
 * Define custom marker styles as described in [Marker property](./../../../../report-items/map/marker-rule/#markers). Here, seven styles in total are defined to show the data on the map surface.![Marker settings](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/marker-style-set.png '#width=385px')
@@ -105,7 +105,7 @@ The marker rule configuration looks like the following image.
 
 ### Marker color rule
 
-The marker color rule in the Bold Reports<sup>®</sup> Web Report Designer differentiates items that share the same marker style. The marker style configuration above defines seven marker styles, and `Diamond` is defined more than once. So, in preview, two items denote the `Diamond` shape. To differentiate these items, apply a marker color rule.
+The marker color rule in the {{site.productNameTM}} Web Report Designer differentiates items that share the same marker style. The marker style configuration above defines seven marker styles, and `Diamond` is defined more than once. So, in preview, two items denote the `Diamond` shape. To differentiate these items, apply a marker color rule.
 
 Under the [Marker color rule](./../../../../report-items/map/marker-color-rule/) category, enable the **Enable Color Rule** check box. Then, set the following values:
 
@@ -129,7 +129,7 @@ To see the actual data on the map surface, preview the report. Before that, resi
 
 ### Preview report
 
-You can preview the report at design time using the built-in Bold Reports<sup>®</sup> Viewer to make sure the report design is as expected. In preview mode, you can see the different mineral resources production plants located in states of the USA. The following snapshot shows the marker style distributed based on the type of mineral resource plant.
+You can preview the report at design time using the built-in {{site.productNameTM}} Viewer to make sure the report design is as expected. In preview mode, you can see the different mineral resources production plants located in states of the USA. The following snapshot shows the marker style distributed based on the type of mineral resource plant.
 
 ![Report preview](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/preview.png)
 

@@ -1,17 +1,17 @@
 ---
-title: Connect an Oracle Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to Oracle Database 12.2, 18c, 19c, 21c, or 23c with basic options or a connection string to feed RDL reports.
+title: Connect an Oracle Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to Oracle Database 12.2, 18c, 19c, 21c, or 23c with basic options or a connection string to feed RDL reports.
 ---
 
 # Connect to Oracle data source
 
-Bold Reports<sup>®</sup> supports these Oracle Database server versions: 12.2, 18c, 19c, 21c, and 23c.
+{{site.productNameTM}} supports these Oracle Database server versions: 12.2, 18c, 19c, 21c, and 23c.
 
-Using the `Oracle` connection type in the Bold Reports<sup>®</sup> Web Report Designer, you can connect an Oracle database with basic options or a connection string.
+Using the `Oracle` connection type in the {{site.productNameTM}} Web Report Designer, you can connect an Oracle database with basic options or a connection string.
 
 ## How do I choose the Oracle data source?
 
-To choose the Oracle data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and select the Oracle connection type.
+To choose the Oracle data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and select the Oracle connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -31,10 +31,10 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 4. In the **Port** field, specify the Port number. The default port number is `1521`.
 5. Specify the username of your Oracle server in the **Username** field.
 6. Specify the password of your Oracle server in the **Password** field.
-7. Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+7. Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 8. Choose or enter an existing valid database, e.g. ADVENTUREWORKS.
    ![Basic Option](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/basic-options.png '#width=355px')
-9. Click `Connect` to connect Bold Reports<sup>®</sup> with the Oracle database.
+9. Click `Connect` to connect {{site.productNameTM}} with the Oracle database.
 10. Drag and drop the table from the table schema in the query design view page.
     ![Query Designer](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/query-designer.png)
 11. Click `Finish` to save the data source with a relevant name and continue designing the report.
@@ -42,7 +42,7 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 
 ### How do I create an Oracle data source with advanced options?
 
-The Bold Reports<sup>®</sup> advanced options let you build your own connection string for Oracle.
+The {{site.productNameTM}} advanced options let you build your own connection string for Oracle.
 
 1. Click `Advanced Options` in the `New Data` panel.
 
@@ -71,7 +71,7 @@ The Bold Reports<sup>®</sup> advanced options let you build your own connection
 
 #### Connection string
 
-A connection string is the text representation of connection properties for a data provider. Bold Reports<sup>®</sup> uses it in the advanced options to connect to Oracle.
+A connection string is the text representation of connection properties for a data provider. {{site.productNameTM}} uses it in the advanced options to connect to Oracle.
 
 If the database is on your local computer, specify the connection string as follows:
 
@@ -87,7 +87,7 @@ Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=myserver.dom
 
 ### Authentication types
 
-The Bold Reports<sup>®</sup> Oracle data source supports Oracle database credentials, prompted credentials, or no credentials.
+The {{site.productNameTM}} Oracle data source supports Oracle database credentials, prompted credentials, or no credentials.
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/advanced-authentication.png '#width=385px')
 
@@ -107,9 +107,9 @@ Enable the Save password option to embed the credentials within the report when 
 
 ## Frequently asked questions
 
-### Which Oracle Database versions does Bold Reports<sup>®</sup> support?
+### Which Oracle Database versions does {{site.productNameTM}} support?
 
-Bold Reports<sup>®</sup> supports Oracle Database server versions 12.2, 18c, 19c, 21c, and 23c.
+{{site.productNameTM}} supports Oracle Database server versions 12.2, 18c, 19c, 21c, and 23c.
 
 ### What is the default Oracle port?
 

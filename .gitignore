@@ -15,18 +15,12 @@ package-lock.json
 
 # common
 stack.json
-/.htmllintrc
-/.jshintrc
 /.markdownlint.json
 
 # misc
 cireports
 docs-utilities/
 temp/
-.github-js/
-.github-angular/
-/pdf/
-docs-utilities/
 url-validation-error.log
 left-toc.json
 sitemap.xml
@@ -38,6 +32,3 @@ static/*
 !static/favicon.ico
 !static/robots.txt
 !static/js/
-
-# startFiles
-# endFiles

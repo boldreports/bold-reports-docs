@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Configure SMTP Email for Bold Data Hub Alerts | Bold Reports
-description: Configure SMTP sender email settings in Bold Reports Bold Data Hub so pipeline mail alerts can be sent through Google, Microsoft, or other SMTP providers.
+title: Configure SMTP Email for Bold Data Hub Alerts | {{site.productName}}
+description: Configure SMTP sender email settings in {{site.productName}} Bold Data Hub so pipeline mail alerts can be sent through Google, Microsoft, or other SMTP providers.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Configure email settings for Bold Data Hub mail alerts
 
-Bold Data Hub in Bold Reports<sup>®</sup> sends pipeline **mail alerts** through the SMTP settings you configure in the **Email settings** section of the **Settings** tab.
+Bold Data Hub in {{site.productNameTM}} sends pipeline **mail alerts** through the SMTP settings you configure in the **Email settings** section of the **Settings** tab.
 
 > **Note:** Sender mail configuration is mandatory if mail alerting needs to be enabled.
 

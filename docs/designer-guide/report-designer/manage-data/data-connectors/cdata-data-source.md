@@ -1,15 +1,15 @@
 ---
-title: Connect CData Data Sources to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to a CData data source, optionally through an SSH tunnel, and use the query results to build RDL reports.
+title: Connect CData Data Sources to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to a CData data source, optionally through an SSH tunnel, and use the query results to build RDL reports.
 ---
 
 # Connect to CDATA data source
 
-To connect Bold Reports<sup>®</sup> to a CData data source, open the **Data** configuration panel in the Web Report Designer and create a CData data source. You can also connect through a secure SSH tunnel.
+To connect {{site.productNameTM}} to a CData data source, open the **Data** configuration panel in the Web Report Designer and create a CData data source. You can also connect through a secure SSH tunnel.
 
 ## How do I create a CDATA data source?
 
-To create a CDATA data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the CDATA connection type.
+To create a CDATA data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the CDATA connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
@@ -39,7 +39,7 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 
 ### How do I connect to a CDATA data source through an SSH tunnel?
 
-Bold Reports<sup>®</sup> lets you connect to a CDATA data source using a secure SSH tunnel. The SSH tunnel provides a more secure method for connecting, especially when you access remote databases over untrusted or insecure networks.
+{{site.productNameTM}} lets you connect to a CDATA data source using a secure SSH tunnel. The SSH tunnel provides a more secure method for connecting, especially when you access remote databases over untrusted or insecure networks.
 
 ![Enable-SSH](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-ssh-mysql.png '#width=385px')
 
@@ -49,7 +49,7 @@ Bold Reports<sup>®</sup> lets you connect to a CDATA data source using a secure
 
 ### Can I connect to CDATA through an SSH tunnel?
 
-Yes. Bold Reports<sup>®</sup> supports connecting to a CDATA data source through a secure SSH tunnel.
+Yes. {{site.productNameTM}} supports connecting to a CDATA data source through a secure SSH tunnel.
 
 ### How do I preview CDATA data before saving?
 

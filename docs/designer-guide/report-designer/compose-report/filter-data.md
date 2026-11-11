@@ -1,12 +1,12 @@
 ---
-title: Filter RDL Report Data in Web Report Designer | Bold Reports
-description: Add filters in the Bold Reports Web Report Designer to limit the data shown in an RDL report or data region by passing a specific dataset field value.
+title: Filter RDL Report Data in Web Report Designer | {{site.productName}}
+description: Add filters in the {{site.productName}} Web Report Designer to limit the data shown in an RDL report or data region by passing a specific dataset field value.
 keywords: ejReportDesigner, reportdesigner, filters, opertors
 ---
 
-# Filter data in Bold Reports<sup>®</sup> Web Report Designer
+# Filter data in {{site.productNameTM}} Web Report Designer
 
-Filters in Bold Reports<sup>®</sup> Web Report Designer limit the data in a report by passing a specific dataset field value. You can use filters to limit the data in data regions.
+Filters in {{site.productNameTM}} Web Report Designer limit the data in a report by passing a specific dataset field value. You can use filters to limit the data in data regions.
 
 ![open-filter-dialog](/static/assets/on-premise/images/report-designer/compose-report/filter-data/filters-dialog.png '#width=400px')
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Download Reports as RDL Files from Server | Bold Reports
-description: Download a report from the Bold Reports Report Server in .rdl format with the Download Report option in the context menu, available from version 2.2.28 onwards.
+title: Download Reports as RDL Files from Server | {{site.productName}}
+description: Download a report from the {{site.productName}} Report Server in .rdl format with the Download Report option in the context menu, available from version 2.2.28 onwards.
 platform: report-platform
 documentation: ug
 ---
 
-# Download a report from Bold Reports<sup>®</sup> Report Server
+# Download a report from {{site.productNameTM}} Report Server
 
-You can download reports from the Bold Reports<sup>®</sup> On-Premises Edition Report Server as RDL files.
+You can download reports from the {{site.productNameTM}} On-Premises Edition Report Server as RDL files.
 
 ## How do I download a report?
 
@@ -16,7 +16,7 @@ To download a report from Report Server in `.rdl` format, click the **Download R
 
 ![Download Report](/static/assets/on-premise/images/manage-content/manage-reports/download-report.png)
 
-> This option is available on Bold Reports<sup>®</sup> On-Premises Edition from version `2.2.28` onwards.
+> This option is available on {{site.productNameTM}} On-Premises Edition from version `2.2.28` onwards.
 
 ## Frequently asked questions
 

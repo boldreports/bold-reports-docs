@@ -1,16 +1,16 @@
 ---
-title: Add a Stacked Column 100% Chart to RDL | Bold Reports
-description: Add a stacked column 100% chart to an RDL report in the Bold Reports Web Report Designer, bind data, and format its legend, series, axes, and page breaks.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add a Stacked Column 100% Chart to RDL | {{site.productName}}
+description: Add a stacked column 100% chart to an RDL report in the {{site.productName}} Web Report Designer, bind data, and format its legend, series, axes, and page breaks.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Stacked Column 100% Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Stacked Column 100% Chart in the {{site.productNameTM}} Web Report Designer
 
-The **Stacked Column 100% Chart** in the Bold Reports<sup>®</sup> Web Report Designer compares multiple measures through bars stacked one after the other vertically. You add it from the item panel, bind data to it, and format it in the properties panel.
+The **Stacked Column 100% Chart** in the {{site.productNameTM}} Web Report Designer compares multiple measures through bars stacked one after the other vertically. You add it from the item panel, bind data to it, and format it in the properties panel.
 
 ## How do I add a stacked column 100% chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the stacked column 100% chart under the `Comparison` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the stacked column 100% chart under the `Comparison` category in the item panel.
 
 Drag and drop a stacked column 100% chart from the item panel into the design area.
 
@@ -22,7 +22,7 @@ The stacked column 100% chart renders in the design area, and the properties pan
 
 ## How do I create data for the stacked column 100% chart?
 
-To present data in a Bold Reports<sup>®</sup> stacked column 100% chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
+To present data in a {{site.productNameTM}} stacked column 100% chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
 
 ```json
 [
@@ -57,7 +57,7 @@ To present data in a Bold Reports<sup>®</sup> stacked column 100% chart, create
 
 ## How do I assign data to the stacked column 100% chart?
 
-The Bold Reports<sup>®</sup> **Stacked Column 100% Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension into the `Row(s)` section.
+The {{site.productNameTM}} **Stacked Column 100% Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension into the `Row(s)` section.
 
 To configure data in a stacked column 100% chart, follow these steps:
 
@@ -121,7 +121,7 @@ To configure data in a stacked column 100% chart, follow these steps:
 
 ## How do I format the stacked column 100% chart?
 
-You format a stacked column 100% chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab. Use them to get the view you need.
+You format a stacked column 100% chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab. Use them to get the view you need.
 
 To format a stacked column 100% chart, follow these steps:
 
@@ -320,7 +320,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the stacked column 100% chart report?
 
-You preview the stacked column 100% chart report from the design view of the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the stacked column 100% chart report from the design view of the {{site.productNameTM}} Web Report Designer.
 
 1. Review the final design view of the report, shown in the following image.
 
@@ -336,7 +336,7 @@ You preview the stacked column 100% chart report from the design view of the Bol
 
 ### Where is the stacked column 100% chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the stacked column 100% chart under the `Comparison` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the stacked column 100% chart under the `Comparison` category in the item panel.
 
 ### What data does a stacked column 100% chart need?
 

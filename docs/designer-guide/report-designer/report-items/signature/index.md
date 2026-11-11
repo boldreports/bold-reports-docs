@@ -1,16 +1,16 @@
 ---
-title: Add Signature Report Items to RDL Reports | Bold Reports
-description: Use the Signature report item in Bold Reports Web Report Designer to add electronic or PDF digital signatures to SSRS RDL reports and set its properties.
-keywords: Signature report item, Bold Reports Designer, electronic signature, PDF signature, SSRS report customization, signature properties, report design guide
+title: Add Signature Report Items to RDL Reports | {{site.productName}}
+description: Use the Signature report item in {{site.productName}} Web Report Designer to add electronic or PDF digital signatures to SSRS RDL reports and set its properties.
+keywords: Signature report item, {{site.productName}} Designer, electronic signature, PDF signature, SSRS report customization, signature properties, report design guide
 ---
 
-# Signature report item in Bold Reports<sup>®</sup>
+# Signature report item in {{site.productNameTM}}
 
-The `Signature` report item in the Bold Reports<sup>®</sup> Web Report Designer lets you add signature fields to reports, supporting both electronic and PDF digital signatures. Use it for reports that require formal or informal approvals, acknowledgments, or secure document authentication.
+The `Signature` report item in the {{site.productNameTM}} Web Report Designer lets you add signature fields to reports, supporting both electronic and PDF digital signatures. Use it for reports that require formal or informal approvals, acknowledgments, or secure document authentication.
 
 ## How do I add an electronic signature report item?
 
-You add an electronic signature in the Bold Reports<sup>®</sup> Web Report Designer by dragging the **Electronic signature** item from the item panel into the design area.
+You add an electronic signature in the {{site.productNameTM}} Web Report Designer by dragging the **Electronic signature** item from the item panel into the design area.
 
 1. Find the **Electronic signature** report item in the item panel under the `Signatures` category.
    ![Electronic Signature listed in item panel](/static/assets/on-premise/images/report-designer/report-items/signature/signature-item-in-item-panel.png '#width=215px')
@@ -21,7 +21,7 @@ You add an electronic signature in the Bold Reports<sup>®</sup> Web Report Desi
 
 ## How do I add a PDF signature report item?
 
-You add a PDF signature in the Bold Reports<sup>®</sup> Web Report Designer by dragging the **PDF signature** item from the item panel into the design area.
+You add a PDF signature in the {{site.productNameTM}} Web Report Designer by dragging the **PDF signature** item from the item panel into the design area.
 
 1. Find the **PDF signature** report item in the item panel under the `Signatures` category.
    ![PDF Signature listed in item panel](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature-item-in-item-panel.png '#width=215px')
@@ -32,7 +32,7 @@ You add a PDF signature in the Bold Reports<sup>®</sup> Web Report Designer by 
 
 ## General Properties
 
-The general properties of the signature report item in the Bold Reports<sup>®</sup> Web Report Designer control its name, appearance, position, visibility, and miscellaneous behavior.
+The general properties of the signature report item in the {{site.productNameTM}} Web Report Designer control its name, appearance, position, visibility, and miscellaneous behavior.
 
 ### Name
 
@@ -82,7 +82,7 @@ The following image shows the `Custom Style` property in the properties panel.
 
 ## How do I set an expression on a signature property?
 
-You can apply expressions to certain properties of the signature report item in the Bold Reports<sup>®</sup> Web Report Designer to process the property values. To set expressions for the signature report item properties, refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
+You can apply expressions to certain properties of the signature report item in the {{site.productNameTM}} Web Report Designer to process the property values. To set expressions for the signature report item properties, refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## How do I reset an expression?
 
@@ -90,7 +90,7 @@ You `Reset` an expression applied to a signature item property from the Web Repo
 
 ## What are advanced properties?
 
-Advanced properties are the nested properties that some signature report item properties contain in the Bold Reports<sup>®</sup> Web Report Designer. For information on opening and handling nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+Advanced properties are the nested properties that some signature report item properties contain in the {{site.productNameTM}} Web Report Designer. For information on opening and handling nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## Frequently asked questions
 

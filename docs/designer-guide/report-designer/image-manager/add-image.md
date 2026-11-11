@@ -1,12 +1,12 @@
 ---
-title: Add an Embedded Image to an RDL Report | Bold Reports
-description: Add an embedded image to an RDL report with the Image Manager in Bold Reports Web Report Designer, so the image is always available to that report.
+title: Add an Embedded Image to an RDL Report | {{site.productName}}
+description: Add an embedded image to an RDL report with the Image Manager in {{site.productName}} Web Report Designer, so the image is always available to that report.
 keywords: ejReportDesigner, reportdesigner, image, manager, Descending
 ---
 
-# Add an embedded image with the Bold Reports<sup>®</sup> Image Manager
+# Add an embedded image with the {{site.productNameTM}} Image Manager
 
-The Image Manager in Bold Reports<sup>®</sup> Web Report Designer adds an embedded image to the report, and that image is always available to the report. The embedded images in a report are listed in the `Image Manager` panel.
+The Image Manager in {{site.productNameTM}} Web Report Designer adds an embedded image to the report, and that image is always available to the report. The embedded images in a report are listed in the `Image Manager` panel.
 
 ## Add an embedded image
 

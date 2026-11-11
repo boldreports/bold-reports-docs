@@ -1,15 +1,15 @@
 ---
-title: Connect an OData Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to OData web services through REST API, set authentication, and pass dynamic values to feed RDL reports.
+title: Connect an OData Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to OData web services through REST API, set authentication, and pass dynamic values to feed RDL reports.
 ---
 
 # Connect to OData data source
 
-Bold Reports<sup>®</sup> supports connecting OData web services through REST API. You can set the method, headers, data format, and authentication, and pass dynamic values with expressions.
+{{site.productNameTM}} supports connecting OData web services through REST API. You can set the method, headers, data format, and authentication, and pass dynamic values with expressions.
 
 ## How do I choose the OData data source?
 
-To choose the OData data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and select the OData connection type.
+To choose the OData data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and select the OData connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -20,7 +20,7 @@ To choose the OData data source in the Bold Reports<sup>®</sup> Web Report Desi
 
 ## How do I create an OData data source?
 
-After you click the data source, the Bold Reports<sup>®</sup> `NEW DATASOURCE` configuration panel opens. Follow these steps to create an OData data source:
+After you click the data source, the {{site.productNameTM}} `NEW DATASOURCE` configuration panel opens. Follow these steps to create an OData data source:
 
 1. Specify the data source name without special characters in the **Name** field.
    ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/odata-data-source/initial.png '#width=355px')
@@ -51,19 +51,19 @@ After you click the data source, the Bold Reports<sup>®</sup> `NEW DATASOURCE` 
 
 ## Which data formats can I use?
 
-The Bold Reports<sup>®</sup> OData data source lets you choose the data format of the response for the provided Rest API in the Data format drop-down.
+The {{site.productNameTM}} OData data source lets you choose the data format of the response for the provided Rest API in the Data format drop-down.
 
 ![Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/data-format.png '#width=335px')
 
 ### CSV data format
 
-When you select the CSV format in Bold Reports<sup>®</sup>, the `Separator` options appear, as shown in the following image. Choose the separator from the given options.
+When you select the CSV format in {{site.productNameTM}}, the `Separator` options appear, as shown in the following image. Choose the separator from the given options.
 
 ![CSV Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/csv-data-format.png '#width=335px')
 
 ## Authentication types
 
-The Bold Reports<sup>®</sup> OData data source supports two authentication types: **None** and **Basic HTTP Authentication**.
+The {{site.productNameTM}} OData data source supports two authentication types: **None** and **Basic HTTP Authentication**.
 
 Use the **None** type in the following cases:
 
@@ -74,7 +74,7 @@ Use **Basic Http authentication** if your OData service requires a username and 
 
 ## How do I pass dynamic values?
 
-Bold Reports<sup>®</sup> lets you pass dynamic values for the URL, headers, and parameters using [Expressions](./../../../compose-report/expressions/). To set an expression for a required field, click the square icon provided for that field. For example, follow these steps to set an expression for the URL field:
+{{site.productNameTM}} lets you pass dynamic values for the URL, headers, and parameters using [Expressions](./../../../compose-report/expressions/). To set an expression for a required field, click the square icon provided for that field. For example, follow these steps to set an expression for the URL field:
 
 1. Click the square icon in the right corner of the URL field to open the expression menu.
    ![Expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-exp-option.png '#width=355px')
@@ -103,7 +103,7 @@ Similarly, you can set and reset expressions for all the fields that support exp
 
 ## Which sample queries can I try?
 
-You can try the following sample OData URLs with the Bold Reports<sup>®</sup> OData data source:
+You can try the following sample OData URLs with the {{site.productNameTM}} OData data source:
 
 [https://services.odata.org/V4/Northwind/Northwind.svc/Order_Details](https://services.odata.org/V4/Northwind/Northwind.svc/Order_Details)
 
@@ -117,9 +117,9 @@ You can try the following sample OData URLs with the Bold Reports<sup>®</sup> O
 
 ## Configure Timeout setting
 
-Bold Reports<sup>®</sup> lets you configure the timeout setting for the OData data source. The timeout setting offers greater flexibility and ensures that long-running API requests can complete without interruption. For a step-by-step guide to configuring the timeout setting, check the **How To** section of this guide.
+{{site.productNameTM}} lets you configure the timeout setting for the OData data source. The timeout setting offers greater flexibility and ensures that long-running API requests can complete without interruption. For a step-by-step guide to configuring the timeout setting, check the **How To** section of this guide.
 
-> Timeout setting is not applicable in the Bold Reports<sup>®</sup> cloud version.
+> Timeout setting is not applicable in the {{site.productNameTM}} cloud version.
 
 ## Frequently asked questions
 
@@ -133,7 +133,7 @@ Pass the API Key/API Token values under **Header(s)** by clicking **+Add**, and 
 
 ### Can I configure the OData timeout in the cloud version?
 
-No. The timeout setting is not applicable in the Bold Reports<sup>®</sup> cloud version.
+No. The timeout setting is not applicable in the {{site.productNameTM}} cloud version.
 
 ## See also
 

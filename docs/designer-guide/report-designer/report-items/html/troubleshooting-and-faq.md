@@ -1,25 +1,25 @@
 ---
-title: Fix HTML Report Item Issues in RDL Reports | Bold Reports
-description: Fix common HTML report item issues in Bold Reports RDL reports, including missing Blink files, rendering benchmarks, and enabling JavaScript execution.
-keywords: HTML report item troubleshooting, SSRS RDL HTML issues, Blink files missing, HTML performance, enable JavaScript in reports, Bold Reports support
+title: Fix HTML Report Item Issues in RDL Reports | {{site.productName}}
+description: Fix common HTML report item issues in {{site.productName}} RDL reports, including missing Blink files, rendering benchmarks, and enabling JavaScript execution.
+keywords: HTML report item troubleshooting, SSRS RDL HTML issues, Blink files missing, HTML performance, enable JavaScript in reports, {{site.productName}} support
 ---
 
-# Troubleshoot the HTML report item in Bold Reports<sup>®</sup>
+# Troubleshoot the HTML report item in {{site.productNameTM}}
 
-The answers below help you fix common issues with the Bold Reports<sup>®</sup> HTML report item in RDL reports. They cover missing Blink files, rendering time, and script execution.
+The answers below help you fix common issues with the {{site.productNameTM}} HTML report item in RDL reports. They cover missing Blink files, rendering time, and script execution.
 
 ## Why do I see a Blink files missing error when viewing the report?
 
-The Blink files missing error appears when the Chromium packages that the Bold Reports<sup>®</sup> HTML report item needs are not installed.
+The Blink files missing error appears when the Chromium packages that the {{site.productNameTM}} HTML report item needs are not installed.
 
 ### Reason
 
-The HTML report item in Bold Reports<sup>®</sup> relies on the Chromium browser to process and render HTML content. If the Chromium packages are not available in the installed Enterprise build location, the HTML report item does not work. In that case, you see an error similar to the following image:
+The HTML report item in {{site.productNameTM}} relies on the Chromium browser to process and render HTML content. If the Chromium packages are not available in the installed Enterprise build location, the HTML report item does not work. In that case, you see an error similar to the following image:
 ![missing blink files](/static/assets/on-premise/images/report-designer/report-items/html/missing-blink-files.png '#width=425px')
 
 ### Solution
 
-You can resolve the Bold Reports<sup>®</sup> Blink files error in one of the following ways:
+You can resolve the {{site.productNameTM}} Blink files error in one of the following ways:
 
 * **During Build Installation**
 
@@ -32,7 +32,7 @@ You can resolve the Bold Reports<sup>®</sup> Blink files error in one of the fo
 
 ## What are the performance benchmarks of the HTML report item?
 
-The Bold Reports<sup>®</sup> HTML report item takes additional time to process and convert the provided HTML content into an image because it relies on the Chromium browser for rendering.
+The {{site.productNameTM}} HTML report item takes additional time to process and convert the provided HTML content into an image because it relies on the Chromium browser for rendering.
 
 <table>
     <tr>
@@ -47,11 +47,11 @@ The Bold Reports<sup>®</sup> HTML report item takes additional time to process 
 
 ## Why is the script tag not executing in the HTML report item?
 
-The Bold Reports<sup>®</sup> HTML report item does not execute `script` tags by default. To allow script execution, enable it explicitly by using the `EnableJavascript` property.
+The {{site.productNameTM}} HTML report item does not execute `script` tags by default. To allow script execution, enable it explicitly by using the `EnableJavascript` property.
 
 ### How do I enable script execution?
 
-To enable script execution for the HTML report item in Bold Reports<sup>®</sup>, add the `EnableJavascript` property to the reporting configuration file.
+To enable script execution for the HTML report item in {{site.productNameTM}}, add the `EnableJavascript` property to the reporting configuration file.
 
 1. Click the profile icon in the top-right corner and navigate to **Manage Sites**.
    ![manage sites](/static/assets/on-premise/images/report-designer/report-items/html/manage-sites.png '#width=425px')

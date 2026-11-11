@@ -1,16 +1,16 @@
 ---
-title: Design an RDL Report Using a Textbox Item | Bold Reports
-description: Design an RDL report with the Bold Reports Web Report Designer textbox to show static or dynamic text, bind fields and parameters, format values, and add links.
-keywords: ejReportDesigner, reportdesigner, textbox, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Design an RDL Report Using a Textbox Item | {{site.productName}}
+description: Design an RDL report with the {{site.productName}} Web Report Designer textbox to show static or dynamic text, bind fields and parameters, format values, and add links.
+keywords: ejReportDesigner, reportdesigner, textbox, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Design an RDL report using a textbox in Bold Reports<sup>®</sup>
+# Design an RDL report using a textbox in {{site.productNameTM}}
 
-To design an RDL report with a textbox in the Bold Reports<sup>®</sup> Web Report Designer, add textboxes to the report header, body, and footer, then display static or dynamic text.
+To design an RDL report with a textbox in the {{site.productNameTM}} Web Report Designer, add textboxes to the report header, body, and footer, then display static or dynamic text.
 
 ## How do I add a textbox to the report?
 
-You can add a Bold Reports<sup>®</sup> textbox report item to the header, footer, and body area of the report.
+You can add a {{site.productNameTM}} textbox report item to the header, footer, and body area of the report.
 
 1. See the [Add a textbox to the report](./../../../report-items/textbox/) section and add a textbox in the report header, body, and footer section.
 2. In the following image, the textbox in the report header displays a title text. The textbox in the report body displays static fields, and the textbox in the report footer displays a label for the signature field.
@@ -18,7 +18,7 @@ You can add a Bold Reports<sup>®</sup> textbox report item to the header, foote
 
 ## Display dynamic text using expression
 
-A Bold Reports<sup>®</sup> textbox displays dynamic values from parameters and dataset fields through expressions. In the following steps, you assign a report parameter in the textbox to display a dynamic value:
+A {{site.productNameTM}} textbox displays dynamic values from parameters and dataset fields through expressions. In the following steps, you assign a report parameter in the textbox to display a dynamic value:
 
 1. See the [Create Parameter](./../../../report-parameters/add/#create-parameter) section and create a new report parameter.
 2. See the [Add a textbox to the report](./../../../report-items/textbox/) section and add a textbox to the report.
@@ -37,7 +37,7 @@ A Bold Reports<sup>®</sup> textbox displays dynamic values from parameters and 
 
 ## How do I edit the expression?
 
-To edit an expression in a Bold Reports<sup>®</sup> textbox, follow these steps:
+To edit an expression in a {{site.productNameTM}} textbox, follow these steps:
 
 1. Select the expression in the textbox that you want to edit.
    ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/select-expression-tag.png '#width=245px')
@@ -49,7 +49,7 @@ To edit an expression in a Bold Reports<sup>®</sup> textbox, follow these steps
 
 ## How do I associate a textbox with a dataset?
 
-You bind a Bold Reports<sup>®</sup> textbox to a dataset field by dragging the field from the `DATA` panel or by using the expression editor. To create a dataset in the Web Report Designer, see the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section.
+You bind a {{site.productNameTM}} textbox to a dataset field by dragging the field from the `DATA` panel or by using the expression editor. To create a dataset in the Web Report Designer, see the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section.
 
 ### Drag and drop dataset field
 
@@ -68,7 +68,7 @@ You can also associate a dataset field with a textbox in the Web Report Designer
 
 ## How do I associate a textbox with a parameter?
 
-You bind a Bold Reports<sup>®</sup> textbox to a report parameter by dragging the parameter from the `PARAMETERS` panel or by using the expression editor. To create a report parameter in the Web Report Designer, see the [Create Parameter](./../../../report-parameters/add/#create-parameter) section.
+You bind a {{site.productNameTM}} textbox to a report parameter by dragging the parameter from the `PARAMETERS` panel or by using the expression editor. To create a report parameter in the Web Report Designer, see the [Create Parameter](./../../../report-parameters/add/#create-parameter) section.
 
 ### Drag and drop parameter field
 
@@ -87,7 +87,7 @@ You can also associate a parameter with a textbox in the Web Report Designer exp
 
 ## How do I configure and format textbox content?
 
-You configure a Bold Reports<sup>®</sup> textbox in two ways:
+You configure a {{site.productNameTM}} textbox in two ways:
 
 * Focus the overall textbox element to configure properties for whole textbox content.
 * Select the specific text to configure properties for selected text.
@@ -104,7 +104,7 @@ The following image shows the report design view after sizing the textboxes.
 
 ### How do I style textbox content?
 
-You style a Bold Reports<sup>®</sup> textbox either as a whole or for selected text only.
+You style a {{site.productNameTM}} textbox either as a whole or for selected text only.
 
 #### Over all textbox
 
@@ -124,7 +124,7 @@ Set the font and alignment properties for the selected text under the `Basic Set
 
 ### How do I format a value in a textbox?
 
-You can apply a format to the whole Bold Reports<sup>®</sup> textbox value or to selected text in a textbox.
+You can apply a format to the whole {{site.productNameTM}} textbox value or to selected text in a textbox.
 
 #### Format overall textbox
 
@@ -158,7 +158,7 @@ To format selected text in a textbox, follow these steps:
 
 ## How do I link a report from a textbox?
 
-A Bold Reports<sup>®</sup> textbox can link to another report. When you click the linked text, the report viewer displays the target report.
+A {{site.productNameTM}} textbox can link to another report. When you click the linked text, the report viewer displays the target report.
 
 ### Over all textbox
 
@@ -192,7 +192,7 @@ To link selected text in a textbox to a report, follow these steps:
 
 ## How do I add a hyperlink to a textbox?
 
-A Bold Reports<sup>®</sup> textbox hyperlink defines what happens when users click the text box or a certain area displayed on a report.
+A {{site.productNameTM}} textbox hyperlink defines what happens when users click the text box or a certain area displayed on a report.
 
 ### Over all textbox
 
@@ -224,7 +224,7 @@ To add a hyperlink to selected text in a textbox, follow these steps:
 
 ### Why is my expression shown in a shortened format?
 
-In the Bold Reports<sup>®</sup> Web Report Designer, an expression longer than 18 characters is displayed in a shortened format. Hover over the expression tag to see the actual expression in a tooltip.
+In the {{site.productNameTM}} Web Report Designer, an expression longer than 18 characters is displayed in a shortened format. Hover over the expression tag to see the actual expression in a tooltip.
 
 ### Can I format only part of the text in a textbox?
 

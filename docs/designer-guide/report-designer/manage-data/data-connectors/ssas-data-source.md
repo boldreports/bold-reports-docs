@@ -1,15 +1,15 @@
 ---
-title: Connect SSAS Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to Microsoft SQL Server Analysis Services (SSAS) and query OLAP cubes with MDX or DAX for your RDL reports.
+title: Connect SSAS Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to Microsoft SQL Server Analysis Services (SSAS) and query OLAP cubes with MDX or DAX for your RDL reports.
 ---
 
 # Connect to Microsoft SQL Server Analysis Services(SSAS) data source
 
-The SSAS data source in the Bold Reports<sup>®</sup> Web Report Designer connects your reports to a Microsoft SQL Server Analysis Services (SSAS) database.
+The SSAS data source in the {{site.productNameTM}} Web Report Designer connects your reports to a Microsoft SQL Server Analysis Services (SSAS) database.
 
 ## How do I create a Microsoft SQL Server Analysis Services (SSAS) data source?
 
-You create an SSAS data source from the **Data** panel of the Bold Reports<sup>®</sup> Web Report Designer. Follow these steps:
+You create an SSAS data source from the **Data** panel of the {{site.productNameTM}} Web Report Designer. Follow these steps:
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
@@ -42,7 +42,7 @@ After you click the data source, the Web Report Designer opens the `NEW DATASOUR
 
 ### Authentication types for basic connection
 
-The basic SSAS connection in Bold Reports<sup>®</sup> supports two authentication types: **Windows** or **SQL server**.
+The basic SSAS connection in {{site.productNameTM}} supports two authentication types: **Windows** or **SQL server**.
 
 If your data source supports authentication directly through **Windows Credentials** (Integrated Security), choose **Windows** under **Authentication Type**.
 
@@ -52,7 +52,7 @@ If your data source requires a username and password to authenticate, choose **S
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/server-authentication.png '#width=350px')
 
-Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 
 > On report download action, the credentials will be not be saved with report data.
 
@@ -103,7 +103,7 @@ Enable the Save password option to embed the credentials within the report when 
 
 ### How do I query OLAP cube data?
 
-The query language you use for OLAP cube data through SSAS in Bold Reports<sup>®</sup> depends on the cube type:
+The query language you use for OLAP cube data through SSAS in {{site.productNameTM}} depends on the cube type:
 
 * **Multidimensional Cube :** Use [MDX (Multidimensional Expressions)](https://learn.microsoft.com/en-us/analysis-services/multidimensional-models/mdx/querying-multidimensional-data-with-mdx?view=asallproducts-allversions) queries.
 
@@ -113,9 +113,9 @@ The query language you use for OLAP cube data through SSAS in Bold Reports<sup>�
 
   ![Query example](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/dax-query-example.png '#width=415px')
 
-When you use DAX with SSAS Tabular models in the Bold Reports<sup>®</sup> Designer, consider the following points:
+When you use DAX with SSAS Tabular models in the {{site.productNameTM}} Designer, consider the following points:
 
-* You can use **existing measures** defined in the SSAS model without any issues, but **creating new measures** directly in the Bold Reports<sup>®</sup> Designer's query builder is **not supported**.
+* You can use **existing measures** defined in the SSAS model without any issues, but **creating new measures** directly in the {{site.productNameTM}} Designer's query builder is **not supported**.
 
 * **Additive measures** (for example, SUM, COUNT) can be used across related dimensions and are suitable for designing charts, tables, and similar report elements.
 
@@ -129,15 +129,15 @@ When you use DAX with SSAS Tabular models in the Bold Reports<sup>®</sup> Desig
 
 ### Does the SSAS data source support a query designer mode?
 
-No. Only query mode is supported for the Microsoft SQL Server Analysis Services data source in Bold Reports<sup>®</sup>.
+No. Only query mode is supported for the Microsoft SQL Server Analysis Services data source in {{site.productNameTM}}.
 
 ### Should I use MDX or DAX for SSAS?
 
 Use MDX queries for a multidimensional cube and DAX queries for a tabular cube.
 
-### Can I create new measures in the Bold Reports<sup>®</sup> Designer query builder?
+### Can I create new measures in the {{site.productNameTM}} Designer query builder?
 
-No. You can use existing measures defined in the SSAS model, but creating new measures in the Bold Reports<sup>®</sup> Designer's query builder is not supported.
+No. You can use existing measures defined in the SSAS model, but creating new measures in the {{site.productNameTM}} Designer's query builder is not supported.
 
 ## See also
 

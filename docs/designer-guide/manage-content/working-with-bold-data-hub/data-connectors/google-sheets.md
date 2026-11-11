@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Google Sheets to Bold Data Hub | Bold Reports
-description: Connect Google Sheets to Bold Data Hub in Bold Reports with OAuth or a service account, set the spreadsheet and ranges, and schedule data refresh for reports.
+title: Connect Google Sheets to Bold Data Hub | {{site.productName}}
+description: Connect Google Sheets to Bold Data Hub in {{site.productName}} with OAuth or a service account, set the spreadsheet and ranges, and schedule data refresh for reports.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Google Sheets with Bold Data Hub
 
-The Bold Data Hub Google Sheets connector loads spreadsheet data from Google Sheets into Bold Reports<sup>®</sup>. Google Sheets is a cloud-based spreadsheet application in the Google Workspace suite. You can authenticate with OAuth or with a service account.
+The Bold Data Hub Google Sheets connector loads spreadsheet data from Google Sheets into {{site.productNameTM}}. Google Sheets is a cloud-based spreadsheet application in the Google Workspace suite. You can authenticate with OAuth or with a service account.
 
 ## Service Account Credential
 
@@ -90,7 +90,7 @@ OAuth authentication with Google Sheets in Bold Data Hub uses your client ID and
 
     ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/sheets_auth_template.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -137,7 +137,7 @@ You schedule the Google Sheets pipeline in Bold Data Hub from the schedules tab,
 
     ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

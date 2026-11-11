@@ -1,16 +1,16 @@
 ---
-title: Design an SSRS Table with Multiple Text Runs | Bold Reports
-description: Design an SSRS RDL table report with multi text run in Bold Reports Web Report Designer to combine static text and expressions in a single tablix cell.
-keywords: ejReportDesigner, reportdesigner, table, multi textrun, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Design an SSRS Table with Multiple Text Runs | {{site.productName}}
+description: Design an SSRS RDL table report with multi text run in {{site.productName}} Web Report Designer to combine static text and expressions in a single tablix cell.
+keywords: ejReportDesigner, reportdesigner, table, multi textrun, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Design an SSRS RDL table report with multi text run in Bold Reports<sup>®</sup>
+# Design an SSRS RDL table report with multi text run in {{site.productNameTM}}
 
-To combine static text and expressions in a single tablix cell, design an SSRS RDL table report with multi textrun in the Bold Reports<sup>®</sup> Web Report Designer. You add a table with the Tablix Wizard, set styled header text, and add and edit expressions.
+To combine static text and expressions in a single tablix cell, design an SSRS RDL table report with multi textrun in the {{site.productNameTM}} Web Report Designer. You add a table with the Tablix Wizard, set styled header text, and add and edit expressions.
 
 ## How do I add a table using the Tablix Wizard?
 
-You add the table in the Bold Reports<sup>®</sup> Web Report Designer with the Tablix Wizard and then style it.
+You add the table in the {{site.productNameTM}} Web Report Designer with the Tablix Wizard and then style it.
 
 1. Assign the `ProdCat`, `SubCat`, `OrderYear`, `OrderQtr` and `Sales` fields in the initial matrix design. Refer to the [Create a Matrix Report using Tablix Wizard](./../../../report-items/tablix-wizard/design-report-using-the-tablix-wizard/) section for the steps.
    ![Tablix wizard with column and values](/static/assets/on-premise/images/report-designer/report-items/tablix/rendered-matrix.png '#width=355px')
@@ -19,7 +19,7 @@ You add the table in the Bold Reports<sup>®</sup> Web Report Designer with the 
 
 ## How do I set header text for tablix data?
 
-You set styled header text in a tablix cell with the `Multi-Text Run Editor` dialog of the Bold Reports<sup>®</sup> Web Report Designer.
+You set styled header text in a tablix cell with the `Multi-Text Run Editor` dialog of the {{site.productNameTM}} Web Report Designer.
 
 1. Select the tablix cell and click the `Text Editor` icon to open the `Multi-Text Run Editor` Dialog.
    ![Tablix](/static/assets/on-premise/images/report-designer/report-items/tablix/text-editor-icon-in-product-category.png '#width=700px')
@@ -42,17 +42,17 @@ You set styled header text in a tablix cell with the `Multi-Text Run Editor` dia
 
 ## How do I add an expression in a tablix cell?
 
-You add the `[Sales]` expression into a selected tablix cell in the Bold Reports<sup>®</sup> Web Report Designer by following the steps in the [Set expression using Multi-Text Run Editor Dialog](./../assign-data-to-tablix-data-region/#set-expression-using-multi-text-run-editor-dialog) section.
+You add the `[Sales]` expression into a selected tablix cell in the {{site.productNameTM}} Web Report Designer by following the steps in the [Set expression using Multi-Text Run Editor Dialog](./../assign-data-to-tablix-data-region/#set-expression-using-multi-text-run-editor-dialog) section.
    ![Multi text run Tablix](/static/assets/on-premise/images/report-designer/report-items/tablix/sales-in-tablix-cell.png '#width=700px')
 
 ## How do I edit an expression in a tablix cell?
 
-You update a tablix cell with the `[Sum(Sales)]` expression in the Bold Reports<sup>®</sup> Web Report Designer by following the steps in the [Edit expression using Multi-Text Run Editor Dialog](./../assign-data-to-tablix-data-region/#edit-expression-using-multi-text-run-editor-dialog) section.
+You update a tablix cell with the `[Sum(Sales)]` expression in the {{site.productNameTM}} Web Report Designer by following the steps in the [Edit expression using Multi-Text Run Editor Dialog](./../assign-data-to-tablix-data-region/#edit-expression-using-multi-text-run-editor-dialog) section.
    ![Multi text run Tablix](/static/assets/on-premise/images/report-designer/report-items/tablix/sum-sales-in-tablix-cell.png '#width=700px')
 
 ## What does the report preview show?
 
-The Bold Reports<sup>®</sup> report preview displays the product sales report of a company, as shown in the following image.
+The {{site.productNameTM}} report preview displays the product sales report of a company, as shown in the following image.
 
 ![Multi text run report](/static/assets/on-premise/images/report-designer/report-items/tablix/product-sales-report-preview.png '#width=700px')
 

@@ -1,16 +1,16 @@
 ---
-title: Supported Barcode Types for RDL Reports | Bold Reports
-description: See the barcode types the Bold Reports Web Report Designer barcode report item supports, such as QR Code and Code 128, and the valid characters for each.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Supported Barcode Types for RDL Reports | {{site.productName}}
+description: See the barcode types the {{site.productName}} Web Report Designer barcode report item supports, such as QR Code and Code 128, and the valid characters for each.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Supported barcode types in Bold Reports<sup>®</sup>
+# Supported barcode types in {{site.productNameTM}}
 
-The Bold Reports<sup>®</sup> barcode report item in the Web Report Designer supports one-dimensional and two-dimensional barcode symbols such as QR Code, DataMatrix, PDF417, Code 39, Code 128, UPCA, and EAN-13.
+The {{site.productNameTM}} barcode report item in the Web Report Designer supports one-dimensional and two-dimensional barcode symbols such as QR Code, DataMatrix, PDF417, Code 39, Code 128, UPCA, and EAN-13.
 
 ## Which barcode types and characters are supported?
 
-The following table lists the barcode types that the Bold Reports<sup>®</sup> barcode report item supports, the valid characters for each type, and the length.
+The following table lists the barcode types that the {{site.productNameTM}} barcode report item supports, the valid characters for each type, and the length.
 
 <table>
 <tr>
@@ -123,7 +123,7 @@ variable</td></tr>
 
 ### Which barcode types accept a fixed length?
 
-In the Bold Reports<sup>®</sup> barcode report item, UPCA and EAN-13 take 12 digits, and EAN-8 takes 7 usable digits. The other listed types are variable length.
+In the {{site.productNameTM}} barcode report item, UPCA and EAN-13 take 12 digits, and EAN-8 takes 7 usable digits. The other listed types are variable length.
 
 ### Which barcode type accepts all ASCII characters?
 

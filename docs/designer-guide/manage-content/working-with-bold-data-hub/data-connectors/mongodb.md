@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect MongoDB Database to Bold Data Hub | Bold Reports
-description: Connect MongoDB to Bold Data Hub in Bold Reports with a connection URL and database, choose INCREMENTAL or FULL_TABLE refresh, and schedule pipeline jobs.
+title: Connect MongoDB Database to Bold Data Hub | {{site.productName}}
+description: Connect MongoDB to Bold Data Hub in {{site.productName}} with a connection URL and database, choose INCREMENTAL or FULL_TABLE refresh, and schedule pipeline jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect MongoDB with Bold Data Hub
 
-The Bold Data Hub MongoDB connector loads data from a MongoDB database into Bold Reports<sup>®</sup>. [MongoDB](https://www.mongodb.com/) is a NoSQL database that stores JSON-like documents. You can refresh data in INCREMENTAL or FULL_TABLE mode.
+The Bold Data Hub MongoDB connector loads data from a MongoDB database into {{site.productNameTM}}. [MongoDB](https://www.mongodb.com/) is a NoSQL database that stores JSON-like documents. You can refresh data in INCREMENTAL or FULL_TABLE mode.
 
 ## Connection Properties
 
@@ -62,7 +62,7 @@ You connect MongoDB by creating a project in Bold Data Hub and adding the `Mongo
 
     ![MongoDB Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/mongo_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -94,7 +94,7 @@ You schedule the MongoDB pipeline in Bold Data Hub from the schedules tab, or yo
 
     ![MongoDB - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![MongoDB - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

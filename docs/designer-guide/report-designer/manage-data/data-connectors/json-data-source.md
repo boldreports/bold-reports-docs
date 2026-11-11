@@ -1,15 +1,15 @@
 ---
-title: Connect a JSON Data Source to RDL Reports | Bold Reports
-description: Connect JSON data from an inline string, a local file, or an external URL in the Bold Reports Web Report Designer and feed the data to your RDL reports.
+title: Connect a JSON Data Source to RDL Reports | {{site.productName}}
+description: Connect JSON data from an inline string, a local file, or an external URL in the {{site.productName}} Web Report Designer and feed the data to your RDL reports.
 ---
 
 # Connect to JSON data source
 
-To use JSON data in Bold Reports<sup>®</sup>, create a JSON data source that retrieves data from a JSON file, a string in JSON format, or an external URL.
+To use JSON data in {{site.productNameTM}}, create a JSON data source that retrieves data from a JSON file, a string in JSON format, or an external URL.
 
 ## How do I create a JSON data source?
 
-To create a JSON data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the JSON connection type.
+To create a JSON data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the JSON connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -30,7 +30,7 @@ You can connect JSON data using the following three options:
 
 ### Inline data
 
-To use inline JSON data in the Bold Reports<sup>®</sup> Web Report Designer, paste a JSON string into the `Inline` text area.
+To use inline JSON data in the {{site.productNameTM}} Web Report Designer, paste a JSON string into the `Inline` text area.
 
 1. Choose `Inline` in the `Type` drop-down.
 2. Specify a string that contains JSON data in the `Inline` text area.
@@ -62,7 +62,7 @@ To use inline JSON data in the Bold Reports<sup>®</sup> Web Report Designer, pa
 
 ### Load from disk
 
-To load a JSON file from disk in the Bold Reports<sup>®</sup> Web Report Designer, upload the file and connect.
+To load a JSON file from disk in the {{site.productNameTM}} Web Report Designer, upload the file and connect.
 
 1. Choose the `File` option in the `Type` field. The upload option appears, as shown in the following image.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/file-upload-option.png '#width=335px')
@@ -79,7 +79,7 @@ To load a JSON file from disk in the Bold Reports<sup>®</sup> Web Report Design
 
 ### Load from external URL
 
-To load JSON data from an external URL in the Bold Reports<sup>®</sup> Web Report Designer, specify the URL and connect.
+To load JSON data from an external URL in the {{site.productNameTM}} Web Report Designer, specify the URL and connect.
 
 1. Choose the `External` option in the `Type` field.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/external-type.png '#width=385px')
@@ -93,7 +93,7 @@ To load JSON data from an external URL in the Bold Reports<sup>®</sup> Web Repo
 
    > **Note:**
    > * In schema tree, the nested fields in the JSON data will be shown as flat structure.
-   > * When the JSON data contains duplicate key names at different levels, Bold Reports<sup>®</sup> ensures uniqueness and avoids conflicts by appending the parent keys to each field name using the following format: `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
+   > * When the JSON data contains duplicate key names at different levels, {{site.productNameTM}} ensures uniqueness and avoids conflicts by appending the parent keys to each field name using the following format: `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
 
 ## Frequently asked questions
 
@@ -101,9 +101,9 @@ To load JSON data from an external URL in the Bold Reports<sup>®</sup> Web Repo
 
 In the schema tree, the nested fields in the JSON data are shown as a flat structure.
 
-### How does Bold Reports<sup>®</sup> handle duplicate JSON key names?
+### How does {{site.productNameTM}} handle duplicate JSON key names?
 
-Bold Reports<sup>®</sup> appends the parent keys to each field name to ensure uniqueness, using the format `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
+{{site.productNameTM}} appends the parent keys to each field name to ensure uniqueness, using the format `<fieldName>__<topLevelParentKey>_<nextParentKey>_..._<immediateParentKey>_`.
 
 ## See also
 

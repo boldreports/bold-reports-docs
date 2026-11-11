@@ -1,15 +1,15 @@
 ---
-title: Build Tables and Matrices with Tablix Wizard | Bold Reports
-description: Use the tablix wizard in Bold Reports Web Report Designer to build table and matrix data regions, define row and column groups, and search or select fields.
+title: Build Tables and Matrices with Tablix Wizard | {{site.productName}}
+description: Use the tablix wizard in {{site.productName}} Web Report Designer to build table and matrix data regions, define row and column groups, and search or select fields.
 ---
 
-# Tablix Wizard in Bold Reports<sup>®</sup> Web Report Designer
+# Tablix Wizard in {{site.productNameTM}} Web Report Designer
 
-The tablix wizard in the Bold Reports<sup>®</sup> Web Report Designer helps you design reports that display data in a tabular or matrix format. It provides options to define row and column groups for organizing data hierarchically.
+The tablix wizard in the {{site.productNameTM}} Web Report Designer helps you design reports that display data in a tabular or matrix format. It provides options to define row and column groups for organizing data hierarchically.
 
 ## How do I use the tablix wizard?
 
-You use the Bold Reports<sup>®</sup> tablix wizard by dropping it into the design area, choosing a dataset, and dragging fields into its sections.
+You use the {{site.productNameTM}} tablix wizard by dropping it into the design area, choosing a dataset, and dragging fields into its sections.
 
 1. Find the tablix wizard in the item panel under the `Data Regions` category.
    ![Tablix Wizard listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/item-panel-view.png '#width=195px')
@@ -37,7 +37,7 @@ You use the Bold Reports<sup>®</sup> tablix wizard by dropping it into the desi
 
 ## How do I manage fields in the tablix wizard?
 
-The Bold Reports<sup>®</sup> tablix wizard lets you search fields, select several fields at once, and clear all fields from a section.
+The {{site.productNameTM}} tablix wizard lets you search fields, select several fields at once, and clear all fields from a section.
 
 ### How do I search for a field?
 
@@ -73,7 +73,7 @@ The **Values**, **Columns**, and **Rows** sections of the tablix wizard provide 
 
 ## What happens if the report has no datasets?
 
-If the report has no datasets, the Bold Reports<sup>®</sup> Tablix Wizard interface displays the message shown in the following image.
+If the report has no datasets, the {{site.productNameTM}} Tablix Wizard interface displays the message shown in the following image.
 ![Tabli Wizard No data](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/tablix-nodata-msg.png '#width=500px')
 
 ## Frequently asked questions

@@ -1,20 +1,20 @@
 ---
-title: Troubleshoot the PDF Report Item on Linux | Bold Reports
-description: Fix the PDF report item error on Linux in Bold Reports by making the libdl.so library available to the PdfiumNative assembly with a symbolic link to libdl.so.2.
-keywords: PDF report item troubleshooting, SSRS RDL PDF issues, Linux libdl.so error, PdfiumNative, Bold Reports support, documentation, user guide, bold reports
+title: Troubleshoot the PDF Report Item on Linux | {{site.productName}}
+description: Fix the PDF report item error on Linux in {{site.productName}} by making the libdl.so library available to the PdfiumNative assembly with a symbolic link to libdl.so.2.
+keywords: PDF report item troubleshooting, SSRS RDL PDF issues, Linux libdl.so error, PdfiumNative, {{site.productName}} support, documentation, user guide, {{site.productName}}
 ---
 
-# Troubleshooting and FAQ for the PDF report item in Bold Reports<sup>®</sup>
+# Troubleshooting and FAQ for the PDF report item in {{site.productNameTM}}
 
-The PDF report item in Bold Reports<sup>®</sup> needs the `libdl.so` library on Linux. Use the following answers to identify and fix the most common PDF report item issue.
+The PDF report item in {{site.productNameTM}} needs the `libdl.so` library on Linux. Use the following answers to identify and fix the most common PDF report item issue.
 
 ## Why isn’t the PDF report item working in a Linux environment?
 
-The PDF report item in Bold Reports<sup>®</sup> does not work on Linux when the `libdl.so` library is missing. The library is required to access the **PdfiumNative** assembly.
+The PDF report item in {{site.productNameTM}} does not work on Linux when the `libdl.so` library is missing. The library is required to access the **PdfiumNative** assembly.
 
 ### Reason
 
-To use the `PDF report item` in Bold Reports<sup>®</sup> on a Linux machine, the `libdl.so` library must be available to enable access to the **PdfiumNative** assembly.
+To use the `PDF report item` in {{site.productNameTM}} on a Linux machine, the `libdl.so` library must be available to enable access to the **PdfiumNative** assembly.
 
 When you run the PDF custom report item on Linux without it, you may see the following error:
 
@@ -24,7 +24,7 @@ TypeInitializationException: Type initializer for "Syncfusion.PdfToImageConverte
 
 ### Solution
 
-To make the `libdl.so` library available for Bold Reports<sup>®</sup> on Linux, follow these steps:
+To make the `libdl.so` library available for {{site.productNameTM}} on Linux, follow these steps:
 
 1. Locate the `libdl.so` library by running:
 

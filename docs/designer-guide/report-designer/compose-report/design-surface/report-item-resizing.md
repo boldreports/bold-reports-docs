@@ -1,12 +1,12 @@
 ---
-title: Resize Report Items in Web Report Designer | Bold Reports
-description: Resize the height and width of RDL report items in the Bold Reports Web Report Designer using the resizer, size properties, keyboard shortcuts, or touch.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Resize Report Items in Web Report Designer | {{site.productName}}
+description: Resize the height and width of RDL report items in the {{site.productName}} Web Report Designer using the resizer, size properties, keyboard shortcuts, or touch.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
 # Report item resizing in Web Report Designer
 
-In Bold Reports<sup>®</sup> Web Report Designer, you can resize the height and width of report items in the design area to improve report readability. You can resize with the mouse resizer, the width and height properties, keyboard shortcuts, or the touch resizer.
+In {{site.productNameTM}} Web Report Designer, you can resize the height and width of report items in the design area to improve report readability. You can resize with the mouse resizer, the width and height properties, keyboard shortcuts, or the touch resizer.
 
 ## How do I resize using the resizer?
 

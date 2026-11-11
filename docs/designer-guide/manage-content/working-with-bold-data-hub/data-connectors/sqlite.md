@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect SQLite Database File to Bold Data Hub | Bold Reports
-description: Connect a SQLite database file to Bold Data Hub in Bold Reports. Upload the file, set the file path, create a pipeline, and schedule data refresh for reports.
+title: Connect SQLite Database File to Bold Data Hub | {{site.productName}}
+description: Connect a SQLite database file to Bold Data Hub in {{site.productName}}. Upload the file, set the file path, create a pipeline, and schedule data refresh for reports.
 platform: Report-platform
 documentation: ug
 
@@ -9,14 +9,14 @@ documentation: ug
 
 # Connect SQLite with Bold Data Hub
 
-The Bold Data Hub SQLite connector loads data from a SQLite database file into Bold Reports<sup>®</sup>. SQLite is a lightweight, file-based database for storing and managing data locally. SQLite is easy to use and suits small to medium datasets, which makes it ideal for quick setup and offline analysis.
+The Bold Data Hub SQLite connector loads data from a SQLite database file into {{site.productNameTM}}. SQLite is a lightweight, file-based database for storing and managing data locally. SQLite is easy to use and suits small to medium datasets, which makes it ideal for quick setup and offline analysis.
 
 ## How do I connect to a SQLite database file?
 
-You connect a SQLite database file to Bold Reports<sup>®</sup> by choosing the SQLite connector in Bold Data Hub and selecting your file.
+You connect a SQLite database file to {{site.productNameTM}} by choosing the SQLite connector in Bold Data Hub and selecting your file.
 
 1. Make sure your .db or .sqlite file is ready and accessible.
-2. In Bold Reports<sup>®</sup>, go to the Bold Data Hub section.
+2. In {{site.productNameTM}}, go to the Bold Data Hub section.
 3. Choose SQLite from the available connectors.
 4. Browse and select your SQLite database file.
 5. Test the connection and proceed to import your data.
@@ -81,7 +81,7 @@ You connect SQLite by creating a pipeline in Bold Data Hub, adding the SQLite co
 
     ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -112,7 +112,7 @@ You schedule the SQLite pipeline in Bold Data Hub from the schedules tab, or you
 
     ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

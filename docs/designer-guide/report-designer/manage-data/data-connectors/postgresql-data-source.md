@@ -1,15 +1,15 @@
 ---
-title: Connect PostgreSQL Data Source to RDL | Bold Reports
-description: Connect the Bold Reports Web Report Designer to PostgreSQL with basic options, a connection string, or an SSH tunnel, and use the data in your RDL reports.
+title: Connect PostgreSQL Data Source to RDL | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to PostgreSQL with basic options, a connection string, or an SSH tunnel, and use the data in your RDL reports.
 ---
 
 # Connect to PostgreSQL data source
 
-To visualize and analyze PostgreSQL data in Bold Reports<sup>®</sup>, create a PostgreSQL data source from the **Data** configuration panel in the Web Report Designer. You can connect with basic options, advanced options, or through a secure SSH tunnel.
+To visualize and analyze PostgreSQL data in {{site.productNameTM}}, create a PostgreSQL data source from the **Data** configuration panel in the Web Report Designer. You can connect with basic options, advanced options, or through a secure SSH tunnel.
 
 ## How do I create a PostgreSQL data source?
 
-To create a PostgreSQL data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the PostgreSQL connection type.
+To create a PostgreSQL data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the PostgreSQL connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -27,10 +27,10 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 3. In the **Port** field, specify the Port number. The default port number is `5432`.
 4. Specify the username of your PostgreSQL server in the **Username** field.
 5. Specify the password of your PostgreSQL server in the **Password** field.
-6. Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+6. Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 7. Choose or enter an existing valid database, e.g. Northwind.
    ![Basic Option](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/basic-options.png '#width=355px')
-8. Click `Connect` to connect Bold Reports<sup>®</sup> with the PostgreSQL database.
+8. Click `Connect` to connect {{site.productNameTM}} with the PostgreSQL database.
 9. Drag and drop the table from the table schema in the query design view page.
    ![Query Designer](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/query-designer.png)
 10. Click `Finish` to save the data source with a relevant name and continue designing the report.
@@ -38,7 +38,7 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 
 ### How do I connect to PostgreSQL through an SSH tunnel?
 
-Bold Reports<sup>®</sup> lets you connect to a PostgreSQL data source using a secure SSH tunnel. The SSH tunnel provides a more secure method for connecting, especially when you access remote databases over untrusted or insecure networks.
+{{site.productNameTM}} lets you connect to a PostgreSQL data source using a secure SSH tunnel. The SSH tunnel provides a more secure method for connecting, especially when you access remote databases over untrusted or insecure networks.
 
 ![Enable-SSH](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-ssh-postgre.png '#width=385px')
 
@@ -46,7 +46,7 @@ Bold Reports<sup>®</sup> lets you connect to a PostgreSQL data source using a s
 
 ### How do I create a PostgreSQL data source with advanced options?
 
-The Bold Reports<sup>®</sup> advanced options let you build your own connection string for PostgreSQL.
+The {{site.productNameTM}} advanced options let you build your own connection string for PostgreSQL.
 
 1. Click `Advanced Options` in the `New Data` panel.
 
@@ -69,7 +69,7 @@ The Bold Reports<sup>®</sup> advanced options let you build your own connection
 
 #### Connection string
 
-A connection string is the text representation of connection properties for a data provider. Bold Reports<sup>®</sup> uses it in the advanced options to connect to PostgreSQL.
+A connection string is the text representation of connection properties for a data provider. {{site.productNameTM}} uses it in the advanced options to connect to PostgreSQL.
 
 If the database is on your local computer, specify the connection string as follows:
 
@@ -85,7 +85,7 @@ Host=myserver.domain.com;Port=5432;Database=Northwind;User ID=postgres;Password=
 
 #### Authentication types for advanced connection
 
-Bold Reports<sup>®</sup> advanced PostgreSQL connections support PostgreSQL server credentials, prompted credentials, or no credentials.
+{{site.productNameTM}} advanced PostgreSQL connections support PostgreSQL server credentials, prompted credentials, or no credentials.
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/advanced-authentication.png '#width=385px')
 
@@ -111,7 +111,7 @@ The default port number is `5432`.
 
 ### Can I connect to PostgreSQL through an SSH tunnel?
 
-Yes. Bold Reports<sup>®</sup> supports connecting to a PostgreSQL data source through a secure SSH tunnel.
+Yes. {{site.productNameTM}} supports connecting to a PostgreSQL data source through a secure SSH tunnel.
 
 ## See also
 

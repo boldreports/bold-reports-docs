@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Upload RDL Reports to the Report Server | Bold Reports
-description: Upload RDL report files to the Bold Reports Report Server, assign categories and tags, and set the name and description of each report before saving it.
+title: Upload RDL Reports to the Report Server | {{site.productName}}
+description: Upload RDL report files to the {{site.productName}} Report Server, assign categories and tags, and set the name and description of each report before saving it.
 platform: report-platform
 documentation: ug
 keywords: upload report, add report, RDL file, bulk upload, report server
@@ -9,13 +9,13 @@ keywords: upload report, add report, RDL file, bulk upload, report server
 
 # Upload RDL reports to the Report Server
 
-**Uploading a report** adds one or more existing RDL report files to the Bold Reports<sup>®</sup> On-Premises Report Server. You can then view, share, and manage them alongside reports created directly in Report Designer. Use this option when you already have a designed report file and want to bring it onto the server without rebuilding it from scratch.
+**Uploading a report** adds one or more existing RDL report files to the {{site.productNameTM}} On-Premises Report Server. You can then view, share, and manage them alongside reports created directly in Report Designer. Use this option when you already have a designed report file and want to bring it onto the server without rebuilding it from scratch.
 
 You select a category, add tags, upload single or multiple RDL files, and configure each report's name, description, and category before saving it.
 
 ## What is report upload?
 
-Report upload in Bold Reports<sup>®</sup> Report Server imports an existing `.rdl` report definition file into the server's content library. The file can come from Web Report Designer, Visual Studio, or the SSRS Report Builder. Unlike creating a report from scratch, uploading skips the design phase entirely.
+Report upload in {{site.productNameTM}} Report Server imports an existing `.rdl` report definition file into the server's content library. The file can come from Web Report Designer, Visual Studio, or the SSRS Report Builder. Unlike creating a report from scratch, uploading skips the design phase entirely.
 
 The report file already contains its layout, data source, and dataset definitions. The upload flow only asks you to organize and label it.
 
@@ -32,7 +32,7 @@ With report upload in Report Server, you can:
 
 ## How do I upload a report to Report Server?
 
-You upload reports to Bold Reports<sup>®</sup> Report Server from the `[+]` icon in the left side panel.
+You upload reports to {{site.productNameTM}} Report Server from the `[+]` icon in the left side panel.
 
 1. Click the `[+]` icon in the left side panel, then select the `Upload Report(s)` option.
     ![Plus Icon](/static/assets/on-premise/images/manage-content/manage-reports/plus-icon.png)
@@ -56,7 +56,7 @@ You upload reports to Bold Reports<sup>®</sup> Report Server from the `[+]` ico
 
 ## What are the key features of report upload?
 
-Report upload in Bold Reports<sup>®</sup> Report Server offers these features:
+Report upload in {{site.productNameTM}} Report Server offers these features:
 
 * **Bulk upload**: Upload multiple RDL files in a single operation instead of adding reports one at a time, which is useful when migrating reports from another environment.
 * **Per-report configuration**: After uploading, a dedicated dialog lets you review and adjust the name, category, description, and tags for each report individually before saving.
@@ -65,7 +65,7 @@ Report upload in Bold Reports<sup>®</sup> Report Server offers these features:
 
 ## When should I upload a report?
 
-Upload a report to Bold Reports<sup>®</sup> Report Server when you already have an RDL file. Common use cases:
+Upload a report to {{site.productNameTM}} Report Server when you already have an RDL file. Common use cases:
 
 * **Migrating reports between environments**: Teams moving from a development or staging server to production can upload previously exported RDL files instead of recreating reports.
 * **Importing reports built outside Web Report Designer**: Reports authored in Visual Studio or the SSRS Report Builder can be uploaded directly to the Report Server without modification.
@@ -74,16 +74,16 @@ Upload a report to Bold Reports<sup>®</sup> Report Server when you already have
 
 ## Who should use this guide?
 
-This Bold Reports<sup>®</sup> Report Server upload guide is intended for:
+This {{site.productNameTM}} Report Server upload guide is intended for:
 
-* Report authors who design reports outside Bold Reports<sup>®</sup> and need to add them to the server.
+* Report authors who design reports outside {{site.productNameTM}} and need to add them to the server.
 * Administrators migrating reports between sites or environments.
 * Business users importing reports shared by a colleague or another team.
 * Anyone bulk-loading a set of existing RDL files into a category.
 
 ## What do I need before uploading a report?
 
-Before you upload a report to Bold Reports<sup>®</sup> Report Server:
+Before you upload a report to {{site.productNameTM}} Report Server:
 
 * Have one or more valid `.rdl` report files ready to upload.
 * Have permission to add reports to the target category. Contact your administrator if the upload option isn't available.
@@ -93,7 +93,7 @@ No additional server-side setup is required to upload a report.
 
 ## What are the limits of report upload?
 
-Report upload in Bold Reports<sup>®</sup> Report Server has these considerations and limitations:
+Report upload in {{site.productNameTM}} Report Server has these considerations and limitations:
 
 * Only valid RDL report files can be uploaded through this option; other file types should use the [file upload](https://help.boldreports.com/enterprise-reporting/designer-guide/manage-content/reports/file-upload/) option instead.
 * When multiple reports are uploaded together, the Name field is auto-filled from the file name and can't be edited until the per-report configuration step.
@@ -123,7 +123,7 @@ Uploading adds an existing RDL file to the server, while [creating a report](../
 
 ## How do I get help with uploading reports?
 
-If you run into issues while uploading reports to Bold Reports<sup>®</sup> Report Server, refer to the related articles below for tasks like updating or editing an uploaded report. For help with permissions, file compatibility, or server configuration, contact Bold Reports<sup>®</sup> support.
+If you run into issues while uploading reports to {{site.productNameTM}} Report Server, refer to the related articles below for tasks like updating or editing an uploaded report. For help with permissions, file compatibility, or server configuration, contact {{site.productNameTM}} support.
 
 ## What's next?
 

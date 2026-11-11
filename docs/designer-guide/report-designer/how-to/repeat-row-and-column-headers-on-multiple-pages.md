@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Repeat Table and Matrix Headers on Every Page | Bold Reports
-description: Repeat row and column headers on multiple pages in Bold Reports Report Designer with the matrix Repeat options or the RepeatOnNewPage table group setting.
+title: Repeat Table and Matrix Headers on Every Page | {{site.productName}}
+description: Repeat row and column headers on multiple pages in {{site.productName}} Report Designer with the matrix Repeat options or the RepeatOnNewPage table group setting.
 platform: report-platform
 documentation: ug
 ---
 
 # How to repeat row and column headers on multiple pages
 
-Bold Reports<sup>®</sup> Report Designer lets you repeat row and column headers on multiple pages. Use the **Repeat Column** and **Repeat row** options for a matrix, and the **RepeatOnNewPage** option for static table rows or columns.
+{{site.productNameTM}} Report Designer lets you repeat row and column headers on multiple pages. Use the **Repeat Column** and **Repeat row** options for a matrix, and the **RepeatOnNewPage** option for static table rows or columns.
 
 ## How do I display column headers on multiple pages in a matrix?
 
-You repeat matrix column headers in Bold Reports<sup>®</sup> Report Designer with the **Repeat Column** option in the **Headers** section.
+You repeat matrix column headers in {{site.productNameTM}} Report Designer with the **Repeat Column** option in the **Headers** section.
 
 1. Select the matrix report item in the report and open the **Properties** panel.
 2. Expand the **Headers** section in the **Properties** panel and select the **Repeat Column** check box under the **Headers** section.
@@ -22,7 +22,7 @@ You repeat matrix column headers in Bold Reports<sup>®</sup> Report Designer wi
 
 ## How do I display row headers on multiple pages in a matrix?
 
-You repeat matrix row headers in Bold Reports<sup>®</sup> Report Designer with the **Repeat row** option in the **Headers** section.
+You repeat matrix row headers in {{site.productNameTM}} Report Designer with the **Repeat row** option in the **Headers** section.
 
 1. Select the matrix report item in the report and open the **Properties** panel.
 2. Expand the **Headers** section in the **Properties** panel and select the **Repeat row** check box under the **Headers** section.
@@ -32,7 +32,7 @@ You repeat matrix row headers in Bold Reports<sup>®</sup> Report Designer with 
 
 ## How do I display a static row or column on multiple pages?
 
-You repeat a static table row or column in Bold Reports<sup>®</sup> Report Designer with the **RepeatOnNewPage** option in the Grouping panel's Advanced Mode.
+You repeat a static table row or column in {{site.productNameTM}} Report Designer with the **RepeatOnNewPage** option in the Grouping panel's Advanced Mode.
 
 1. Select the table report item and open the **Properties** panel.
 2. Click the **dotted button** on the right side of the **Grouping panel** and select **Advanced Mode**. The Grouping panel displays the hierarchical static and dynamic members of the table groups.

@@ -1,12 +1,12 @@
 ---
-title: Configure RDL Report Performance Settings | Bold Reports
-description: Configure Performance Settings in Bold Reports Web Report Designer, including SmartRendering, PageCreation, VirtualEvaluation, AutoGrowText, and FetchLimit.
+title: Configure RDL Report Performance Settings | {{site.productName}}
+description: Configure Performance Settings in {{site.productName}} Web Report Designer, including SmartRendering, PageCreation, VirtualEvaluation, AutoGrowText, and FetchLimit.
 keywords: ejReportDesigner, reportdesigner, Performance Settings
 ---
 
-# Configure performance settings in Bold Reports<sup>®</sup> Web Report Designer
+# Configure performance settings in {{site.productNameTM}} Web Report Designer
 
-Performance Settings in Bold Reports<sup>®</sup> Web Report Designer apply best practices and optimized ways to render RDL and RDLC reports. These properties let Bold Reports<sup>®</sup> render millions of records in seconds. The associated properties are:
+Performance Settings in {{site.productNameTM}} Web Report Designer apply best practices and optimized ways to render RDL and RDLC reports. These properties let {{site.productNameTM}} render millions of records in seconds. The associated properties are:
 
 * `SmartRendering`
 * `PageCreation`
@@ -27,7 +27,7 @@ You open Performance Settings in Web Report Designer from the **Report Propertie
 
 ## Smart Rendering
 
-Smart rendering in Bold Reports<sup>®</sup> optimizes report rendering. Enabling smart rendering updates the dependent properties as follows:
+Smart rendering in {{site.productNameTM}} optimizes report rendering. Enabling smart rendering updates the dependent properties as follows:
 * `AutoGrowText` is set to `false`.
 * `PageCreation` is set to `OnDemand`.
 * `VirtualEvaluation` is set to `true`.
@@ -41,7 +41,7 @@ The following animation shows how to enable smart rendering.
 
 ### Auto Grow Text
 
-The `AutoGrowText` property in Bold Reports<sup>®</sup> adjusts the text box height dynamically based on the content. When `AutoGrowText` is set to true, the viewer may take extra time to calculate the height of each text box, depending on the data.
+The `AutoGrowText` property in {{site.productNameTM}} adjusts the text box height dynamically based on the content. When `AutoGrowText` is set to true, the viewer may take extra time to calculate the height of each text box, depending on the data.
 
 You can enable or disable `AutoGrowText` for a report in the designer. By default, `AutoGrowText` is set to true. Configure `AutoGrowText` and click **Update**.
 
@@ -49,7 +49,7 @@ You can enable or disable `AutoGrowText` for a report in the designer. By defaul
 
 ### Virtual Evaluation
 
-The `VirtualEvaluation` property in Bold Reports<sup>®</sup> reuses tablix cell objects to optimize memory usage. To enable it for a specific report, turn on the `VirtualEvaluation` property in the designer.
+The `VirtualEvaluation` property in {{site.productNameTM}} reuses tablix cell objects to optimize memory usage. To enable it for a specific report, turn on the `VirtualEvaluation` property in the designer.
 
 By default, `VirtualEvaluation` is set to false. Configure `VirtualEvaluation` and click **Update**.
 
@@ -57,7 +57,7 @@ By default, `VirtualEvaluation` is set to false. Configure `VirtualEvaluation` a
 
 ### Page Creation
 
-The `PageCreation` property controls how pages are processed and created in Bold Reports<sup>®</sup>.
+The `PageCreation` property controls how pages are processed and created in {{site.productNameTM}}.
 
 Property | Description
 --- | ---
@@ -71,7 +71,7 @@ To set the `PageCreation` property for a specific report, choose a value from th
 
 ### Fetch Limit
 
-The `FetchLimit` property in Bold Reports<sup>®</sup> controls the number of records fetched in a report. To use it, enable `FetchLimit` in the designer and enter the record count you want in the `FetchLimitCount` numeric box.
+The `FetchLimit` property in {{site.productNameTM}} controls the number of records fetched in a report. To use it, enable `FetchLimit` in the designer and enter the record count you want in the `FetchLimitCount` numeric box.
 
 By default, `FetchLimit` is set to false. When `FetchLimit` is set to true, the `FetchLimitCount` numeric box becomes visible.
 
@@ -79,14 +79,14 @@ By default, `FetchLimit` is set to false. When `FetchLimit` is set to true, the 
 
 ### How does Smart Rendering behave during report generation?
 
-Smart rendering in Bold Reports<sup>®</sup> can freeze the parameter panel while the report is generated.
+Smart rendering in {{site.productNameTM}} can freeze the parameter panel while the report is generated.
 
 1. When `SmartRendering` is active in either `OnDemand` or `Background` mode, the parameter panel may freeze during report generation. This happens because the document is being created, and the progress bar is visible at the bottom left of the report.
 2. To modify parameters while the report is rendering, click `Cancel` to stop the rendering process. You can then enter new parameters before you run the report again.
 
 ### What are the limitations of Smart Rendering?
 
-Smart rendering in Bold Reports<sup>®</sup> is available for tablix-based reports only. It has the following limitations:
+Smart rendering in {{site.productNameTM}} is available for tablix-based reports only. It has the following limitations:
 
 1. Nested tables are not supported.
 2. Multiple tables in a report are not supported.

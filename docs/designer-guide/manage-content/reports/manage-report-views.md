@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Save and Share Report Views in Report Server | Bold Reports
-description: Save report parameter values as Report Views in Bold Reports Report Server, then open, update, share, copy links to, and delete them in either viewer.
+title: Save and Share Report Views in Report Server | {{site.productName}}
+description: Save report parameter values as Report Views in {{site.productName}} Report Server, then open, update, share, copy links to, and delete them in either viewer.
 platform: Report-platform
 documentation: ug
 ---
 
-# Manage report views in Bold Reports<sup>®</sup> Report Server
+# Manage report views in {{site.productNameTM}} Report Server
 
-Report Views are saved parameter information for a report that you can apply to the viewer while viewing the report in Bold Reports<sup>®</sup> Report Server. Only the user who created a view can share, update, and delete it.
+Report Views are saved parameter information for a report that you can apply to the viewer while viewing the report in {{site.productNameTM}} Report Server. Only the user who created a view can share, update, and delete it.
 
-You can open, add, update, share, and delete Report Views in Bold Reports<sup>®</sup> On-Premises Edition.
+You can open, add, update, share, and delete Report Views in {{site.productNameTM}} On-Premises Edition.
 
 > **Note:** Starting from v6.x, the **Views** option is hidden by default from the Report Server context menu. For more information, see [Breaking changes in the context menu](#breaking-changes-in-the-context-menu).
 
@@ -57,7 +57,7 @@ The Report Server old viewer lets you add, open, share, copy links to, and delet
 
 ### Share the Report Views
 
-You can share saved Report Views with other users and groups in the Bold Reports<sup>®</sup> Report Server. You can also share them with anonymous users.
+You can share saved Report Views with other users and groups in the {{site.productNameTM}} Report Server. You can also share them with anonymous users.
 
 1. To share the report views, click the `share` icon of the respective report view in the `Saved Views` panel.
    ![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/share-icon.png)
@@ -85,7 +85,7 @@ To delete Report Views in Report Server, click the `Delete` icon of the respecti
 
 ## Report Views in new viewer
 
-Bold Reports<sup>®</sup> Report Server supports managing views in the `new Viewer` from version 5.2.26.
+{{site.productNameTM}} Report Server supports managing views in the `new Viewer` from version 5.2.26.
 
 ### Add the Report Views
 
@@ -126,7 +126,7 @@ Bold Reports<sup>®</sup> Report Server supports managing views in the `new View
 
 ### Share the Report Views
 
-You can share saved Report Views with other users and groups in the Bold Reports<sup>®</sup> Report Server. You can also share them with anonymous users.
+You can share saved Report Views with other users and groups in the {{site.productNameTM}} Report Server. You can also share them with anonymous users.
 
 1. To share the report views, click the `share` icon of the respective report view in the `Saved Views` panel.
    ![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/ej2-share-icon.png)
@@ -154,7 +154,7 @@ To delete Report Views in the new viewer, click the `Delete` icon of the respect
 
 ## Breaking changes in the context menu
 
-Bold Reports<sup>®</sup> Report Server hides the **Views** option in the report listing context menu by default from v6.x.
+{{site.productNameTM}} Report Server hides the **Views** option in the report listing context menu by default from v6.x.
 
 * Starting from v6.x, the **Views** option is **visible** only on the **Report Preview page**. In the **Report Listing page context menu**, the Views option is set to **hidden** by default.
    ![Delete Report](/static/assets/on-premise/images/manage-content/manage-reports/context-menu.png)

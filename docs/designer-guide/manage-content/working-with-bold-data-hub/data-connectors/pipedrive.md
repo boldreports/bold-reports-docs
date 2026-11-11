@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect Pipedrive CRM to Bold Data Hub | Bold Reports
-description: Connect Pipedrive to Bold Data Hub in Bold Reports. Get your Pipedrive API token, set the connection properties, and schedule data refresh for your CRM data.
+title: Connect Pipedrive CRM to Bold Data Hub | {{site.productName}}
+description: Connect Pipedrive to Bold Data Hub in {{site.productName}}. Get your Pipedrive API token, set the connection properties, and schedule data refresh for your CRM data.
 platform: Report-platform
 documentation: ug
 
 ---
 # Connect Pipedrive with Bold Data Hub
 
-The Bold Data Hub Pipedrive connector loads sales CRM data from Pipedrive into Bold Reports<sup>®</sup>. [Pipedrive](https://www.pipedrive.com/) is a cloud-based sales Customer Relationship Management (CRM) tool for managing leads and deals.
+The Bold Data Hub Pipedrive connector loads sales CRM data from Pipedrive into {{site.productNameTM}}. [Pipedrive](https://www.pipedrive.com/) is a cloud-based sales Customer Relationship Management (CRM) tool for managing leads and deals.
 
 ## How do I get the Pipedrive API token?
 
@@ -71,7 +71,7 @@ You connect Pipedrive by creating a project in Bold Data Hub and adding the `Pip
 
     ![Pipedrive Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipedrive_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Which Pipedrive resources are supported?
 
@@ -112,7 +112,7 @@ You schedule the Pipedrive pipeline in Bold Data Hub from the schedules tab, or 
 
     ![Pipedrive - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Pipedrive - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

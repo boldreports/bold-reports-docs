@@ -1,15 +1,15 @@
 ---
-title: Color Map Markers with a Marker Color Rule | Bold Reports
-description: Define a marker color rule in the Bold Reports Web Report Designer to fill map marker icons with color palette, color range, or custom color rules by range.
+title: Color Map Markers with a Marker Color Rule | {{site.productName}}
+description: Define a marker color rule in the {{site.productName}} Web Report Designer to fill map marker icons with color palette, color range, or custom color rules by range.
 ---
 
-# Marker color rule in Bold Reports<sup>®</sup> Web Report Designer
+# Marker color rule in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the marker color rule properties define color filling rules for map marker icons with a user-specified number of ranges.
+In the {{site.productNameTM}} Web Report Designer, the marker color rule properties define color filling rules for map marker icons with a user-specified number of ranges.
 
 ## Which rules and distribution types are available?
 
-The Bold Reports<sup>®</sup> marker color rule has three rules to fill colors on map marker icons:
+The {{site.productNameTM}} marker color rule has three rules to fill colors on map marker icons:
 
 * [Color palette](./../../../report-items/map/color-palette-marker-rule/)
 * [Color ranges](./../../../report-items/map/color-range-marker-rule/)
@@ -24,7 +24,7 @@ The marker color rule also has four distribution types to distribute colors on m
 
 ## How do I define a marker color rule?
 
-You can apply Bold Reports<sup>®</sup> marker color rules after you match the map shapes based on shape data and analytical data from a dataset field.
+You can apply {{site.productNameTM}} marker color rules after you match the map shapes based on shape data and analytical data from a dataset field.
 
 The properties are listed under **Marker Color Rule** in the map properties. To enable or disable the marker color rule on the map surface, toggle the `Enable Color Rule` checkbox.
 

@@ -1,12 +1,12 @@
 ---
-title: Edit a Report Parameter in an RDL Report | Bold Reports
-description: Edit a report parameter in the Bold Reports Web Report Designer from the PARAMETERS panel context menu to modify existing parameter properties in RDL reports.
+title: Edit a Report Parameter in an RDL Report | {{site.productName}}
+description: Edit a report parameter in the {{site.productName}} Web Report Designer from the PARAMETERS panel context menu to modify existing parameter properties in RDL reports.
 keywords: edit report parameter, modify report parameter, report-designer, parameters
 ---
 
 # Edit a report parameter
 
-To edit a report parameter in the Bold Reports<sup>®</sup> Web Report Designer, open the `PARAMETERS` panel and choose `Edit` from the parameter's context menu.
+To edit a report parameter in the {{site.productNameTM}} Web Report Designer, open the `PARAMETERS` panel and choose `Edit` from the parameter's context menu.
 
 ## How do I edit a report parameter?
 

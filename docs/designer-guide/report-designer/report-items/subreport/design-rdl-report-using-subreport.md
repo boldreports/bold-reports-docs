@@ -1,16 +1,16 @@
 ---
-title: Design an RDL Report Using a Subreport | Bold Reports
-description: Design an SSRS RDL report with a subreport in Bold Reports Web Report Designer to compare two employees side by side, link the subreport, and pass parameters.
-keywords: ejReportDesigner, reportdesigner, subreport, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Design an RDL Report Using a Subreport | {{site.productName}}
+description: Design an SSRS RDL report with a subreport in {{site.productName}} Web Report Designer to compare two employees side by side, link the subreport, and pass parameters.
+keywords: ejReportDesigner, reportdesigner, subreport, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Design an RDL report using a subreport in Bold Reports<sup>®</sup>
+# Design an RDL report using a subreport in {{site.productNameTM}}
 
-To compare the details of two employees side by side, create an SSRS RDL report with a subreport in the Bold Reports<sup>®</sup> Web Report Designer. You build a main report, build a subreport, link the two, and pass parameters.
+To compare the details of two employees side by side, create an SSRS RDL report with a subreport in the {{site.productNameTM}} Web Report Designer. You build a main report, build a subreport, link the two, and pass parameters.
 
 ## How do I create the main report?
 
-The main report in the Bold Reports<sup>®</sup> Web Report Designer holds the employee parameters and the two subreport items.
+The main report in the {{site.productNameTM}} Web Report Designer holds the employee parameters and the two subreport items.
 
 1. Create a dataset with the following query, which the main report uses. Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section for the steps.
       ```sql
@@ -39,7 +39,7 @@ You add subreport items in the Web Report Designer from the `Sub Reports` catego
 
 ## How do I create the subreport?
 
-The subreport in the Bold Reports<sup>®</sup> Web Report Designer displays the employee details. You create its datasets, design its layout, and assign its fields.
+The subreport in the {{site.productNameTM}} Web Report Designer displays the employee details. You create its datasets, design its layout, and assign its fields.
 
 ### How do I create the subreport datasets?
 
@@ -95,7 +95,7 @@ The subreport assigns fields in the Web Report Designer with the following expre
 
 ## How do I link the subreport into the main report?
 
-You link a subreport in the Bold Reports<sup>®</sup> Web Report Designer from the **Report** option in the properties panel. After you drag and drop the subreport item into the design area, its item properties are listed in the properties panel.
+You link a subreport in the {{site.productNameTM}} Web Report Designer from the **Report** option in the properties panel. After you drag and drop the subreport item into the design area, its item properties are listed in the properties panel.
 
 ![subreport item with properties view](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-properties.png)
 
@@ -120,7 +120,7 @@ Set the report path for the other subreport item by following the same steps.
 
 ## How do I set parameter values for the subreport?
 
-You pass parameter values from the main report to the subreport in the Bold Reports<sup>®</sup> Web Report Designer with the **Set Parameters** option. Follow these steps:
+You pass parameter values from the main report to the subreport in the {{site.productNameTM}} Web Report Designer with the **Set Parameters** option. Follow these steps:
 
 1. Click the **Set Parameters** button and click the **ADD** icon.
    ![selected report path](/static/assets/on-premise/images/report-designer/report-items/subreport/parameter-add-icon.png '#width=385px')

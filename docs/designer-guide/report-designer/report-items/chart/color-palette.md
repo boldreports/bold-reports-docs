@@ -1,24 +1,24 @@
 ---
-title: Customize Chart Colors with a Color Palette | Bold Reports
-description: Customize chart series colors in the Bold Reports Web Report Designer. Choose a built-in color palette or define a custom palette for the chart report item.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Customize Chart Colors with a Color Palette | {{site.productName}}
+description: Customize chart series colors in the {{site.productName}} Web Report Designer. Choose a built-in color palette or define a custom palette for the chart report item.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Customize Chart Colors with the Bold Reports<sup>®</sup> Color Palette
+# Customize Chart Colors with the {{site.productNameTM}} Color Palette
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you customize the chart series color with the color palette property. You can change the color palette for a chart series by choosing from a predefined set of color palettes or defining a custom palette. The **Color Palette** property is listed under the `Chart Area` category in the chart properties panel.
+In the {{site.productNameTM}} Web Report Designer, you customize the chart series color with the color palette property. You can change the color palette for a chart series by choosing from a predefined set of color palettes or defining a custom palette. The **Color Palette** property is listed under the `Chart Area` category in the chart properties panel.
 
 ![Color Palette property](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/color-palette-property.png '#width=385px')
 
 ## How do I use a built-in color palette?
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you switch between the predefined color palette options available in the `Color Palette` dropdown.
+The {{site.productNameTM}} Web Report Designer lets you switch between the predefined color palette options available in the `Color Palette` dropdown.
 
 ![Built in Color Palettes](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/built-in-color-palette.png)
 
 ## Define custom color palette
 
-You define a custom color palette for a Bold Reports<sup>®</sup> chart in the **Custom Colors** panel. To define custom colors, follow these steps:
+You define a custom color palette for a {{site.productNameTM}} chart in the **Custom Colors** panel. To define custom colors, follow these steps:
 
 1. Select the `Custom` option from the `Color Palette` dropdown.
 
@@ -72,7 +72,7 @@ You delete a custom color set from the **Chart Custom Colors** panel. Follow the
 
 ### Where is the Color Palette property?
 
-The **Color Palette** property is listed under the `Chart Area` category in the chart properties panel of the Bold Reports<sup>®</sup> Web Report Designer.
+The **Color Palette** property is listed under the `Chart Area` category in the chart properties panel of the {{site.productNameTM}} Web Report Designer.
 
 ### How are custom colors applied to a chart?
 

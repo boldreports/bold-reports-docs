@@ -1,15 +1,15 @@
 ---
-title: Set an Equal Interval Rule for Map Markers | Bold Reports
-description: Set the equal interval distribution type for map markers in the Bold Reports Web Report Designer to divide the whole data range into equally sized intervals.
+title: Set an Equal Interval Rule for Map Markers | {{site.productName}}
+description: Set the equal interval distribution type for map markers in the {{site.productName}} Web Report Designer to divide the whole data range into equally sized intervals.
 ---
 
-# Equal interval for map markers in Bold Reports<sup>®</sup>
+# Equal interval for map markers in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the equal interval distribution type divides the entire data range into equally sized intervals.
+In the {{site.productNameTM}} Web Report Designer, the equal interval distribution type divides the entire data range into equally sized intervals.
 
 ## How do I set equal interval distribution for map markers?
 
-You set equal interval distribution for map markers in the Bold Reports<sup>®</sup> Web Report Designer from the marker color rule category.
+You set equal interval distribution for map markers in the {{site.productNameTM}} Web Report Designer from the marker color rule category.
 
 1. Set a value for the `Data Value` property. The properties required to configure the distribution type appear under the marker color rule category.
 
@@ -21,7 +21,7 @@ You can also set the distribution type based on dynamic values by using `Express
 
 ## Start and end value
 
-The start and end values set the limits that Bold Reports<sup>®</sup> splits into ranges by using an algorithm in report preview.
+The start and end values set the limits that {{site.productNameTM}} splits into ranges by using an algorithm in report preview.
 
 For example, to display the population of each country on a map, set the minimum population as the start value and the maximum population as the end value.
 
@@ -29,7 +29,7 @@ For example, to display the population of each country on a map, set the minimum
 
 ## Bucket count
 
-The bucket count sets how many data ranges Bold Reports<sup>®</sup> creates. For example, if you specify a bucket count of 25, the data between the start and end values is split into 25 ranges.
+The bucket count sets how many data ranges {{site.productNameTM}} creates. For example, if you specify a bucket count of 25, the data between the start and end values is split into 25 ranges.
 
 ![Bucket count](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/equal-interval-bucket-count.png '#width=385px')
 

@@ -1,15 +1,15 @@
 ---
-title: Set a Custom Distribution for Map Shapes | Bold Reports
-description: Set a custom distribution type for map shapes in the Bold Reports Web Report Designer, define your own data ranges, and format the map legend text.
+title: Set a Custom Distribution for Map Shapes | {{site.productName}}
+description: Set a custom distribution type for map shapes in the {{site.productName}} Web Report Designer, define your own data ranges, and format the map legend text.
 ---
 
-# Custom distribution for map shapes in Bold Reports<sup>®</sup>
+# Custom distribution for map shapes in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the custom distribution type lets you set your own number of data ranges to decide the distribution of values for map shapes.
+In the {{site.productNameTM}} Web Report Designer, the custom distribution type lets you set your own number of data ranges to decide the distribution of values for map shapes.
 
 ## How do I set a custom distribution for map shapes?
 
-You set a custom distribution for map shapes in the Bold Reports<sup>®</sup> Web Report Designer from the shape color rule category.
+You set a custom distribution for map shapes in the {{site.productNameTM}} Web Report Designer from the shape color rule category.
 
 1. Select the data value. The properties required to configure the distribution type appear under the shape color rule category.
 
@@ -26,11 +26,11 @@ You set a custom distribution for map shapes in the Bold Reports<sup>®</sup> We
 
 ## Buckets
 
-To define the data ranges explicitly in the Bold Reports<sup>®</sup> `Buckets` property, see the [Custom Buckets](./../../../report-items/map/define-custom-data-range/#add-bucket) section.
+To define the data ranges explicitly in the {{site.productNameTM}} `Buckets` property, see the [Custom Buckets](./../../../report-items/map/define-custom-data-range/#add-bucket) section.
 
 ## Legend text
 
-The Legend text property sets the format of the content in a Bold Reports<sup>®</sup> map legend. To format the legend content, use map legend keywords and custom formats.
+The Legend text property sets the format of the content in a {{site.productNameTM}} map legend. To format the legend content, use map legend keywords and custom formats.
 
 ![Legend text](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/custom-legend-text.png '#width=355px')
 

@@ -1,16 +1,16 @@
 ---
 canonical: /enterprise-reporting/designer-guide/report-designer/manage-data/data-connectors/
-title: Supported Data Connectors for RDL Reports | Bold Reports
-description: Connect RDL reports in the Bold Reports Web Report Designer to data connectors such as SQL Server, Oracle, MongoDB, Snowflake, JSON, and Excel without code.
+title: Supported Data Connectors for RDL Reports | {{site.productName}}
+description: Connect RDL reports in the {{site.productName}} Web Report Designer to data connectors such as SQL Server, Oracle, MongoDB, Snowflake, JSON, and Excel without code.
 ---
 
-# Data connectors in Bold Reports<sup>®</sup> Designer
+# Data connectors in {{site.productNameTM}} Designer
 
-The Bold Reports<sup>®</sup> Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC, Web API, OData, JSON, and XML data connectors, so your structured data can be in any specific format for processing. Each connector page gives the step by step procedure to connect with that data connector in the Bold Reports<sup>®</sup> Designer.
+The {{site.productNameTM}} Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC, Web API, OData, JSON, and XML data connectors, so your structured data can be in any specific format for processing. Each connector page gives the step by step procedure to connect with that data connector in the {{site.productNameTM}} Designer.
 
 ## Which data connectors can I use?
 
-The Bold Reports<sup>®</sup> Designer provides the following data connectors:
+The {{site.productNameTM}} Designer provides the following data connectors:
 
 * [Amazon Aurora](./../../manage-data/data-connectors/amazon-aurora-data-source/)
 

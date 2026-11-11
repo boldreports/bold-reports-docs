@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Load Local Files with Bold Data Hub | Bold Reports
-description: Use the FileSystem reader source in Bold Data Hub to load CSV, Excel, JSON, and YAML files from a local path into Bold Reports and schedule the data refresh.
+title: Load Local Files with Bold Data Hub | {{site.productName}}
+description: Use the FileSystem reader source in Bold Data Hub to load CSV, Excel, JSON, and YAML files from a local path into {{site.productName}} and schedule the data refresh.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Load local files with the Bold Data Hub FileSystem connector
 
-The Bold Data Hub FileSystem connector streams files from the local ``filesystem`` into Bold Reports<sup>®</sup> by using the reader source.
+The Bold Data Hub FileSystem connector streams files from the local ``filesystem`` into {{site.productNameTM}} by using the reader source.
 
 ## Which file types does the FileSystem connector support?
 
@@ -69,11 +69,11 @@ You connect local files by creating a pipeline in Bold Data Hub, adding a file c
 
     ![FileSystem - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-7. The pipeline is saved and starts automatically. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+7. The pipeline is saved and starts automatically. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![FileSystem - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/csv_logs.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![FileSystem - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -95,7 +95,7 @@ You schedule the FileSystem pipeline in Bold Data Hub from the schedules tab, or
 
     ![FileSystem - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![FileSystem - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

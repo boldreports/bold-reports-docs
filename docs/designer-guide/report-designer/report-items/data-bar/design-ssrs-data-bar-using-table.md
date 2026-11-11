@@ -1,16 +1,16 @@
 ---
-title: Design an SSRS Data Bar Report Using a Table | Bold Reports
-description: Design an SSRS data bar report with a table in the Bold Reports Web Report Designer to show trends and changes in sales data across product subcategories.
-keywords: ejReportDesigner, reportdesigner, table, data bar, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Design an SSRS Data Bar Report Using a Table | {{site.productName}}
+description: Design an SSRS data bar report with a table in the {{site.productName}} Web Report Designer to show trends and changes in sales data across product subcategories.
+keywords: ejReportDesigner, reportdesigner, table, data bar, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Design an SSRS data bar report using a table in Bold Reports<sup>®</sup>
+# Design an SSRS data bar report using a table in {{site.productNameTM}}
 
-To design a `Data bar` report in the Bold Reports<sup>®</sup> Web Report Designer, create a dataset, add a table report item, and place a data bar in a table column. The finished report shows the difference in sales between product subcategories.
+To design a `Data bar` report in the {{site.productNameTM}} Web Report Designer, create a dataset, add a table report item, and place a data bar in a table column. The finished report shows the difference in sales between product subcategories.
 
 ## How do I create the dataset?
 
-The Bold Reports<sup>®</sup> `Data bar` report in this example uses the following dataset query.
+The {{site.productNameTM}} `Data bar` report in this example uses the following dataset query.
 
 ```sql
 SELECT PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -26,7 +26,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I add the data bar report item to a table?
 
-You add a data bar to a table cell in the Bold Reports<sup>®</sup> Web Report Designer after you set up the table and its groups.
+You add a data bar to a table cell in the {{site.productNameTM}} Web Report Designer after you set up the table and its groups.
 
 1. Drag and drop the table report item to the design area.
    ![Data bar item in item panel](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-table.png '#width=295px')
@@ -57,7 +57,7 @@ You add a data bar to a table cell in the Bold Reports<sup>®</sup> Web Report D
 
 ## How do I assign data to the data bar?
 
-You assign data to a Bold Reports<sup>®</sup> data bar in the `DATA` tab of the properties panel.
+You assign data to a {{site.productNameTM}} data bar in the `DATA` tab of the properties panel.
 
 1. Select the cell that contains the data bar report item and switch to the `DATA` tab in the properties panel.
    ![Assign data to chart](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/switch-data-assign.png)
@@ -66,7 +66,7 @@ You assign data to a Bold Reports<sup>®</sup> data bar in the `DATA` tab of the
 
 ## How do I configure the data bar properties?
 
-You configure the Bold Reports<sup>®</sup> data bar series and data labels in the `PROPERTIES` tab of the properties panel.
+You configure the {{site.productNameTM}} data bar series and data labels in the `PROPERTIES` tab of the properties panel.
 
 1. Switch to the `PROPERTIES` tab in the properties panel.
 2. Choose the `Sales` series in the `Choose Series` dropdown.
@@ -84,7 +84,7 @@ You configure the Bold Reports<sup>®</sup> data bar series and data labels in t
 
 ## What does the data bar report look like in preview?
 
-The Bold Reports<sup>®</sup> data bar report preview displays the difference in sales between each product category, as shown in the following image.
+The {{site.productNameTM}} data bar report preview displays the difference in sales between each product category, as shown in the following image.
 
 ![Data bar RDL report preview](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/report-preview.png '#width=455px')
 

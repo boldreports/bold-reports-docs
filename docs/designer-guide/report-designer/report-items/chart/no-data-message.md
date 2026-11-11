@@ -1,11 +1,11 @@
 ---
-title: Set a No Data Message for an RDL Chart | Bold Reports
-description: Set a no data message in the Bold Reports Web Report Designer to show static text in place of a chart when its dataset returns no rows at run time.
+title: Set a No Data Message for an RDL Chart | {{site.productName}}
+description: Set a no data message in the {{site.productName}} Web Report Designer to show static text in place of a chart when its dataset returns no rows at run time.
 ---
 
-# Set a no data message for a chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Set a no data message for a chart in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the No Data property displays static text when a dataset returns empty or zero rows at run time.
+In the {{site.productNameTM}} Web Report Designer, the No Data property displays static text when a dataset returns empty or zero rows at run time.
 
 The following image shows the no data message properties of the chart.
 

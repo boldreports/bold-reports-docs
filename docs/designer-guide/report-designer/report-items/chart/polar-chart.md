@@ -1,12 +1,12 @@
 ---
-title: Add and Format a Polar Chart in RDL Reports | Bold Reports
-description: Add a polar chart to an RDL report in the Bold Reports Web Report Designer, bind data to it, and format its legend, series, grid lines, and page breaks.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format a Polar Chart in RDL Reports | {{site.productName}}
+description: Add a polar chart to an RDL report in the {{site.productName}} Web Report Designer, bind data to it, and format its legend, series, grid lines, and page breaks.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a polar chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a polar chart in the {{site.productNameTM}} Web Report Designer
 
-You add a **Polar Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to visualize data in terms of values and angles. The polar chart provides options for visual comparison between several quantitative or qualitative aspects of a situation.
+You add a **Polar Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to visualize data in terms of values and angles. The polar chart provides options for visual comparison between several quantitative or qualitative aspects of a situation.
 
 ## How do I add a polar chart to the report?
 
@@ -151,7 +151,7 @@ The Basic Settings category in the Web Report Designer holds the Show Legend and
 
 #### Show Legend
 
-A legend in a Bold Reports<sup>®</sup> chart is text used to describe the data plotted. You can toggle the visibility of the legend in the chart and customize the legend text appearance. To set or reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
+A legend in a {{site.productNameTM}} chart is text used to describe the data plotted. You can toggle the visibility of the legend in the chart and customize the legend text appearance. To set or reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
 
 #### Choose Series
 
@@ -280,13 +280,13 @@ The **Tooltip** property displays informative text or values when the user hover
 
 #### Document Map
 
-A **document map** in a Bold Reports<sup>®</sup> report is a navigational feature that displays a separate side pane with a set of navigational links in a hierarchical structure when you view a report. A user can click the content in the list to navigate to the report page that displays that item. Refer to the [Document Map](./../../../compose-report/document-map/) section to configure the document map in the report design.
+A **document map** in a {{site.productNameTM}} report is a navigational feature that displays a separate side pane with a set of navigational links in a hierarchical structure when you view a report. A user can click the content in the list to navigate to the report page that displays that item. Refer to the [Document Map](./../../../compose-report/document-map/) section to configure the document map in the report design.
 
 You can set static or dynamic text as the value for the document map property. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
 #### Bookmark
 
-Bookmark links in a Bold Reports<sup>®</sup> report let users navigate to different parts of an SSRS report. You can add bookmarks to each textbox, image, table, or chart, or to the unique group values displayed in a tablix, to direct users to specified locations in the report. The value of the bookmark property can be your own strings or an expression. Refer to the [Bookmark](./../../../compose-report/bookmark/) section to configure bookmarks in the report design.
+Bookmark links in a {{site.productNameTM}} report let users navigate to different parts of an SSRS report. You can add bookmarks to each textbox, image, table, or chart, or to the unique group values displayed in a tablix, to direct users to specified locations in the report. The value of the bookmark property can be your own strings or an expression. Refer to the [Bookmark](./../../../compose-report/bookmark/) section to configure bookmarks in the report design.
 
 You can set static or dynamic text as the value for the bookmark property. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 

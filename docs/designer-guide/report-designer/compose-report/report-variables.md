@@ -1,15 +1,15 @@
 ---
-title: Add Report Variables to RDL Reports | Bold Reports
-description: Add report variables in Bold Reports Web Report Designer to reuse a static value or expression in an RDL report, with read-only and read-write variable types.
+title: Add Report Variables to RDL Reports | {{site.productName}}
+description: Add report variables in {{site.productName}} Web Report Designer to reuse a static value or expression in an RDL report, with read-only and read-write variable types.
 ---
 
-# Report variables in Bold Reports<sup>®</sup> Web Report Designer
+# Report variables in {{site.productNameTM}} Web Report Designer
 
-The report variables option in Bold Reports<sup>®</sup> Web Report Designer adds custom variables to a report. A variable value can be static text or an expression. Create report variables when a report design needs a value or calculation many times. Each variable name must be unique in a report.
+The report variables option in {{site.productNameTM}} Web Report Designer adds custom variables to a report. A variable value can be static text or an expression. Create report variables when a report design needs a value or calculation many times. Each variable name must be unique in a report.
 
 ## How do report variables work?
 
-At run time, Bold Reports<sup>®</sup> calculates the value of a report variable once and keeps it until the report is processed again. You can set a report variable type to **Read-only** or **Read-write**. By default, it is set to **Read-only** type.
+At run time, {{site.productNameTM}} calculates the value of a report variable once and keeps it until the report is processed again. You can set a report variable type to **Read-only** or **Read-write**. By default, it is set to **Read-only** type.
 
 **Read-only** - Use this type to set a constant value for the variable, for example, to create a time stamp. Use the following syntax to call a report variable anywhere in the report, **=Variables!MyVariable.Value**.
 
@@ -47,7 +47,7 @@ You delete a report variable in Web Report Designer by clicking the delete icon 
 
 ## Call report variable in a report
 
-You call a report variable in Bold Reports<sup>®</sup> from any expression. The report variables available in the report are listed under the **Data** dropdown in Expression Builder.
+You call a report variable in {{site.productNameTM}} from any expression. The report variables available in the report are listed under the **Data** dropdown in Expression Builder.
 
 ![Variables listed in expression builder](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-in-expression-builder.png '#width=400px')
 

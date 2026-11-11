@@ -1,16 +1,16 @@
 ---
-title: Design an RDL Report with PDF Content | Bold Reports
-description: Embed PDF documents in SSRS RDL reports with the PDF report item in Bold Reports Web Report Designer. Add a PDF by URL, preview it, and review the limitations.
-keywords: SSRS RDL report, PDF report item, embed PDF in reports, design SSRS report with PDF, report designer guide, PDF content in RDL, Bold Reports, report viewer, documentation
+title: Design an RDL Report with PDF Content | {{site.productName}}
+description: Embed PDF documents in SSRS RDL reports with the PDF report item in {{site.productName}} Web Report Designer. Add a PDF by URL, preview it, and review the limitations.
+keywords: SSRS RDL report, PDF report item, embed PDF in reports, design SSRS report with PDF, report designer guide, PDF content in RDL, {{site.productName}}, report viewer, documentation
 ---
 
-# Design an RDL report with PDF content in Bold Reports<sup>®</sup>
+# Design an RDL report with PDF content in {{site.productNameTM}}
 
-The `PDF` report item in the Bold Reports<sup>®</sup> Web Report Designer includes multi-page PDF documents directly in an RDL report layout. Follow the steps below to add a PDF document through a URL.
+The `PDF` report item in the {{site.productNameTM}} Web Report Designer includes multi-page PDF documents directly in an RDL report layout. Follow the steps below to add a PDF document through a URL.
 
 ## How do I add a PDF report item?
 
-You add a PDF report item in the Bold Reports<sup>®</sup> Web Report Designer by dragging it into the design area and setting its source. Follow these steps:
+You add a PDF report item in the {{site.productNameTM}} Web Report Designer by dragging it into the design area and setting its source. Follow these steps:
 
 1. Drag and drop the PDF report item from the item panel into the design area.
    ![Drag and drop pdf report item into design area](/static/assets/on-premise/images/report-designer/report-items/pdf/drag-and-drop-pdf.png '#width=425px')
@@ -33,7 +33,7 @@ You add a PDF report item in the Bold Reports<sup>®</sup> Web Report Designer b
 
 ## What are the limitations of the PDF report item?
 
-The PDF report item in the Bold Reports<sup>®</sup> Web Report Designer has the following limitations:
+The PDF report item in the {{site.productNameTM}} Web Report Designer has the following limitations:
 
 1. PDF custom report item cannot be inserted inside the `header` or `footer` of the report.
 2. The size of the PDF document must be less than `100 MB`.

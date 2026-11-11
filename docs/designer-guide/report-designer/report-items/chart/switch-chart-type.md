@@ -1,15 +1,15 @@
 ---
-title: Switch the Chart Series Type in RDL Reports | Bold Reports
-description: Change the series chart type of a chart report item at any point during report design with the Chart Type dropdown in the Bold Reports Web Report Designer.
+title: Switch the Chart Series Type in RDL Reports | {{site.productName}}
+description: Change the series chart type of a chart report item at any point during report design with the Chart Type dropdown in the {{site.productName}} Web Report Designer.
 ---
 
-# Switch the Series Chart Type in the Bold Reports<sup>®</sup> Report Designer
+# Switch the Series Chart Type in the {{site.productNameTM}} Report Designer
 
-The chart type switcher in the Bold Reports<sup>®</sup> Report Designer lets you change the series chart type of a chart report item at any point during report design. You change it with the `Chart Type` dropdown under the series properties.
+The chart type switcher in the {{site.productNameTM}} Report Designer lets you change the series chart type of a chart report item at any point during report design. You change it with the `Chart Type` dropdown under the series properties.
 
 ## How do I switch a series chart type?
 
-You switch a series chart type in the Bold Reports<sup>®</sup> Report Designer from the series properties of the chart.
+You switch a series chart type in the {{site.productNameTM}} Report Designer from the series properties of the chart.
 
 1. To open the properties of a specific series, choose the series name in the `Choose Series` dropdown.
 
@@ -25,13 +25,13 @@ You switch a series chart type in the Bold Reports<sup>®</sup> Report Designer 
 
 ## Which chart types can I switch to?
 
-The Bold Reports<sup>®</sup> Report Designer lists only the types compatible with the present series chart type in the chart type dropdown. For example, if the existing series chart type is pie chart, the chart type dropdown lists the compatible types shown in the following image.
+The {{site.productNameTM}} Report Designer lists only the types compatible with the present series chart type in the chart type dropdown. For example, if the existing series chart type is pie chart, the chart type dropdown lists the compatible types shown in the following image.
 
 ![Supported chart types](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/supported-types.png)
 
 ## Chart with single series
 
-When a Bold Reports<sup>®</sup> chart has a single series, changing the series chart type changes the whole chart to the expected chart type. For example, the following report has a column chart with a single series.
+When a {{site.productNameTM}} chart has a single series, changing the series chart type changes the whole chart to the expected chart type. For example, the following report has a column chart with a single series.
 
 ![Single series](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/single-series.png '#width=355px')
 
@@ -41,7 +41,7 @@ To change the series chart type to `Line`, choose `Line` in the chart type dropd
 
 ## Chart with multiple series
 
-A Bold Reports<sup>®</sup> chart with multiple series can behave differently during series chart type switching, depending on the source and target chart types. The following sections describe when [individual chart series type switching](#individual-chart-series-type-switching) (affecting only the selected series) or [combined chart series type switching](#combined-chart-series-type-switching) (affecting all series collectively) takes place.
+A {{site.productNameTM}} chart with multiple series can behave differently during series chart type switching, depending on the source and target chart types. The following sections describe when [individual chart series type switching](#individual-chart-series-type-switching) (affecting only the selected series) or [combined chart series type switching](#combined-chart-series-type-switching) (affecting all series collectively) takes place.
 
 ### Individual Chart Series Type Switching
 

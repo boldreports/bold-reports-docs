@@ -1,16 +1,16 @@
 ---
-title: Manage Dataset Parameters in RDL Reports | Bold Reports
-description: Create, edit, delete, and reorder dataset parameters in the Bold Reports Web Report Designer and link query parameters to report parameters in RDL reports.
+title: Manage Dataset Parameters in RDL Reports | {{site.productName}}
+description: Create, edit, delete, and reorder dataset parameters in the {{site.productName}} Web Report Designer and link query parameters to report parameters in RDL reports.
 keywords: calculated fields, calculated fields ssrs, report-designer, ssrs calculated fields, ssrs, reporting
 ---
 
-# Manage dataset parameters in Bold Reports<sup>®</sup>
+# Manage dataset parameters in {{site.productNameTM}}
 
-The Parameters option in the Bold Reports<sup>®</sup> Web Report Designer creates, edits, and deletes dataset parameters. These include query parameters that link to report parameters.
+The Parameters option in the {{site.productNameTM}} Web Report Designer creates, edits, and deletes dataset parameters. These include query parameters that link to report parameters.
 
 ## How do I open the dataset parameters dialog?
 
-You open the dataset `Parameters` dialog from the `DATA` panel of the Bold Reports<sup>®</sup> Web Report Designer.
+You open the dataset `Parameters` dialog from the `DATA` panel of the {{site.productNameTM}} Web Report Designer.
 
 1. Select the data in the `DATA` panel to which you want to add, edit, or delete parameters.
 
@@ -74,7 +74,7 @@ You delete a dataset parameter in the Web Report Designer by clicking the **Dele
 
 ## How do I reorder parameters?
 
-Bold Reports<sup>®</sup> retrieves results from the database based on the order of the parameters in the query when it executes a query or processes the report. You can change that order in the `Parameters` dialog.
+{{site.productNameTM}} retrieves results from the database based on the order of the parameters in the query when it executes a query or processes the report. You can change that order in the `Parameters` dialog.
 
 The following image shows the parameter list before reordering the parameters.
 
@@ -97,7 +97,7 @@ The following image shows the parameter list after reordering the parameters.
 
 ### Does deleting a dataset parameter remove the report parameter?
 
-No. If you delete a parameter from the dataset, Bold Reports<sup>®</sup> does not remove it from `Report Parameter` automatically. You need to remove it manually if needed.
+No. If you delete a parameter from the dataset, {{site.productNameTM}} does not remove it from `Report Parameter` automatically. You need to remove it manually if needed.
 
 ### Can a dataset parameter value refer to report items or fields?
 

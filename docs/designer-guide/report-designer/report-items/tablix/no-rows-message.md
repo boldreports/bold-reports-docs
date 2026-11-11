@@ -1,11 +1,11 @@
 ---
-title: Set a No Rows Message for an RDL Tablix | Bold Reports
-description: Set a no rows message in the Bold Reports Web Report Designer to show static text when a tablix dataset returns no data, and format its font and alignment.
+title: Set a No Rows Message for an RDL Tablix | {{site.productName}}
+description: Set a no rows message in the {{site.productName}} Web Report Designer to show static text when a tablix dataset returns no data, and format its font and alignment.
 ---
 
-# Set a no rows message in the Bold Reports<sup>®</sup> Web Report Designer
+# Set a no rows message in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the No Rows property displays static text when a dataset returns empty or zero rows at run time. You set the message text and format its font, alignment, and spacing in the properties panel.
+In the {{site.productNameTM}} Web Report Designer, the No Rows property displays static text when a dataset returns empty or zero rows at run time. You set the message text and format its font, alignment, and spacing in the properties panel.
 
 The following image shows the No Rows properties of a tablix.
 
@@ -13,7 +13,7 @@ The following image shows the No Rows properties of a tablix.
 
 ## Font
 
-The Bold Reports<sup>®</sup> no rows message Font properties set the font family, color, size, style, and weight of the message, as shown in the following image.
+The {{site.productNameTM}} no rows message Font properties set the font family, color, size, style, and weight of the message, as shown in the following image.
 
 ![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-properties.png '#width=315px')
 
@@ -53,7 +53,7 @@ The Font Weight property changes the font weight of the no rows message. Choose 
 
 ## Message
 
-The Bold Reports<sup>®</sup> no rows Message property holds the text shown to the user when the dataset returns empty or zero rows. Enter the text you need in the message textbox.
+The {{site.productNameTM}} no rows Message property holds the text shown to the user when the dataset returns empty or zero rows. Enter the text you need in the message textbox.
 
 ![Message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/message.png '#width=315px')
 
@@ -116,7 +116,7 @@ The Writing mode property sets the direction of the no rows message to `Horizont
 
 ## How does the no rows message look in preview?
 
-Bold Reports<sup>®</sup> applies all the customizations to the no rows message container when you preview the report.
+{{site.productNameTM}} applies all the customizations to the no rows message container when you preview the report.
 
 ![Preview](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/preview.png '#width=315px')
 
@@ -124,7 +124,7 @@ Bold Reports<sup>®</sup> applies all the customizations to the no rows message 
 
 ### When does the no rows message appear?
 
-The Bold Reports<sup>®</sup> no rows message appears when the dataset returns empty or zero rows at run time.
+The {{site.productNameTM}} no rows message appears when the dataset returns empty or zero rows at run time.
 
 ### Which font styles can I use for the no rows message?
 

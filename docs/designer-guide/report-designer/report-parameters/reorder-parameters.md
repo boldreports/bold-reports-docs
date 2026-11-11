@@ -1,12 +1,12 @@
 ---
-title: Reorder Report Parameters in an RDL Report | Bold Reports
-description: Reorder report parameters in the Bold Reports Web Report Designer by dragging them in the PARAMETERS panel to change the order in which users see them.
+title: Reorder Report Parameters in an RDL Report | {{site.productName}}
+description: Reorder report parameters in the {{site.productName}} Web Report Designer by dragging them in the PARAMETERS panel to change the order in which users see them.
 keywords: reorder parameter, reorder parameters, report-designer, ssrs, reporting
 ---
 
 # Reorder report parameters in the Web Report Designer
 
-To reorder report parameters in the Bold Reports<sup>®</sup> Web Report Designer, drag each parameter to the required position in the `PARAMETERS` panel.
+To reorder report parameters in the {{site.productNameTM}} Web Report Designer, drag each parameter to the required position in the `PARAMETERS` panel.
 
 ## How do I reorder report parameters?
 

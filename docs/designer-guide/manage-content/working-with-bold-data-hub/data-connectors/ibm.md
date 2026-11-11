@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect IBM Db2 Database to Bold Data Hub | Bold Reports
-description: Connect IBM Db2 to Bold Data Hub in Bold Reports with host, port, credentials, and client library path, then schedule loading tables into a data source.
+title: Connect IBM Db2 Database to Bold Data Hub | {{site.productName}}
+description: Connect IBM Db2 to Bold Data Hub in {{site.productName}} with host, port, credentials, and client library path, then schedule loading tables into a data source.
 platform: report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect IBM Db2 with Bold Data Hub
 
-The Bold Data Hub IBM Db2 connector loads data from an IBM Db2 database into Bold Reports<sup>®</sup>. IBM Db2 is a scalable, enterprise-grade relational database system that supports SQL for managing structured data. It handles both transactional and analytical workloads and integrates well with IBM Cloud, making it ideal for reporting and data warehousing.
+The Bold Data Hub IBM Db2 connector loads data from an IBM Db2 database into {{site.productNameTM}}. IBM Db2 is a scalable, enterprise-grade relational database system that supports SQL for managing structured data. It handles both transactional and analytical workloads and integrates well with IBM Cloud, making it ideal for reporting and data warehousing.
 
 ## How do I get IBM Db2 credentials?
 
@@ -86,7 +86,7 @@ You connect IBM Db2 by creating a pipeline in Bold Data Hub and adding the `IBM 
 
     ![IBM Db2 - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/ibmdb2_template.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -121,7 +121,7 @@ You schedule the IBM Db2 pipeline in Bold Data Hub from the schedules tab, or yo
 
     ![IBM Db2 - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![IBM Db2 - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

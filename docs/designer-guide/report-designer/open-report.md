@@ -1,15 +1,15 @@
 ---
-title: Open an RDL Report in Web Report Designer | Bold Reports
-description: Open and edit existing RDL reports, or upload a local RDL report first, in the Bold Reports Web Report Designer for the Report Server On-Premises Edition.
+title: Open an RDL Report in Web Report Designer | {{site.productName}}
+description: Open and edit existing RDL reports, or upload a local RDL report first, in the {{site.productName}} Web Report Designer for the Report Server On-Premises Edition.
 ---
 
-# Open a report in Bold Reports<sup>®</sup> Web Report Designer
+# Open a report in {{site.productNameTM}} Web Report Designer
 
-You can open existing reports for editing in the Web Report Designer of Bold Reports<sup>®</sup> On-Premises Edition, or upload a local report first.
+You can open existing reports for editing in the Web Report Designer of {{site.productNameTM}} On-Premises Edition, or upload a local report first.
 
 ## Edit an existing report
 
-You open an existing report in the Bold Reports<sup>®</sup> Web Report Designer by clicking the `Edit Icon` of the report.
+You open an existing report in the {{site.productNameTM}} Web Report Designer by clicking the `Edit Icon` of the report.
 
 ![Edit report in Report Designer](/static/assets/on-premise/images/report-designer/open-report/edit-report.png)
 
@@ -19,7 +19,7 @@ The report opens in the Web Report Designer in a new tab.
 
 ## How do I upload a report from my computer?
 
-To edit a report that is on your local machine, upload it to the Bold Reports<sup>®</sup> on-premise server first. Then, edit the report using the [edit option](./../open-report/#edit-an-existing-report).
+To edit a report that is on your local machine, upload it to the {{site.productNameTM}} on-premise server first. Then, edit the report using the [edit option](./../open-report/#edit-an-existing-report).
 
 1. Click the `[+]` icon in the left side panel, then select the `Upload Report` option.
     ![Upload button](/static/assets/on-premise/images/report-designer/open-report/upload-report-new.png '#width=200px')
@@ -37,7 +37,7 @@ To edit a report that is on your local machine, upload it to the Bold Reports<su
 
 ### Where does the report open when I click Edit?
 
-The report opens in the Bold Reports<sup>®</sup> Web Report Designer in a new tab.
+The report opens in the {{site.productNameTM}} Web Report Designer in a new tab.
 
 ### Can I edit a report file that is on my computer?
 

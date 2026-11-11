@@ -1,15 +1,15 @@
 ---
-title: Connect Amazon Aurora Data to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to an Amazon Aurora MySQL or PostgreSQL database, run a SQL query, and use the data in your RDL reports.
+title: Connect Amazon Aurora Data to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to an Amazon Aurora MySQL or PostgreSQL database, run a SQL query, and use the data in your RDL reports.
 ---
 
 # Connect to Amazon Aurora data source
 
-The Bold Reports<sup>®</sup> Designer supports connecting multiple database through Amazon Aurora using SQL Query. You can use the MySQL or PostgreSQL database engine and feed the query results to your reports.
+The {{site.productNameTM}} Designer supports connecting multiple database through Amazon Aurora using SQL Query. You can use the MySQL or PostgreSQL database engine and feed the query results to your reports.
 
 ## How do I create an Amazon Aurora data source?
 
-To create an Amazon Aurora data source in the Bold Reports<sup>®</sup> Designer, open the **Data** configuration panel and choose the Amazon Aurora connection type.
+To create an Amazon Aurora data source in the {{site.productNameTM}} Designer, open the **Data** configuration panel and choose the Amazon Aurora connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -20,7 +20,7 @@ To create an Amazon Aurora data source in the Bold Reports<sup>®</sup> Designer
 
 ### How do I configure the basic options?
 
-When you create a new data source in the Bold Reports<sup>®</sup> Designer, the `NEW DATASOURCE` panel shows the basic options.
+When you create a new data source in the {{site.productNameTM}} Designer, the `NEW DATASOURCE` panel shows the basic options.
 
 1. Specify the data source name without special characters in the **Name** field.
 2. Select a database engine you want to use with the given Amazon Aurora Server from the Database Engine drop-down.
@@ -40,9 +40,9 @@ When you create a new data source in the Bold Reports<sup>®</sup> Designer, the
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/amazon-aurora-data-source/data-list.png '#width=350px')
 
-#### Amazon Aurora supported database engine in Bold Reports<sup>®</sup>
+#### Amazon Aurora supported database engine in {{site.productNameTM}}
 
-Bold Reports<sup>®</sup> supports the following Amazon Aurora database engines:
+{{site.productNameTM}} supports the following Amazon Aurora database engines:
 
 * MySQL
 * PostgreSQL
@@ -53,9 +53,9 @@ The following image shows the **Database Engine** drop-down.
 
 ## Frequently asked questions
 
-### Which database engines can I use with Amazon Aurora in Bold Reports<sup>®</sup>?
+### Which database engines can I use with Amazon Aurora in {{site.productNameTM}}?
 
-Bold Reports<sup>®</sup> supports the MySQL and PostgreSQL database engines for Amazon Aurora.
+{{site.productNameTM}} supports the MySQL and PostgreSQL database engines for Amazon Aurora.
 
 ### How do I preview Amazon Aurora data before saving the data source?
 

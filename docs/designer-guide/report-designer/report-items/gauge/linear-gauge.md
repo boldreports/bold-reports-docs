@@ -1,16 +1,16 @@
 ---
-title: Add a Linear Gauge to RDL Reports | Bold Reports
-description: Add a linear gauge to an RDL report in the Bold Reports Web Report Designer and set its dataset, type, pointer, scale, ranges, tick marks, and custom style.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reporting
+title: Add a Linear Gauge to RDL Reports | {{site.productName}}
+description: Add a linear gauge to an RDL report in the {{site.productName}} Web Report Designer and set its dataset, type, pointer, scale, ranges, tick marks, and custom style.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, bold reporting
 ---
 
-# Linear gauge in Bold Reports<sup>®</sup> Web Report Designer
+# Linear gauge in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a linear gauge is a rectangular report item oriented horizontally or vertically. You can place a linear gauge inside the `Tablix` and `Matrix` report items.
+In the {{site.productNameTM}} Web Report Designer, a linear gauge is a rectangular report item oriented horizontally or vertically. You can place a linear gauge inside the `Tablix` and `Matrix` report items.
 
 ## How do I add a linear gauge to the report?
 
-You add a linear gauge to a Bold Reports<sup>®</sup> report by dragging it from the item panel into the design area.
+You add a linear gauge to a {{site.productNameTM}} report by dragging it from the item panel into the design area.
 
 1. Find the linear gauge report item in the item panel under the `Deviation` category.
    ![Linear gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-panel.png '#width=145px')
@@ -21,7 +21,7 @@ You add a linear gauge to a Bold Reports<sup>®</sup> report by dragging it from
 
 ## Which properties can I set for a linear gauge?
 
-The Bold Reports<sup>®</sup> properties panel lists every linear gauge property described below. Read the [Properties panel](./../../../compose-report/properties-panel/) section before you work with the following properties.
+The {{site.productNameTM}} properties panel lists every linear gauge property described below. Read the [Properties panel](./../../../compose-report/properties-panel/) section before you work with the following properties.
 
 ### Basic settings
 
@@ -189,7 +189,7 @@ The position property sets the width, height, left, and top positions of a linea
 
 ### Link
 
-The Linking property in Bold Reports<sup>®</sup> lets you create interactive, user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. To learn more, see the [Linking](./../../../compose-report/link-data/) section.
+The Linking property in {{site.productNameTM}} lets you create interactive, user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. To learn more, see the [Linking](./../../../compose-report/link-data/) section.
 ![Linear guage link property](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
 
 ### Data Element

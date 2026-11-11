@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Make a Report Public or Private | Bold Reports
-description: Make a report public in Bold Reports Report Server so anonymous users with the link can view it, or make it private for registered users with permissions.
+title: Make a Report Public or Private | {{site.productName}}
+description: Make a report public in {{site.productName}} Report Server so anonymous users with the link can view it, or make it private for registered users with permissions.
 platform: report-platform
 documentation: ug
 ---
 
-# Make reports public or private in Bold Reports<sup>®</sup> Report Server
+# Make reports public or private in {{site.productNameTM}} Report Server
 
-In the Bold Reports<sup>®</sup> Report Server, you can make a report public so anonymous users with the link can view it, or keep it private.
+In the {{site.productNameTM}} Report Server, you can make a report public so anonymous users with the link can view it, or keep it private.
 
 ## What is the difference between public and private reports?
 
-Bold Reports<sup>®</sup> public reports are accessible to anonymous users who have the report link.
+{{site.productNameTM}} public reports are accessible to anonymous users who have the report link.
 
 Private reports are accessible to registered users on the Report Server who have appropriate permissions.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Google Analytics to Bold Data Hub | Bold Reports
-description: Connect Google Analytics to Bold Data Hub in Bold Reports with OAuth or a service account, share the property, configure the connector, and schedule refreshes.
+title: Connect Google Analytics to Bold Data Hub | {{site.productName}}
+description: Connect Google Analytics to Bold Data Hub in {{site.productName}} with OAuth or a service account, share the property, configure the connector, and schedule refreshes.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Google Analytics with Bold Data Hub
 
-The Bold Data Hub Google Analytics connector loads web analytics data from Google Analytics into Bold Reports<sup>®</sup>. Google Analytics tracks user engagement with your website or application. You can authenticate with OAuth or with a service account.
+The Bold Data Hub Google Analytics connector loads web analytics data from Google Analytics into {{site.productNameTM}}. Google Analytics tracks user engagement with your website or application. You can authenticate with OAuth or with a service account.
 
 ## Service Account Credential
 
@@ -107,7 +107,7 @@ OAuth authentication with Google Analytics in Bold Data Hub uses your client ID 
 
     ![Google Analytics - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/analytics_auth_template.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![FileSystem - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -127,7 +127,7 @@ Service authentication with Google Analytics in Bold Data Hub uses the client em
 
     ![Google Analytics - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/analytics_service_template.png#max-width=100%)
 
-4. Update the project ID, client email, and private key secret in the template. Also, update the resources in the `properties` property and save it to the Bold Reports<sup>®</sup> Data Store.
+4. Update the project ID, client email, and private key secret in the template. Also, update the resources in the `properties` property and save it to the {{site.productNameTM}} Data Store.
 
     ![Google Analytics - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/analytics_yaml.png#max-width=100%)
 
@@ -154,7 +154,7 @@ You schedule the Google Analytics pipeline in Bold Data Hub from the schedules t
 
     ![Google Analytics - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Google Analytics - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

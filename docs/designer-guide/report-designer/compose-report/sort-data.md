@@ -1,12 +1,12 @@
 ---
-title: Sort RDL Report Data in Web Report Designer | Bold Reports
-description: Add sort expressions in Bold Reports Web Report Designer to arrange RDL report data in ascending or descending order in datasets or data regions.
+title: Sort RDL Report Data in Web Report Designer | {{site.productName}}
+description: Add sort expressions in {{site.productName}} Web Report Designer to arrange RDL report data in ascending or descending order in datasets or data regions.
 keywords: ejReportDesigner, reportdesigner, sorting, Ascending, Descending
 ---
 
-# Sort data in Bold Reports<sup>®</sup> Web Report Designer
+# Sort data in {{site.productNameTM}} Web Report Designer
 
-Sorting in Bold Reports<sup>®</sup> Web Report Designer arranges data in ascending or descending order, so it is easier to read. You can use it to sort the data in data regions.
+Sorting in {{site.productNameTM}} Web Report Designer arranges data in ascending or descending order, so it is easier to read. You can use it to sort the data in data regions.
 
 The following image shows the sort dialog.
 

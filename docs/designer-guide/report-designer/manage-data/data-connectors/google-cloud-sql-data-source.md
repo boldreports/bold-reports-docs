@@ -1,15 +1,15 @@
 ---
-title: Connect Google Cloud SQL Data to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to a Google Cloud SQL MySQL or PostgreSQL database, run a query, and use the data to build your RDL reports.
+title: Connect Google Cloud SQL Data to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to a Google Cloud SQL MySQL or PostgreSQL database, run a query, and use the data to build your RDL reports.
 ---
 
 # Connect to Google Cloud SQL data source
 
-To visualize and analyze Google Cloud SQL data in Bold Reports<sup>®</sup>, create a Google Cloud SQL data source from the **Data** configuration panel in the Web Report Designer. Bold Reports<sup>®</sup> supports the MySQL and PostgreSQL database engines for Google Cloud SQL.
+To visualize and analyze Google Cloud SQL data in {{site.productNameTM}}, create a Google Cloud SQL data source from the **Data** configuration panel in the Web Report Designer. {{site.productNameTM}} supports the MySQL and PostgreSQL database engines for Google Cloud SQL.
 
 ## How do I create a Google Cloud SQL data source?
 
-To create a Google Cloud SQL data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the Google Cloud SQL connection type.
+To create a Google Cloud SQL data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Google Cloud SQL connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -38,9 +38,9 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/data-list.png '#width=355px')
 
-#### Google Cloud SQL supported database engine in Bold Reports<sup>®</sup>
+#### Google Cloud SQL supported database engine in {{site.productNameTM}}
 
-Bold Reports<sup>®</sup> supports the following Google Cloud SQL database engines:
+{{site.productNameTM}} supports the following Google Cloud SQL database engines:
 
 * MySQL
 * PostgreSQL
@@ -51,9 +51,9 @@ The following image shows the **Database Engine** drop-down.
 
 ## Frequently asked questions
 
-### Which database engines does Google Cloud SQL support in Bold Reports<sup>®</sup>?
+### Which database engines does Google Cloud SQL support in {{site.productNameTM}}?
 
-Bold Reports<sup>®</sup> supports the MySQL and PostgreSQL database engines for Google Cloud SQL.
+{{site.productNameTM}} supports the MySQL and PostgreSQL database engines for Google Cloud SQL.
 
 ### How do I preview Google Cloud SQL data?
 

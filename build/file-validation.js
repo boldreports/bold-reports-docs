@@ -4,7 +4,6 @@ const dictionary = new Typo('en_US');
 const { join, basename } = require('path');
 const { readdirSync, statSync, readFileSync } = require('fs');
 const { sync } = require('glob');
-const { getIgnoredFiles } = require('./common-files');
 
 let checkedFiles = {
     folders: [],
@@ -25,15 +24,12 @@ function getSubFolders(baseFolder, folderList = []) {
 
 gulp.task('file-validation', (done) => {
     customNames = readFileSync('./.customnames', 'utf8').split(/\s+/);
-    let commonIgnoredFiles = getIgnoredFiles();
     let folderNames = getSubFolders('./docs/');
-    let filteredDir = commonIgnoredFiles.folderList.filter(dir => folderNames.indexOf(dir) === -1);
-    folderNames = folderNames.concat(filteredDir);
     for (let i = 0; i < folderNames.length; i++) {
         checkFileNames(folderNames[i]);
     }
     const fileNames = sync('./docs/**/*.*', {
-        ignore: ['./docs/**/*.json', ...commonIgnoredFiles.fileList]
+        ignore: ['./docs/**/*.json']
     });
     for (let k = 0; k < fileNames.length; k++) {
         if (!statSync(fileNames[k]).isDirectory()) checkFileNames(fileNames[k], true);

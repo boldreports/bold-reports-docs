@@ -1,12 +1,12 @@
 ---
-title: Group RDL Report Data in Web Report Designer | Bold Reports
-description: Group data in data regions in the Bold Reports Web Report Designer by a field value or expression value to organize RDL report data into readable sections.
+title: Group RDL Report Data in Web Report Designer | {{site.productName}}
+description: Group data in data regions in the {{site.productName}} Web Report Designer by a field value or expression value to organize RDL report data into readable sections.
 keywords: ejReportDesigner, reportdesigner, grouping
 ---
 
-# Group data in Bold Reports<sup>®</sup> Web Report Designer
+# Group data in {{site.productNameTM}} Web Report Designer
 
-Grouping in Bold Reports<sup>®</sup> Web Report Designer organizes data in data regions by a field value or expression value.
+Grouping in {{site.productNameTM}} Web Report Designer organizes data in data regions by a field value or expression value.
 
 ![open-group-dialog](/static/assets/on-premise/images/report-designer/compose-report/group-data/group-dialog.png '#width=300px')
 

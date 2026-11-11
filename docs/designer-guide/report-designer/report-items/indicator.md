@@ -1,16 +1,16 @@
 ---
-title: Add Indicator Icons to RDL Reports | Bold Reports
-description: Add an indicator report item to an RDL report in the Bold Reports Web Report Designer and set its value, type, and states to show the state of data as icons.
+title: Add Indicator Icons to RDL Reports | {{site.productName}}
+description: Add an indicator report item to an RDL report in the {{site.productName}} Web Report Designer and set its value, type, and states to show the state of data as icons.
 keywords: boldReportDesigner, reportdesigner, indicator, reportitem
 ---
 
-# Indicator report item in Bold Reports<sup>®</sup> Web Report Designer
+# Indicator report item in {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, an indicator report item is a minimal gauge that visualizes the state of data. You mostly use it in a `Tablix` to visually display the state of the cell data.
+In the {{site.productNameTM}} Web Report Designer, an indicator report item is a minimal gauge that visualizes the state of data. You mostly use it in a `Tablix` to visually display the state of the cell data.
 
 ## How do I add an indicator to the report?
 
-You add an indicator to a Bold Reports<sup>®</sup> report by dragging the indicator report item from the item panel into the design area.
+You add an indicator to a {{site.productNameTM}} report by dragging the indicator report item from the item panel into the design area.
 
 1. Find the indicator report item in the item panel under the `KPI` category.
    ![Indicator item in item panel](/static/assets/on-premise/images/report-designer/report-items/indicator/item-panel.png '#width=145px')
@@ -21,7 +21,7 @@ You add an indicator to a Bold Reports<sup>®</sup> report by dragging the indic
 
 ## Which properties can I set for an indicator?
 
-The Bold Reports<sup>®</sup> properties panel lists every indicator property described below. Read the [Properties panel](./../../compose-report/properties-panel/) section before you work with the following properties.
+The {{site.productNameTM}} properties panel lists every indicator property described below. Read the [Properties panel](./../../compose-report/properties-panel/) section before you work with the following properties.
 
 ### Basic settings
 
@@ -87,7 +87,7 @@ The Indicator states property customizes the states of the indicator.
 
 #### How do I customize a state?
 
-You customize each indicator state in the Bold Reports<sup>®</sup> states panel by setting its icon, color, start value, end value, and scale factor.
+You customize each indicator state in the {{site.productNameTM}} states panel by setting its icon, color, start value, end value, and scale factor.
 
 * `Customizing an icon`: Choose a different icon for each state from the dropdown under the `Icon` field.
 
@@ -184,7 +184,7 @@ The `Custom Style` property lets you use external CSS to style report items, giv
 
 ## How do I set an expression on an indicator property?
 
-You can set an expression on a few properties of the Bold Reports<sup>®</sup> indicator report item to process the property values. To set expressions on the indicator report item properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
+You can set an expression on a few properties of the {{site.productNameTM}} indicator report item to process the property values. To set expressions on the indicator report item properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## How do I reset an expression?
 
@@ -192,7 +192,7 @@ To `Reset` the expression applied to an indicator property, see the [Reset Expre
 
 ## How do I open nested (advanced) properties?
 
-A few properties of the Bold Reports<sup>®</sup> indicator report item contain nested properties. To open and handle the nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+A few properties of the {{site.productNameTM}} indicator report item contain nested properties. To open and handle the nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## Frequently asked questions
 

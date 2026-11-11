@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Amazon DynamoDB to Bold Data Hub | Bold Reports
-description: Connect Amazon DynamoDB to Bold Data Hub in Bold Reports with AWS access keys and region, filter by date or limit scans, and schedule loads into a data source.
+title: Connect Amazon DynamoDB to Bold Data Hub | {{site.productName}}
+description: Connect Amazon DynamoDB to Bold Data Hub in {{site.productName}} with AWS access keys and region, filter by date or limit scans, and schedule loads into a data source.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Amazon DynamoDB with Bold Data Hub
 
-The Bold Data Hub DynamoDB connector loads data from Amazon DynamoDB into Bold Reports<sup>®</sup>. Amazon DynamoDB is a fully managed NoSQL database service that offers fast and predictable performance at any scale. It stores data as key-value and document items and automatically handles scaling, availability, and infrastructure.
+The Bold Data Hub DynamoDB connector loads data from Amazon DynamoDB into {{site.productNameTM}}. Amazon DynamoDB is a fully managed NoSQL database service that offers fast and predictable performance at any scale. It stores data as key-value and document items and automatically handles scaling, availability, and infrastructure.
 
 ## Connection Properties
 
@@ -71,7 +71,7 @@ You connect Amazon DynamoDB by creating a pipeline in Bold Data Hub and adding t
 
     ![DynamoDB - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/dynamodb_details.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Dynamodb - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -107,7 +107,7 @@ You schedule the DynamoDB pipeline in Bold Data Hub from the schedules tab, or y
 
     ![Dynamodb - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Dynamodb - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

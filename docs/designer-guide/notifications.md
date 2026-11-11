@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Configure System and Mail Notifications | Bold Reports
-description: Configure system and mail notifications in the Bold Reports Report Server to alert users when someone adds a comment to a report, with admin and user settings.
+title: Configure System and Mail Notifications | {{site.productName}}
+description: Configure system and mail notifications in the {{site.productName}} Report Server to alert users when someone adds a comment to a report, with admin and user settings.
 platform: report-platform
 documentation: ug
 ---
 
-# Bold Reports<sup>®</sup> Report Server notification settings
+# {{site.productNameTM}} Report Server notification settings
 
-Bold Reports<sup>®</sup> Report Server notification settings alert users whenever a comment is added to reports in Bold Reports<sup>®</sup> On-Premises Edition. Both the System Administrator and individual users can adjust these settings.
+{{site.productNameTM}} Report Server notification settings alert users whenever a comment is added to reports in {{site.productNameTM}} On-Premises Edition. Both the System Administrator and individual users can adjust these settings.
 
 ## How do I open the notification settings?
 
@@ -93,7 +93,7 @@ Users can toggle between watch and unwatch for a report comment at any time.
 
 ### Who can change notification settings in Report Server?
 
-Both the System Administrator and individual users can adjust notification settings in Bold Reports<sup>®</sup> Report Server.
+Both the System Administrator and individual users can adjust notification settings in {{site.productNameTM}} Report Server.
 
 ### Which setting overrides the others?
 

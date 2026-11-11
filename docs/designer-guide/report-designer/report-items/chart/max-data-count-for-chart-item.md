@@ -1,15 +1,15 @@
 ---
-title: Set Max Data Count for Chart Report Items | Bold Reports
-description: Set the MaxDataCount property in the Bold Reports Web Report Designer to limit the data points a chart previews and show a message when the limit is exceeded.
+title: Set Max Data Count for Chart Report Items | {{site.productName}}
+description: Set the MaxDataCount property in the {{site.productName}} Web Report Designer to limit the data points a chart previews and show a message when the limit is exceeded.
 ---
 
-# Manage the max data count for chart report items in Bold Reports<sup>®</sup>
+# Manage the max data count for chart report items in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the `MaxDataCount` property sets the maximum number of data points that a chart can display. When handling millions or billions of data points, rendering charts in the preview can take significant time, potentially leading to UI crashes.
+In the {{site.productNameTM}} Web Report Designer, the `MaxDataCount` property sets the maximum number of data points that a chart can display. When handling millions or billions of data points, rendering charts in the preview can take significant time, potentially leading to UI crashes.
 
 ## Why does the chart have a max data count?
 
-The `MaxDataCount` property in the Bold Reports<sup>®</sup> Web Report Designer helps prevent preview issues by displaying a user-friendly error message when the threshold limit is exceeded. Based on this message, you are informed and can then apply filters to the dataset to optimize performance and ensure smooth report rendering.
+The `MaxDataCount` property in the {{site.productNameTM}} Web Report Designer helps prevent preview issues by displaying a user-friendly error message when the threshold limit is exceeded. Based on this message, you are informed and can then apply filters to the dataset to optimize performance and ensure smooth report rendering.
 
 **NOTE:** This user-friendly message is applicable only in the designer UI, ensuring that users are informed at design time to make necessary adjustments for smooth report generation.
 
@@ -40,7 +40,7 @@ If the data exceeds the Max Data Count limit, the Web Report Designer displays a
 
 ## What are the best practices for Max Data Count?
 
-Use these Bold Reports<sup>®</sup> best practices to balance chart performance and data size:
+Use these {{site.productNameTM}} best practices to balance chart performance and data size:
 
 1. For **smaller datasets**, use the default Max Data Count setting for optimal performance.
 2. For **larger datasets**, adjust the property only if necessary to avoid design-time or runtime performance issues and consider **filtering** your data source to reduce the data count to faster the rendering process.

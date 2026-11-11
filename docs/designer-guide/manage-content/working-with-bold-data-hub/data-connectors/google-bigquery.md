@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Google BigQuery to Bold Data Hub | Bold Reports
-description: Connect Google BigQuery to Bold Data Hub in Bold Reports with a service account JSON key, grant roles, configure the connector, and schedule refresh jobs.
+title: Connect Google BigQuery to Bold Data Hub | {{site.productName}}
+description: Connect Google BigQuery to Bold Data Hub in {{site.productName}} with a service account JSON key, grant roles, configure the connector, and schedule refresh jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Google BigQuery with Bold Data Hub
 
-The Bold Data Hub Google BigQuery connector loads data from BigQuery datasets into Bold Reports<sup>®</sup>. Google BigQuery is a fully managed, serverless data warehouse for fast SQL-based querying of large datasets. It is designed to handle massive volumes of data, making it ideal for advanced analytics and reporting use cases.
+The Bold Data Hub Google BigQuery connector loads data from BigQuery datasets into {{site.productNameTM}}. Google BigQuery is a fully managed, serverless data warehouse for fast SQL-based querying of large datasets. It is designed to handle massive volumes of data, making it ideal for advanced analytics and reporting use cases.
 
 ## Service Account Credential
 
@@ -112,11 +112,11 @@ You connect Google BigQuery by creating a pipeline in Bold Data Hub, adding the 
 
     ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-7. The pipeline is saved and starts automatically. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+7. The pipeline is saved and starts automatically. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/bigquery_logs.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_bigquery_created.png#max-width=100%)
 
@@ -154,7 +154,7 @@ You schedule the Google BigQuery pipeline in Bold Data Hub from the schedules ta
 
     ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_bigquery_created.png#max-width=100%)
 

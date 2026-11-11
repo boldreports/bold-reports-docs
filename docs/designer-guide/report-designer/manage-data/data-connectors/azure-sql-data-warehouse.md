@@ -1,15 +1,15 @@
 ---
-title: Connect Azure SQL Data Warehouse to RDL | Bold Reports
-description: Connect the Bold Reports Web Report Designer to Azure SQL Data Warehouse with basic options, a connection string, or a custom SQL query for RDL reports.
+title: Connect Azure SQL Data Warehouse to RDL | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to Azure SQL Data Warehouse with basic options, a connection string, or a custom SQL query for RDL reports.
 ---
 
 # Connect to Azure SQL Data Warehouse data source
 
-To visualize Azure SQL Data Warehouse data in Bold Reports<sup>®</sup>, create an Azure SQL Data Warehouse data source from the **Data** configuration panel in the Web Report Designer. You can connect with basic options, advanced options, or a custom SQL query.
+To visualize Azure SQL Data Warehouse data in {{site.productNameTM}}, create an Azure SQL Data Warehouse data source from the **Data** configuration panel in the Web Report Designer. You can connect with basic options, advanced options, or a custom SQL query.
 
 ## How do I create an Azure SQL Data Warehouse data source?
 
-To create an Azure SQL Data Warehouse data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the Azure SQL Data Warehouse connection type.
+To create an Azure SQL Data Warehouse data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Azure SQL Data Warehouse connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
@@ -28,14 +28,14 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 4. Enter a valid Azure SQL Data Warehouse password in the **Password** text box.
 5. Select a database that you want to query in the listed database associated with the given Azure SQL Data Warehouse server in the database combo box.
 6. Configure the `Encrypt` and `Trust Server Certificate` options based on your SQL Server configuration.
-7. Click `Connect` to connect Bold Reports<sup>®</sup> with the Azure SQL Data Warehouse server database.
+7. Click `Connect` to connect {{site.productNameTM}} with the Azure SQL Data Warehouse server database.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/basic-options.png '#width=350px')
 8. Drag and drop the table from the table schema in the query design view page.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png)
 9. Click `Finish` to save the data source with a relevant name and continue designing the report.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png '#width=350px')
 
-Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 
 ![Save password](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/save-password.png '#width=350px')
 
@@ -43,7 +43,7 @@ Enable the Save password option to embed the credentials within the report when 
 
 ### Create Azure SQL Data Warehouse data source with advanced options
 
-The Bold Reports<sup>®</sup> advanced options let you build your own connection string for Azure SQL Data Warehouse.
+The {{site.productNameTM}} advanced options let you build your own connection string for Azure SQL Data Warehouse.
 
 1. Click `Advanced Options` in the `New Data` panel.
 
@@ -66,7 +66,7 @@ The Bold Reports<sup>®</sup> advanced options let you build your own connection
 
 #### Connection string
 
-A connection string is the text representation of connection properties for a data provider. Bold Reports<sup>®</sup> uses it in the advanced options to connect to Azure SQL Data Warehouse.
+A connection string is the text representation of connection properties for a data provider. {{site.productNameTM}} uses it in the advanced options to connect to Azure SQL Data Warehouse.
 
 If the database is located in the Azure SQL Server Database Engine and installed on your local computer, specify the connection string as in the following example:
 
@@ -95,12 +95,12 @@ Data Source=myserver.database.windows.net;Initial Catalog=AdventureWorks;Authent
 ```
 
 > Note:
-> * Ensure that the Bold Reports<sup>®</sup> server (or the app hosting it) is running in Azure and has a Managed Identity enabled.
+> * Ensure that the {{site.productNameTM}} server (or the app hosting it) is running in Azure and has a Managed Identity enabled.
 > * The Azure SQL Database must have a Microsoft Entra ID user mapped to the Managed Identity with appropriate permission.
 
 #### Authentication types for advanced connection
 
-Bold Reports<sup>®</sup> advanced connections support Azure SQL server credentials, prompted credentials, or no credentials.
+{{site.productNameTM}} advanced connections support Azure SQL server credentials, prompted credentials, or no credentials.
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/advanced-authentication.png '#width=410px')
 
@@ -120,13 +120,13 @@ Enable the Save password option to embed the credentials within the report when 
 
 ## How do I connect through a custom SQL query?
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you define the data source of certain data connections with a manually written SQL query instead of dragged tables. The custom SQL query applies to connection types such as Microsoft SQL connections.
+The {{site.productNameTM}} Web Report Designer lets you define the data source of certain data connections with a manually written SQL query instead of dragged tables. The custom SQL query applies to connection types such as Microsoft SQL connections.
 
 Connect to the Azure SQL Server database with [Basic Options](./../../../manage-data/data-connectors/azure-sql-data-warehouse/#create-azure-sql-data-warehouse-data-source-with-basic-options) or [Advanced Options](./../../../manage-data/data-connectors/azure-sql-data-warehouse/#create-azure-sql-data-warehouse-data-source-with-advanced-options). After the connect action, the query design view opens.
 
 ### How do I switch to code view?
 
-The Bold Reports<sup>®</sup> query design view opens in design view by default. To switch to code view, enable the slider option in the tools pane, as highlighted in the following image.
+The {{site.productNameTM}} query design view opens in design view by default. To switch to code view, enable the slider option in the tools pane, as highlighted in the following image.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/code-switcher.png '#width=425px')
 
@@ -136,7 +136,7 @@ The query editor pane then switches to code view, as shown in the following imag
 
 ### How do I write and execute a query?
 
-In the Bold Reports<sup>®</sup> `Query Editor` pane, you can write your own query to access table schema information and retrieve data from your database.
+In the {{site.productNameTM}} `Query Editor` pane, you can write your own query to access table schema information and retrieve data from your database.
 
 1. Write your query in the `Query Editor` pane.
 2. Click the `Execute` option in the tools pane. The data for your query appears at the bottom of the `Query Editor`.
@@ -151,7 +151,7 @@ Click `Yes` to discard the query and go to design view, or click `No` to keep it
 
 ### How do I view the query for tables added in design view?
 
-The Bold Reports<sup>®</sup> `Query Editor` pane shows the query for a data source you already created in design view.
+The {{site.productNameTM}} `Query Editor` pane shows the query for a data source you already created in design view.
 
 For example, drag the `SalesOrderDetail` table in design view and apply filters.
 

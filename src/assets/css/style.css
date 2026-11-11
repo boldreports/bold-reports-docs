@@ -3,7 +3,7 @@
 :root {
 	--header-height: 56px;
 	--docs-tab-height: 48px;
-	--footer-height: 120px;
+	--footer-height: 24px;
 	/* default footer height to keep sidebars above footer; adjust if needed */
 
 	/* Header / Search / Menu – Global Tokens */

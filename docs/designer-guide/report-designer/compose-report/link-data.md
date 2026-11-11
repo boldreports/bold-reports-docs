@@ -1,12 +1,12 @@
 ---
-title: Add Links and Hyperlinks to RDL Reports | Bold Reports
-description: Add Hyperlink, Report Linking, and Bookmark actions in Bold Reports Web Report Designer to open URLs, linked RDL reports with parameters, or bookmarks.
+title: Add Links and Hyperlinks to RDL Reports | {{site.productName}}
+description: Add Hyperlink, Report Linking, and Bookmark actions in {{site.productName}} Web Report Designer to open URLs, linked RDL reports with parameters, or bookmarks.
 keywords: ejReportDesigner, reportdesigner, linking, drillthrough, parameters
 ---
 
-# Add linking actions in Bold Reports<sup>®</sup> Web Report Designer
+# Add linking actions in {{site.productNameTM}} Web Report Designer
 
-Linking in Bold Reports<sup>®</sup> Web Report Designer makes a report interactive with **Hyperlink** and **Report Linking** actions. You find these settings under the `Link` category in the properties panel.
+Linking in {{site.productNameTM}} Web Report Designer makes a report interactive with **Hyperlink** and **Report Linking** actions. You find these settings under the `Link` category in the properties panel.
 
 The following image shows the link options in the properties panel.
 
@@ -14,7 +14,7 @@ The following image shows the link options in the properties panel.
 
 ## Report Linking
 
-Report Linking in Bold Reports<sup>®</sup> Web Report Designer lets you access the main report from the server. The linked report keeps its original report definition.
+Report Linking in {{site.productNameTM}} Web Report Designer lets you access the main report from the server. The linked report keeps its original report definition.
 
 ### Report Path
 
@@ -94,7 +94,7 @@ You remove a linked report parameter in Web Report Designer by clicking the `Del
 
 ## Hyperlink
 
-A Hyperlink in Bold Reports<sup>®</sup> Web Report Designer links a report item to a webpage. Use the following steps to add one.
+A Hyperlink in {{site.productNameTM}} Web Report Designer links a report item to a webpage. Use the following steps to add one.
 
 ### How do I add a hyperlink?
 

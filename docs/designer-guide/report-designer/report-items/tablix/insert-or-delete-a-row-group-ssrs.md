@@ -1,16 +1,16 @@
 ---
-title: Insert or Delete a Row Group in RDL Tablix | Bold Reports
-description: Insert or delete parent, child, and adjacent row groups in a tablix in the Bold Reports Web Report Designer using the cell context menu or the grouping panel.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Insert or Delete a Row Group in RDL Tablix | {{site.productName}}
+description: Insert or delete parent, child, and adjacent row groups in a tablix in the {{site.productName}} Web Report Designer using the cell context menu or the grouping panel.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Insert or delete a row group in the Bold Reports<sup>®</sup> Web Report Designer
+# Insert or delete a row group in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can add row groups to a table to display data in a visual hierarchy. You can create both nested groups and adjacent groups. You add a row group with the cell context menu or with the group menu in the grouping panel. The cell context menu shows the `Row Group` option only when a row group can be added at that place.
+In the {{site.productNameTM}} Web Report Designer, you can add row groups to a table to display data in a visual hierarchy. You can create both nested groups and adjacent groups. You add a row group with the cell context menu or with the group menu in the grouping panel. The cell context menu shows the `Row Group` option only when a row group can be added at that place.
 
 ## Insert a row group
 
-The Bold Reports<sup>®</sup> tablix data region groups data with the following options:
+The {{site.productNameTM}} tablix data region groups data with the following options:
 
 * Parent Group
 * Child Group
@@ -47,7 +47,7 @@ On report preview, the sales details of each product are grouped by product cate
 
 ### How do I add a child row group?
 
-A child row group in the Bold Reports<sup>®</sup> tablix subcategorizes the data in the tablix data region. You can add a child group with the cell menu or with the group menu in the grouping panel. The following steps add a child group with the cell menu:
+A child row group in the {{site.productNameTM}} tablix subcategorizes the data in the tablix data region. You can add a child group with the cell menu or with the group menu in the grouping panel. The following steps add a child group with the cell menu:
 
 1. Select and right-click the row group cell where you want to add a child group.
 2. In the cell menu, click `Child Group` under the `Row Group` category.
@@ -72,7 +72,7 @@ On report preview, product names are categorized by product type.
 
 ### How do I add an adjacent row group?
 
-An adjacent row group creates multiple groupings in a Bold Reports<sup>®</sup> tablix data region. You can add the adjacent row group above (before) or below (after) the existing group in the data region. You can use the cell menu or the group menu in the grouping panel. Follow these steps to add an adjacent group:
+An adjacent row group creates multiple groupings in a {{site.productNameTM}} tablix data region. You can add the adjacent row group above (before) or below (after) the existing group in the data region. You can use the cell menu or the group menu in the grouping panel. Follow these steps to add an adjacent group:
 
 1. Select and right-click the row group cell where you want to create an adjacent group.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/open-adjacent-group-menu.png '#width=385px')
@@ -87,7 +87,7 @@ A new row group is created above or below the existing group in the tablix data 
 
 ## How do I delete a row group?
 
-You delete a row group in the Bold Reports<sup>®</sup> Web Report Designer with the cell context menu or with the group menu in the grouping panel.
+You delete a row group in the {{site.productNameTM}} Web Report Designer with the cell context menu or with the group menu in the grouping panel.
 
 1. Select and right-click the row group that you want to delete from the tablix data region.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/delete-row-group-menu.png '#width=385px')
@@ -101,13 +101,13 @@ The group information is deleted from the tablix data region.
 
 ## How do I edit row group properties?
 
-To edit the properties of a row group in a Bold Reports<sup>®</sup> tablix data region, see the [Tablix member properties](./../../../report-items/tablix/grouping-panel/#group-member-properties) section.
+To edit the properties of a row group in a {{site.productNameTM}} tablix data region, see the [Tablix member properties](./../../../report-items/tablix/grouping-panel/#group-member-properties) section.
 
 ## Frequently asked questions
 
 ### How do I add the first row group to a basic tablix?
 
-In the Bold Reports<sup>®</sup> Web Report Designer, use the group menu in the grouping panel to add the first row group to the basic tablix structure.
+In the {{site.productNameTM}} Web Report Designer, use the group menu in the grouping panel to add the first row group to the basic tablix structure.
 
 ### Where can an adjacent row group be placed?
 

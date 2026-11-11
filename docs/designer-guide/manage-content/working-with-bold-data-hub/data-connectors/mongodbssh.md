@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect MongoDB over SSH to Bold Data Hub | Bold Reports
-description: Connect a MongoDB database over SSH to Bold Data Hub in Bold Reports. Set the SSH and connection properties, create a pipeline, and schedule data refresh.
+title: Connect MongoDB over SSH to Bold Data Hub | {{site.productName}}
+description: Connect a MongoDB database over SSH to Bold Data Hub in {{site.productName}}. Set the SSH and connection properties, create a pipeline, and schedule data refresh.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect MongoDB over SSH with Bold Data Hub
 
-The Bold Data Hub MongoDB SSH connector loads data from a MongoDB database over an SSH connection into Bold Reports<sup>®</sup>. [MongoDB](https://www.mongodb.com/) is a NoSQL database that stores JSON-like documents.
+The Bold Data Hub MongoDB SSH connector loads data from a MongoDB database over an SSH connection into {{site.productNameTM}}. [MongoDB](https://www.mongodb.com/) is a NoSQL database that stores JSON-like documents.
 
 ## Connection Properties
 
@@ -87,7 +87,7 @@ You connect MongoDB over SSH by creating a project in Bold Data Hub and adding t
 
     ![MongoDBSSH Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/mongossh_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -125,7 +125,7 @@ You schedule the MongoDB SSH pipeline in Bold Data Hub from the schedules tab, o
 
     ![MongoDBSSH - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![MongoDBSSH - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

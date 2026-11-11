@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Mark Reports as Favorites in Report Server | Bold Reports
-description: Mark a report as a favorite in Bold Reports Report Server, remove it from favorites, and view all favorite reports in the Favorite Reports category.
+title: Mark Reports as Favorites in Report Server | {{site.productName}}
+description: Mark a report as a favorite in {{site.productName}} Report Server, remove it from favorites, and view all favorite reports in the Favorite Reports category.
 platform: report-platform
 documentation: ug
 ---
 
-# Mark favorite reports in Bold Reports<sup>®</sup> Report Server
+# Mark favorite reports in {{site.productNameTM}} Report Server
 
-In Bold Reports<sup>®</sup> On-Premises Edition, you can mark a report as a favorite, remove it from favorites, and view the list of favorite reports.
+In {{site.productNameTM}} On-Premises Edition, you can mark a report as a favorite, remove it from favorites, and view the list of favorite reports.
 
 ## How do I mark a report as a favorite?
 

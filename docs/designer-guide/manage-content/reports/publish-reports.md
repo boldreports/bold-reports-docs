@@ -1,16 +1,16 @@
 ---
-title: Publish Reports to Internal or External Sites | Bold Reports
-description: Publish reports from the master site in Bold Reports Report Server to internal sites on the same server or to external sites, then sync, track, or remove them.
+title: Publish Reports to Internal or External Sites | {{site.productName}}
+description: Publish reports from the master site in {{site.productName}} Report Server to internal sites on the same server or to external sites, then sync, track, or remove them.
 keywords : create report, reportserver, web designer
 ---
 
-# Publish Reports in the Bold Reports<sup>®</sup> application
+# Publish Reports in the {{site.productNameTM}} application
 
-You can publish a report from the master site of the Bold Reports<sup>®</sup> Report Server to internal sites on the same server or to external sites.
+You can publish a report from the master site of the {{site.productNameTM}} Report Server to internal sites on the same server or to external sites.
 
 ## How do I start publishing a report?
 
-To publish a report to other sites from the Bold Reports<sup>®</sup> Report Server, follow these steps:
+To publish a report to other sites from the {{site.productNameTM}} Report Server, follow these steps:
 
 1. Click **Publish** in the context menu to publish the corresponding report.
    ![Publish Site](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/publish-site.png)
@@ -20,11 +20,11 @@ To publish a report to other sites from the Bold Reports<sup>®</sup> Report Ser
 
 > **Note:**<br>
 >The Publish option is available only for the master site. For non-master sites, the publish option is not shown in the context menu.<br>
-> The master site is the first site created during startup in Bold Reports<sup>®</sup>, and all other sites are considered non-master sites.
+> The master site is the first site created during startup in {{site.productNameTM}}, and all other sites are considered non-master sites.
 
 ## Internal Site
 
-You can publish reports to the sites created on the same Bold Reports<sup>®</sup> server.
+You can publish reports to the sites created on the same {{site.productNameTM}} server.
 
 1. Choose the sites from the drop-down menu where you want to publish the report.
    ![Select Dashboard](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-dashboard.png)
@@ -63,7 +63,7 @@ You can publish reports to the sites created on the same Bold Reports<sup>®</su
 
 ## External Site
 
-Use the Report Server external site publish option to publish reports to sites hosted on other Bold Reports<sup>®</sup> servers.
+Use the Report Server external site publish option to publish reports to sites hosted on other {{site.productNameTM}} servers.
 
 1. Click `+` to add an external site.
    ![Add External Site](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/add-external-site.png)
@@ -105,7 +105,7 @@ You can see the publish history of a report in Report Server. Click `Actions` in
 
 ## How do I remove a published report?
 
-You can remove published reports from Bold Reports<sup>®</sup> when they are no longer required.
+You can remove published reports from {{site.productNameTM}} when they are no longer required.
 
 Click `Actions` in the grid context menu and select `Remove` to remove the published report from the list.
 ![Remove Report](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/remove-publish-report.png)

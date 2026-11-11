@@ -1,16 +1,16 @@
 ---
-title: Add a Stacked Bar Chart to RDL Reports | Bold Reports
-description: Add a stacked bar chart to an RDL report in the Bold Reports Web Report Designer, bind measures and dimensions, and format its legend, series, and axes.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add a Stacked Bar Chart to RDL Reports | {{site.productName}}
+description: Add a stacked bar chart to an RDL report in the {{site.productName}} Web Report Designer, bind measures and dimensions, and format its legend, series, and axes.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Stacked Bar Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Stacked Bar Chart in the {{site.productNameTM}} Web Report Designer
 
-The **Stacked Bar Chart** in the Bold Reports<sup>®</sup> Web Report Designer compares multiple measures through bars stacked one after the other horizontally. You add it from the item panel, bind data to it, and format it in the properties panel.
+The **Stacked Bar Chart** in the {{site.productNameTM}} Web Report Designer compares multiple measures through bars stacked one after the other horizontally. You add it from the item panel, bind data to it, and format it in the properties panel.
 
 ## How do I add a stacked bar chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the stacked bar chart under the `Comparison` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the stacked bar chart under the `Comparison` category in the item panel.
 
 Drag and drop a stacked bar chart from the item panel into the design area.
 
@@ -22,7 +22,7 @@ The stacked bar chart renders in the design area, and the properties panel lists
 
 ## How do I create data for the stacked bar chart?
 
-To present data in a Bold Reports<sup>®</sup> stacked bar chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
+To present data in a {{site.productNameTM}} stacked bar chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
 
 ```json
 [
@@ -57,7 +57,7 @@ To present data in a Bold Reports<sup>®</sup> stacked bar chart, create a datas
 
 ## How do I assign data to the stacked bar chart?
 
-The Bold Reports<sup>®</sup> **Stacked Bar Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension into the `Row(s)` section.
+The {{site.productNameTM}} **Stacked Bar Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension into the `Row(s)` section.
 
 To configure data in a stacked bar chart, follow these steps:
 
@@ -129,7 +129,7 @@ To configure data in a stacked bar chart, follow these steps:
 
 ## How do I format the stacked bar chart?
 
-You format a stacked bar chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab. Use them to get the view you need.
+You format a stacked bar chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab. Use them to get the view you need.
 
 To format a stacked bar chart, follow these steps:
 
@@ -328,7 +328,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the stacked bar chart report?
 
-You preview the stacked bar chart report from the design view of the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the stacked bar chart report from the design view of the {{site.productNameTM}} Web Report Designer.
 
 1. Review the final design view of the report, shown in the following image.
 
@@ -344,7 +344,7 @@ You preview the stacked bar chart report from the design view of the Bold Report
 
 ### Where is the stacked bar chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the stacked bar chart under the `Comparison` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the stacked bar chart under the `Comparison` category in the item panel.
 
 ### How do I sort months in a stacked bar chart?
 

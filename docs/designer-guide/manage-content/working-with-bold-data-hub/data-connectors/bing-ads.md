@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect Microsoft (Bing) Ads to Bold Data Hub | Bold Reports
-description: Connect Microsoft Advertising (Bing Ads) to Bold Data Hub in Bold Reports with a developer token and a Microsoft Entra ID app to load campaign performance data.
+title: Connect Microsoft (Bing) Ads to Bold Data Hub | {{site.productName}}
+description: Connect Microsoft Advertising (Bing Ads) to Bold Data Hub in {{site.productName}} with a developer token and a Microsoft Entra ID app to load campaign performance data.
 platform: report-platform
 documentation: ug
 ---
 
 # Connect Microsoft (Bing) Ads with Bold Data Hub
 
-The Microsoft (Bing) Ads connector in Bold Data Hub loads data from Microsoft Advertising (formerly Bing Ads) into a Bold Reports<sup>®</sup> data source. Microsoft Advertising is a platform for creating and managing ads across the Microsoft Search Network.
+The Microsoft (Bing) Ads connector in Bold Data Hub loads data from Microsoft Advertising (formerly Bing Ads) into a {{site.productNameTM}} data source. Microsoft Advertising is a platform for creating and managing ads across the Microsoft Search Network.
 
 ## What credentials do I need for Microsoft (Bing) Ads?
 
@@ -130,11 +130,11 @@ You connect Microsoft (Bing) Ads by creating a pipeline in Bold Data Hub and aut
 
 4. Enter the Client ID and Client Secret and click **Ok**.
 5. Click **Allow** in the authorization window to accept the scopes requested by Bold DataHub.
-6. Update the developer token and IDs in the template. Adjust the columns and date window as needed, then save to the Bold Reports<sup>®</sup> Data Store.
+6. Update the developer token and IDs in the template. Adjust the columns and date window as needed, then save to the {{site.productNameTM}} Data Store.
 
     ![Bing Ads - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/bingads_template.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -163,7 +163,7 @@ You schedule the Microsoft (Bing) Ads pipeline in Bold Data Hub from the schedul
 
     ![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

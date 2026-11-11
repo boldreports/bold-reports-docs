@@ -1,12 +1,12 @@
 ---
-title: Create an SSRS Drill Through RDL Report | Bold Reports
-description: Create a drill through RDL report in the Bold Reports Web Report Designer so readers click a chart series in a summary report to open a filtered detail report.
+title: Create an SSRS Drill Through RDL Report | {{site.productName}}
+description: Create a drill through RDL report in the {{site.productName}} Web Report Designer so readers click a chart series in a summary report to open a filtered detail report.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
 # Create SSRS drill through report
 
-**Drill through** in Bold Reports<sup>®</sup> Web Report Designer creates an interactive report. Readers click a link within the main report to open a related report. A summary report can then lead directly into the detailed report behind one of its values.
+**Drill through** in {{site.productNameTM}} Web Report Designer creates an interactive report. Readers click a link within the main report to open a related report. A summary report can then lead directly into the detailed report behind one of its values.
 
 In the steps below, you design the drill through (sub) report and define a parameter to filter it. You then configure the drill through action on a chart series in the main report. Clicking a series opens the filtered sub-report.
 
@@ -18,7 +18,7 @@ The main report's report item, such as a chart series, has a `Link` property tha
 
 ### What can I do with drill through reports?
 
-Drill through reports in Bold Reports<sup>®</sup> let you:
+Drill through reports in {{site.productNameTM}} let you:
 
 * Open a related, detailed report by clicking a value in a summary report, such as a chart series or table cell.
 * Pass the clicked value automatically as a parameter to filter the sub-report.
@@ -128,7 +128,7 @@ Drill through reports in the Web Report Designer provide these key features:
 
 ## When should I use a drill through report?
 
-Drill through reports in Bold Reports<sup>®</sup> suit these common use cases:
+Drill through reports in {{site.productNameTM}} suit these common use cases:
 
 * **Summarizing sales by category with detail behind each slice**: Show a pie chart of sales by product category in the main report. Readers click a slice to see sub-category detail.
 * **Building multi-level reporting workflows**: Chain a summary report to one or more detailed sub-reports, so users navigate from overview to detail without leaving the reporting workflow.
@@ -137,11 +137,11 @@ Drill through reports in Bold Reports<sup>®</sup> suit these common use cases:
 
 ## Who should use this guide?
 
-The drill through report guide for the Bold Reports<sup>®</sup> Web Report Designer is intended for:
+The drill through report guide for the {{site.productNameTM}} Web Report Designer is intended for:
 
 * Report authors linking a summary report to a detailed sub-report.
 * Developers configuring chart series properties and report parameters.
-* Anyone adapting SSRS-style drill through reports for use in Bold Reports<sup>®</sup>.
+* Anyone adapting SSRS-style drill through reports for use in {{site.productNameTM}}.
 
 ## What do I need first?
 

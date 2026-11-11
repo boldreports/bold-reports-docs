@@ -1,16 +1,16 @@
 ---
-title: Add Filters to a Tablix in RDL Reports | Bold Reports
-description: Add filters to a tablix data region or group in Bold Reports Web Report Designer to include or exclude values and show different views of the same dataset.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, filters
+title: Add Filters to a Tablix in RDL Reports | {{site.productName}}
+description: Add filters to a tablix data region or group in {{site.productName}} Web Report Designer to include or exclude values and show different views of the same dataset.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, filters
 ---
 
-# Add filters to a tablix data region in Bold Reports<sup>®</sup>
+# Add filters to a tablix data region in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can add filters to a tablix data region or a data region group to include or exclude specific values, or to show a different view of the dataset in multiple data regions. When processing the report, the filters applied in the report parts are processed first on the dataset, then on the data region, and then on groups.
+In the {{site.productNameTM}} Web Report Designer, you can add filters to a tablix data region or a data region group to include or exclude specific values, or to show a different view of the dataset in multiple data regions. When processing the report, the filters applied in the report parts are processed first on the dataset, then on the data region, and then on groups.
 
 ## How do I set a filter on a tablix data region?
 
-You set a filter on a tablix data region in the Bold Reports<sup>®</sup> Web Report Designer with the `Set Filters...` button in the properties panel.
+You set a filter on a tablix data region in the {{site.productNameTM}} Web Report Designer with the `Set Filters...` button in the properties panel.
 
 1. Select the tablix data region in the design area.
    ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/select-data-region.png '#width=600px')
@@ -30,7 +30,7 @@ On report preview, using the `OrderYear` and `ProductCategory` report parameters
 
 ## How do I set a filter on a tablix group?
 
-You set a filter on a tablix group in the Bold Reports<sup>®</sup> Web Report Designer by selecting the group member in the grouping panel and using `Set Filters...`.
+You set a filter on a tablix group in the {{site.productNameTM}} Web Report Designer by selecting the group member in the grouping panel and using `Set Filters...`.
 
 1. Click the surface of the tablix data region to open the grouping panel.
    ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/enable-grouping-panel.png '#width=600px')
@@ -57,7 +57,7 @@ Here, the filter is applied on a row group for demonstration. You can apply filt
 
 ### In what order are filters processed?
 
-Bold Reports<sup>®</sup> processes filters first on the dataset, then on the data region, and then on groups.
+{{site.productNameTM}} processes filters first on the dataset, then on the data region, and then on groups.
 
 ### Can I filter column groups and detail groups?
 

@@ -1,19 +1,19 @@
 ---
-title: Configure Custom Map Shapes for RDL Reports | Bold Reports
-description: Add custom map shape data to Bold Reports On-Premises Edition, register it in mapshapes.txt, and use it in the Web Report Designer map report item.
+title: Configure Custom Map Shapes for RDL Reports | {{site.productName}}
+description: Add custom map shape data to {{site.productName}} On-Premises Edition, register it in mapshapes.txt, and use it in the Web Report Designer map report item.
 ---
 
 # How to configure custom map shapes
 
-Bold Reports<sup>®</sup> On-Premises Edition lets you configure custom shape data and visualize it on the map report item. To add custom shape data to the On-Premises Edition application and use it in the report designer, follow these steps.
+{{site.productNameTM}} On-Premises Edition lets you configure custom shape data and visualize it on the map report item. To add custom shape data to the On-Premises Edition application and use it in the report designer, follow these steps.
 
 ## Where do I place the custom shape data file?
 
-You place custom shape data files in the Bold Reports<sup>®</sup> On-Premises Edition installed location, next to the built-in shape data files. The built-in shape data files are located at:
+You place custom shape data files in the {{site.productNameTM}} On-Premises Edition installed location, next to the built-in shape data files. The built-in shape data files are located at:
 
 <span style="font-weight:bold">Version below 3.1</span>
 
-`{Installed_location}\Bold Reports\Report Server\ReportService\bin\ShapeData`.
+`{Installed_location}\{{site.productName}}\Report Server\ReportService\bin\ShapeData`.
 
 ![Shape data installed location](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/installed-location.png '#width=350px')
 
@@ -35,7 +35,7 @@ Copy your shape data file and paste it at this location, for example **storeloca
 
 ## How do I add the file entry?
 
-You register the shape data file in Bold Reports<sup>®</sup> by adding an entry to the mapshapes.txt file in the same location. After you paste the file, open mapshapes.txt.
+You register the shape data file in {{site.productNameTM}} by adding an entry to the mapshapes.txt file in the same location. After you paste the file, open mapshapes.txt.
 
 <span style="font-weight:bold">Version below 3.1</span>
 

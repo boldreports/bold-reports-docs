@@ -1,15 +1,15 @@
 ---
-title: Connect AWS OpenSearch Data to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to AWS Open Search with the Open Distro connection type and feed data to RDL reports with design view or a query.
+title: Connect AWS OpenSearch Data to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to AWS Open Search with the Open Distro connection type and feed data to RDL reports with design view or a query.
 ---
 
 # Connect to AWS Open Search
 
-To connect Bold Reports<sup>®</sup> to AWS Open Search, open the **Data** configuration panel in the Web Report Designer and create an AWS Open Search data source. You can then add tables in design view or write a custom query.
+To connect {{site.productNameTM}} to AWS Open Search, open the **Data** configuration panel in the Web Report Designer and create an AWS Open Search data source. You can then add tables in design view or write a custom query.
 
 ## How do I create an AWS Open Search data source?
 
-To create an AWS Open Search data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the Elastic Search connection type.
+To create an AWS Open Search data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Elastic Search connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
@@ -41,7 +41,7 @@ Drag and drop the required table from the tree view list.
 
 ![Tree View List](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/tree-view-list.png)
 
-> Multiple joins are not supported for the AWS Open Search data source in Bold Reports<sup>®</sup>.
+> Multiple joins are not supported for the AWS Open Search data source in {{site.productNameTM}}.
 
 Click `Finish` to save the data source with a relevant name and continue designing the report.
 
@@ -49,13 +49,13 @@ Click `Finish` to save the data source with a relevant name and continue designi
 
 ## How do I connect through a custom query?
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you define the data source of certain data connections with a manually written query instead of dragged tables. The custom query applies to connection types such as Elasticsearch SQL and Open Distro connections.
+The {{site.productNameTM}} Web Report Designer lets you define the data source of certain data connections with a manually written query instead of dragged tables. The custom query applies to connection types such as Elasticsearch SQL and Open Distro connections.
 
 After the connect action, the query design view opens.
 
 ### How do I switch to code view?
 
-The Bold Reports<sup>®</sup> query design view opens in design view by default. To switch to code view, enable the slider option in the tools pane, as highlighted in the following image.
+The {{site.productNameTM}} query design view opens in design view by default. To switch to code view, enable the slider option in the tools pane, as highlighted in the following image.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/code-switcher.png '#width=550px')
 
@@ -65,7 +65,7 @@ The query editor pane then switches to code view, as shown in the following imag
 
 ### How do I write and execute a query?
 
-In the Bold Reports<sup>®</sup> `Query Editor` pane, you can write your own query to access table schema information and retrieve data from your database.
+In the {{site.productNameTM}} `Query Editor` pane, you can write your own query to access table schema information and retrieve data from your database.
 
 1. Write your query in the `Query Editor` pane.
 2. Click the `Execute` option in the tools pane. The data for your query appears at the bottom of the `Query Editor`.
@@ -80,7 +80,7 @@ Click `Yes` to discard the query and go to design view, or click `No` to keep it
 
 ### How do I view the query for tables added in design view?
 
-The Bold Reports<sup>®</sup> `Query Editor` pane shows the query for a data source you already created in design view.
+The {{site.productNameTM}} `Query Editor` pane shows the query for a data source you already created in design view.
 
 For example, drag the `kibana_sample_data_flights` table in design view.
 
@@ -98,7 +98,7 @@ Use the Open Distro connection type to connect to an Amazon Web Service hosted O
 
 ### Does the AWS Open Search data source support multiple joins?
 
-No. Multiple joins are not supported for the AWS Open Search data source in Bold Reports<sup>®</sup>.
+No. Multiple joins are not supported for the AWS Open Search data source in {{site.productNameTM}}.
 
 ### What happens to my query if I switch back to design view?
 

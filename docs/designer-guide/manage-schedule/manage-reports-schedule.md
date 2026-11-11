@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Create and Manage Schedules in Report Server | Bold Reports
-description: Add, edit, delete, run on demand, and enable or disable report schedules in Bold Reports Report Server, with export formats, passwords, and delivery options.
+title: Create and Manage Schedules in Report Server | {{site.productName}}
+description: Add, edit, delete, run on demand, and enable or disable report schedules in {{site.productName}} Report Server, with export formats, passwords, and delivery options.
 platform: report-platform
 documentation: ug
 ---
 
-# Create and manage report schedules in Bold Reports<sup>®</sup> Report Server
+# Create and manage report schedules in {{site.productNameTM}} Report Server
 
-The Bold Reports<sup>®</sup> Report Server provides report-specific schedules to help you manage the processing and distribution of reports. All schedules specify a type of recurrence, which can be monthly, weekly, or daily.
+The {{site.productNameTM}} Report Server provides report-specific schedules to help you manage the processing and distribution of reports. All schedules specify a type of recurrence, which can be monthly, weekly, or daily.
 
-You can add, edit, delete, and manage report schedules in Bold Reports<sup>®</sup> On-Premises Edition. You can also run schedules on demand and enable or disable them.
+You can add, edit, delete, and manage report schedules in {{site.productNameTM}} On-Premises Edition. You can also run schedules on demand and enable or disable them.
 
 The schedules page displays the schedules that are accessible to the user based on their permissions.
 
@@ -334,7 +334,7 @@ S3 Bucket Location Export in a Report Server schedule exports reports directly t
 
 ![S3 Bucket](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/kms-key-schedule.png)
 
-> **NOTE:** When using the **KMS Key** credential type, the environment hosting the Bold Reports<sup>®</sup> application must have the required permissions to access both the Amazon S3 bucket and the specified AWS KMS key.
+> **NOTE:** When using the **KMS Key** credential type, the environment hosting the {{site.productNameTM}} application must have the required permissions to access both the Amazon S3 bucket and the specified AWS KMS key.
 
 You can set the default export location in the [schedule report settings](./../../../designer-guide/manage-schedule/schedule-report-settings/#s3-bucket-settings) file and modify the location here as needed.
 
@@ -354,7 +354,7 @@ The Report Server supports sending notifications of schedule failure to both the
 
 ## How do I run a schedule now?
 
-The **Run Now** option in the Report Server schedule grid context menu runs a schedule on demand. The report is exported in the specified format and sent to the recipients via email, along with a link to the report in Bold Reports<sup>®</sup>.
+The **Run Now** option in the Report Server schedule grid context menu runs a schedule on demand. The report is exported in the specified format and sent to the recipients via email, along with a link to the report in {{site.productNameTM}}.
 
 ![Run now schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/run-now-schedule.png)
 
@@ -392,7 +392,7 @@ You can delete schedules from the Report Server when you no longer need them.
 
 ## REST API reference
 
-The following table lists the available APIs related to schedules in Bold Reports<sup>®</sup> On-Premises Edition.
+The following table lists the available APIs related to schedules in {{site.productNameTM}} On-Premises Edition.
 
 <table>
     <tr>
@@ -541,7 +541,7 @@ The following table lists the available APIs related to schedules in Bold Report
 
 ### Who can create a schedule in Report Server?
 
-Only users with the `Create All Schedules` permission can create schedules in the Bold Reports<sup>®</sup> Report Server.
+Only users with the `Create All Schedules` permission can create schedules in the {{site.productNameTM}} Report Server.
 
 ### What happens when I select multiple export formats?
 

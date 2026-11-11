@@ -1,17 +1,17 @@
 ---
-title: Manage Reports and Resources in Report Server | Bold Reports
-description: Manage resources stored on Bold Reports Report Server, including reports, report layout, report parts, datasets, data sources, and Bold Data Hub content.
+title: Manage Reports and Resources in Report Server | {{site.productName}}
+description: Manage resources stored on {{site.productName}} Report Server, including reports, report layout, report parts, datasets, data sources, and Bold Data Hub content.
 platform: report-platform
 documentation: ug
 ---
 
-# Manage resources in Bold Reports<sup>®</sup> Report Server
+# Manage resources in {{site.productNameTM}} Report Server
 
-Resources are the items stored on the Bold Reports<sup>®</sup> Report Server, such as reports, report parts, datasets, and data sources. You manage each resource type from its own page in Report Server.
+Resources are the items stored on the {{site.productNameTM}} Report Server, such as reports, report parts, datasets, and data sources. You manage each resource type from its own page in Report Server.
 
 ## Which resources can I manage in Report Server?
 
-Bold Reports<sup>®</sup> Report Server lets you manage the following resources. Each guide explains how to work with one resource type:
+{{site.productNameTM}} Report Server lets you manage the following resources. Each guide explains how to work with one resource type:
 
 * [Manage Reports](./../../designer-guide/manage-content/reports/)
 

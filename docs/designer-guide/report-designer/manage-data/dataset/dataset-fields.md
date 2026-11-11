@@ -1,18 +1,18 @@
 ---
-title: Create Calculated Fields in RDL Datasets | Bold Reports
-description: Create calculated and query fields, set expressions, delete fields, and rename dataset fields in the Bold Reports Web Report Designer for your RDL reports.
+title: Create Calculated Fields in RDL Datasets | {{site.productName}}
+description: Create calculated and query fields, set expressions, delete fields, and rename dataset fields in the {{site.productName}} Web Report Designer for your RDL reports.
 keywords: calculated fields, calculated fields ssrs, report-designer, ssrs calculated fields, ssrs, reporting
 ---
 
-# Create and edit dataset fields in Bold Reports<sup>®</sup>
+# Create and edit dataset fields in {{site.productNameTM}}
 
-The Fields option in the Bold Reports<sup>®</sup> Web Report Designer creates a new field when the required information is not directly available in the retrieved dataset. You can also change the column names of the existing fields in the dataset.
+The Fields option in the {{site.productNameTM}} Web Report Designer creates a new field when the required information is not directly available in the retrieved dataset. You can also change the column names of the existing fields in the dataset.
 
 Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section to create data in the report designer first.
 
 ## How do I create a calculated field?
 
-You create a calculated field from the `Fields` dialog of a dataset in the Bold Reports<sup>®</sup> Web Report Designer.
+You create a calculated field from the `Fields` dialog of a dataset in the {{site.productNameTM}} Web Report Designer.
 
 1. Select the data in the `DATA` panel to which you want to add fields.
    ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/data-item-menu-icon.png '#width=385px')
@@ -56,7 +56,7 @@ You reset a calculated field expression from the same square icon in the Web Rep
 
 ## How do I create a query field?
 
-You create a query field from the `Fields` dialog of a dataset in the Bold Reports<sup>®</sup> Web Report Designer. A query field takes its source from an existing field on the dataset.
+You create a query field from the `Fields` dialog of a dataset in the {{site.productNameTM}} Web Report Designer. A query field takes its source from an existing field on the dataset.
 
 1. Select the data in the `DATA` panel to which you want to add fields.
    ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/data-item-menu-icon.png '#width=385px')
@@ -97,7 +97,7 @@ The field name is then updated in the dataset collection and in the list view.
 
 ### Can a calculated field expression contain aggregates?
 
-No. In the Bold Reports<sup>®</sup> Web Report Designer, the expression for a calculated field cannot contain aggregates, and the field name must be unique in the dataset.
+No. In the {{site.productNameTM}} Web Report Designer, the expression for a calculated field cannot contain aggregates, and the field name must be unique in the dataset.
 
 ### What is the difference between a calculated field and a query field?
 

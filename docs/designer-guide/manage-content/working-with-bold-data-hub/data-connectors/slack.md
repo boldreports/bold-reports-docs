@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Slack Workspace to Bold Data Hub | Bold Reports
-description: Connect Slack to Bold Data Hub in Bold Reports. Create a Slack app to get a user OAuth token, set the connection properties, and schedule data refresh jobs.
+title: Connect Slack Workspace to Bold Data Hub | {{site.productName}}
+description: Connect Slack to Bold Data Hub in {{site.productName}}. Create a Slack app to get a user OAuth token, set the connection properties, and schedule data refresh jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Slack with Bold Data Hub
 
-The Bold Data Hub Slack connector loads data from your Slack workspace into Bold Reports<sup>®</sup>. Slack is a messaging and collaboration platform for teams and organizations.
+The Bold Data Hub Slack connector loads data from your Slack workspace into {{site.productNameTM}}. Slack is a messaging and collaboration platform for teams and organizations.
 
 ## How do I get a Slack user OAuth token?
 
@@ -93,7 +93,7 @@ You connect Slack by creating a project in Bold Data Hub and adding the `Slack` 
 
     ![Slack Data Hub - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/slack_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Which Slack resources are supported?
 
@@ -131,7 +131,7 @@ You schedule the Slack pipeline in Bold Data Hub from the schedules tab, or you 
 
     ![Slack - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Slack - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

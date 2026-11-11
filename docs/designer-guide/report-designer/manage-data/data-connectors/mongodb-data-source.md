@@ -1,14 +1,14 @@
 ---
-title: Connect a MongoDB Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to MongoDB with SCRAM, X.509, or SSL and query data with runCommand syntax to build your RDL reports.
+title: Connect a MongoDB Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to MongoDB with SCRAM, X.509, or SSL and query data with runCommand syntax to build your RDL reports.
 ---
 # Connect to MongoDB data source
 
-To connect Bold Reports<sup>®</sup> to MongoDB, open the **Data** configuration panel in the Web Report Designer and create a MongoDB data source. You then query the data in code mode with MongoDB `runCommand` syntax.
+To connect {{site.productNameTM}} to MongoDB, open the **Data** configuration panel in the Web Report Designer and create a MongoDB data source. You then query the data in code mode with MongoDB `runCommand` syntax.
 
 ## How do I create a MongoDB data source?
 
-To create a MongoDB data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the MongoDB connection type.
+To create a MongoDB data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the MongoDB connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/data-configuration-panel.png '#width=410px')
@@ -42,7 +42,7 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 
 #### Connection string scheme
 
-The Bold Reports<sup>®</sup> MongoDB connector lets you set the connection string scheme to either **mongodb** or **mongodb+srv**.
+The {{site.productNameTM}} MongoDB connector lets you set the connection string scheme to either **mongodb** or **mongodb+srv**.
 
 To connect using the standard connection format, choose **mongodb** under **Connection string scheme**.
 
@@ -54,7 +54,7 @@ To connect to a cloud-hosted MongoDB (such as Atlas) using DNS-based host discov
 
 #### Authentication types
 
-The Bold Reports<sup>®</sup> MongoDB connector supports the **None**, **SCRAM**, and **X.509** authentication types.
+The {{site.productNameTM}} MongoDB connector supports the **None**, **SCRAM**, and **X.509** authentication types.
 
 If your MongoDB server does not require authentication, choose **None** under **Authentication Type**.
 
@@ -74,7 +74,7 @@ Enable `Allow Self-Signed Certificates` if the MongoDB server is configured to a
 
 #### How do I connect to MongoDB through SSL?
 
-Bold Reports<sup>®</sup> connects to MongoDB data sources securely using an SSL/TLS connection. The SSL/TLS connection ensures encrypted communication between the client and the MongoDB server, providing a secure method to access remote databases over untrusted networks.
+{{site.productNameTM}} connects to MongoDB data sources securely using an SSL/TLS connection. The SSL/TLS connection ensures encrypted communication between the client and the MongoDB server, providing a secure method to access remote databases over untrusted networks.
 
 ![Enable-SSL](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/enable-ssl-mongodb.png '#width=385px')
 
@@ -84,16 +84,16 @@ Bold Reports<sup>®</sup> connects to MongoDB data sources securely using an SSL
 
 #### What should I consider for MongoDB connections?
 
-Keep the following technical considerations in mind when you connect Bold Reports<sup>®</sup> to MongoDB:
+Keep the following technical considerations in mind when you connect {{site.productNameTM}} to MongoDB:
 
-1. MongoDB integration in Bold Reports<sup>®</sup> uses the `runCommand` method, allowing interaction with one database context per connection. Query execution is always scoped to the selected database.
+1. MongoDB integration in {{site.productNameTM}} uses the `runCommand` method, allowing interaction with one database context per connection. Query execution is always scoped to the selected database.
 2. When using SSL or X.509 authentication, MongoDB often provides the client certificate in .pem format. Since the .NET driver does not support .pem files directly, you must convert it to .pfx format. A password is required during this conversion and must be provided in the Client Certificate Password field along with the .pfx file in the UI.
 3. The Options field must only be used to specify additional connection parameters that are not available through the UI. Do not duplicate or override values already configured through dedicated UI fields.
 4. In cases where SSL/TLS is required without using a client certificate (e.g., when connecting with username and password over SSL), you may enable `tls=true` directly in the Options field.
 
 #### Which sample queries can I use?
 
-The MongoDB data source in Bold Reports<sup>®</sup> Designer supports Code Mode for querying data. Internally, the connector uses the MongoDB `runCommand` to execute queries on the connected database. The following sample queries retrieve data:
+The MongoDB data source in {{site.productNameTM}} Designer supports Code Mode for querying data. Internally, the connector uses the MongoDB `runCommand` to execute queries on the connected database. The following sample queries retrieve data:
 
 * Retrieve all documents from a collection:
 
@@ -216,7 +216,7 @@ The MongoDB data source in Bold Reports<sup>®</sup> Designer supports Code Mode
    }
    ```
 
-> Bold Reports<sup>®</sup> uses MongoDB's runCommand syntax internally to execute queries. This means you can write your queries in the same format supported by MongoDB's runCommand. For more advanced query scenarios, you can search online for MongoDB runCommand examples or refer to the official MongoDB documentation. These examples will help you construct queries compatible with Bold Reports<sup>®</sup>' MongoDB connector.
+> {{site.productNameTM}} uses MongoDB's runCommand syntax internally to execute queries. This means you can write your queries in the same format supported by MongoDB's runCommand. For more advanced query scenarios, you can search online for MongoDB runCommand examples or refer to the official MongoDB documentation. These examples will help you construct queries compatible with {{site.productNameTM}}' MongoDB connector.
 
 ## Frequently asked questions
 

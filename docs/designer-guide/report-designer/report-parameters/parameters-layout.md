@@ -1,11 +1,11 @@
 ---
-title: Arrange Report Parameters in the Layout Grid | Bold Reports
-description: Use the parameters layout in the Bold Reports Web Report Designer to arrange parameters in a grid and control their order in the parameters pane at preview.
+title: Arrange Report Parameters in the Layout Grid | {{site.productName}}
+description: Use the parameters layout in the {{site.productName}} Web Report Designer to arrange parameters in a grid and control their order in the parameters pane at preview.
 ---
 
 # Parameters layout in the Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the parameters layout is a grid where you arrange the order of report parameters. When you preview the report, the order of the parameters in the parameters layout and parameters pane sets the order shown on the parameters pane. Parameter order is important when you design reports with cascading parameters.
+In the {{site.productNameTM}} Web Report Designer, the parameters layout is a grid where you arrange the order of report parameters. When you preview the report, the order of the parameters in the parameters layout and parameters pane sets the order shown on the parameters pane. Parameter order is important when you design reports with cascading parameters.
 
 ## How do I open the parameters layout?
 

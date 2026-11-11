@@ -1,22 +1,22 @@
 ---
 layout: post
-title: Manage Shared Datasets in Report Server | Bold Reports
-description: Create, upload, edit, share, version, update, and delete shared datasets in Bold Reports Report Server, and build RDL reports and report parts from them.
+title: Manage Shared Datasets in Report Server | {{site.productName}}
+description: Create, upload, edit, share, version, update, and delete shared datasets in {{site.productName}} Report Server, and build RDL reports and report parts from them.
 platform: report-platform
 documentation: ug
 ---
 
 # Dataset management in Report Server
 
-You can create and store datasets on the Bold Reports<sup>®</sup> Report Server so that multiple reports can use them. When you create or upload a dataset to the Report Server, it is a shared dataset and Report Server always places it on the `Dataset` page.
+You can create and store datasets on the {{site.productNameTM}} Report Server so that multiple reports can use them. When you create or upload a dataset to the Report Server, it is a shared dataset and Report Server always places it on the `Dataset` page.
 
 ## What is a shared dataset in Report Server?
 
-A shared dataset in Bold Reports<sup>®</sup> Report Server is a dataset stored on the server that multiple reports can use. A shared dataset must be based on a shared data source. Users can access datasets depending on their permissions.
+A shared dataset in {{site.productNameTM}} Report Server is a dataset stored on the server that multiple reports can use. A shared dataset must be based on a shared data source. Users can access datasets depending on their permissions.
 
 ## What can I do with datasets?
 
-The Report Server includes tools to manage datasets. You can create, edit, update, share permissions for, and delete datasets in Bold Reports<sup>®</sup> On-Premises Edition. The following image shows the list of options available to manage a dataset.
+The Report Server includes tools to manage datasets. You can create, edit, update, share permissions for, and delete datasets in {{site.productNameTM}} On-Premises Edition. The following image shows the list of options available to manage a dataset.
 
 ![Options available to manage data sets](/static/assets/on-premise/images/manage-content/manage-data-sets/managing-datasets.png)
 
@@ -48,7 +48,7 @@ You can create datasets in the following ways:
 
 ## Add or upload dataset
 
-You can upload an existing `.rsd` dataset file to Bold Reports<sup>®</sup> Report Server from the `+` menu.
+You can upload an existing `.rsd` dataset file to {{site.productNameTM}} Report Server from the `+` menu.
 
 1. Click the `+` icon in the left side menu and choose `Upload Dataset`.
     ![Upload DataSet](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-option.png)
@@ -63,7 +63,7 @@ You can upload an existing `.rsd` dataset file to Bold Reports<sup>®</sup> Repo
 4. Select the `Data Source`. In the select data source dialog, either choose a data source from the Report Server or create a new data source.
     ![Select a data source for the uploaded dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-dialog.png)
 
-5. Click the `Save` option. The dataset is uploaded to Bold Reports<sup>®</sup> On-Premise and displayed in the list.
+5. Click the `Save` option. The dataset is uploaded to {{site.productNameTM}} On-Premise and displayed in the list.
     ![Added datasets list view](/static/assets/on-premise/images/manage-content/manage-data-sets/uploaded-datasets-list.png)
 
     > `Read, Write, and Delete` permissions for that `Specific Dataset` are granted to the user who created it.
@@ -191,7 +191,7 @@ To delete a dataset, click the `Actions` menu button in the dataset grid context
 
 ## REST API Reference
 
-The following table lists the available REST APIs related to datasets in Bold Reports<sup>®</sup> On-Premises Edition.
+The following table lists the available REST APIs related to datasets in {{site.productNameTM}} On-Premises Edition.
 
 <table>
     <tr>

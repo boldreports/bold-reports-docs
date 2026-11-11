@@ -2,12 +2,8 @@ const gulp = require('gulp');
 const { rm, mkdir, cp, mv } = require('shelljs');
 const { generateToc } = require('./toc.js');
 const { sync } = require('glob');
-const { repoName, repos, rootPath, copyrightPaths } = require('./config');
 const runSequence = require('gulp4-run-sequence');
-const { readFileSync, writeFileSync } = require('fs');
-const { resolve } = require('path');
 
-let copyrightYear = new Date().getFullYear();
 gulp.task('clean', (done) => {
     const staticFiles = sync('./static/*', {
         ignore: ['./static/favicon.ico', './static/robots.txt', './static/assets', './static/404.js', './static/*.zip', './static/js']
@@ -26,10 +22,6 @@ gulp.task('copy', (done) => {
     cp('-r', './static/404.js', './src/pages');
     const API = sync('./API');
     if (API.length) cp('-r', './API/*', './static');
-    if (repoName === repos.embedded.name) {
-        mkdir('-p', './static/demos');
-        cp('-r', './demos/*', './static/demos');
-    }
     done();
 });
 
@@ -38,10 +30,8 @@ gulp.task('toc', (done) => {
     done();
 });
 
-const additionalPostInstallTask = (repoName === repos.embedded.name) ? ['copy-api-md'] : [];
-
 gulp.task('postinstall', (done) => {
-    runSequence('replace-gatsby-cli', 'copy-common-files', ...additionalPostInstallTask, done);
+    runSequence('replace-gatsby-cli', done);
 });
 
 gulp.task('replace-gatsby-cli', (done) => {
@@ -55,23 +45,6 @@ gulp.task('copy-404-js', (done) => {
     done();
 });
 
-gulp.task('copyright-update', (done) => {
-    copyrightPaths.forEach((filePath) => {
-        var content = readFileSync(filePath, 'utf-8');
-        content = content.replace(/{{copyright}}/g, copyrightYear);
-        writeFileSync(filePath, content);
-    });
-    done();
-});
-
-const additionalBuildTask = repoName === repos.embedded.name ? ['new-tab-generation'] : [];
-
-
 gulp.task('build', (done) => {
-    runSequence('clean', 'copy', 'toc', 'site-variables', 'copyright-update', ...additionalBuildTask, done);
+    runSequence('clean', 'copy', 'toc', 'site-variables', done);
 });
-
-// Importing other task folders
-if (repoName === repos.embedded.name) {
-    require('require-dir')('./github');
-}

@@ -1,11 +1,11 @@
 ---
-title: Use Rulers to Fix Page Overflow | Bold Reports
-description: Use the Ruler in Bold Reports Web Report Designer to position report items, read red error lines for page overflow, and avoid extra pages in PDF exports.
+title: Use Rulers to Fix Page Overflow | {{site.productName}}
+description: Use the Ruler in {{site.productName}} Web Report Designer to position report items, read red error lines for page overflow, and avoid extra pages in PDF exports.
 ---
 
-# Work with rulers in Bold Reports<sup>®</sup> Web Report Designer
+# Work with rulers in {{site.productNameTM}} Web Report Designer
 
-The **Ruler** in Bold Reports<sup>®</sup> Web Report Designer helps you place report items precisely, both for on-screen design and print layout. Its visual guidance helps you keep a clean, organized layout, so reports export with consistent spacing and alignment.
+The **Ruler** in {{site.productNameTM}} Web Report Designer helps you place report items precisely, both for on-screen design and print layout. Its visual guidance helps you keep a clean, organized layout, so reports export with consistent spacing and alignment.
 
 With rulers, you can design, adjust, and finalize reports efficiently and keep them print-ready and ready for export.
 
@@ -13,13 +13,13 @@ With rulers, you can design, adjust, and finalize reports efficiently and keep t
 
 ## What are error indication lines?
 
-Error indication lines in Bold Reports<sup>®</sup> Designer warn you when report content may overflow the page on export. Reports are designed in a visual **page view** that simulates how elements appear when rendered.
+Error indication lines in {{site.productNameTM}} Designer warn you when report content may overflow the page on export. Reports are designed in a visual **page view** that simulates how elements appear when rendered.
 
 The page view helps you see where content is placed, but it does not represent the final output in all export formats **(print view)**. Specifically, pagination behavior may vary during export.
 
 ### Design-Time View(Page View) vs. Export Output(Print View)
 
-The design-time **page view** in Bold Reports<sup>®</sup> Designer is mainly for layout and positioning. It gives a close approximation of the final output but does not enforce the strict pagination rules that apply when you export a report (for example, to PDF).
+The design-time **page view** in {{site.productNameTM}} Designer is mainly for layout and positioning. It gives a close approximation of the final output but does not enforce the strict pagination rules that apply when you export a report (for example, to PDF).
 
 When exporting, SSRS follows strict pagination rules based on the following parameters:
 
@@ -31,7 +31,7 @@ Because of these constraints, even a slight overflow can add unexpected pages to
 
 ### Page Overflow Indicators
 
-Bold Reports<sup>®</sup> Designer provides visual indicators during design time (page view) that alert you to potential overflow issues.
+{{site.productNameTM}} Designer provides visual indicators during design time (page view) that alert you to potential overflow issues.
 
 Red error lines appear on the rulers if the report content exceeds the defined page width or height.
 
@@ -62,7 +62,7 @@ If the body width is `616 px` or less, it fits within the available space, and t
 
 ### Best Practices
 
-To make sure your Bold Reports<sup>®</sup> report exports as intended, follow these guidelines:
+To make sure your {{site.productNameTM}} report exports as intended, follow these guidelines:
 
 * Keep all report elements within the visible horizontal and vertical page boundaries.
 * Treat the red error lines as warnings and adjust content to match.

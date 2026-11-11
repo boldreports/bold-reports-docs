@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Create a Data-Driven Report Schedule | Bold Reports
-description: Create data-driven (burst) schedules in Bold Reports Report Server to generate and deliver a personalized report for each row in a dataset automatically.
+title: Create a Data-Driven Report Schedule | {{site.productName}}
+description: Create data-driven (burst) schedules in {{site.productName}} Report Server to generate and deliver a personalized report for each row in a dataset automatically.
 platform: report-platform
 documentation: ug
 ---
 
-# Create a data-driven schedule in Bold Reports<sup>®</sup> Report Server
+# Create a data-driven schedule in {{site.productNameTM}} Report Server
 
-Data-Driven / Burst Scheduling in the Bold Reports<sup>®</sup> Report Server automates the generation and delivery of personalized reports based on records available in a dataset. The scheduler processes each row in the selected dataset and generates an individual report using the values configured for that row.
+Data-Driven / Burst Scheduling in the {{site.productNameTM}} Report Server automates the generation and delivery of personalized reports based on records available in a dataset. The scheduler processes each row in the selected dataset and generates an individual report using the values configured for that row.
 
 Data-driven scheduling helps organizations distribute reports to multiple recipients with different parameter values, export formats, delivery methods, and report settings. You do not need to create multiple schedules manually.
 
@@ -32,7 +32,7 @@ The following image shows the schedule dialog with the data-driven option select
 
 ![data-driven-schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/data-driven-schedule.png)
 
-> **NOTE:** Before creating a Data-Driven Schedule, create the required datasource and dataset in the Bold Reports<sup>®</sup> application. The dataset should contain the recipient information, report parameters, delivery settings, export options, and other schedule configuration values required for report generation. Only datasets associated with the selected datasource are available for selection during schedule configuration.
+> **NOTE:** Before creating a Data-Driven Schedule, create the required datasource and dataset in the {{site.productNameTM}} application. The dataset should contain the recipient information, report parameters, delivery settings, export options, and other schedule configuration values required for report generation. Only datasets associated with the selected datasource are available for selection during schedule configuration.
 
 ## How do I select the datasource and dataset?
 
@@ -52,7 +52,7 @@ The datasource and dataset in a Report Server data-driven schedule contain the r
 
 ### What does a sample dataset record look like?
 
-The following sample JSON dataset record shows values that a Bold Reports<sup>®</sup> data-driven schedule can use:
+The following sample JSON dataset record shows values that a {{site.productNameTM}} data-driven schedule can use:
 
 ```json
 {
@@ -198,7 +198,7 @@ Click the `Schedule` button to create the data-driven schedule.
 
 ### How many reports does a data-driven schedule generate?
 
-A Bold Reports<sup>®</sup> data-driven schedule generates an individual report for each unique row in the selected dataset. The **Max Report Count** must be greater than or equal to the number of records, or some records may not be processed.
+A {{site.productNameTM}} data-driven schedule generates an individual report for each unique row in the selected dataset. The **Max Report Count** must be greater than or equal to the number of records, or some records may not be processed.
 
 ### Which export formats can a data-driven schedule use?
 

@@ -1,15 +1,15 @@
 ---
-title: Edit a Shared Data Source in an RDL Report | Bold Reports
-description: Edit a linked shared data source in the Bold Reports Web Report Designer from the Edit Connection panel to change the data source properties in your report.
+title: Edit a Shared Data Source in an RDL Report | {{site.productName}}
+description: Edit a linked shared data source in the {{site.productName}} Web Report Designer from the Edit Connection panel to change the data source properties in your report.
 ---
 
 # Modify shared datasource
 
-You modify a shared data source in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Edit` from the data source context menu. The `Edit Connection` panel then lets you change the data source properties in the report.
+You modify a shared data source in the {{site.productNameTM}} Web Report Designer by choosing `Edit` from the data source context menu. The `Edit Connection` panel then lets you change the data source properties in the report.
 
 ## How do I edit a shared data source?
 
-You edit a shared data source from the `DATASOURCE` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You edit a shared data source from the `DATASOURCE` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the data source in the `DATASOURCE` panel that you want to edit.
 

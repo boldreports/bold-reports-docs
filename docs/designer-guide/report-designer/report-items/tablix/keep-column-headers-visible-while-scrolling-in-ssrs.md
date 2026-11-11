@@ -1,16 +1,16 @@
 ---
-title: Keep Table Headers Visible While Scrolling | Bold Reports
-description: Keep column headers visible while scrolling an SSRS RDL table in the Bold Reports Web Report Designer by setting Fixed Data and Repeat On New Page properties.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, repeat headers
+title: Keep Table Headers Visible While Scrolling | {{site.productName}}
+description: Keep column headers visible while scrolling an SSRS RDL table in the {{site.productName}} Web Report Designer by setting Fixed Data and Repeat On New Page properties.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, repeat headers
 ---
 
-# Keep column headers visible while scrolling in SSRS reports with Bold Reports<sup>®</sup>
+# Keep column headers visible while scrolling in SSRS reports with {{site.productNameTM}}
 
-You keep column headers visible while scrolling in the Bold Reports<sup>®</sup> Web Report Designer by setting the `Fixed Data` and `Repeat On New Page` properties on the static header row. Follow the steps in this guide to set them up in a table report.
+You keep column headers visible while scrolling in the {{site.productNameTM}} Web Report Designer by setting the `Fixed Data` and `Repeat On New Page` properties on the static header row. Follow the steps in this guide to set them up in a table report.
 
 ## How do I keep column headers visible while scrolling?
 
-To keep column headers visible while you scroll through a report in the Bold Reports<sup>®</sup> Web Report Designer, follow these steps:
+To keep column headers visible while you scroll through a report in the {{site.productNameTM}} Web Report Designer, follow these steps:
 
 1. See the [Simple Table Design](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section and create a table report.
 
@@ -46,7 +46,7 @@ To keep column headers visible while you scroll through a report in the Bold Rep
 
 ### Why does the fixed column header look messy when I scroll?
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the header background is transparent by default. Change the background color of the cells in the header row to fix it.
+In the {{site.productNameTM}} Web Report Designer, the header background is transparent by default. Change the background color of the cells in the header row to fix it.
 
 ## See also
 

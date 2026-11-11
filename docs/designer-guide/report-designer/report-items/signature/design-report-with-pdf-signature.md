@@ -1,20 +1,20 @@
 ---
-title: Add a PDF Digital Signature to RDL Reports | Bold Reports
-description: Add a PDF digital signature to an SSRS RDL report in Bold Reports Web Report Designer. Set the Digital ID file and signer details, then export the signed PDF.
-keywords: SSRS RDL report, PDF digital signature, secure report signing, Bold Reports Designer, digital ID file, PFX certificate, NDA report signature, PDF signature tutorial
+title: Add a PDF Digital Signature to RDL Reports | {{site.productName}}
+description: Add a PDF digital signature to an SSRS RDL report in {{site.productName}} Web Report Designer. Set the Digital ID file and signer details, then export the signed PDF.
+keywords: SSRS RDL report, PDF digital signature, secure report signing, {{site.productName}} Designer, digital ID file, PFX certificate, NDA report signature, PDF signature tutorial
 ---
 
-# PDF signature in Bold Reports<sup>®</sup> Web Report Designer
+# PDF signature in {{site.productNameTM}} Web Report Designer
 
-A PDF digital signature in Bold Reports<sup>®</sup> is a secure, cryptographic form of electronic signature that verifies a document's authenticity and integrity. It confirms the signer’s identity and ensures the document has not been altered after signing.
+A PDF digital signature in {{site.productNameTM}} is a secure, cryptographic form of electronic signature that verifies a document's authenticity and integrity. It confirms the signer’s identity and ensures the document has not been altered after signing.
 
 ## How do I design a Non Disclosure Agreement report with a PDF signature?
 
-You add a PDF signature to the `Non Disclosure Agreement report` in the Bold Reports<sup>®</sup> Web Report Designer by placing the PDF signature report item in the report. Download the [Non Disclosure Agreement sample report (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/signature/design-ssrs-rdl-non-disclosure-agreement-report.rdl) to follow along.
+You add a PDF signature to the `Non Disclosure Agreement report` in the {{site.productNameTM}} Web Report Designer by placing the PDF signature report item in the report. Download the [Non Disclosure Agreement sample report (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/signature/design-ssrs-rdl-non-disclosure-agreement-report.rdl) to follow along.
 
 ### How do I add a PDF signature to the report?
 
-To add the PDF signature report item in the Bold Reports<sup>®</sup> Web Report Designer, follow these steps:
+To add the PDF signature report item in the {{site.productNameTM}} Web Report Designer, follow these steps:
 
 1. Open the downloaded `Non Disclosure Agreement` report.
    ![Open the Non Disclosure Agreement report](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature/non-disclosure-agreement-report.png '#width=425px')
@@ -27,7 +27,7 @@ To add the PDF signature report item in the Bold Reports<sup>®</sup> Web Report
 
 ## Basic properties
 
-The `Basic Settings` category of the PDF signature report item in the Bold Reports<sup>®</sup> Web Report Designer contains properties specific to PDF signatures. Resize the report item to view all available fields.
+The `Basic Settings` category of the PDF signature report item in the {{site.productNameTM}} Web Report Designer contains properties specific to PDF signatures. Resize the report item to view all available fields.
 ![Digital ID file](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature/pdf-signature-full-resize.png '#width=425px')
 
 ### Digital ID file
@@ -35,7 +35,7 @@ The `Basic Settings` category of the PDF signature report item in the Bold Repor
   The `Digital ID file` property selects the digital ID (PFX) certificate used to sign the PDF. Click the browse button in the `Digital ID file` option.
   ![Digital ID file Browse Button](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature/pdf-signature-digital-id-list-browse-btn.png '#width=425px')
 
-  The dialog lists the digital ID (PFX) certificates uploaded to the Bold Reports<sup>®</sup> server.
+  The dialog lists the digital ID (PFX) certificates uploaded to the {{site.productNameTM}} server.
   ![Digital ID file Browsing](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature/pdf-signature-digital-id-drpdwn-list.png '#width=425px')
   
   Use the refresh button to get the latest digital ID file list from the server.
@@ -92,13 +92,13 @@ The `Basic Settings` category of the PDF signature report item in the Bold Repor
 
 ## Final Design
 
-The final design of the `Non Disclosure Agreement` report in the Bold Reports<sup>®</sup> Web Report Designer is shown below, with the PDF signature report item resized and customized for placement. For simplicity, this example shows the design of a single PDF signature. In practice, an additional PDF signature was included in the same way to represent both parties signing the NDA.
+The final design of the `Non Disclosure Agreement` report in the {{site.productNameTM}} Web Report Designer is shown below, with the PDF signature report item resized and customized for placement. For simplicity, this example shows the design of a single PDF signature. In practice, an additional PDF signature was included in the same way to represent both parties signing the NDA.
 
   ![Updated Signed Report](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature/pdf-signature-updated-signed-report.png '#width=425px')
 
 ## How do I preview the signed report?
 
-You preview the PDF signature in the Bold Reports<sup>®</sup> Web Report Designer from the report header. Follow these steps:
+You preview the PDF signature in the {{site.productNameTM}} Web Report Designer from the report header. Follow these steps:
 
 1. Click the `Preview` button in the report header.
    ![Preview button](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature/preview-edit-icon.png '#width=425px')
@@ -110,7 +110,7 @@ You preview the PDF signature in the Bold Reports<sup>®</sup> Web Report Design
 
 ## How do I export the signed report to PDF?
 
-When you export to PDF in Bold Reports<sup>®</sup>, the configured digital signature is automatically included. It appears as valid as long as the certificate is trusted by the viewer. PDF signatures are supported only in the PDF export format and are not applied to other export types.
+When you export to PDF in {{site.productNameTM}}, the configured digital signature is automatically included. It appears as valid as long as the certificate is trusted by the viewer. PDF signatures are supported only in the PDF export format and are not applied to other export types.
 
   Click the `PDF` option to export the report.
   ![Preview PDF signature](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature/pdf-signature-preview-exp-menu.png '#width=425px')
@@ -122,7 +122,7 @@ When you export to PDF in Bold Reports<sup>®</sup>, the configured digital sign
 
 ## What are the limitations of PDF signatures?
 
-PDF signatures in Bold Reports<sup>®</sup> have the following limitation:
+PDF signatures in {{site.productNameTM}} have the following limitation:
 
   1. When exporting a PDF signature using the standalone designer, the PDF file includes a signature placeholder instead of an actual digital signature. This placeholder reserves space for the signature but does not contain any secure data. The document is still unsigned and can be digitally signed later using external PDF signing tools.
 

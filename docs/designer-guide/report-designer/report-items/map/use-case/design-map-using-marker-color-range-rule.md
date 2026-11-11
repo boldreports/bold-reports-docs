@@ -1,15 +1,15 @@
 ---
-title: Design a Map with a Marker Color Range Rule | Bold Reports
-description: Design a map in Bold Reports Web Report Designer with a marker color range rule and equal distribution to show sales by each sales person across USA states.
+title: Design a Map with a Marker Color Range Rule | {{site.productName}}
+description: Design a map in {{site.productName}} Web Report Designer with a marker color range rule and equal distribution to show sales by each sales person across USA states.
 ---
 
-# Design a map using a marker color range rule in Bold Reports<sup>®</sup>
+# Design a map using a marker color range rule in {{site.productNameTM}}
 
-You can design a map in the Bold Reports<sup>®</sup> Web Report Designer with a marker color range rule and equal distribution. The example map displays the sales done by each sales person across USA states.
+You can design a map in the {{site.productNameTM}} Web Report Designer with a marker color range rule and equal distribution. The example map displays the sales done by each sales person across USA states.
 
 ## How do I create the data?
 
-You create the data set for this map in the Bold Reports<sup>®</sup> Web Report Designer with the following dataset query.
+You create the data set for this map in the {{site.productNameTM}} Web Report Designer with the following dataset query.
 
 ```sql
 SELECT
@@ -34,7 +34,7 @@ CountryRegionName = 'United States'
 
 ## How do I add a map to the report design?
 
-The `Map` report item in the Bold Reports<sup>®</sup> Web Report Designer is listed under the `Data Regions` category in the item panel.
+The `Map` report item in the {{site.productNameTM}} Web Report Designer is listed under the `Data Regions` category in the item panel.
 
 ![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/map-listed-in-item-panel.png '#width=185px')
 
@@ -50,7 +50,7 @@ The map item is rendered in the design area, and the map properties are listed i
 
 ## How do I bind analytical and shape data?
 
-You bind analytical and shape data in the Bold Reports<sup>®</sup> Web Report Designer from the **Basic Settings** category of the properties panel. Follow these steps:
+You bind analytical and shape data in the {{site.productNameTM}} Web Report Designer from the **Basic Settings** category of the properties panel. Follow these steps:
 
 1. Under the **Basic Settings** category, set `USA` in the `Shapes` property and choose the data set in the **DataSet** property.
 
@@ -66,22 +66,22 @@ You bind analytical and shape data in the Bold Reports<sup>®</sup> Web Report D
 
 ## How do I customize the map appearance?
 
-You customize the map title, color settings, and other properties in the Bold Reports<sup>®</sup> Web Report Designer properties panel.
+You customize the map title, color settings, and other properties in the {{site.productNameTM}} Web Report Designer properties panel.
 
 ### Appearance
 
-Under the **Appearance** category in the Bold Reports<sup>®</sup> Web Report Designer, set the border width and color properties as required.
+Under the **Appearance** category in the {{site.productNameTM}} Web Report Designer, set the border width and color properties as required.
 
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/border.png '#width=385px')
 
 ### Title
 
-Under the [Title](./../../../../report-items/map/properties/#title) category in the Bold Reports<sup>®</sup> Web Report Designer, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
+Under the [Title](./../../../../report-items/map/properties/#title) category in the {{site.productNameTM}} Web Report Designer, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
 ![Title text](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/title.png '#width=385px')
 
 ### Shape settings
 
-Under the [Shape Settings](./../../../../report-items/map/shape-settings/) in the Bold Reports<sup>®</sup> Web Report Designer, set the following values:
+Under the [Shape Settings](./../../../../report-items/map/shape-settings/) in the {{site.productNameTM}} Web Report Designer, set the following values:
 
 * Background color as `#8bd3e1`.
 * Border color as `#676767` and border width as `0.667px`.
@@ -95,7 +95,7 @@ The map design looks like the following image.
 
 ## How do I define the marker color rule?
 
-You define the marker color rule in the Bold Reports<sup>®</sup> Web Report Designer after you enable and style the markers.
+You define the marker color rule in the {{site.productNameTM}} Web Report Designer after you enable and style the markers.
 
 1. Under the [Marker Settings](./../../../../report-items/map/marker-settings/) category, enable the **Enable Marker** checkbox. Set the following values:
    * Background color as `#ffffff`.
@@ -126,7 +126,7 @@ To see the actual data on the map surface, preview the report. Before that, resi
 
 ### Preview report
 
-You can preview the report at design time using the built-in Bold Reports<sup>®</sup> Viewer to make sure the report design is as expected. The following snapshot shows the marker background color distributed based on the sales amount done by each sales person in the respective state. Hover over each shape to see details such as the state code and the city where sales happened.
+You can preview the report at design time using the built-in {{site.productNameTM}} Viewer to make sure the report design is as expected. The following snapshot shows the marker background color distributed based on the sales amount done by each sales person in the respective state. Hover over each shape to see details such as the state code and the city where sales happened.
 
 ![Report preview](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/preview-shape-tooltip.png '#width=425px')
 

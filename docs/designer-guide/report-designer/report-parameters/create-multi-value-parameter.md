@@ -1,16 +1,16 @@
 ---
-title: Create a Multi-Value Parameter in RDL Reports | Bold Reports
-description: Create a multi-value report parameter in the Bold Reports Web Report Designer to filter RDL report data by more than one value using query-based values.
+title: Create a Multi-Value Parameter in RDL Reports | {{site.productName}}
+description: Create a multi-value report parameter in the {{site.productName}} Web Report Designer to filter RDL report data by more than one value using query-based values.
 keywords: multi value report parameter, report parameter, report-designer, parameters
 ---
 
-# Create a multi-value report parameter in the Bold Reports<sup>®</sup> Web Report Designer
+# Create a multi-value report parameter in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, a multi-value parameter dynamically filters the report data based on more than one value. Follow the steps in this guide to create a multi-value report parameter and use it to filter a table.
+In the {{site.productNameTM}} Web Report Designer, a multi-value parameter dynamically filters the report data based on more than one value. Follow the steps in this guide to create a multi-value report parameter and use it to filter a table.
 
 ## How do I create a multi-value parameter?
 
-You create a Bold Reports<sup>®</sup> multi-value parameter by enabling **Allow multiple values** when you create a parameter. For background, see the [Create Parameter](./../../report-parameters/add/#create-parameter) section.
+You create a {{site.productNameTM}} multi-value parameter by enabling **Allow multiple values** when you create a parameter. For background, see the [Create Parameter](./../../report-parameters/add/#create-parameter) section.
 
 The following image shows the parameter configuration panel.
 
@@ -30,7 +30,7 @@ The following image shows the parameter configuration panel.
 
 ## How do I filter table data based on a multi-value parameter?
 
-A Bold Reports<sup>®</sup> multi-value parameter filters table data at run time with the `In` operator. In this example, the `ProductID` parameter filters the `ProductID` field values.
+A {{site.productNameTM}} multi-value parameter filters table data at run time with the `In` operator. In this example, the `ProductID` parameter filters the `ProductID` field values.
 
 1. Select the table report item in the design area.
    ![Select the table report item](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/select-table-report-item.png '#width=350px')
@@ -52,7 +52,7 @@ A Bold Reports<sup>®</sup> multi-value parameter filters table data at run time
 
 ### Can a multi-value parameter include null values?
 
-No. A Bold Reports<sup>®</sup> multi-value parameter cannot include `null` values.
+No. A {{site.productNameTM}} multi-value parameter cannot include `null` values.
 
 ### Which filter operator do I use with a multi-value parameter?
 

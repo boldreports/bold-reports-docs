@@ -1,16 +1,16 @@
 ---
-title: Embed PDF Documents in SSRS RDL Reports | Bold Reports
-description: Use the PDF report item in Bold Reports Web Report Designer to embed PDF documents in SSRS RDL reports, with source, sizing, and appearance property options.
-keywords: PDF report item overview, SSRS RDL PDF integration, PDF properties, Bold Reports documentation, user guide, bold reports, bold reporting
+title: Embed PDF Documents in SSRS RDL Reports | {{site.productName}}
+description: Use the PDF report item in {{site.productName}} Web Report Designer to embed PDF documents in SSRS RDL reports, with source, sizing, and appearance property options.
+keywords: PDF report item overview, SSRS RDL PDF integration, PDF properties, {{site.productName}} documentation, user guide, {{site.productName}}, bold reporting
 ---
 
-# PDF report item in Bold Reports<sup>®</sup>
+# PDF report item in {{site.productNameTM}}
 
-The `PDF` report item in the Bold Reports<sup>®</sup> Web Report Designer lets you embed PDF documents within a report. It automatically converts the PDF into images without opening the file. It renders the images across multiple report pages, matching the total number of pages in the original PDF.
+The `PDF` report item in the {{site.productNameTM}} Web Report Designer lets you embed PDF documents within a report. It automatically converts the PDF into images without opening the file. It renders the images across multiple report pages, matching the total number of pages in the original PDF.
 
 ## How do I add a PDF report item?
 
-You add a PDF report item in the Bold Reports<sup>®</sup> Web Report Designer from the item panel. Follow these steps:
+You add a PDF report item in the {{site.productNameTM}} Web Report Designer from the item panel. Follow these steps:
 
 1. Find the PDF report item in the item panel under the `Documents` category.
    ![PDF listed in item panel](/static/assets/on-premise/images/report-designer/report-items/pdf/pdf-item-in-item-panel.png '#width=215px')
@@ -21,7 +21,7 @@ You add a PDF report item in the Bold Reports<sup>®</sup> Web Report Designer f
 
 ## General Properties
 
-The general properties of the PDF report item in the Bold Reports<sup>®</sup> Web Report Designer set where the PDF comes from and how it is sized.
+The general properties of the PDF report item in the {{site.productNameTM}} Web Report Designer set where the PDF comes from and how it is sized.
 
 ### Basic Settings
 
@@ -44,7 +44,7 @@ The `Source` property specifies the input type for the PDF document. You can cho
 
 * **Server**
 
-   The `Server` option displays the list of PDF files that have been uploaded on the Bold Reports<sup>®</sup> server. You can select any of these uploaded PDF files and use them directly in your report.
+   The `Server` option displays the list of PDF files that have been uploaded on the {{site.productNameTM}} server. You can select any of these uploaded PDF files and use them directly in your report.
 
 #### Sizing
 
@@ -61,7 +61,7 @@ The Sizing property lets you `control the size` of the PDF document displayed as
 
 ## Other properties
 
-The PDF report item in the Bold Reports<sup>®</sup> Web Report Designer also supports name, appearance, link, position, visibility, and miscellaneous properties.
+The PDF report item in the {{site.productNameTM}} Web Report Designer also supports name, appearance, link, position, visibility, and miscellaneous properties.
 
 ### Name
 
@@ -110,15 +110,15 @@ The `Custom Style` property enables the use of external CSS for styling report i
 
 ## Set expression
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you apply expressions to certain properties of the PDF report item, so the property values are processed based on expressions. To set expressions for the PDF custom report item properties, see [Set Expression](./../../compose-report/properties-panel/#set-expression).
+The {{site.productNameTM}} Web Report Designer lets you apply expressions to certain properties of the PDF report item, so the property values are processed based on expressions. To set expressions for the PDF custom report item properties, see [Set Expression](./../../compose-report/properties-panel/#set-expression).
 
 ## Reset expression
 
-To `Reset` the expression applied to a PDF report item property in the Bold Reports<sup>®</sup> Web Report Designer, see [Reset Expression](./../../compose-report/properties-panel/#reset-expression).
+To `Reset` the expression applied to a PDF report item property in the {{site.productNameTM}} Web Report Designer, see [Reset Expression](./../../compose-report/properties-panel/#reset-expression).
 
 ## Advanced properties
 
-Some properties of the PDF report item in the Bold Reports<sup>®</sup> Web Report Designer contain nested properties. To open and handle nested properties, see [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties).
+Some properties of the PDF report item in the {{site.productNameTM}} Web Report Designer contain nested properties. To open and handle nested properties, see [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties).
 
 ## Frequently asked questions
 

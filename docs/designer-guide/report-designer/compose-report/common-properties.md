@@ -1,12 +1,12 @@
 ---
-title: Common Report Item Properties in RDL Reports | Bold Reports
-description: Set the name, border, background color, font, visibility, position, custom properties, and tooltip of report items in the Bold Reports Web Report Designer.
+title: Common Report Item Properties in RDL Reports | {{site.productName}}
+description: Set the name, border, background color, font, visibility, position, custom properties, and tooltip of report items in the {{site.productName}} Web Report Designer.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
 # Common properties of report items in Web Report Designer
 
-Bold Reports<sup>®</sup> Web Report Designer shares a set of common properties across the report layout and most report items. You use these properties to name, style, show or hide, position, and describe report items in RDL reports.
+{{site.productNameTM}} Web Report Designer shares a set of common properties across the report layout and most report items. You use these properties to name, style, show or hide, position, and describe report items in RDL reports.
 
 ## Name
 

@@ -1,17 +1,17 @@
 ---
-title: Connect SQL Server Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to Microsoft SQL Server with basic or advanced options, stored procedures, or custom SQL queries for RDL reports.
+title: Connect SQL Server Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to Microsoft SQL Server with basic or advanced options, stored procedures, or custom SQL queries for RDL reports.
 ---
 
 # Connect to SQL data source
 
-The Microsoft SQL Server data source in the Bold Reports<sup>®</sup> Web Report Designer lets you visualize and analyze SQL Server data in your reports.
+The Microsoft SQL Server data source in the {{site.productNameTM}} Web Report Designer lets you visualize and analyze SQL Server data in your reports.
 
 **Supported Server Versions**: Microsoft SQL Server (2012, 2014, 2016, 2017, 2019, and 2022).
 
 ## How do I create a Microsoft SQL Server data source?
 
-You create a Microsoft SQL Server data source from the **Data** panel of the Bold Reports<sup>®</sup> Web Report Designer. Follow these steps:
+You create a Microsoft SQL Server data source from the **Data** panel of the {{site.productNameTM}} Web Report Designer. Follow these steps:
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -33,7 +33,7 @@ When you create new data, the Web Report Designer shows the `NEW DATASOURCE` pan
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/basic-options.png '#width=385px')
 5. Configure the `Encrypt` and `Trust Server Certificate` options based on your SQL Server configuration.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-encryption.png '#width=385px')
-6. Click `Connect` to connect Bold Reports<sup>®</sup> with the Microsoft SQL Server database.
+6. Click `Connect` to connect {{site.productNameTM}} with the Microsoft SQL Server database.
 7. Drag the table from the table schema to the query design view.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png '#width=650px')
 8. Click `Finish` to save the data source with a relevant name and continue designing the report.
@@ -41,7 +41,7 @@ When you create new data, the Web Report Designer shows the `NEW DATASOURCE` pan
 
 #### Authentication types for basic connection
 
-The basic connection of the SQL Server data source in Bold Reports<sup>®</sup> supports two authentication types: **Windows** or **SQL server**.
+The basic connection of the SQL Server data source in {{site.productNameTM}} supports two authentication types: **Windows** or **SQL server**.
 
 If your data source supports authentication directly through **Windows Credentials** (Integrated Security), choose **Windows** under **Authentication Type**.
 
@@ -51,13 +51,13 @@ If your data source requires a username and password to authenticate, choose **S
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/server-authentication.png '#width=385px')
 
-Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 
 > On report download action, the credentials will be not be saved with report data.
 
 #### How do I connect to Microsoft SQL Server through an SSH tunnel?
 
-The Bold Reports<sup>®</sup> Web Report Designer can connect to a Microsoft SQL data source using a secure SSH tunnel. This option provides a more secure method for connecting, especially when you access remote databases over untrusted or insecure networks.
+The {{site.productNameTM}} Web Report Designer can connect to a Microsoft SQL data source using a secure SSH tunnel. This option provides a more secure method for connecting, especially when you access remote databases over untrusted or insecure networks.
 
 ![Enable-SSH](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-ssh-sql.png '#width=385px')
 
@@ -131,9 +131,9 @@ Enable the Save password option to embed the credentials within the report when 
 
 ## How do I connect to a stored procedure in SQL Server?
 
-Bold Reports<sup>®</sup> supports stored procedures defined in the SQL Server database through the Microsoft SQL connection.
+{{site.productNameTM}} supports stored procedures defined in the SQL Server database through the Microsoft SQL connection.
 
-> NOTE: Bold Reports<sup>®</sup> supports stored procedure only for Microsoft SQL Server.
+> NOTE: {{site.productNameTM}} supports stored procedure only for Microsoft SQL Server.
 
 1. Connect to the SQL Server database with [Basic Options](./../../../manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-basic-options) or [Advanced Options](./../../../manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-advanced-options).
 2. After you connect, the query design view opens. The left pane tree view displays the available stored procedures. Expand a procedure to display its available parameters.
@@ -152,7 +152,7 @@ Bold Reports<sup>®</sup> supports stored procedures defined in the SQL Server d
 
 ## How do I connect through a custom SQL query?
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you connect to the data source of certain data connections through a custom SQL query. Use this feature to define the data source with manually written queries instead of manually dragged tables. It applies to connection types such as Microsoft SQL connections.
+The {{site.productNameTM}} Web Report Designer lets you connect to the data source of certain data connections through a custom SQL query. Use this feature to define the data source with manually written queries instead of manually dragged tables. It applies to connection types such as Microsoft SQL connections.
 
 Connect to the SQL Server database with [Basic Options](./../../../manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-basic-options) or [Advanced Options](./../../../manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-advanced-options). After you connect, the query design view opens.
 
@@ -192,13 +192,13 @@ Then, enable the `Code Switcher` to view the query. The query shows the applied 
 
 ## Frequently asked questions
 
-### Which SQL Server versions does Bold Reports<sup>®</sup> support?
+### Which SQL Server versions does {{site.productNameTM}} support?
 
-The Bold Reports<sup>®</sup> SQL data source supports Microsoft SQL Server 2012, 2014, 2016, 2017, 2019, and 2022.
+The {{site.productNameTM}} SQL data source supports Microsoft SQL Server 2012, 2014, 2016, 2017, 2019, and 2022.
 
 ### Can I use stored procedures with other data sources?
 
-No. Bold Reports<sup>®</sup> supports stored procedures only for Microsoft SQL Server.
+No. {{site.productNameTM}} supports stored procedures only for Microsoft SQL Server.
 
 ### Are saved credentials included when I download a report?
 

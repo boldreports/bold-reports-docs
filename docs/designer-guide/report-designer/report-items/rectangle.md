@@ -1,16 +1,16 @@
 ---
-title: Use the Rectangle Report Item in RDL Reports | Bold Reports
-description: Use the rectangle report item in Bold Reports Web Report Designer to visually separate report regions or group images, text boxes, and charts in RDL reports.
+title: Use the Rectangle Report Item in RDL Reports | {{site.productName}}
+description: Use the rectangle report item in {{site.productName}} Web Report Designer to visually separate report regions or group images, text boxes, and charts in RDL reports.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
-# Rectangle report item in Bold Reports<sup>®</sup>
+# Rectangle report item in {{site.productNameTM}}
 
-The rectangle report item in the Bold Reports<sup>®</sup> Web Report Designer visually separates regions of a report and acts as a container for other report items.
+The rectangle report item in the {{site.productNameTM}} Web Report Designer visually separates regions of a report and acts as a container for other report items.
 
 ## How do I add a rectangle to the report?
 
-You add a rectangle in the Bold Reports<sup>®</sup> Web Report Designer from the item panel. Follow these steps:
+You add a rectangle in the {{site.productNameTM}} Web Report Designer from the item panel. Follow these steps:
 
 1. Find the rectangle report item in the item panel under the `Basic Items` category.
    ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-in-item-panel.png '#width=165px')
@@ -21,7 +21,7 @@ You add a rectangle in the Bold Reports<sup>®</sup> Web Report Designer from th
 
 ## Properties
 
-The rectangle report item in the Bold Reports<sup>®</sup> Web Report Designer is configured through the properties panel. Before you set the following properties, see the [Properties panel](./../../compose-report/properties-panel/) section.
+The rectangle report item in the {{site.productNameTM}} Web Report Designer is configured through the properties panel. Before you set the following properties, see the [Properties panel](./../../compose-report/properties-panel/) section.
 
 ### Basic Settings
 
@@ -133,15 +133,15 @@ The `Custom Style` property enables the use of external CSS for styling report i
 
 ## Set expression
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you set an expression on a few properties of the rectangle report item, so the property values are processed based on expressions. To set expressions on the rectangle report item properties, see [Set Expression](./../../compose-report/properties-panel/#set-expression).
+The {{site.productNameTM}} Web Report Designer lets you set an expression on a few properties of the rectangle report item, so the property values are processed based on expressions. To set expressions on the rectangle report item properties, see [Set Expression](./../../compose-report/properties-panel/#set-expression).
 
 ## Reset expression
 
-To `Reset` the expression applied to a rectangle property in the Bold Reports<sup>®</sup> Web Report Designer, see [Reset Expression](./../../compose-report/properties-panel/#reset-expression).
+To `Reset` the expression applied to a rectangle property in the {{site.productNameTM}} Web Report Designer, see [Reset Expression](./../../compose-report/properties-panel/#reset-expression).
 
 ## Advanced properties
 
-A few properties of the rectangle report item in the Bold Reports<sup>®</sup> Web Report Designer contain nested properties. To open and handle nested properties, see [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties).
+A few properties of the rectangle report item in the {{site.productNameTM}} Web Report Designer contain nested properties. To open and handle nested properties, see [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties).
 
 ## Frequently asked questions
 

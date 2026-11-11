@@ -1,23 +1,23 @@
 ---
-title: Configure an SSH Tunnel for Data Connectors | Bold Reports
-description: Configure an SSH tunnel with password or public key authentication in the Bold Reports Designer to securely connect data connectors to remote databases.
+title: Configure an SSH Tunnel for Data Connectors | {{site.productName}}
+description: Configure an SSH tunnel with password or public key authentication in the {{site.productName}} Designer to securely connect data connectors to remote databases.
 ---
 
 # Configuring SSH Tunnel for Data Connectors
 
-Bold Reports<sup>®</sup> Designer lets you connect data connectors to remote databases through an encrypted SSH tunnel. You can configure the tunnel with password or public key authentication.
+{{site.productNameTM}} Designer lets you connect data connectors to remote databases through an encrypted SSH tunnel. You can configure the tunnel with password or public key authentication.
 
 ## What is SSH?
 
-**SSH (Secure Shell)** is a network protocol that encrypts connections, so Bold Reports<sup>®</sup> can securely access remote databases through an SSH tunnel.
+**SSH (Secure Shell)** is a network protocol that encrypts connections, so {{site.productNameTM}} can securely access remote databases through an SSH tunnel.
 
-Bold Reports<sup>®</sup> supports various [supported data connectors for SSH tunneling](./../../../manage-data/connection-settings/configuring-ssh-tunnel/#supported-data-connectors) to connect the remote databases through an SSH tunnel.
+{{site.productNameTM}} supports various [supported data connectors for SSH tunneling](./../../../manage-data/connection-settings/configuring-ssh-tunnel/#supported-data-connectors) to connect the remote databases through an SSH tunnel.
 
 Both the basic and advance panels support SSH configuration to establish a secure connection to your remote database.
 
 ## How do I configure an SSH tunnel?
 
-To configure an SSH tunnel in the Bold Reports<sup>®</sup> Designer, fill in the following SSH fields in the data source panel.
+To configure an SSH tunnel in the {{site.productNameTM}} Designer, fill in the following SSH fields in the data source panel.
 
 **SSH Server Name**: Specify the address of the SSH server (IP address or hostname).
 
@@ -33,7 +33,7 @@ The following image shows the **SSH Authentication Type** selection dropdown.
 
 ### How do I use password authentication?
 
-If you use password authentication in the Bold Reports<sup>®</sup> Designer, select **Password** as the **SSH Authentication Type**. Then, specify the secure password associated with the SSH username.
+If you use password authentication in the {{site.productNameTM}} Designer, select **Password** as the **SSH Authentication Type**. Then, specify the secure password associated with the SSH username.
 
 ![Enable-SSH](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/ssh-password.png '#width=385px')
 
@@ -41,7 +41,7 @@ If you use password authentication in the Bold Reports<sup>®</sup> Designer, se
 
 ### How do I use public key authentication?
 
-If you use public key authentication in the Bold Reports<sup>®</sup> Designer, select **Public key** as the **SSH Authentication Type**. Upload your encrypted private key file and provide the associated passphrase.
+If you use public key authentication in the {{site.productNameTM}} Designer, select **Public key** as the **SSH Authentication Type**. Upload your encrypted private key file and provide the associated passphrase.
 
 ![Enable-SSH](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/ssh-public-key.png '#width=385px')
 
@@ -49,11 +49,11 @@ If you use public key authentication in the Bold Reports<sup>®</sup> Designer, 
 
 **SSH Passphrase**: Specify the passphrase required to decrypt your private key.
 
-> SSH Tunneling is not applicable in the Bold Reports<sup>®</sup> cloud version.
+> SSH Tunneling is not applicable in the {{site.productNameTM}} cloud version.
 
 ## What are the technical requirements for SSH tunneling?
 
-Bold Reports<sup>®</sup> SSH tunneling connections have the following private key requirements:
+{{site.productNameTM}} SSH tunneling connections have the following private key requirements:
 
 1. Only encrypted private key file in **.pem** format is allowed for SSH public key authentication.
 
@@ -63,7 +63,7 @@ Bold Reports<sup>®</sup> SSH tunneling connections have the following private k
 
 ## How do I keep SSH connections secure?
 
-To keep Bold Reports<sup>®</sup> SSH tunnel connections secure, follow these practices:
+To keep {{site.productNameTM}} SSH tunnel connections secure, follow these practices:
 
 1. Always keep your SSH credentials (username, password, private key, and passphrase) secure and accessible only to authorized users.
 
@@ -75,7 +75,7 @@ To keep Bold Reports<sup>®</sup> SSH tunnel connections secure, follow these pr
 
 ## How do I troubleshoot SSH tunnel errors?
 
-Use the following checks when an SSH tunnel in the Bold Reports<sup>®</sup> Designer fails.
+Use the following checks when an SSH tunnel in the {{site.productNameTM}} Designer fails.
 
 **Private key upload failure:**
 
@@ -99,11 +99,11 @@ Use the following checks when an SSH tunnel in the Bold Reports<sup>®</sup> Des
 
 * Double-check the SSH credentials. Make sure the server allows SSH connection from your network.
 
-* Ensure any firewalls or network policies permit outgoing SSH connection from the Bold Reports<sup>®</sup> Designer.
+* Ensure any firewalls or network policies permit outgoing SSH connection from the {{site.productNameTM}} Designer.
 
 ## Supported Data Connectors
 
-The following Bold Reports<sup>®</sup> data connectors support SSH tunneling connections:
+The following {{site.productNameTM}} data connectors support SSH tunneling connections:
 
 * [Microsoft SQL](./../../data-connectors/sql-data-source/)
 * [PostgreSQL](./../../data-connectors/postgresql-data-source/)
@@ -117,17 +117,17 @@ The following Bold Reports<sup>®</sup> data connectors support SSH tunneling co
 
 ## Frequently asked questions
 
-### Which SSH authentication types does Bold Reports<sup>®</sup> support?
+### Which SSH authentication types does {{site.productNameTM}} support?
 
-Bold Reports<sup>®</sup> Designer supports **Password** and **Public key** as the **SSH Authentication Type**.
+{{site.productNameTM}} Designer supports **Password** and **Public key** as the **SSH Authentication Type**.
 
 ### Which private key format is required for SSH public key authentication?
 
 Only an encrypted private key file in **.pem** format is allowed. Supported formats are RSA, DSA, ECDSA (256/384/521), and ED25519.
 
-### Can I use SSH tunneling in the Bold Reports<sup>®</sup> cloud version?
+### Can I use SSH tunneling in the {{site.productNameTM}} cloud version?
 
-No. SSH Tunneling is not applicable in the Bold Reports<sup>®</sup> cloud version.
+No. SSH Tunneling is not applicable in the {{site.productNameTM}} cloud version.
 
 ## See also
 

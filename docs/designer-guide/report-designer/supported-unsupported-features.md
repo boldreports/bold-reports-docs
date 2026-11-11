@@ -1,16 +1,16 @@
 ---
-title: Supported Report Items and Data Sources | Bold Reports
-description: Check which report items, data sources, and features the Bold Reports Web Report Designer supports and which ones it does not support in RDL reports.
+title: Supported Report Items and Data Sources | {{site.productName}}
+description: Check which report items, data sources, and features the {{site.productName}} Web Report Designer supports and which ones it does not support in RDL reports.
 keywords: ejReportDesigner,reportdesigner, supported, unsupported, features web designer
 ---
 
 # Supported and Unsupported Items in Web Report Designer
 
-The Bold Reports<sup>®</sup> Web Report Designer supports most RDL report items, report features, and data sources. The tables below list each item and whether the Web Report Designer supports it.
+The {{site.productNameTM}} Web Report Designer supports most RDL report items, report features, and data sources. The tables below list each item and whether the Web Report Designer supports it.
 
 ## Report Items
 
-The following table shows which report items the Bold Reports<sup>®</sup> Web Report Designer supports. Charts such as 3-D Charts, Sunburst, Tree Map Chart, Bullet Graph, Heat Map, and Gantt are not supported, along with Shapes, Checkbox, and TOC.
+The following table shows which report items the {{site.productNameTM}} Web Report Designer supports. Charts such as 3-D Charts, Sunburst, Tree Map Chart, Bullet Graph, Heat Map, and Gantt are not supported, along with Shapes, Checkbox, and TOC.
 
 | Features            | Supported |
 |---------------------|-----------|
@@ -53,7 +53,7 @@ The following table shows which report items the Bold Reports<sup>®</sup> Web R
 
 ## Features
 
-The Bold Reports<sup>®</sup> Web Report Designer supports all of the report features in the following table:
+The {{site.productNameTM}} Web Report Designer supports all of the report features in the following table:
 
 | Features          | Supported |
 |-------------------|-----------|
@@ -71,7 +71,7 @@ The Bold Reports<sup>®</sup> Web Report Designer supports all of the report fea
 
 ## DataSources
 
-The following table lists the data sources the Bold Reports<sup>®</sup> Web Report Designer supports for connecting to a data provider and retrieving data:
+The following table lists the data sources the {{site.productNameTM}} Web Report Designer supports for connecting to a data provider and retrieving data:
 
 | DataSources           | Supported |
 |-----------------------|-----------|

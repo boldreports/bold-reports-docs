@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Oracle Database to Bold Data Hub | Bold Reports
-description: Connect an Oracle database to Bold Data Hub in Bold Reports. Set the connection properties, choose INCREMENTAL or FULL_TABLE refresh, and schedule the jobs.
+title: Connect Oracle Database to Bold Data Hub | {{site.productName}}
+description: Connect an Oracle database to Bold Data Hub in {{site.productName}}. Set the connection properties, choose INCREMENTAL or FULL_TABLE refresh, and schedule the jobs.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Oracle Database with Bold Data Hub
 
-The Bold Data Hub Oracle connector loads data from an Oracle database into Bold Reports<sup>®</sup>. [Oracle Database](https://www.oracle.com/database/) is a relational database management system (RDBMS) from Oracle Corporation.
+The Bold Data Hub Oracle connector loads data from an Oracle database into {{site.productNameTM}}. [Oracle Database](https://www.oracle.com/database/) is a relational database management system (RDBMS) from Oracle Corporation.
 
 ## Connection Properties
 
@@ -47,7 +47,7 @@ You connect an Oracle database by creating a project in Bold Data Hub and adding
 
     ![Oracle Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/oracle_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -85,7 +85,7 @@ You schedule the Oracle pipeline in Bold Data Hub from the schedules tab, or you
 
     ![Oracle - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Oracle - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

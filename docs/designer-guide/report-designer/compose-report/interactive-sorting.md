@@ -1,12 +1,12 @@
 ---
-title: Add Interactive Sorting to RDL Report Tables | Bold Reports
-description: Set interactive sorting on a textbox in a data region in the Bold Reports Web Report Designer so users toggle ascending and descending order in the viewer.
+title: Add Interactive Sorting to RDL Report Tables | {{site.productName}}
+description: Set interactive sorting on a textbox in a data region in the {{site.productName}} Web Report Designer so users toggle ascending and descending order in the viewer.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
-# Interactive sorting in Bold Reports<sup>®</sup> Web Report Designer
+# Interactive sorting in {{site.productNameTM}} Web Report Designer
 
-Interactive sorting in Bold Reports<sup>®</sup> Web Report Designer lets a user toggle between ascending and descending order dynamically in the Report Viewer. You enable it by setting interactive sorting on a `TextBox` report item within a data region.
+Interactive sorting in {{site.productNameTM}} Web Report Designer lets a user toggle between ascending and descending order dynamically in the Report Viewer. You enable it by setting interactive sorting on a `TextBox` report item within a data region.
 
 ## Create data
 

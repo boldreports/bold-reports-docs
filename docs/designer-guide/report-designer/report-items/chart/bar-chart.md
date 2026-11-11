@@ -1,16 +1,16 @@
 ---
-title: Add and Format a Bar Chart in RDL Reports | Bold Reports
-description: Add a bar chart to an RDL report in the Bold Reports Web Report Designer, bind measures and dimensions, and format its legend, series, axes, and page breaks.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add and Format a Bar Chart in RDL Reports | {{site.productName}}
+description: Add a bar chart to an RDL report in the {{site.productName}} Web Report Designer, bind measures and dimensions, and format its legend, series, axes, and page breaks.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Bar Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Bar Chart in the {{site.productNameTM}} Web Report Designer
 
-You add a **Bar Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to compare values for unordered items across categories through horizontal bars ordered vertically.
+You add a **Bar Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to compare values for unordered items across categories through horizontal bars ordered vertically.
 
 ## How do I add a bar chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the bar chart under the `Comparison` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the bar chart under the `Comparison` category in the item panel.
 
 Drag and drop the bar chart from the item panel into the design area.
 
@@ -22,7 +22,7 @@ The bar chart renders in the design area, and the properties panel lists the cha
 
 ## How do I create data for the bar chart?
 
-To present data in a Bold Reports<sup>®</sup> bar chart, create a dataset and bind data to the chart data region. This example uses the following dataset query to create the dataset.
+To present data in a {{site.productNameTM}} bar chart, create a dataset and bind data to the chart data region. This example uses the following dataset query to create the dataset.
 
 ```sql
 SELECT PC.Name AS ProdCat, PS.Name AS SubCat, DATEPART(yy, SOH.OrderDate) AS OrderYear, 'Q' + DATENAME(qq, SOH.OrderDate) AS OrderQtr,SUM(SOD.UnitPrice * SOD.OrderQty) AS Sales
@@ -39,7 +39,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## How do I assign data to the bar chart?
 
-The Bold Reports<sup>®</sup> **Bar Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension into the `Row(s)` section.
+The {{site.productNameTM}} **Bar Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension into the `Row(s)` section.
 
 To configure data in a bar chart, follow these steps:
 
@@ -103,7 +103,7 @@ To configure data in a bar chart, follow these steps:
 
 ## How do I format the bar chart?
 
-You format a bar chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab.
+You format a bar chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab.
 
 To format a bar chart, follow these steps:
 
@@ -298,7 +298,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the bar chart report?
 
-You preview the bar chart report from the design view of the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the bar chart report from the design view of the {{site.productNameTM}} Web Report Designer.
 
 1. Review the final design view of the report, shown in the following image.
 
@@ -314,7 +314,7 @@ You preview the bar chart report from the design view of the Bold Reports<sup>®
 
 ### Where is the bar chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the bar chart under the `Comparison` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the bar chart under the `Comparison` category in the item panel.
 
 ### What data does a bar chart need?
 

@@ -1,16 +1,16 @@
 ---
-title: Add a Stepped Line Chart to RDL Reports | Bold Reports
-description: Add a stepped line chart to an RDL report in the Bold Reports Web Report Designer, bind measures and dimensions, and format its series, markers, and axes.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add a Stepped Line Chart to RDL Reports | {{site.productName}}
+description: Add a stepped line chart to an RDL report in the {{site.productName}} Web Report Designer, bind measures and dimensions, and format its series, markers, and axes.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Stepped Line Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Stepped Line Chart in the {{site.productNameTM}} Web Report Designer
 
-The **Stepped Line Chart** in the Bold Reports<sup>®</sup> Web Report Designer connects data points with vertical and horizontal lines to show step-like progress. You add it from the item panel, bind data to it, and format it in the properties panel.
+The **Stepped Line Chart** in the {{site.productNameTM}} Web Report Designer connects data points with vertical and horizontal lines to show step-like progress. You add it from the item panel, bind data to it, and format it in the properties panel.
 
 ## How do I add a stepped line chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the stepped line chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the stepped line chart under the `Distribution` category in the item panel.
 
 Drag and drop a stepped line chart from the item panel into the design area.
 
@@ -22,7 +22,7 @@ The stepped line chart renders in the design area, and the properties panel list
 
 ## How do I create data for the stepped line chart?
 
-To present data in a Bold Reports<sup>®</sup> stepped line chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
+To present data in a {{site.productNameTM}} stepped line chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
 
 ```json
 [
@@ -57,7 +57,7 @@ To present data in a Bold Reports<sup>®</sup> stepped line chart, create a data
 
 ## How do I assign data to the stepped line chart?
 
-The Bold Reports<sup>®</sup> **Stepped Line Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension into the `Row(s)` section.
+The {{site.productNameTM}} **Stepped Line Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension into the `Row(s)` section.
 
 To configure data in a stepped line chart, follow these steps:
 
@@ -121,7 +121,7 @@ To configure data in a stepped line chart, follow these steps:
 
 ## How do I format the stepped line chart?
 
-You format a stepped line chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab. Use them to get the view you need.
+You format a stepped line chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab. Use them to get the view you need.
 
 To format a stepped line chart, follow these steps:
 
@@ -334,7 +334,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the stepped line chart report?
 
-You preview the stepped line chart report from the design view of the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the stepped line chart report from the design view of the {{site.productNameTM}} Web Report Designer.
 
 1. Review the final design view of the report, shown in the following image.
 
@@ -350,7 +350,7 @@ You preview the stepped line chart report from the design view of the Bold Repor
 
 ### Where is the stepped line chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the stepped line chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the stepped line chart under the `Distribution` category in the item panel.
 
 ### How do I show markers on a stepped line chart?
 

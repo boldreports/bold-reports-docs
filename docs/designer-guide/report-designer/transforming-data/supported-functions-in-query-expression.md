@@ -1,16 +1,16 @@
 ---
-title: Built-in Functions in Query Expressions | Bold Reports
-description: See the list of built-in functions, with syntax and descriptions, that you can use in the Bold Reports Query Expression Designer to build expression columns.
+title: Built-in Functions in Query Expressions | {{site.productName}}
+description: See the list of built-in functions, with syntax and descriptions, that you can use in the {{site.productName}} Query Expression Designer to build expression columns.
 keywords:
 ---
 
 # Supported built-in functions in query expressions
 
-The Bold Reports<sup>®</sup> Query Expression Designer supports the following built-in functions. You use them to build expression columns in the Web Report Designer query designer. The functions fall into five groups: numbers, conditional, logical, date, and string.
+The {{site.productNameTM}} Query Expression Designer supports the following built-in functions. You use them to build expression columns in the Web Report Designer query designer. The functions fall into five groups: numbers, conditional, logical, date, and string.
 
 ## Numbers
 
-The Bold Reports<sup>®</sup> Query Expression Designer supports these number functions, such as ABS, ROUND, POWER, and SQRT.
+The {{site.productNameTM}} Query Expression Designer supports these number functions, such as ABS, ROUND, POWER, and SQRT.
 
    <table>
    <tr>
@@ -153,7 +153,7 @@ The Bold Reports<sup>®</sup> Query Expression Designer supports these number fu
 
 ## Conditional
 
-The Bold Reports<sup>®</sup> Query Expression Designer supports these conditional functions: IF, IFNULL, ISNOTNULL, and ISNULL.
+The {{site.productNameTM}} Query Expression Designer supports these conditional functions: IF, IFNULL, ISNOTNULL, and ISNULL.
 
   <table>
    <tr>
@@ -193,7 +193,7 @@ The Bold Reports<sup>®</sup> Query Expression Designer supports these condition
 
 ## Logical
 
-The Bold Reports<sup>®</sup> Query Expression Designer supports these logical functions: AND, NOT, and OR.
+The {{site.productNameTM}} Query Expression Designer supports these logical functions: AND, NOT, and OR.
 
   <table>
    <tr>
@@ -228,7 +228,7 @@ The Bold Reports<sup>®</sup> Query Expression Designer supports these logical f
 
 ## Date
 
-The Bold Reports<sup>®</sup> Query Expression Designer supports these date functions, such as DATEADD, DATEPART, DAYDIFF, NOW, and YEAR.
+The {{site.productNameTM}} Query Expression Designer supports these date functions, such as DATEADD, DATEPART, DAYDIFF, NOW, and YEAR.
 
   <table>
    <tr>
@@ -348,7 +348,7 @@ The Bold Reports<sup>®</sup> Query Expression Designer supports these date func
 
 ## String
 
-The Bold Reports<sup>®</sup> Query Expression Designer supports these string functions, such as CONCAT, CONTAINS, LEFT, SUBSTR, and UPPER.
+The {{site.productNameTM}} Query Expression Designer supports these string functions, such as CONCAT, CONTAINS, LEFT, SUBSTR, and UPPER.
 
   <table>
    <tr>

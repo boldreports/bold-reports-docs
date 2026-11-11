@@ -1,12 +1,12 @@
 ---
-title: Use Parameters in RDL Report Expressions | Bold Reports
-description: Use report parameters in Bold Reports Web Report Designer expressions by choosing a parameter from the Data drop-down list and saving it as an expression.
+title: Use Parameters in RDL Report Expressions | {{site.productName}}
+description: Use report parameters in {{site.productName}} Web Report Designer expressions by choosing a parameter from the Data drop-down list and saving it as an expression.
 keywords: ejReportDesigner, reportdesigner, parameter, expressions
 ---
 
 # Parameters in Web Report Designer expressions
 
-In Bold Reports<sup>®</sup> Web Report Designer, the parameters available in the report are listed in the **Data** drop-down list of the expression editor. You can add any of these parameters to an expression.
+In {{site.productNameTM}} Web Report Designer, the parameters available in the report are listed in the **Data** drop-down list of the expression editor. You can add any of these parameters to an expression.
 
 ![list-of-parameter-dropdown](/static/assets/on-premise/images/report-designer/compose-report/expressions/parameter-dropdown.png '#width=400px')
 

@@ -1,12 +1,12 @@
 ---
-title: Supported Chart Types for RDL Reports | Bold Reports
-description: Review the chart types the Bold Reports Web Report Designer supports for RDL reports, grouped into Comparison, Proportion, and Distribution, each described.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Supported Chart Types for RDL Reports | {{site.productName}}
+description: Review the chart types the {{site.productName}} Web Report Designer supports for RDL reports, grouped into Comparison, Proportion, and Distribution, each described.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Chart types in the Bold Reports<sup>®</sup> Web Report Designer
+# Chart types in the {{site.productNameTM}} Web Report Designer
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the supported chart types in the item panel under the following categories:
+The {{site.productNameTM}} Web Report Designer lists the supported chart types in the item panel under the following categories:
 
 * Comparison
 * Proportion
@@ -18,11 +18,11 @@ Choose an appropriate chart type based on the type of data you present.
 
 ## Which comparison charts are available?
 
-The Bold Reports<sup>®</sup> Web Report Designer groups the column and bar charts under the **Comparison** category. Use them to compare values or measures across categories.
+The {{site.productNameTM}} Web Report Designer groups the column and bar charts under the **Comparison** category. Use them to compare values or measures across categories.
 
 ### Column
 
-The Column group of Bold Reports<sup>®</sup> comparison charts plots data as vertical bars.
+The Column group of {{site.productNameTM}} comparison charts plots data as vertical bars.
 
 | Types           |Description           |
 |-----------------------|-----------------------|
@@ -33,7 +33,7 @@ The Column group of Bold Reports<sup>®</sup> comparison charts plots data as ve
 
 ### Bar
 
-The Bar group of Bold Reports<sup>®</sup> comparison charts plots data as horizontal bars.
+The Bar group of {{site.productNameTM}} comparison charts plots data as horizontal bars.
 
 | Types           | Description |
 |-----------------------|-----------------------|
@@ -44,11 +44,11 @@ The Bar group of Bold Reports<sup>®</sup> comparison charts plots data as horiz
 
 ## Which proportion charts are available?
 
-The Bold Reports<sup>®</sup> Web Report Designer groups the pie and shape charts under the **Proportion** category. Use them to show how each item relates to the total.
+The {{site.productNameTM}} Web Report Designer groups the pie and shape charts under the **Proportion** category. Use them to show how each item relates to the total.
 
 ### Pie
 
-The Pie group of Bold Reports<sup>®</sup> proportion charts shows each item as a slice of the total.
+The Pie group of {{site.productNameTM}} proportion charts shows each item as a slice of the total.
 
 | Types           | Description |
 |-----------------------|-----------------------|
@@ -58,7 +58,7 @@ The Pie group of Bold Reports<sup>®</sup> proportion charts shows each item as 
 
 ### Shape
 
-The Shape group of Bold Reports<sup>®</sup> proportion charts compares values in a progressively increasing or decreasing shape.
+The Shape group of {{site.productNameTM}} proportion charts compares values in a progressively increasing or decreasing shape.
 
 | Types           | Description |
 |-----------------------|-----------------------|
@@ -67,11 +67,11 @@ The Shape group of Bold Reports<sup>®</sup> proportion charts compares values i
 
 ## Which distribution charts are available?
 
-The Bold Reports<sup>®</sup> Web Report Designer groups the area, line, scatter, and polar charts under the **Distribution** category. Use them to show trends and the distribution of values.
+The {{site.productNameTM}} Web Report Designer groups the area, line, scatter, and polar charts under the **Distribution** category. Use them to show trends and the distribution of values.
 
 ### Area
 
-The Area group of Bold Reports<sup>®</sup> distribution charts plots values as filled curves.
+The Area group of {{site.productNameTM}} distribution charts plots values as filled curves.
 
 | Types           | Description |
 |-----------------------|-----------------------|
@@ -84,7 +84,7 @@ The Area group of Bold Reports<sup>®</sup> distribution charts plots values as 
 
 ### Line
 
-The Line group of Bold Reports<sup>®</sup> distribution charts shows trends over a time period with connected data points.
+The Line group of {{site.productNameTM}} distribution charts shows trends over a time period with connected data points.
 
 | Types           | Description |
 |-----------------------|-----------------------|
@@ -96,7 +96,7 @@ The Line group of Bold Reports<sup>®</sup> distribution charts shows trends ove
 
 ### Scatter
 
-The Scatter group of Bold Reports<sup>®</sup> distribution charts compares a large number of data points.
+The Scatter group of {{site.productNameTM}} distribution charts compares a large number of data points.
 
 | Types           | Description |
 |-----------------------|-----------------------|
@@ -105,7 +105,7 @@ The Scatter group of Bold Reports<sup>®</sup> distribution charts compares a la
 
 ### Polar
 
-The Polar group of Bold Reports<sup>®</sup> distribution charts plots data on axes that start from the same point.
+The Polar group of {{site.productNameTM}} distribution charts plots data on axes that start from the same point.
 
 | Types           |Description |
 |-----------------------|-----------------------|

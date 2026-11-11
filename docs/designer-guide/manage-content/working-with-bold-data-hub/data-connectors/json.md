@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect a JSON File to Bold Data Hub | Bold Reports
-description: Connect a JSON file to Bold Data Hub in Bold Reports. Upload the file, set the file path in the connector template, create a pipeline, and schedule refreshes.
+title: Connect a JSON File to Bold Data Hub | {{site.productName}}
+description: Connect a JSON file to Bold Data Hub in {{site.productName}}. Upload the file, set the file path in the connector template, create a pipeline, and schedule refreshes.
 platform: Report-platform
 documentation: ug
 
 ---
 # Connect a JSON file with Bold Data Hub
 
-The Bold Data Hub JSON connector loads data from a JSON file into Bold Reports<sup>®</sup>. JSON is a lightweight text format used to store and exchange data. It is widely used in web APIs and applications because it is simple and structured. It is easy for humans to read and write, and easy for machines to parse and generate.
+The Bold Data Hub JSON connector loads data from a JSON file into {{site.productNameTM}}. JSON is a lightweight text format used to store and exchange data. It is widely used in web APIs and applications because it is simple and structured. It is easy for humans to read and write, and easy for machines to parse and generate.
 
 ## Example Configuration
 
@@ -64,7 +64,7 @@ You connect a JSON file by creating a pipeline in Bold Data Hub, adding the `JSO
 
     ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -86,7 +86,7 @@ You schedule the JSON pipeline in Bold Data Hub from the schedules tab, or you r
 
     ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -96,9 +96,9 @@ You schedule the JSON pipeline in Bold Data Hub from the schedules tab, or you r
 
 The Bold Data Hub JSON template uses the `FileSystem` extractor with `storage: local` and `type: json`.
 
-### Does a JSON pipeline create a Bold Reports<sup>®</sup> data source?
+### Does a JSON pipeline create a {{site.productNameTM}} data source?
 
-Yes. Creating a pipeline in Bold Data Hub automatically creates a live data source in Bold Reports<sup>®</sup> for the destination database.
+Yes. Creating a pipeline in Bold Data Hub automatically creates a live data source in {{site.productNameTM}} for the destination database.
 
 ## See also
 

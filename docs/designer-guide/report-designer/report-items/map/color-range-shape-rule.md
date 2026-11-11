@@ -1,17 +1,17 @@
 ---
-title: Apply a Color Range Rule to Map Shapes | Bold Reports
-description: Set start, middle, and end colors for a map shape color range rule in the Bold Reports Web Report Designer to create a heat map style display of your data.
+title: Apply a Color Range Rule to Map Shapes | {{site.productName}}
+description: Set start, middle, and end colors for a map shape color range rule in the {{site.productName}} Web Report Designer to create a heat map style display of your data.
 ---
 
-# Color range rule for map shapes in Bold Reports<sup>®</sup>
+# Color range rule for map shapes in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, the map shape color range rule uses start, middle, and end colors that you set, plus distribution options. Based on the distribution type and the provided colors, the rule creates many hues that deliver a presentation like a heat map. The start color applies to the low end of the data range, and the end color applies to data at the high end of the data range.
+In the {{site.productNameTM}} Web Report Designer, the map shape color range rule uses start, middle, and end colors that you set, plus distribution options. Based on the distribution type and the provided colors, the rule creates many hues that deliver a presentation like a heat map. The start color applies to the low end of the data range, and the end color applies to data at the high end of the data range.
 
 ![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/types.png '#width=385px')
 
 ## How do I set the color range colors?
 
-You set the Bold Reports<sup>®</sup> shape color range by entering colors in the `Start` color, `Middle` color, and `End` color fields. By default, red, yellow, and green colors are applied to the map surface.
+You set the {{site.productNameTM}} shape color range by entering colors in the `Start` color, `Middle` color, and `End` color fields. By default, red, yellow, and green colors are applied to the map surface.
 
 ![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/color-range-type.png)
 
@@ -23,11 +23,11 @@ For example, to display the population of each country on a map, set the color c
 
 ![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/color-range-demo.png)
 
-During report processing, Bold Reports<sup>®</sup> distributes these three colors across the map surface based on the distribution type, which delivers a presentation like a heat map.
+During report processing, {{site.productNameTM}} distributes these three colors across the map surface based on the distribution type, which delivers a presentation like a heat map.
 
 ## Is there a use case example?
 
-Yes. See the [Design map using color range rule](./../../../report-items/map/use-case/design-map-using-color-range-rule/) section to design a world population analysis report by using the color range rule in the Bold Reports<sup>®</sup> map report item.
+Yes. See the [Design map using color range rule](./../../../report-items/map/use-case/design-map-using-color-range-rule/) section to design a world population analysis report by using the color range rule in the {{site.productNameTM}} map report item.
 
 ## Frequently asked questions
 

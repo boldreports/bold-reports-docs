@@ -1,12 +1,12 @@
 ---
-title: Customize Chart Axes in RDL Reports | Bold Reports
-description: Customize chart category and value axes in the Bold Reports Web Report Designer, including axis title, labels, ticks, scale type, log scale, and striplines.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Customize Chart Axes in RDL Reports | {{site.productName}}
+description: Customize chart category and value axes in the {{site.productName}} Web Report Designer, including axis title, labels, ticks, scale type, log scale, and striplines.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Chart Axis in Bold Reports<sup>®</sup> Web Report Designer
+# Chart Axis in {{site.productNameTM}} Web Report Designer
 
-A chart in the Bold Reports<sup>®</sup> Web Report Designer typically has two axes that measure and categorize data: a vertical (y) primaryYAxis and a horizontal (x) primaryXAxis. You customize the axis appearance through the properties under the `Category Axis` and `Value Axis` categories of the chart properties.
+A chart in the {{site.productNameTM}} Web Report Designer typically has two axes that measure and categorize data: a vertical (y) primaryYAxis and a horizontal (x) primaryXAxis. You customize the axis appearance through the properties under the `Category Axis` and `Value Axis` categories of the chart properties.
 
 ## Where do I set axis properties?
 
@@ -14,7 +14,7 @@ You set chart axis properties in the Web Report Designer properties panel. To cu
 
 ## Axis Type
 
-The Axis Type dropdown in the Bold Reports<sup>®</sup> chart properties displays options for both `Primary` and `Secondary` axes.
+The Axis Type dropdown in the {{site.productNameTM}} chart properties displays options for both `Primary` and `Secondary` axes.
 
 ![Chart Axis Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/axis-type-dropdown.png '#width=385px')
 
@@ -42,7 +42,7 @@ You can also enable or disable the chart axis based on dynamic values by using `
 
 ## Axis Title
 
-The axis title property in the Bold Reports<sup>®</sup> chart customizes the text and font of the axis title. You can customize the font family, font style, font weight, alignment, and size. The axis does not display the title by default.
+The axis title property in the {{site.productNameTM}} chart customizes the text and font of the axis title. You can customize the font family, font style, font weight, alignment, and size. The axis does not display the title by default.
 
 To display title text for an axis, enter the text in the `Axis Title` textbox.
 
@@ -287,7 +287,7 @@ You can also set the log base dynamically using `Expressions`. This is helpful w
 
 ## StripLines
 
-StripLines on a Bold Reports<sup>®</sup> chart axis are visual indicators that highlight specific values or ranges. You can use them to emphasize important data points, thresholds, or intervals.
+StripLines on a {{site.productNameTM}} chart axis are visual indicators that highlight specific values or ranges. You can use them to emphasize important data points, thresholds, or intervals.
 
 To create a stripline, click the `+ Add` button. The total number of striplines is displayed next to the add button. Use the `Eye` icon to show or hide the striplines list.
 
@@ -301,7 +301,7 @@ For information on managing chart striplines, refer to the [StripLines](./../../
 
 ### Which properties need the Scalar axis scale type?
 
-In the Bold Reports<sup>®</sup> Web Report Designer, `Include Zero`, `Minimum`, `Maximum`, and `Enable Log Scale` apply only when the Axis Scale Type is set to `Scalar` in the Category Axis.
+In the {{site.productNameTM}} Web Report Designer, `Include Zero`, `Minimum`, `Maximum`, and `Enable Log Scale` apply only when the Axis Scale Type is set to `Scalar` in the Category Axis.
 
 ### What is the minimum Log Base value?
 

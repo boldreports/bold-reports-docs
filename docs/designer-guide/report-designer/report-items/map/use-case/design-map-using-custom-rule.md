@@ -1,15 +1,15 @@
 ---
-title: Design a Map Report with a Custom Color Rule | Bold Reports
-description: Design a map in Bold Reports Web Report Designer with a custom color rule and custom distribution to show the GDP growth rate of each country like a heat map.
+title: Design a Map Report with a Custom Color Rule | {{site.productName}}
+description: Design a map in {{site.productName}} Web Report Designer with a custom color rule and custom distribution to show the GDP growth rate of each country like a heat map.
 ---
 
-# Design a map using a custom rule in Bold Reports<sup>®</sup>
+# Design a map using a custom rule in {{site.productNameTM}}
 
-You can design a map in the Bold Reports<sup>®</sup> Web Report Designer with a custom color rule and custom distribution. The example map displays the annual gross domestic product (GDP) growth rate of each country for 2019, like a heat map.
+You can design a map in the {{site.productNameTM}} Web Report Designer with a custom color rule and custom distribution. The example map displays the annual gross domestic product (GDP) growth rate of each country for 2019, like a heat map.
 
 ## How do I create the data set?
 
-You create the data set for the map in the Bold Reports<sup>®</sup> Web Report Designer from a JSON file. Follow these steps:
+You create the data set for the map in the {{site.productNameTM}} Web Report Designer from a JSON file. Follow these steps:
 
 1. In the data panel, click `New Data`.
    ![New data](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/new-data.png '#width=350px')
@@ -31,7 +31,7 @@ You create the data set for the map in the Bold Reports<sup>®</sup> Web Report 
 
 ## How do I add a map to the report design?
 
-The `Map` report item in the Bold Reports<sup>®</sup> Web Report Designer is listed under the `Data Regions` category in the item panel.
+The `Map` report item in the {{site.productNameTM}} Web Report Designer is listed under the `Data Regions` category in the item panel.
 
 ![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/map-listed-in-item-panel.png '#width=175px')
 
@@ -47,7 +47,7 @@ The map item is rendered in the design area, and the map properties are listed i
 
 ## How do I bind analytical and shape data?
 
-You bind analytical and shape data in the Bold Reports<sup>®</sup> Web Report Designer from the **Basic Settings** category of the properties panel. Follow these steps:
+You bind analytical and shape data in the {{site.productNameTM}} Web Report Designer from the **Basic Settings** category of the properties panel. Follow these steps:
 
 1. Under the **Basic Settings** category, choose the data set in the **DataSet** property.
 
@@ -64,22 +64,22 @@ You bind analytical and shape data in the Bold Reports<sup>®</sup> Web Report D
 
 ## How do I customize the map appearance?
 
-You customize the map title, legend, color settings, and other properties in the Bold Reports<sup>®</sup> Web Report Designer properties panel.
+You customize the map title, legend, color settings, and other properties in the {{site.productNameTM}} Web Report Designer properties panel.
 
 ### Appearance
 
-Under the **Appearance** category in the Bold Reports<sup>®</sup> Web Report Designer, set the border width and color properties as required.
+Under the **Appearance** category in the {{site.productNameTM}} Web Report Designer, set the border width and color properties as required.
 
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/border.png '#width=385px')
 
 ### Title
 
-Under the [Title](./../../properties/#title) category in the Bold Reports<sup>®</sup> Web Report Designer, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
+Under the [Title](./../../properties/#title) category in the {{site.productNameTM}} Web Report Designer, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
 ![Title text](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/title.png '#width=385px')
 
 ### Legend
 
-Under the [Legend](./../../properties/#legend) category in the Bold Reports<sup>®</sup> Web Report Designer, enable the **Enable Legend** check box. Set the following values:
+Under the [Legend](./../../properties/#legend) category in the {{site.productNameTM}} Web Report Designer, enable the **Enable Legend** check box. Set the following values:
 
 * Background color as **White**.
 * Position as **BottomCenter**.
@@ -90,7 +90,7 @@ Under the [Legend](./../../properties/#legend) category in the Bold Reports<sup>
 
 ### Shape settings
 
-Under the [Shape Settings](./../../shape-settings/) in the Bold Reports<sup>®</sup> Web Report Designer, set the following values:
+Under the [Shape Settings](./../../shape-settings/) in the {{site.productNameTM}} Web Report Designer, set the following values:
 
 * Border color as `#81808c` and width as `0.667px`.
 * Tooltip as the `= Fields!Country.Value + " : "+ Round(Fields!GDP.Value, 3)` expression.
@@ -99,7 +99,7 @@ Under the [Shape Settings](./../../shape-settings/) in the Bold Reports<sup>®</
 
 ### Shape color rule
 
-Under the [Shape color rule](./../../../../report-items/map/shape-color-rule/) category in the Bold Reports<sup>®</sup> Web Report Designer, enable the **Enable Color Rule** check box. Then, set the following values:
+Under the [Shape color rule](./../../../../report-items/map/shape-color-rule/) category in the {{site.productNameTM}} Web Report Designer, enable the **Enable Color Rule** check box. Then, set the following values:
 
 * Choose Sum(GDP) in **Data Value**.
 * Choose **Custom** as the Type. Following the [Custom colors](./../../../../report-items/map/custom-color-shape-rule/) section, set these color codes in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png '#width=385px')
@@ -120,7 +120,7 @@ To see the actual data on the map surface, preview the report. Before that, resi
 
 ### Preview report
 
-You can preview the report at design time using the built-in Bold Reports<sup>®</sup> Viewer to make sure the report design is as expected. In preview mode, hover over each shape on the map surface to see the country name and GDP growth rate. The following snapshot shows the color distribution applied based on the GDP growth rate of countries.
+You can preview the report at design time using the built-in {{site.productNameTM}} Viewer to make sure the report design is as expected. In preview mode, hover over each shape on the map surface to see the country name and GDP growth rate. The following snapshot shows the color distribution applied based on the GDP growth rate of countries.
 
 ![Report preview](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/preview.png)
 

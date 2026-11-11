@@ -1,12 +1,12 @@
 ---
-title: Properties Panel in Web Report Designer | Bold Reports
-description: Use the Properties panel in Bold Reports Web Report Designer to view and edit report item, header, body, footer, and report properties, and set expressions.
+title: Properties Panel in Web Report Designer | {{site.productName}}
+description: Use the Properties panel in {{site.productName}} Web Report Designer to view and edit report item, header, body, footer, and report properties, and set expressions.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
-# Properties panel in Bold Reports<sup>®</sup> Web Report Designer
+# Properties panel in {{site.productNameTM}} Web Report Designer
 
-The Properties panel in Bold Reports<sup>®</sup> Web Report Designer lets you view and edit the properties of the selected report item or the entire report. It appears on the right side of Web Report Designer.
+The Properties panel in {{site.productNameTM}} Web Report Designer lets you view and edit the properties of the selected report item or the entire report. It appears on the right side of Web Report Designer.
 
 ## How do I open the properties panel?
 
@@ -55,7 +55,7 @@ You open the properties of any report item in Web Report Designer by selecting t
 
 ## Common properties
 
-Common properties in Bold Reports<sup>®</sup> Web Report Designer, such as name, border, and background, apply to most report items and the report layout. They are described in the [Common properties](./../../compose-report/common-properties/) section.
+Common properties in {{site.productNameTM}} Web Report Designer, such as name, border, and background, apply to most report items and the report layout. They are described in the [Common properties](./../../compose-report/common-properties/) section.
 
 ## Set expression
 

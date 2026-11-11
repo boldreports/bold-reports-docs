@@ -1,19 +1,19 @@
 ---
-title: Restrict Report Access by IP and Embed Domain | Bold Reports
-description: Restrict access to reports in Bold Reports Report Server by IP address, and allow reports to be embedded only in specific domains through security settings.
+title: Restrict Report Access by IP and Embed Domain | {{site.productName}}
+description: Restrict access to reports in {{site.productName}} Report Server by IP address, and allow reports to be embedded only in specific domains through security settings.
 keywords : report-platform
 documentation: ug
 ---
 
 # Advanced Report Security
 
-In Bold Reports<sup>®</sup>, report security options control which websites, IP addresses, and applications can access or embed the report. These settings ensure that reports are accessible only to authorized users.
+In {{site.productNameTM}}, report security options control which websites, IP addresses, and applications can access or embed the report. These settings ensure that reports are accessible only to authorized users.
 
 You can restrict report access based on IP address and allow the report to be embedded in a specific domain.
 
 ## How do I update report security settings?
 
-You update Bold Reports<sup>®</sup> report security settings from the `Security` option in the Reports context menu.
+You update {{site.productNameTM}} report security settings from the `Security` option in the Reports context menu.
 
 1. Click the Reports context menu and select `Security` to update security settings.
 
@@ -29,7 +29,7 @@ You update Bold Reports<sup>®</sup> report security settings from the `Security
 
 ## When are these settings applied?
 
-Bold Reports<sup>®</sup> can apply the report security restrictions in three ways.
+{{site.productNameTM}} can apply the report security restrictions in three ways.
 
    ![Report security apply settings options](/static/assets/on-premise/images/manage-content/manage-reports/report-security/report-security-apply-settings-options.png)
 
@@ -75,7 +75,7 @@ In this case, the report can be embedded in the specified domains in the `Accept
 
 ## What happens when access is blocked?
 
-Bold Reports<sup>®</sup> displays a blocked message if the report is embedded from domains other than those specified.
+{{site.productNameTM}} displays a blocked message if the report is embedded from domains other than those specified.
 
 The blocked message may vary depending on the browser used.
 

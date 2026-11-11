@@ -1,15 +1,15 @@
 ---
-title: Define Custom Colors for Map Report Items | Bold Reports
-description: Define custom color sets for a map report item in the Bold Reports Web Report Designer with the Custom Colors property for shape or marker color rules.
+title: Define Custom Colors for Map Report Items | {{site.productName}}
+description: Define custom color sets for a map report item in the {{site.productName}} Web Report Designer with the Custom Colors property for shape or marker color rules.
 ---
 
-# Define custom colors for a map in Bold Reports<sup>®</sup>
+# Define custom colors for a map in {{site.productNameTM}}
 
-You can define any number of color sets for a map in the Bold Reports<sup>®</sup> Web Report Designer with the **Custom Colors** property. The colors are distributed on the map surface based on the distribution type and data range.
+You can define any number of color sets for a map in the {{site.productNameTM}} Web Report Designer with the **Custom Colors** property. The colors are distributed on the map surface based on the distribution type and data range.
 
 ## How do I define custom colors?
 
-You define custom colors in the Bold Reports<sup>®</sup> Web Report Designer through the **Map Custom Colors** panel. Follow these steps:
+You define custom colors in the {{site.productNameTM}} Web Report Designer through the **Map Custom Colors** panel. Follow these steps:
 
 1. In the properties panel, under the **Shape Color Rule** or **Marker Color Rule** category, choose **Custom** in the **Type** property. The **Custom Colors** field appears under the type dropdown.
    ![Map custom color field](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/custom-colors-field.png '#width=355px')
@@ -28,7 +28,7 @@ You can also set a color based on dynamic values by using `Expressions`. To open
 
 ## How are multiple custom colors applied?
 
-Bold Reports<sup>®</sup> distributes the custom colors on the map surface based on the distribution type and data range. Repeat the steps above to create multiple color sets or edit existing color sets. For example, the following image shows seven colors added in the custom colors panel and distributed on the map surface.
+{{site.productNameTM}} distributes the custom colors on the map surface based on the distribution type and data range. Repeat the steps above to create multiple color sets or edit existing color sets. For example, the following image shows seven colors added in the custom colors panel and distributed on the map surface.
 
 ![Multiple colors](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/multiple-colors-in-design.png '#width=410px')
 
@@ -38,7 +38,7 @@ If you apply the same colors to map markers, the colors are distributed on the m
 
 ## How do I delete a color set?
 
-To delete an existing color set in the Bold Reports<sup>®</sup> map report item, follow these steps:
+To delete an existing color set in the {{site.productNameTM}} map report item, follow these steps:
 
 1. Click the edit icon for the `Custom Colors` property. The **Map Custom Colors** panel lists the available color sets.
 2. Click the `Delete` icon in the right corner of the color set you want to remove.

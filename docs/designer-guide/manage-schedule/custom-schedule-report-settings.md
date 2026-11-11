@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Customize the Report Schedule Email Template | Bold Reports
-description: Customize the scheduled report email subject and body in Bold Reports Report Server, and insert predefined variables such as report name, link, and date.
+title: Customize the Report Schedule Email Template | {{site.productName}}
+description: Customize the scheduled report email subject and body in {{site.productName}} Report Server, and insert predefined variables such as report name, link, and date.
 platform: report-platform
 documentation: ug
 ---
 
-# Customize the schedule email template in Bold Reports<sup>®</sup> Report Server
+# Customize the schedule email template in {{site.productNameTM}} Report Server
 
-Custom schedule report settings in the Bold Reports<sup>®</sup> Report Server let you customize the `Schedule Template` and the `Predefined Variables` for scheduled report emails. You can change the email subject, format the email body, insert links, and preview the email before the schedule runs.
+Custom schedule report settings in the {{site.productNameTM}} Report Server let you customize the `Schedule Template` and the `Predefined Variables` for scheduled report emails. You can change the email subject, format the email body, insert links, and preview the email before the schedule runs.
 
 ## How do I customize the schedule email template?
 
-The Bold Reports<sup>®</sup> Report Server lets you customize the email content that it sends during the schedule. Follow these steps in the schedule dialog:
+The {{site.productNameTM}} Report Server lets you customize the email content that it sends during the schedule. Follow these steps in the schedule dialog:
 
 1. Open the schedule email content page. The page initially displays default content, as shown in the following image.
 
@@ -58,7 +58,7 @@ The Report Server assigns each predefined variable directly from the server to t
 
 ### Can I use dataset fields in the schedule email template?
 
-No. Expressions utilizing **Dataset Fields** are not supported in the scheduled email template in the Bold Reports<sup>®</sup> Report Server.
+No. Expressions utilizing **Dataset Fields** are not supported in the scheduled email template in the {{site.productNameTM}} Report Server.
 
 ### Can I add the report itself to the email body?
 

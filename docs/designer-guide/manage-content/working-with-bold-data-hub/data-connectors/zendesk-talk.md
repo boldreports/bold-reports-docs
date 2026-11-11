@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Zendesk Talk to Bold Data Hub | Bold Reports
-description: Connect Zendesk Talk to Bold Data Hub in Bold Reports. Reuse your Zendesk Support credentials, choose INCREMENTAL or FULL_TABLE, and schedule data refresh.
+title: Connect Zendesk Talk to Bold Data Hub | {{site.productName}}
+description: Connect Zendesk Talk to Bold Data Hub in {{site.productName}}. Reuse your Zendesk Support credentials, choose INCREMENTAL or FULL_TABLE, and schedule data refresh.
 platform: Report-platform
 documentation: ug
 
@@ -9,11 +9,11 @@ documentation: ug
 
 # Zendesk Talk data migration configuration in Bold Data Hub
 
-The Bold Data Hub Zendesk Talk connector fetches data with the Zendesk Talk API and loads it into Bold Reports<sup>®</sup>. You configure the connector in a YAML template, choose a data refresh mode, and schedule the pipeline to keep the data current.
+The Bold Data Hub Zendesk Talk connector fetches data with the Zendesk Talk API and loads it into {{site.productNameTM}}. You configure the connector in a YAML template, choose a data refresh mode, and schedule the pipeline to keep the data current.
 
 ## What does the Zendesk Talk connector do?
 
-The Bold Data Hub Zendesk Talk connector fetches data with the Zendesk Talk API and loads it into Bold Reports<sup>®</sup>. The process for obtaining credentials for Zendesk Talk mirrors that of Zendesk Support. You can use existing Zendesk Support credentials or create new ones.
+The Bold Data Hub Zendesk Talk connector fetches data with the Zendesk Talk API and loads it into {{site.productNameTM}}. The process for obtaining credentials for Zendesk Talk mirrors that of Zendesk Support. You can use existing Zendesk Support credentials or create new ones.
 
 ## Connection Properties
 
@@ -142,7 +142,7 @@ plugins:
 
 ## How do I configure Bold Data Hub to connect to Zendesk Talk?
 
-You connect Bold Data Hub to Zendesk Talk by creating a project, adding the `Zendesk Talk` template, and saving it to the Bold Reports<sup>®</sup> Data Store.
+You connect Bold Data Hub to Zendesk Talk by creating a project, adding the `Zendesk Talk` template, and saving it to the {{site.productNameTM}} Data Store.
 
   1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
@@ -156,11 +156,11 @@ You connect Bold Data Hub to Zendesk Talk by creating a project, adding the `Zen
 
   ![Zendesk Talk Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/talk_addtemplate.png#max-width=100%)
   
-  1. Update the subdomain, email address, password or token (API or OAuth) in the template. Update the resources on the `select` property and save it to the Bold Reports<sup>®</sup> Data Store.
+  1. Update the subdomain, email address, password or token (API or OAuth) in the template. Update the resources on the `select` property and save it to the {{site.productNameTM}} Data Store.
 
   ![Zendesk Talk Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/talk_yaml.png#max-width=100%)
   
-  1. Creating a Pipeline in Bold Data Hub automatically creates a Data Source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> Data Source is a live data source to the destination database used in Bold Data Hub.
+  1. Creating a Pipeline in Bold Data Hub automatically creates a Data Source in {{site.productNameTM}}. The {{site.productNameTM}} Data Source is a live data source to the destination database used in Bold Data Hub.
 
 ### Which Zendesk Talk resources are supported?
 
@@ -202,7 +202,7 @@ You schedule a Bold Data Hub job from the **Schedules** tab, or run it on demand
 
 ![Zendesk Talk - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-1. Click Logs to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+1. Click Logs to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
 ![Zendesk Talk - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

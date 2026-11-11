@@ -1,12 +1,12 @@
 ---
-title: Export Reports in Report Server | Bold Reports
-description: Export reports from the Bold Reports Report Server in one or more formats at once, set filter parameters, and open each exported format in a new browser tab.
+title: Export Reports in Report Server | {{site.productName}}
+description: Export reports from the {{site.productName}} Report Server in one or more formats at once, set filter parameters, and open each exported format in a new browser tab.
 keywords : create report, reportserver, web designer
 ---
 
-# Export reports from Bold Reports<sup>®</sup> Report Server
+# Export reports from {{site.productNameTM}} Report Server
 
-You can export reports from Bold Reports<sup>®</sup> On-Premises Edition in one or more formats.
+You can export reports from {{site.productNameTM}} On-Premises Edition in one or more formats.
 
 ## How do I export a report?
 
@@ -24,13 +24,13 @@ Yes. Report Server lets you select multiple export formats at the same time. Eac
 
 ![Export Report Format](/static/assets/on-premise/images/manage-content/manage-reports/multiple-export-report.png)
 
-> **Note:** Each selected export format opens in a separate browser tab or window. If your browser blocks pop-ups, a notification may appear asking you to allow pop-ups from the Bold Reports<sup>®</sup> application. Allow pop-ups to ensure all exported reports are opened successfully.
+> **Note:** Each selected export format opens in a separate browser tab or window. If your browser blocks pop-ups, a notification may appear asking you to allow pop-ups from the {{site.productNameTM}} application. Allow pop-ups to ensure all exported reports are opened successfully.
 
 ## Frequently asked questions
 
 ### Why did only some of my exported formats open?
 
-Each selected export format opens in a separate browser tab or window. If your browser blocks pop-ups, allow pop-ups from the Bold Reports<sup>®</sup> application so that all exported reports open.
+Each selected export format opens in a separate browser tab or window. If your browser blocks pop-ups, allow pop-ups from the {{site.productNameTM}} application so that all exported reports open.
 
 ## See also
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect GitHub to Bold Data Hub for Reports | Bold Reports
-description: Connect GitHub to Bold Data Hub in Bold Reports with a personal access token, then load repository events or reactions and schedule data refresh for reports.
+title: Connect GitHub to Bold Data Hub for Reports | {{site.productName}}
+description: Connect GitHub to Bold Data Hub in {{site.productName}} with a personal access token, then load repository events or reactions and schedule data refresh for reports.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect GitHub with Bold Data Hub
 
-The Bold Data Hub GitHub connector loads data on issues or pull requests from any GitHub repository into Bold Reports<sup>®</sup> by using the GitHub API.
+The Bold Data Hub GitHub connector loads data on issues or pull requests from any GitHub repository into {{site.productNameTM}} by using the GitHub API.
 
 ## How do I get a GitHub access token?
 
@@ -105,7 +105,7 @@ You connect GitHub by creating a project in Bold Data Hub and adding the `GitHub
 
     ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/github_template.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![FileSystem - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -132,7 +132,7 @@ You schedule the GitHub pipeline in Bold Data Hub from the schedules tab, or you
 
     ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

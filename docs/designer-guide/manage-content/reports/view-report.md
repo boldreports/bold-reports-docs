@@ -1,7 +1,7 @@
 ---
 layout: post
-title: View Reports in the Report Server Viewer | Bold Reports
-description: Open and view reports in the Bold Reports Report Viewer directly from the Report Server, and switch between the new and old viewer modes when you need to.
+title: View Reports in the Report Server Viewer | {{site.productName}}
+description: Open and view reports in the {{site.productName}} Report Viewer directly from the Report Server, and switch between the new and old viewer modes when you need to.
 platform: Report-platform
 documentation: ug
 keywords: view report, report viewer, report server
@@ -9,7 +9,7 @@ keywords: view report, report viewer, report server
 
 # View reports in the Report Server Report Viewer
 
-**Viewing a report** opens it in the Bold Reports<sup>®</sup> Report Viewer directly from the Report Server, so you can display and interact with its output without leaving the browser. Use this when you need to check a report's current results without opening it for editing.
+**Viewing a report** opens it in the {{site.productNameTM}} Report Viewer directly from the Report Server, so you can display and interact with its output without leaving the browser. Use this when you need to check a report's current results without opening it for editing.
 
 You can open a report in the Report Viewer, switch between viewer modes, and learn what changed with the new Report Viewer introduced in v6.1.
 
@@ -17,13 +17,13 @@ You can open a report in the Report Viewer, switch between viewer modes, and lea
 
 ## What is the Report Viewer?
 
-The Report Viewer is the read-only surface Bold Reports<sup>®</sup> uses to render a published report's output. It displays the report using its existing data source and dataset connections, without exposing the design surface. Viewing a report never risks changing its layout or definition.
+The Report Viewer is the read-only surface {{site.productNameTM}} uses to render a published report's output. It displays the report using its existing data source and dataset connections, without exposing the design surface. Viewing a report never risks changing its layout or definition.
 
 You can switch between the new and old viewer look using a toggle in the page header, or by setting a default viewer preference on your user profile.
 
 ### What can I do with the Report Viewer?
 
-With the Bold Reports<sup>®</sup> Report Viewer, you can:
+With the {{site.productNameTM}} Report Viewer, you can:
 
 * Open and view any report you have permission to access.
 * Interact with report parameters directly from the viewer, if the report defines any.
@@ -32,7 +32,7 @@ With the Bold Reports<sup>®</sup> Report Viewer, you can:
 
 ## How do I view a report in Report Server?
 
-You view a report in Bold Reports<sup>®</sup> Report Server by opening it from the report list.
+You view a report in {{site.productNameTM}} Report Server by opening it from the report list.
 
 1. Click the `Open` icon, or click the report tile in the list, to open the report.
     ![Open a report](/static/assets/on-premise/images/manage-content/manage-reports/open-report.png)
@@ -46,7 +46,7 @@ You view a report in Bold Reports<sup>®</sup> Report Server by opening it from 
 
 ## Breaking changes from v6.x
 
-Bold Reports<sup>®</sup> v6.1 changed the default Report Viewer. These are the breaking changes:
+{{site.productNameTM}} v6.1 changed the default Report Viewer. These are the breaking changes:
 
 * From v6.1, reports display by default using the `new Report Viewer`. The `old viewer` look has been `deprecated`.
    ![Config File](/static/assets/on-premise/images/manage-content/manage-reports/new-viewer.png)
@@ -62,7 +62,7 @@ Bold Reports<sup>®</sup> v6.1 changed the default Report Viewer. These are the 
 
 ## What are the key features of the Report Viewer?
 
-The Bold Reports<sup>®</sup> Report Viewer offers these features:
+The {{site.productNameTM}} Report Viewer offers these features:
 
 * **New Report Viewer (v6.1 and later)**: Reports render using the updated viewer by default, replacing the deprecated old viewer look.
 * **Configurable viewer preference**: Set a default viewer mode on your user profile, or switch modes on the fly using the page header toggle.
@@ -71,7 +71,7 @@ The Bold Reports<sup>®</sup> Report Viewer offers these features:
 
 ## When should I view a report?
 
-Open a report in the Bold Reports<sup>®</sup> Report Viewer for these common use cases:
+Open a report in the {{site.productNameTM}} Report Viewer for these common use cases:
 
 * **Checking report output before sharing**: Confirm a report renders correctly and shows current data before sending it to others.
 * **Reviewing scheduled or published reports**: Open a scheduled or published report to verify its output.
@@ -80,7 +80,7 @@ Open a report in the Bold Reports<sup>®</sup> Report Viewer for these common us
 
 ## Who should use this guide?
 
-This Bold Reports<sup>®</sup> Report Viewer guide is intended for:
+This {{site.productNameTM}} Report Viewer guide is intended for:
 
 * Business users checking report results.
 * Report authors verifying report output after publishing.
@@ -88,7 +88,7 @@ This Bold Reports<sup>®</sup> Report Viewer guide is intended for:
 
 ## What do I need before viewing a report?
 
-To view a report in Bold Reports<sup>®</sup> Report Server, you need:
+To view a report in {{site.productNameTM}} Report Server, you need:
 
 * Permission to access the report and its category.
 
@@ -96,7 +96,7 @@ No additional setup is required to view a report.
 
 ## What are the limits of the Report Viewer modes?
 
-The Bold Reports<sup>®</sup> Report Viewer modes have these considerations and limitations:
+The {{site.productNameTM}} Report Viewer modes have these considerations and limitations:
 
 * Starting from v6.1, the old viewer is deprecated; reverting to it requires an administrator to update the server configuration file.
 * If an administrator reverts the server to the old viewer, previously saved user-profile viewer preferences are no longer considered.
@@ -122,7 +122,7 @@ Previously saved preferences are no longer considered, and the related preferenc
 
 ## How do I get help with the Report Viewer?
 
-If a report doesn't open in the expected Bold Reports<sup>®</sup> Report Viewer mode, or the toggle option isn't behaving as expected, check the viewer preference on your user profile. You can also contact your administrator to confirm the server's viewer configuration.
+If a report doesn't open in the expected {{site.productNameTM}} Report Viewer mode, or the toggle option isn't behaving as expected, check the viewer preference on your user profile. You can also contact your administrator to confirm the server's viewer configuration.
 
 ## Related articles
 

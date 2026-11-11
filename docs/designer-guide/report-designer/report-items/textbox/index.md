@@ -1,16 +1,16 @@
 ---
-title: Textbox Report Item Properties in RDL Reports | Bold Reports
-description: Use the Bold Reports Web Report Designer textbox to show static or dynamic text in RDL reports, and set its font, format, alignment, links, and markup.
-keywords: ejReportDesigner, reportdesigner, textbox, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Textbox Report Item Properties in RDL Reports | {{site.productName}}
+description: Use the {{site.productName}} Web Report Designer textbox to show static or dynamic text in RDL reports, and set its font, format, alignment, links, and markup.
+keywords: ejReportDesigner, reportdesigner, textbox, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# TextBox report item in Bold Reports<sup>®</sup>
+# TextBox report item in {{site.productNameTM}}
 
-The Bold Reports<sup>®</sup> TextBox report item displays static text for titles, key information, descriptions, and labels. It also displays dynamic text set from expressions in the Web Report Designer.
+The {{site.productNameTM}} TextBox report item displays static text for titles, key information, descriptions, and labels. It also displays dynamic text set from expressions in the Web Report Designer.
 
 ## How do I add a textbox to the report?
 
-To add a Bold Reports<sup>®</sup> textbox to your report in the Web Report Designer, follow these steps:
+To add a {{site.productNameTM}} textbox to your report in the Web Report Designer, follow these steps:
 
 1. Find the textbox report item in the item panel under the `Basic Items` category.
    ![Textbox listed in item panel](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-in-item-panel.png '#width=145px')
@@ -21,7 +21,7 @@ To add a Bold Reports<sup>®</sup> textbox to your report in the Web Report Desi
 
 ## Properties
 
-The Bold Reports<sup>®</sup> textbox report item lets you view and set properties for the whole textbox and for each piece of content in it (the paragraph).
+The {{site.productNameTM}} textbox report item lets you view and set properties for the whole textbox and for each piece of content in it (the paragraph).
 
 To view and edit the overall textbox properties, select the textbox report item in the design area. The properties panel lists the textbox properties, as shown in the following image.
 
@@ -110,7 +110,7 @@ To set the hyperlink on selected text or on the whole textbox, follow the steps 
 
 ### Textbox properties
 
-The following Bold Reports<sup>®</sup> properties apply only to the whole textbox item.
+The following {{site.productNameTM}} properties apply only to the whole textbox item.
 
 #### Alignment
 
@@ -269,7 +269,7 @@ The **Language** property sets the locale of a textbox, which determines the def
 
 ### Selected Text properties
 
-The following Bold Reports<sup>®</sup> properties apply only to the selected text in a textbox.
+The following {{site.productNameTM}} properties apply only to the selected text in a textbox.
 
 ### Markup Type
 
@@ -307,7 +307,7 @@ The Space property adds space before and after the paragraphs in the textbox.
 
 ## How do I set an expression on a textbox property?
 
-You can set an expression on some properties of the Bold Reports<sup>®</sup> textbox report item so that their values are processed from expressions. To set expressions on textbox properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
+You can set an expression on some properties of the {{site.productNameTM}} textbox report item so that their values are processed from expressions. To set expressions on textbox properties, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## How do I reset an expression?
 
@@ -315,7 +315,7 @@ To `Reset` an expression applied to a textbox property in the Web Report Designe
 
 ## How do I use advanced properties?
 
-Some properties of the Bold Reports<sup>®</sup> textbox report item contain nested properties. To open and handle nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
+Some properties of the {{site.productNameTM}} textbox report item contain nested properties. To open and handle nested properties, see the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.
 
 ## How do I design an RDL report using a textbox?
 
@@ -323,7 +323,7 @@ To learn how to position, style, and format a textbox, link a report, and add a 
 
 ## What are the textbox limitations?
 
-The Bold Reports<sup>®</sup> textbox report item has the following limitations:
+The {{site.productNameTM}} textbox report item has the following limitations:
 
 1. Pasting multiline text content from one TextBox report item into another TextBox report item will insert additional line breaks between each line of text.
 2. In the designer, vertical text alignment won't be applied while editing text; it will only take effect after the text field loses focus. The alignment will function as usual in preview.
@@ -332,7 +332,7 @@ The Bold Reports<sup>®</sup> textbox report item has the following limitations:
 
 ### Does the textbox language override the report language?
 
-Yes. In Bold Reports<sup>®</sup>, the language property on a text box overrides the language property on the report.
+Yes. In {{site.productNameTM}}, the language property on a text box overrides the language property on the report.
 
 ### What is the default text direction of a textbox?
 

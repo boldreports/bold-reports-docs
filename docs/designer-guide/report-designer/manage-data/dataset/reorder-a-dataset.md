@@ -1,16 +1,16 @@
 ---
-title: Reorder Datasets in Web Report Designer | Bold Reports
-description: Reorder datasets in the DATA panel of the Bold Reports Web Report Designer by dragging a dataset item to the position you need in the datasets list.
+title: Reorder Datasets in Web Report Designer | {{site.productName}}
+description: Reorder datasets in the DATA panel of the {{site.productName}} Web Report Designer by dragging a dataset item to the position you need in the datasets list.
 keywords: reorder data, reorder dataset, report-designer, ssrs, reporting
 ---
 
 # Reordering Datasets
 
-You reorder datasets in the Bold Reports<sup>®</sup> Web Report Designer by dragging a dataset item to a new position in the **Data** panel.
+You reorder datasets in the {{site.productNameTM}} Web Report Designer by dragging a dataset item to a new position in the **Data** panel.
 
 ## How do I reorder datasets?
 
-You reorder datasets in the `DATA` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You reorder datasets in the `DATA` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Open the `DATA` panel. The panel lists the datasets in the report.
 2. Click and hold the drag indicator icon of the dataset item that you want to reorder.

@@ -1,12 +1,12 @@
 ---
-title: Built-in Functions for RDL Report Expressions | Bold Reports
-description: Use built-in functions in Bold Reports Web Report Designer expressions, including text, date time, math, aggregate, financial, and conversion functions in RDL.
+title: Built-in Functions for RDL Report Expressions | {{site.productName}}
+description: Use built-in functions in {{site.productName}} Web Report Designer expressions, including text, date time, math, aggregate, financial, and conversion functions in RDL.
 keywords: ejReportDesigner, reportdesigner, functions, expressions
 ---
 
 # Built-in functions in Web Report Designer expressions
 
-Bold Reports<sup>®</sup> Web Report Designer provides built-in functions that you use in RDL expressions. The functions are grouped into text, date time, math, inspection, program flow, aggregate, financial, conversion, and miscellaneous functions. Each table lists the function, what it returns, and an example expression.
+{{site.productNameTM}} Web Report Designer provides built-in functions that you use in RDL expressions. The functions are grouped into text, date time, math, inspection, program flow, aggregate, financial, conversion, and miscellaneous functions. Each table lists the function, what it returns, and an example expression.
 
 ## Text Functions
 

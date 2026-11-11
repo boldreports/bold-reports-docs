@@ -1,11 +1,11 @@
 ---
-title: Navigate RDL Report Items in Report Explorer | Bold Reports
-description: Use Report Explorer in Bold Reports Web Report Designer to browse the RDL report structure as a tree, then search, select, edit, and delete report items.
+title: Navigate RDL Report Items in Report Explorer | {{site.productName}}
+description: Use Report Explorer in {{site.productName}} Web Report Designer to browse the RDL report structure as a tree, then search, select, edit, and delete report items.
 ---
 
-# Report Explorer in Bold Reports<sup>®</sup> Web Report Designer
+# Report Explorer in {{site.productNameTM}} Web Report Designer
 
-The **Report Explorer** panel in Bold Reports<sup>®</sup> Web Report Designer shows the report layout in a hierarchical format, so you can move easily between report items. With built-in search, selection indicators, and action options, you can manage and remove report items efficiently.
+The **Report Explorer** panel in {{site.productNameTM}} Web Report Designer shows the report layout in a hierarchical format, so you can move easily between report items. With built-in search, selection indicators, and action options, you can manage and remove report items efficiently.
 
 ![Report Explorer panel showing hierarchical report structure](/static/assets/on-premise/images/report-designer/compose-report/report-explorer/report-explorer-user-interface.png '#width=400px')
 

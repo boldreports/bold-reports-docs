@@ -83,17 +83,14 @@ The default prefix comes from `repos.enterprise.url` in `config.json`.
 │   └── robots.txt
 ├── build/                   gulp tasks
 │   ├── *.js                 Build, serve, test, table of contents, and other tasks
-│   ├── lint/                Lint rules used by the test tasks
-│   ├── pdf/, templates/     Resources used by the PDF and sample tasks
-│   └── github/              Sample publishing tasks (not used by this site)
+│   └── lint/                Markdown lint rules used by the test tasks
 ├── gatsby-config.js         Gatsby plugins
 ├── gatsby-node.js           Page creation
 ├── gatsby-browser.js        Browser-side Gatsby hooks
 ├── .htaccess                Web server rules copied with the site
-├── config.json              Site settings: header label, version, links, domain, URL prefix
+├── config.json              Site settings: product name, header label, domain, URL prefix
 ├── docs-structure.yaml      Top-level sections of the site
 ├── redirects.json           Redirects from old URLs to new URLs
-├── common-files.json        Pages shared from other repositories (empty here)
 ├── .spelling, .customnames  Word lists for the spell check
 ├── .npmrc                   npm settings needed for the install
 ├── gulpfile.js              Loads the gulp tasks from build/
@@ -122,19 +119,40 @@ All branding lives in `config.json`, the website template in `src/`, and a few f
 | What to change | Where |
 | --- | --- |
 | Product label next to the logo (`Enterprise`) | `additionalInfo.header` in `config.json` |
-| Links to trial, demo, feedback, blog, and support | `additionalInfo.url` in `config.json` |
 | Header logo | Replace `src/assets/img/boldreports-logo.svg` (light theme) and `boldreports-logo-dark.svg` (dark theme). The size is set by `.header-logo` in `src/assets/css/style.css`. |
 | Favicon | Replace `src/assets/img/favicon-32x32.png`, `favicon-180x180.png`, `favicon-192x192.png`, `favicon-270x270.png`, and `static/favicon.ico`. |
 | Social sharing image and site name | Replace `src/assets/img/og-img.png`, and edit the `og:` values in `src/components/HeadTag.js`. |
 | Colors and fonts | CSS variables in the `:root` blocks of `src/assets/css/style.css`. Header-only styles are in `header.css`, footer styles in `footer.css`. |
 | Header content | `src/components/Header.js` |
-| Footer copyright and legal links | `src/components/Footer.js` |
-| Feedback form and help links | `src/components/Feedback.js` and `src/components/FocusButton.js` |
+| Feedback form | `src/components/Feedback.js` |
+| Focus menu (Open in ChatGPT, Open in Claude) | `src/components/FocusButton.js` |
 | 404 page | `static/404.js` |
 | Analytics and tracking | Google Tag Manager ID and cookie domain in `src/components/HeadTag.js`, the tracking script URL in `src/templates/layout.js`, and `static/js/sitevisitor-tracking.js`. Remove them or replace them with your own. |
-| Site domain used in canonical URLs | `publish.bucketName` in `config.json` |
+| Site domain used by the `gulp sitemap` task | `publish.bucketName` in `config.json` |
 | URL path prefix | `repos.enterprise.url` in `config.json`, or the `--prefix` build option |
-| Product name inside the pages | Search and replace in the Markdown files under `docs/` |
+| Product name inside the pages | `product.name` in `config.json`. See [Change the product name](#change-the-product-name). |
+
+### Change the product name
+
+The product name is not typed into the documentation pages. The Markdown files in `docs/` and the titles in `docs/summary.json` use placeholders, and the build replaces them with the values from the `product` setting in `config.json`.
+
+```json
+"product": {
+    "name": "Bold Reports",
+    "trademark": "<sup>®</sup>"
+}
+```
+
+| Placeholder | Replaced with | Use it for |
+| --- | --- | --- |
+| `{{site.productName}}` | `product.name` | Page titles, descriptions, keywords, image alt text, and table of contents titles. |
+| `{{site.productNameTM}}` | `product.name` followed by `product.trademark` | Headings and body text where the trademark symbol is shown. |
+
+To white-label the content, change `product.name`. If your product name has no trademark symbol, set `product.trademark` to an empty string (`""`). Then restart `npx gulp serve` or run `npm run build`; no Markdown file needs to be edited.
+
+When you write new pages, use the placeholders instead of typing the product name.
+
+Links to `boldreports.com` inside the pages are not changed by this setting.
 
 > **Note:** Keep `"name": "enterprise-docs"` in `package.json`. The build uses this name to find the matching entry under `repos` in `config.json`.
 

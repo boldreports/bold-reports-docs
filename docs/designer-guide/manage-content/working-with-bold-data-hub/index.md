@@ -1,24 +1,24 @@
 ---
 layout: post
-title: Work with Bold Data Hub in Report Server | Bold Reports
-description: Use Bold Data Hub in Bold Reports Report Server to extract, transform, and load data from file, web, SQL, and NoSQL sources and schedule ETL jobs.
+title: Work with Bold Data Hub in Report Server | {{site.productName}}
+description: Use Bold Data Hub in {{site.productName}} Report Server to extract, transform, and load data from file, web, SQL, and NoSQL sources and schedule ETL jobs.
 canonical: /enterprise-reporting/designer-guide/manage-content/working-with-bold-data-hub/
 platform: report-platform
 documentation: ug
 keywords: bold data hub, etl, data connectors, data pipeline, scheduling
 ---
 
-# Working with Bold Data Hub in Bold Reports<sup>®</sup> Report Server
+# Working with Bold Data Hub in {{site.productNameTM}} Report Server
 
-**Bold Data Hub** is the ETL (extract, transform, load) application integrated with Bold Reports<sup>®</sup>. It pulls data from files, web sources, and SQL and NoSQL databases, transforms it, and schedules recurring jobs to keep it current. Use it when you need to prepare and centralize data from multiple sources before you build reports against it.
+**Bold Data Hub** is the ETL (extract, transform, load) application integrated with {{site.productNameTM}}. It pulls data from files, web sources, and SQL and NoSQL databases, transforms it, and schedules recurring jobs to keep it current. Use it when you need to prepare and centralize data from multiple sources before you build reports against it.
 
-You can learn about the integrated Bold Data Hub architecture, the Python requirement for running ETL scripts, and how to access and start using Bold Data Hub from Bold Reports<sup>®</sup>.
+You can learn about the integrated Bold Data Hub architecture, the Python requirement for running ETL scripts, and how to access and start using Bold Data Hub from {{site.productNameTM}}.
 
 ## What is Bold Data Hub?
 
-Bold Data Hub extends Bold Reports<sup>®</sup> with dedicated extract-transform-load capabilities. It connects to file-based, web, SQL, and NoSQL data sources through a library of connectors. It applies SQL-based transformations to the extracted data and writes the results to a configured destination. You can schedule recurring jobs so downstream reports always work against current data, rather than a one-time import.
+Bold Data Hub extends {{site.productNameTM}} with dedicated extract-transform-load capabilities. It connects to file-based, web, SQL, and NoSQL data sources through a library of connectors. It applies SQL-based transformations to the extracted data and writes the results to a configured destination. You can schedule recurring jobs so downstream reports always work against current data, rather than a one-time import.
 
-Bold Data Hub and Bold Reports<sup>®</sup> share the same Identity Provider (IdP), so you sign in to Data Hub with the same credentials you already use for Bold Reports<sup>®</sup>.
+Bold Data Hub and {{site.productNameTM}} share the same Identity Provider (IdP), so you sign in to Data Hub with the same credentials you already use for {{site.productNameTM}}.
 
 ### What can you do with Bold Data Hub?
 
@@ -29,9 +29,9 @@ With Bold Data Hub, you can:
 * Schedule recurring ETL jobs so data stays current without manual re-imports.
 * Access Bold Data Hub directly from the Report Server using shared IdP credentials.
 
-## How is Bold Data Hub integrated with Bold Reports<sup>®</sup>?
+## How is Bold Data Hub integrated with {{site.productNameTM}}?
 
-The integrated Bold Data Hub architecture connects Bold Data Hub with Bold Reports<sup>®</sup> Report Server. The following diagram shows the integrated Bold Data Hub architecture.
+The integrated Bold Data Hub architecture connects Bold Data Hub with {{site.productNameTM}} Report Server. The following diagram shows the integrated Bold Data Hub architecture.
 
 ![Source](/static/assets/on-premise/images/manage-content/working-with-etl/archietecture.png)
 
@@ -61,7 +61,7 @@ For a dedicated venv, enable the virtual environment setting and point the Bold 
 "PythonPath": "C:\\BoldServices\\Python313Env\\Scripts"
 ```
 
-## How do I open Bold Data Hub from Bold Reports<sup>®</sup>?
+## How do I open Bold Data Hub from {{site.productNameTM}}?
 
 You open Bold Data Hub from the Report Server by clicking the `Data Hub` icon. Bold Data Hub opens in a new tab.
 
@@ -75,7 +75,7 @@ Clicking the icon redirects you to the Bold Data Hub homepage.
 
 ![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_homepage.png)
 
-> **Important:** Bold Reports<sup>®</sup> and Bold Data Hub are integrated with the same Identity Provider (IdP), so you can access both with a single set of login credentials.
+> **Important:** {{site.productNameTM}} and Bold Data Hub are integrated with the same Identity Provider (IdP), so you can access both with a single set of login credentials.
 
 ## What are the key features of Bold Data Hub?
 
@@ -84,7 +84,7 @@ Bold Data Hub offers these key features:
 * **Broad connector support**: Connect to file, web, SQL, and NoSQL data sources through a dedicated set of connectors. See [Bold Data Hub Connectors](./data-connectors/) for the full list.
 * **SQL-based transformation**: Apply SQL scripts to reshape and clean extracted data before it reaches its destination.
 * **Scheduled ETL jobs**: Schedule recurring extraction and transformation jobs so report data stays current without manual re-imports.
-* **Single sign-on with Bold Reports<sup>®</sup>**: Sign in to Data Hub with the same credentials used for Bold Reports<sup>®</sup>, thanks to shared IdP integration.
+* **Single sign-on with {{site.productNameTM}}**: Sign in to Data Hub with the same credentials used for {{site.productNameTM}}, thanks to shared IdP integration.
 
 ## When should I use Bold Data Hub?
 
@@ -93,7 +93,7 @@ Use Bold Data Hub in these common cases:
 * **Centralizing data from multiple systems before reporting**: Pull data from several file, web, SQL, and NoSQL sources into one destination before building reports against it.
 * **Keeping report data current with scheduled extraction**: Set up recurring jobs so reports always reflect the data from the last scheduled run.
 * **Cleaning or reshaping source data before it reaches reports**: Use SQL transformations to correct or restructure data during extraction, instead of after it reaches the report.
-* **Connecting reports to sources without native connectors**: Use a Bold Data Hub connector to bring in data from a source Bold Reports<sup>®</sup> doesn't connect to directly.
+* **Connecting reports to sources without native connectors**: Use a Bold Data Hub connector to bring in data from a source {{site.productNameTM}} doesn't connect to directly.
 
 ## Who should use this guide?
 
@@ -109,7 +109,7 @@ Before you begin using Bold Data Hub, make sure you have:
 
 * Windows OS with Python 3.13 installed, either system-wide or in a dedicated virtual environment.
 * The correct Python path configured in `appsettings.json`.
-* A Bold Reports<sup>®</sup> account with access to the Bold Data Hub application.
+* A {{site.productNameTM}} account with access to the Bold Data Hub application.
 
 ## What are the limitations of Bold Data Hub?
 
@@ -117,7 +117,7 @@ Bold Data Hub has these considerations and limitations:
 
 * Python 3.13 is required specifically; other Python versions aren't supported for running ETL scripts.
 * The Python path must be configured correctly in `appsettings.json` before ETL jobs can run.
-* Data Hub and Bold Reports<sup>®</sup> share IdP-based sign-in, so access depends on your IdP account permissions.
+* Data Hub and {{site.productNameTM}} share IdP-based sign-in, so access depends on your IdP account permissions.
 
 ## Frequently asked questions
 
@@ -127,7 +127,7 @@ Bold Data Hub requires Python 3.13, either installed system-wide or inside a ded
 
 ### Do I need to sign in separately to use Bold Data Hub?
 
-No. Bold Data Hub shares the same Identity Provider (IdP) as Bold Reports<sup>®</sup>, so your existing credentials work.
+No. Bold Data Hub shares the same Identity Provider (IdP) as {{site.productNameTM}}, so your existing credentials work.
 
 ### Where do I configure the Python path?
 
@@ -148,7 +148,7 @@ If Bold Data Hub doesn't open from the Report Server, or an ETL job fails to run
 ## Related articles
 
 * [Data Store](./data-store/) to configure where transformed data is written once a pipeline finishes running.
-* [Install Bold Data Hub](./installation/) if you're setting up Bold Data Hub for the first time or alongside an existing Bold Reports<sup>®</sup> installation.
+* [Install Bold Data Hub](./installation/) if you're setting up Bold Data Hub for the first time or alongside an existing {{site.productNameTM}} installation.
 * [Working with Pipeline](./working-with-pipelines/) to build the extraction and transformation steps a job runs.
 * [Transformation](./transformation-preview/) to preview how your SQL transformations affect the extracted data before running a job.
 * [Scheduling Bold Data Hub Jobs](./schedule/) to set up the recurring runs described in this page.

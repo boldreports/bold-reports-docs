@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Zendesk Chat to Bold Data Hub | Bold Reports
-description: Connect Zendesk Chat to Bold Data Hub in Bold Reports. Find your subdomain, generate an OAuth token, set the connection properties, and schedule data refresh.
+title: Connect Zendesk Chat to Bold Data Hub | {{site.productName}}
+description: Connect Zendesk Chat to Bold Data Hub in {{site.productName}}. Find your subdomain, generate an OAuth token, set the connection properties, and schedule data refresh.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Zendesk Chat with Bold Data Hub
 
-The Bold Data Hub Zendesk Chat connector loads data from Zendesk Chat into Bold Reports<sup>®</sup>. You need your Zendesk subdomain and a Zendesk Chat OAuth token to set it up.
+The Bold Data Hub Zendesk Chat connector loads data from Zendesk Chat into {{site.productNameTM}}. You need your Zendesk subdomain and a Zendesk Chat OAuth token to set it up.
 
 ## How do I find my Zendesk subdomain?
 
@@ -167,7 +167,7 @@ You connect Zendesk Chat by creating a project in Bold Data Hub and adding the `
 
     ![Zendesk Chart Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/chat_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 >**Warning:**
 
@@ -192,7 +192,7 @@ You schedule the Zendesk Chat pipeline in Bold Data Hub from the schedules tab, 
 
     ![Zendesk Chart - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Zendesk Chart - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

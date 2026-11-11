@@ -1,14 +1,14 @@
 ---
-title: Connect Google BigQuery Data to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to Google BigQuery with a service account JSON key, inline or uploaded, and feed the data to your RDL reports.
+title: Connect Google BigQuery Data to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to Google BigQuery with a service account JSON key, inline or uploaded, and feed the data to your RDL reports.
 ---
 # Connect to Google BigQuery data source
 
-Bold Reports<sup>®</sup> connects to a Google BigQuery data source through a Google Cloud service account. You use a service account key file to securely access and query data from your Google BigQuery projects. Follow the steps below to create a service account and set up the connection.
+{{site.productNameTM}} connects to a Google BigQuery data source through a Google Cloud service account. You use a service account key file to securely access and query data from your Google BigQuery projects. Follow the steps below to create a service account and set up the connection.
 
 ## Create a service account
 
-To connect Bold Reports<sup>®</sup> to Google BigQuery, first create a service account in the Google Cloud console.
+To connect {{site.productNameTM}} to Google BigQuery, first create a service account in the Google Cloud console.
 
 1. Go to the **Create Service Account** page in the Google Cloud console:
    `https://console.cloud.google.com/projectselector2/iam-admin/serviceaccounts`
@@ -34,7 +34,7 @@ To connect Bold Reports<sup>®</sup> to Google BigQuery, first create a service 
 
 ### How do I create a service account key?
 
-Bold Reports<sup>®</sup> uses a JSON service account key to connect to Google BigQuery. Create the key in the Google Cloud Console.
+{{site.productNameTM}} uses a JSON service account key to connect to Google BigQuery. Create the key in the Google Cloud Console.
 
 1. The Google Cloud Console displays the created service account. Click the highlighted icon shown in the following image.
 
@@ -53,7 +53,7 @@ Bold Reports<sup>®</sup> uses a JSON service account key to connect to Google B
 
 ## How do I create a Google BigQuery data source?
 
-To create a Google BigQuery data source in the Bold Reports<sup>®</sup> Web Report Designer, open the **Data** configuration panel and choose the Google BigQuery connection type.
+To create a Google BigQuery data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Google BigQuery connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/google-bigquery-data-source/data-configuration-panel.png '#width=410px')
@@ -68,7 +68,7 @@ To create a Google BigQuery data source in the Bold Reports<sup>®</sup> Web Rep
 
 ### How do I provide the service account JSON inline?
 
-To provide the Google BigQuery service account JSON inline in the Bold Reports<sup>®</sup> Web Report Designer, paste it into the `Inline` text area.
+To provide the Google BigQuery service account JSON inline in the {{site.productNameTM}} Web Report Designer, paste it into the `Inline` text area.
 
 1. Choose `Inline` from the `Type` drop-down menu and specify valid service account information for the BigQuery project as a JSON object in the `Inline` text area.
 
@@ -84,7 +84,7 @@ To provide the Google BigQuery service account JSON inline in the Bold Reports<s
 
 ### How do I upload the JSON key file from disk?
 
-To upload the Google BigQuery JSON key file in the Bold Reports<sup>®</sup> Web Report Designer, choose `File` as the type and browse for the file.
+To upload the Google BigQuery JSON key file in the {{site.productNameTM}} Web Report Designer, choose `File` as the type and browse for the file.
 
 1. Choose `File` from the `Type` drop-down menu.
    ![Json file](/static/assets/on-premise/images/report-designer/manage-data/google-bigquery-data-source/json-file-upload.png '#width=385px')
@@ -103,9 +103,9 @@ To upload the Google BigQuery JSON key file in the Bold Reports<sup>®</sup> Web
 
 ## Frequently asked questions
 
-### How does Bold Reports<sup>®</sup> authenticate to Google BigQuery?
+### How does {{site.productNameTM}} authenticate to Google BigQuery?
 
-Bold Reports<sup>®</sup> connects through a Google Cloud service account, using a service account JSON key file.
+{{site.productNameTM}} connects through a Google Cloud service account, using a service account JSON key file.
 
 ### Which role should I assign to the service account in production?
 

@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect ElasticSearch to Bold Data Hub | Bold Reports
-description: Connect ElasticSearch to Bold Data Hub in Bold Reports with an API key or basic auth, set the host, port, and index, and schedule data refresh jobs for reports.
+title: Connect ElasticSearch to Bold Data Hub | {{site.productName}}
+description: Connect ElasticSearch to Bold Data Hub in {{site.productName}} with an API key or basic auth, set the host, port, and index, and schedule data refresh jobs for reports.
 platform: bold-bi
 documentation: ug
 ---
 
 # Connect ElasticSearch with Bold Data Hub
 
-The Bold Data Hub ElasticSearch connector loads data from an ElasticSearch cluster into Bold Reports<sup>®</sup>. ElasticSearch is a distributed, RESTful search and analytics engine that handles logs, metrics, search indexes, and application monitoring data. It is commonly used for real-time search, logging, analytics, and large-scale data ingestion.
+The Bold Data Hub ElasticSearch connector loads data from an ElasticSearch cluster into {{site.productNameTM}}. ElasticSearch is a distributed, RESTful search and analytics engine that handles logs, metrics, search indexes, and application monitoring data. It is commonly used for real-time search, logging, analytics, and large-scale data ingestion.
 
 ## What ElasticSearch credentials do I need?
 
@@ -68,7 +68,7 @@ You connect ElasticSearch by creating a pipeline in Bold Data Hub and adding the
 
     ![Elastic Search - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub. For more information, see [Relationship between Bold Data Hub Pipeline and Associated Data Sources in Bold BI](https://help.boldbi.com/working-with-data-sources/working-with-bold-data-hub/relationship-between-bold-data-hub-pipeline-and-associated-data-sources-in-boldbi/).
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub. For more information, see [Relationship between Bold Data Hub Pipeline and Associated Data Sources in Bold BI](https://help.boldbi.com/working-with-data-sources/working-with-bold-data-hub/relationship-between-bold-data-hub-pipeline-and-associated-data-sources-in-boldbi/).
 
 **Warning:**
   1. The `Encrypt_Credentials` property should be set to false when updating the new access token on the template. If you have modified other properties, such as 'select' or 'account id', the `Encrypt_Credentials` property must be set to true.
@@ -91,7 +91,7 @@ You schedule the ElasticSearch pipeline in Bold Data Hub from the schedules tab,
 
     ![Elastic Search - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Elastic search - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

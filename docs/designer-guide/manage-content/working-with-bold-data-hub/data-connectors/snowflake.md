@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Snowflake Warehouse to Bold Data Hub | Bold Reports
-description: Connect a Snowflake data warehouse to Bold Data Hub in Bold Reports. Set the user, account, and database properties, create a pipeline, and schedule refresh.
+title: Connect Snowflake Warehouse to Bold Data Hub | {{site.productName}}
+description: Connect a Snowflake data warehouse to Bold Data Hub in {{site.productName}}. Set the user, account, and database properties, create a pipeline, and schedule refresh.
 platform: report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Snowflake with Bold Data Hub
 
-The Bold Data Hub Snowflake connector loads data from a Snowflake data warehouse into Bold Reports<sup>®</sup>. Snowflake is a cloud-based data warehouse that uses SQL to manage and analyze large amounts of data. Snowflake is popular for its speed, easy scaling, and ability to handle big data. Teams often use Snowflake in business reporting, data analytics, and machine learning.
+The Bold Data Hub Snowflake connector loads data from a Snowflake data warehouse into {{site.productNameTM}}. Snowflake is a cloud-based data warehouse that uses SQL to manage and analyze large amounts of data. Snowflake is popular for its speed, easy scaling, and ability to handle big data. Teams often use Snowflake in business reporting, data analytics, and machine learning.
 
 ## Connection Properties
 
@@ -69,7 +69,7 @@ You connect Snowflake by creating a pipeline in Bold Data Hub and adding the `Sn
 
     ![Snowflake Hub- BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/snowflake_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -102,7 +102,7 @@ You schedule the Snowflake pipeline in Bold Data Hub from the schedules tab, or 
 
     ![Snowflake - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Snowflake - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

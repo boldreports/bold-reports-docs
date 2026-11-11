@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Hide Empty Table Columns or Rows in RDL | Bold Reports
-description: Hide a table column or row in Bold Reports Report Designer when the field value is empty by setting an IsNothing visibility expression on the column or row.
+title: Hide Empty Table Columns or Rows in RDL | {{site.productName}}
+description: Hide a table column or row in {{site.productName}} Report Designer when the field value is empty by setting an IsNothing visibility expression on the column or row.
 platform: report-platform
 documentation: ug
 ---
 
 # How to hide the table column or row when the field value is empty
 
-Bold Reports<sup>®</sup> lets you control the visibility of a tablix column or row based on whether data is present. You set the visibility property with an expression. The following steps show how to do this in your reports.
+{{site.productNameTM}} lets you control the visibility of a tablix column or row based on whether data is present. You set the visibility property with an expression. The following steps show how to do this in your reports.
 
 ## Hide the table column when the field value is empty
 
-You hide an empty table column in Bold Reports<sup>®</sup> Report Designer by setting an `IsNothing` expression on the column's **Visibility** property.
+You hide an empty table column in {{site.productNameTM}} Report Designer by setting an `IsNothing` expression on the column's **Visibility** property.
 
 1. Drag and drop the table, select the dataset, and assign the field values. Select the tablix, enable the advanced mode, and set the visibility expression for the columns to hide them when they contain empty data.
    ![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-table-design.png)
@@ -42,7 +42,7 @@ You can download the finished sample report from the [hide empty column sample r
 
 ## Hide the table row when the field value is empty
 
-You hide an empty table row in Bold Reports<sup>®</sup> Report Designer by setting an `IsNothing` expression on the row's **Visibility** property.
+You hide an empty table row in {{site.productNameTM}} Report Designer by setting an `IsNothing` expression on the row's **Visibility** property.
 
 1. Drag and drop the table, select the dataset, and assign the field values. Select the tablix, enable the advanced mode, and set the visibility expression for the rows to hide them when they contain empty data.
    ![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-table-design.png)
@@ -72,7 +72,7 @@ You can download the finished sample report from the [hide empty row sample repo
 
 ## Summary
 
-With these steps, you can hide a column or row dynamically in Bold Reports<sup>®</sup> when the related tablix contains no data. The IsNothing() function in an expression lets you control column or row visibility based on data presence. This technique improves the visual appearance and usability of your Bold Reports<sup>®</sup> projects.
+With these steps, you can hide a column or row dynamically in {{site.productNameTM}} when the related tablix contains no data. The IsNothing() function in an expression lets you control column or row visibility based on data presence. This technique improves the visual appearance and usability of your {{site.productNameTM}} projects.
 
 ## Frequently asked questions
 

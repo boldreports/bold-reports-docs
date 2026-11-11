@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Configure Report Server Schedule Settings | Bold Reports
-description: Set schedule settings in Bold Reports Report Server to stop schedules, compress and password-protect exports, and set local, FTP, SFTP, or S3 export paths.
+title: Configure Report Server Schedule Settings | {{site.productName}}
+description: Set schedule settings in {{site.productName}} Report Server to stop schedules, compress and password-protect exports, and set local, FTP, SFTP, or S3 export paths.
 platform: report-platform
 documentation: ug
 ---
 
-# Configure schedule report settings in Bold Reports<sup>®</sup> Report Server
+# Configure schedule report settings in {{site.productNameTM}} Report Server
 
-Schedule report settings in the Bold Reports<sup>®</sup> Report Server let you manage schedule control, compress exported reports into a zip file, and configure export paths. Use the `Enable File Compression` option to compress the exports.
+Schedule report settings in the {{site.productNameTM}} Report Server let you manage schedule control, compress exported reports into a zip file, and configure export paths. Use the `Enable File Compression` option to compress the exports.
 
 You can also set up FTP/SFTP and S3 bucket exports for scheduled reports. These settings let you specify where the reports are saved, how they are transferred to external storage locations, and control the scheduling of report exports.
 
@@ -175,7 +175,7 @@ The **KMS Key** credential type uses an AWS KMS key to access and encrypt object
 
     ![S3 Bucket Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/kms-key-settings.png)
 
-> **NOTE:** When using a KMS key, the environment hosting the Bold Reports<sup>®</sup> application must have the necessary AWS permissions to access both the specified Amazon S3 bucket and the AWS KMS key. Ensure that the configured IAM user or role has the required S3 and KMS permissions.
+> **NOTE:** When using a KMS key, the environment hosting the {{site.productNameTM}} application must have the necessary AWS permissions to access both the specified Amazon S3 bucket and the AWS KMS key. Ensure that the configured IAM user or role has the required S3 and KMS permissions.
 
 After you enter the required details, click the `Save` button to save the settings.
 
@@ -183,7 +183,7 @@ After you enter the required details, click the `Save` button to save the settin
 
 ### What is the default export root path for scheduled reports?
 
-By default, the directory root path in the Bold Reports<sup>®</sup> Report Server will be **C:\BoldServices\app_data\reporting\Jobs**.
+By default, the directory root path in the {{site.productNameTM}} Report Server will be **C:\BoldServices\app_data\reporting\Jobs**.
 
 ### How is the default password for exported reports created?
 

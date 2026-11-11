@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Workable Hiring Data to Bold Data Hub | Bold Reports
-description: Connect Workable to Bold Data Hub in Bold Reports. Generate a Workable access token, set the subdomain, and schedule data refresh for your hiring data.
+title: Connect Workable Hiring Data to Bold Data Hub | {{site.productName}}
+description: Connect Workable to Bold Data Hub in {{site.productName}}. Generate a Workable access token, set the subdomain, and schedule data refresh for your hiring data.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Workable with Bold Data Hub
 
-The Bold Data Hub Workable connector loads hiring data from Workable into Bold Reports<sup>®</sup>.
+The Bold Data Hub Workable connector loads hiring data from Workable into {{site.productNameTM}}.
 
 **Description:**
 Workable is an online platform for posting jobs and managing the hiring process. Employers can create job listings, receive applications, track candidates, collaborate with team members, schedule interviews, and manage the overall hiring workflow with Workable.
@@ -109,7 +109,7 @@ You connect Workable by creating a project in Bold Data Hub and adding the `Work
 
     ![Workable Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/workable_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Which Workable resources are supported?
 
@@ -150,7 +150,7 @@ You schedule the Workable pipeline in Bold Data Hub from the schedules tab, or y
 
     ![Workable - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Workable - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

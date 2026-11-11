@@ -1,12 +1,12 @@
 ---
-title: Rename, Exclude, and Search Dataset Columns | Bold Reports
-description: Rename, exclude, and include data table columns in the Bold Reports Web Report Designer query designer to organize a dataset for your report design.
+title: Rename, Exclude, and Search Dataset Columns | {{site.productName}}
+description: Rename, exclude, and include data table columns in the {{site.productName}} Web Report Designer query designer to organize a dataset for your report design.
 keywords: format columns,dataset table, report-designer, ssrs filters, ssrs, reporting
 ---
 
 # Formatting columns in the query designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer query designer, you can rename, exclude, and include data table columns to match your dataset design.
+In the {{site.productNameTM}} Web Report Designer query designer, you can rename, exclude, and include data table columns to match your dataset design.
 
 Prefer watching over reading? Watch this video on formatting columns:
 

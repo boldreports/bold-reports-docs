@@ -1,12 +1,12 @@
 ---
-title: Nest a Chart Inside a Matrix in RDL Reports | Bold Reports
-description: Place a chart inside a tablix or matrix data region in the Bold Reports Web Report Designer to show different views of the same dataset in one RDL report.
-keywords: ejReportDesigner, reportdesigner, list, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, nested data regions, tablix
+title: Nest a Chart Inside a Matrix in RDL Reports | {{site.productName}}
+description: Place a chart inside a tablix or matrix data region in the {{site.productName}} Web Report Designer to show different views of the same dataset in one RDL report.
+keywords: ejReportDesigner, reportdesigner, list, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, nested data regions, tablix
 ---
 
-# Nest a chart inside a data region in the Bold Reports<sup>®</sup> Web Report Designer
+# Nest a chart inside a data region in the {{site.productNameTM}} Web Report Designer
 
-In the Bold Reports<sup>®</sup> Web Report Designer, you can place a chart inside another data region, such as a tablix, to link both data regions to the same dataset. This provides different views of the same data. The following steps design the sales of each product sub-category, for each product category group and order year, by using a chart and a matrix data region.
+In the {{site.productNameTM}} Web Report Designer, you can place a chart inside another data region, such as a tablix, to link both data regions to the same dataset. This provides different views of the same data. The following steps design the sales of each product sub-category, for each product category group and order year, by using a chart and a matrix data region.
 
 ## How do I create the dataset?
 

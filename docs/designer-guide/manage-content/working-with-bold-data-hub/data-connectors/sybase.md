@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Connect Sybase Database to Bold Data Hub | Bold Reports
-description: Connect a Sybase database to Bold Data Hub in Bold Reports. Set up an ODBC DSN, set the connection properties, and schedule data refresh from tables or views.
+title: Connect Sybase Database to Bold Data Hub | {{site.productName}}
+description: Connect a Sybase database to Bold Data Hub in {{site.productName}}. Set up an ODBC DSN, set the connection properties, and schedule data refresh from tables or views.
 platform: report-platform
 documentation: ug
 ---
 
 # Connect Sybase with Bold Data Hub
 
-The Bold Data Hub Sybase connector connects to a Sybase database and fetches data from tables or views into Bold Reports<sup>®</sup>. The Sybase connector supports authentication, handles nested or related data, and presents the results in a clean, structured format for easy use.
+The Bold Data Hub Sybase connector connects to a Sybase database and fetches data from tables or views into {{site.productNameTM}}. The Sybase connector supports authentication, handles nested or related data, and presents the results in a clean, structured format for easy use.
 
 ## How do I get the Sybase ODBC connection details?
 
-You set up the Sybase connection for Bold Reports<sup>®</sup> by configuring an ODBC DSN on your system and then selecting it in the Sybase connector.
+You set up the Sybase connection for {{site.productNameTM}} by configuring an ODBC DSN on your system and then selecting it in the Sybase connector.
 
 1. Configure an ODBC DSN on your system:
     * Open **ODBC Data Source Administrator**.
@@ -24,8 +24,8 @@ You set up the Sybase connection for Bold Reports<sup>®</sup> by configuring an
             - Database Name
 2. Provide credentials:
     * Enter your Username and Password for the Sybase database.
-3. Connect in Bold Reports<sup>®</sup>:
-    * In Bold Reports<sup>®</sup>, choose the Sybase connector.
+3. Connect in {{site.productNameTM}}:
+    * In {{site.productNameTM}}, choose the Sybase connector.
     * Select the configured DSN, enter your credentials, and click **Connect**.
 
 ## Connection Properties
@@ -85,7 +85,7 @@ You connect Sybase by creating a pipeline in Bold Data Hub and adding the Sybase
 
     ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
@@ -118,7 +118,7 @@ You schedule the Sybase pipeline in Bold Data Hub from the schedules tab, or you
 
     ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

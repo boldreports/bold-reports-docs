@@ -1,17 +1,17 @@
 ---
-title: Connect a MySQL Data Source to RDL Reports | Bold Reports
-description: Connect the Bold Reports Web Report Designer to MySQL 5.1 to 8.0 with basic options, a connection string, or an SSH tunnel and use SQL queries in RDL reports.
+title: Connect a MySQL Data Source to RDL Reports | {{site.productName}}
+description: Connect the {{site.productName}} Web Report Designer to MySQL 5.1 to 8.0 with basic options, a connection string, or an SSH tunnel and use SQL queries in RDL reports.
 ---
 
 # Connect to MySQL data source
 
-The Bold Reports<sup>®</sup> Designer supports connecting MySQL database using SQL Query. You can connect with basic options, advanced options, or through a secure SSH tunnel.
+The {{site.productNameTM}} Designer supports connecting MySQL database using SQL Query. You can connect with basic options, advanced options, or through a secure SSH tunnel.
 
 **Supported Server Versions**: MySQL (5.1, 5.5, 5.6, 5.7, and 8.0).
 
 ## How do I choose the MySQL data source?
 
-To choose the MySQL data source in the Bold Reports<sup>®</sup> Designer, open the **Data** configuration panel and select the MySQL connection type.
+To choose the MySQL data source in the {{site.productNameTM}} Designer, open the **Data** configuration panel and select the MySQL connection type.
 
 1. Click the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
@@ -22,14 +22,14 @@ To choose the MySQL data source in the Bold Reports<sup>®</sup> Designer, open 
 
 ### How do I create a MySQL data source with basic options?
 
-When you create a new data source in the Bold Reports<sup>®</sup> Designer, the `NEW DATASOURCE` panel shows the basic options.
+When you create a new data source in the {{site.productNameTM}} Designer, the `NEW DATASOURCE` panel shows the basic options.
 
 1. Specify the data source name without special characters in the **Name** field.
 2. In the **Server Name** field, specify the remote server name, like `myserver.domain.com`.
 3. In the **Port** field, specify the Port number. The default port number is `3306`.
 4. Specify the username of your MySQL server in the **Username** field.
 5. Specify the password of your MySQL server in the **Password** field.
-6. Enable the Save password option to embed the credentials within the report when saving it in Bold Reports<sup>®</sup> Report Server.
+6. Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 7. Choose or enter an existing valid database, e.g. Northwind.
    ![Basic Option](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/basic-connection.png '#width=355px')
 8. Click `Connect` to open the query design pane. Enter the required query and execute it. The corresponding values appear in a grid for preview.
@@ -40,7 +40,7 @@ When you create a new data source in the Bold Reports<sup>®</sup> Designer, the
 
 ### How do I connect to MySQL through an SSH tunnel?
 
-Bold Reports<sup>®</sup> lets you connect to a MySQL data source using a secure SSH tunnel. The SSH tunnel provides a more secure method for connecting, especially when you access remote databases over untrusted or insecure networks.
+{{site.productNameTM}} lets you connect to a MySQL data source using a secure SSH tunnel. The SSH tunnel provides a more secure method for connecting, especially when you access remote databases over untrusted or insecure networks.
 
 ![Enable-SSH](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-ssh-mysql.png '#width=385px')
 
@@ -48,7 +48,7 @@ Bold Reports<sup>®</sup> lets you connect to a MySQL data source using a secure
 
 ### How do I create a MySQL data source with advanced options?
 
-The Bold Reports<sup>®</sup> advanced options let you build your own connection string for MySQL.
+The {{site.productNameTM}} advanced options let you build your own connection string for MySQL.
 
 1. Click `Advanced Options` in the `New Data` panel.
 
@@ -71,7 +71,7 @@ The Bold Reports<sup>®</sup> advanced options let you build your own connection
 
 ### Authentication types for advanced connection
 
-Bold Reports<sup>®</sup> advanced MySQL connections support database credentials, prompted credentials, or no credentials.
+{{site.productNameTM}} advanced MySQL connections support database credentials, prompted credentials, or no credentials.
 
 ![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/authentication.png '#width=355px')
 
@@ -97,7 +97,7 @@ The default port number is `3306`.
 
 ### Which MySQL server versions are supported?
 
-Bold Reports<sup>®</sup> supports MySQL server versions 5.1, 5.5, 5.6, 5.7, and 8.0.
+{{site.productNameTM}} supports MySQL server versions 5.1, 5.5, 5.6, 5.7, and 8.0.
 
 ### Does the MySQL data source support design view?
 
@@ -105,7 +105,7 @@ No. Only query mode is supported for the MySQL data source.
 
 ### Can I connect to MySQL through an SSH tunnel?
 
-Yes. Bold Reports<sup>®</sup> supports connecting to a MySQL data source through a secure SSH tunnel.
+Yes. {{site.productNameTM}} supports connecting to a MySQL data source through a secure SSH tunnel.
 
 ## See also
 

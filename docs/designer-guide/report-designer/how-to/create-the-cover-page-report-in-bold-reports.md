@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Create a Cover Page for an RDL Report | Bold Reports
-description: Create a cover page for an RDL report in Bold Reports Web Report Designer with a rectangle, a page break, and Page Number Reset, then design the report.
-control: Bold Reports
+title: Create a Cover Page for an RDL Report | {{site.productName}}
+description: Create a cover page for an RDL report in {{site.productName}} Web Report Designer with a rectangle, a page break, and Page Number Reset, then design the report.
+control: {{site.productName}}
 documentation: ug
 ---
 
-# How to create the cover page report in Bold Reports<sup>®</sup>
+# How to create the cover page report in {{site.productNameTM}}
 
-Bold Reports<sup>®</sup> Report Designer lets you create a cover page for your report using a rectangle with a page break.
+{{site.productNameTM}} Report Designer lets you create a cover page for your report using a rectangle with a page break.
 
 Prefer watching over reading? Watch this video for creating a report with a cover page:
 
@@ -16,7 +16,7 @@ Prefer watching over reading? Watch this video for creating a report with a cove
 
 ## How do I create the cover page using a rectangle?
 
-You create a cover page in Bold Reports<sup>®</sup> Report Designer by placing the cover content in a rectangle that has a page break.
+You create a cover page in {{site.productNameTM}} Report Designer by placing the cover content in a rectangle that has a page break.
 
 1. Drag and drop the rectangle report item into the design area from the item panel. Create your cover page inside the rectangle item.
    ![Report cover page](/static/assets/on-premise/images/report-designer/how-to/cover-page-report/cover-page.png '#width=350px')

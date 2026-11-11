@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Connect PostgreSQL Database to Bold Data Hub | Bold Reports
-description: Connect a PostgreSQL database to Bold Data Hub in Bold Reports. Set the connection properties, choose INCREMENTAL or FULL_TABLE refresh, and schedule jobs.
+title: Connect PostgreSQL Database to Bold Data Hub | {{site.productName}}
+description: Connect a PostgreSQL database to Bold Data Hub in {{site.productName}}. Set the connection properties, choose INCREMENTAL or FULL_TABLE refresh, and schedule jobs.
 platform: Report-platform
 documentation: ug
 
 ---
 # Connect PostgreSQL with Bold Data Hub
 
-The Bold Data Hub PostgreSQL connector loads data from a PostgreSQL database into Bold Reports<sup>®</sup>. [PostgreSQL](https://www.postgresql.org/) is a free and open-source relational database management system (RDBMS).
+The Bold Data Hub PostgreSQL connector loads data from a PostgreSQL database into {{site.productNameTM}}. [PostgreSQL](https://www.postgresql.org/) is a free and open-source relational database management system (RDBMS).
 
 ## Connection Properties
 
@@ -45,7 +45,7 @@ You connect PostgreSQL by creating a project in Bold Data Hub and adding the `Po
 
     ![PostgreSQL Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/postgres_yaml.png#max-width=100%)
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Configuration Parameters
 
@@ -82,7 +82,7 @@ You schedule the PostgreSQL pipeline in Bold Data Hub from the schedules tab, or
 
     ![PostgreSQL - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![PostgreSQL - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

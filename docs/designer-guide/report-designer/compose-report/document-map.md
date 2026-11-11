@@ -1,12 +1,12 @@
 ---
-title: Add a Document Map in Web Report Designer | Bold Reports
-description: Configure a document map in the Bold Reports Web Report Designer to show a side pane of hierarchical links that navigate to items in a rendered RDL report.
+title: Add a Document Map in Web Report Designer | {{site.productName}}
+description: Configure a document map in the {{site.productName}} Web Report Designer to show a side pane of hierarchical links that navigate to items in a rendered RDL report.
 canonical: /enterprise-reporting/designer-guide/report-designer/compose-report/document-map/
 ---
 
-# Document map in Bold Reports<sup>®</sup> Web Report Designer
+# Document map in {{site.productNameTM}} Web Report Designer
 
-A document map in Bold Reports<sup>®</sup> Web Report Designer is a navigation feature that shows a side pane with hierarchical links when you view a report. A user can click the content in the list to navigate to the report page that displays that item.
+A document map in {{site.productNameTM}} Web Report Designer is a navigation feature that shows a side pane with hierarchical links when you view a report. A user can click the content in the list to navigate to the report page that displays that item.
 
 ![Document Map](/static/assets/on-premise/images/report-designer/compose-report/document-map/preview.png)
 
@@ -64,7 +64,7 @@ The `Show/Hide` Document Map button on the Report Viewer toolbar toggles the dis
 
 ## Rendering Behaviour
 
-The document map in Bold Reports<sup>®</sup> is intended for use in the Report Viewer. The document map rendering behaviour varies for each rendering format, and a few rendering formats do not support document maps.
+The document map in {{site.productNameTM}} is intended for use in the Report Viewer. The document map rendering behaviour varies for each rendering format, and a few rendering formats do not support document maps.
 
 * In Excel export, document maps are exported as a hierarchy of links in a named worksheet. Other sections of the report are exported as separate worksheets in the same workbook. Each worksheet is linked with the document map.
 

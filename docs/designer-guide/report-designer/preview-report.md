@@ -1,16 +1,16 @@
 ---
-title: Preview an RDL Report in Web Report Designer | Bold Reports
-description: Preview an RDL report after you design it in the Bold Reports Web Report Designer by clicking the Preview button and viewing it in the built-in Report Viewer.
+title: Preview an RDL Report in Web Report Designer | {{site.productName}}
+description: Preview an RDL report after you design it in the {{site.productName}} Web Report Designer by clicking the Preview button and viewing it in the built-in Report Viewer.
 keywords: preview RDL report, web designer, report server
 ---
 
 # Preview a Report
 
-You preview a report in the Bold Reports<sup>®</sup> Web Report Designer by clicking the **Preview** button. The output appears in the built-in Report Viewer.
+You preview a report in the {{site.productNameTM}} Web Report Designer by clicking the **Preview** button. The output appears in the built-in Report Viewer.
 
 ## How do I preview a report?
 
-You preview a report from the header of the Bold Reports<sup>®</sup> Web Report Designer page with the following steps:
+You preview a report from the header of the {{site.productNameTM}} Web Report Designer page with the following steps:
 
 1. Click the **Preview** button in the header of the report designer page.
    ![Preview button in report designer](/static/assets/on-premise/images/report-designer/preview-report/preview-button-location.png)
@@ -22,7 +22,7 @@ You preview a report from the header of the Bold Reports<sup>®</sup> Web Report
 
 ### Which viewer shows the report preview?
 
-The Bold Reports<sup>®</sup> Web Report Designer previews the report using the inbuilt Report Viewer.
+The {{site.productNameTM}} Web Report Designer previews the report using the inbuilt Report Viewer.
 
 ### Where is the Preview button?
 

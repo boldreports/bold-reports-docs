@@ -1,16 +1,16 @@
 ---
-title: Report Header, Body, and Footer Properties | Bold Reports
-description: Set report header, body, and footer properties in the Bold Reports Web Report Designer, including border, background, height, print options, and size.
+title: Report Header, Body, and Footer Properties | {{site.productName}}
+description: Set report header, body, and footer properties in the {{site.productName}} Web Report Designer, including border, background, height, print options, and size.
 keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 ---
 
-# Report sections in Bold Reports<sup>®</sup> Web Report Designer
+# Report sections in {{site.productNameTM}} Web Report Designer
 
-Bold Reports<sup>®</sup> Web Report Designer divides a report into three sections: header, body, and footer. Each section has general properties and its own specific properties.
+{{site.productNameTM}} Web Report Designer divides a report into three sections: header, body, and footer. Each section has general properties and its own specific properties.
 
 ## What are the report header and footer?
 
-In Bold Reports<sup>®</sup> Web Report Designer, the report header and footer sections hold report items at the top and bottom of the report body. You can place images, text boxes, lines, rectangles, and expressions in the header and footer section of the report. For example, you can place the Report Title, Company Logo, Company Address, Report Generated Time, and Page Numbers in the header and footer sections.
+In {{site.productNameTM}} Web Report Designer, the report header and footer sections hold report items at the top and bottom of the report body. You can place images, text boxes, lines, rectangles, and expressions in the header and footer section of the report. For example, you can place the Report Title, Company Logo, Company Address, Report Generated Time, and Page Numbers in the header and footer sections.
 
 > Note: You cannot place data regions in the header and footer section of the report design. By default, reports have a report footer, but not a report header. To add or remove the header and footer in a report, see [show or hide header and footer](./../../compose-report/show-or-hide-header-footer-in-report/).
 

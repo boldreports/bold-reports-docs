@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect Jira to Bold Data Hub for Reports | Bold Reports
-description: Connect Jira to Bold Data Hub in Bold Reports with your subdomain, email, and API token, filter issues with queries, and schedule data refresh for your reports.
+title: Connect Jira to Bold Data Hub for Reports | {{site.productName}}
+description: Connect Jira to Bold Data Hub in {{site.productName}} with your subdomain, email, and API token, filter issues with queries, and schedule data refresh for your reports.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect Jira with Bold Data Hub
 
-The Bold Data Hub Jira connector loads project and task data from Jira into Bold Reports<sup>®</sup>. Jira by ``atlassian`` helps teams manage projects and tasks, prioritize work, and collaborate.
+The Bold Data Hub Jira connector loads project and task data from Jira into {{site.productNameTM}}. Jira by ``atlassian`` helps teams manage projects and tasks, prioritize work, and collaborate.
 
 ## How do I get a Jira API token?
 
@@ -74,7 +74,7 @@ You connect Jira by creating a project in Bold Data Hub and adding the `Jira` te
 
 5. Click **Save** and choose the destination to save the pipeline.
 
-Creating a pipeline in Bold Data Hub automatically creates a data source in Bold Reports<sup>®</sup>. The Bold Reports<sup>®</sup> data source is a live data source to the destination database used in Bold Data Hub.
+Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
 ### Which Jira resources can I load?
 
@@ -111,7 +111,7 @@ You schedule the Jira pipeline in Bold Data Hub from the schedules tab, or you r
 
     ![Jira - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![Jira - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

@@ -1,16 +1,16 @@
 ---
-title: Transform Dataset Data in the Query Designer | Bold Reports
-description: Transform data in the Bold Reports Web Report Designer after you retrieve it, with join tables, column formatting, query filters, and expression columns.
+title: Transform Dataset Data in the Query Designer | {{site.productName}}
+description: Transform data in the {{site.productName}} Web Report Designer after you retrieve it, with join tables, column formatting, query filters, and expression columns.
 keywords: reports, ejreports, reportdesigner, report designer, web designer, bold-reports reportdesigner, Overview, web designer
 ---
 
 # Transforming data in the Web Report Designer
 
-The Bold Reports<sup>®</sup> Web Report Designer lets you transform data as required after you retrieve it from the data source.
+The {{site.productNameTM}} Web Report Designer lets you transform data as required after you retrieve it from the data source.
 
 ## Which data transformation features are available?
 
-The Bold Reports<sup>®</sup> Web Report Designer offers the following data transformation features:
+The {{site.productNameTM}} Web Report Designer offers the following data transformation features:
 
 * [Join tables](./../transforming-data/join-table/)
 

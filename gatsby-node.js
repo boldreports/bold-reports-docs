@@ -6,15 +6,8 @@ const { updateContent } = require('./build/content.js');
 const config = require('./config.json');
 const path = require('path');
 
-// Platform-wide short links applied to every docs site.
-const sharedRedirects = [
-    { fromPath: '/uwp', toPath: 'https://help.syncfusion.com/uwp/sfreportviewer/' },
-    { fromPath: '/wpf', toPath: 'https://help.syncfusion.com/wpf/reportviewer/' },
-];
-
-// Repo-specific redirects loaded from each repository's own `redirects.json`.
-const repoRedirects = require('./redirects.json');
-const redirects = [...sharedRedirects, ...repoRedirects];
+// Redirects from old URLs to new URLs, defined in `redirects.json`.
+const redirects = require('./redirects.json');
 
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
 	if (stage === 'build-javascript') {

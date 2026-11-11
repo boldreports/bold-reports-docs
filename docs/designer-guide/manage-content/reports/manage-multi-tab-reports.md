@@ -1,16 +1,16 @@
 ---
-title: Manage Multi-Tabbed Reports in Report Server | Bold Reports
-description: Enable multi-tabbed reports in Bold Reports Report Server to show two or more reports on one page, then create, edit, render, open, and delete them.
+title: Manage Multi-Tabbed Reports in Report Server | {{site.productName}}
+description: Enable multi-tabbed reports in {{site.productName}} Report Server to show two or more reports on one page, then create, edit, render, open, and delete them.
 keywords : create report, reportserver, web designer
 ---
 
-# Multi-tabbed reports in Bold Reports<sup>®</sup> Report Server
+# Multi-tabbed reports in {{site.productNameTM}} Report Server
 
-The multi-tabbed report feature lets you display two or more reports on the same page in Bold Reports<sup>®</sup> On-Premises Edition.
+The multi-tabbed report feature lets you display two or more reports on the same page in {{site.productNameTM}} On-Premises Edition.
 
 ## How do I enable multi-tabbed reports?
 
-You enable multi-tabbed reports in Bold Reports<sup>®</sup> Report Server through the reporting configuration file.
+You enable multi-tabbed reports in {{site.productNameTM}} Report Server through the reporting configuration file.
 
 * To enable the Multi-tab support, navigate to `UMS -> Settings -> Configuration -> reporting/config.xml`, set the `<EnableMultiTabbedReports>` node to `true`, and then save the changes.
 
@@ -22,7 +22,7 @@ You enable multi-tabbed reports in Bold Reports<sup>®</sup> Report Server throu
 
 ## What can I do with multi-tabbed reports?
 
-You can create, edit, render, and delete multi-tabbed reports in Bold Reports<sup>®</sup>.
+You can create, edit, render, and delete multi-tabbed reports in {{site.productNameTM}}.
 
 * The reports listing page displays the multi-tabbed reports that you can access, depending on your permissions.
 ![Multitab Report](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-report.png)

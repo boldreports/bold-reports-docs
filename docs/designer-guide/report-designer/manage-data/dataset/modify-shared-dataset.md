@@ -1,15 +1,15 @@
 ---
-title: Edit a Shared Dataset in Web Report Designer | Bold Reports
-description: Edit a linked shared dataset from the DATA panel in the Bold Reports Web Report Designer to change the data feed that your RDL reports use for data.
+title: Edit a Shared Dataset in Web Report Designer | {{site.productName}}
+description: Edit a linked shared dataset from the DATA panel in the {{site.productName}} Web Report Designer to change the data feed that your RDL reports use for data.
 ---
 
 # Modify shared dataset
 
-You modify a shared dataset in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Edit` from the dataset context menu in the `DATA` panel. Editing changes the data feed for your report.
+You modify a shared dataset in the {{site.productNameTM}} Web Report Designer by choosing `Edit` from the dataset context menu in the `DATA` panel. Editing changes the data feed for your report.
 
 ## How do I edit a shared dataset?
 
-You edit a shared dataset from the `DATA` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You edit a shared dataset from the `DATA` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the data in the `DATA` panel that you want to edit.
 

@@ -1,16 +1,16 @@
 ---
-title: Duplicate a Dataset in Web Report Designer | Bold Reports
-description: Duplicate an existing dataset with the Clone option in the Bold Reports Web Report Designer when report items need their own data-level restrictions.
+title: Duplicate a Dataset in Web Report Designer | {{site.productName}}
+description: Duplicate an existing dataset with the Clone option in the {{site.productName}} Web Report Designer when report items need their own data-level restrictions.
 keywords: copy data, clone dataset, report-designer, ssrs, reporting
 ---
 
 # Duplicate a dataset
 
-You duplicate a dataset in the Bold Reports<sup>®</sup> Web Report Designer by choosing `Clone` from the dataset context menu in the `DATA` panel. A duplicate is useful when report items need data-level restrictions.
+You duplicate a dataset in the {{site.productNameTM}} Web Report Designer by choosing `Clone` from the dataset context menu in the `DATA` panel. A duplicate is useful when report items need data-level restrictions.
 
 ## How do I duplicate a dataset?
 
-You duplicate a dataset from the `DATA` panel of the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You duplicate a dataset from the `DATA` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the dataset that you need to duplicate in the `DATA` panel.
    ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=385px')

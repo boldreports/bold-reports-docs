@@ -1,16 +1,16 @@
 ---
-title: Design an SSRS RDL Flowchart Using Shapes | Bold Reports
-description: Design an SSRS RDL report with Shape report items in Bold Reports Web Report Designer to build a manufacturing workflow flowchart with shapes, arrows, and text.
-keywords: ejReportDesigner, reportdesigner, shape, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, custom item
+title: Design an SSRS RDL Flowchart Using Shapes | {{site.productName}}
+description: Design an SSRS RDL report with Shape report items in {{site.productName}} Web Report Designer to build a manufacturing workflow flowchart with shapes, arrows, and text.
+keywords: ejReportDesigner, reportdesigner, shape, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, custom item
 ---
 
-# Design an SSRS RDL report using shapes in Bold Reports<sup>®</sup>
+# Design an SSRS RDL report using shapes in {{site.productNameTM}}
 
-You can design the `Manufacturing Workflow for Tablet PC` report as a flowchart by using shape report items in the Bold Reports<sup>®</sup> Web Report Designer. Follow the steps in each section below.
+You can design the `Manufacturing Workflow for Tablet PC` report as a flowchart by using shape report items in the {{site.productNameTM}} Web Report Designer. Follow the steps in each section below.
 
 ## How do I add text to a shape?
 
-You add text to a shape in the Bold Reports<sup>®</sup> Web Report Designer by placing a textbox on top of the shape report item. Follow these steps:
+You add text to a shape in the {{site.productNameTM}} Web Report Designer by placing a textbox on top of the shape report item. Follow these steps:
 
 1. Drag and drop a shape report item from the item panel to the design area.
    ![Drag and drop shape report item into design area](/static/assets/on-premise/images/report-designer/report-items/shape/circle-shape.png '#width=200px')
@@ -28,7 +28,7 @@ You add text to a shape in the Bold Reports<sup>®</sup> Web Report Designer by 
 
 ## How do I add an arrow shape to connect shapes?
 
-You connect shapes in the Bold Reports<sup>®</sup> Web Report Designer with a shape report item set to an arrow type. Follow these steps:
+You connect shapes in the {{site.productNameTM}} Web Report Designer with a shape report item set to an arrow type. Follow these steps:
 
 1. From the item panel, drag and drop a shape report item below the previous shape.
    ![Drag and drop shape report item into design area](/static/assets/on-premise/images/report-designer/report-items/shape/ellipse-arrow.png '#width=200px')
@@ -39,7 +39,7 @@ You connect shapes in the Bold Reports<sup>®</sup> Web Report Designer with a s
 
 ## How do I add a rectangle shape for decision points?
 
-You add a decision point in the Bold Reports<sup>®</sup> Web Report Designer with a shape report item set to the `Rectangle` type. Follow these steps:
+You add a decision point in the {{site.productNameTM}} Web Report Designer with a shape report item set to the `Rectangle` type. Follow these steps:
 
 1. From the item panel, drag and drop a shape report item below the arrow shape.
    ![Drag and drop shape report item into design area](/static/assets/on-premise/images/report-designer/report-items/shape/arrow-rectangle.png '#width=200px')
@@ -54,7 +54,7 @@ You add a decision point in the Bold Reports<sup>®</sup> Web Report Designer wi
 
 ## How do I add a curved arrow shape between shapes?
 
-You build a curved connection in the Bold Reports<sup>®</sup> Web Report Designer by combining a line report item with an arrow shape. Follow these steps:
+You build a curved connection in the {{site.productNameTM}} Web Report Designer by combining a line report item with an arrow shape. Follow these steps:
 
 1. From the item panel, drag and drop a line report item below the previous shape.
    ![Drag and drop line report item into design area](/static/assets/on-premise/images/report-designer/report-items/shape/shape-line.png '#width=350px')
@@ -69,7 +69,7 @@ You build a curved connection in the Bold Reports<sup>®</sup> Web Report Design
 
 ## How do I add a report header?
 
-You add a report title in the Bold Reports<sup>®</sup> Web Report Designer by enabling the report header. Follow these steps:
+You add a report title in the {{site.productNameTM}} Web Report Designer by enabling the report header. Follow these steps:
 
 1. Enable the report `Header` to add a title to the report.
    ![Enable header tag](/static/assets/on-premise/images/report-designer/report-items/shape/enable-report-header.png '#width=355px')
@@ -81,13 +81,13 @@ You add a report title in the Bold Reports<sup>®</sup> Web Report Designer by e
 
 ## Final design
 
-The final design of the `Manufacturing Workflow for Tablet PC with SIM and Touch Functionality Options` report in the Bold Reports<sup>®</sup> Web Report Designer looks like the following image.
+The final design of the `Manufacturing Workflow for Tablet PC with SIM and Touch Functionality Options` report in the {{site.productNameTM}} Web Report Designer looks like the following image.
 
 ![Manufacturing Workflow for Tablet PC report design](/static/assets/on-premise/images/report-designer/report-items/shape/final-design.png '#width=350px')
 
 ## Report preview
 
-During the report preview in Bold Reports<sup>®</sup>, the `Manufacturing Workflow for Tablet PC with SIM and Touch Functionality Options` report is displayed as shown in the following image.
+During the report preview in {{site.productNameTM}}, the `Manufacturing Workflow for Tablet PC with SIM and Touch Functionality Options` report is displayed as shown in the following image.
 
 ![Manufacturing Workflow for Tablet PC report preview](/static/assets/on-premise/images/report-designer/report-items/shape/report-preview.png '#width=370px')
 

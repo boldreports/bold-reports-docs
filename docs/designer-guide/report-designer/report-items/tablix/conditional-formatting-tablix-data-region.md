@@ -1,16 +1,16 @@
 ---
-title: Apply Conditional Formatting to a Tablix | Bold Reports
-description: Apply conditional formatting to a tablix data region in Bold Reports Web Report Designer to highlight table rows based on a report parameter value at run time.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Apply Conditional Formatting to a Tablix | {{site.productName}}
+description: Apply conditional formatting to a tablix data region in {{site.productName}} Web Report Designer to highlight table rows based on a report parameter value at run time.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Apply conditional formatting to a tablix in Bold Reports<sup>®</sup>
+# Apply conditional formatting to a tablix in {{site.productNameTM}}
 
-In the Bold Reports<sup>®</sup> Web Report Designer, conditional formatting enhances the visual appearance of the tablix data region in the report design. The following steps show how to configure conditional formatting in a basic tablix report design.
+In the {{site.productNameTM}} Web Report Designer, conditional formatting enhances the visual appearance of the tablix data region in the report design. The following steps show how to configure conditional formatting in a basic tablix report design.
 
 ## How do I create the dataset?
 
-To bind data to the tablix data region in the Bold Reports<sup>®</sup> Web Report Designer, create a dataset in your report. The following query fetches customer details from the `Customers` table in the `NorthWind` database:
+To bind data to the tablix data region in the {{site.productNameTM}} Web Report Designer, create a dataset in your report. The following query fetches customer details from the `Customers` table in the `NorthWind` database:
 
 ```sql
 Select CustomerID, CompanyName, Address, City, PostalCode, Country From Customers
@@ -20,7 +20,7 @@ Select CustomerID, CompanyName, Address, City, PostalCode, Country From Customer
 
 ## How do I create the parameter?
 
-To apply conditional formatting based on a report parameter in the Bold Reports<sup>®</sup> Web Report Designer, create a parameter in your report. Refer to the [Create Parameter](./../../../report-parameters/add/#create-parameter) and [Define Available Value](./../../../report-parameters/define-available-values-for-parameter/#query-values) sections to create and assign a value to the parameter. In this example, you create the `FormattingRow` parameter and assign the `Country` data field as its query value. The following images show these steps.
+To apply conditional formatting based on a report parameter in the {{site.productNameTM}} Web Report Designer, create a parameter in your report. Refer to the [Create Parameter](./../../../report-parameters/add/#create-parameter) and [Define Available Value](./../../../report-parameters/define-available-values-for-parameter/#query-values) sections to create and assign a value to the parameter. In this example, you create the `FormattingRow` parameter and assign the `Country` data field as its query value. The following images show these steps.
 
 ### New parameter creation
 
@@ -42,7 +42,7 @@ The following image shows the parameter in the parameter list.
 
 ## How do I add the table data region?
 
-You design a simple table in the Bold Reports<sup>®</sup> Web Report Designer that contains the following fields from the dataset:
+You design a simple table in the {{site.productNameTM}} Web Report Designer that contains the following fields from the dataset:
 
 * CustomerID
 * CompanyName
@@ -56,7 +56,7 @@ You design a simple table in the Bold Reports<sup>®</sup> Web Report Designer t
 
 ## How do I format the table header?
 
-You improve the tablix design in the Bold Reports<sup>®</sup> Web Report Designer by applying a background color and font style to the table header with the following steps:
+You improve the tablix design in the {{site.productNameTM}} Web Report Designer by applying a background color and font style to the table header with the following steps:
 
 1. Select the first row of the table and click the `Properties` icon in the configuration panel.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/set-cell-properties.png '#width=410px')
@@ -67,7 +67,7 @@ You improve the tablix design in the Bold Reports<sup>®</sup> Web Report Design
 
 ## How do I apply conditional formatting?
 
-You apply conditional formatting in the Bold Reports<sup>®</sup> Web Report Designer by setting an expression on the `BackgroundColor` property. To highlight the table rows that have the `Country` value selected in the parameter drop-down at run time, follow these steps:
+You apply conditional formatting in the {{site.productNameTM}} Web Report Designer by setting an expression on the `BackgroundColor` property. To highlight the table rows that have the `Country` value selected in the parameter drop-down at run time, follow these steps:
 
 1. Select the `Details` Row group in the tablix. The common properties for the selected cells are listed in the properties panel.
    ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/select-details-group.png '#width=410px')
@@ -78,7 +78,7 @@ You apply conditional formatting in the Bold Reports<sup>®</sup> Web Report Des
 
 ## What does the report preview show?
 
-The Bold Reports<sup>®</sup> report preview highlights the rows that contain the selected country name. Select the country in the parameter drop-down and click the `View Report` button.
+The {{site.productNameTM}} report preview highlights the rows that contain the selected country name. Select the country in the parameter drop-down and click the `View Report` button.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/conditional-fomatting-output.png '#width=550px')
 

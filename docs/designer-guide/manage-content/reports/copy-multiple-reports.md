@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Copy Multiple Reports in Report Server | Bold Reports
-description: Copy multiple reports at once in Bold Reports Report Server with multi-select, and send them to other categories, internal or external sites, or tenants.
+title: Copy Multiple Reports in Report Server | {{site.productName}}
+description: Copy multiple reports at once in {{site.productName}} Report Server with multi-select, and send them to other categories, internal or external sites, or tenants.
 platform: report-platform
 documentation: ug
 ---
 
-# Copy Multiple Reports using Multi-Select Option from Bold Reports<sup>®</sup> Report Server
+# Copy Multiple Reports using Multi-Select Option from {{site.productNameTM}} Report Server
 
-You can copy multiple reports at once in Bold Reports<sup>®</sup> On-Premises Edition by selecting them with the multi-select checkboxes.
+You can copy multiple reports at once in {{site.productNameTM}} On-Premises Edition by selecting them with the multi-select checkboxes.
 
 ## How do I copy multiple reports at once?
 
-You copy several reports at once in Bold Reports<sup>®</sup> Report Server by selecting them and using the `Copy` option in the toolbar.
+You copy several reports at once in {{site.productNameTM}} Report Server by selecting them and using the `Copy` option in the toolbar.
 
 1. Select the reports you want to copy by using the multi-select checkboxes.
     > **Note:** Select multiple reports using the checkboxes displayed next to each report. After you select the required reports, the `Copy` option becomes available in the toolbar, so you can copy the selected reports simultaneously.
@@ -39,13 +39,13 @@ You copy several reports at once in Bold Reports<sup>®</sup> Report Server by s
 
     > **Note:** When multiple reports are selected, the `Report Name` field and the `Advanced` option are not available. These options are applicable only when copying a single report.
 
-    > This option is available on Bold Reports<sup>®</sup> On-Premises Edition from version `14.1.12` onwards.
+    > This option is available on {{site.productNameTM}} On-Premises Edition from version `14.1.12` onwards.
 
 ## Frequently asked questions
 
 ### Which version supports copying multiple reports?
 
-Copying multiple reports is available on Bold Reports<sup>®</sup> On-Premises Edition from version `14.1.12` onwards.
+Copying multiple reports is available on {{site.productNameTM}} On-Premises Edition from version `14.1.12` onwards.
 
 ### Can I rename reports when I copy several at once?
 

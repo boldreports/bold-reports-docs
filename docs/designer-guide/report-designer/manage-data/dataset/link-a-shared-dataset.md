@@ -1,15 +1,15 @@
 ---
-title: Link a Shared Dataset in Web Report Designer | Bold Reports
-description: Link a shared dataset published on Bold Reports Report Server to your RDL reports in the Web Report Designer so you can manage the data feed in one place.
+title: Link a Shared Dataset in Web Report Designer | {{site.productName}}
+description: Link a shared dataset published on {{site.productName}} Report Server to your RDL reports in the Web Report Designer so you can manage the data feed in one place.
 ---
 
 # Link a shared dataset
 
-A shared dataset that you create in Bold Reports<sup>®</sup> Report Server can be linked with reports in the Web Report Designer. You link it from the `Data` panel so several reports use the same data feed.
+A shared dataset that you create in {{site.productNameTM}} Report Server can be linked with reports in the Web Report Designer. You link it from the `Data` panel so several reports use the same data feed.
 
 ## How do I link a shared dataset?
 
-You link a shared dataset in the Bold Reports<sup>®</sup> Web Report Designer with the following steps:
+You link a shared dataset in the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Click the `Data` icon in the configuration panel to launch the `Data` configuration.
 
@@ -37,11 +37,11 @@ You link a shared dataset in the Bold Reports<sup>®</sup> Web Report Designer w
 
 ### Can I link more than one shared dataset to a report?
 
-Yes. The Bold Reports<sup>®</sup> Web Report Designer lets you link multiple shared datasets into the report.
+Yes. The {{site.productNameTM}} Web Report Designer lets you link multiple shared datasets into the report.
 
 ### Where do shared datasets come from?
 
-Shared datasets are created in Bold Reports<sup>®</sup> Report Server. The **Shared DataSet** drop-down lists the existing shared datasets in the server.
+Shared datasets are created in {{site.productNameTM}} Report Server. The **Shared DataSet** drop-down lists the existing shared datasets in the server.
 
 ## See also
 

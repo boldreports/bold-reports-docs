@@ -1,17 +1,17 @@
 ---
-title: Add Striplines to Chart Axes in RDL Reports | Bold Reports
-description: Add striplines to a chart axis in the Bold Reports Web Report Designer and set their title, font, color, interval, and width to highlight key values or ranges.
+title: Add Striplines to Chart Axes in RDL Reports | {{site.productName}}
+description: Add striplines to a chart axis in the {{site.productName}} Web Report Designer and set their title, font, color, interval, and width to highlight key values or ranges.
 ---
 
-# Add Chart Striplines in the Bold Reports<sup>®</sup> Web Report Designer
+# Add Chart Striplines in the {{site.productNameTM}} Web Report Designer
 
-Striplines in the Bold Reports<sup>®</sup> Web Report Designer are visual indicators that highlight specific values or ranges on a chart axis. Use them to emphasize important data points, thresholds, or intervals. You customize the appearance of chart striplines in the Properties panel.
+Striplines in the {{site.productNameTM}} Web Report Designer are visual indicators that highlight specific values or ranges on a chart axis. Use them to emphasize important data points, thresholds, or intervals. You customize the appearance of chart striplines in the Properties panel.
 
 ![StripLines](/static/assets/on-premise/images/report-designer/report-items/chart/stripline/striplines-property.png '#width=385px')
 
 ## How do I add, view, edit, or delete a stripline?
 
-You manage chart striplines in the Bold Reports<sup>®</sup> Web Report Designer from the **StripLines** property in the Properties panel.
+You manage chart striplines in the {{site.productNameTM}} Web Report Designer from the **StripLines** property in the Properties panel.
 
 1. To create a stripline, click the `+ Add` button. The total number of striplines appears next to the add button.
 
@@ -35,7 +35,7 @@ The secondary panel then displays the properties of that stripline.
 
 ## Which charts support striplines?
 
-Bold Reports<sup>®</sup> chart striplines are not supported for the Polar and Radar chart types.
+{{site.productNameTM}} chart striplines are not supported for the Polar and Radar chart types.
 
 > **Note**: The **StripLines** property is not supported for Polar and Radar chart types. Also, the applied StripLine properties do not appear in the design view. They are only visible in the report preview.
 
@@ -188,7 +188,7 @@ The preceding properties are configured for StripLine 1. The remaining four stri
 
 ## What does a report with striplines look like?
 
-A Bold Reports<sup>®</sup> chart with striplines shows them only in the report preview. In the following example, striplines on the `Category Axis` represent the weather report and highlight different seasonal periods throughout the year.
+A {{site.productNameTM}} chart with striplines shows them only in the report preview. In the following example, striplines on the `Category Axis` represent the weather report and highlight different seasonal periods throughout the year.
 
 ![Preview Stripline](/static/assets/on-premise/images/report-designer/report-items/chart/stripline/category-axis-stripline.png '#width=385px')
 
@@ -200,7 +200,7 @@ A Bold Reports<sup>®</sup> chart with striplines shows them only in the report 
 
 ### Why do striplines not appear in the design view?
 
-Applied stripline properties do not appear in the design view of the Bold Reports<sup>®</sup> Web Report Designer. They are only visible in the report preview.
+Applied stripline properties do not appear in the design view of the {{site.productNameTM}} Web Report Designer. They are only visible in the report preview.
 
 ### How do I draw a shaded band instead of a single line?
 

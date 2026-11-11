@@ -1,16 +1,16 @@
 ---
-title: Resize Tablix Rows, Columns, and Data Region | Bold Reports
-description: Resize a tablix data region, its columns, and its rows in the Bold Reports Web Report Designer with the resizer, gripper, touch resizer, or properties panel.
-keywords: ejReportDesigner, reportdesigner, table, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Resize Tablix Rows, Columns, and Data Region | {{site.productName}}
+description: Resize a tablix data region, its columns, and its rows in the {{site.productName}} Web Report Designer with the resizer, gripper, touch resizer, or properties panel.
+keywords: ejReportDesigner, reportdesigner, table, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Resize a tablix data region in the Bold Reports<sup>®</sup> Web Report Designer
+# Resize a tablix data region in the {{site.productNameTM}} Web Report Designer
 
-To improve report readability in the Bold Reports<sup>®</sup> Web Report Designer, you can resize the height and width of a specific column, a row, or the whole tablix data region.
+To improve report readability in the {{site.productNameTM}} Web Report Designer, you can resize the height and width of a specific column, a row, or the whole tablix data region.
 
 ## How do I resize the overall data region?
 
-You resize a whole Bold Reports<sup>®</sup> tablix data region with the resizer on the selection line or with the `Height` and `Width` properties in the properties panel.
+You resize a whole {{site.productNameTM}} tablix data region with the resizer on the selection line or with the `Height` and `Width` properties in the properties panel.
 
 ### Resize using resizer
 
@@ -60,7 +60,7 @@ You can set an exact tablix size in the Web Report Designer properties panel.
 
 ## How do I resize a column?
 
-You resize a Bold Reports<sup>®</sup> tablix column with the column gripper, the cell `Width` property, or the touch resizer.
+You resize a {{site.productNameTM}} tablix column with the column gripper, the cell `Width` property, or the touch resizer.
 
 ### Set column width using gripper
 
@@ -92,7 +92,7 @@ Drag the bubble horizontally to adjust the column width.
 
 ## How do I resize a row?
 
-You resize a Bold Reports<sup>®</sup> tablix row with the row gripper, the cell `Height` property, or the touch resizer.
+You resize a {{site.productNameTM}} tablix row with the row gripper, the cell `Height` property, or the touch resizer.
 
 ### Set row height using gripper
 
@@ -126,7 +126,7 @@ Drag the bubble vertically to adjust the row height.
 
 ### How do I resize a tablix proportionally?
 
-In the Bold Reports<sup>®</sup> Web Report Designer, drag the resizer arrow at the `LeftTop`, `RightTop`, `LeftBottom`, or `RightBottom` position of the selected tablix. The data region resizes proportionally in all directions.
+In the {{site.productNameTM}} Web Report Designer, drag the resizer arrow at the `LeftTop`, `RightTop`, `LeftBottom`, or `RightBottom` position of the selected tablix. The data region resizes proportionally in all directions.
 
 ### Can I resize columns on a touch screen?
 

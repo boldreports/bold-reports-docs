@@ -1,20 +1,20 @@
 ---
-title: Bind Analytical Data to a Map in RDL Reports | Bold Reports
-description: Bind analytical data to map shape data in the Bold Reports Web Report Designer by matching fields in Binding Field Pairs so your data displays on the map.
+title: Bind Analytical Data to a Map in RDL Reports | {{site.productName}}
+description: Bind analytical data to map shape data in the {{site.productName}} Web Report Designer by matching fields in Binding Field Pairs so your data displays on the map.
 ---
 
-# Bind data to a map in Bold Reports<sup>®</sup> Web Report Designer
+# Bind data to a map in {{site.productNameTM}} Web Report Designer
 
-To display analytical data on the map surface in the Bold Reports<sup>®</sup> Web Report Designer, you first link the analytical data and the shape data. The shape data is the map itself, and the analytical data is the dataset you created. The analytical data gives meaning to the shape data.
+To display analytical data on the map surface in the {{site.productNameTM}} Web Report Designer, you first link the analytical data and the shape data. The shape data is the map itself, and the analytical data is the dataset you created. The analytical data gives meaning to the shape data.
 
 ## What do I need before binding data?
 
-Before you bind data to a map in the Bold Reports<sup>®</sup> Web Report Designer, create both the shape data and the analytical data in the report. For shape data, choose one of the built-in shapes under the **Shapes** property, for example World Map. For analytical data, embed data from external sources or SQL Server by using the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) option.
+Before you bind data to a map in the {{site.productNameTM}} Web Report Designer, create both the shape data and the analytical data in the report. For shape data, choose one of the built-in shapes under the **Shapes** property, for example World Map. For analytical data, embed data from external sources or SQL Server by using the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) option.
 > The example on this page uses world countries population data.
 
 ## How do I match analytical and shape data?
 
-You match analytical and shape data in the Bold Reports<sup>®</sup> Web Report Designer through the **Binding Field Pairs** panel. Follow these steps:
+You match analytical and shape data in the {{site.productNameTM}} Web Report Designer through the **Binding Field Pairs** panel. Follow these steps:
 
 1. In the properties panel, under the **Basic Settings** category, choose **World Map** in the **Shapes** property and the dataset in the **DataSet** property.
    ![Set shape data and analytical data](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/select-shape-and-dataset.png '#width=385px')
@@ -41,7 +41,7 @@ Repeat these steps to create multiple binding relationships or to edit existing 
 
 ## How do I delete binding expressions?
 
-To delete an existing binding relationship in the Bold Reports<sup>®</sup> map report item, follow these steps:
+To delete an existing binding relationship in the {{site.productNameTM}} map report item, follow these steps:
 
 1. Click the edit icon for the `Binding Data` property under **Basic Settings**. The **Binding Field Pairs** panel lists the available binding relationships.
 2. Click the `Delete` icon in the right corner of the binding expression you want to remove.

@@ -1,18 +1,18 @@
 ---
 layout: post
-title: Install and Uninstall Bold Data Hub in IIS | Bold Reports
-description: Install Bold Data Hub with Bold Reports or later with the BoldETL.msi file, and uninstall it cleanly by running the registry uninstall string as admin.
+title: Install and Uninstall Bold Data Hub in IIS | {{site.productName}}
+description: Install Bold Data Hub with {{site.productName}} or later with the BoldETL.msi file, and uninstall it cleanly by running the registry uninstall string as admin.
 platform: bold-Reports
 documentation: ug
 ---
 
 # Install Bold Data Hub
 
-Bold Data Hub is an optional application you can install with Bold Reports<sup>®</sup>, add later with the ``BoldETL.msi`` file, or remove with its registry uninstall string.
+Bold Data Hub is an optional application you can install with {{site.productNameTM}}, add later with the ``BoldETL.msi`` file, or remove with its registry uninstall string.
 
-## How do I make Bold Data Hub optional during installation of Bold Reports<sup>®</sup>?
+## How do I make Bold Data Hub optional during installation of {{site.productNameTM}}?
 
-The Bold Reports<sup>®</sup> installer lets you install the Bold Data Hub application at the same time as Bold Reports<sup>®</sup>, or skip it and add it later.
+The {{site.productNameTM}} installer lets you install the Bold Data Hub application at the same time as {{site.productNameTM}}, or skip it and add it later.
 
 1. During installation, check the box labeled **Install Data Application** in the installer wizard to include the Bold Data Hub application.
    The following screenshot shows the **Install Data Application** checkbox in the installer wizard.
@@ -20,15 +20,15 @@ The Bold Reports<sup>®</sup> installer lets you install the Bold Data Hub appli
 
 2. To skip the Bold Data Hub application during configuration, uncheck the same checkbox.
 
-3. To install the Bold Data Hub application after the initial setup, use the ``BoldETL.msi`` file in the Bold Reports<sup>®</sup> installation directory.
+3. To install the Bold Data Hub application after the initial setup, use the ``BoldETL.msi`` file in the {{site.productNameTM}} installation directory.
 
 4. To install the Data Hub service and application pool correctly, open the command prompt in administrative mode and run the BoldETL.msi file.
   
     Example,
-    Bold Reports<sup>®</sup> & Bold Reports<sup>®</sup> Locations:
+    {{site.productNameTM}} & {{site.productNameTM}} Locations:
     ```yaml
-    “C:\Program Files (x86) \Bold Reports\Enterprise Reporting\BoldETL>BoldETL.msi”
-    “C:\Program Files (x86) \Bold Reports Enterprise Edition\BoldETL>BoldETL.msi”
+    “C:\Program Files (x86) \{{site.productName}}\Enterprise Reporting\BoldETL>BoldETL.msi”
+    “C:\Program Files (x86) \{{site.productName}} Enterprise Edition\BoldETL>BoldETL.msi”
     ```
 ----
 
@@ -38,7 +38,7 @@ Installing the Bold Data Hub service by double-clicking the MSI file, instead of
 
 ----
 
-## How do I uninstall Bold Data Hub in Bold Reports<sup>®</sup>?
+## How do I uninstall Bold Data Hub in {{site.productNameTM}}?
 
 You uninstall the Bold Data Hub application by running its uninstall string from the Windows registry in an administrative command prompt.
 
@@ -66,9 +66,9 @@ You uninstall the Bold Data Hub application by running its uninstall string from
 
 ## Frequently asked questions
 
-### Can I install Bold Data Hub after Bold Reports<sup>®</sup> is already installed?
+### Can I install Bold Data Hub after {{site.productNameTM}} is already installed?
 
-Yes. Run the ``BoldETL.msi`` file from the Bold Reports<sup>®</sup> installation directory in a command prompt opened in administrative mode.
+Yes. Run the ``BoldETL.msi`` file from the {{site.productNameTM}} installation directory in a command prompt opened in administrative mode.
 
 ### Why should I not uninstall Bold Data Hub from the Control Panel?
 

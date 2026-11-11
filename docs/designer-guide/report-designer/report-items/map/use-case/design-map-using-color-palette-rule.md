@@ -1,15 +1,15 @@
 ---
-title: Design a Map Report with a Color Palette Rule | Bold Reports
-description: Design a map in Bold Reports Web Report Designer with a color palette rule and optimal distribution to display US presidential election results by state.
+title: Design a Map Report with a Color Palette Rule | {{site.productName}}
+description: Design a map in {{site.productName}} Web Report Designer with a color palette rule and optimal distribution to display US presidential election results by state.
 ---
 
-# Design a map using a color palette rule in Bold Reports<sup>®</sup>
+# Design a map using a color palette rule in {{site.productNameTM}}
 
-You can design a map in the Bold Reports<sup>®</sup> Web Report Designer with a color palette rule and optimal distribution to display US presidential election results. Follow the steps in each section below.
+You can design a map in the {{site.productNameTM}} Web Report Designer with a color palette rule and optimal distribution to display US presidential election results. Follow the steps in each section below.
 
 ## How do I create the data set?
 
-You create the data set for the map in the Bold Reports<sup>®</sup> Web Report Designer from a JSON file. Follow these steps:
+You create the data set for the map in the {{site.productNameTM}} Web Report Designer from a JSON file. Follow these steps:
 
 1. In the data panel, click `New Data`.
    ![New data](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/new-data.png '#width=350px')
@@ -31,7 +31,7 @@ You create the data set for the map in the Bold Reports<sup>®</sup> Web Report 
 
 ## How do I add a map to the report design?
 
-The `Map` report item in the Bold Reports<sup>®</sup> Web Report Designer is listed under the `Data Regions` category in the item panel.
+The `Map` report item in the {{site.productNameTM}} Web Report Designer is listed under the `Data Regions` category in the item panel.
 
 ![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/map-listed-in-item-panel.png '#width=185px')
 
@@ -47,7 +47,7 @@ The map item is rendered in the design area, and the map properties are listed i
 
 ## How do I bind analytical and shape data?
 
-You bind analytical and shape data in the Bold Reports<sup>®</sup> Web Report Designer from the **Basic Settings** category of the properties panel. Follow these steps:
+You bind analytical and shape data in the {{site.productNameTM}} Web Report Designer from the **Basic Settings** category of the properties panel. Follow these steps:
 
 1. Under the **Basic Settings** category, set `USA` in the `Shapes` property and choose the data set in the **DataSet** property.
 
@@ -66,33 +66,33 @@ You bind analytical and shape data in the Bold Reports<sup>®</sup> Web Report D
 
 ## How do I customize the map appearance?
 
-You customize the map name, title, legend, color settings, and other properties in the Bold Reports<sup>®</sup> Web Report Designer properties panel.
+You customize the map name, title, legend, color settings, and other properties in the {{site.productNameTM}} Web Report Designer properties panel.
 
 ### Name
 
-The **Name** property in the Bold Reports<sup>®</sup> Web Report Designer gives a unique name to a specific map report item.
+The **Name** property in the {{site.productNameTM}} Web Report Designer gives a unique name to a specific map report item.
 
 ![Set name](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/set-name.png '#width=385px')
 
 ### Appearance
 
-Under the **Appearance** category in the Bold Reports<sup>®</sup> Web Report Designer, set the border width and color properties as required.
+Under the **Appearance** category in the {{site.productNameTM}} Web Report Designer, set the border width and color properties as required.
 
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/border.png '#width=385px')
 
 ### Title
 
-Under the [Title](./../../../../report-items/map/properties/#title) category in the Bold Reports<sup>®</sup> Web Report Designer, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
+Under the [Title](./../../../../report-items/map/properties/#title) category in the {{site.productNameTM}} Web Report Designer, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
 ![Title text](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/title.png '#width=350px')
 
 ### Legend
 
-Under the [Legend](./../../../../report-items/map/properties/#legend) category in the Bold Reports<sup>®</sup> Web Report Designer, enable the **Enable Legend** check box. Set the background color as **White** and the position as **BottomCenter**. Remove the title text and set the legend mode as **Default**.
+Under the [Legend](./../../../../report-items/map/properties/#legend) category in the {{site.productNameTM}} Web Report Designer, enable the **Enable Legend** check box. Set the background color as **White** and the position as **BottomCenter**. Remove the title text and set the legend mode as **Default**.
 ![Legend](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/legend.png '#width=385px')
 
 ### Shape settings
 
-Under the [Shape Settings](./../../../../report-items/map/shape-settings/) in the Bold Reports<sup>®</sup> Web Report Designer, set the following values:
+Under the [Shape Settings](./../../../../report-items/map/shape-settings/) in the {{site.productNameTM}} Web Report Designer, set the following values:
 
 * Border color as `#676767` and width as `0.667px`.
 * Label text as `=Fields!State.Value`.
@@ -102,7 +102,7 @@ Under the [Shape Settings](./../../../../report-items/map/shape-settings/) in th
 
 ### Shape color rule
 
-Under the [Shape color rule](./../../../../report-items/map/shape-color-rule/) category in the Bold Reports<sup>®</sup> Web Report Designer, enable the **Enable Color Rule** check box. Then, set the following values:
+Under the [Shape color rule](./../../../../report-items/map/shape-color-rule/) category in the {{site.productNameTM}} Web Report Designer, enable the **Enable Color Rule** check box. Then, set the following values:
 
 * Choose the `Candidate` name in Data Value.
 * Choose **Color Palette** as the Type.
@@ -122,7 +122,7 @@ To see the actual data on the map surface, preview the report. Before that, resi
 
 ### Preview report
 
-You can preview the report at design time using the built-in Bold Reports<sup>®</sup> Viewer to make sure the report design is as expected. The following snapshot shows the color distribution applied based on the candidate who won in each state.
+You can preview the report at design time using the built-in {{site.productNameTM}} Viewer to make sure the report design is as expected. The following snapshot shows the color distribution applied based on the candidate who won in each state.
 
 ![Report preview](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/preview.png)
 

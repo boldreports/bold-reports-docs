@@ -1,16 +1,16 @@
 ---
-title: Design an SSRS RDL Report with Barcodes | Bold Reports
-description: Design an SSRS RDL product details report with a barcode inside a table report item in the Bold Reports Web Report Designer, from dataset to preview.
-keywords: ejReportDesigner, reportdesigner, barcode, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, custom item
+title: Design an SSRS RDL Report with Barcodes | {{site.productName}}
+description: Design an SSRS RDL product details report with a barcode inside a table report item in the {{site.productName}} Web Report Designer, from dataset to preview.
+keywords: ejReportDesigner, reportdesigner, barcode, reportitem, {{site.productName}}, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting, custom item
 ---
 
-# Design an SSRS RDL report using barcode in Bold Reports<sup>®</sup>
+# Design an SSRS RDL report using barcode in {{site.productNameTM}}
 
-You design a `Product Details` report with barcodes in the Bold Reports<sup>®</sup> Web Report Designer by creating a dataset and adding a barcode to an SSRS table report item.
+You design a `Product Details` report with barcodes in the {{site.productNameTM}} Web Report Designer by creating a dataset and adding a barcode to an SSRS table report item.
 
 ## How do I create the dataset?
 
-The `Product Details` report in the Bold Reports<sup>®</sup> Web Report Designer needs a dataset bound to the table data region to present data in table format. This example uses the following dataset query.
+The `Product Details` report in the {{site.productNameTM}} Web Report Designer needs a dataset bound to the table data region to present data in table format. This example uses the following dataset query.
 
 ```sql
 SELECT TOP 100 [Order Details].ProductID, Products.ProductName, [Order Details].Quantity, [Order Details].UnitPrice, [Order Details].Discount
@@ -45,7 +45,7 @@ You configure the table by adding column headers and assigning the product detai
 
 ## How do I add the barcode report item?
 
-The barcode report item in Bold Reports<sup>®</sup> presents the product ID in the empty `Product ID` cell of the table design above. Add it inside a rectangle with the following steps.
+The barcode report item in {{site.productNameTM}} presents the product ID in the empty `Product ID` cell of the table design above. Add it inside a rectangle with the following steps.
 
 1. Drag a rectangle item and drop it into the `Product ID` column cell.
    ![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/add-rectangle-in-table.png '#width=410px')
@@ -98,13 +98,13 @@ You add a report title by enabling the report `Header` in the Web Report Designe
 
 ## What does the final design look like?
 
-The final design of the Bold Reports<sup>®</sup> `Product Details` report looks like the following image.
+The final design of the {{site.productNameTM}} `Product Details` report looks like the following image.
 
 ![Product Details report design](/static/assets/on-premise/images/report-designer/report-items/barcode/product-details-final-design.png '#width=395px')
 
 ## What does the report preview look like?
 
-On report preview, the Bold Reports<sup>®</sup> Report Viewer displays the product details report as shown below.
+On report preview, the {{site.productNameTM}} Report Viewer displays the product details report as shown below.
 
 ![Product Details report preview](/static/assets/on-premise/images/report-designer/report-items/barcode/report-preview.png '#width=425px')
 
@@ -114,7 +114,7 @@ On report preview, the Bold Reports<sup>®</sup> Report Viewer displays the prod
 
 ### Why place the barcode inside a rectangle?
 
-If you add the barcode directly into a table cell in the Bold Reports<sup>®</sup> Web Report Designer, the report item fills the whole cell. The rectangle acts as a container.
+If you add the barcode directly into a table cell in the {{site.productNameTM}} Web Report Designer, the report item fills the whole cell. The rectangle acts as a container.
 
 ### Which property sets the value that the barcode encodes?
 

@@ -1,16 +1,16 @@
 ---
-title: Add HTML Formatted Text to an RDL Report | Bold Reports
-description: Insert HTML-formatted text from a dataset field or expression into an RDL report with the Bold Reports Web Report Designer textbox and its Markup Type property.
-keywords: ejReportDesigner, reportdesigner, textbox, bold reports, bold reporting, markup type, hmtl-formatted, plain-text
+title: Add HTML Formatted Text to an RDL Report | {{site.productName}}
+description: Insert HTML-formatted text from a dataset field or expression into an RDL report with the {{site.productName}} Web Report Designer textbox and its Markup Type property.
+keywords: ejReportDesigner, reportdesigner, textbox, {{site.productName}}, bold reporting, markup type, hmtl-formatted, plain-text
 ---
 
-# Add HTML to a report with the Bold Reports<sup>®</sup> textbox
+# Add HTML to a report with the {{site.productNameTM}} textbox
 
-The text box report item in the Bold Reports<sup>®</sup> Web Report Designer lets you insert HTML-formatted text into a report. The text can be any simple or complex expression, or a value retrieved from a field in your dataset.
+The text box report item in the {{site.productNameTM}} Web Report Designer lets you insert HTML-formatted text into a report. The text can be any simple or complex expression, or a value retrieved from a field in your dataset.
 
 ## How do I format plain text as HTML?
 
-To render text as HTML in the Bold Reports<sup>®</sup> Web Report Designer, set the textbox `Markup Type` property to `HTML`. Follow these steps:
+To render text as HTML in the {{site.productNameTM}} Web Report Designer, set the textbox `Markup Type` property to `HTML`. Follow these steps:
 
 1. Drag and drop a textbox report item onto the design surface.
 
@@ -32,7 +32,7 @@ On report preview, the text is rendered as HTML, as shown in the following image
 
 ## Which HTML tags and CSS attributes are supported?
 
-The Bold Reports<sup>®</sup> textbox ignores invalid HTML markup tags and cascading style sheet attributes and renders them as plain text. The following HTML tags and cascading style sheet attributes render as HTML when defined with the HTML markup type:
+The {{site.productNameTM}} textbox ignores invalid HTML markup tags and cascading style sheet attributes and renders them as plain text. The following HTML tags and cascading style sheet attributes render as HTML when defined with the HTML markup type:
 
 <ul>
   <li><p>Hyperlinks: &lt;A HREF&gt;</p></li>
@@ -55,7 +55,7 @@ Download the [HTML in a report design (RDL)](https://github.com/boldreports/reso
 
 ### What happens to invalid HTML tags in a textbox?
 
-The Bold Reports<sup>®</sup> textbox ignores invalid HTML markup tags and cascading style sheet attributes and renders them as plain text.
+The {{site.productNameTM}} textbox ignores invalid HTML markup tags and cascading style sheet attributes and renders them as plain text.
 
 ### Can a dataset field contain HTML?
 

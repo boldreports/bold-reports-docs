@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Move, Copy, or Clone Reports in Report Server | Bold Reports
-description: Move, copy, or clone reports between categories in Bold Reports Report Server, copy them to other sites or tenants, and change datasets with advanced options.
+title: Move, Copy, or Clone Reports in Report Server | {{site.productName}}
+description: Move, copy, or clone reports between categories in {{site.productName}} Report Server, copy them to other sites or tenants, and change datasets with advanced options.
 platform: report-platform
 documentation: ug
 ---
 
-# Move, copy and clone reports in Bold Reports<sup>®</sup> Report Server
+# Move, copy and clone reports in {{site.productNameTM}} Report Server
 
-In Bold Reports<sup>®</sup> On-Premises Edition, you can move, copy, and clone reports from one category to another.
+In {{site.productNameTM}} On-Premises Edition, you can move, copy, and clone reports from one category to another.
 
-> **Note:** Starting v6.1, Bold Reports<sup>®</sup> plans to deprecate the feature of `cloning reports`. For more information, see [Breaking changes from v6.x](#breaking-changes-from-v6x).
+> **Note:** Starting v6.1, {{site.productNameTM}} plans to deprecate the feature of `cloning reports`. For more information, see [Breaking changes from v6.x](#breaking-changes-from-v6x).
 
 ## How do I move a report?
 
@@ -52,7 +52,7 @@ You copy a report to another category, site, or tenant in Report Server with the
 
 ## Breaking changes from v6.x
 
-Bold Reports<sup>®</sup> Report Server plans to deprecate `Cloning reports` and hides the `Clone` option by default.
+{{site.productNameTM}} Report Server plans to deprecate `Cloning reports` and hides the `Clone` option by default.
 
 * `Cloning reports` is planned for deprecation.
 

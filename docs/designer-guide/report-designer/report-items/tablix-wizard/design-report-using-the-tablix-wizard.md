@@ -1,14 +1,14 @@
 ---
-title: Design a Matrix Report with the Tablix Wizard | Bold Reports
-description: Design an SSRS matrix report with the tablix wizard in Bold Reports Web Report Designer to show annual sales by country and bank, then format and preview it.
+title: Design a Matrix Report with the Tablix Wizard | {{site.productName}}
+description: Design an SSRS matrix report with the tablix wizard in {{site.productName}} Web Report Designer to show annual sales by country and bank, then format and preview it.
 ---
-# Design an SSRS matrix report using the Tablix Wizard in Bold Reports<sup>®</sup>
+# Design an SSRS matrix report using the Tablix Wizard in {{site.productNameTM}}
 
-To design an Annual Sales Report by Country and Bank in the Bold Reports<sup>®</sup> Web Report Designer, use the Tablix Wizard. You create a dataset, build the matrix in the wizard, format it, and preview it.
+To design an Annual Sales Report by Country and Bank in the {{site.productNameTM}} Web Report Designer, use the Tablix Wizard. You create a dataset, build the matrix in the wizard, format it, and preview it.
 
 ## How do I create the dataset?
 
-To present data with the Bold Reports<sup>®</sup> tablix wizard, create a dataset and bind the required data within the tablix wizard. This design example uses the following dataset query for dataset creation:
+To present data with the {{site.productNameTM}} tablix wizard, create a dataset and bind the required data within the tablix wizard. This design example uses the following dataset query for dataset creation:
 
 ```sql
 SELECT [Sales].[vStoreWithDemographics].[CustomerID],
@@ -45,7 +45,7 @@ SELECT [Sales].[vStoreWithDemographics].[CustomerID],
 
 ## How do I add a matrix using the tablix wizard?
 
-You add a matrix in the Bold Reports<sup>®</sup> Web Report Designer by dropping the tablix wizard into the design area and assigning values, columns, and rows.
+You add a matrix in the {{site.productNameTM}} Web Report Designer by dropping the tablix wizard into the design area and assigning values, columns, and rows.
 
 1. Find the tablix wizard in the item panel under the `Data Regions` category.
    ![Tablix Wizard listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/item-panel-view.png '#width=195px')
@@ -73,7 +73,7 @@ You add a matrix in the Bold Reports<sup>®</sup> Web Report Designer by droppin
 
 ## How do I format the matrix design?
 
-You format the matrix in the Bold Reports<sup>®</sup> Web Report Designer by adding a report header and updating cell styles. In the following design, the report header has been added, and the background color and font styles in the matrix cells have been updated to enhance the report design.
+You format the matrix in the {{site.productNameTM}} Web Report Designer by adding a report header and updating cell styles. In the following design, the report header has been added, and the background color and font styles in the matrix cells have been updated to enhance the report design.
 
 ![Formated Tablix Wizard](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/format-design.png '#width=410px')
 
@@ -81,7 +81,7 @@ You format the matrix in the Bold Reports<sup>®</sup> Web Report Designer by ad
 
 ## What does the report preview show?
 
-The Bold Reports<sup>®</sup> report preview displays the Annual Sales Report, as shown in the following image.
+The {{site.productNameTM}} report preview displays the Annual Sales Report, as shown in the following image.
 ![Matrix overall design](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/matrix-design-preview.png)
 
 > Download the [tablix wizard matrix report design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix-wizard/design-ssrs-matrix-report-using-tablix-wizard.rdl).

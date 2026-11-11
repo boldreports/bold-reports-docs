@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Connect OpenAPI 3.x Sources to Bold Data Hub | Bold Reports
-description: Connect OpenAPI 3.x documents to Bold Data Hub in Bold Reports. Review supported features, set the YAML URL or path, create a pipeline, and schedule refresh.
+title: Connect OpenAPI 3.x Sources to Bold Data Hub | {{site.productName}}
+description: Connect OpenAPI 3.x documents to Bold Data Hub in {{site.productName}}. Review supported features, set the YAML URL or path, create a pipeline, and schedule refresh.
 platform: Report-platform
 documentation: ug
 
@@ -9,7 +9,7 @@ documentation: ug
 
 # Connect OpenAPI with Bold Data Hub
 
-The Bold Data Hub ``OpenAPI`` connector fetches data from ``OpenAPI`` ``3.x`` documents and loads it into Bold Reports<sup>®</sup>.
+The Bold Data Hub ``OpenAPI`` connector fetches data from ``OpenAPI`` ``3.x`` documents and loads it into {{site.productNameTM}}.
 
 ## Which OpenAPI features are supported?
 
@@ -88,7 +88,7 @@ You schedule the OpenAPI pipeline in Bold Data Hub from the schedules tab, or yo
 
     ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
-4. Click **Logs** to see whether the run is completed and the data source is created in Bold Reports<sup>®</sup>.
+4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
     ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 

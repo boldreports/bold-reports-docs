@@ -1,16 +1,16 @@
 ---
-title: Add a Line with Markers Chart in RDL Reports | Bold Reports
-description: Add a line with markers chart to an RDL report in the Bold Reports Web Report Designer, bind JSON inline data, and format its legend, series, and axes.
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
+title: Add a Line with Markers Chart in RDL Reports | {{site.productName}}
+description: Add a line with markers chart to an RDL report in the {{site.productName}} Web Report Designer, bind JSON inline data, and format its legend, series, and axes.
+keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, {{site.productName}}, bold reporting
 ---
 
-# Add a Line with Markers Chart in the Bold Reports<sup>®</sup> Web Report Designer
+# Add a Line with Markers Chart in the {{site.productNameTM}} Web Report Designer
 
-You add a **Line with Markers Chart** to a report in the Bold Reports<sup>®</sup> Web Report Designer by dragging it from the item panel. Use it to show trends over a time period, with data points connected by straight lines with markers.
+You add a **Line with Markers Chart** to a report in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Use it to show trends over a time period, with data points connected by straight lines with markers.
 
 ## How do I add a line with markers chart to the report?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the line with markers chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the line with markers chart under the `Distribution` category in the item panel.
 
 Drag and drop the line with markers chart from the item panel into the design area.
 
@@ -22,7 +22,7 @@ The line with markers chart renders in the design area, and the properties panel
 
 ## How do I create data for the line with markers chart?
 
-To present data in a Bold Reports<sup>®</sup> line with markers chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
+To present data in a {{site.productNameTM}} line with markers chart, create a dataset and bind data to the chart data region. This example uses the following JSON data to create the dataset.
 
 ```json
 [
@@ -57,7 +57,7 @@ To present data in a Bold Reports<sup>®</sup> line with markers chart, create a
 
 ## How do I assign data to the line with markers chart?
 
-The Bold Reports<sup>®</sup> **Line with Markers Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension onto the `Row(s)` section.
+The {{site.productNameTM}} **Line with Markers Chart** needs a minimum of 1 value element and 1 column element to render. Drop the measure or expression field you want to analyze into the `Y Value(s)` section. Drop the dimension that categorizes the measure into the `Column` section. To categorize by a series, also drop the respective dimension onto the `Row(s)` section.
 
 To configure data in a line with markers chart, follow these steps:
 
@@ -121,7 +121,7 @@ To configure data in a line with markers chart, follow these steps:
 
 ## How do I format the line with markers chart?
 
-You format a line with markers chart in the Bold Reports<sup>®</sup> Web Report Designer through the settings in the `Properties` tab.
+You format a line with markers chart in the {{site.productNameTM}} Web Report Designer through the settings in the `Properties` tab.
 
 To format a line with markers chart, follow these steps:
 
@@ -321,7 +321,7 @@ The `Custom Style` property enables external CSS for styling report items, givin
 
 ## How do I preview the line with markers chart report?
 
-You preview the line with markers chart report with the **Preview** button in the Bold Reports<sup>®</sup> Web Report Designer.
+You preview the line with markers chart report with the **Preview** button in the {{site.productNameTM}} Web Report Designer.
 
 1. Click the **Preview** button in the top-right corner of the report header.
 
@@ -337,7 +337,7 @@ You preview the line with markers chart report with the **Preview** button in th
 
 ### Where is the line with markers chart in the item panel?
 
-The Bold Reports<sup>®</sup> Web Report Designer lists the line with markers chart under the `Distribution` category in the item panel.
+The {{site.productNameTM}} Web Report Designer lists the line with markers chart under the `Distribution` category in the item panel.
 
 ### How is it different from a line chart?
 

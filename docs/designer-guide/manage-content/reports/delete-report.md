@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Delete Reports from the Report Server | Bold Reports
-description: Delete a single report, several reports, or all sample reports and their category from the Bold Reports Report Server. Scheduled reports cannot be deleted.
+title: Delete Reports from the Report Server | {{site.productName}}
+description: Delete a single report, several reports, or all sample reports and their category from the {{site.productName}} Report Server. Scheduled reports cannot be deleted.
 platform: report-platform
 documentation: ug
 ---
 
-# Delete reports from Bold Reports<sup>®</sup> Report Server
+# Delete reports from {{site.productNameTM}} Report Server
 
-You can delete reports individually or delete multiple reports from Bold Reports<sup>®</sup> On-Premises Edition. You can also delete reports from the Report Server when they are no longer required.
+You can delete reports individually or delete multiple reports from {{site.productNameTM}} On-Premises Edition. You can also delete reports from the Report Server when they are no longer required.
 
 ## How do I delete a report?
 
@@ -19,7 +19,7 @@ To delete a report from Report Server, click the **Delete** option in the report
 
 ## Delete All Sample Reports
 
-You can delete all Bold Reports<sup>®</sup> sample reports at once by removing their category.
+You can delete all {{site.productNameTM}} sample reports at once by removing their category.
 
 Click the **Delete** option in the context menu to delete all sample reports as well as the sample category.
 ![Delete All Sample Reports](/static/assets/on-premise/images/manage-content/manage-reports/delete-all-sample-reports.png)
@@ -28,7 +28,7 @@ Click the **Delete** option in the context menu to delete all sample reports as 
 
 ## REST API Reference
 
-The following table lists the available REST APIs related to deleting reports in Bold Reports<sup>®</sup> On-Premises Edition.
+The following table lists the available REST APIs related to deleting reports in {{site.productNameTM}} On-Premises Edition.
 
 <table>
    <tr>
