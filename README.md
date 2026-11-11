@@ -56,7 +56,7 @@ You also need internet access to `registry.npmjs.org` for the first install. All
 | --- | --- |
 | `npm install` | Installs the dependencies. |
 | `npm run serve` (or `npx gulp serve`) | Builds the table of contents and starts the Gatsby development server. |
-| `npm run build` | Runs `gulp production-build` and writes the static site to `public/`. |
+| `npm run build` | Runs `gulp production-build` and writes the static site to `public/`, including `public/sitemap.xml`. |
 | `npm run preview` | Serves the existing `public/` build at `http://localhost:9000` with the URL prefix, so you can check the production build. Run `npm run build` first. |
 | `npm run build-preview` | Runs the production build, then serves it for preview. |
 | `npm test` | Runs all content checks. See [Run the tests](#run-the-tests). |
@@ -87,13 +87,51 @@ If the spelling or file name check reports a correct technical term, add the ter
 
 ### Site URL prefix
 
-The production build is prepared to be served from the path in `siteLink` in `config.json` (`/enterprise-reporting` by default). To serve it from a different path, pass the prefix to the build.
+The URL prefix is the folder part of the address where the site is hosted. The production build adds this prefix to every page link, image path, and script path, so the site works only when it is hosted at that path.
+
+#### Where to set it
+
+Set it in one place: `siteLink` in `config.json`. The prefix is the path part of that address (everything after the domain). The same `siteLink` is also used for the URLs in `sitemap.xml`.
+
+| `siteLink` in `config.json` | Prefix | Page address after the production build |
+| --- | --- | --- |
+| `https://help.boldreports.com/enterprise-reporting` (default) | `/enterprise-reporting` | `https://help.boldreports.com/enterprise-reporting/designer-guide/` |
+| `https://docs.example.com/reports` | `/reports` | `https://docs.example.com/reports/designer-guide/` |
+| `https://docs.example.com` | none (site is at the root) | `https://docs.example.com/designer-guide/` |
+
+#### Example: host the site at a different path
+
+To host the site at `https://docs.example.com/reports`, follow these steps.
+
+1. Open `config.json` and change `siteLink`.
+
+    ```json
+    "siteLink": "https://docs.example.com/reports"
+    ```
+
+2. Run the production build.
+
+    ```bash
+    npm run build
+    ```
+
+3. Upload the contents of `public/` to the `reports` folder on your web server, so that `public/index.html` is available at `https://docs.example.com/reports/index.html`.
+
+#### Change the prefix for one build only
+
+To build with a different prefix without editing `config.json`, pass `--prefix`.
 
 ```bash
-npx gulp production-build --prefix=/docs
+npm run build -- --prefix=/docs
 ```
 
-The default prefix is the path part of `siteLink` in `config.json`. The development server always serves the site from the root path.
+The pages are then built for `/docs`, for example `https://docs.example.com/docs/designer-guide/`. The sitemap still uses `siteLink`, so change `siteLink` instead if the sitemap must match.
+
+#### Check the result
+
+* **Development server (`npm run serve`):** the prefix is not used. Pages open at `http://localhost:8000/designer-guide/`.
+* **Production preview (`npm run preview`):** the prefix is used. Pages open at `http://localhost:9000/enterprise-reporting/designer-guide/`. If you set a different prefix, replace `/enterprise-reporting` with it.
+* **Blank page or missing images after hosting:** the folder on the web server does not match the prefix. Make the folder name and the prefix the same, or build again with the correct `siteLink`.
 
 ### Troubleshooting
 
@@ -150,7 +188,7 @@ The following items are generated. They are ignored by Git and must not be edite
 | `.cache/`, `public/` | Gatsby |
 | `node_modules/`, `package-lock.json` | `npm install` |
 | `cireports/` | `npm test` |
-| `sitemap.xml` | `gulp sitemap` |
+| `sitemap.xml`, `public/sitemap.xml` | `gulp sitemap` (the production build also copies it to `public/`) |
 
 ### gulp task files
 

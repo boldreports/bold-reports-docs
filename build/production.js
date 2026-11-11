@@ -10,4 +10,7 @@ gulp.task('production-build', async () => {
   {
      shelljs.exit(1);
   }
+  // Generate the sitemap and place it in the public folder so it is hosted with the site.
+  await runSequence('sitemap');
+  shelljs.cp('-f', 'sitemap.xml', 'public/sitemap.xml');
 });
