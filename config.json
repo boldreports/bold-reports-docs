@@ -1,0 +1,27 @@
+{
+    "branch": "development",
+    "siteVersion": "2.3.26",
+    "umsVersion": "2.3.26",
+    "reportserviceurl": "https://adhoc.boldreports.com/services/",
+    "githubserviceloc": "https://github.com/boldreports/demo-services/",
+    "additionalInfo": {
+        "header": "Enterprise",
+        "homePage": {
+            "name": "Overview",
+            "fileName": "overview"
+        },
+        "url": {
+            "freeTrial": "https://app.boldid.net/register/reports/enterprise?evaluation=v2",
+            "scheduleFreeDemo": "https://www.boldreports.com/schedule-free-demo",
+            "suggestAFeature": "https://www.boldreports.com/feedback",
+            "blog": "https://boldreports.com/blog/",
+            "support": "https://support.boldreports.com/",
+            "demos": "https://adhoc.boldreports.com"
+        },
+        "pdf": {
+            "tocLevel": 1,
+            "date": "September 2,2020"
+        }
+    },
+    "pdfPath": "https://help.boldreports.com/enterprise-reporting/boldreports-enterprise-reporting.zip"
+}

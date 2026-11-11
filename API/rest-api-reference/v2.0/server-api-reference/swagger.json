@@ -1,0 +1,717 @@
+﻿{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API Reference",
+    "description": {
+      "$ref": "./../../common/introduction.md"
+    },
+    "version": "2.0"
+  },
+  "servers": [
+    {
+      "url": "Self-Hosted Server: https://{yourdomain}/reporting/api/site/{tenant-name}"
+    }
+  ],
+  "security": [
+    {
+      "bearer <token>": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Access Token Authentication",
+      "description": "When you sign in to the Bold Reports On-Premise, an authentication token is provided that should be attached in the request header(Authorization) for all subsequent API calls to authenticate the requests.\n"
+    },
+    {
+      "name": "Groups",
+      "description": "Access the appropriate endpoint below to add users to a specific group in Bold Reports On-Premise.\n"
+    },
+  	{
+      "name": "Items",
+      "description": "Access the provided endpoint to perform actions such as copying a specific item within Bold Reports On-Premise.\n"
+    },
+    {
+      "name": "Permission",
+      "description": "To create a particular permission in Bold Reports On-Premise, use the appropriate endpoints listed below.\n"
+    }
+	],
+  "paths": {
+    "/token": {
+      "post": {
+        "tags": [
+          "Access Token Authentication"
+        ],
+        "summary": "Authenticate User",
+        "description": "Authenticate with a user password, OAuth authentication, or Embed Secret authentication.",
+        "operationId": "PasswordAuthentication",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "oneOf": [
+                  { "$ref": "#/components/schemas/PasswordAuth" },
+                  { "$ref": "#/components/schemas/OAuthGrant" },
+                  { "$ref": "#/components/schemas/EmbedSecretGrant" }
+                ]
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "User logged in successfully.",
+            "content": {
+            "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Response"
+            }
+          }
+        }
+        },
+          "400": {
+            "description": "Email ID is empty.",
+            "content": {}
+          },
+          "401": {
+            "description": "Invalid username or password",
+            "content": {}
+          },
+          "404": {
+            "description": "User details are not found",
+            "content": {}
+          },
+          "405": {
+            "description": "Request type was not POST",
+            "content": {}
+          }
+        }
+      }
+    },
+    "/v2.0/report/{reportId}/copy": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary":"Copy report",
+        "description":"Users who have access to the report, can copy the report by providing respective report details in the request body.",
+        "operationId":"Items_CopyReport",
+        "parameters": [
+          {
+            "name": "reportId",
+            "in": "path",
+            "description": "ID of the report",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "format": "guid",
+              "x-nullable": false
+            }
+          }       
+        ],
+        "requestBody": {
+          "description": "Details of the report passed will be copied.",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApiCopyReport"
+              }
+            }
+          },
+          "nullable": false
+        },
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Report has been copied successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiCopyReportResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete",
+            "content": {}
+          },
+          "401": {
+            "description": "Access denied",
+            "content": {}
+          },
+          "403":{
+            "description": "Do not have permission to set report will be copied as public",
+            "content": {}
+          },
+          "404": {
+            "description": "Item detail not found",
+            "content": {}
+          },
+          "406": {
+            "description": "The content of the request body is invalid",
+            "content": {}
+          },          
+          "409":{
+            "description": "Report will be copied name already exists",
+            "content": {}
+          },
+          "417": {
+            "description": "Failed to copy report",
+            "content": {}
+          }         
+        },
+        "x-codegen-request-body-name": "apiCopyReport"
+      }
+    },
+    "/v2.0/groups/{name}/users": {
+      "post": {
+        "tags": [
+          "Groups"
+        ],
+        "summary": "Add user(s) to the particular group",
+        "description": "With this endpoint, administrators can add a list of users to a particular group by providing the group name in the path parameter and the user email(s) in the request body.",
+        "operationId": "Groups_AddUserToGroup",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "description": "Group name",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+            "schema": {
+              "type": "string",
+              "nullable": false
+            }
+          }
+        ],
+        "requestBody": {
+          "description": "User(s) added from the group",
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApiGroupUsers"
+              },
+              "nullable": true
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "User(s) are added successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete",
+            "content": {}
+          },
+          "401": {
+            "description": "Access denied",
+            "content": {}
+          },
+          "404": {
+            "description": "Group detail is not found",
+            "content": {}
+          },
+          "405": {
+            "description": "Request type was not POST",
+            "content": {}
+          },
+          "417": {
+            "description": "Failed to add user to the group",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "apiGroupUsers"
+      }
+    },
+    "/v2.0/permissions/users": {
+      "post": {
+        "tags": [
+          "Permission"
+        ],
+        "summary": "Add User Permission",
+        "description": "Administrators can add multiple permission entities for a specific user by providing the permission details.",
+        "operationId": "Permission_AddUserPermission",
+        "requestBody": {
+          "description": "The permissions specified in the request will be added to the specified user ID.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApiAddUserPermission"
+              },
+              "nullable": true
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "nullable": true,
+            "description": "User permission has been added successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiUserUpdate"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete",
+            "content": {}
+          },
+          "401": {
+            "description": "Access denied",
+            "content": {}
+          },
+          "404": {
+            "description": "User detail not found",
+            "content": {}
+          },
+          "405": {
+            "description": "Request Type was not POST",
+            "content": {}
+          },
+          "406": {
+            "description": "The content of the request body is invalid",
+            "content": {}
+          },
+          "409": {
+            "description": "Permission already exists",
+            "content": {}
+          },
+          "417": {
+            "description": "Failed to add user permission",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "apiUserPermissionAdd"
+      }
+    },
+    "/v2.0/permissions/groups":{
+      "post": {
+        "tags": [
+          "Permission"
+        ],
+        "summary": "Add Group Permission",
+        "description": "Administrators can add multiple permission entities for a specific group by providing the permission details",
+        "operationId": "Permission_AddGroupPermission",
+        "requestBody": {
+          "description":"The permissions specified in the request will be assigned to the specified group ID.",
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApiAddGroupPermission"
+              },
+              "nullable": true
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "nullable": true,
+            "description": "Group permission has been added successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ApiUserUpdate"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete",
+            "content": {}
+          },
+          "401": {
+            "description": "Access denied",
+            "content": {}
+          },
+          "404": {
+            "description": "Group detail not found",
+            "content": {}
+          },
+          "405": {
+            "description": "Request Type was not POST",
+            "content": {}
+          },
+          "406": {
+            "description": "The content of the request body is invalid",
+            "content": {}
+          },
+          "409": {
+            "description": "Permission already exists",
+            "content": {}
+          },
+          "417": {
+            "description": "Failed to add group permission",
+            "content": {}
+          }
+        },
+        "x-codegen-request-body-name": "apiGroupPermissionAdd"
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Response": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "Email of the authenticated user."
+          },
+          "idpreferenceid": {
+            "type": "string",
+            "description": "idpreferenceid of the user",
+            "format": "guid"
+          },
+          "username": {
+            "type": "string",
+            "description": "Username of the authenticated user"
+          },
+          "access_token": {
+            "type": "string",
+            "description": "Authentication token of the user"
+          },
+          "token_type": {
+            "type": "string",
+            "description": "Type of the token assigned by the authorization server"
+          },
+          "expires_in": {
+            "type": "string",
+            "description": "The lifetime in seconds of the access token"
+          },
+          ".issued": {
+            "type": "string",
+            "description": "Token generated date."
+          },
+          ".expires": {
+            "type": "string",
+            "description": "Token expiration date."
+          },
+          "LoginResult": {
+            "type": "boolean",
+            "description": "Returns true if the user has successfully logged in."
+          },
+          "LoginStatusInfo": {
+            "type": "string",
+            "description": "Returns the status message from the API."
+          }
+        },
+        "x-typeName": "Response"
+      },
+      "ApiCopyReport": {
+        "type": "object",
+        "required": [
+          "CategoryId",
+          "Name"
+          ],
+        "properties": {
+          "CategoryId": {
+            "type": "string",
+            "description": "Category ID.",
+            "format": "guid"
+          },
+          "Name": {
+            "type": "string",
+            "description": "Report name"
+          },
+          "Description":{
+            "type":"string",
+            "description":"Report description"
+          },
+          "IsPublic": {
+            "type": "boolean",
+            "description": "Specify true to set the item as a public."
+          },
+          "IsCopyDatasource":{
+            "type":"boolean",
+            "description":"Copy the datasource of the report based on this value"
+          },
+          "IsCopyDataset":{
+            "type":"boolean",
+            "description":"Copy the dataset of the report based on this value"         
+          }
+        }
+      },
+      "ApiCopyReportResponse": {
+        "type": "object",
+        "properties": {
+          "ApiStatus": {
+            "type": "boolean",
+            "description": "Returns the status of the API."
+          },
+          "Status": {
+            "type": "boolean",
+            "description": "Returns status of the API request."
+          },
+          "PublishedItemId":{
+            "type":"string",
+            "description":"Returns the published report item id",
+            "format":"guid"
+          },
+          "Version":{
+            "type":"integer",
+            "description":"Returns the version number of the report",
+            "format":"int32"
+          },
+          "StatusMessage": {
+            "type": "string",
+            "description": "Returns the status message from the API."
+          },
+          "DataSetMappingInfo": {
+                "type": "array",
+                "description":"Returns the mapping information of dataset",
+                "items": {
+                  "$ref": "#/components/schemas/ApiDatasetMapping"
+                }          
+          },
+          "DataSourceMappingInfo": {
+            "type": "array",
+            "description":"Returns the mapping information of datasource",
+            "items": {
+              "$ref": "#/components/schemas/ApiDatasourceMapping"
+            }
+          }
+        }
+      },
+      "ApiDatasetMapping": {
+        "type": "object",
+        "description": "Returns the dataset mapping information like shared dataset id, shared dataset name and name of the dataset",
+        "properties": {
+          "SharedDataSetId": {
+            "type": "string",
+            "description": "Returns the shared dataset id of the report"
+          },
+          "SharedDataSetName": {
+            "type": "string",
+            "description": "Returns the shared dataset name of the report"
+          },
+          "Name": {
+            "type": "string",
+            "description": "Returns the name of the dataset"
+          }
+        }
+      },
+      "ApiDatasourceMapping": {
+        "type": "object",
+        "description": "Returns the datasource mapping information like shared datasource id, shared datasource name and name of the datasource",
+        "properties": {
+          "SharedDataSourceId": {
+            "type": "string",
+            "description": "Returns the shared datasource id of the report"
+          },
+          "SharedDataSourceName": {
+            "type": "string",
+            "description": "Returns the shared datasource name of the report"
+          },
+          "Name": {
+            "type": "string",
+            "description": "Returns the name of the datasource"
+          }
+        }
+      },
+      "ApiGroupUsers": {
+        "type": "object",
+        "description": "User(s) added from the group",
+        "properties": {
+          "UserEmail": {
+            "type": "array",
+            "description": "List of user email(s)",
+            "items": {
+              "type": "string",
+              "required":"true"
+            }
+          }
+        }
+      },
+      "ApiAddUserPermission": {
+        "type": "object",
+        "description": "Permission details.",
+        "required": [
+          "PermissionAccess",
+          "UserId",
+          "PermissionEntity"
+        ],
+        "properties": {
+          "PermissionAccess": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Specify an access type for item.</br>For example: [\"Value\"]</br><br />Values allowed are <code>Create, Read, ReadWrite, ReadWriteDelete, Download</code>"
+          },
+          "UserId": {
+            "type": "integer",
+            "description": "User  ID.",
+            "format": "int32"
+          },
+          "PermissionEntity": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Multiple permission entities can be provided as an array of strings. </br></br>For example: [\"Value1\", \"Value2\"]</br><br />Values allowed are <code>AllReports, ReportsInCategory, SpecificReports, AllCategories, SpecificCategory, AllDataSources, SpecificDataSource, AllSchedules, SpecificSchedule, AllDatasets, SpecificDataset</code>"
+          },
+          "ItemId": {
+            "type": "string",
+            "description": "Specify the item ID while assigning permission to a particular item.",
+            "format": "guid"
+          }
+        }
+      },
+      "ApiAddGroupPermission": {
+        "type": "object",
+        "description": "Permission details.",
+        "required": [
+          "PermissionAccess",
+          "UserId",
+          "PermissionEntity"
+        ],
+        "properties": {
+          "PermissionAccess": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Specify an access type for item.</br>For example: [\"Value\"]</br><br />Values allowed are <code>Create, Read, ReadWrite, ReadWriteDelete, Download</code>"
+          },
+          "GroupId": {
+            "type": "integer",
+            "description": "Group ID.",
+            "format": "int32"
+          },
+          "PermissionEntity": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Multiple permission entities can be provided as an array of strings. </br></br>For example: [\"Value1\", \"Value2\"]</br><br />Values allowed are <code>AllReports, ReportsInCategory, SpecificReports, AllCategories, SpecificCategory, AllDataSources, SpecificDataSource, AllSchedules, SpecificSchedule, AllDatasets, SpecificDataset</code>"
+          },
+          "ItemId": {
+            "type": "string",
+            "description": "Specify the item ID while assigning permission to a particular item.",
+            "format": "guid"
+          }
+        }
+      },
+      "ApiUserUpdate": {
+        "type": "object",
+        "properties": {
+          "ApiStatus": {
+            "type": "boolean",
+            "description": "Returns the status of the API."
+          },
+          "Status": {
+            "type": "boolean",
+            "description": "Returns status of the API request."
+          },
+          "StatusMessage": {
+            "type": "string",
+            "description": "Returns the status message from the API."
+          }
+        }
+      },
+      "ApiResponse": {
+        "type": "object",
+        "properties": {
+          "ApiStatus": {
+            "type": "boolean",
+            "description": "Returns the status of the API"
+          },
+          "Status": {
+            "type": "boolean",
+            "description": "Returns status of the API request"
+          },
+          "StatusMessage": {
+            "type": "string",
+            "description": "Returns the status message from the API"
+          }
+        } 
+      },
+      "PasswordAuth": {
+        "required": [
+          "grant_type",
+          "password",
+          "username"
+      ],
+      "properties": {
+        "username": {
+          "type": "string",
+          "description": "Email address of the user.",
+          "nullable": false
+        },
+        "password": {
+          "type": "string",
+          "description": "Password of the user",
+          "nullable": false
+        },
+        "grant_type": {
+          "type": "string",
+          "description": "The type of credentials used to authorize the request for an access token.<br />Value allowed is <code>password</code>",
+          "nullable": false
+        }
+      }
+    },
+    "OAuthGrant": {
+      "type": "object",
+      "required": ["grant_type"],
+      "properties": {
+        "grant_type": {
+          "type": "string",
+          "description": "The type of credentials used to authorize the request for an access token.<br />Value allowed is <code>oauth</code>.<br /><br />**Note:** When using this grant type, a valid OAuth JWT token must be provided in the request header using the Authorization scheme: <code>Authorization: Bearer &lt;token&gt;</code>.",
+          "nullable": false
+        }
+      }
+    },
+    "EmbedSecretGrant": {
+      "type": "object",
+      "required": [
+        "grant_type",
+        "username",
+        "Embed_Secret"
+      ],
+      "properties": {
+        "grant_type": {
+          "type": "string",
+          "description": "The type of credentials used to authorize the request for an access token.<br />Value allowed is <code>Embed_Secret</code>.",
+          "nullable": false
+        },
+        "username": {
+          "type": "string",
+          "description": "Email address of the user.",
+          "nullable": false
+        },
+        "Embed_Secret": {
+          "type": "string",
+          "description": "Specifies the embed secret key used to generate a REST API access token. The embed secret key is generated from the Bold Reports server settings. Either the UMS embed secret or the site embed secret can be provided.",
+          "nullable": false
+        }
+      }
+    }
+    },
+    "securitySchemes": {
+      "bearer <token>": {
+        "type": "http",
+        "description": "JWT token Authentication",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}

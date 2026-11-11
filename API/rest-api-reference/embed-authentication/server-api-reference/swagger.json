@@ -1,0 +1,220 @@
+﻿{
+  "openapi": "3.0.1",
+  "swagger": "1.0",
+  "info": {
+    "title": "API Reference",
+    "description": {
+      "$ref": "./../../common/embed-introduction.md"
+    },
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "Self-Hosted Server: https://{yourdomain}/reporting/api/site/{tenant-name}"
+    }
+  ],
+  "security": [
+    {
+      "bearer <token>": []
+    }
+  ],
+  "tags": [
+    {
+      "name": "Embed Authentication",
+      "description": "When you sign in to Bold Reports Embedded applications, you are provided with an encrypted authentication token. This token is intended only for `Viewer` and `Designer` embedding scenarios, including related embedding API requests.. It should be attached to the Authorization header for embedding operations. <br/><br/><code>Note:</code> This token cannot be used for general Report Server REST API access."
+    }
+	],
+  "paths": {
+    "/token": {
+      "post": {
+        "tags": [
+          "Embed Authentication"
+        ],
+        "summary": "Authenticate User",
+        "description": "Authenticate the user with an embed token.",
+        "operationId": "PasswordAuthentication",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PasswordAuth"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "User logged in successfully.",
+            "content": {
+            "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/Response"
+            }
+          }
+        }
+        },
+          "400": {
+            "description": "Email ID is empty.",
+            "content": {}
+          },
+          "401": {
+            "description": "Invalid username or password",
+            "content": {}
+          },
+          "404": {
+            "description": "User details are not found",
+            "content": {}
+          },
+          "405": {
+            "description": "Request type was not POST",
+            "content": {}
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Response": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "Email of the authenticated user."
+          },
+          "idpreferenceid": {
+            "type": "string",
+            "description": "idpreferenceid of the user",
+            "format": "guid"
+          },
+          "username": {
+            "type": "string",
+            "description": "Username of the authenticated user"
+          },
+          "access_token": {
+            "type": "string",
+            "description": "The user's authentication token is provided in an encrypted format"
+          },
+          "token_type": {
+            "type": "string",
+            "description": "Type of the token assigned by the authorization server"
+          },
+          "expires_in": {
+            "type": "string",
+            "description": "The lifetime in seconds of the access token"
+          },
+          ".issued": {
+            "type": "string",
+            "description": "Token generated date."
+          },
+          ".expires": {
+            "type": "string",
+            "description": "Token expiration date."
+          },
+          "LoginResult": {
+            "type": "boolean",
+            "description": "Returns true if the user has successfully logged in."
+          },
+          "LoginStatusInfo": {
+            "type": "string",
+            "description": "Returns the status message from the API."
+          }
+        },
+        "x-typeName": "Response"
+      },
+      "ReportParameterResponse": {
+        "type": "object",
+        "properties": {
+          "Key": {
+            "type": "string",
+            "description": "Name of the report parameter."
+          },
+          "Values": {
+            "type": "array",
+            "description": "Value for the report parameter.\\\n **Note**: If there are multiple values, they should be passed as comma-separated values, i.e [\"Example1\", \"Example2\"]",
+            "items": [
+              {
+                "$ref": "#/components/schemas/ReportValues"
+              }
+            ]
+          }
+        }
+      },
+      "CustomAttributesResponse": {
+        "type": "object",
+        "properties": {
+          "Key": {
+            "type": "string",
+            "description": "Name of the custom attribute."
+          },
+          "Value": {
+            "type": "string",
+            "description": "Value for the custom attribute."
+          }
+        },
+        "description": "User detail"
+      },
+      "ReportValues": {
+        "type": "string",
+        "description": ""
+      },
+      "PasswordAuth": {
+        "required": [
+          "grant_type",
+          "ReportServerUser",
+          "Password"
+      ],
+      "properties": {
+        "grant_type": {
+          "type": "string",
+          "description": "The type of credentials used to authorize a request for an access token.<br />Value allowed is <code>embed_token</code>",
+          "nullable": false
+        },
+        "ReportServerUser": {
+          "type": "string",
+          "description": "Email address of the user.",
+          "nullable": false
+        },
+        "Password": {
+          "type": "string",
+          "description": "Password of the user. Provide either `Password` or `Embed_Secret`.",
+          "nullable": true
+        },
+        "Embed_Secret": {
+          "type": "string",
+          "description": "The embed secret key generated from the Bold Reports server settings. Provide either UMS or Site embed secret code",
+          "nullable": true
+        },
+        "ExpiresIn": {
+          "type": "string",
+          "description": "The duration (in seconds) until the token expires.<br/>Example<code>\"180\"</code>",
+          "nullable": false
+        },
+        "ReportParameters": {
+          "type": "array",
+          "description": "List of users",
+          "items": {
+              "$ref": "#/components/schemas/ReportParameterResponse"
+          }
+        },
+        "CustomAttributes": {
+          "type": "array",
+          "description": "List of users",
+          "items": {
+              "$ref": "#/components/schemas/CustomAttributesResponse"
+          }
+        }
+      }
+    }
+    },
+    "securitySchemes": {
+      "bearer <token>": {
+        "type": "http",
+        "description": "JWT token Authentication",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  }
+}

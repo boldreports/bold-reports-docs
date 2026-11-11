@@ -1,0 +1,137 @@
+{
+  "openapi": "3.0.1",
+  "swagger": "1.0",
+  "info": {
+    "title": "API Reference",
+    "description": {
+      "$ref": "./../../common/embed-secret-introduction.md"
+    },
+    "version": "1.0"
+  },
+  "servers": [
+    {
+      "url": "Self-Hosted Server: https://{yourdomain}/reporting/api/site/{tenant-name}"
+    }
+  ],
+  "paths": {
+    "/token": {
+      "post": {
+        "summary": "Embed Secret Authentication",
+        "description": "Authenticate users using embed secret key to obtain an encrypted authentication token for secure API access.",
+        "operationId": "EmbedSecretAuthentication",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                    "$ref": "#/components/schemas/embed_secret"
+                  }
+                }
+              },
+              "required": true
+            },
+        "responses": {
+          "200": {
+            "description": "User authenticated successfully.",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Response"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request or missing parameters.",
+            "content": {}
+          },
+          "401": {
+            "description": "Invalid credentials or token.",
+            "content": {}
+          },
+          "404": {
+            "description": "User not found.",
+            "content": {}
+          },
+          "405": {
+            "description": "Method not allowed.",
+            "content": {}
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "embed_secret": {
+        "type": "object",
+        "required": [
+          "grant_type",
+          "username",
+          "Embed_Secret"
+        ],
+        "properties": {
+          "grant_type": {
+            "type": "string",
+            "description": "Specifies the type of grant being requested. For embed secret authentication, use the value `embed_secret`."
+          },
+          "username": {
+            "type": "string",
+            "description": "The username of the user attempting to authenticate."
+          },
+          "Embed_Secret": {
+            "type": "string",
+            "description": "The embed secret key associated with the user for authentication."
+          }
+        },
+        "description": "Schema for embed secret authentication request."
+      },
+      "Response": {
+        "type": "object",
+        "properties": {
+          "email": {
+            "type": "string",
+            "description": "Email of the authenticated user."
+          },
+          "idpreferenceid": {
+            "type": "string",
+            "description": "Unique identifier for the user.",
+            "format": "guid"
+          },
+          "username": {
+            "type": "string",
+            "description": "Username of the authenticated user."
+          },
+          "access_token": {
+            "type": "string",
+            "description": "Encrypted authentication token."
+          },
+          "token_type": {
+            "type": "string",
+            "description": "Type of token issued."
+          },
+          "expires_in": {
+            "type": "integer",
+            "description": "Token expiration time in seconds."
+          },
+          ".issued": {
+            "type": "string",
+            "description": "Token issue timestamp."
+          },
+          ".expires": {
+            "type": "string",
+            "description": "Token expiration timestamp."
+          },
+          "LoginResult": {
+            "type": "boolean",
+            "description": "Indicates if login was successful."
+          },
+          "LoginStatusInfo": {
+            "type": "string",
+            "description": "Status message from the authentication process."
+          }
+        },
+        "description": "Response schema for successful authentication."
+      }
+    }
+  }
+}
