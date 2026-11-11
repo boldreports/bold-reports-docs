@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const { writeFileSync } = require('fs');
-const { getToc, baseUrl, getRepoInfo, repoName } = require('./config.js');
+const { getToc, siteLink } = require('./config.js');
 
 gulp.task('sitemap', (done) => {
     const dateInstance = new Date();
@@ -16,7 +16,7 @@ gulp.task('sitemap', (done) => {
     pageData.forEach((page) => {
         xmlContent += `        <url>
 
-        <loc>${baseUrl + '/' + getRepoInfo(repoName).url + page.path}</loc>
+        <loc>${siteLink + page.path}</loc>
   
         <lastmod>${lastModified}</lastmod>
   

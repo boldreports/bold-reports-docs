@@ -2,24 +2,29 @@ const { readFileSync } = require('fs');
 const { resolve } = require('path');
 
 const config = JSON.parse(readFileSync(resolve('./config.json'), 'utf8'));
-const packageConfig = JSON.parse(readFileSync(resolve('./package.json'), 'utf8'));
 
 function getToc() {
     return JSON.parse(readFileSync(resolve('./left-toc.json'), 'utf8'));
 }
 
-const repoInfos = config.repos;
+// Address where the site is published, without a trailing slash.
+// For example https://docs.example.com or https://docs.example.com/reports
+const siteLink = (config.siteLink || '').replace(/\/+$/, '');
 
-function getRepoInfo(repoName) {
-    return repoInfos[Object.keys(repoInfos).find(repo => repoInfos[repo].name === repoName)];
+// Path part of the site link. The production build serves the site from this path.
+// '/reports' for https://docs.example.com/reports, and '' when the site is at the root.
+function getSitePath() {
+    try {
+        return new URL(siteLink).pathname.replace(/\/+$/, '');
+    } catch (error) {
+        return '';
+    }
 }
 
 module.exports = {
-    baseUrl: `https://${config.publish.bucketName}`,
+    siteLink: siteLink,
+    sitePath: getSitePath(),
     config: config,
     getToc: getToc,
-    repoName: packageConfig.name,
-    apiBaseFolder: 'api-reference',
-    repos: repoInfos,
-    getRepoInfo: getRepoInfo
+    apiBaseFolder: 'api-reference'
 };

@@ -9,7 +9,7 @@ const ErrorTemplate = () => {
 		<title>{`File Not Found | 404 | ${config.product.name}`}</title>
 		<meta charSet="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href={withPrefix("/favicon.ico")} />
+		<link rel="shortcut icon" href={withPrefix(config.branding.favicon)} />
 		<meta name="description" content="The documentation page you are looking for is not available. It may have been moved to a new location or been removed." />
 		<link
 			rel="stylesheet"
@@ -33,45 +33,13 @@ const ErrorTemplate = () => {
 				<p id="error-message">Something went wrong</p>
 				<div className="container mb-4 test">
 					<div className="row">
-						<p className="h4 m-auto">Are you looking for..?</p>
+						<p className="h4 m-auto">The page you are looking for is not available.</p>
 					</div>
 				</div>
 				<div className="container platform">
 					<div className="row">
-						<div className="col mr-3 mb-5">
-							<p>JavaScript</p>
-							<a href="https://demos.boldreports.com/home/">Demos</a>
-							<br />
-							<br />
-							<a href="https://help.boldreports.com/javascript/">Documentation</a>
-						</div>
-						<div className="col mr-3 mb-5">
-							<p className="mb-3">Angular</p>
-							<a href="https://demos.boldreports.com/home/angular.html">Demos</a>
-							<br />
-							<br />
-							<a href="https://help.boldreports.com/angular/">Documentation</a>
-						</div>
-						<div className="col mr-3 mb-5">
-							<p className="mb-3">ASP.NET Core</p>
-							<a href="https://demos.boldreports.com/home/aspnet-core.html">Demos</a>
-							<br />
-							<br />
-							<a href="https://help.boldreports.com/aspnet-core/">Documentation</a>
-						</div>
-						<div className="col mr-3 mb-5">
-							<p>ASP.NET MVC</p>
-							<a href="https://demos.boldreports.com/home/aspnet-mvc.html">Demos</a>
-							<br />
-							<br />
-							<a href="https://help.boldreports.com/aspnet-mvc/">Documentation</a>
-						</div>
-						<div className="col mr-3 mb-5">
-							<p>ASP.NET WebForms</p>
-							<a href="https://demos.boldreports.com/home/aspnet-web-forms.html">Demos</a>
-							<br />
-							<br />
-							<a href="https://help.boldreports.com/aspnet-web-forms/">Documentation</a>
+						<div className="col mb-5">
+							<a href={withPrefix("/")}>Go to the home page</a>
 						</div>
 					</div>
 				</div>

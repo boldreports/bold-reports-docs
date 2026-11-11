@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'gatsby';
+import { Link, withPrefix } from 'gatsby';
 import HeaderSearch from './HeaderSearch';
 import config from '../../config.json';
 import '../assets/css/tabs.css';
@@ -13,7 +13,12 @@ const Header = () => {
 				<div>
 					<div id="header-left-side">
 						<a href="/" className="header-home-link">
-							<div className="header-logo"></div>
+							<div
+								className="header-logo"
+								role="img"
+								aria-label={config.product.name}
+								style={{ backgroundImage: `url(${withPrefix(config.branding.logo)})` }}
+							></div>
 						</a>
 						<span className="header-docs-text">
 							<Link to="/">{config.additionalInfo.header}</Link>

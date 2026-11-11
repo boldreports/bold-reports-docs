@@ -1,5 +1,6 @@
 import React, { useMemo } from 'react';
 import { Link } from 'gatsby';
+import '../assets/css/nav-buttons.css';
 
 const normalizePath = (value = '') => {
 	if (!value) return '/';

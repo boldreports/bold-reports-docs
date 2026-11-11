@@ -442,7 +442,6 @@
 	--focus-dropdown-divider-color: #e5e7eb;
 
 	/* Images */
-	--logo: url('../img/boldreports-logo.svg');
 	--theme-toggle-icon: url('../img/moon-icon.svg');
 	--focus-btn-on-icon: url('../img/focus-mode-on-light.svg');
 	--focus-btn-off-icon: url('../img/focus-mode-off-light.svg');
@@ -485,7 +484,6 @@ body.dark-mode {
 .header-logo {
 	width: 170px;
 	height: 36px;
-	background-image: var(--logo);
 	background-repeat: no-repeat;
 	background-size: contain;
 }

@@ -1,7 +1,7 @@
 const fs = require("fs");
 const yaml = require("js-yaml");
 const { sync } = require("glob");
-const { config, getRepoInfo, repoName } = require('./config.js');
+const { config, sitePath } = require('./config.js');
 const argv = require('yargs').argv;
 const { replaceProductNameInJson } = require('./product-name.js');
 
@@ -269,7 +269,7 @@ function buildTocItems(structureItems, parentSlug = "") {
 		const routePath = resolveRoutePath(item.route, parentSlug);
 		const parsed = parsePath(routePath);
 
-		const path = parsed.path === `/${config.additionalInfo.homePage.fileName}/` ? "/" : parsed.path;
+		const path = parsed.path;
 
 		const pageNode = {
 			type: "page",
@@ -432,8 +432,7 @@ function generateToc() {
 		leftTocData: tocData,
 		routerData: routerData,
 		pagesData: pageData,
-		pathPrefix: global.isProduction ? (argv.prefix || '/' + getRepoInfo(repoName).url) : '',
-		repoBaseUrl: getRepoInfo(repoName).url,
+		pathPrefix: global.isProduction ? (argv.prefix || sitePath) : '',
 		additionalInfo: config.additionalInfo
 	};
 

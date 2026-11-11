@@ -52,10 +52,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 		const fileNode = getNode(node.parent);
 		const parsedFilePath = path.parse(fileNode.relativePath);
 		
-		// Home page - slug Maping
-		if (parsedFilePath.name == config.additionalInfo.homePage.fileName && parsedFilePath.dir == '') {
-			slug = '/';
-		} else if (parsedFilePath.name !== 'index' && parsedFilePath.dir !== '') {
+		if (parsedFilePath.name !== 'index' && parsedFilePath.dir !== '') {
 			slug = `/${parsedFilePath.dir}/${parsedFilePath.name}/`;
 		} else if (parsedFilePath.dir === '') {
 			slug = `/${parsedFilePath.name}/`;
@@ -64,14 +61,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 		}
 
 		if (node.internal.content) {
-			let tocPath = slug; 
-			
-			// Home page - File Maping
-			if (slug === '/' && parsedFilePath.name == config.additionalInfo.homePage.fileName && parsedFilePath.dir == '') {
-				tocPath = `/${parsedFilePath.name}/`;
-			}
-
-			const updatedContent = updateContent(node.internal.content, tocPath, node.frontmatter, fileNode.relativePath);
+			const updatedContent = updateContent(node.internal.content, slug, node.frontmatter, fileNode.relativePath);
 			if (updatedContent) {
 				node.internal.content = updatedContent;
 			}
@@ -101,7 +91,13 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 exports.createPages = ({ graphql, actions }) => {
 	const { createPage, createRedirect } = actions;
-	redirects.forEach((redirect) => {
+	// The site root opens the home page set in config.json (additionalInfo.homePage).
+	const homePagePath = config.additionalInfo.homePage;
+	const allRedirects = homePagePath && homePagePath !== '/'
+		? [{ fromPath: '/', toPath: homePagePath }, ...redirects]
+		: redirects;
+
+	allRedirects.forEach((redirect) => {
         createRedirect({
             ...redirect,
             redirectInBrowser: true,

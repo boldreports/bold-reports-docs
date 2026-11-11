@@ -1,72 +1,16 @@
 import React from 'react';
 import { Helmet } from "react-helmet";
-import favicon32 from '../assets/img/favicon-32x32.png';
-import favicon192 from '../assets/img/favicon-192x192.png';
-import favicon180 from '../assets/img/favicon-180x180.png';
-import favicon270 from '../assets/img/favicon-270x270.png';
-import ogImg from '../assets/img/og-img.png';
+import { withPrefix } from 'gatsby';
 import config from '../../config.json';
 
-//UUID Passing to GTM - Starts Here
-export const visitorUidScript = `
-function getCookie(name) {
-    const nameEQ = name + "=";
-    const cookies = document.cookie.split(";");
-    for (let cookie of cookies) {
-        cookie = cookie.trim();
-        if (cookie.indexOf(nameEQ) === 0) {
-            return decodeURIComponent(cookie.substring(nameEQ.length));
-        }
-    }
-    return null;
-}
-
-function setCookie(name, value, expiryDays = 30) {
-    if (!value) return;
-
-    const expiryDate = new Date();
-    expiryDate.setTime(expiryDate.getTime() + expiryDays * 24 * 60 * 60 * 1000);
-
-    const cookieString = name + "=" + encodeURIComponent(value) + "; path=/; domain=.boldreports.com; expires=" + expiryDate.toUTCString();
-    document.cookie = cookieString;
-}
-
-function generateVisitorUid() {
-    const now = new Date();
-    const jan = new Date(now.getFullYear(), 0, 1);
-    const jul = new Date(now.getFullYear(), 6, 1);
-
-    const estOffset = (Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset()) <= now.getTimezoneOffset() ? -4 : -5) * 3600000;
-    const loadTimeOffset = now.getTimezoneOffset() * 60000;
-    const timestamp = now.getTime() + loadTimeOffset + estOffset;
-    const random = Math.floor(Math.random() * 1000) + 1;
-
-    return "" + random + timestamp;
-}
-
-function getVisitorUid() {
-    const cookieUuid = getCookie("_uid");
-
-    if (cookieUuid) return cookieUuid;
-
-    const newUuid = generateVisitorUid();
-    setCookie('_uid', newUuid, 365);
-
-    return newUuid;
-}
-
-const visitorUid = getVisitorUid() || "";
-
-if (visitorUid) {
-    window.dataLayer = window.dataLayer || [];
-    window.dataLayer.unshift({
-        'event': 'visitor_uid_loaded',
-        'visitor_uid': visitorUid
-    });
-}
-`;
-
-//UUID Passing to GTM - ends here
+// All of these values are set in config.json.
+const branding = config.branding || {};
+const analytics = config.analytics || {};
+const favicon = withPrefix(branding.favicon);
+const appIcon = withPrefix(branding.appIcon);
+const ogImg = withPrefix(branding.socialImage);
+const tagManagerId = analytics.googleTagManagerId || '';
+const colorVariables = Object.entries(branding.colors || {}).map(([name, value]) => `${name}: ${value};`).join(' ');
 
 const HeadTag = ({ pageContext = {} }) => {
 	const { slug = '', frontmatter = {} } = pageContext;
@@ -92,10 +36,10 @@ const HeadTag = ({ pageContext = {} }) => {
 				<meta name={metaRobot.name} content={metaRobot.content} />
 				{canonicalHref && <link rel="canonical" href={canonicalHref} />}
 
-				<link rel="icon" href={favicon32} sizes="32x32" />
-				<link rel="icon" href={favicon192} sizes="192x192" />
-				<link rel="apple-touch-icon" href={favicon180} />
-				<meta name="msapplication-TileImage" content={favicon270} />
+				<link rel="icon" href={favicon} />
+				<link rel="icon" href={appIcon} sizes="192x192" />
+				<link rel="apple-touch-icon" href={appIcon} />
+				<meta name="msapplication-TileImage" content={appIcon} />
 
 				<meta property="og:title" content={frontmatter?.title} />
 				<meta property="og:description" content={frontmatter?.description} />
@@ -114,8 +58,9 @@ const HeadTag = ({ pageContext = {} }) => {
 				<meta name="twitter:description" content={frontmatter?.description} />
 				<meta name="twitter:image" content={ogImg} />
 
-				<script>{visitorUidScript}</script>
-				<script>
+				{colorVariables && <style>{`:root { ${colorVariables} }`}</style>}
+
+				{tagManagerId && <script>
 					{`
             		(function(w, d, s, l, i) {
                 	w[l] = w[l] || [];
@@ -130,9 +75,9 @@ const HeadTag = ({ pageContext = {} }) => {
                 	j.src =
                     	'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
                 	f.parentNode.insertBefore(j, f);
-            	})(window, document, 'script', 'dataLayer', 'GTM-K73VBT8');
+            	})(window, document, 'script', 'dataLayer', '${tagManagerId}');
         	`}
-				</script>
+				</script>}
 			</Helmet>
 		</>
 	);

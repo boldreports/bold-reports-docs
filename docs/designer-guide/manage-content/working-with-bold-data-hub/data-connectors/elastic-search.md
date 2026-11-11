@@ -52,7 +52,7 @@ You connect ElasticSearch by creating a pipeline in Bold Data Hub and adding the
 
 1. Click the **Bold Data Hub** icon in the left navigation panel.
 
-    ![Elastic search - Bold Data Hub](/static/images/manage-content/working-with-etl/boldbi_panel.png#max-width=100%)
+    ![Elastic search - Bold Data Hub](/static/images/manage-content/working-with-etl/connector-panel.png#max-width=100%)
 
 2. Click **Add Pipeline** and enter a name for your new pipeline.
 

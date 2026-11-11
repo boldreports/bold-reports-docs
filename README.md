@@ -1,8 +1,18 @@
-# Bold Reports Enterprise documentation
+# Documentation site
 
-This repository holds the Bold Reports Enterprise documentation and everything needed to build it into a static website. The pages are written in Markdown, and the site is generated with [Gatsby](https://www.gatsbyjs.com/) and a set of [gulp](https://gulpjs.com/) tasks.
+This repository holds the product documentation and everything needed to build it into a static website. The pages are written in Markdown, and the site is generated with [Gatsby](https://www.gatsbyjs.com/) and a set of [gulp](https://gulpjs.com/) tasks.
 
 The repository is self-contained. The website template is in `src/`, and the gulp tasks are in `build/`. There is no separate helper package to install.
+
+The site can be white-labeled: the product name, logo, and favicon are each set in one place. See [White-label the site](#white-label-the-site).
+
+## Contents
+
+* [Prerequisites](#prerequisites)
+* [Run the project](#run-the-project)
+* [Folder structure](#folder-structure)
+* [Write documentation pages](#write-documentation-pages)
+* [White-label the site](#white-label-the-site)
 
 ## Prerequisites
 
@@ -10,7 +20,7 @@ The repository is self-contained. The website template is in `src/`, and the gul
 | --- | --- | --- |
 | Node.js | 22 LTS (22.17.1 recommended) | Comes with npm. |
 | npm | 10 or later | Node.js includes npm. |
-| Git | Any recent version | Needed to clone the repository. |
+| Git | Any recent version | Needed to clone the repository. The build also reads the last commit date of each page from Git. |
 
 You also need internet access to `registry.npmjs.org` for the first install. All commands below are run from the repository root.
 
@@ -47,9 +57,31 @@ You also need internet access to `registry.npmjs.org` for the first install. All
 | `npm install` | Installs the dependencies. |
 | `npx gulp serve` | Builds the table of contents and starts the Gatsby development server. |
 | `npm run build` | Runs `gulp production-build` and writes the static site to `public/`. |
-| `npm test` | Runs `gulp ci-test`: Markdown lint, spell check, and file validation. |
+| `npm test` | Runs all content checks. See [Run the tests](#run-the-tests). |
 | `npx gulp clean` | Deletes the Gatsby cache and the generated pages, for a completely fresh start. |
-| `npx gulp build` | Prepares the content only: copies `docs/` to `src/pages` and generates `left-toc.json`. |
+| `npx gulp build` | Prepares the content only: clears the cache, copies `docs/` to `src/pages`, and generates `left-toc.json`. |
+| `npx gulp sitemap` | Generates `sitemap.xml` for the site domain set in `config.json`. Run it after `npx gulp build`. |
+
+### Run the tests
+
+```bash
+npm test
+```
+
+The command runs these checks in order and stops at the first one that fails:
+
+| Check | What it verifies |
+| --- | --- |
+| Page list | Every page in `docs/summary.json` has a Markdown file, and every Markdown file is listed. |
+| Spelling | All Markdown files in `docs/` and this README. |
+| Images | Image width syntax and alt text. |
+| File names | File and folder names under `docs/` use lowercase dictionary words separated by hyphens. |
+| Search engine optimization | Title and description length, one top-level heading per page, and no unused images in `static/images/`. |
+| Links | Links between pages point to pages that exist. |
+| Markdown lint | Markdown formatting rules in `build/lint/.markdownlint.json`. |
+| Code blocks | No code block starts with an empty line. |
+
+If the spelling or file name check reports a correct technical term, add the term on its own line to the `.spelling` file.
 
 ### Site URL prefix
 
@@ -59,7 +91,7 @@ The production build is prepared to be served from the `/enterprise-reporting` p
 npx gulp production-build --prefix=/docs
 ```
 
-The default prefix comes from `repos.enterprise.url` in `config.json`.
+The default prefix comes from `repos.enterprise.url` in `config.json`. The development server always serves the site from the root path.
 
 ### Troubleshooting
 
@@ -67,52 +99,104 @@ The default prefix comes from `repos.enterprise.url` in `config.json`.
 | --- | --- |
 | `npm install` stops with `ERESOLVE could not resolve` | Make sure the `.npmrc` file in the repository root contains `legacy-peer-deps=true`. |
 | The build stops with `Something went wrong installing the "sharp" module` | Run `npm rebuild sharp`, then build again. |
+| The development server stops with `EBUSY: resource busy or locked` | Many files were moved or deleted while the server was running. Start `npx gulp serve` again. |
+| Page titles or icons disappear after you edit a file in `src/` | Stop the development server and start `npx gulp serve` again. |
+| A new page does not appear in the left table of contents | Add the page to `docs/summary.json`, then restart `npx gulp serve`. |
 
 ## Folder structure
 
 ```text
 .
-├── docs/                    Documentation pages (Markdown)
-│   └── summary.json         Left table of contents: titles, slugs, and file names
-├── src/                     Website template
-│   ├── components/          Header, table of contents, search, feedback
-│   ├── templates/           Page layout
-│   └── assets/              Style sheets (css/) and logos and icons (img/)
-├── static/
-│   ├── images/              Images used by the documentation pages
-│   ├── 404.js               404 page
+├── docs/                        Documentation pages
+│   ├── summary.json             Left table of contents: titles, slugs, and file names
+│   └── designer-guide/          Markdown pages, in folders that match the page URLs
+├── src/                         Website template
+│   ├── components/              Header, table of contents, search, feedback, page navigation
+│   ├── templates/               Page layout
+│   └── assets/
+│       ├── css/                 Style sheets
+│       └── img/                 Logo, favicons, and icons
+├── static/                      Files copied to the site as they are
+│   ├── images/                  Images used by the documentation pages
+│   ├── 404.js                   404 page
 │   ├── favicon.ico
 │   └── robots.txt
-├── build/                   gulp tasks
-│   ├── *.js                 Build, serve, test, table of contents, and other tasks
-│   └── lint/                Markdown lint rules used by the test tasks
-├── gatsby-config.js         Gatsby plugins
-├── gatsby-node.js           Page creation
-├── gatsby-browser.js        Browser-side Gatsby hooks
-├── .htaccess                Web server rules copied with the site
-├── config.json              Site settings: product name, header label, domain, URL prefix
-├── docs-structure.yaml      Top-level sections of the site
-├── redirects.json           Redirects from old URLs to new URLs
-├── .spelling                Word list for the spell check and the file-name check
-├── .npmrc                   npm settings needed for the install
-├── gulpfile.js              Loads the gulp tasks from build/
-└── package.json             npm dependencies and scripts
+├── build/                       gulp tasks
+│   ├── *.js                     One file for each group of tasks
+│   └── lint/                    Markdown lint rules used by the test tasks
+├── gatsby-config.js             Gatsby plugins
+├── gatsby-node.js               Page creation and redirects
+├── gatsby-browser.js            Browser-side Gatsby hooks
+├── config.json                  Site settings: product name, header label, domain, URL prefix
+├── docs-structure.yaml          Top-level sections of the site
+├── redirects.json               Redirects from old URLs to new URLs
+├── .spelling                    Word list for the spell check and the file-name check
+├── .npmrc                       npm settings needed for the install
+├── .htaccess                    Apache web server rules; copy it to the web root when you host the site
+├── .github/                     Pull request templates
+├── Jenkinsfile                  Continuous integration pipeline (optional)
+├── pipeline.cmd                 Git settings used by the pipeline (optional)
+├── gulpfile.js                  Loads the gulp tasks from build/
+└── package.json                 npm dependencies and scripts
 ```
 
 The following items are generated. They are ignored by Git and must not be edited by hand:
 
 | Path | Created by |
 | --- | --- |
-| `src/pages/`, `left-toc.json` | `gulp build` |
+| `src/pages/`, `left-toc.json` | `gulp serve` and `gulp build` |
 | `.cache/`, `public/` | Gatsby |
-| `node_modules/` | `npm install` |
+| `node_modules/`, `package-lock.json` | `npm install` |
+| `cireports/` | `npm test` |
+| `sitemap.xml` | `gulp sitemap` |
+
+### gulp task files
+
+| File in `build/` | Purpose |
+| --- | --- |
+| `build.js` | `clean`, `copy`, `sync-pages`, `toc`, `build`, and `postinstall` tasks. |
+| `serve.js` | `serve` task: starts the development server and watches `docs/`. |
+| `production.js` | `production-build` task. |
+| `toc.js` | Generates `left-toc.json` from `docs-structure.yaml` and `docs/summary.json`. |
+| `product-name.js`, `site-variables.js` | Replace the product name placeholders. |
+| `content.js`, `tab.js`, `tile.js`, `release-note.js` | Prepare the page content for Gatsby. |
+| `test.js` | `test` task, spell check, Markdown lint, and image checks. |
+| `file-validation.js`, `seo.js`, `url-validation.js`, `prism-validation.js` | The other checks that `npm test` runs. |
+| `sitemap.js` | `sitemap` task. |
+| `config.js` | Reads `config.json` and `package.json` for the other tasks. |
+
+## Write documentation pages
 
 ### Add or change a page
 
-1. Add or edit the Markdown file under `docs/`.
+1. Add or edit the Markdown file under `docs/`. Use lowercase words separated by hyphens for file and folder names.
 2. For a new page, add its title and file name to `docs/summary.json` so that it appears in the left table of contents.
-3. Put images under `static/images/` and reference them from the Markdown file with a path that starts with `/static/images/`.
+3. Put images under `static/images/` and reference them from the Markdown file with a path that starts with `/static/images/`. Give every image alt text.
 4. Run `npx gulp serve` to preview the change.
+5. Run `npm test` before you commit.
+
+### Page header
+
+Every page starts with a header block like this:
+
+```text
+---
+layout: post
+title: Manage Report Categories in Report Server | {{site.productName}}
+description: Create, open, update, pin, and delete report categories in {{site.productName}} Report Server, and manage share permissions so the right users can access each one.
+platform: report-platform
+documentation: ug
+---
+```
+
+| Field | Rule |
+| --- | --- |
+| `title` | Required. 46 to 60 characters, counted after the product name placeholder is replaced. |
+| `description` | Required. At least 100 characters; keep it under 160. |
+
+Use one top-level heading (`#`) per page, and do not repeat the `title` text in it.
+
+Use the product name placeholders instead of typing the product name. See [Change the product name](#change-the-product-name).
 
 ## White-label the site
 
@@ -120,17 +204,17 @@ All branding lives in `config.json`, the website template in `src/`, and a few f
 
 | What to change | Where |
 | --- | --- |
-| Product label next to the logo (`Enterprise`) | `additionalInfo.header` in `config.json` |
 | Brand name, header logo, favicon, and social sharing image | See [Replace the brand name, logo, and favicon](#replace-the-brand-name-logo-and-favicon). |
+| Product name inside the pages | `product.name` in `config.json`. See [Change the product name](#change-the-product-name). |
+| Product label next to the logo (`Enterprise`) | `additionalInfo.header` in `config.json` |
 | Colors and fonts | CSS variables in the `:root` blocks of `src/assets/css/style.css`. Header-only styles are in `header.css`. |
 | Header content | `src/components/Header.js` |
-| Feedback form | `src/components/Feedback.js` |
+| Feedback form, including its privacy policy link | `src/components/Feedback.js` |
 | Focus menu (Open in ChatGPT, Open in Claude) | `src/components/FocusButton.js` |
-| 404 page | `static/404.js` |
-| Analytics and tracking | Google Tag Manager ID and cookie domain in `src/components/HeadTag.js` and the tracking script URL in `src/templates/layout.js`. Remove them or replace them with your own. |
+| 404 page, including its links to demos and other documentation sites | `static/404.js` |
+| Analytics and tracking | Google Tag Manager ID and cookie domain in `src/components/HeadTag.js`. Remove them or replace them with your own. |
 | Site domain used by the `gulp sitemap` task | `publish.bucketName` in `config.json` |
 | URL path prefix | `repos.enterprise.url` in `config.json`, or the `--prefix` build option |
-| Product name inside the pages | `product.name` in `config.json`. See [Change the product name](#change-the-product-name). |
 
 ### Replace the brand name, logo, and favicon
 
@@ -157,7 +241,7 @@ Replace this file with your own logo. Keep the same file name.
 
 | File | Used for | Size |
 | --- | --- | --- |
-| `src/assets/img/boldreports-logo.svg` | Header logo | SVG, 237 x 47 (about 5:1) |
+| `src/assets/img/logo.svg` | Header logo | SVG, 237 x 47 (about 5:1) |
 
 The logo is displayed at 170 x 36 pixels and is scaled to fit, so a logo with a different shape still works but may look smaller. To change the displayed size, edit `width` and `height` of `.header-logo` in `src/assets/css/style.css`. Narrow screens use the smaller widths set for `.header-logo` at the end of `src/assets/css/header.css`.
 
@@ -201,11 +285,16 @@ To white-label the content, change `product.name`. If your product name has no t
 
 When you write new pages, use the placeholders instead of typing the product name.
 
-Links to `boldreports.com` inside the pages are not changed by this setting.
+The setting does not change these items. Review them by hand when you rebrand:
+
+* Links to other websites inside the pages.
+* Names of other products that the pages mention.
+* Text that appears inside the screenshots in `static/images/`.
 
 > **Note:** Keep `"name": "enterprise-docs"` in `package.json`. The build uses this name to find the matching entry under `repos` in `config.json`.
 
-After white-labeling:
+### After white-labeling
 
-1. Run `npx gulp serve` and check the header, favicon, and colors.
-2. Run `npm run build` and host the `public/` folder.
+1. Run `npx gulp serve` and check the header, favicon, colors, and a few pages.
+2. Run `npm test`.
+3. Run `npm run build` and host the `public/` folder.

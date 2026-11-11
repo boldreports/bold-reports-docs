@@ -15,7 +15,7 @@ documentation: ug
 You create the detail report in Web Report Designer with two hidden parameters, a dataset, and a table.
 
 1. Open the Web Report Designer.
-   ![{{site.productName}} designer](/static/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png '#width=400px')
+   ![{{site.productName}} designer](/static/images/report-designer/how-to/master-detail-report-subreport/report-designer.png '#width=400px')
 
 2. To add parameters to the detail report, click `Parameters`. Then, click `New parameter` in the parameter panel.
 
@@ -61,7 +61,7 @@ You can download the finished detail report from the
 You create the master report in Web Report Designer with the same dataset query, without the parameter filter, and a grouped table.
 
 1. Open the Web Report Designer.
-   ![{{site.productName}} designer](/static/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png '#width=450px')
+   ![{{site.productName}} designer](/static/images/report-designer/how-to/master-detail-report-subreport/report-designer.png '#width=450px')
 
 2. Connect to the data source using the [data source documentation](./../../manage-data/datasource/).
 

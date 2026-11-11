@@ -29,5 +29,5 @@ sitemap.xml
 static/*
 !static/images/
 !static/404.js
-!static/favicon.ico
+!static/branding/
 !static/robots.txt

@@ -31,7 +31,7 @@ The {{site.productNameTM}} Designer how-to guides cover the following tasks:
 
 * [Pass form data in REST API data source](./../how-to/pass-form-data-in-rest-api-data-source/)
 
-* [How to create the cover page report in {{site.productNameTM}}?](./../how-to/create-the-cover-page-report-in-bold-reports/)
+* [How to create the cover page report in {{site.productNameTM}}?](./../how-to/create-the-cover-page-report/)
 
 * [How to Repeat Row and Column Headers on Multiple Pages?](./../how-to/repeat-row-and-column-headers-on-multiple-pages/)
 

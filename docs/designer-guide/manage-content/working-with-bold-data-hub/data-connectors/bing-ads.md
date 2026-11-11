@@ -118,7 +118,7 @@ You connect Microsoft (Bing) Ads by creating a pipeline in Bold Data Hub and aut
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Bing ADs](/static/images/manage-content/working-with-etl/boldbi_panel.png#max-width=100%)
+    ![Bing ADs](/static/images/manage-content/working-with-etl/connector-panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 

@@ -48,7 +48,7 @@ The Report Server assigns each predefined variable directly from the server to t
 * {Report Link}: The link to the scheduled report.
 * {Export Format}: The chosen export file format for the schedule.
 * {Date}: Specifies the date when the schedule is triggered.
-* {Organization Name}: The [Organization name](./../../../administrator-guide/custom-rebranding/#organization-name), retrieved from the site settings.
+* {Organization Name}: The Organization name, retrieved from the site settings.
 * {Category Name}: The category name associated with the selected report.
 * {Expression}: Use dynamic expressions to customize content. See the [Expression](./../../report-designer/compose-report/expressions/) documentation for guidance on framing expressions.
     > Expressions utilizing **Dataset Fields** are not supported in the scheduled email template.

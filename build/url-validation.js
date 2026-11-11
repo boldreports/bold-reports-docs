@@ -165,7 +165,7 @@ function getHeaderName(header) {
 function getFileDetail(filePath, urlPath, routerData) {
     let baseName = basename(urlPath);
     let dirName = dirname(urlPath);
-    let homePage = config.additionalInfo.homePage.fileName + '.md';
+    let homePage = 'index.md';
     let indexPage = 'index.md';
     let referredFilePath = join((filePath === 'docs/' + homePage ? filePath.replace(homePage, '') : filePath).replace(indexPage, '').replace('.md', ''), dirName + '/' + baseName + '/').replace('docs', '').replace(/\\/g, '/');
     let data = routerData[referredFilePath];

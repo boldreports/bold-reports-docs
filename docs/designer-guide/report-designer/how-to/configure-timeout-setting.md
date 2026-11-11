@@ -9,7 +9,7 @@ description: Configure the timeout setting for data connector HTTP requests in {
 
 ## How do I configure the timeout setting?
 
-You configure the data connector timeout for {{site.productNameTM}} On-Premises Edition on the UMS configuration page. For configuration steps, read the [Configure Timeout Setting](../../../../administrator-guide/how-to/customize-timeout-settings/) section.
+You configure the data connector timeout for {{site.productNameTM}} On-Premises Edition on the UMS configuration page. For configuration steps, read the Configure Timeout Setting section in the Administrator Guide.
 
 ## Supported Data Connectors
 

@@ -90,7 +90,7 @@ function getDocCandidates(pagePath) {
     const normalizedPagePath = pagePath === '/' ? '/' : pagePath.replace(/^\/+|\/+$/g, '');
 
     if (normalizedPagePath === '/') {
-        return [`docs/${config.additionalInfo.homePage.fileName}.md`];
+        return ['docs/index.md'];
     }
 
     return [
@@ -101,7 +101,7 @@ function getDocCandidates(pagePath) {
 
 function getPagePathFromDoc(filePath) {
     const normalizedFilePath = normalizePath(filePath);
-    const homePagePath = `docs/${config.additionalInfo.homePage.fileName}.md`;
+    const homePagePath = 'docs/index.md';
 
     if (normalizedFilePath === homePagePath) {
         return '/';

@@ -335,7 +335,7 @@
 				"How to create master detail report using table?": "create-master-detail-report-using-table.md",
 				"How to create master detail report using list?": "create-master-detail-report-using-list.md",
 				"How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md",
-				"How to create the cover page report in {{site.productName}}?": "create-the-cover-page-report-in-bold-reports.md",
+				"How to create the cover page report in {{site.productName}}?": "create-the-cover-page-report.md",
 				"How to repeat row and column headers on multiple pages?": "repeat-row-and-column-headers-on-multiple-pages.md",
 				"How to remove the additional zeros when using percentage format?": "remove-additional-zeros-when-using-percentage-format.md"
 			},

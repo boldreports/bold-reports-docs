@@ -15,7 +15,7 @@ You create and register custom styles on the {{site.productNameTM}} Report Serve
 * Custom Location
 * Preconfigured Location
 
-For configuration steps, read the [Register Custom Styles](../../../../administrator-guide/how-to/register-custom-styles/) section.
+For configuration steps, read the Register Custom Styles section in the Administrator Guide.
 
 ## How do I choose the custom style in the designer?
 

@@ -41,7 +41,7 @@ You view a report in {{site.productNameTM}} Report Server by opening it from the
 2. Review the report, which opens in the Report Viewer.
     ![view report](/static/images/manage-content/manage-reports/view-report.png)
 
-    > **Note:** You can switch viewer modes using the `toggle` option in the page header, or by setting your preferred viewer mode under [Viewer / Designer preference](./../../../../administrator-guide/user-profile/) on the user profile page.
+    > **Note:** You can switch viewer modes using the `toggle` option in the page header, or by setting your preferred viewer mode under Viewer / Designer preference on the user profile page.
     > ![switching viewer](/static/images/manage-content/manage-reports/toggling-option.png)
 
 ## Breaking changes from v6.x
@@ -129,4 +129,4 @@ If a report doesn't open in the expected {{site.productNameTM}} Report Viewer mo
 * [Edit report in Web Report Designer](../edit-report/) if you need to change the report instead of just viewing it.
 * [Export Report](../export-report/) to save the report's current output in a format like PDF or Excel.
 * [Manage Report Views](../manage-report-views/) to save a specific set of viewer settings for reuse.
-* [Viewer / Designer preference](./../../../../administrator-guide/user-profile/) to set your default viewer mode once instead of toggling it each time.
+* Viewer / Designer preference to set your default viewer mode once instead of toggling it each time.

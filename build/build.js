@@ -42,7 +42,7 @@ function removePage(docsFile) {
 
 gulp.task('clean', (done) => {
     const staticFiles = sync('./static/*', {
-        ignore: ['./static/favicon.ico', './static/robots.txt', './static/images', './static/404.js', './static/*.zip']
+        ignore: ['./static/branding', './static/robots.txt', './static/images', './static/404.js', './static/*.zip']
     });
     if (staticFiles.length) rm('-rf', staticFiles);
     rm('-rf', ['./.cache', './public', './src/pages']);

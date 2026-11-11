@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import '../assets/css/feedback.css';
+import config from '../../config.json';
+
+const privacyPolicyUrl = config.privacyPolicyUrl || '';
 
 const getPageVoteKey = (pathName = '') => {
 	const cleanPath = (pathName || '').replace(/#.*$/, '').replace(/\.html?$/i, '') || '/';
@@ -452,11 +455,12 @@ const Feedback = ({ pathName = '' }) => {
 									<input id="emailcheckbox" aria-labelledby="label-emailcheckbox" className="e-control e-checkbox e-lib" type="checkbox" />
 									<span className="e-icons e-frame" aria-hidden="true"></span>
 									<span id="label-emailcheckbox" className="e-label">
-										I agree to the creation of a Syncfusion account in my name and to be contacted regarding this message. No further action will be taken. Please see our{' '}
-										<a href="https://www.syncfusion.com/privacy" target="_blank">
-											{' '}
-											Privacy policy.
-										</a>
+										I agree to be contacted regarding this message. No further action will be taken.{privacyPolicyUrl ? ' Please see our ' : ''}
+										{privacyPolicyUrl && (
+											<a href={privacyPolicyUrl} target="_blank" rel="noreferrer">
+												Privacy policy.
+											</a>
+										)}
 									</span>
 								</label>
 							</div>

@@ -3,20 +3,22 @@
         "name": "Bold Reports",
         "trademark": "<sup>®</sup>"
     },
+    "branding": {
+        "logo": "/branding/logo.svg",
+        "favicon": "/branding/favicon.ico",
+        "appIcon": "/branding/app-icon.png",
+        "socialImage": "/branding/social-image.png",
+        "colors": {
+            "--header-text-link": "#0058e6"
+        }
+    },
+    "siteLink": "https://help.boldreports.com/enterprise-reporting",
     "additionalInfo": {
         "header": "Enterprise",
-        "homePage": {
-            "name": "Overview",
-            "fileName": "overview"
-        }
+        "homePage": "/designer-guide/"
     },
-    "publish": {
-        "bucketName": "help.boldreports.com"
+    "analytics": {
+        "googleTagManagerId": ""
     },
-    "repos": {
-        "enterprise": {
-            "name": "enterprise-docs",
-            "url": "enterprise-reporting"
-        }
-    }
+    "privacyPolicyUrl": ""
 }
