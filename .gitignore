@@ -10,18 +10,14 @@ node_modules/
 yarn.lock
 package-lock.json
 
-# src
-src/
+# generated pages
+/src/pages/
 
 # common
 stack.json
-.htmllintrc
-.jshintrc
-.markdownlint.json
-gatsby-config.js
-gatsby-node.js
-gatsby-browser.js
-.htaccess
+/.htmllintrc
+/.jshintrc
+/.markdownlint.json
 
 # misc
 cireports
@@ -29,7 +25,7 @@ docs-utilities/
 temp/
 .github-js/
 .github-angular/
-pdf/
+/pdf/
 docs-utilities/
 url-validation-error.log
 left-toc.json
@@ -38,27 +34,10 @@ sitemap.xml
 # static
 static/*
 !static/assets/
+!static/404.js
+!static/favicon.ico
+!static/robots.txt
+!static/js/
 
 # startFiles
-docs/administrator-guide/manage-app-settings/cors-settings.md
-static/assets/cloud/images/settings/cors-settings.png
-static/assets/cloud/images/settings/customize-cors-policy.png
-static/assets/cloud/images/settings/allowed-origins.png
-static/assets/cloud/images/settings/allowed-methods.png
-static/assets/cloud/images/settings/allowed-headers.png
-static/assets/cloud/images/settings/allowed-credentials.png
-static/assets/cloud/images/settings/expose-headers.png
-static/assets/cloud/images/settings/preflight-max-age.png
-docs/administrator-guide/manage-app-settings/content-security-policy.md
-static/assets/cloud/images/settings/csp-settings.png
-static/assets/cloud/images/settings/enable-csp.png
-static/assets/cloud/images/settings/csp-source.png
-static/assets/cloud/images/settings/csp-script.png
-static/assets/cloud/images/settings/csp-font.png
-static/assets/cloud/images/settings/csp-image.png
-static/assets/cloud/images/settings/csp-connect.png
-static/assets/cloud/images/settings/csp-frame.png
-docs/administrator-guide/manage-app-settings/x-frame-options.md
-static/assets/cloud/images/settings/x-frame-options.png
-static/assets/cloud/images/settings/enable-x-frame-options.png
 # endFiles

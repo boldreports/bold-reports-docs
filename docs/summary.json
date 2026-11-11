@@ -1,868 +1,450 @@
 {
-    "Overview": "overview.md",
-    "Deployment":{
-        "_slug": "deployment",
-        "Overview": "getting-started.md",
-        "Deploy on Windows": {
-            "_slug": "deploy-on-windows",
-            "Prerequisites": "prerequisites.md",
-            "Installation and Deployment": "installation-and-deployment.md",
-            "Install Bold Reports over Bold BI": "install-bold-reports-over-bold-bi.md",
-            "Silent Installation": "silent-installation.md"
-        },
-        "Deploy on Azure": {
-            "_slug": "deploy-on-azure",
-            "Prerequisites": "prerequisites.md",
-            "Recommended Azure VM configuration": "vm-configuration.md",
-            "Self-deploy a Bold Reports Server on Microsoft Azure": "self-deploy-bold-reports-on-azure-vm.md",
-            "Bold Reports in Microsoft Azure Marketplace": "bold-reports-in-azure-marketplace.md",
-            "Upgrade to the latest version of Bold Reports Enterprise Edition": "upgrade-vm-to-latest-version.md"
-        },
-        "Deploy on AWS": {
-            "_slug": "deploy-on-aws",
-            "Prerequisites": "prerequisites.md",
-            "Self-deploy a Bold Reports Server on Amazon Web Service": "self-deploy-bold-reports-server-on-amazon-web-service.md",
-            "Deploy on ECS Fargate": "ecs-deployment-guides.md",
-            "Upgrade VM to the latest version": "upgrade-vm-latest-version.md"
-        },
-        "Deploy on GCP": {
-            "_slug": "deploy-on-google-cloud-platform",
-			"Prerequisites": "prerequisites.md",
-			"Self-deploy a Bold Reports Server on GCP VM": "self-deploy-bold-reports-server-on-google-cloud-platform.md"
+	"Designer Guide": {
+		"_slug": "designer-guide",
+		"Report Designer": {
+			"_slug": "report-designer",
+			"Report Creation": "design-rdl-report-in-web-report-designer.md",
+			"Manage Data": {
+				"_slug": "manage-data",
+				"Connection Settings": {
+					"_slug": "connection-settings",
+					"Configuring SSH Tunnel": "configuring-ssh-tunnel.md"
+				},
+				"Data Connectors": {
+					"_slug": "data-connectors",
+					"Amazon Aurora": "amazon-aurora-data-source.md",
+					"Amazon RDS": "amazon-rds-data-source.md",
+					"Amazon Redshift": "amazon-redshift-data-source.md",
+					"AWS Open Search": "aws-opensearch-data-source.md",
+					"AWS Secrets Manager": "aws-secrets-manager-data-source.md",
+					"Azure SQL": "azure-sql-data-warehouse.md",
+					"CDATA": "cdata-data-source.md",
+					"CSV": "csv-data-source.md",
+					"Elastic Search": "elastic-search-data-source.md",
+					"Excel": "excel-data-source.md",
+					"Google BigQuery": "google-bigquery-data-source.md",
+					"Google Cloud SQL": "google-cloud-sql-data-source.md",
+					"JSON": "json-data-source.md",
+					"MariaDB": "mariadb-data-source.md",
+					"MemSQL": "memsql-data-source.md",
+					"Microsoft SQL": "sql-data-source.md",
+					"Microsoft SQL Server Analysis Services": "ssas-data-source.md",
+					"MongoDB": "mongodb-data-source.md",
+					"MySQL": "mysql-data-source.md",
+					"ODBC": "odbc-data-source.md",
+					"OData": "odata-data-source.md",
+					"OLEDB": "oledb-data-source.md",
+					"Oracle": "oracle-data-source.md",
+					"PostgreSQL": "postgresql-data-source.md",
+					"Rest API": "rest-api-data-source.md",
+					"Snowflake": "snowflake-data-source.md",
+					"XML": "xml-data-source.md"
+				},
+				"DataSource": {
+					"_slug": "datasource",
+					"Create an Embedded DataSource": "create-an-embedded-data-source.md",
+					"Edit an Embedded DataSource": "modify-an-embedded-data-source.md",
+					"Link a Shared DataSource": "link-a-shared-data-source.md",
+					"Edit a Shared DataSource": "modify-shared-data-source.md",
+					"Delete a DataSource": "delete-a-data-source.md",
+					"Duplicate a DataSource": "duplicate-a-data-source.md",
+					"Reordering DataSources": "reorder-data-source.md"
+				},
+				"DataSet": {
+					"_slug": "dataset",
+					"Create an Embedded DataSet": "create-an-embedded-dataset.md",
+					"Edit an Embedded DataSet": "modify-an-embedded-dataset.md",
+					"Link a Shared DataSet": "link-a-shared-dataset.md",
+					"Edit a Shared DataSet": "modify-shared-dataset.md",
+					"Delete a DataSet": "delete-a-dataset.md",
+					"Duplicate a DataSet": "duplicate-a-dataset.md",
+					"Reordering DataSets": "reorder-a-dataset.md",
+					"DataSet Fields": "dataset-fields.md",
+					"DataSet Filters": "add-a-filter-to-a-dataset.md",
+					"DataSet Parameters": "dataset-parameters.md",
+					"Configure Custom Attribute": "configure-custom-attribute.md"
+				}
+			},
+			"Transforming Data": {
+				"_slug": "transforming-data",
+				"Joining Tables": "join-table.md",
+				"Join Types": "supported-join-types.md",
+				"Formatting Columns": "formatting-columns.md",
+				"Query Filter": "query-filter.md",
+				"DataSet Parameter": "link-a-query-parameter-with-a-report-parameter.md",
+				"Query Parameter": "define-query-parameters.md",
+				"Configuring Expression Columns": "configure-expression-columns.md",
+				"Supported Built-in Functions in Expression Designer": "supported-functions-in-query-expression.md"
+			},
+			"Report Parameters": {
+				"_slug": "report-parameters",
+				"Add Report Parameter": "add.md",
+				"Edit Report Parameter": "edit.md",
+				"Delete Report Parameter": "delete.md",
+				"Reordering Parameters": "reorder-parameters.md",
+				"Define Available Values": "define-available-values-for-parameter.md",
+				"Define Default Values": "define-default-values-for-parameter.md",
+				"Create Multi Value Parameter": "create-multi-value-parameter.md",
+				"Create Cascading Parameter": "create-cascading-parameter.md",
+				"Parameters Layout": "parameters-layout.md"
+			},
+			"Image Manager": {
+				"_slug": "image-manager",
+				"Add an embedded image": "add-image.md",
+				"Delete an embedded image": "delete-image.md"
+			},
+			"Compose Report": {
+				"_slug": "compose-report",
+				"Toolbar": "tool-bar.md",
+				"Design Surface": {
+					"_slug": "design-surface",
+					"Report Item Resizing": "report-item-resizing.md",
+					"Report Item Selection": "report-item-selection.md",
+					"Report Item Alignment": "report-item-alignment.md",
+					"Context Menu": "context-menu.md"
+				},
+				"Properties Panel": "properties-panel.md",
+				"Ruler": "ruler.md",
+				"Page Margin": "page-margin.md",
+				"Unit Switcher": "unit-switcher.md",
+				"Header Body and Footer Properties": "header-body-and-footer-properties.md",
+				"Show or Hide Header and Footer": "show-or-hide-header-footer-in-report.md",
+				"Layouting": "layout-ordering.md",
+				"Multiple Column Report": "create-multiple-column-report-ssrs.md",
+				"Page Layout": "page-layout.md",
+				"Property Navigator": "property-navigator.md",
+				"Report Explorer": "report-explorer.md",
+				"Report Properties": "report-properties.md",
+				"Common Properties": "common-properties.md",
+				"Report Variables": "report-variables.md",
+				"Sort Data": "sort-data.md",
+				"Group Data": "group-data.md",
+				"Filter Data": "filter-data.md",
+				"Format Data": "format-data.md",
+				"Report Item Multiselection": "report-item-multi-selection.md",
+				"Expressions": {
+					"_slug": "expressions",
+					"Dataset Fields": "using-dataset-fields.md",
+					"Parameter": "using-report-parameters.md",
+					"Built-in Fields": "using-built-in-fields.md",
+					"Built-in Functions": "using-built-in-functions.md",
+					"Operators": "using-operators.md"
+				},
+				"Background Image": "background-image.md",
+				"Interactive Sorting": "interactive-sorting.md",
+				"Drilldown Action": "create-ssrs-drill-down-report.md",
+				"Drillthrough Action": "create-ssrs-drill-through-report.md",
+				"Linking": "link-data.md",
+				"Bookmark": "bookmark.md",
+				"Document Map": "document-map.md",
+				"Code Module": "code-module.md",
+				"Performance Settings": "performance-settings.md"
+			},
+			"Report Items": {
+				"_slug": "report-items",
+				"Line": "line.md",
+				"Rectangle": "rectangle.md",
+				"Image": "image.md",
+				"SubReport": {
+					"_slug": "subreport",
+					"Design RDL Report using Subreport": "design-rdl-report-using-subreport.md"
+				},
+				"TextBox": {
+					"_slug": "textbox",
+					"Design RDL Report using Textbox": "design-rdl-report-using-textbox.md",
+					"Add html in to a report": "add-html-in-to-a-report.md"
+				},
+				"Tablix": {
+					"_slug": "tablix",
+					"Grouping Panel": "grouping-panel.md",
+					"Tablix Member Properties": "member-properties.md",
+					"Assign Data": "assign-data-to-tablix-data-region.md",
+					"Cell Properties": "cell-properties.md",
+					"Cell Border": "cell-border.md",
+					"Resizing": "resize-tablix-data-region.md",
+					"Insert or Delete a Row": "insert-or-delete-a-row-ssrs.md",
+					"Insert or Delete a Column": "insert-or-delete-a-column-ssrs.md",
+					"Tablix Group": "group.md",
+					"Insert or Delete a Row Group": "insert-or-delete-a-row-group-ssrs.md",
+					"Insert or Delete a Column Group": "insert-or-delete-a-column-group-ssrs.md",
+					"Insert or Delete a Details Group": "add-or-delete-a-details-group-ssrs.md",
+					"Merge Cells in Data Region": "merge-cells-in-tablix-data-region.md",
+					"Add Filters": "add-filters-to-tablix-data-region.md",
+					"Sort Data": "sort-data-in-tablix-data-region.md",
+					"Add Total": "add-total-in-tablix-data-region.md",
+					"Add Header and Footer": "add-group-header-and-footer-in-tablix-data-region.md",
+					"Nested Data Regions": "nested-data-region.md",
+					"Simple Table Design": "design-ssrs-rdl-report-using-table.md",
+					"Multi Text Run Table Design": "design-ssrs-rdl-report-using-table-with-multi-text-run.md",
+					"Add Grouping and Totals": "add-grouping-and-totals-in-tablix-design.md",
+					"Conditional Formatting": "conditional-formatting-tablix-data-region.md",
+					"Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md",
+					"Keep Column Headers Visible While Scrolling in SSRS": "keep-column-headers-visible-while-scrolling-in-ssrs.md",
+					"No Rows Message": "no-rows-message.md"
+				},
+				"Matrix": {
+					"_slug": "matrix",
+					"Create a Matrix Report": "design-ssrs-matrix-report.md"
+				},
+				"List": {
+					"_slug": "list",
+					"Create a Mail Merge Report": "design-ssrs-rdl-report-using-list.md"
+				},
+				"Tablix Wizard": {
+					"_slug": "tablix-wizard",
+					"Create a Matrix Report using Tablix Wizard": "design-report-using-the-tablix-wizard.md"
+				},
+				"Map": {
+					"_slug": "map",
+					"Properties": "properties.md",
+					"Binding Data": "binding-data.md",
+					"Legend": "legend.md",
+					"Shape Settings": "shape-settings.md",
+					"Shape Color Rule": "shape-color-rule.md",
+					"Color Palette Shape Rule": "color-palette-shape-rule.md",
+					"Color Range Shape Rule": "color-range-shape-rule.md",
+					"Custom Colors Shape Rule": "custom-color-shape-rule.md",
+					"Equal Distribution Shape Rule": "equal-distribution-shape-rule.md",
+					"Equal Interval Shape Rule": "equal-interval-shape-rule.md",
+					"Optimal Distribution Shape Rule": "optimal-distribution-shape-rule.md",
+					"Custom Distribution Shape Rule": "custom-distribution-shape-rule.md",
+					"Define Custom Colors": "define-custom-colors.md",
+					"Define Custom Data Range": "define-custom-data-range.md",
+					"Marker Settings": "marker-settings.md",
+					"Marker Color Rule": "marker-color-rule.md",
+					"Color Palette Marker Rule": "color-palette-marker-rule.md",
+					"Color Range Marker Rule": "color-range-marker-rule.md",
+					"Custom Colors Marker Rule": "custom-color-marker-rule.md",
+					"Equal Distribution Marker Rule": "equal-distribution-marker-rule.md",
+					"Equal Interval Marker Rule": "equal-interval-marker-rule.md",
+					"Optimal Distribution Marker Rule": "optimal-distribution-marker-rule.md",
+					"Custom Distribution Marker Rule": "custom-distribution-marker-rule.md",
+					"Marker Rule": "marker-rule.md",
+					"Use Case": {
+						"_slug": "use-case",
+						"Custom Color Rule": "design-map-using-custom-rule.md",
+						"Color Range Rule": "design-map-using-color-range-rule.md",
+						"Color Palette Rule": "design-map-using-color-palette-rule.md",
+						"Marker Rule": "design-map-using-marker-rule.md",
+						"Marker Color Range Rule": "design-map-using-marker-color-range-rule.md"
+					}
+				},
+				"Chart": {
+					"_slug": "chart",
+					"Area": "area-chart.md",
+					"Bar": "bar-chart.md",
+					"Bubble": "bubble-chart.md",
+					"Column": "column-chart.md",
+					"Doughnut": "doughnut-chart.md",
+					"Exploded Pie": "exploded-pie-chart.md",
+					"Funnel": "funnel-chart.md",
+					"Line": "line-chart.md",
+					"Line with Markers": "line-with-markers.md",
+					"Pie": "pie-chart.md",
+					"Polar": "polar-chart.md",
+					"Pyramid": "pyramid-chart.md",
+					"Radar": "radar-chart.md",
+					"Range Area": "range-area-chart.md",
+					"Range Bar": "range-bar-chart.md",
+					"Range Column": "range-column-chart.md",
+					"Scatter": "scatter-chart.md",
+					"Smooth Area": "smooth-area-chart.md",
+					"Smooth Line": "smooth-line-chart.md",
+					"Smooth Line with Markers": "smooth-line-with-markers.md",
+					"Smooth Range Area Chart": "smooth-range-area-chart.md",
+					"Stacked Area 100%": "stacked-area-100-chart.md",
+					"Stacked Area": "stacked-area-chart.md",
+					"Stacked Bar 100%": "stacked-bar-100-chart.md",
+					"Stacked Bar": "stacked-bar-chart.md",
+					"Stacked Column 100%": "stacked-column-100-chart.md",
+					"Stacked Column": "stacked-column-chart.md",
+					"Stepped Line": "stepped-line-chart.md",
+					"Series": "series.md",
+					"Striplines": "striplines.md",
+					"Switch Series Chart Type": "switch-chart-type.md",
+					"Show Legend": "legend.md",
+					"Show Marker": "marker.md",
+					"Show Data Label": "data-label.md",
+					"Color Palette": "color-palette.md",
+					"Axis": "axis.md",
+					"Chart Types": "types.md",
+					"Embedding Charts within a Tablix": "nested-data-region.md",
+					"Filter Data": "add-filters-to-chart-data-region.md",
+					"Sort Data": "sort-data-in-chart-data-region.md",
+					"No Data Message": "no-data-message.md",
+					"Max Data Count": "max-data-count-for-chart-item.md"
+				},
+				"Indicator": "indicator.md",
+				"Gauge": {
+					"_slug": "gauge",
+					"Linear Gauge": "linear-gauge.md",
+					"Radial Gauge": "radial-gauge.md"
+				},
+				"Data bar": {
+					"_slug": "data-bar",
+					"Design RDL Report using Data bar": "design-ssrs-data-bar-using-table.md"
+				},
+				"Sparkline": {
+					"_slug": "sparkline",
+					"Design RDL Report using Sparkline": "design-ssrs-sparkline-using-table.md"
+				},
+				"Barcode": {
+					"_slug": "barcode",
+					"Create a Product Details Report": "design-ssrs-rdl-report-using-barcode.md",
+					"Supported Barcode Types": "supported-barcode-types.md"
+				},
+				"Signature": {
+					"_slug": "signature",
+					"Design RDL Report with Electronic Signature": "design-ssrs-rdl-report-using-electronic-signature.md",
+					"Design RDL Report with PDF Signature": "design-report-with-pdf-signature.md"
+				},
+				"Shape": {
+					"_slug": "shape",
+					"Design RDL Report using Shapes": "design-ssrs-rdl-report-using-shapes.md",
+					"Shape Types": "shape-types.md",
+					"Use Cases": "use-case-examples.md"
+				},
+				"HTML": {
+					"_slug": "html",
+					"Design RDL Report with HTML Content": "design-report-with-html-content.md",
+					"Troubleshooting and FAQ": "troubleshooting-and-faq.md"
+				},
+				"PDF": {
+					"_slug": "pdf",
+					"Design RDL Report with PDF Content": "design-report-with-pdf-content.md",
+					"Troubleshooting and FAQ": "troubleshooting-and-faq.md"
+				}
+			},
+			"Report Parts": "report-parts.md",
+			"Open report": "open-report.md",
+			"Publish report": "publish-report.md",
+			"Preview report": "preview-report.md",
+			"Supported Items": "supported-unsupported-features.md",
+			"Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
+			"How To": {
+				"_slug": "how-to",
+				"Configure Map Shapes": "configure-map-shapes.md",
+				"Configure Custom Styles": "configure-custom-styles.md",
+				"Configure Timeout Setting": "configure-timeout-setting.md",
+				"Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md",
+				"How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md",
+				"Resolve misused headers error": "resolve-misused-header-name-error-rest-api-data-source.md",
+				"Pass form data with post action": "pass-form-data-in-rest-api-data-source.md",
+				"How to select all the available values in the parameter list as default": "set-all-values-in-multi-value-parameters-as-default.md",
+				"How to hide the table column and row when the field value is empty?": "hide-table-column-or-row-when-field-value-empty.md",
+				"How to create master detail report using table?": "create-master-detail-report-using-table.md",
+				"How to create master detail report using list?": "create-master-detail-report-using-list.md",
+				"How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md",
+				"How to create the cover page report in Bold Reports?": "create-the-cover-page-report-in-bold-reports.md",
+				"How to repeat row and column headers on multiple pages?": "repeat-row-and-column-headers-on-multiple-pages.md",
+				"How to remove the additional zeros when using percentage format?": "remove-additional-zeros-when-using-percentage-format.md"
+			},
+			"FAQ": {
+				"_slug": "faq",
+				"Display no data message for a data region": "display-no-data-message-for-a-data-region.md"
+			}
 		},
-        "Deploy on Azure App Service": {
-            "_slug": "azure-app-service",
-            "Prerequisites": "prerequisites.md",
-            "Recommendations": "recommendations.md",
-            "Using ARM template": "using-arm-template.md",
-            "Client libraries": "client-libraries.md",
-            "Upgrade": {
-                "_slug": "upgrade",
-                "Upgrade to latest": "upgrade-to-latest.md",
-                "Upgrade v3.x to v5.x": "upgrade-v3x-to-v5x.md"
-            }
-        },
-        "Deploy on Linux": {
-            "_slug": "deploy-on-linux",
-            "Prerequisites": "prerequisites.md",
-            "v5.x or older": {
-                "_slug": "v5.x-or-older",
-                "Bold Reports on Ubuntu": "bold-report-ubuntu.md"
-            },
-            "Bold Reports on Ubuntu": "bold-report-ubuntu.md",
-            "Bold Reports on CentOS": "bold-reports-on-centos.md",
-            "Bold Reports on Oracle": "bold-reports-on-oracle.md",
-            "Bold Reports on RHEL": "bold-reports-on-rhel.md",
-            "Bold Reports Using RPM Package": "bold-reports-using-rpm-package.md",
-            "Bold Reports on Alma Linux": "bold-reports-on-alma-linux.md",
-            "Bold Reports on Debian Linux": "bold-reports-on-debian-linux.md",
-            "Bold Reports on Kali Linux": "bold-reports-on-kali-os.md",
-            "Bold Reports on Rocky Linux": "bold-reports-on-rocky-os.md",
-            "Bold Reports on OpenSUSE 15": "bold-reports-on-opensuse-15.md",
-            "Auto Deployment": "bold-reports-linux-auto-deployment.md",
-			"Bold Reports Over Bold BI": "bold-reports-over-bold-bi.md",
-            "Install optional libraries": "install-opt-library.md",
-            "Upgrading Bold Reports Linux package to the Latest Version": "upgrade-linux-server.md"
-        },
-        "Deploy on Docker": {
-            "_slug": "deploy-on-docker",
-            "Prerequisites": "prerequisites.md",
-            "Bold Reports on Docker": {
-                "_slug": "bold-reports-on-docker",
-                "Bold Reports on Docker Single Container": "bold-reports-on-single-container.md",
-                "Bold Reports on Docker Multi Container": "bold-reports-on-multi-container.md",
-                "Deploy Bold Reports Evaluation on Docker": "bold-reports-eval-on-single-container.md",
-                "How to configure SSL for Bold Reports application": "how-to-configure-ssl-for-docker-compose.md",
-                "Upgrading to the latest version": "upgrade-to-latest-version.md"
-            }
-        },
-        "Deploy on Kubernetes": "deploy-on-kubernetes.md",
-        "Deploy on Alibaba Cloud Kubernetes(ACK)": "deploy-on-alibaba-cloud.md",
-        "Deploy on Podman": "deploy-on-podman.md",
-        "Deploying on Cloud Platform using Terraform": "deploying-bold-reports-on-cloud-platform-using-terraform.md",
-        "Bold Reports High Availability Guide": {
-            "_slug": "bold-reports-high-availability-guide",
-            "High Availability Environment in Windows Using Shared Folder For Bold Reports": "set-up-a-high-availability-environment-in-windows-using-shared-folder-for-bold-reports.md",
-            "Scaling Bold Reports using Multiple Replica Sets": "scaling-multiple-replica-sets.md",
-            "Configuring Warm Standby for Bold Reports": "configuring-warm-standby-for-bold-reports.md"
-        },
-        "Offline Installation": {
-            "_slug": "offline-installation",
-            "Windows ": "windows.md",
-            "Docker ": "docker.md",
-            "Linux": "linux.md"
-        },
-        "Upgrade": {
-            "_slug": "upgrade",
-            "On-premises": {
-                "_slug": "on-premises",
-                "Upgrade from classic platform": {
-                    "_slug": "upgrade-from-classic-platform",
-                    "Upgrade v1.x to latest": "upgrade-bold-reports-from-v1.x-to-latest.md",
-                    "Migrate Data to Bold Reports Multi-Tenant": "data-migration.md"
-                },
-                "Version Upgrade": "upgrade-bold-reports-to-latest-version.md"
-            },
-            "Azure": {
-                "_slug": "azure",
-                "Upgrade v2.4.19 to latest": "upgrade-v2.x-to-latest.md",
-                "Upgrade Bold Reports Azure App Service from v1.x to 2.3.x": "upgrade-v1.x.md",
-                "Upgrade Bold Reports Azure App Service from v2.x to 2.4.19": "upgrade-app-service.md",
-                "Upgrade Syncfusion Report Server Azure App Service from v4.x to 2.3.x": "migrate-syncfusion-report-server-app-service.md"
-            }
-        },
-        "Upgrade Center": {
-            "_slug": "upgrade-center",
-            "Overview": "index.md",
-            "Upgrade Center on Kubernetes": "upgrade-center-on-kubernetes.md"
-        }
-    },
-    "Application Startup": {
-        "_slug": "application-startup",
-        "SQL Server": "sql-configuration.md",
-        "PostgreSQL": "postgresql-configuration.md",
-        "MySQL": "mysql-configuration.md",
-        "Oracle": "oracle-configuration.md"
-    },
-    "Utilities": {
-        "_slug": "utilities",
-        "Reset Password": "reset-password.md",
-        "Reset Application Database": "reset-application-database.md",
-        "Reset 2FA": "reset-two-factor-authentication.md",
-        "v2.4 or older": {
-            "_slug": "v2.4-or-older",
-            "Reset Password for Bold Reports version 2.4 or older": "reset-password.md",
-            "Reset Application Database for Bold Reports version 2.4 or older": "reset-application-database.md"
-        }
-    },
-    "Administrator Guide": {
-        "_slug": "administrator-guide",
-        "Manage Users": {
-            "_slug": "manage-users",
-            "Users": {
-                "_slug": "users",
-                "Manage Users": "manage-users.md",
-                "Import Users": {
-                    "_slug": "import-users",
-                    "From CSV": "import-users-from-csv.md",
-                    "From Active Directory": "import-active-directory-users.md",
-                    "From Azure Active Directory": "import-azure-active-directory-users.md",
-                    "From Existing Database": "import-users-from-database.md"
-                },
-                "Synchronize": {
-                    "_slug": "synchronize",
-                    "Active Directory Users": "synchronize-active-directory-users.md",
-                    "Azure Active Directory Users": "synchronize-azure-active-directory-users.md",
-                    "Existing Database Users": "synchronize-existing-database-users.md"
-                },
-                "Manage System Users": "manage-system-users.md"
-            },
-            "Groups": {
-                "_slug": "groups",
-                "Manage Groups": "manage-groups.md",
-                "Import Groups": {
-                    "_slug": "import-groups",
-                    "From Active Directory": "import-active-directory-groups.md",
-                    "From Azure Active Directory": "import-azure-active-directory-groups.md"
-                },
-                "Synchronize": {
-                    "_slug": "synchronize",
-                    "Active Directory Groups": "synchronize-active-directory-groups.md",
-                    "Azure Active Directory Groups": "synchronize-azure-active-directory-groups.md"
-                }
-            },
-            "Account Activation": "account-activation.md"
-        },
-        "Manage Permissions": "manage-permissions.md",
-        "User Role": "user-role.md",
-        "Authentication": {
-            "_slug": "authentication",
-            "Single Sign On": {
-                "_slug": "single-sign-on",
-                "Overview": "overview.md",
-                "OAuth 2.0": {
-                    "_slug": "oauth-2.0",
-                    "OneLogin": "onelogin.md",
-                    "Okta": "okta.md",
-                    "Amazon Cognito": "amazon-cognito.md",
-                    "Auth0": "auth0.md"
-                },
-                "OpenID Connect": {
-                    "_slug": "openid-connect",
-                    "OneLogin": "onelogin.md",
-                    "Okta": "okta.md",
-                    "Auth0": "auth0.md",
-                    "Keycloak": "keycloak.md"
-                },
-                "Office 365": "office-365.md",
-                "Azure Active Directory": "azure-active-directory.md"
-            }
-        },
-        "Manage App Settings": {
-            "_slug": "manage-app-settings",
-            "Active Directory": "active-directory.md",
-            "Azure Active Directory": "azure-active-directory.md",
-            "Email Account Settings": {
-                "_slug": "email-account-settings",
-                "SMTP": "email-settings.md",
-                "Microsoft 365": "office-365-account.md",
-                "Amazon SES": "amazon-email-service.md",
-                "Email Activity Logs": "email-activity-logs.md",
-                "Email Templates": "email-templates.md"
-            },
-            "Connectors Settings": "connectors-settings.md",
-            "Database Settings": "database-settings.md",
-            "Report Settings": "report-settings.md",
-            "Oauth2.0": "oauth-settings.md",
-            "OpenID Connect": "open-id-connect-settings.md",
-            "JWT Authentication": "json-web-token-settings.md",
-            "CORS Settings": "cors-settings.md",
-            "Content Security Policy Settings": "content-security-policy.md",
-            "X-Frame-Options Configuration": "x-frame-options.md",
-            "IP Allowlisting Configuration": "ip-allowlisting-configuration.md",
-            "Synchronization Schedule": {
-                "_slug": "synchronization-schedule",
-                "Active Directory Synchronization Schedule": "active-directory-synchronization-schedule.md",
-                "Azure Active Directory Synchronization Schedule": "azure-active-directory-synchronization-schedule.md",
-                "Database Synchronization Schedule": "database-synchronization-schedule.md"
-            }
-        },
-        "Manage Sites": {
-            "_slug": "manage-sites",
-            "Create Site": "create-site.md",
-            "v6.1 or Later": {
-                "_slug": "v6.1-or-later",
-                "Single Database For Multiple Sites": "single-database-for-multiple-sites.md"
-            },
-            "v7.1 or Later": {
-                "_slug": "v7.1-or-later",
-                "Single Database For All Sites": "single-database-for-all-sites.md"
-            },
-            "Site Administration": {
-                "_slug": "site-administration",
-                "Rebranding": "rebranding.md",
-                "Reverse Proxy": "proxy-settings.md",
-                "Email Settings": "email-settings.md",
-                "Account Settings": "account-settings.md",
-                "Authentication": {
-                    "_slug": "authentication",
-                    "Default Authentication": "default-authentication.md",
-                    "OAuth 2.0 Support": "oauth-2.0-support.md",
-                    "OpenID Support": "openid-settings.md",
-                    "JSON Web Token": "json-web-token.md"
-                },
-                "Look and Feel Settings": {
-                    "_slug": "look-and-feel-settings",
-                    "Font": "font.md"
-                },
-                "Security": "security.md",
-                "API Keys": "api-keys.md",
-                "Configuration": "configuration.md",
-                "UI Customization": "ui-customization.md",
-                "Manage License": "manage-license.md"
-            },
-            "Manage Sites": "manage-sites.md",
-            "Manage Users": "manage-users.md",
-            "Two Factor Authentication": "two-factor-authentication.md",
-            "Manage Admin Access": "manage-admin-access.md"
-        },
-        "User Profile": "user-profile.md",
-        "Rebranding": "custom-rebranding.md",
-        "Localization": {
-            "_slug": "localization",
-            "Latest": "localization.md",
-            "Below 3.1": "lower-version.md"
-        },
-        "How To": {
-            "_slug": "how-to",
-            "Query Execution Policy": {
-                "_slug": "query-execution-policy",
-                "Security Policy": "security-policy.md",
-                "Permission Policy": "permission-policy.md"
-            },
-            "Migration": {
-                "_slug": "migration",
-                "One server to another server using Sql database on Windows?": "migrate-server-to-another-server-using-sql-database-on-windows.md",
-                "One server to another server using Postgresql database on Windows?": "migrate-server-to-another-server-using-postgresql-database-on-windows.md",
-                "One server to another server without database on Windows?": "migrate-server-to-another-server-without-database-on-windows.md",
-                "One server to another bold reports server with database in azure app service?": "migrate-bold-reports-server-with-database-in-azure-app-service.md",
-                "EC2 instance windows server to another server with postgresql database?": "migrate-ec2-instance-windows-server-with-postgresql-database.md",
-                "One single tenant server to multiple server in azure blob storage?": "migrate-from-one-server-single-tenant-to-multiple-server-in-azure-blob-storage.md",
-                "How to migrate the Bold Reports<sup>®</sup> Database from One Server to Another Using MySQL?": "migrate-bold-reports-database-from-one-server-to-another-server-using-mysql.md"
-            },
-            "Register Custom Styles": "register-custom-styles.md",
-            "Configure Timeout Setting": "customize-timeout-settings.md",
-            "What resources will be generated on the installed machine?": "what-are-the-resources-will-be-generated-in-the-installed-machine.md",
-            "How to change the binding in the Bold Reports Enterprise": "how-to-change-the-binding-in-the-bold-reports.md",
-            "How to update the database in Bold Reports Application": "how-to-update-the-database-in-bold-reports-application.md",
-            "How to Resolve the HTTP error 500.19 - Cannot login locally": "how-to-resolve-the-http-error-50019-cannot-login-locally.md",
-            "Map a domain name to Bold Reports site before startup": "map-a-domain-name-to-bold-reports-site-before-startup.md",
-            "How to resolve unavailable error when deploying on Bold Reports site": "resolve-unavailable-error-when-site-fails-incase-of-domain-name-change.md",
-            "Setup the development staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-development-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
-            "Create DSN for MySQL": "create-dsn-for-mysql.md",
-            "Deploy BoldReports server as sub-application in Windows Environment": "deploy-boldreports-server-as-subapplication-in-windows-environment.md",
-            "Create a Bold Reports Azure App Service using the ARM template up to v2.x": "create-a-bold-reports-azure-app-service-using-the-arm-template-up-to-v2.x.md",
-            "Set up Azure Active Directory": "set-up-azure-active-directory.md",
-            "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
-            "Add parameters with Report link": "report-link-with-filter-parameters.md",
-            "Remove GUID from Report URL": "remove-id-from-url.md",
-            "Upgrade the Bold Reports On-Premise Edition new version on production server": "upgrade-the-bold-reports-on-premise-edition-new-version-on-production-server.md",
-            "Migrate SSRS reports to the Bold Reports Report Server": "migrate-ssrs-reports-to-the-bold-reports-report-server.md",
-            "How to apply the patches to Bold Reports Enterprise Reporting": "apply-patches-to-bold-reports.md",
-            "Apply patches to Bold Reports Multi-tenant Azure App Service": "apply-patches-to-bold-reports-azure-app-service.md",
-            "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md",
-            "How to apply the patches to Bold Reports to support common login with latest BI": "apply-patches-to-bold-reports-to-support-common-login-with-latest-bi.md",
-            "How to install Bold Report Server over Bold BI": "how-to-install-bold-reports-server-over-bold-bi.md",
-            "Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md",
-            "Configure SSL for Bold Reports in IIS Manager": "configure-ssl-for-bold-reports-in-iis-manager.md",
-            "How to check the Status and Health for Bold Reports Services": "how-to-check-the-status-and-health-for-bold-reports-services.md",
-            "Embed the report with user impersonation": "embed-the-report-with-user-impersonation.md",
-            "Azure Application Insights Integration in Bold Reports": "azure-application-insights-integration-in-bold-reports.md",
-            "How to register an Azure App with mail sending permissions and restrict its access to specific mailboxes": "how-to-register-an-azure-app-with-mail-sending-permissions.md"
-        },
-        "FAQ": {
-            "_slug": "faq",
-            "Bold Reports Architecture": "bold-reports-architecture.md",
-            "Where can i find the error and debug log files?": "where-can-i-find-the-error-and-debug-log-files.md",
-            "What are the features need to be enabled in IIS to run the Bold Reports application in Windows Client OS": "features-needed-to-enable-in-iis-to-run-bold-reports-in-win-client-os.md",
-            "What are the features need to be enabled in IIS to run Bold Reports application in Windows Server OS": "features-needed-to-enable-in-iis-to-run-bold-reports-in-win-server-os.md",
-            "Is Bold Reports have a centralized report authoring system?": "centralized-report-authoring-system.md",
-            "Will Syncfusion charge for Bold Reports Azure App Service": "will-syncfusion-charge-for-the-bold-reports-azure-app-service.md",
-            "Where can i find the error and debug log files of Bold Reports Azure App Service": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-azure-app-service.md",
-            "Docker - Error and Debug Log": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-docker.md",
-            "Kubernetes - Error and Debug Log": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-kubernetes.md",
-            "Why should you migrate to Bold Reports from Syncfusion Report Platform": "why-should-you-migrate-to-bold-reports-from-syncfusion-report-platform.md",
-            "Is it possible to migrate Syncfusion Report Platform Report Server to Bold Reports Report Server": "is-it-possible-to-migrate-syncfusion-report-platform-report-server-to-bold-reports-report-server.md",
-            "What are the database permissions required to set up Bold Reports": "what-are-the-database-permissions-required-to-set-up-bold-reports.md",
-            "Where should I replace the Bold Reports license key in Bold Reports Azure App Service": "where-should-i-replace-the-bold-reports-license-key-in-bold-reports-azure-app-service.md",
-            "Where does the data resides in Bold Reports": "where-does-the-data-resides-in-bold-reports.md",
-            "Does Report Server store reports execution data to server database": "does-report-server-store-reports-execution-data-to-server-database.md",
-            "How to install PhantomJS manually?": "how-to-install-phantomjs-manually.md",
-            "Will the OpenID user have access to site2? When, if the user is imported from OpenID connect under site1": "will-the-openid-user-have-access-to-site2-when-if-the-user-is-imported-from-openid-connect-under-site1.md",
-            "Does Bold Reports support scaling?": "does-bold-reports-support-scaling.md",
-            "How to restart the Bold Reports Enterprise application": "how-to-restart-the-bold-reports-enterprise-application.md",
-            "How to Install the Chromium Package Manually in Bold Reports": "how-to-install-chromium-packages.md",
-            "How to export data visualization in Azure ARM-64 linux": "how-to-export-data-visualization-in-azure-armx64-linux.md",
-            "How to resolve a login failure for users in Windows authentication mode": "how-to-resolve-login-failed-for-user-in-windows-authentication-mode.md"
-        }
-    },
-    "Designer Guide": {
-        "_slug": "designer-guide",
-        "Report Designer": {
-            "_slug": "report-designer",
-            "Report Creation": "design-rdl-report-in-web-report-designer.md",
-            "Manage Data": {
-                "_slug": "manage-data",
-                "Connection Settings": {
-                    "_slug": "connection-settings",
-                    "Configuring SSH Tunnel": "configuring-ssh-tunnel.md"
-                },
-                "Data Connectors": {
-                    "_slug": "data-connectors",
-                    "Amazon Aurora": "amazon-aurora-data-source.md",
-                    "Amazon RDS": "amazon-rds-data-source.md",
-                    "Amazon Redshift": "amazon-redshift-data-source.md",
-                    "AWS Open Search": "aws-opensearch-data-source.md",
-                    "AWS Secrets Manager": "aws-secrets-manager-data-source.md",
-                    "Azure SQL": "azure-sql-data-warehouse.md",
-                    "CDATA": "cdata-data-source.md",
-                    "CSV": "csv-data-source.md",
-                    "Elastic Search": "elastic-search-data-source.md",
-                    "Excel": "excel-data-source.md",
-                    "Google BigQuery": "google-bigquery-data-source.md",
-                    "Google Cloud SQL": "google-cloud-sql-data-source.md",
-                    "JSON": "json-data-source.md",
-                    "MariaDB": "mariadb-data-source.md",
-                    "MemSQL": "memsql-data-source.md",
-                    "Microsoft SQL": "sql-data-source.md",
-                    "Microsoft SQL Server Analysis Services": "ssas-data-source.md",
-                    "MongoDB": "mongodb-data-source.md",
-                    "MySQL": "mysql-data-source.md",
-                    "ODBC": "odbc-data-source.md",
-                    "OData": "odata-data-source.md",
-                    "OLEDB": "oledb-data-source.md",
-                    "Oracle": "oracle-data-source.md",
-                    "PostgreSQL": "postgresql-data-source.md",
-                    "Rest API": "rest-api-data-source.md",
-                    "Snowflake": "snowflake-data-source.md",
-                    "XML": "xml-data-source.md"
-                },
-                "DataSource": {
-                    "_slug": "datasource",
-                    "Create an Embedded DataSource": "create-an-embedded-data-source.md",
-                    "Edit an Embedded DataSource": "modify-an-embedded-data-source.md",
-                    "Link a Shared DataSource": "link-a-shared-data-source.md",
-                    "Edit a Shared DataSource": "modify-shared-data-source.md",
-                    "Delete a DataSource": "delete-a-data-source.md",
-                    "Duplicate a DataSource": "duplicate-a-data-source.md",
-                    "Reordering DataSources": "reorder-data-source.md"
-                },
-                "DataSet": {
-                    "_slug": "dataset",
-                    "Create an Embedded DataSet": "create-an-embedded-dataset.md",
-                    "Edit an Embedded DataSet": "modify-an-embedded-dataset.md",
-                    "Link a Shared DataSet": "link-a-shared-dataset.md",
-                    "Edit a Shared DataSet": "modify-shared-dataset.md",
-                    "Delete a DataSet": "delete-a-dataset.md",
-                    "Duplicate a DataSet": "duplicate-a-dataset.md",
-                    "Reordering DataSets": "reorder-a-dataset.md",
-                    "DataSet Fields": "dataset-fields.md",
-                    "DataSet Filters": "add-a-filter-to-a-dataset.md",
-                    "DataSet Parameters": "dataset-parameters.md",
-                    "Configure Custom Attribute": "configure-custom-attribute.md"
-                }
-            },
-            "Transforming Data": {
-                "_slug": "transforming-data",
-                "Joining Tables": "join-table.md",
-                "Join Types": "supported-join-types.md",
-                "Formatting Columns": "formatting-columns.md",
-                "Query Filter": "query-filter.md",
-                "DataSet Parameter": "link-a-query-parameter-with-a-report-parameter.md",
-                "Query Parameter": "define-query-parameters.md",
-                "Configuring Expression Columns": "configure-expression-columns.md",
-                "Supported Built-in Functions in Expression Designer": "supported-functions-in-query-expression.md"
-            },
-            "Report Parameters": {
-                "_slug": "report-parameters",
-                "Add Report Parameter": "add.md",
-                "Edit Report Parameter": "edit.md",
-                "Delete Report Parameter": "delete.md",
-                "Reordering Parameters": "reorder-parameters.md",
-                "Define Available Values": "define-available-values-for-parameter.md",
-                "Define Default Values": "define-default-values-for-parameter.md",
-                "Create Multi Value Parameter": "create-multi-value-parameter.md",
-                "Create Cascading Parameter": "create-cascading-parameter.md",
-                "Parameters Layout": "parameters-layout.md"
-            },
-            "Image Manager": {
-                "_slug": "image-manager",
-                "Add an embedded image": "add-image.md",
-                "Delete an embedded image": "delete-image.md"
-            },
-            "Compose Report": {
-                "_slug": "compose-report",
-                "Toolbar": "tool-bar.md",
-                "Design Surface": {
-                    "_slug": "design-surface",
-                    "Report Item Resizing": "report-item-resizing.md",
-                    "Report Item Selection": "report-item-selection.md",
-                    "Report Item Alignment": "report-item-alignment.md",
-                    "Context Menu": "context-menu.md"
-                },
-                "Properties Panel": "properties-panel.md",
-                "Ruler": "ruler.md",
-                "Page Margin": "page-margin.md",
-                "Unit Switcher": "unit-switcher.md",
-                "Header Body and Footer Properties": "header-body-and-footer-properties.md",
-                "Show or Hide Header and Footer": "show-or-hide-header-footer-in-report.md",
-                "Layouting": "layout-ordering.md",
-                "Multiple Column Report": "create-multiple-column-report-ssrs.md",
-                "Page Layout": "page-layout.md",
-                "Property Navigator": "property-navigator.md",
-                "Report Explorer": "report-explorer.md",
-                "Report Properties": "report-properties.md",
-                "Common Properties": "common-properties.md",
-                "Report Variables": "report-variables.md",
-                "Sort Data": "sort-data.md",
-                "Group Data": "group-data.md",
-                "Filter Data": "filter-data.md",
-                "Format Data": "format-data.md",
-                "Report Item Multiselection": "report-item-multi-selection.md",
-                "Expressions": {
-                    "_slug": "expressions",
-                    "Dataset Fields": "using-dataset-fields.md",
-                    "Parameter": "using-report-parameters.md",
-                    "Built-in Fields": "using-built-in-fields.md",
-                    "Built-in Functions": "using-built-in-functions.md",
-                    "Operators": "using-operators.md"
-                },
-                "Background Image": "background-image.md",
-                "Interactive Sorting": "interactive-sorting.md",
-                "Drilldown Action": "create-ssrs-drill-down-report.md",
-                "Drillthrough Action": "create-ssrs-drill-through-report.md",
-                "Linking": "link-data.md",
-                "Bookmark": "bookmark.md",
-                "Document Map": "document-map.md",
-                "Code Module": "code-module.md",
-                "Performance Settings": "performance-settings.md"
-            },
-            "Report Items": {
-                "_slug": "report-items",
-                "Line": "line.md",
-                "Rectangle": "rectangle.md",
-                "Image": "image.md",
-                "SubReport": {
-                    "_slug": "subreport",
-                    "Design RDL Report using Subreport": "design-rdl-report-using-subreport.md"
-                },
-                "TextBox": {
-                    "_slug": "textbox",
-                    "Design RDL Report using Textbox": "design-rdl-report-using-textbox.md",
-                    "Add html in to a report": "add-html-in-to-a-report.md"
-                },
-                "Tablix": {
-                    "_slug": "tablix",
-                    "Grouping Panel": "grouping-panel.md",
-                    "Tablix Member Properties": "member-properties.md",
-                    "Assign Data": "assign-data-to-tablix-data-region.md",
-                    "Cell Properties": "cell-properties.md",
-                    "Cell Border": "cell-border.md",
-                    "Resizing": "resize-tablix-data-region.md",
-                    "Insert or Delete a Row": "insert-or-delete-a-row-ssrs.md",
-                    "Insert or Delete a Column": "insert-or-delete-a-column-ssrs.md",
-                    "Tablix Group": "group.md",
-                    "Insert or Delete a Row Group": "insert-or-delete-a-row-group-ssrs.md",
-                    "Insert or Delete a Column Group": "insert-or-delete-a-column-group-ssrs.md",
-                    "Insert or Delete a Details Group": "add-or-delete-a-details-group-ssrs.md",
-                    "Merge Cells in Data Region": "merge-cells-in-tablix-data-region.md",
-                    "Add Filters": "add-filters-to-tablix-data-region.md",
-                    "Sort Data": "sort-data-in-tablix-data-region.md",
-                    "Add Total": "add-total-in-tablix-data-region.md",
-                    "Add Header and Footer": "add-group-header-and-footer-in-tablix-data-region.md",
-                    "Nested Data Regions": "nested-data-region.md",
-                    "Simple Table Design": "design-ssrs-rdl-report-using-table.md",
-                    "Multi Text Run Table Design": "design-ssrs-rdl-report-using-table-with-multi-text-run.md",
-                    "Add Grouping and Totals": "add-grouping-and-totals-in-tablix-design.md",
-                    "Conditional Formatting": "conditional-formatting-tablix-data-region.md",
-                    "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md",
-                    "Keep Column Headers Visible While Scrolling in SSRS": "keep-column-headers-visible-while-scrolling-in-ssrs.md",
-                    "No Rows Message": "no-rows-message.md"
-                },
-                "Matrix": {
-                    "_slug": "matrix",
-                    "Create a Matrix Report": "design-ssrs-matrix-report.md"
-                },
-                "List": {
-                    "_slug": "list",
-                    "Create a Mail Merge Report": "design-ssrs-rdl-report-using-list.md"
-                },
-                "Tablix Wizard": {
-                    "_slug": "tablix-wizard",
-                    "Create a Matrix Report using Tablix Wizard": "design-report-using-the-tablix-wizard.md"
-                },
-                "Map": {
-                    "_slug": "map",
-                    "Properties": "properties.md",
-                    "Binding Data": "binding-data.md",
-                    "Legend": "legend.md",
-                    "Shape Settings": "shape-settings.md",
-                    "Shape Color Rule": "shape-color-rule.md",
-                    "Color Palette Shape Rule": "color-palette-shape-rule.md",
-                    "Color Range Shape Rule": "color-range-shape-rule.md",
-                    "Custom Colors Shape Rule": "custom-color-shape-rule.md",
-                    "Equal Distribution Shape Rule": "equal-distribution-shape-rule.md",
-                    "Equal Interval Shape Rule": "equal-interval-shape-rule.md",
-                    "Optimal Distribution Shape Rule": "optimal-distribution-shape-rule.md",
-                    "Custom Distribution Shape Rule": "custom-distribution-shape-rule.md",
-                    "Define Custom Colors": "define-custom-colors.md",
-                    "Define Custom Data Range": "define-custom-data-range.md",
-                    "Marker Settings": "marker-settings.md",
-                    "Marker Color Rule": "marker-color-rule.md",
-                    "Color Palette Marker Rule": "color-palette-marker-rule.md",
-                    "Color Range Marker Rule": "color-range-marker-rule.md",
-                    "Custom Colors Marker Rule": "custom-color-marker-rule.md",
-                    "Equal Distribution Marker Rule": "equal-distribution-marker-rule.md",
-                    "Equal Interval Marker Rule": "equal-interval-marker-rule.md",
-                    "Optimal Distribution Marker Rule": "optimal-distribution-marker-rule.md",
-                    "Custom Distribution Marker Rule": "custom-distribution-marker-rule.md",
-                    "Marker Rule": "marker-rule.md",
-                    "Use Case": {
-                        "_slug": "use-case",
-                        "Custom Color Rule": "design-map-using-custom-rule.md",
-                        "Color Range Rule": "design-map-using-color-range-rule.md",
-                        "Color Palette Rule": "design-map-using-color-palette-rule.md",
-                        "Marker Rule": "design-map-using-marker-rule.md",
-                        "Marker Color Range Rule": "design-map-using-marker-color-range-rule.md"
-                    }
-                },
-                "Chart": {
-                    "_slug": "chart",
-                    "Area": "area-chart.md",
-                    "Bar": "bar-chart.md",
-                    "Bubble": "bubble-chart.md",
-                    "Column": "column-chart.md",
-                    "Doughnut": "doughnut-chart.md",
-                    "Exploded Pie": "exploded-pie-chart.md",
-                    "Funnel": "funnel-chart.md",
-                    "Line": "line-chart.md",
-                    "Line with Markers": "line-with-markers.md",
-                    "Pie": "pie-chart.md",
-                    "Polar": "polar-chart.md",
-                    "Pyramid": "pyramid-chart.md",
-                    "Radar": "radar-chart.md",
-                    "Range Area": "range-area-chart.md",
-                    "Range Bar": "range-bar-chart.md",
-                    "Range Column": "range-column-chart.md",
-                    "Scatter": "scatter-chart.md",
-                    "Smooth Area": "smooth-area-chart.md",
-                    "Smooth Line": "smooth-line-chart.md",
-                    "Smooth Line with Markers": "smooth-line-with-markers.md",
-                    "Smooth Range Area Chart": "smooth-range-area-chart.md",
-                    "Stacked Area 100%": "stacked-area-100-chart.md",
-                    "Stacked Area": "stacked-area-chart.md",
-                    "Stacked Bar 100%": "stacked-bar-100-chart.md",
-                    "Stacked Bar": "stacked-bar-chart.md",
-                    "Stacked Column 100%": "stacked-column-100-chart.md",
-                    "Stacked Column": "stacked-column-chart.md",
-                    "Stepped Line": "stepped-line-chart.md",
-                    "Series": "series.md",
-                    "Striplines": "striplines.md",
-                    "Switch Series Chart Type": "switch-chart-type.md",
-                    "Show Legend": "legend.md",
-                    "Show Marker": "marker.md",
-                    "Show Data Label": "data-label.md",
-                    "Color Palette": "color-palette.md",
-                    "Axis": "axis.md",
-                    "Chart Types": "types.md",
-                    "Embedding Charts within a Tablix": "nested-data-region.md",
-                    "Filter Data": "add-filters-to-chart-data-region.md",
-                    "Sort Data": "sort-data-in-chart-data-region.md",
-                    "No Data Message": "no-data-message.md",
-                    "Max Data Count": "max-data-count-for-chart-item.md"
-                },
-                "Indicator": "indicator.md",
-                "Gauge": {
-                    "_slug": "gauge",
-                    "Linear Gauge": "linear-gauge.md",
-                    "Radial Gauge": "radial-gauge.md"
-                },
-                "Data bar": {
-                    "_slug": "data-bar",
-                    "Design RDL Report using Data bar": "design-ssrs-data-bar-using-table.md"
-                },
-                "Sparkline": {
-                    "_slug": "sparkline",
-                    "Design RDL Report using Sparkline": "design-ssrs-sparkline-using-table.md"
-                },
-                "Barcode": {
-                    "_slug": "barcode",
-                    "Create a Product Details Report": "design-ssrs-rdl-report-using-barcode.md",
-                    "Supported Barcode Types": "supported-barcode-types.md"
-                },
-                "Signature": {
-                    "_slug": "signature",
-                    "Design RDL Report with Electronic Signature": "design-ssrs-rdl-report-using-electronic-signature.md",
-                    "Design RDL Report with PDF Signature": "design-report-with-pdf-signature.md"
-                },
-                "Shape": {
-                    "_slug": "shape",
-                    "Design RDL Report using Shapes": "design-ssrs-rdl-report-using-shapes.md",
-                    "Shape Types": "shape-types.md",
-                    "Use Cases": "use-case-examples.md"
-                },
-                "HTML": {
-                    "_slug": "html",
-                    "Design RDL Report with HTML Content": "design-report-with-html-content.md",
-                    "Troubleshooting and FAQ": "troubleshooting-and-faq.md"
-                },
-                "PDF": {
-                    "_slug": "pdf",
-                    "Design RDL Report with PDF Content": "design-report-with-pdf-content.md",
-                    "Troubleshooting and FAQ": "troubleshooting-and-faq.md"
-                }
-            },
-            "Report Parts": "report-parts.md",
-            "Open report": "open-report.md",
-            "Publish report": "publish-report.md",
-            "Preview report": "preview-report.md",
-            "Supported Items": "supported-unsupported-features.md",
-            "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
-            "How To": {
-                "_slug": "how-to",
-                "Configure Map Shapes": "configure-map-shapes.md",
-                "Configure Custom Styles": "configure-custom-styles.md",
-                "Configure Timeout Setting": "configure-timeout-setting.md",
-                "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md",
-                "How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md",
-                "Resolve misused headers error": "resolve-misused-header-name-error-rest-api-data-source.md",
-                "Pass form data with post action": "pass-form-data-in-rest-api-data-source.md",
-                "How to select all the available values in the parameter list as default": "set-all-values-in-multi-value-parameters-as-default.md",
-                "How to hide the table column and row when the field value is empty?": "hide-table-column-or-row-when-field-value-empty.md",
-                "How to create master detail report using table?": "create-master-detail-report-using-table.md",
-                "How to create master detail report using list?": "create-master-detail-report-using-list.md",
-                "How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md",
-                "How to create the cover page report in Bold Reports?": "create-the-cover-page-report-in-bold-reports.md",
-                "How to repeat row and column headers on multiple pages?": "repeat-row-and-column-headers-on-multiple-pages.md",
-                "How to remove the additional zeros when using percentage format?": "remove-additional-zeros-when-using-percentage-format.md"
-            },
-            "FAQ": {
-                "_slug": "faq",
-                "Display no data message for a data region": "display-no-data-message-for-a-data-region.md"
-            }
-        },
-        "Manage Content": {
-            "_slug": "manage-content",
-            "Reports": {
-                "_slug": "reports",
-                "Create Report": "create-report.md",
-                "View Report": "view-report.md",
-                "Edit Report": "edit-report.md",
-                "Report Info": "report-info.md",
-                "Upload Reports": "upload-reports.md",
-                "Update Report": "update-report.md",
-                "Favorite Reports": "favorite-report.md",
-                "Caching Report": "caching-report.md",
-                "Move Copy and Clone Reports ": "move-copy-and-clone-reports.md",
-                "Copy Multiple Reports": "copy-multiple-reports.md",
-                "Sharing Reports": "share-report.md",
-                "Publish Reports": "publish-reports.md",
-                "Report Security": "advanced-report-security.md",
-                "Public Reports": "public-report.md",
-                "Delete Reports": "delete-report.md",
-                "Version History": "version-history-of-report.md",
-                "Download Report": "download-report.md",
-                "Download Multiple Reports": "download-multiple-reports.md",
-                "Manage Report Views": "manage-report-views.md",
-                "Export report": "export-report.md",
-                "File Upload": "file-upload.md",
-                "Manage Multitab Reports": "manage-multi-tab-reports.md"
-            },
-            "Report Layout": "report-layout.md",
-            "Report Part": "report-part.md",
-            "DataSources": "data-sources-management.md",
-            "Working with Bold Data Hub": {
-                "_slug": "working-with-bold-data-hub",
-                "Installation": "installation.md",
-                "Data Store": "data-store.md",
-                "Working with Pipelines": "working-with-pipelines.md",
-                "Transformation and Preview": "transformation-preview.md",
-                "Scheduling ETL Jobs": "schedule.md",
-                "Email Settings": "email-settings.md",
-                "Data Connectors": {
-                    "_slug": "data-connectors",
-                    "Amazon Redshift": "amazon-redshift.md",
-                    "Asana": "asana.md",
-                    "Bing Ads": "bing-ads.md",
-                    "CSV": "csv.md",
-                    "DynamoDB": "dynamodb.md",
-                    "Excel": "excel.md",
-                    "Elastic Search": "elastic-search.md",
-                    "Facebook Ads": "facebook-ads.md",
-                    "FileSystem": "file-system.md",
-                    "GitHub": "github.md",
-                    "Google Analytics": "google-analytics.md",
-                    "Google Ads": "google-ads.md",
-                    "Google Sheets": "google-sheets.md",
-                    "Google BigQuery": "google-bigquery.md",
-                    "Matomo": "matomo.md",
-                    "HubSpot": "hubspot.md",
-                    "IBM Db2": "ibm.md",
-                    "Jira": "jira.md",
-                    "JSON": "json.md",
-                    "MariaDB": "mariadb.md",
-                    "Microsoft SQL Server": "sql.md",
-                    "MongoDB": "mongodb.md",
-                    "MongoDBSSH": "mongodbssh.md",
-                    "Mux": "multiplexer.md",
-                    "MySQL": "mysql.md",
-                    "MySQLSSH": "mysqlssh.md",
-                    "Notion": "notion.md",
-                    "OneDrive": "onedrive.md",
-                    "OpenAPI": "open-api.md",
-                    "Oracle": "oracle.md",
-                    "Pipedrive": "pipedrive.md",
-                    "PostgreSQL": "postgresql.md",
-                    "Presto":"presto.md",
-                    "PythonScript": "python-script.md",
-                    "Salesforce": "salesforce.md",
-                    "Salesforce Reports": "salesforce-reports.md",
-                    "SQLite": "sqlite.md",
-                    "Slack": "slack.md",
-                    "Snowflake": "snowflake.md",
-                    "Stripe": "stripe.md",
-                    "Strapi": "strapi.md",
-                    "Sybase": "sybase.md",
-                    "Web": "web.md",
-                    "Workable": "workable.md",
-                    "Yaml": "yaml.md",
-                    "Zendesk Chat": "zendesk-chat.md",
-                    "Zendesk Support": "zendesk-support.md",
-                    "Zendesk Talk": "zendesk-talk.md"
-                }
-            },
-            "DataSet": "dataset-management.md"
-        },
-        "Manage Schedule": {
-            "_slug": "manage-schedule",
-            "Manage Reports Schedule": "manage-reports-schedule.md",
-            "Data Driven Schedule":"data-driven-schedule.md",
-            "Schedule Report Settings": "schedule-report-settings.md",
-            "Custom Schedule Report Settings": "custom-schedule-report-settings.md"
-        },
-        "Manage Categories": "manage-categories.md",
-        "Collaborations": "collaboration.md",
-        "Notifications": "notifications.md"
-    },
-    "Developer Guide": {
-        "_slug": "developer-guide",
-        "Embed in Application": {
-            "_slug": "embed-in-application",
-            "Iframe": {
-                "_slug": "iframe",
-                "Embed Code": "embed-code-of-report.md",
-                "Embed Secret key": "embed-secret-key.md"
-            },
-            "View Report through Report Viewer": "view-report-through-report-viewer.md",
-            "Integrating Report Designer": "integrating-report-designer.md"
-        },
-        "How to": {
-            "_slug": "how-to",
-            "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
-            "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
-            "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
-            "Generate authentication token for Bold Reports Report Server using credentials": "generate-authentication-token-for-bold-reports-server-using-credentials.md",
-            "How to generate the authentication token by using Embed Secret Key API": "generate-authentication-token-for-user-by-using-embed-secret-key-api.md",
-            "How to export the Report using API from the postman": "export-the-report-using-api.md",
-            "How to generate the authentication token from Report Server UI": "generate-authentication-token-for-bold-reports-server.md",
-            "How to generate the authentication token using API from the postman": "generate-authentication-token-for-bold-reports-server-using-api.md",
-            "How to export the Report with filter parameter using API from the postman": "export-the-report-with-filter-parameter-using-api.md",
-            "Generate authentication token for Bold Reports Report Server user": "generate-authentication-token-for-bold-reports-server-user.md",
-            "How to retrieve the username from built-in functions": "get-user-id-from-user-expression.md",
-            "How to access Health Check option for Admin users in Bold Reports Report Server": "access-health-check-option-for-admin-users.md"
-        }
-    },
-    "Licensing": "licensing.md",
-    "Security": "security.md",
-    "Disaster Recovery": "disaster-recovery.md",
-    "Performance Metrics": "bold-reports-performance-metrics.md",
-    "Bold Reports Free Tier User Guide": "bold-reports-free-tier-user-guide.md",
-    "REST API Reference": {
-        "_slug": "rest-api-reference",
-        "Interact with REST API": "interact-with-rest-api.md",
-        "Site Administration": {
-            "_slug": "site-administration",
-            "v1.0": "v1.0?html=true",
-            "v2.0": "v2.0?html=true"
-        },
-        "Embed Authentication": {
-            "_slug": "embed-authentication",
-            "Server Api Reference": "server-api-reference?html=true"
-        },
-        "v1.0": {
-            "_slug": "v1.0",
-            "Server Api Reference": "server-api-reference?html=true",
-            "Try It Now": "try-it-now?html=true"
-        },
-        "v2.0": {
-            "_slug": "v2.0",
-            "Server Api Reference": "server-api-reference?html=true",
-            "Try It Now": "try-it-now?html=true"
-        },
-        "v3.0": {
-            "_slug": "v3.0",
-            "Server Api Reference": "server-api-reference?html=true",
-            "Try It Now": "try-it-now?html=true"
-        },
-        "v4.0": {
-            "_slug": "v4.0",
-            "Server Api Reference": "server-api-reference?html=true",
-            "Try It Now": "try-it-now?html=true"
-        },
-        "v5.0": {
-            "_slug": "v5.0",
-            "Server Api Reference": "server-api-reference?html=true",
-            "Try It Now": "try-it-now?html=true"
-        }
-    }
+		"Manage Content": {
+			"_slug": "manage-content",
+			"Reports": {
+				"_slug": "reports",
+				"Create Report": "create-report.md",
+				"View Report": "view-report.md",
+				"Edit Report": "edit-report.md",
+				"Report Info": "report-info.md",
+				"Upload Reports": "upload-reports.md",
+				"Update Report": "update-report.md",
+				"Favorite Reports": "favorite-report.md",
+				"Caching Report": "caching-report.md",
+				"Move Copy and Clone Reports ": "move-copy-and-clone-reports.md",
+				"Copy Multiple Reports": "copy-multiple-reports.md",
+				"Sharing Reports": "share-report.md",
+				"Publish Reports": "publish-reports.md",
+				"Report Security": "advanced-report-security.md",
+				"Public Reports": "public-report.md",
+				"Delete Reports": "delete-report.md",
+				"Version History": "version-history-of-report.md",
+				"Download Report": "download-report.md",
+				"Download Multiple Reports": "download-multiple-reports.md",
+				"Manage Report Views": "manage-report-views.md",
+				"Export report": "export-report.md",
+				"File Upload": "file-upload.md",
+				"Manage Multitab Reports": "manage-multi-tab-reports.md"
+			},
+			"Report Layout": "report-layout.md",
+			"Report Part": "report-part.md",
+			"DataSources": "data-sources-management.md",
+			"Working with Bold Data Hub": {
+				"_slug": "working-with-bold-data-hub",
+				"Installation": "installation.md",
+				"Data Store": "data-store.md",
+				"Working with Pipelines": "working-with-pipelines.md",
+				"Transformation and Preview": "transformation-preview.md",
+				"Scheduling ETL Jobs": "schedule.md",
+				"Email Settings": "email-settings.md",
+				"Data Connectors": {
+					"_slug": "data-connectors",
+					"Amazon Redshift": "amazon-redshift.md",
+					"Asana": "asana.md",
+					"Bing Ads": "bing-ads.md",
+					"CSV": "csv.md",
+					"DynamoDB": "dynamodb.md",
+					"Excel": "excel.md",
+					"Elastic Search": "elastic-search.md",
+					"Facebook Ads": "facebook-ads.md",
+					"FileSystem": "file-system.md",
+					"GitHub": "github.md",
+					"Google Analytics": "google-analytics.md",
+					"Google Ads": "google-ads.md",
+					"Google Sheets": "google-sheets.md",
+					"Google BigQuery": "google-bigquery.md",
+					"Matomo": "matomo.md",
+					"HubSpot": "hubspot.md",
+					"IBM Db2": "ibm.md",
+					"Jira": "jira.md",
+					"JSON": "json.md",
+					"MariaDB": "mariadb.md",
+					"Microsoft SQL Server": "sql.md",
+					"MongoDB": "mongodb.md",
+					"MongoDBSSH": "mongodbssh.md",
+					"Mux": "multiplexer.md",
+					"MySQL": "mysql.md",
+					"MySQLSSH": "mysqlssh.md",
+					"Notion": "notion.md",
+					"OneDrive": "onedrive.md",
+					"OpenAPI": "open-api.md",
+					"Oracle": "oracle.md",
+					"Pipedrive": "pipedrive.md",
+					"PostgreSQL": "postgresql.md",
+					"Presto": "presto.md",
+					"PythonScript": "python-script.md",
+					"Salesforce": "salesforce.md",
+					"Salesforce Reports": "salesforce-reports.md",
+					"SQLite": "sqlite.md",
+					"Slack": "slack.md",
+					"Snowflake": "snowflake.md",
+					"Stripe": "stripe.md",
+					"Strapi": "strapi.md",
+					"Sybase": "sybase.md",
+					"Web": "web.md",
+					"Workable": "workable.md",
+					"Yaml": "yaml.md",
+					"Zendesk Chat": "zendesk-chat.md",
+					"Zendesk Support": "zendesk-support.md",
+					"Zendesk Talk": "zendesk-talk.md"
+				}
+			},
+			"DataSet": "dataset-management.md"
+		},
+		"Manage Schedule": {
+			"_slug": "manage-schedule",
+			"Manage Reports Schedule": "manage-reports-schedule.md",
+			"Data Driven Schedule": "data-driven-schedule.md",
+			"Schedule Report Settings": "schedule-report-settings.md",
+			"Custom Schedule Report Settings": "custom-schedule-report-settings.md"
+		},
+		"Manage Categories": "manage-categories.md",
+		"Collaborations": "collaboration.md",
+		"Notifications": "notifications.md"
+	}
 }

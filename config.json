@@ -23,5 +23,38 @@
             "date": "September 2,2020"
         }
     },
-    "pdfPath": "https://help.boldreports.com/enterprise-reporting/boldreports-enterprise-reporting.zip"
+    "pdfPath": "https://help.boldreports.com/enterprise-reporting/boldreports-enterprise-reporting.zip",
+    "publish": {
+        "bucketName": "help.boldreports.com",
+        "date": "12:30:00, 1"
+    },
+    "repos": {
+        "cloud": {
+            "name": "cloud-docs",
+            "url": "cloud-reporting",
+            "id": 3509,
+            "cx": "e4375449f997ddb5f"
+        },
+        "enterprise": {
+            "name": "enterprise-docs",
+            "url": "enterprise-reporting",
+            "id": 3510,
+            "cx": "b1da40d49be35307c"
+        },
+        "embedded": {
+            "name": "embedded-docs",
+            "url": "embedded-reporting",
+            "id": 3511,
+            "cx": "11e37b9639ef4251a"
+        },
+        "standaloneDesigner": {
+            "name": "standalone-designer-docs",
+            "url": "standalone-report-designer",
+            "id": 3520,
+            "cx": "5bb4501c47b32e301"
+        }
+    },
+    "largerSizeCommonFileRepo": [
+        "embedded-docs"
+    ]
 }

@@ -1,0 +1,278 @@
+/* Focus button CSS -- START HERE (migrated from ask- to focus-) */
+.focus-container {
+	position: relative;
+	width: auto;
+}
+
+.focus-container.right-side {
+	right: 260px;
+}
+
+.focus-split-button *,
+.focus-dropdown * {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+.focus-split-button {
+	display: var(--util-display);
+	align-items: var(--util-center);
+	border: 1px solid var(--search-border);
+	border-radius: var(--focus-radius);
+	background: var(--focus-bg);
+	overflow: hidden;
+	gap: 0px !important;
+}
+
+.focus-main {
+	display: var(--util-display);
+	border: none;
+	background-color: transparent;
+	padding: var(--focus-padding);
+	font-size: var(--focus-font-size);
+	font-weight: var(--focus-font-weight-regular);
+	cursor: pointer;
+	color: var(--ask-main-color);
+}
+
+/* Ensure SVG icon has no border and precise spacing */
+.focus-mode-btn .theme-focus-icon {
+	border: none !important;
+	margin: 0px !important;
+}
+
+.focus-main::before {
+	content: '';
+	display: block;
+	width: 16px;
+	height: 16px;
+	background-image: url('../img/ask-helpbot.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	margin-top: 2px;
+}
+
+.focus-toggle {
+	font-size: var(--focus-font-size-sm);
+	border: none;
+	background: transparent;
+	cursor: pointer;
+	width: 32px;
+	height: 36px;
+}
+
+.focus-main:hover,
+.focus-toggle:hover {
+	background: var(--ask-button-hover-bg);
+}
+
+/* Hover effect for the whole split button */
+.focus-mode-btn:hover {
+	background: var(--focus-item-hover) !important;
+}
+
+.focus-mode-btn.active {
+	background-color: var(--focus-item-hover) !important;
+}
+
+.focus-main:focus,
+.focus-toggle:focus {
+	outline: none;
+}
+
+.focus-icon {
+	background: var(--focus-dropdown-icon-bg-color);
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    display: block;
+    border-radius: 5px;
+    left: 10px;
+}
+
+.focus-icon::before {
+	width: 16px;
+	height: 16px;
+	background-color: var(--focus-dropdown-icon-color) !important;
+	-webkit-mask-size: contain;
+	mask-size: contain;
+}
+
+.focus-helpbot .focus-icon::before {
+	-webkit-mask: url('../img/ask-helpbot.svg') no-repeat center;
+	mask: url('../img/ask-helpbot.svg') no-repeat center;
+}
+
+.focus-suggest-feature .focus-icon::before {
+	-webkit-mask: url('../img/suggest-a-feature.svg') no-repeat center;
+	mask: url('../img/suggest-a-feature.svg') no-repeat center;
+}
+
+.focus-download-pdf .focus-icon::before {
+	-webkit-mask: url('../img/pdf-download.svg') no-repeat center;
+	mask: url('../img/pdf-download.svg') no-repeat center;
+}
+
+.focus-copy-md .focus-icon::before {
+	background-image: url('../img/copy-icon.svg');
+	background-size: 16px !important;
+}
+
+.focus-view-md .focus-icon::before {
+	background-image: url('../img/markdown-icon.svg');
+}
+
+.focus-open-chatgpt .focus-icon::before {
+	-webkit-mask: url('../img/chatgpt.svg') no-repeat center;
+	mask: url('../img/chatgpt.svg') no-repeat center;
+}
+
+.focus-open-claude .focus-icon::before {
+	-webkit-mask: url('../img/claude.svg') no-repeat center;
+	mask: url('../img/claude.svg') no-repeat center;
+}
+
+.focus-mcp-url-copy .focus-icon::before {
+	-webkit-mask: url('../img/mcp-servers-small.svg') no-repeat center;
+	mask: url('../img/mcp-servers-small.svg') no-repeat center;
+}
+
+.focus-item.focus-view-md .focus-title::after,
+.focus-item.focus-open-chatgpt .focus-title::after,
+.focus-item.focus-open-claude .focus-title::after {
+	background-image: url('../img/navigation-arrow.svg');
+	margin-top: 3px;
+	content: '';
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	margin-left: 6px;
+}
+
+.focus-title {
+	font-size: var(--focus-font-size);
+	font-weight: var(--focus-font-weight-medium);
+	color: var(--focus-dropdown-title-color);
+	margin-bottom: 5px;
+}
+
+.focus-desc {
+	font-size: var(--focus-font-size-sm);
+	color: var(--focus-dropdown-desc-color);
+	font-weight: var(--focus-font-weight-medium);
+}
+
+.focus-divider {
+    border-bottom: 1px solid var(--focus-dropdown-divider-color);
+    margin: 6px 0;
+}
+
+.focus-mode-btn .theme-focus-icon {
+	border: none !important;
+	margin: 0px;
+	margin-bottom: 2px;
+}
+
+.custom-tooltip {
+	position: fixed;
+	/* VERY IMPORTANT */
+	background: black;
+	color: white;
+	padding: 6px 10px;
+	border-radius: 10px;
+	font-size: 12px;
+	font-weight: 500;
+	white-space: nowrap;
+	opacity: 0;
+	pointer-events: none;
+	transition: opacity 0.2s ease;
+	z-index: 9999;
+}
+
+/* Arrow */
+.custom-tooltip::after {
+	content: '';
+	position: absolute;
+	bottom: 100%;
+	/* 👈 move arrow to top */
+	left: 50%;
+	transform: translateX(-50%);
+	border: 6px solid transparent;
+	border-bottom-color: black;
+	/* 👈 arrow pointing up */
+}
+
+.custom-tooltip {
+	pointer-events: none;
+	/* VERY IMPORTANT */
+}
+
+/* Focus button CSS -- ENDS HERE */
+
+/* Replace pseudo-element arrow for MCP with a real element so tooltip can be interactive */
+.focus-mcp-url-copy .mcp-arrow {
+	display: inline-block;
+	width: 18px ;
+	height: 18px;
+	margin-left: 3px;
+	vertical-align: middle;
+	background-image: url("../img/circle-question.svg");
+	background-size: 14px 14px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: relative;
+	margin-bottom: 3px;
+}
+
+/* Tooltip that appears when hovering the arrow */
+.focus-mcp-url-copy .mcp-tooltip {
+	visibility: hidden;
+	width: 115px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -58px;
+    background: var(--tooltip-bg, #000);
+    color: var(--tooltip-color, #fff);
+    padding: 6px 0px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-top: -3px;
+}
+
+.focus-mcp-url-copy .mcp-tooltip::after {
+	content: "";
+	position: absolute;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: transparent transparent black transparent;
+}
+
+.focus-mcp-url-copy .mcp-arrow:hover .mcp-tooltip {
+	visibility: visible;
+}
+
+.focus-mcp-url-copy .focus-title{
+	display: contents;
+}
+
+.focus-mcp-url-copy .mcp-tooltip a {
+	color: #fff !important;
+	font-size: 12px !important;
+	line-height: normal !important;
+	text-underline-offset: 2px !important;
+}
+
+.focus-mcp-url-copy .mcp-tooltip a:hover {
+    text-decoration: underline;
+	text-underline-offset: 6px;
+}
