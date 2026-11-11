@@ -55,12 +55,12 @@ You also need internet access to `registry.npmjs.org` for the first install. All
 | Command | What it does |
 | --- | --- |
 | `npm install` | Installs the dependencies. |
-| `npx gulp serve` | Builds the table of contents and starts the Gatsby development server. |
+| `npm run serve` (or `npx gulp serve`) | Builds the table of contents and starts the Gatsby development server. |
 | `npm run build` | Runs `gulp production-build` and writes the static site to `public/`. |
 | `npm test` | Runs all content checks. See [Run the tests](#run-the-tests). |
-| `npx gulp clean` | Deletes the Gatsby cache and the generated pages, for a completely fresh start. |
-| `npx gulp build` | Prepares the content only: clears the cache, copies `docs/` to `src/pages`, and generates `left-toc.json`. |
-| `npx gulp sitemap` | Generates `sitemap.xml` for the site domain set in `config.json`. Run it after `npx gulp build`. |
+| `npm run clean` (or `npx gulp clean`) | Deletes the Gatsby cache and the generated pages, for a completely fresh start. |
+| `npm run prepare-content` (or `npx gulp build`) | Prepares the content only: clears the cache, copies `docs/` to `src/pages`, and generates `left-toc.json`. |
+| `npm run sitemap` (or `npx gulp sitemap`) | Generates `sitemap.xml` for the site link set in `config.json`. Run it after `npm run prepare-content`. |
 
 ### Run the tests
 
@@ -85,13 +85,13 @@ If the spelling or file name check reports a correct technical term, add the ter
 
 ### Site URL prefix
 
-The production build is prepared to be served from the `/enterprise-reporting` path. To serve it from a different path, pass the prefix to the build.
+The production build is prepared to be served from the path in `siteLink` in `config.json` (`/enterprise-reporting` by default). To serve it from a different path, pass the prefix to the build.
 
 ```bash
 npx gulp production-build --prefix=/docs
 ```
 
-The default prefix comes from `repos.enterprise.url` in `config.json`. The development server always serves the site from the root path.
+The default prefix is the path part of `siteLink` in `config.json`. The development server always serves the site from the root path.
 
 ### Troubleshooting
 
@@ -115,11 +115,11 @@ The default prefix comes from `repos.enterprise.url` in `config.json`. The devel
 │   ├── templates/               Page layout
 │   └── assets/
 │       ├── css/                 Style sheets
-│       └── img/                 Logo, favicons, and icons
+│       └── img/                 Icons used by the template
 ├── static/                      Files copied to the site as they are
+│   ├── branding/                Logo, favicon, app icon, and social sharing image
 │   ├── images/                  Images used by the documentation pages
 │   ├── 404.js                   404 page
-│   ├── favicon.ico
 │   └── robots.txt
 ├── build/                       gulp tasks
 │   ├── *.js                     One file for each group of tasks
@@ -127,7 +127,7 @@ The default prefix comes from `repos.enterprise.url` in `config.json`. The devel
 ├── gatsby-config.js             Gatsby plugins
 ├── gatsby-node.js               Page creation and redirects
 ├── gatsby-browser.js            Browser-side Gatsby hooks
-├── config.json                  Site settings: product name, header label, domain, URL prefix
+├── config.json                  Site settings: product name, branding, site link, header label, analytics
 ├── docs-structure.yaml          Top-level sections of the site
 ├── redirects.json               Redirects from old URLs to new URLs
 ├── .spelling                    Word list for the spell check and the file-name check
@@ -200,7 +200,7 @@ Use the product name placeholders instead of typing the product name. See [Chang
 
 ## White-label the site
 
-All branding lives in `config.json`, the website template in `src/`, and a few files in `static/`.
+All branding lives in `config.json`, the website template in `src/`, and the files in `static/branding/`.
 
 | What to change | Where |
 | --- | --- |
@@ -209,12 +209,12 @@ All branding lives in `config.json`, the website template in `src/`, and a few f
 | Product label next to the logo (`Enterprise`) | `additionalInfo.header` in `config.json` |
 | Colors and fonts | CSS variables in the `:root` blocks of `src/assets/css/style.css`. Header-only styles are in `header.css`. |
 | Header content | `src/components/Header.js` |
-| Feedback form, including its privacy policy link | `src/components/Feedback.js` |
+| Feedback form | `src/components/Feedback.js` |
 | Focus menu (Open in ChatGPT, Open in Claude) | `src/components/FocusButton.js` |
 | 404 page, including its links to demos and other documentation sites | `static/404.js` |
-| Analytics and tracking | Google Tag Manager ID and cookie domain in `src/components/HeadTag.js`. Remove them or replace them with your own. |
-| Site domain used by the `gulp sitemap` task | `publish.bucketName` in `config.json` |
-| URL path prefix | `repos.enterprise.url` in `config.json`, or the `--prefix` build option |
+| Analytics and tracking | `analytics.googleTagManagerId` in `config.json`. Leave it empty to turn tracking off. |
+| Site domain used by the `gulp sitemap` task | `siteLink` in `config.json` |
+| URL path prefix | Path part of `siteLink` in `config.json`, or the `--prefix` build option |
 
 ### Replace the brand name, logo, and favicon
 
@@ -237,27 +237,23 @@ The label shown next to the logo (`Enterprise`) is separate. Change it with `add
 
 #### 2. Logo
 
-Replace this file with your own logo. Keep the same file name.
+Replace this file with your own logo. Keep the same file name, or change the `branding.logo` path in `config.json`.
 
 | File | Used for | Size |
 | --- | --- | --- |
-| `src/assets/img/logo.svg` | Header logo | SVG, 237 x 47 (about 5:1) |
+| `static/branding/logo.svg` | Header logo | SVG, 237 x 47 (about 5:1) |
 
 The logo is displayed at 170 x 36 pixels and is scaled to fit, so a logo with a different shape still works but may look smaller. To change the displayed size, edit `width` and `height` of `.header-logo` in `src/assets/css/style.css`. Narrow screens use the smaller widths set for `.header-logo` at the end of `src/assets/css/header.css`.
 
 #### 3. Favicon
 
-Replace these five files with your own icon. Keep the same file names and sizes.
+Replace these files in `static/branding/` with your own. Keep the same file names, or change the paths under `branding` in `config.json`.
 
-| File | Size | Used for |
+| File | Config key | Used for |
 | --- | --- | --- |
-| `static/favicon.ico` | ICO with 16 x 16 and 32 x 32 | Default browser icon and the 404 page |
-| `src/assets/img/favicon-32x32.png` | 32 x 32 PNG | Browser tab |
-| `src/assets/img/favicon-192x192.png` | 192 x 192 PNG | Android and high-resolution tabs |
-| `src/assets/img/favicon-180x180.png` | 180 x 180 PNG | Apple touch icon |
-| `src/assets/img/favicon-270x270.png` | 270 x 270 PNG | Windows tile |
-
-Optionally, replace `src/assets/img/og-img.png` (1200 x 630 PNG). This is the preview image shown when a page link is shared.
+| `static/branding/favicon.ico` | `branding.favicon` | Browser tab icon |
+| `static/branding/app-icon.png` | `branding.appIcon` | Apple touch icon and high-resolution icon |
+| `static/branding/social-image.png` | `branding.socialImage` | Preview image shown when a page link is shared (1200 x 630 PNG recommended) |
 
 #### Check the result
 

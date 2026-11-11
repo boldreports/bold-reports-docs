@@ -5,6 +5,10 @@
   "author": "Syncfusion Inc.",
   "license": "UNLICENSED",
   "scripts": {
+    "serve": "gulp serve",
+    "clean": "gulp clean",
+    "prepare-content": "gulp build",
+    "sitemap": "gulp sitemap",
     "build": "gulp production-build",
     "test": "gulp ci-test",
     "postinstall": "gulp postinstall"
