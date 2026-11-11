@@ -11,18 +11,18 @@ You can export reports from {{site.productNameTM}} On-Premises Edition in one or
 ## How do I export a report?
 
 To export a report from Report Server, click the `Export` option in the report's context menu.
-![Export Report](/static/assets/on-premise/images/manage-content/manage-reports/export-report.png)
+![Export Report](/static/images/manage-content/manage-reports/export-report.png)
 
 ## Select Format and Filter for Report
 
 After you select the report format in Report Server, set the filter parameters and export the report.
-![Export Report Format](/static/assets/on-premise/images/manage-content/manage-reports/export-report1.png)
+![Export Report Format](/static/images/manage-content/manage-reports/export-report1.png)
 
 ## Can I export to several formats at once?
 
 Yes. Report Server lets you select multiple export formats at the same time. Each selected format is exported separately and opened in a new browser tab.
 
-![Export Report Format](/static/assets/on-premise/images/manage-content/manage-reports/multiple-export-report.png)
+![Export Report Format](/static/images/manage-content/manage-reports/multiple-export-report.png)
 
 > **Note:** Each selected export format opens in a separate browser tab or window. If your browser blocks pop-ups, a notification may appear asking you to allow pop-ups from the {{site.productNameTM}} application. Allow pop-ups to ensure all exported reports are opened successfully.
 

@@ -9,31 +9,31 @@ In the {{site.productNameTM}} Web Report Designer, the No Rows property displays
 
 The following image shows the No Rows properties of a tablix.
 
-![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/no-rows.png '#width=315px')
+![Tablix No rows message](/static/images/report-designer/report-items/tablix/no-rows/no-rows.png '#width=315px')
 
 ## Font
 
 The {{site.productNameTM}} no rows message Font properties set the font family, color, size, style, and weight of the message, as shown in the following image.
 
-![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-properties.png '#width=315px')
+![Tablix No rows message](/static/images/report-designer/report-items/tablix/no-rows/font-properties.png '#width=315px')
 
 ### Font Family
 
 The `Font Family` property sets the font of the no rows message. The dropdown list shows the supported font family names. Choose the font family you need from the list.
 
-![Font family](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-family.png '#width=315px')
+![Font family](/static/images/report-designer/report-items/tablix/no-rows/font-family.png '#width=315px')
 
 ### Font Color
 
 The Font Color property sets the color of the no rows message. Click the color palette icon and choose the color you need in the `Color Palette`.
 
-![Font color](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-color.png '#width=315px')
+![Font color](/static/images/report-designer/report-items/tablix/no-rows/font-color.png '#width=315px')
 
 ### Font Size
 
 The Font size property increases the size of the text in the no rows message. You can increase the font size with the numeric dropdown highlighted in the following image.
 
-![Font size](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-size.png '#width=315px')
+![Font size](/static/images/report-designer/report-items/tablix/no-rows/font-size.png '#width=315px')
 
 ### Font Styles
 
@@ -43,23 +43,23 @@ The `Font Style` property changes the font style of the no rows message. Choose 
 * Normal
 * Italic
 
-![Font style](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-style.png '#width=315px')
+![Font style](/static/images/report-designer/report-items/tablix/no-rows/font-style.png '#width=315px')
 
 ### Font Weight
 
 The Font Weight property changes the font weight of the no rows message. Choose the font weight type you need from the dropdown list.
 
-![Font weight](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-weight.png '#width=315px')
+![Font weight](/static/images/report-designer/report-items/tablix/no-rows/font-weight.png '#width=315px')
 
 ## Message
 
 The {{site.productNameTM}} no rows Message property holds the text shown to the user when the dataset returns empty or zero rows. Enter the text you need in the message textbox.
 
-![Message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/message.png '#width=315px')
+![Message](/static/images/report-designer/report-items/tablix/no-rows/message.png '#width=315px')
 
 To customize the message appearance, open the `Advanced Panel`.
 
-![Advanced properties](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/advanced.png '#width=315px')
+![Advanced properties](/static/images/report-designer/report-items/tablix/no-rows/advanced.png '#width=315px')
 
 ### Text Decoration
 
@@ -70,37 +70,37 @@ The Text decoration property sets the appearance of decorative lines on the no r
 * **Overline** - Each line of text has a line above it.
 * **Line-through** - Each line of text has a line through the middle.
 
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/text-decoration.png '#width=315px')
+![Text decoration](/static/images/report-designer/report-items/tablix/no-rows/text-decoration.png '#width=315px')
 
 ### Format
 
 The Format property formats the text in the no rows message. See the [Format](../../../compose-report/format-data/) section to show the text in **Numbers**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage**, and **Custom** formats.
 
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/format.png '#width=315px')
+![Text decoration](/static/images/report-designer/report-items/tablix/no-rows/format.png '#width=315px')
 
 ### Line height
 
 The Line height property increases the space between lines in the no rows message. Increase or decrease the value in the numeric dropdown to set the line height.
 
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/line-height.png '#width=315px')
+![Text decoration](/static/images/report-designer/report-items/tablix/no-rows/line-height.png '#width=315px')
 
 ### Padding
 
 The `Padding` property adds space around the no rows message content. Increase or decrease the values in the numeric dropdown to set the left, right, top, and bottom padding.
 
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/padding.png '#width=315px')
+![Text decoration](/static/images/report-designer/report-items/tablix/no-rows/padding.png '#width=315px')
 
 ### Text Align
 
 The `Text align` property sets the horizontal alignment of a no rows message. You can align the text in the left, right, or center position. Choose the text align option you need from the dropdown list.
 
-![Text align](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/text-align.png '#width=315px')
+![Text align](/static/images/report-designer/report-items/tablix/no-rows/text-align.png '#width=315px')
 
 ### Vertical Align
 
 The `Vertical Align` property sets the vertical alignment of a no rows message. Choose the vertical align option you need from the dropdown list.
 
-![Vertical align](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/vertical-align.png '#width=315px')
+![Vertical align](/static/images/report-designer/report-items/tablix/no-rows/vertical-align.png '#width=315px')
 
 ### Writing Mode
 
@@ -112,13 +112,13 @@ The Writing mode property sets the direction of the no rows message to `Horizont
 
 **Rotate 270**: Text will be vertical, read bottom to top.
 
-![Writing mode](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/writing-mode.png '#width=315px')
+![Writing mode](/static/images/report-designer/report-items/tablix/no-rows/writing-mode.png '#width=315px')
 
 ## How does the no rows message look in preview?
 
 {{site.productNameTM}} applies all the customizations to the no rows message container when you preview the report.
 
-![Preview](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/preview.png '#width=315px')
+![Preview](/static/images/report-designer/report-items/tablix/no-rows/preview.png '#width=315px')
 
 ## Frequently asked questions
 

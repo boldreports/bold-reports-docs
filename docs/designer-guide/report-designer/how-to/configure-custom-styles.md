@@ -22,10 +22,10 @@ For configuration steps, read the [Register Custom Styles](../../../../administr
 You choose a custom style in Web Report Designer from the `Custom Style` dropdown in **Report Properties**.
 
 1. Open Web Report Designer. The designer renders as shown below.
-    ![Report designer](/static/assets/on-premise/images/report-designer/how-to/configure-custom-styles/report-designer-initial-view.png '#width=410px')
+    ![Report designer](/static/images/report-designer/how-to/configure-custom-styles/report-designer-initial-view.png '#width=410px')
 
 2. Go to the **Properties** panel. In the **Report Properties** section under `Miscellaneous`, the `Custom Style` dropdown displays the style keys from the uploaded file. Select the style key you need.
-    ![Custom styles in properties](/static/assets/on-premise/images/report-designer/how-to/configure-custom-styles/custom-style-properties.png)
+    ![Custom styles in properties](/static/images/report-designer/how-to/configure-custom-styles/custom-style-properties.png)
 
 3. The previous step applies the custom style at the report level. You can also apply custom styles to specific report sections (header, body, report items, and footer) as needed.
 
@@ -35,7 +35,7 @@ You choose a custom style in Web Report Designer from the `Custom Style` dropdow
 
 The following image shows external CSS applied in the viewer.
 
-![External css in viewer](/static/assets/on-premise/images/report-designer/how-to/configure-custom-styles/external-css-viewer.png)
+![External css in viewer](/static/images/report-designer/how-to/configure-custom-styles/external-css-viewer.png)
 
 ## Frequently asked questions
 

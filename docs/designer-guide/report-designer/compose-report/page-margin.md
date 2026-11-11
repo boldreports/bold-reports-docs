@@ -11,7 +11,7 @@ description: Show page margin rulers on the {{site.productName}} Web Report Desi
 
 **Margin rulers** in {{site.productNameTM}} Web Report Designer highlight the report's margin areas. Previously, report margins were visible **only in Print Layout** or **Export View** of Report Viewer. With this feature enabled, margins are distinctly displayed in Web Report Designer itself.
 
-![Page margin displayed clearly within the design surface](/static/assets/on-premise/images/report-designer/compose-report/page-margin/page-margin-user-interface.png '#width=500px')
+![Page margin displayed clearly within the design surface](/static/images/report-designer/compose-report/page-margin/page-margin-user-interface.png '#width=500px')
 
 Margin rulers **do not display labels** and have a **gray background**. Standard rulers have a white background, so you can tell them apart.
 
@@ -25,7 +25,7 @@ The **Page Margin** in Web Report Designer is hidden by default when you launch 
 
 The following image shows the Page Margin option in the View menu.
 
-![Show or hide Page Margin](/static/assets/on-premise/images/report-designer/compose-report/page-margin/enable-page-margin.png '#width=200px')
+![Show or hide Page Margin](/static/images/report-designer/compose-report/page-margin/enable-page-margin.png '#width=200px')
 
 ## How do report properties show in the margin area?
 
@@ -42,7 +42,7 @@ Clicking the margin or gray area selects the report itself, so you can:
 
 The report's margin settings set the width and height of the margin rulers. For example, if the **left margin** is set to 120 pixels, the **left margin ruler** is 120 pixels wide. If the **top margin** is set to 120 pixels, the **top margin ruler** is 120 pixels high. The following image shows the report properties reflected in the margin.
 
-![Report properties reflected inside margin](/static/assets/on-premise/images/report-designer/compose-report/page-margin/report-properties-reflection.png '#width=500px')
+![Report properties reflected inside margin](/static/images/report-designer/compose-report/page-margin/report-properties-reflection.png '#width=500px')
 
 ## Frequently asked questions
 

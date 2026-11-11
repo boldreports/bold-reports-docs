@@ -15,12 +15,12 @@ You can update reports in {{site.productNameTM}} On-Premises Edition from the co
 You update a report in {{site.productNameTM}} Report Server with the **Update Report** dialog box. In the dialog, you can move a report to a different category and modify its name, description, and report file (`.rdl`).
 
 1. Click the **Update** option in the report's context menu.
-    ![Update option in context menu](/static/assets/on-premise/images/manage-content/manage-reports/update-context-report.png)
+    ![Update option in context menu](/static/images/manage-content/manage-reports/update-context-report.png)
 
 2. Change the Category, Name, Description, Report file (.rdl), or Tag name as needed. If you modify the report file (`.rdl`), you can add version comments for reference.
 
 3. Click `Update` in the dialog box.
-    ![Update Report](/static/assets/on-premise/images/manage-content/manage-reports/update-report.png)
+    ![Update Report](/static/images/manage-content/manage-reports/update-report.png)
 
 ## REST API Reference
 

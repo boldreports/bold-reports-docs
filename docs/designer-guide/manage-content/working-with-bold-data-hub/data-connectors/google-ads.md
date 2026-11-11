@@ -16,7 +16,7 @@ You get the Google OAuth 2.0 client ID and client secret for Bold Data Hub from 
 
 1. Sign in to [https://console.cloud.google.com](https://console.cloud.google.com).
 
-    ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/gcloudconsole.png#max-width=100%)
+    ![Google Ads ETL- DataHub](/static/images/manage-content/working-with-etl/gcloudconsole.png#max-width=100%)
 
 2. Ensure you're logged in with the Google account associated with your project.
 3. Select the project for which you want to find the OAuth 2.0 credentials.
@@ -43,23 +43,23 @@ You connect Google Ads by creating a project in Bold Data Hub and authenticating
 
 1. Click the `Data Hub` icon on the Navigation Pane.
 
-    ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/clickdatahub.png#max-width=100%)
+    ![Google Ads ETL- DataHub](/static/images/manage-content/working-with-etl/clickdatahub.png#max-width=100%)
 
 2. Click the plus icon and enter a name for the new project.
 
-    ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_addprojectDataHub.png#max-width=100%)
+    ![Google Ads ETL- DataHub](/static/images/manage-content/working-with-etl/googleads_addprojectDataHub.png#max-width=100%)
 
 3. Select the newly created project.
 
-    ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_oauthconfiguration.png#max-width=100%)
+    ![Google Ads ETL- DataHub](/static/images/manage-content/working-with-etl/googleads_oauthconfiguration.png#max-width=100%)
 
 4. Enter the `Client ID` and `Client Secret` and click **Ok**. The template is added with the credentials.
 
-    ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_addTemplate.png#max-width=100%)
+    ![Google Ads ETL- DataHub](/static/images/manage-content/working-with-etl/googleads_addTemplate.png#max-width=100%)
 
 5. Update the details required in the template, using the configuration parameters below, and save it to the {{site.productNameTM}} Data Store.
 
-    ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_updateDatahub.png#max-width=100%)
+    ![Google Ads ETL- DataHub](/static/images/manage-content/working-with-etl/googleads_updateDatahub.png#max-width=100%)
 
 ### Configuration Parameters
 
@@ -80,25 +80,25 @@ You schedule the Google Ads pipeline in Bold Data Hub from the schedules tab, or
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Google Ads - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Google Ads - DataHub](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Google Ads - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Google Ads - DataHub](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Google Ads - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Google Ads - DataHub](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Google Ads - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Google Ads - DataHub](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Confirm that the ETL process created the data source in {{site.productNameTM}}.
 
-    ![google ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_newdsDataHub.png#max-width=100%)
+    ![google ads ETL- DataHub](/static/images/manage-content/working-with-etl/googleads_newdsDataHub.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created table(s), such as the 'votes' table.
 
-    ![Google Ads ETL- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/googleads_tableDataHub.png#max-width=100%)
+    ![Google Ads ETL- DataHub](/static/images/manage-content/working-with-etl/googleads_tableDataHub.png#max-width=100%)
 
 ## Frequently asked questions
 

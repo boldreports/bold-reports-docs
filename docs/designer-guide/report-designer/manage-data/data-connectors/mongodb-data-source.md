@@ -11,11 +11,11 @@ To connect {{site.productNameTM}} to MongoDB, open the **Data** configuration pa
 To create a MongoDB data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the MongoDB connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/data-configuration-panel.png '#width=410px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/mongodb-data-source/data-configuration-panel.png '#width=410px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![New Data Panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/new-data-button.png '#width=355px')
+   ![New Data Panel](/static/images/report-designer/manage-data/mongodb-data-source/new-data-button.png '#width=355px')
 3. In the connection type panel, choose the `MongoDB` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/connection-types.png '#width=355px')
+   ![Connection types panel](/static/images/report-designer/manage-data/mongodb-data-source/connection-types.png '#width=355px')
 
 ### How do I configure the basic options?
 
@@ -33,12 +33,12 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
    Example: tls=true&retryWrites=true&replicaSet=mySet&readPreference=primary.
 5. In the [Authentication Type](./../../../manage-data/data-connectors/mongodb-data-source/#authentication-types) field, choose **None** or **SCRAM** or **X.509** authentication.
 6. Choose an existing valid database, e.g. sample_mflix.
-   ![Basic Option](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/basic-options.png '#width=355px')
+   ![Basic Option](/static/images/report-designer/manage-data/mongodb-data-source/basic-options.png '#width=355px')
 7. Click `Connect` to open the query design pane. Enter the required query and execute it. The corresponding values appear in a grid for preview.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/execute-schema.png '#width=600px')
+   ![New connection panel](/static/images/report-designer/manage-data/mongodb-data-source/execute-schema.png '#width=600px')
    > Only query mode is supported for MongoDB data source.
 8. Click `Finish` to save the data source with a relevant name and continue designing the report.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/data-list.png '#width=355px')
+   ![New connection panel](/static/images/report-designer/manage-data/mongodb-data-source/data-list.png '#width=355px')
 
 #### Connection string scheme
 
@@ -46,11 +46,11 @@ The {{site.productNameTM}} MongoDB connector lets you set the connection string 
 
 To connect using the standard connection format, choose **mongodb** under **Connection string scheme**.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/scheme-mongodb.png '#width=355px')
+![New connection panel](/static/images/report-designer/manage-data/mongodb-data-source/scheme-mongodb.png '#width=355px')
 
 To connect to a cloud-hosted MongoDB (such as Atlas) using DNS-based host discovery without specifying ports, choose **mongodb+srv** under **Connection string scheme**.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/scheme-mongodbsrv.png '#width=355px')
+![New connection panel](/static/images/report-designer/manage-data/mongodb-data-source/scheme-mongodbsrv.png '#width=355px')
 
 #### Authentication types
 
@@ -58,17 +58,17 @@ The {{site.productNameTM}} MongoDB connector supports the **None**, **SCRAM**, a
 
 If your MongoDB server does not require authentication, choose **None** under **Authentication Type**.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/authentication-none.png '#width=355px')
+![New connection panel](/static/images/report-designer/manage-data/mongodb-data-source/authentication-none.png '#width=355px')
 
 If your MongoDB server requires a username, password, and authentication database, choose **SCRAM** as the **Authentication Type** and enter the username, password, and authentication database for the server specified in the *Server Name* field.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/authentication-scram.png '#width=355px')
+![New connection panel](/static/images/report-designer/manage-data/mongodb-data-source/authentication-scram.png '#width=355px')
 
 For **SCRAM** authentication, the authSource parameter is configured through the Authentication Database field in the UI. Do not duplicate it in the `Options` field.
 
 If your MongoDB server uses SSL encryption with client certificates, choose **X.509** under **Authentication Type** and provide the Client Certificate File and Client Certificate Password for the server specified in the *Server Name* field.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/authentication-x509.png '#width=355px')
+![New connection panel](/static/images/report-designer/manage-data/mongodb-data-source/authentication-x509.png '#width=355px')
 
 Enable `Allow Self-Signed Certificates` if the MongoDB server is configured to accept self signed certificates.
 
@@ -76,7 +76,7 @@ Enable `Allow Self-Signed Certificates` if the MongoDB server is configured to a
 
 {{site.productNameTM}} connects to MongoDB data sources securely using an SSL/TLS connection. The SSL/TLS connection ensures encrypted communication between the client and the MongoDB server, providing a secure method to access remote databases over untrusted networks.
 
-![Enable-SSL](/static/assets/on-premise/images/report-designer/manage-data/mongodb-data-source/enable-ssl-mongodb.png '#width=385px')
+![Enable-SSL](/static/images/report-designer/manage-data/mongodb-data-source/enable-ssl-mongodb.png '#width=385px')
 
 **Client Certificate**: The SSL certificate used for client authentication when connecting to the MongoDB server.
 

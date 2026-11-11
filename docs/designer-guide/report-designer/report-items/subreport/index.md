@@ -17,12 +17,12 @@ The subreport report item in the {{site.productNameTM}} Web Report Designer has 
 The `Basic Settings` category contains the `Report` and `Set Parameters` properties.
 
 * The `Report` property specifies the report path of the subreport. Refer to the [Report Path](./../../compose-report/link-data/#report-path) section to set the report path for this property.
-* The `Set Parameters` property passes parameters from the main report to the subreport. Refer to the [Set Parameters](./../../compose-report/link-data/#set-parameters) section to set parameters for the subreport.![subreport item basic settings](/static/assets/on-premise/images/report-designer/report-items/subreport/basic-settings.png '#width=385px')
+* The `Set Parameters` property passes parameters from the main report to the subreport. Refer to the [Set Parameters](./../../compose-report/link-data/#set-parameters) section to set parameters for the subreport.![subreport item basic settings](/static/images/report-designer/report-items/subreport/basic-settings.png '#width=385px')
 
 ### Appearance
 
 The `Appearance` property improves the style of the subreport layout. Border style, color, and width properties are displayed under the `Appearance` category.
-![subreport appearance](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-appearence.png '#width=385px')
+![subreport appearance](/static/images/report-designer/report-items/subreport/subreport-appearence.png '#width=385px')
 
 #### Border
 
@@ -32,25 +32,25 @@ Border properties add or customize the border around a subreport item to visuall
 
 The No Rows property displays static text when the dataset returns empty or zero rows.
 
-![subreport item norows property](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-property.png '#width=385px')
+![subreport item norows property](/static/images/report-designer/report-items/subreport/subreport-norows-property.png '#width=385px')
 
 #### Font Family
 
 The `Font Family` drop-down lists the supported font family names. Choose the required font family from the drop-down list to change the font family of the no rows message.
 
-![Font family](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-family.png '#width=385px')
+![Font family](/static/images/report-designer/report-items/tablix/no-rows/font-family.png '#width=385px')
 
 #### Font Color
 
 The font color of the no rows message is set from the `Color Palette`. Click the color palette icon and choose the required color.
 
-![Font color](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-color.png '#width=385px')
+![Font color](/static/images/report-designer/report-items/tablix/no-rows/font-color.png '#width=385px')
 
 #### Font Size
 
 The Font size property increases the size of the text in the no rows message. Increase the font size using the numeric drop-down highlighted in the following image.
 
-![Font size](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-size.png '#width=385px')
+![Font size](/static/images/report-designer/report-items/tablix/no-rows/font-size.png '#width=385px')
 
 #### Font Styles
 
@@ -60,23 +60,23 @@ The font style of the no rows message is set in the `Font Style` drop-down list.
 * Normal
 * Italic
 
-![Font style](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-style.png '#width=385px')
+![Font style](/static/images/report-designer/report-items/tablix/no-rows/font-style.png '#width=385px')
 
 #### Font Weight
 
 The font weight of the no rows message is set by choosing the required type of font weight property from the drop-down list.
 
-![Font weight](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/font-weight.png '#width=385px')
+![Font weight](/static/images/report-designer/report-items/tablix/no-rows/font-weight.png '#width=385px')
 
 ### Message
 
 The message textbox holds the text displayed to the user when the dataset returns empty or zero rows. Enter the required text in the message textbox.
 
-![Message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/message.png '#width=385px')
+![Message](/static/images/report-designer/report-items/tablix/no-rows/message.png '#width=385px')
 
 To customize the message appearance, open the `Advanced Panel`.
 
-![Advanced properties](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/advanced.png '#width=385px')
+![Advanced properties](/static/images/report-designer/report-items/tablix/no-rows/advanced.png '#width=385px')
 
 #### Text Decoration
 
@@ -87,37 +87,37 @@ The text decoration property sets the appearance of decorative lines on text.
 * **Overline** - Each line of text has a line above it.
 * **Line-through** - Each line of text has a line through the middle.
 
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/text-decoration.png '#width=385px')
+![Text decoration](/static/images/report-designer/report-items/tablix/no-rows/text-decoration.png '#width=385px')
 
 #### Format
 
 The Format property formats the given text in the no rows message. Refer to the [Format](./../../compose-report/format-data/) section to represent the text in **Numbers**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** and **Custom** formats.
 
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/format.png '#width=385px')
+![Text decoration](/static/images/report-designer/report-items/tablix/no-rows/format.png '#width=385px')
 
 #### Line height
 
 The Line height property increases the space between lines in the given message. Increase or decrease the values in the numeric drop-down to set the line height for the no rows message.
 
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/line-height.png '#width=385px')
+![Text decoration](/static/images/report-designer/report-items/tablix/no-rows/line-height.png '#width=385px')
 
 #### Padding
 
 The `Padding` property provides space around the no rows message content. Increase or decrease the values in the numeric drop-down to set the left, right, top and bottom padding for the no rows message.
 
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/padding.png '#width=385px')
+![Text decoration](/static/images/report-designer/report-items/tablix/no-rows/padding.png '#width=385px')
 
 #### Text Align
 
 The `Text align` property sets the horizontal alignment of a no rows message. The text can be aligned in the left, right, or center position. Choose the required text align property from the drop-down list.
 
-![Text align](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/text-align.png '#width=385px')
+![Text align](/static/images/report-designer/report-items/tablix/no-rows/text-align.png '#width=385px')
 
 ### Vertical Align
 
 The `Vertical Align` property sets the vertical alignment of a no rows message. Choose the required vertical align property from the drop-down list.
 
-![Vertical align](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/vertical-align.png '#width=385px')
+![Vertical align](/static/images/report-designer/report-items/tablix/no-rows/vertical-align.png '#width=385px')
 
 #### Writing Mode
 
@@ -129,27 +129,27 @@ The writing mode property sets the direction of the no rows message as `Horizont
 
 **Rotate 270**: Text is vertical, read bottom to top.
 
-![Writing mode](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/writing-mode.png '#width=385px')
+![Writing mode](/static/images/report-designer/report-items/tablix/no-rows/writing-mode.png '#width=385px')
 
 All the customizations are applied to the no rows message container when you preview the report.
 
-![Preview](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/preview.png '#width=385px')
+![Preview](/static/images/report-designer/report-items/tablix/no-rows/preview.png '#width=385px')
 
 ### Position
 
-The Position property sets the width, height, left and top position of the subreport item in the report design. To handle these properties using the properties panel, refer to the [Position](./../../compose-report/common-properties/#position) section.![subreport item position](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-position.png '#width=385px')
+The Position property sets the width, height, left and top position of the subreport item in the report design. To handle these properties using the properties panel, refer to the [Position](./../../compose-report/common-properties/#position) section.![subreport item position](/static/images/report-designer/report-items/subreport/subreport-norows-position.png '#width=385px')
 
 ### Data Element
 
 The Data element properties control the visibility of a report item when you export the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=385px')
+![Data element properties](/static/images/report-designer/report-items/tablix/data-element-properties.png '#width=385px')
 
 <span style="font-weight:bold">Name</span>
 
 The `Name` field assigns a custom name to the subreport element. The subreport is exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=385px')
+![Data element name property](/static/images/report-designer/report-items/tablix/name-property.png '#width=385px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -160,7 +160,7 @@ The `Output` property controls the visibility of the subreport when you export t
 * **Auto** or **Output** - Exports the subreport report item.
 * **NoOutput** - Does not export the subreport report item.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=385px')
+![Data element output property](/static/images/report-designer/report-items/tablix/output-property.png '#width=385px')
 
 ### Visibility
 
@@ -174,7 +174,7 @@ The miscellaneous properties of the subreport cover keep together, custom attrib
 
 The Keep together property displays the subreport item on a single page on report preview or export action. Enable the checkbox to keep the content on a single page; otherwise it spans multiple pages.
 
-![subreport item keep together](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-keep-together.png '#width=385px')
+![subreport item keep together](/static/images/report-designer/report-items/subreport/subreport-keep-together.png '#width=385px')
 
 <span style="font-weight:bold">Custom attributes</span>
 
@@ -202,7 +202,7 @@ The `Custom Style` property enables the use of external CSS for styling report i
 
 The following image shows the `Custom Style` property in the properties panel.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/subreport/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/subreport/custom-style-property.png '#width=355px')
 
 ## How do I set an expression on a subreport property?
 

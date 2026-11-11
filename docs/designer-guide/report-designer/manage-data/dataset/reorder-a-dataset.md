@@ -14,11 +14,11 @@ You reorder datasets in the `DATA` panel of the {{site.productNameTM}} Web Repor
 
 1. Open the `DATA` panel. The panel lists the datasets in the report.
 2. Click and hold the drag indicator icon of the dataset item that you want to reorder.
-   ![Dataset drag icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/drag-icon.png '#width=385px')
+   ![Dataset drag icon](/static/images/report-designer/manage-data/dataset/drag-icon.png '#width=385px')
 3. Drag the selected dataset item and drop it at the required position in the datasets list.
-   ![Dataset reorder](/static/assets/on-premise/images/report-designer/manage-data/dataset/reorder-datasource.png '#width=385px')
+   ![Dataset reorder](/static/images/report-designer/manage-data/dataset/reorder-datasource.png '#width=385px')
 4. Check the list. The dataset item is rearranged to the dropped position.
-   ![Rearranged datasets](/static/assets/on-premise/images/report-designer/manage-data/dataset/rearranged-datasources.png '#width=385px')
+   ![Rearranged datasets](/static/images/report-designer/manage-data/dataset/rearranged-datasources.png '#width=385px')
 
 ## See also
 

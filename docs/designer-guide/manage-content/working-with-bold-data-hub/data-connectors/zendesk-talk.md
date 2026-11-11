@@ -146,19 +146,19 @@ You connect Bold Data Hub to Zendesk Talk by creating a project, adding the `Zen
 
   1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-  ![Zendesk Talk Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+  ![Zendesk Talk Data Hub - Reports](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
   1. Click `Add Project` and provide the name for the new project.
   
-   ![Zendesk Talk Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+   ![Zendesk Talk Data Hub - Reports](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
   
   1. Select the newly created project and add the `Zendesk Talk` template.
 
-  ![Zendesk Talk Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/talk_addtemplate.png#max-width=100%)
+  ![Zendesk Talk Data Hub - Reports](/static/images/manage-content/working-with-etl/talk_addtemplate.png#max-width=100%)
   
   1. Update the subdomain, email address, password or token (API or OAuth) in the template. Update the resources on the `select` property and save it to the {{site.productNameTM}} Data Store.
 
-  ![Zendesk Talk Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/talk_yaml.png#max-width=100%)
+  ![Zendesk Talk Data Hub - Reports](/static/images/manage-content/working-with-etl/talk_yaml.png#max-width=100%)
   
   1. Creating a Pipeline in Bold Data Hub automatically creates a Data Source in {{site.productNameTM}}. The {{site.productNameTM}} Data Source is a live data source to the destination database used in Bold Data Hub.
 
@@ -190,21 +190,21 @@ You schedule a Bold Data Hub job from the **Schedules** tab, or run it on demand
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure it. The images show the schedules tab and the schedule dialog.
 
-![Zendesk Talk - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+![Zendesk Talk - Reports](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-![Zendesk Talk - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+![Zendesk Talk - Reports](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 1. For on-demand refresh, click the Run Now button.
 
-![Zendesk Talk - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%).
+![Zendesk Talk - Reports](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%).
 
 1. Check the schedule history with the history option and the logs.
 
-![Zendesk Talk - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+![Zendesk Talk - Reports](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 1. Click Logs to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-![Zendesk Talk - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![Zendesk Talk - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 1. Click the `Edit DataSource` option to view the created tables.
 

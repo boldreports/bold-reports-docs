@@ -55,20 +55,20 @@ You connect an OpenAPI document by creating a pipeline in Bold Data Hub and addi
 
 1. Click the `Data Hub` icon on the Navigation Pane.
 
-    ![OpenAPI- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/clickdatahub.png#max-width=100%)
+    ![OpenAPI- Reports](/static/images/manage-content/working-with-etl/clickdatahub.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![OpenAPI - Reports](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created pipeline and add the `OpenAPI` template.
 
-    ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/openapitemplate.png#max-width=100%)
+    ![OpenAPI - Reports](/static/images/manage-content/working-with-etl/openapitemplate.png#max-width=100%)
 
 4. Update the URL and path in the template.
 5. Click **Save** and choose the destination to save the pipeline.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
 ## How do I schedule the OpenAPI pipeline?
 
@@ -76,21 +76,21 @@ You schedule the OpenAPI pipeline in Bold Data Hub from the schedules tab, or yo
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![OpenAPI - Reports](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![OpenAPI - Reports](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![OpenAPI - Reports](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![OpenAPI - Reports](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![OpenAPI - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![OpenAPI - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

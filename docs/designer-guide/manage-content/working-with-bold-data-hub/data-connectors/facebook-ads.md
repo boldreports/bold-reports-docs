@@ -119,21 +119,21 @@ You connect Facebook Ads by creating a pipeline in Bold Data Hub and adding the 
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created project and add the `Facebook Ads` template.
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/fbads_Template.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/fbads_Template.png#max-width=100%)
 
 4. Update the access token and account ID in the template, and update the resources in the `select` property.
 
 5. Click **Save** and choose the destination to save the pipeline.
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/fbtemplate.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/fbtemplate.png#max-width=100%)
 
 The Facebook Ads connector supports these resources:
 
@@ -148,7 +148,7 @@ The available resources are supported in Facebook Ads
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![FileSystem - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![FileSystem - {{site.productName}}](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 >**Warning:**
 
@@ -161,21 +161,21 @@ You schedule the Facebook Ads pipeline in Bold Data Hub from the schedules tab, 
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![DataHub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables, such as 'Campaigns' and 'Adsets' tables.
 

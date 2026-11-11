@@ -51,17 +51,17 @@ Before you create a report in {{site.productNameTM}} Report Server, make sure yo
 You start a new report in {{site.productNameTM}} Report Server from the `[+]` icon in the toolbar.
 
 1. Click the `[+]` icon in the toolbar and click the `Start from Scratch` option.
-   ![Add button dropdown toggle](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/add-button-report-server.png)
+   ![Add button dropdown toggle](/static/images/manage-content/manage-reports/create-reports/add-button-report-server.png)
 
 2. Enter the report name in the dialog box, then click the `Add and Design` button.
-   ![Report designer initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/add-and-design-button.png)
+   ![Report designer initial view](/static/images/manage-content/manage-reports/create-reports/add-and-design-button.png)
    > The report is automatically saved as a draft if you do not publish it, and you can view unpublished reports on the Drafts listing page.
-   > ![Draft report](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/draft-report.png)
+   > ![Draft report](/static/images/manage-content/manage-reports/create-reports/draft-report.png)
 
 3. Work in the Web Report Designer page, which opens in a new tab with a blank report by default.
-   ![Report designer initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-designer-initial-view.png)
+   ![Report designer initial view](/static/images/manage-content/manage-reports/create-reports/report-designer-initial-view.png)
    > * Click the `Try the new designer` toggle button to experiment with the new designer.
-   > ![New Report designer initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-new-designer-initial-view.png)
+   > ![New Report designer initial view](/static/images/manage-content/manage-reports/create-reports/report-new-designer-initial-view.png)
    > * The `Read Write Delete` permissions for that `Specific Report` are added for the user who created it.
 
 ## How do I add data to the report?
@@ -69,16 +69,16 @@ You start a new report in {{site.productNameTM}} Report Server from the `[+]` ic
 You add data to a report in the Web Report Designer from the `Data` panel.
 
 1. Open the `Data` panel by clicking the **Data** icon in the configuration panel.
-   ![Configuration panel](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/data-icon-configuration-panel.png)
+   ![Configuration panel](/static/images/manage-content/manage-reports/create-reports/data-icon-configuration-panel.png)
 
 2. Click `EXPLORE SAMPLE DATA` in the data panel.
-   ![Data creation panel](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/open-data-panel.png)
+   ![Data creation panel](/static/images/manage-content/manage-reports/create-reports/open-data-panel.png)
 
 3. From the available data, select `Sales` data and click `Add`.
-   ![Data creation panel](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/available-data-list.png)
+   ![Data creation panel](/static/images/manage-content/manage-reports/create-reports/available-data-list.png)
 
 4. Check the report. A new `DataSource` and `DataSet` are added in the report.
-   ![Data list view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/data-list-view.png)
+   ![Data list view](/static/images/manage-content/manage-reports/create-reports/data-list-view.png)
 
 ## How do I add a chart report item?
 
@@ -89,9 +89,9 @@ In the Web Report Designer design view, the left pane contains basic items, data
 1. Select any `Chart` type in the left pane, then drag and drop it into the design area.
    > The following example uses a `Column` chart for demonstration purposes.
 
-   ![Chart report item](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/drag-drop-chart-item.png)
+   ![Chart report item](/static/images/manage-content/manage-reports/create-reports/drag-drop-chart-item.png)
 2. Check the design area. The `Chart` report item renders there.
-   ![Chart initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/chart-initial-view.png)
+   ![Chart initial view](/static/images/manage-content/manage-reports/create-reports/chart-initial-view.png)
 
 ### Assign Data
 
@@ -100,52 +100,52 @@ The Web Report Designer binds data to a report item through the `DATA` tab of th
 > The Assign Data step applies only to report items in the `data visualization` and `data region` categories.
 
 1. Focus the report item placed in the design area to bind data to it.
-   ![Focus chart item](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/focus-report-item.png)
+   ![Focus chart item](/static/images/manage-content/manage-reports/create-reports/focus-report-item.png)
 
 2. Click the `Properties` button in the configuration panel to open the property pane. Then, switch to the `DATA` tab.
-   ![Chart properties pane](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/chart-properties-pane.png)
+   ![Chart properties pane](/static/images/manage-content/manage-reports/create-reports/chart-properties-pane.png)
 
 3. Use the `DATA` tab, which holds the data configuration view.
 
 4. Choose data from the drop-down list, which lists the available data in the report.
-   ![Choose the dataset for chart](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/data-assign-drop-down.png)
+   ![Choose the dataset for chart](/static/images/manage-content/manage-reports/create-reports/data-assign-drop-down.png)
 
 5. Review the fields. Numeric columns and numeric expressions are listed under the `Measures` section, while other types of columns and dimension expressions are listed under the `Dimensions` section.
-   ![Measures and dimensions](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/measures-dimensions-category.png)
+   ![Measures and dimensions](/static/images/manage-content/manage-reports/create-reports/measures-dimensions-category.png)
 
 6. **Drag and Drop Measure Element:**
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measures` section and drop it into the `Y Values` section.
-   ![Add a Y-value field](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/add-y-values-field.png)
+   ![Add a Y-value field](/static/images/manage-content/manage-reports/create-reports/add-y-values-field.png)
    The report item design then appears as follows:
-   ![Preview after adding y-value field](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/y-value-chart-design-view.png)
+   ![Preview after adding y-value field](/static/images/manage-content/manage-reports/create-reports/y-value-chart-design-view.png)
 
 7. **Aggregate Options:**
    Click the `Settings` icon (highlighted in the following image) to open the drop-down list for aggregation types.
-   ![Aggregate settings icon](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/aggregation-settings-icon.png)
+   ![Aggregate settings icon](/static/images/manage-content/manage-reports/create-reports/aggregation-settings-icon.png)
    You can set the aggregation type used to compute the selected column.
-   ![Aggregate menu list](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/aggregation-settings-menu.png)
+   ![Aggregate menu list](/static/images/manage-content/manage-reports/create-reports/aggregation-settings-menu.png)
 
 8. **Drag and Drop Dimension Element:**
    Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column(s)` section.
-   ![Add dimension field](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/add-field-to-column-section.png)
+   ![Add dimension field](/static/images/manage-content/manage-reports/create-reports/add-field-to-column-section.png)
    The report item design then appears as follows:
-   ![Preview after adding dimension field](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/column-field-design-preview.png)
+   ![Preview after adding dimension field](/static/images/manage-content/manage-reports/create-reports/column-field-design-preview.png)
 
 9. **Grouping:**
    You can group the added column element with another column by adding the respective dimension element into the Row(s) section.
-   ![Achieve grouping by row values](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/add-field-to-rows-section.png)
+   ![Achieve grouping by row values](/static/images/manage-content/manage-reports/create-reports/add-field-to-rows-section.png)
    The report item design then appears as follows:
-   ![Preview of row value grouping ](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/row-field-design-preview.png)
+   ![Preview of row value grouping ](/static/images/manage-content/manage-reports/create-reports/row-field-design-preview.png)
 
 ### Customize the appearance
 
 You customize a report item's appearance in the `PROPERTIES` tab of the Web Report Designer properties pane.
 
-![Properties pane](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/chart-properties-tab.png)
+![Properties pane](/static/images/manage-content/manage-reports/create-reports/chart-properties-tab.png)
 
 The `PROPERTIES` tab contains both general settings and settings specific to the report item. Configure the desired settings for the chart to enhance report design and improve report readability.
 
-![Chart final design view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/final-view-chart-design.png)
+![Chart final design view](/static/images/manage-content/manage-reports/create-reports/final-view-chart-design.png)
 
 ## How do I publish the report?
 
@@ -156,10 +156,10 @@ After you finish designing the report, publish it to the Report Server using the
 You preview a report in the Web Report Designer with the **Preview** button.
 
 1. Click the **Preview** button in the center of the report header.
-   ![Preview icon in design view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/preview-icon.png)
+   ![Preview icon in design view](/static/images/manage-content/manage-reports/create-reports/preview-icon.png)
 
 2. View the report preview, which appears as follows:
-   ![Chart report preview](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-preview-page.png)
+   ![Chart report preview](/static/images/manage-content/manage-reports/create-reports/report-preview-page.png)
 
    > You can [download the sample report design](https://github.com/boldreports/resources/blob/master/docs/manage-content/reports/create-report.rdl).
 
@@ -168,15 +168,15 @@ You preview a report in the Web Report Designer with the **Preview** button.
 {{site.productNameTM}} Report Server opens the new designer by default from v6.1, and the old designer look is deprecated.
 
 * From v6.1, when you create a new report or edit an existing one, the designer is displayed by default using the `new designer`. The `old designer` look has been `deprecated`.
-   ![delete-report-part](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/new-designer-look.png)
+   ![delete-report-part](/static/images/manage-content/manage-reports/create-reports/new-designer-look.png)
 
 * If you still prefer the old designer look, navigate to `Settings -> Configuration -> reporting/config.xml`, set `IsOldViewerDesigner` node to **true**, and then save the changes.<br>`<IsOldViewerDesigner>true</IsOldViewerDesigner>`
 
-   ![Config File](/static/assets/on-premise/images/manage-content/manage-reports/config-file.png)
-   ![Config File](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/switch-old-designer.png)
+   ![Config File](/static/images/manage-content/manage-reports/config-file.png)
+   ![Config File](/static/images/manage-content/manage-reports/create-reports/switch-old-designer.png)
 
 * The Web Report Designer then looks as follows:
-   ![Config File](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/old-designer.png)
+   ![Config File](/static/images/manage-content/manage-reports/create-reports/old-designer.png)
 
 * If you previously saved your designer preference on the user profile page, that saved preference is no longer considered, and the related options are no longer available.
 

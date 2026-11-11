@@ -16,7 +16,7 @@ The {{site.productNameTM}} installer lets you install the Bold Data Hub applicat
 
 1. During installation, check the box labeled **Install Data Application** in the installer wizard to include the Bold Data Hub application.
    The following screenshot shows the **Install Data Application** checkbox in the installer wizard.
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/etl_install.png)  
+![Source](/static/images/manage-content/working-with-etl/etl_install.png)  
 
 2. To skip the Bold Data Hub application during configuration, uncheck the same checkbox.
 
@@ -44,11 +44,11 @@ You uninstall the Bold Data Hub application by running its uninstall string from
 
 1. Open the system registry and locate the ```Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall``` key associated with the application.
    The following screenshot shows the Uninstall key in the registry.
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/etl_install2.png)
+![Source](/static/images/manage-content/working-with-etl/etl_install2.png)
 
 2. Search within the key to find the exact Bold Data Hub version or application, and locate its **UninstallString**.
    The following screenshot shows the Bold Data Hub entry and its uninstall string.
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/etl_install3.png)
+![Source](/static/images/manage-content/working-with-etl/etl_install3.png)
 
 3. Double-click **UninstallString** to get the complete uninstall string for MSIExec.exe. Then, change `/I` to `/X` in the string.
 

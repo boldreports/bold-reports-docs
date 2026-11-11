@@ -29,29 +29,29 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 You add a data bar to a table cell in the {{site.productNameTM}} Web Report Designer after you set up the table and its groups.
 
 1. Drag and drop the table report item to the design area.
-   ![Data bar item in item panel](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-table.png '#width=295px')
+   ![Data bar item in item panel](/static/images/report-designer/report-items/data-bar/design/add-table.png '#width=295px')
 2. Assign a [dataset to the table](./../../../report-items/tablix/assign-data-to-tablix-data-region/#assign-dataset-from-properties-panel).
-   ![Assign dataset to table](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/assign-data.png '#width=355px')
+   ![Assign dataset to table](/static/images/report-designer/report-items/data-bar/design/assign-data.png '#width=355px')
 3. Create a simple table design with two columns, as shown in the following image.
-   ![Table report design](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/basic-table-design.png '#width=245px')
+   ![Table report design](/static/images/report-designer/report-items/data-bar/design/basic-table-design.png '#width=245px')
 4. Click `Details group` in the `Row Groups` pane. The properties panel lists the respective tablix member properties.
-   ![Group properties](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/select-detail-group.png)
+   ![Group properties](/static/images/report-designer/report-items/data-bar/design/select-detail-group.png)
 5. Click the `Set Groups...` button in the properties panel. The `Grouping` dialog opens.
-   ![Group dialog](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/group-dialog.png '#width=385px')
+   ![Group dialog](/static/images/report-designer/report-items/data-bar/design/group-dialog.png '#width=385px')
 6. Click the `Add` button, select `SubCat`, and click OK.
-   ![Group data in table](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/group-data.png '#width=385px')
+   ![Group data in table](/static/images/report-designer/report-items/data-bar/design/group-data.png '#width=385px')
 7. Select the `Sales` text box and [assign an expression with the data assign menu](./../../../report-items/tablix/assign-data-to-tablix-data-region/#edit-expression-using-data-assign-menu). Use the expression `=Sum(Fields!Sales.Value)` in the cell.
-   ![Sum sales value](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/sum-sales-value.png '#width=355px')
+   ![Sum sales value](/static/images/report-designer/report-items/data-bar/design/sum-sales-value.png '#width=355px')
 8. Format the numbers produced by the `Sales` field with the `Format` property. Set `'$'#,0;('$'#,0)` as the value of the format property field.
-   ![Format textbox value](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-sales-value.png '#width=355px')
+   ![Format textbox value](/static/images/report-designer/report-items/data-bar/design/format-sales-value.png '#width=355px')
 9. [Add a column to the right](./../../../report-items/tablix/insert-or-delete-a-column-ssrs/#insert-a-column) and name it `Sales Indicator`.
-   ![Add column in table](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-column.png '#width=355px')
+   ![Add column in table](/static/images/report-designer/report-items/data-bar/design/add-column.png '#width=355px')
 10. Drag and drop the data bar report item into the last cell of the table.
-    ![Add data bar report item](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-databar.png '#width=355px')
+    ![Add data bar report item](/static/images/report-designer/report-items/data-bar/design/add-databar.png '#width=355px')
 
     The following image shows the resulting report design.
 
-    ![Basic design of data bar report](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/intial-design.png '#width=385px')
+    ![Basic design of data bar report](/static/images/report-designer/report-items/data-bar/design/intial-design.png '#width=385px')
 
 > Cannot insert a data bar into a detail cell. Detail members can only contain the static inner members.
 
@@ -60,9 +60,9 @@ You add a data bar to a table cell in the {{site.productNameTM}} Web Report Desi
 You assign data to a {{site.productNameTM}} data bar in the `DATA` tab of the properties panel.
 
 1. Select the cell that contains the data bar report item and switch to the `DATA` tab in the properties panel.
-   ![Assign data to chart](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/switch-data-assign.png)
+   ![Assign data to chart](/static/images/report-designer/report-items/data-bar/design/switch-data-assign.png)
 2. Drag and drop the `Sales` field into the `Y-Values` section.
-      ![Add series to data bar](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/assign-series-value.png '#width=385px')
+      ![Add series to data bar](/static/images/report-designer/report-items/data-bar/design/assign-series-value.png '#width=385px')
 
 ## How do I configure the data bar properties?
 
@@ -70,15 +70,15 @@ You configure the {{site.productNameTM}} data bar series and data labels in the 
 
 1. Switch to the `PROPERTIES` tab in the properties panel.
 2. Choose the `Sales` series in the `Choose Series` dropdown.
-   ![Choose series in chart](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/choose-series.png '#width=385px')
+   ![Choose series in chart](/static/images/report-designer/report-items/data-bar/design/choose-series.png '#width=385px')
 3. Click the edit icon to open the series properties.
-   ![Series properties](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/edit-icon.png '#width=385px')
+   ![Series properties](/static/images/report-designer/report-items/data-bar/design/edit-icon.png '#width=385px')
 4. Under the data label settings category, enable the [Data Label](./../../../report-items/chart/data-label/) property checkbox.
-   ![Chart data label](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/enable-data-label.png '#width=385px')
+   ![Chart data label](/static/images/report-designer/report-items/data-bar/design/enable-data-label.png '#width=385px')
 5. Format the numbers produced by the `Data labels` with the `Format` property. Set `'$'#,0;('$'#,0)` as the value in the format property field.
-   ![Format datalabel value](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-values.png '#width=385px')
+   ![Format datalabel value](/static/images/report-designer/report-items/data-bar/design/format-values.png '#width=385px')
 6. Change the background color and font styles of the table cells to improve the report design, as shown in the following image.
-   ![Format table design](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-report.png '#width=425px')
+   ![Format table design](/static/images/report-designer/report-items/data-bar/design/format-report.png '#width=425px')
 
 > To style the table cell, see [Cell Properties](./../../../report-items/tablix/cell-properties/#cell-properties).
 
@@ -86,7 +86,7 @@ You configure the {{site.productNameTM}} data bar series and data labels in the 
 
 The {{site.productNameTM}} data bar report preview displays the difference in sales between each product category, as shown in the following image.
 
-![Data bar RDL report preview](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/report-preview.png '#width=455px')
+![Data bar RDL report preview](/static/images/report-designer/report-items/data-bar/design/report-preview.png '#width=455px')
 
 > Download the [data bar report design (RDL) from GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/data-bar/design-ssrs-data-bar-using-table.rdl)
 

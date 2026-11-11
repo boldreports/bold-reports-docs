@@ -10,7 +10,7 @@ In the {{site.productNameTM}} Web Report Designer, a tablix group organizes the 
 
 The following image shows the areas of a tablix region with nested row groups and column groups.
 
-![Tablix Groups](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-areas.png '#width=385px')
+![Tablix Groups](/static/images/report-designer/report-items/tablix/tablix-areas.png '#width=385px')
 
 Groups are organized as members of one or more hierarchies for each data region. A group hierarchy has parent/child groups that are nested and can have adjacent groups. Data associated with row group members expands horizontally across the page and data associated with column group members expands vertically down the page. The `Grouping panel` displays row group and column group members for the currently selected tablix data region on the design surface.
 
@@ -31,7 +31,7 @@ A {{site.productNameTM}} tablix supports row groups, column groups, and the deta
 
 ## How do I edit group properties?
 
-You edit group properties such as [filters](./../../../compose-report/filter-data/), [sort](./../../../compose-report/sort-data/), and [groups expressions](./../../../compose-report/group-data/) in the {{site.productNameTM}} Web Report Designer after you create groups. These properties organize the data visualization of the respective group in the data region. To edit an existing group, select the respective member in the Row or Column Groups pane of the grouping panel. The member properties are listed in the properties panel.![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=600px')
+You edit group properties such as [filters](./../../../compose-report/filter-data/), [sort](./../../../compose-report/sort-data/), and [groups expressions](./../../../compose-report/group-data/) in the {{site.productNameTM}} Web Report Designer after you create groups. These properties organize the data visualization of the respective group in the data region. To edit an existing group, select the respective member in the Row or Column Groups pane of the grouping panel. The member properties are listed in the properties panel.![Open group member properties](/static/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=600px')
 
 Refer to the [Group properties](./../../../report-items/tablix/member-properties/#group-member-properties) section to modify the group properties.
 
@@ -40,10 +40,10 @@ Refer to the [Group properties](./../../../report-items/tablix/member-properties
 Group scope in a {{site.productNameTM}} tablix is defined by the hierarchy in which the groups are created in the data regions. You can create a nested group or adjacent groups in the data regions. To help you understand the scope of the groups in the selected tablix data region:
 
 * The visual cues are provided in the tablix data regions.
-   ![Groups and total ](/static/assets/on-premise/images/report-designer/report-items/tablix/groups-and-total-sketch.png '#width=600px')
+   ![Groups and total ](/static/images/report-designer/report-items/tablix/groups-and-total-sketch.png '#width=600px')
 
 * The groups are listed as tree structure in the grouping panel.
-   ![Group types sketch](/static/assets/on-premise/images/report-designer/report-items/tablix/group-types-sketch.png '#width=600px')
+   ![Group types sketch](/static/images/report-designer/report-items/tablix/group-types-sketch.png '#width=600px')
 To understand the visual cues in the grouping panel, refer to the [Grouping Panel Visual Cues](./../../../report-items/tablix/grouping-panel/#visual-cues) section.
 
 ## See also

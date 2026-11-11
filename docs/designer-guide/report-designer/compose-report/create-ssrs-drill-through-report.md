@@ -48,23 +48,23 @@ Design the drill through report in the Web Report Designer before you configure 
 
 1. Design the report as described in the [Data bar report](./../../report-items/data-bar/design-ssrs-data-bar-using-table/) section. The report design looks like the following image.
 
-    ![Drill through report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/databar-report-design.png '#width=450px')
+    ![Drill through report](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/databar-report-design.png '#width=450px')
 
 2. Define a [basic parameter](./../../report-parameters/add/#create-parameter) and name it `Product Category`.
 
-    ![Basic parameter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/basic-parameter.png '#width=350px')
+    ![Basic parameter](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/basic-parameter.png '#width=350px')
 
 3. Apply a filter condition on the dataset to filter the product category and its sub-categories at dataset level.
 
-    ![Dataset filter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/open-dataset-filter.png '#width=350px')
+    ![Dataset filter](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/open-dataset-filter.png '#width=350px')
 
 4. Add a filter and choose the `Prodcat` field.
 
-    ![Add filter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/add-filter.png '#width=400px')
+    ![Add filter](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/add-filter.png '#width=400px')
 
 5. Assign the `Product Category` parameter as an expression in the value field and click `OK`.
 
-    ![Add filter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/assign-parameter.png '#width=400px')
+    ![Add filter](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/assign-parameter.png '#width=400px')
 
 > To apply filters at dataset level, see [Dataset Filters](./../../manage-data/dataset/add-a-filter-to-a-dataset/).
 
@@ -74,30 +74,30 @@ You add a drill through action in the Web Report Designer by designing a main re
 
 Design the main report as described in the [Pie chart](./../../report-items/data-bar/design-ssrs-data-bar-using-table/) section. The main report looks like the following image.
 
-![Main report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/main-report.png)
+![Main report](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/main-report.png)
 
 1. Open the chart properties.
-   ![Chart properties](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/chart-properties.png '#width=350px')
+   ![Chart properties](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/chart-properties.png '#width=350px')
 2. Choose the `Sales1` series in the choose series drop-down and click the `edit` icon.
-   ![Choose series](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/choose-series.png '#width=350px')
+   ![Choose series](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/choose-series.png '#width=350px')
 3. The secondary panel lists the respective series properties.
-   ![Series properties](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/series-properties.png  '#width=350px')
+   ![Series properties](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/series-properties.png  '#width=350px')
 4. Under the `Link` category, choose the `Report` option in the `Link To` property.
-   ![Link to property](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/choose-report-action.png '#width=350px')
+   ![Link to property](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/choose-report-action.png '#width=350px')
 5. In the `Report` field, browse and set the path of the data bar report you already designed.
-   ![Set report path](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/set-report-path.png '#width=350px')
+   ![Set report path](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/set-report-path.png '#width=350px')
 6. Click the `Set Parameters` button. The parameters dialog opens, as shown in the following image.
-   ![Set parameters](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/open-parameters-dialog.png '#width=350px')
+   ![Set parameters](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/open-parameters-dialog.png '#width=350px')
 7. Click the `ADD` option in the dialog to configure parameter values.
-   ![Add parameter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/add-parameter-field.png '#width=350px')
+   ![Add parameter](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/add-parameter-field.png '#width=350px')
 8. In the `Parameter Name` field, select the parameter name of the selected report.
-   ![Select parameter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/select-parameter.png '#width=350px')
+   ![Select parameter](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/select-parameter.png '#width=350px')
 9. Provide the `=Fields!ProdCat.Value` expression value in the `Parameter Value` field and click `OK`.
-   ![Provide parameter value](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/provide-parameter-value.png '#width=350px')
+   ![Provide parameter value](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/provide-parameter-value.png '#width=350px')
 
    > To learn more about report linking, see [Link Report](./../../compose-report/link-data/#report-linking).
 
-   ![Set report action](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/set-report-action.png '#width=350px')
+   ![Set report action](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/set-report-action.png '#width=350px')
 
 ## How do I drill through a chart series?
 
@@ -105,15 +105,15 @@ You drill through a chart series in the Web Report Designer preview by clicking 
 
 1. Click the `Preview` button. The report preview looks like a normal pie chart.
 
-    ![Main report preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/report-preview.png '#width=600px')
+    ![Main report preview](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/report-preview.png '#width=600px')
 
 2. Click any series in the report preview.
 
-    ![Main report preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/click-on-series.png '#width=600px')
+    ![Main report preview](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/click-on-series.png '#width=600px')
 
 3. The sub-report displays the sub-category wise sales amount of the `Bikes` product. Click the `Go to parent` icon to navigate from the sub-report to the main report.
 
-    ![Drill through report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/drill-through-report.png '#width=550px')
+    ![Drill through report](/static/images/report-designer/compose-report/create-ssrs-drill-through-report/drill-through-report.png '#width=550px')
 
 > Download the above report designs from these links: [Parent report](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-ssrs-drill-through-report-pie-chart.rdl) and [Child report](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-ssrs-drill-through-report-databar.rdl)
 

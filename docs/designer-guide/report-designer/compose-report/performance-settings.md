@@ -19,11 +19,11 @@ Performance Settings in {{site.productNameTM}} Web Report Designer apply best pr
 You open Performance Settings in Web Report Designer from the **Report Properties** under the `Basic Settings` category.
 
 1. Click the outer grey surface of the report area, and then click the **Properties** icon to open the **Report Properties**.
-    ![open-properties](/static/assets/on-premise/images/report-designer/compose-report/performance-settings/open-properties.png '#width=400px')
+    ![open-properties](/static/images/report-designer/compose-report/performance-settings/open-properties.png '#width=400px')
 2. Find the Performance Settings option under the `Basic Settings` category. Click **Edit Settings** to open the **Performance Settings** secondary panel.
-    ![report-properies](/static/assets/on-premise/images/report-designer/compose-report/performance-settings/report-properties.png '#width=400px')
+    ![report-properies](/static/images/report-designer/compose-report/performance-settings/report-properties.png '#width=400px')
 3. The **Performance Settings** panel opens.
-    ![performance-settings-panel](/static/assets/on-premise/images/report-designer/compose-report/performance-settings/performance-settings-panel.png '#width=400px')
+    ![performance-settings-panel](/static/images/report-designer/compose-report/performance-settings/performance-settings-panel.png '#width=400px')
 
 ## Smart Rendering
 
@@ -37,7 +37,7 @@ Smart rendering in {{site.productNameTM}} optimizes report rendering. Enabling s
 
 The following animation shows how to enable smart rendering.
 
-![Smart rendering](/static/assets/on-premise/images/report-designer/compose-report/performance-settings/enable-smart-rendering.gif '#width=400px')
+![Smart rendering](/static/images/report-designer/compose-report/performance-settings/enable-smart-rendering.gif '#width=400px')
 
 ### Auto Grow Text
 
@@ -45,7 +45,7 @@ The `AutoGrowText` property in {{site.productNameTM}} adjusts the text box heigh
 
 You can enable or disable `AutoGrowText` for a report in the designer. By default, `AutoGrowText` is set to true. Configure `AutoGrowText` and click **Update**.
 
-![auto-grow-text](/static/assets/on-premise/images/report-designer/compose-report/performance-settings/auto-grow-text.png '#width=400px')
+![auto-grow-text](/static/images/report-designer/compose-report/performance-settings/auto-grow-text.png '#width=400px')
 
 ### Virtual Evaluation
 
@@ -53,7 +53,7 @@ The `VirtualEvaluation` property in {{site.productNameTM}} reuses tablix cell ob
 
 By default, `VirtualEvaluation` is set to false. Configure `VirtualEvaluation` and click **Update**.
 
-![virtual-evaluation](/static/assets/on-premise/images/report-designer/compose-report/performance-settings/virtual-evaluation.png '#width=400px')
+![virtual-evaluation](/static/images/report-designer/compose-report/performance-settings/virtual-evaluation.png '#width=400px')
 
 ### Page Creation
 
@@ -67,7 +67,7 @@ Property | Description
 
 To set the `PageCreation` property for a specific report, choose a value from the dropdown in the designer and click **Update**.
 
-![page-creation](/static/assets/on-premise/images/report-designer/compose-report/performance-settings/page-creation.png '#width=400px')
+![page-creation](/static/images/report-designer/compose-report/performance-settings/page-creation.png '#width=400px')
 
 ### Fetch Limit
 
@@ -75,7 +75,7 @@ The `FetchLimit` property in {{site.productNameTM}} controls the number of recor
 
 By default, `FetchLimit` is set to false. When `FetchLimit` is set to true, the `FetchLimitCount` numeric box becomes visible.
 
-![fetch-limit](/static/assets/on-premise/images/report-designer/compose-report/performance-settings/fetch-limit.png '#width=400px')
+![fetch-limit](/static/images/report-designer/compose-report/performance-settings/fetch-limit.png '#width=400px')
 
 ### How does Smart Rendering behave during report generation?
 

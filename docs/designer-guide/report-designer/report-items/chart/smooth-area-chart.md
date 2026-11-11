@@ -14,11 +14,11 @@ The {{site.productNameTM}} Web Report Designer lists the smooth area chart under
 
 1. Drag the smooth area chart from the item panel and drop it into the design area.
 
-   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/drag-a-chart-from-item-panel.png '#width=215px')
+   ![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/drag-a-chart-from-item-panel.png '#width=215px')
 
 2. The Web Report Designer renders the smooth area chart in the design area and lists the chart properties in the properties panel.
 
-   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/initial-view-of-smooth-area-chart.png)
+   ![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/initial-view-of-smooth-area-chart.png)
 
 ## How do I create data for the smooth area chart?
 
@@ -62,55 +62,55 @@ To configure data in a smooth area chart, follow these steps:
 
 2. Click the `Properties` icon in the configuration panel to open the property pane, and switch to the `DATA` tab.
 
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-properties-pane.png '#width=425px')
+   ![Chart properties pane](/static/images/report-designer/report-items/chart/smooth-area-chart/chart-properties-pane.png '#width=425px')
 
 3. Choose a dataset from the dropdown list, which shows the data available in the report.
 
-   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/data-assign-drop-down.png '#width=385px')
+   ![Choose the dataset for chart](/static/images/report-designer/report-items/chart/smooth-area-chart/data-assign-drop-down.png '#width=385px')
 
 4. Review the fields. The `Measures` section lists numeric columns and numeric expressions. The `Dimensions` section lists other column types and dimension expressions.
 
-   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/measures-dimensions-category.png '#width=385px')
+   ![Measures and dimensions](/static/images/report-designer/report-items/chart/smooth-area-chart/measures-dimensions-category.png '#width=385px')
 
 5. **Drag and Drop Measure Element**:
 
    Drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Value(s)` section.
 
-   ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/add-y-values-field.png '#width=385px')
+   ![Add a Y-value field](/static/images/report-designer/report-items/chart/smooth-area-chart/add-y-values-field.png '#width=385px')
 
    The following image shows the report item design after you add the Y value field.
 
-   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/y-value-chart-design-view.png '#width=385px')
+   ![Preview after adding y-value field](/static/images/report-designer/report-items/chart/smooth-area-chart/y-value-chart-design-view.png '#width=385px')
 
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted in the following image) to open the aggregation type dropdown list.
 
-   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/aggregation-settings-icon.png '#width=185px')
+   ![Aggregate settings icon](/static/images/report-designer/report-items/chart/smooth-area-chart/aggregation-settings-icon.png '#width=185px')
 
    Set the aggregation type used to compute the selected column.
 
-   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/aggregation-settings-menu.png '#width=385px')
+   ![Aggregate menu list](/static/images/report-designer/report-items/chart/smooth-area-chart/aggregation-settings-menu.png '#width=385px')
 
 7. **Drag and Drop Dimension Element**:
 
    Drag the dimension element from the `Dimensions` section and drop it into the `Column` section. The dimension measures against the numeric column(s) selected in the `Y Value(s)` section.
 
-   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/add-field-to-column-section.png '#width=385px')
+   ![Add dimension field](/static/images/report-designer/report-items/chart/smooth-area-chart/add-field-to-column-section.png '#width=385px')
 
    The following image shows the report item design after you add the dimension field.
 
-   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/column-field-design-preview.png '#width=385px')
+   ![Preview after adding dimension field](/static/images/report-designer/report-items/chart/smooth-area-chart/column-field-design-preview.png '#width=385px')
 
 8. **Grouping**:
 
    Group the added column element with another column by adding the respective dimension element into the Row(s) section.
 
-   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/add-field-to-rows-section.png '#width=385px')
+   ![Achieve grouping by row values](/static/images/report-designer/report-items/chart/smooth-area-chart/add-field-to-rows-section.png '#width=385px')
 
    The following image shows the report item design after you add the row grouping.
 
-   ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/row-field-design-preview.png '#width=385px')
+   ![Preview of row value grouping ](/static/images/report-designer/report-items/chart/smooth-area-chart/row-field-design-preview.png '#width=385px')
 
 9. **Formatting Column and Row(s) sections**:
 
@@ -126,7 +126,7 @@ To format a smooth area chart, follow these steps:
 2. Configure the data for the smooth area chart.
 3. Focus on the smooth area chart and click the `Properties` icon in the configuration panel to open the property pane.
 
-   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/open-chart-properties.png)
+   ![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/open-chart-properties.png)
 
 The property pane lists the properties available for the report item with their default values.
 
@@ -134,13 +134,13 @@ The property pane lists the properties available for the report item with their 
 
 The **Name** property gives the smooth area chart item a unique name in the report.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/name-property.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/name-property.png '#width=385px')
 
 ### Basic Settings
 
 The **Basic Settings** category of the smooth area chart contains the `Show Legend` and `Choose Series` properties.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/basic-settings.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/basic-settings.png '#width=385px')
 
 #### Show Legend
 
@@ -150,7 +150,7 @@ A legend is text that describes the plotted data in a {{site.productNameTM}} cha
 
 The `Choose Series` dropdown lists the available series when you add multiple series to the chart. To customize the series appearance, choose the required series name in the dropdown.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/multi-series-list-in-drop-down.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/multi-series-list-in-drop-down.png '#width=385px')
 
 Refer to the [Series](./../../../report-items/chart/series/) section to customize each series using the properties panel.
 
@@ -158,27 +158,27 @@ Refer to the [Series](./../../../report-items/chart/series/) section to customiz
 
 The **Appearance** properties style the smooth area chart with border style, color, width, and background color in the report design. These properties are listed under the `Appearance` category in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/appearance-property.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/appearance-property.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/appearance-design.png)
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/appearance-design.png)
 
 ### Chart Area
 
 The **Chart Area** properties customize the area of the chart design with border width, color, shadow color, shadow offset, and background color.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-area-sketch.png '#width=410px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/chart-area-sketch.png '#width=410px')
 
 The properties panel lists these properties under the `Chart Area` category.
 
 In this example, the `Color Palette` is set to `Custom`.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-area.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/chart-area.png '#width=385px')
 
 Refer to the [Custom Colors](./../../../report-items/chart/color-palette/#define-custom-color-palette) section for more information.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-area-custom-color.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/chart-area-custom-color.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-area-design.png)
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/chart-area-design.png)
 
 Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
 
@@ -186,15 +186,15 @@ Use the [Color Palette](./../../../report-items/chart/color-palette/) property t
 
 The chart title of the smooth area chart is shown or hidden with the `Show Chart Title` checkbox. Customize the **chart title** by editing the `Title Text` property of the chart. You can also customize the font color, font text, font style, border, background, and position of the title in the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-title.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/chart-title.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-title-design.png)
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/chart-title-design.png)
 
 ### No Data
 
 The **No Data** property displays static text when the dataset returns empty or zero rows at runtime.
 
-![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/no-data.png '#width=385px')
+![Chart No data message](/static/images/report-designer/report-items/chart/smooth-area-chart/no-data.png '#width=385px')
 
 To set or reset no data message properties, refer to the [No Data Message](./../../../report-items/chart/no-data-message/) property section.
 
@@ -202,7 +202,7 @@ To set or reset no data message properties, refer to the [No Data Message](./../
 
 The **Category axis** of a {{site.productNameTM}} chart displays text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Category Axis` category in the chart properties.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/category-axis.png '#width=350px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/category-axis.png '#width=350px')
 
 To set or reset axis properties, refer to the [Axis Properties](./../../../report-items/chart/axis/) property.
 
@@ -210,7 +210,7 @@ To set or reset axis properties, refer to the [Axis Properties](./../../../repor
 
 The **Value axis** of a {{site.productNameTM}} chart uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/value-axis.png '#width=350px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/value-axis.png '#width=350px')
 
 To set or reset axis properties, refer to the [Axis Properties](./../../../report-items/chart/axis/) property.
 
@@ -218,31 +218,31 @@ To set or reset axis properties, refer to the [Axis Properties](./../../../repor
 
 The **Grid line** properties of the smooth area chart can be set for the category axis and the value axis.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/grid-line.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/grid-line.png '#width=385px')
 
 #### Category Axis
 
 To show the grid line for the category axis, enable the `Category Axis` checkbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/category-axis-grid-line.png '#width=410px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/category-axis-grid-line.png '#width=410px')
 
 You can also enable the `Minor Grid Lines` and customize the major and minor gridline style and color in the `Advanced Options` menu.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/category-grid-line-advanced-properties.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/category-grid-line-advanced-properties.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/category-axis-minor-grid-lines.png '#width=410px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/category-axis-minor-grid-lines.png '#width=410px')
 
 #### Value Axis
 
 To show the grid line for the value axis, enable the `Value Axis` checkbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/value-axis-grid-line.png '#width=410px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/value-axis-grid-line.png '#width=410px')
 
 You can also enable the `Minor Grid Lines` and customize the major and minor gridline style and color in the `Advanced Options` menu.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/value-grid-line-advanced-properties.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/value-grid-line-advanced-properties.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/value-axis-minor-grid-lines.png '#width=410px')
+![Chart Types](/static/images/report-designer/report-items/chart/smooth-area-chart/value-axis-minor-grid-lines.png '#width=410px')
 
 ### Page break
 
@@ -250,25 +250,25 @@ The **page break** property controls the amount of information on each page when
 
 1. Choose a `Break Location` type in the drop-down. The **Break Location** property specifies where the page break occurs.
 
-   ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/break-location-types.png '#width=385px')
+   ![Break location](/static/images/report-designer/report-items/chart/smooth-area-chart/break-location-types.png '#width=385px')
 2. To prevent predefined page breaks from being applied during report preview, enable the `Break Disabled` property checkbox. You can also control page breaks during report preview by using expressions. For details on setting and resetting page breaks dynamically, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
-   ![Page Break Disabled](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-disabled.png '#width=355px')
+   ![Page Break Disabled](/static/images/report-designer/report-items/rectangle/page-break-disabled.png '#width=355px')
 3. To restart page numbering on each page, enable the `Page Number Reset` property checkbox.
 
-   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/page-break-property.png '#width=385px')
+   ![Reset page number](/static/images/report-designer/report-items/chart/smooth-area-chart/page-break-property.png '#width=385px')
 
 ### Data Element
 
 The **Data Element** properties control the visibility of the chart report item when you export the report in XML format. The properties panel lists them under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/data-element-properties.png '#width=385px')
+![Data element properties](/static/images/report-designer/report-items/chart/smooth-area-chart/data-element-properties.png '#width=385px')
 
 #### Name
 
 The `Name` field assigns a custom name to the chart element. The chart report item is exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/data-element-name-properties.png '#width=385px')
+![Data element name property](/static/images/report-designer/report-items/chart/smooth-area-chart/data-element-name-properties.png '#width=385px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -279,7 +279,7 @@ The `Output` property controls the visibility of the chart when you export the r
 * **Auto** or **Output** - Exports the chart report item.
 * **NoOutput** - Does not export the chart report item.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/output-property.png '#width=385px')
+![Data element output property](/static/images/report-designer/report-items/chart/smooth-area-chart/output-property.png '#width=385px')
 
 ### Miscellaneous
 
@@ -289,7 +289,7 @@ The **Miscellaneous** category of the smooth area chart contains the page name, 
 
 The **page name** property names the first worksheet of the Excel workbook when you export the report to Excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/page-name.png '#width=385px')
+![Page name property](/static/images/report-designer/report-items/chart/smooth-area-chart/page-name.png '#width=385px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -313,7 +313,7 @@ You can set static or dynamic text as the value of the bookmark property. To set
 
 The `Custom Style` property enables the use of external CSS for styling report items, providing enhanced flexibility beyond the built-in styling options. Use this property to meet specific design requirements and maintain consistent styling across multiple reports. For a step-by-step guide on setting up custom styles in your report, check the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/chart/smooth-area-chart/custom-style-property.png '#width=355px')
 
 ## How do I preview the smooth area chart report?
 
@@ -321,11 +321,11 @@ You preview the smooth area chart report in the {{site.productNameTM}} Web Repor
 
 1. The following image shows the final design view of the report.
 
-   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/preview-icon.png '#width=455px')
+   ![Preview icon in design view](/static/images/report-designer/report-items/chart/smooth-area-chart/preview-icon.png '#width=455px')
 
 2. The following image shows the report preview.
 
-   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/report-preview-page.png '#width=455px')
+   ![Chart report preview](/static/images/report-designer/report-items/chart/smooth-area-chart/report-preview-page.png '#width=455px')
 
 > Download the [smooth area chart report design file from GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/smooth-area-chart.rdl).
 

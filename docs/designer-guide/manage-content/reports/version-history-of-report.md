@@ -13,17 +13,17 @@ You can view the version history of a report in {{site.productNameTM}} On-Premis
 ## How do I open the version history of a report?
 
 You open a report's version history in Report Server from the report's context menu. Click the **Version History** option in the context menu.
-![Version History Option](/static/assets/on-premise/images/manage-content/manage-reports/versions-history-option.png)
+![Version History Option](/static/images/manage-content/manage-reports/versions-history-option.png)
 
 ## Versions
 
 Report Server creates a new version for each change in the `.rdl` file. You can open, edit, or download each version individually. At any time, you can roll the report back to an older version.
-![Versions](/static/assets/on-premise/images/manage-content/manage-reports/versions.png)
+![Versions](/static/images/manage-content/manage-reports/versions.png)
 
 ## File logs
 
 Report Server logs the modifications for each change in the report, including changes in the event, user, and date, in the log files.
-![File logs](/static/assets/on-premise/images/manage-content/manage-reports/file-logs.png)
+![File logs](/static/images/manage-content/manage-reports/file-logs.png)
 
 ## Frequently asked questions
 

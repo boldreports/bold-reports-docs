@@ -13,11 +13,11 @@ In the {{site.productNameTM}} Web Report Designer, a linear gauge is a rectangul
 You add a linear gauge to a {{site.productNameTM}} report by dragging it from the item panel into the design area.
 
 1. Find the linear gauge report item in the item panel under the `Deviation` category.
-   ![Linear gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-panel.png '#width=145px')
+   ![Linear gauge item in item panel](/static/images/report-designer/report-items/gauge/linear-gauge/item-panel.png '#width=145px')
 2. Drag the linear gauge report item into the design area from the item panel.
-   ![Drag and drop linear gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-drag.png '#width=355px')
+   ![Drag and drop linear gauge report item into design area](/static/images/report-designer/report-items/gauge/linear-gauge/item-drag.png '#width=355px')
 3. Drop the linear gauge item in the design area. The properties panel then lists the item properties.
-   ![Linear gauge item with properties view](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/designer-area.png)
+   ![Linear gauge item with properties view](/static/images/report-designer/report-items/gauge/linear-gauge/designer-area.png)
 
 ## Which properties can I set for a linear gauge?
 
@@ -43,7 +43,7 @@ The Data category of the linear gauge holds the dataset, type, value, range, and
 
 The Dataset property assigns a dataset to a linear gauge report item. The `Dataset` property dropdown lists the available datasets in the report. Choose the dataset you want from the dropdown.
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/dataset.png '#width=385px')
+![Data category](/static/images/report-designer/report-items/gauge/linear-gauge/dataset.png '#width=385px')
 
 > To add a dataset to your report, see the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section.
 
@@ -51,7 +51,7 @@ The Dataset property assigns a dataset to a linear gauge report item. The `Datas
 
 The Type property selects the type of linear gauge report item. You can select `Horizontal`, `Vertical`, or `Auto` from the dropdown.
 
-![Linear Gauge Type](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/type.png '#width=355px')
+![Linear Gauge Type](/static/images/report-designer/report-items/gauge/linear-gauge/type.png '#width=355px')
 
 * `Horizontal`: Displays the linear gauge horizontally.
 
@@ -93,7 +93,7 @@ The Marker style property sets the shape of a marker pointer. Select `Circle`, `
 
 The following image shows a linear gauge with the `Marker` pointer type, `Diamond` marker style, and `Cross` pointer placement.
 
-![Pointer Type](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/pointer-property.png)
+![Pointer Type](/static/images/report-designer/report-items/gauge/linear-gauge/pointer-property.png)
 
 ##### Marker length
 
@@ -123,13 +123,13 @@ The scale Color property customizes the `scale color` of a linear gauge.
 
 The Reverse direction property reverses the linear gauge scale direction from maximum to minimum. To turn it on, select the `Reverse Direction` checkbox.
 
-![Scale](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/scale.png)
+![Scale](/static/images/report-designer/report-items/gauge/linear-gauge/scale.png)
 
 #### Labels
 
 To show or hide the scale labels in a linear gauge, toggle the `Label` checkbox.
 
-You can customize the scale label in the `Advanced Options` menu. To open and handle the nested properties of labels, see the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Scale Labels](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/labels-advanced-options.png)
+You can customize the scale label in the `Advanced Options` menu. To open and handle the nested properties of labels, see the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Scale Labels](/static/images/report-designer/report-items/gauge/linear-gauge/labels-advanced-options.png)
 
 These properties customize the scale label font color, font family, font size, and font style in the linear gauge design.
 
@@ -149,7 +149,7 @@ The Tick mark property customizes the major and minor ticks of a linear gauge.
 
 To show or hide major and minor ticks in a linear gauge scale, toggle the `Major Tick` and `Minor Tick` checkboxes.
 
-You can customize major and minor ticks in the `Advanced Options` menu. To open and handle the nested properties of major and minor ticks, see the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Major Tick](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/major-tick.png '#width=650px')
+You can customize major and minor ticks in the `Advanced Options` menu. To open and handle the nested properties of major and minor ticks, see the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Major Tick](/static/images/report-designer/report-items/gauge/linear-gauge/major-tick.png '#width=650px')
 
 These properties customize the major and minor tick interval, color, length, and width.
 
@@ -165,7 +165,7 @@ The Range properties customize the range placement, start value, end value, star
 
 To show or hide the range in a linear gauge, toggle the `Enable Range` checkbox.
 
-![Enable Range](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/enable-range.png)
+![Enable Range](/static/images/report-designer/report-items/gauge/linear-gauge/enable-range.png)
 
 #### Placement
 
@@ -190,19 +190,19 @@ The position property sets the width, height, left, and top positions of a linea
 ### Link
 
 The Linking property in {{site.productNameTM}} lets you create interactive, user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. To learn more, see the [Linking](./../../../compose-report/link-data/) section.
-![Linear guage link property](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
+![Linear guage link property](/static/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
 
 ### Data Element
 
 The Data element properties control the visibility of a linear gauge when you export the report in XML format. The properties panel lists these properties under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
+![Data element properties](/static/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 Use the `Name` field to assign a custom name to the linear gauge element. The linear gauge is exported with the name you provide.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
+![Data element name property](/static/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -213,7 +213,7 @@ The `Output` property controls the visibility of the linear gauge when you expor
 * **Auto** or **Output**: Exports the linear gauge report item.
 * **NoOutput**: Does not export the linear gauge report item.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=355px')
+![Data element output property](/static/images/report-designer/report-items/tablix/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -227,7 +227,7 @@ The Miscellaneous category holds the page name, document map, bookmark, custom a
 
 The page name property names the first worksheet of the Excel workbook when you export the report to Excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/gauge/page-name.png '#width=355px')
+![Page name property](/static/images/report-designer/report-items/gauge/page-name.png '#width=355px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, see the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -255,7 +255,7 @@ The **Tooltip** property displays informative text or a value when the user hove
 
 The `Custom Style` property lets you use external CSS to style report items, giving more flexibility than the built-in styling options. Use this property to meet specific design requirements and keep styling consistent across multiple reports. For a step-by-step guide on setting up custom styles in your report, see the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/gauge/linear-gauge/custom-style-property.png '#width=355px')
 
 ## Frequently asked questions
 

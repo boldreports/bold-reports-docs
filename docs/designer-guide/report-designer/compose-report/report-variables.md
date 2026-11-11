@@ -20,13 +20,13 @@ At run time, {{site.productNameTM}} calculates the value of a report variable on
 You add a report variable in Web Report Designer from the **Code** category of Report properties. For example, you may want to add the report printing time on each page. A direct expression in a text box prints a different time on each page. To solve this, create a report variable that holds the same time on each page.
 
 1. Click the Properties icon to open Report Properties. The report variables property is listed under Report properties.
-   ![Report properties](/static/assets/on-premise/images/report-designer/compose-report/report-variables/report-properties.png '#width=350px')
+   ![Report properties](/static/images/report-designer/compose-report/report-variables/report-properties.png '#width=350px')
 2. Find the report variable option under the **Code** category.
-   ![Property category](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-option.png '#width=350px')
+   ![Property category](/static/images/report-designer/compose-report/report-variables/variables-option.png '#width=350px')
 3. Click the editor icon to open the **Variables** panel.
-   ![Open variables panel](/static/assets/on-premise/images/report-designer/compose-report/report-variables/edit-icon.png '#width=350px')
+   ![Open variables panel](/static/images/report-designer/compose-report/report-variables/edit-icon.png '#width=350px')
 4. Click the ADD icon in the top right corner to add a new variable field.
-   ![Add new variable field](/static/assets/on-premise/images/report-designer/compose-report/report-variables/add-option.png '#width=300px')
+   ![Add new variable field](/static/images/report-designer/compose-report/report-variables/add-option.png '#width=300px')
 5. Enter the name of the variable in the **Name** field.
    > Note: A name should start with an alphabet character and it should not contain spaces and special characters except underscore.
 6. In the value field, enter a direct value in the text field, or click the small square icon to enter an expression.
@@ -35,7 +35,7 @@ You add a report variable in Web Report Designer from the **Code** category of R
 
 The following image shows a new report variable in the Variables panel.
 
-![New report variable](/static/assets/on-premise/images/report-designer/compose-report/report-variables/new-variable.png '#width=300px')
+![New report variable](/static/images/report-designer/compose-report/report-variables/new-variable.png '#width=300px')
 
 You can edit the variable name and value anytime in the report. Open the variables panel, edit the variables you need, and then click the update button.
 
@@ -43,17 +43,17 @@ You can edit the variable name and value anytime in the report. Open the variabl
 
 You delete a report variable in Web Report Designer by clicking the delete icon on the right side of the variable field, and then clicking update.
 
-![Delete a report variable](/static/assets/on-premise/images/report-designer/compose-report/report-variables/delete-option.png '#width=300px')
+![Delete a report variable](/static/images/report-designer/compose-report/report-variables/delete-option.png '#width=300px')
 
 ## Call report variable in a report
 
 You call a report variable in {{site.productNameTM}} from any expression. The report variables available in the report are listed under the **Data** dropdown in Expression Builder.
 
-![Variables listed in expression builder](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-in-expression-builder.png '#width=400px')
+![Variables listed in expression builder](/static/images/report-designer/compose-report/report-variables/variables-in-expression-builder.png '#width=400px')
 
 Double-click the variable name to insert it into the text editor, and then click OK.
 
-![Call variable from expression builder](/static/assets/on-premise/images/report-designer/compose-report/report-variables/choose-expression.png '#width=400px')
+![Call variable from expression builder](/static/images/report-designer/compose-report/report-variables/choose-expression.png '#width=400px')
 
 ## Frequently asked questions
 

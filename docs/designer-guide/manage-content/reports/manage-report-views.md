@@ -22,36 +22,36 @@ The Report Server old viewer lets you add, open, share, copy links to, and delet
 
 1. Click the parameter icon at the top and select `Save` to add a report view.
 
-    ![View Icon](/static/assets/on-premise/images/manage-content/manage-reports/view-icon.png)
+    ![View Icon](/static/images/manage-content/manage-reports/view-icon.png)
 
-    ![Save View](/static/assets/on-premise/images/manage-content/manage-reports/save-icon.png)
+    ![Save View](/static/images/manage-content/manage-reports/save-icon.png)
 
     Enter a name for the new view and click `Save` as shown in the following figure.
 
-    ![Create Report View](/static/assets/on-premise/images/manage-content/manage-reports/add-report-view.png)
+    ![Create Report View](/static/images/manage-content/manage-reports/add-report-view.png)
 
     After the view is saved, you can save the same view again with a new name by clicking `Save As`.
-    ![Create Report View](/static/assets/on-premise/images/manage-content/manage-reports/save-as-icon.png)
+    ![Create Report View](/static/images/manage-content/manage-reports/save-as-icon.png)
 
    > A view icon is available for reports that contain parameters.
 
 2. Check the `Saved Views` panel. The view is added, and saved Report Views are displayed there.
-   ![View Report views](/static/assets/on-premise/images/manage-content/manage-reports/saved-view.png)
+   ![View Report views](/static/images/manage-content/manage-reports/saved-view.png)
 
-   ![View Report views](/static/assets/on-premise/images/manage-content/manage-reports/view-saved-report-views.png)
+   ![View Report views](/static/images/manage-content/manage-reports/view-saved-report-views.png)
 
 ### Open the Report Views
 
 1. Open the context menu of the report. Saved Report Views of each report are listed in the context menu of the respective report.
 
-    ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/open-view.png)
+    ![Manage Reports view](/static/images/manage-content/manage-reports/open-view.png)
 
-    ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/report-views-from-server.png)
+    ![Manage Reports view](/static/images/manage-content/manage-reports/report-views-from-server.png)
 
 2. Click the report view.
 
 3. View the saved view, which opens in the viewer.
-    ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/url-view-name.png)
+    ![Manage Reports view](/static/images/manage-content/manage-reports/url-view-name.png)
 
     > The URL includes the name of the saved view.
 
@@ -60,28 +60,28 @@ The Report Server old viewer lets you add, open, share, copy links to, and delet
 You can share saved Report Views with other users and groups in the {{site.productNameTM}} Report Server. You can also share them with anonymous users.
 
 1. To share the report views, click the `share` icon of the respective report view in the `Saved Views` panel.
-   ![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/share-icon.png)
+   ![Share Report View](/static/images/manage-content/manage-reports/share-icon.png)
 
 2. Click the `Manage Access` button.
-   ![Share Report View popup](/static/assets/on-premise/images/manage-content/manage-reports/share-report-view.png)
+   ![Share Report View popup](/static/images/manage-content/manage-reports/share-report-view.png)
 
 3. Select the users or groups to share the report view with.
-   ![Add permission to a report view](/static/assets/on-premise/images/manage-content/manage-reports/selecting-user-group.png)
+   ![Add permission to a report view](/static/images/manage-content/manage-reports/selecting-user-group.png)
 
 4. After selecting the users or groups, click the `Add` button.
-   ![Add button](/static/assets/on-premise/images/manage-content/manage-reports/manage-access-report-view.png)
+   ![Add button](/static/images/manage-content/manage-reports/manage-access-report-view.png)
 
 ### Copy the Report Views link
 
 To copy the Report Views link in Report Server, click the `copy` icon of the respective report view in the `Saved Views` panel.
 
-![Delete Report](/static/assets/on-premise/images/manage-content/manage-reports/copy-view.png)
+![Delete Report](/static/images/manage-content/manage-reports/copy-view.png)
 
 ### Delete the Report Views
 
 To delete Report Views in Report Server, click the `Delete` icon of the respective report view in the `Saved Views` panel.
 
-![Delete Report](/static/assets/on-premise/images/manage-content/manage-reports/delete-report-view.png)
+![Delete Report](/static/images/manage-content/manage-reports/delete-report-view.png)
 
 ## Report Views in new viewer
 
@@ -91,36 +91,36 @@ To delete Report Views in Report Server, click the `Delete` icon of the respecti
 
 1. Click the parameter icon in the right corner and select `Save` to add a report view.
 
-    ![View Icon](/static/assets/on-premise/images/manage-content/manage-reports/ej2-view-icon.png)
+    ![View Icon](/static/images/manage-content/manage-reports/ej2-view-icon.png)
 
-    ![Save View](/static/assets/on-premise/images/manage-content/manage-reports/ej2-save-icon.png)
+    ![Save View](/static/images/manage-content/manage-reports/ej2-save-icon.png)
 
     Enter a name for the new view and click `Save` as shown in the following figure.
 
-    ![Create Report View](/static/assets/on-premise/images/manage-content/manage-reports/ej2-add-report-view.png)
+    ![Create Report View](/static/images/manage-content/manage-reports/ej2-add-report-view.png)
 
     After the view is saved, you can save the same view again with a new name by clicking `Save As`.
-    ![Create Report View](/static/assets/on-premise/images/manage-content/manage-reports/ej2-save-as-icon.png)
+    ![Create Report View](/static/images/manage-content/manage-reports/ej2-save-as-icon.png)
 
    > A view icon is available for reports that contain parameters.
 
 2. Check the `Saved Views` panel. The view is added, and saved Report Views are displayed there.
-   ![View Report views](/static/assets/on-premise/images/manage-content/manage-reports/ej2-saved-view.png)
+   ![View Report views](/static/images/manage-content/manage-reports/ej2-saved-view.png)
 
-   ![View Report views](/static/assets/on-premise/images/manage-content/manage-reports/ej2-view-saved-report-views.png)
+   ![View Report views](/static/images/manage-content/manage-reports/ej2-view-saved-report-views.png)
 
 ### Open the Report Views
 
 1. Open the context menu of the report. Saved Report Views of each report are listed in the context menu of the respective report.
 
-    ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/open-view.png)
+    ![Manage Reports view](/static/images/manage-content/manage-reports/open-view.png)
 
-    ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/ej2-report-views-from-server.png)
+    ![Manage Reports view](/static/images/manage-content/manage-reports/ej2-report-views-from-server.png)
 
 2. Click the report view.
 
 3. View the saved view, which opens in the viewer.
-    ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/ej2-url-view-name.png)
+    ![Manage Reports view](/static/images/manage-content/manage-reports/ej2-url-view-name.png)
 
     > The URL includes the name of the saved view.
 
@@ -129,41 +129,41 @@ To delete Report Views in Report Server, click the `Delete` icon of the respecti
 You can share saved Report Views with other users and groups in the {{site.productNameTM}} Report Server. You can also share them with anonymous users.
 
 1. To share the report views, click the `share` icon of the respective report view in the `Saved Views` panel.
-   ![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/ej2-share-icon.png)
+   ![Share Report View](/static/images/manage-content/manage-reports/ej2-share-icon.png)
 
 2. Click the `Manage Access` button.
-   ![Share Report View popup](/static/assets/on-premise/images/manage-content/manage-reports/ej2-share-report-view.png)
+   ![Share Report View popup](/static/images/manage-content/manage-reports/ej2-share-report-view.png)
 
 3. Select the users or groups to share the report view with.
-   ![Add permission to a report view](/static/assets/on-premise/images/manage-content/manage-reports/ej2-selecting-user-group.png)
+   ![Add permission to a report view](/static/images/manage-content/manage-reports/ej2-selecting-user-group.png)
 
 4. After selecting the users or groups, click the `Add` button.
-   ![Add button](/static/assets/on-premise/images/manage-content/manage-reports/ej2-manage-access-report-view.png)
+   ![Add button](/static/images/manage-content/manage-reports/ej2-manage-access-report-view.png)
 
 ### Copy the Report Views link
 
 To copy the Report Views link in the new viewer, click the `copy` icon of the respective report view in the `Saved Views` panel.
 
-![Delete Report](/static/assets/on-premise/images/manage-content/manage-reports/ej2-copy-view.png)
+![Delete Report](/static/images/manage-content/manage-reports/ej2-copy-view.png)
 
 ### Delete the Report Views
 
 To delete Report Views in the new viewer, click the `Delete` icon of the respective report view in the `Saved Views` panel.
 
-![Delete Report](/static/assets/on-premise/images/manage-content/manage-reports/ej2-delete-report-view.png)
+![Delete Report](/static/images/manage-content/manage-reports/ej2-delete-report-view.png)
 
 ## Breaking changes in the context menu
 
 {{site.productNameTM}} Report Server hides the **Views** option in the report listing context menu by default from v6.x.
 
 * Starting from v6.x, the **Views** option is **visible** only on the **Report Preview page**. In the **Report Listing page context menu**, the Views option is set to **hidden** by default.
-   ![Delete Report](/static/assets/on-premise/images/manage-content/manage-reports/context-menu.png)
+   ![Delete Report](/static/images/manage-content/manage-reports/context-menu.png)
 
 * If you still need the option in the context menu, navigate to `Settings -> Configuration -> reporting/config.xml`, set the `<EnableViewsInReportsMenu>` node to `true`, and then save the changes.<br>`<EnableViewsInReportsMenu>true</EnableViewsInReportsMenu>`
-   ![View Node](/static/assets/on-premise/images/manage-content/manage-reports/view-node.png)
+   ![View Node](/static/images/manage-content/manage-reports/view-node.png)
 
 * The view option then appears in the context menu.
-   ![View Menu](/static/assets/on-premise/images/manage-content/manage-reports/view-menu.png)
+   ![View Menu](/static/images/manage-content/manage-reports/view-menu.png)
 
 ## Frequently asked questions
 

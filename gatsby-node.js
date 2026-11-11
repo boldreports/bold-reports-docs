@@ -9,6 +9,33 @@ const path = require('path');
 // Redirects from old URLs to new URLs, defined in `redirects.json`.
 const redirects = require('./redirects.json');
 
+// Last commit date of every file under docs/, read with a single git call.
+// (One `git log` per page made the startup several minutes slower.)
+let gitDates = null;
+function getGitDate(relativePath) {
+	if (!gitDates) {
+		gitDates = {};
+		try {
+			const log = execSync('git -c core.quotepath=false log --format=%x00%cI --name-only -- docs', {
+				maxBuffer: 512 * 1024 * 1024,
+				stdio: ['ignore', 'pipe', 'ignore'],
+			}).toString();
+			let date = '';
+			log.split(/\r?\n/).forEach((line) => {
+				if (line.startsWith('\0')) {
+					date = line.slice(1).trim();
+				} else if (line.trim() && !gitDates[line.trim()]) {
+					// The log is newest first, so the first date seen for a file is its latest.
+					gitDates[line.trim()] = date;
+				}
+			});
+		} catch (error) {
+			// Not a git checkout: the caller falls back to the file's modified time.
+		}
+	}
+	return gitDates[`docs/${relativePath}`] || '';
+}
+
 exports.onCreateWebpackConfig = ({ actions, stage }) => {
 	if (stage === 'build-javascript') {
 		actions.setWebpackConfig({
@@ -52,7 +79,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
 
 		let lastUpdated = null;
 		try {
-			lastUpdated = execSync(`git log -1 --format=%cI -- docs/"${fileNode.relativePath}"`).toString().trim();
+			lastUpdated = getGitDate(fileNode.relativePath);
 			if (!lastUpdated) throw new Error('Empty git timestamp');
 		} catch (e) {
 			try {

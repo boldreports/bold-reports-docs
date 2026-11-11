@@ -14,21 +14,21 @@ To render text as HTML in the {{site.productNameTM}} Web Report Designer, set th
 
 1. Drag and drop a textbox report item onto the design surface.
 
-   ![Add textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/add-textbox.png '#width=255px')
+   ![Add textbox](/static/images/report-designer/report-items/textbox/html-format-text/add-textbox.png '#width=255px')
 
 2. Enter the text in valid HTML format in the text area.
 
-   ![Enter valid html text](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/set-html-text.png '#width=425px')
+   ![Enter valid html text](/static/images/report-designer/report-items/textbox/html-format-text/set-html-text.png '#width=425px')
 
 3. Select the text and set `HTML` in the `Markup Type` property.
 
-   ![Set Markup Type](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/set-markup-type.png)
+   ![Set Markup Type](/static/images/report-designer/report-items/textbox/html-format-text/set-markup-type.png)
 
 You can also use the markup property to format a dataset field that returns HTML text from a database, or an expression that evaluates to text in HTML format.
 
 On report preview, the text is rendered as HTML, as shown in the following image.
 
-![Markup type preview](/static/assets/on-premise/images/report-designer/report-items/textbox/html-format-text/preview-html-text.png '#width=410px')
+![Markup type preview](/static/images/report-designer/report-items/textbox/html-format-text/preview-html-text.png '#width=410px')
 
 ## Which HTML tags and CSS attributes are supported?
 

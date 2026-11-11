@@ -17,26 +17,26 @@ You create a new pipeline in Bold Data Hub from the left side panel.
 
 1. In the left side panel, click the **Add Pipeline** button.
 
-   ![Add Pipeline](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png)  
+   ![Add Pipeline](/static/images/manage-content/working-with-etl/addpipeline.png)  
 
    > **Note:** Pipeline name using only alphanumeric characters and click on the ``tick`` icon to confirm and save the Pipeline details.
 
 2. Enter the pipeline name and select the confirm icon.
 3. Select the pipeline name to continue with further actions.
 
-![Tick](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_project_name.png)
+![Tick](/static/images/manage-content/working-with-etl/datahub_project_name.png)
 
 Bold Data Hub then opens the Extract page, where you configure the settings for the source connector.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_source.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_source.png)
 
 ## How do I configure the source connector on the Extract page?
 
 You configure the Bold Data Hub source connector in a **YAML** file format on the Extract page. The data source name is displayed in the Connector list panel. Select the connector name and click **Add Template** to access sample configuration details. You can add multiple connectors to a pipeline to transfer data to a destination database.
 
-![SourcePage](/static/assets/on-premise/images/manage-content/working-with-etl/etl_addtemplate.png)
+![SourcePage](/static/images/manage-content/working-with-etl/etl_addtemplate.png)
 
-![Template](/static/assets/on-premise/images/manage-content/working-with-etl/mysql_addtemplate.png)
+![Template](/static/images/manage-content/working-with-etl/mysql_addtemplate.png)
 
 Example: Configuration File
 
@@ -80,17 +80,17 @@ You run a Bold Data Hub pipeline by saving the configuration, choosing a destina
 2. In the popup, click the dropdown menu labeled Select ``Destination``.
 3. Choose the specific ``DataStoreName`` that you previously configured in the Data Store settings page.
 
-   ![Template1](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_savedest.png)
+   ![Template1](/static/images/manage-content/working-with-etl/datahub_savedest.png)
 
 4. Go to the **Schedule** page and select the **Run Now** option to start the run immediately.
 
-![Template1](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png)
+![Template1](/static/images/manage-content/working-with-etl/schedule_runnow.png)
 
 When the pipeline run completes, Bold Data Hub creates a data source in {{site.productNameTM}}.
-![Template1](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png)
+![Template1](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png)
 
 To check the current operational status, open the **Logs** tab.
-![Template1](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_logs.png)
+![Template1](/static/images/manage-content/working-with-etl/datahub_logs.png)
 
 ## Pipeline Properties
 
@@ -255,7 +255,7 @@ plugins:
 
 You delete a Bold Data Hub pipeline from the left side panel by clicking the **Delete** icon next to the selected pipeline.
 
-![Delete Pipeline](/static/assets/on-premise/images/manage-content/working-with-etl/DeletePipeline.png)
+![Delete Pipeline](/static/images/manage-content/working-with-etl/DeletePipeline.png)
 
 ### How do I confirm the deletion?
 
@@ -264,7 +264,7 @@ Bold Data Hub shows a confirmation popup when you delete a pipeline.
 * Click **DeletePipeline** to proceed with the deletion.
 * Click **Cancel** to close the dialog and stop the deletion process.
 
-![Delete popup](/static/assets/on-premise/images/manage-content/working-with-etl/deletePopup.png)
+![Delete popup](/static/images/manage-content/working-with-etl/deletePopup.png)
 
 ### What happens after deletion?
 

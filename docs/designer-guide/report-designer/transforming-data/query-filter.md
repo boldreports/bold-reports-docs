@@ -10,7 +10,7 @@ In the {{site.productNameTM}} Web Report Designer, query filters limit a dataset
 
 The following image shows the query filters dialog.
 
-![open-filter-dialog](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/query-filters-dialog.png '#width=450px')
+![open-filter-dialog](/static/images/report-designer/transforming-data/query-filter/query-filters-dialog.png '#width=450px')
 
 Prefer watching over reading? Watch this video on adding query filters to a dataset:
 
@@ -22,49 +22,49 @@ You add query filters in the Web Report Designer query filters dialog. Follow th
 
 1. Click the **Add** icon to add a filter.
 
-   ![add-field-filters](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/add-filter.png '#width=450px')
+   ![add-field-filters](/static/images/report-designer/transforming-data/query-filter/add-filter.png '#width=450px')
 
 2. The first drop-down list shows the dataset fields. Choose the field you need.
 
-   ![add-expression](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/choose-fields.png '#width=200px')
+   ![add-expression](/static/images/report-designer/transforming-data/query-filter/choose-fields.png '#width=200px')
 
 3. The second drop-down list shows the **Operator** types. Choose an operator.
 
-   ![operators-in- filters](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/operators.png '#width=200px')
+   ![operators-in- filters](/static/images/report-designer/transforming-data/query-filter/operators.png '#width=200px')
 
 4. In **Value**, enter the value to filter in the dataset fields.
 
-    ![pass-value-in- filters](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/pass-value.png '#width=450px')
+    ![pass-value-in- filters](/static/images/report-designer/transforming-data/query-filter/pass-value.png '#width=450px')
 
 5. Select the **Include as parameter** checkbox to include the query parameters.
 
-    ![include-paramter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/include-paramter.png '#width=450px')
+    ![include-paramter](/static/images/report-designer/transforming-data/query-filter/include-paramter.png '#width=450px')
 
 6. Click the **Add** icon again to add a second row. A drop-down appears at the top of the second row.
 
-    ![and-condition-filter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/and-condition.png '#width=450px')
+    ![and-condition-filter](/static/images/report-designer/transforming-data/query-filter/and-condition.png '#width=450px')
 
 7. Choose the **AND** or **OR** condition from the drop-down to filter data based on the query condition.
 
-    ![and-or-dropdown](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/and-or-dropdown.png '#width=450px')
+    ![and-or-dropdown](/static/images/report-designer/transforming-data/query-filter/and-or-dropdown.png '#width=450px')
 
 8. To add multiple filters, follow steps 1 to 5.
 
-    ![add-with-multiple-filter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/multiple-filters.png '#width=450px')
+    ![add-with-multiple-filter](/static/images/report-designer/transforming-data/query-filter/multiple-filters.png '#width=450px')
 
 9. Click **OK** and select the **Execute** icon to view the filtered data in the data preview.
 
-    ![datapreview](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/filtered-data.png)
+    ![datapreview](/static/images/report-designer/transforming-data/query-filter/filtered-data.png)
 
 10. When you save the dataset, the query parameter is automatically included as a report parameter.
 
-    ![report-parameter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/query-report-parameter.png '#width=350px')
+    ![report-parameter](/static/images/report-designer/transforming-data/query-filter/query-report-parameter.png '#width=350px')
 
 ## How do I remove query filters?
 
 To remove a query filter in the Web Report Designer, click the **Delete** icon in the right corner of that filter.
 
-![delete-filter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/delete-a-filter.png)
+![delete-filter](/static/images/report-designer/transforming-data/query-filter/delete-a-filter.png)
 
 ## Frequently asked questions
 

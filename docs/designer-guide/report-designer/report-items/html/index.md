@@ -13,11 +13,11 @@ The `HTML` report item in {{site.productNameTM}} lets you embed rich HTML conten
 You add an HTML report item by dragging it from the {{site.productNameTM}} Web Report Designer item panel into the design area.
 
 1. Find the HTML report item in the item panel under the `Documents` category.
-   ![HTML listed in item panel](/static/assets/on-premise/images/report-designer/report-items/html/html-item-in-item-panel.png '#width=215px')
+   ![HTML listed in item panel](/static/images/report-designer/report-items/html/html-item-in-item-panel.png '#width=215px')
 2. Drag and drop the HTML report item from the item panel into the design area.
-   ![Drag and drop html report item into design area](/static/assets/on-premise/images/report-designer/report-items/html/drag-and-drop-html.png '#width=425px')
+   ![Drag and drop html report item into design area](/static/images/report-designer/report-items/html/drag-and-drop-html.png '#width=425px')
 3. Check the properties panel. After you place the HTML item in the design area, the panel displays its properties.
-   ![HTML item with properties view](/static/assets/on-premise/images/report-designer/report-items/html/html-properties.png '#width=425px')
+   ![HTML item with properties view](/static/images/report-designer/report-items/html/html-properties.png '#width=425px')
 
 ## Which content properties does the HTML report item have?
 
@@ -27,12 +27,12 @@ The {{site.productNameTM}} HTML report item sets where its content comes from an
 
 Basic Settings contains the `Source`, `Content`, and `Sizing` properties.
 
-![html custom reportitem basic settings](/static/assets/on-premise/images/report-designer/report-items/html/html-input-box.png '#width=425px')
+![html custom reportitem basic settings](/static/images/report-designer/report-items/html/html-input-box.png '#width=425px')
 
 #### Source
 
 The `Source` property specifies the input type for the HTML document. You can choose `Content`, `URL`, `Database`, or `Server`.
-![html source property](/static/assets/on-premise/images/report-designer/report-items/html/html-source.png '#width=425px')
+![html source property](/static/images/report-designer/report-items/html/html-source.png '#width=425px')
 
 * **Content**
 
@@ -53,7 +53,7 @@ The `Source` property specifies the input type for the HTML document. You can ch
 #### Sizing
 
 The Sizing property controls the size of HTML content displayed as an image in the report viewer. It offers four options to adjust the size of the rendered image: `AutoSize`, `Fit`, `FitProportional`, and `Clip`.
-![html sizing property](/static/assets/on-premise/images/report-designer/report-items/html/html-sizing.png '#width=425px')
+![html sizing property](/static/images/report-designer/report-items/html/html-sizing.png '#width=425px')
 
 * **AutoSize**
 
@@ -86,7 +86,7 @@ The appearance properties of the HTML item, including border style, color, and w
 ### Link
 
 The Linking property in {{site.productNameTM}} lets you create interactive, user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. To learn more, see the [Linking](./../../compose-report/link-data/) section.
-![HTML link property](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
+![HTML link property](/static/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
 
 #### Border
 
@@ -118,7 +118,7 @@ You can set static or dynamic text as the value of the bookmark property. To set
 
 The `Custom Style` property lets you use external CSS to style report items, giving more flexibility than the built-in styling options. Use this property to meet specific design requirements and keep styling consistent across multiple reports. For a step-by-step guide on setting up custom styles in your report, see the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/html/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/html/custom-style-property.png '#width=355px')
 
 ## How do I set an expression on an HTML item property?
 

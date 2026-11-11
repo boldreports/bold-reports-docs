@@ -16,18 +16,18 @@ To mark a report as a favorite in Report Server, click the star icon near the re
 
 Favorite reports appear in the `Favorite Reports` category, so you do not need to search through categories or use keywords in the reports list.
 
-![Favorite Report](/static/assets/on-premise/images/manage-content/manage-reports/mark-favorite.png)
+![Favorite Report](/static/images/manage-content/manage-reports/mark-favorite.png)
 
 ## How do I remove a report from favorites?
 
 To remove a report from favorites in Report Server, click the star icon near the report name. The star icon's color empties to show that the report is removed from favorites.
 
-![Remove Favorite Report](/static/assets/on-premise/images/manage-content/manage-reports/remove-favorite.png)
+![Remove Favorite Report](/static/images/manage-content/manage-reports/remove-favorite.png)
 
 ## Where can I see my favorite reports?
 
 Report Server shows reports marked as favorites under the `Favorite Reports` category.
-![Favorite Category](/static/assets/on-premise/images/manage-content/manage-reports/favorite-category.png)
+![Favorite Category](/static/images/manage-content/manage-reports/favorite-category.png)
 
 ## See also
 

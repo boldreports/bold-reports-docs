@@ -18,22 +18,22 @@ You open the Report Server notification settings from the **Settings** option. F
 2. Navigate to the **Notification** tab.
 
 The following image shows the **Notification** tab on the settings page.
-![Notification settings page](/static/assets/on-premise/images/notifications/notifications-settings.png)
+![Notification settings page](/static/images/notifications/notifications-settings.png)
 
 ## Site notification settings(Admin notification settings)
 
 The Report Server administrator manages application notification preferences on the admin notification settings page. The administrator enables or disables both email and system notifications, including how users receive notifications for report comments.
-![Admin notification settings](/static/assets/on-premise/images/notifications/admin-notifications-settings.png)
+![Admin notification settings](/static/images/notifications/admin-notifications-settings.png)
 
 ### How do I view system notifications?
 
 Report Server system notifications appear when you click the `Notification` icon in the top-right corner of the menu bar.
 
 * To view the system notifications, click the `Notification` icon located in the top-right corner of the menu bar.
-    ![System notifications](/static/assets/on-premise/images/notifications/system-notifications.png)
+    ![System notifications](/static/images/notifications/system-notifications.png)
 
 * Users can navigate to a specific comment by clicking the report name in the notification section. To adjust their notification settings, users can navigate to their profile page by clicking the `Settings` option.
-    ![Open System notification](/static/assets/on-premise/images/notifications/system-notification-2.png)
+    ![Open System notification](/static/images/notifications/system-notification-2.png)
 
 ### What do mail notifications cover?
 
@@ -69,13 +69,13 @@ The Allow/restrict setting is the master setting for the Report Server. Enabling
 
 Report Server users configure how they receive notifications for comments on the user notification settings page. Users navigate to this page from the profile edit page, as shown in the following images.
 
-![Edit Profile](/static/assets/on-premise/images/notifications/edit-profile.png)
+![Edit Profile](/static/images/notifications/edit-profile.png)
 
-![User notification settings](/static/assets/on-premise/images/notifications/user-notifications-settings-navigation.png)
+![User notification settings](/static/images/notifications/user-notifications-settings-navigation.png)
 
 The following image shows the options for changing the notification settings of the current user.
 
-![User notification settings options](/static/assets/on-premise/images/notifications/user-notifications-settings.png)
+![User notification settings options](/static/images/notifications/user-notifications-settings.png)
 
 Settings can be enabled, disabled, or inherited from the global settings, which are the default settings of the Report Server.
 
@@ -85,7 +85,7 @@ Report Server users can watch a specific item, apart from the auto-watch setting
 
 * Apart from the auto-watch settings for created and accessible item settings, users can also watch an item specifically.
 
-    ![Report Specific watch](/static/assets/on-premise/images/notifications/report-specific-notifications.png)
+    ![Report Specific watch](/static/images/notifications/report-specific-notifications.png)
 
 Users can toggle between watch and unwatch for a report comment at any time.
 

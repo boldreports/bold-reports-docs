@@ -20,13 +20,13 @@ Read the [blog post on master-detail reports using the table report item](https:
 
 The following image shows the master-detail report design using a table in Web Report Designer.
 
-![Master Details Report using list](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/master-detail-table-design.png)
+![Master Details Report using list](/static/images/report-designer/how-to/master-details-nested-item/master-detail-table-design.png)
 
 ## **Preview**
 
 The following image shows the preview of the master-detail report using a table.
 
-![Master Details Report using list](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/master-detail-table-preview.png)
+![Master Details Report using list](/static/images/report-designer/how-to/master-details-nested-item/master-detail-table-preview.png)
 
 ## See also
 

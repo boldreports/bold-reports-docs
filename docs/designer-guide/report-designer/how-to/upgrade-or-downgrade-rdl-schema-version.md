@@ -7,7 +7,7 @@ description: Upgrade or downgrade RDL and RDLC reports between 2008, 2010, and 2
 
 {{site.productNameTM}} Report Designer lets you upgrade or downgrade reports between 2008, 2010, or 2016 RDL schema versions with the `Default Version` option. You find this option under `Report Properties` in the properties panel.
 
-![Version option](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/version-option.png)
+![Version option](/static/images/report-designer/how-to/upgrade-or-downgrade-reports/version-option.png)
 
 ## Which Default Version options are available?
 
@@ -23,8 +23,8 @@ The `Default Version` property in {{site.productNameTM}} Report Designer has the
 
 You upgrade or downgrade a report in {{site.productNameTM}} Designer by changing the `Default Version` property and saving the report.
 
-1. Launch the Enterprise Server application and edit a target report.![Open report](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/open-report.png '#width=400px')
-2. Open [Report Properties](./../../compose-report/report-properties/). Under the `Miscellaneous` category, choose the target version in the `Default Version` property drop-down.![Choose version](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/choose-version.png '#width=350px')
+1. Launch the Enterprise Server application and edit a target report.![Open report](/static/images/report-designer/how-to/upgrade-or-downgrade-reports/open-report.png '#width=400px')
+2. Open [Report Properties](./../../compose-report/report-properties/). Under the `Miscellaneous` category, choose the target version in the `Default Version` property drop-down.![Choose version](/static/images/report-designer/how-to/upgrade-or-downgrade-reports/choose-version.png '#width=350px')
 3. Save the report.
 
 ## Which upgrades are supported?

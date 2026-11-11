@@ -13,16 +13,16 @@ The `HTML` report item in the {{site.productNameTM}} Web Report Designer integra
 You embed HTML content from a URL by adding an HTML report item in the {{site.productNameTM}} Web Report Designer and setting its source type to `URL`.
 
 1. Drag and drop the HTML report item from the item panel into the design area.
-   ![Drag and drop html report item into design area](/static/assets/on-premise/images/report-designer/report-items/html/drag-and-drop-html.png '#width=425px')
+   ![Drag and drop html report item into design area](/static/images/report-designer/report-items/html/drag-and-drop-html.png '#width=425px')
 2. Check the properties panel. After you place the HTML item in the design area, the panel displays its properties.
-   ![HTML item with properties view](/static/assets/on-premise/images/report-designer/report-items/html/html-basic-settings.png '#width=425px')
+   ![HTML item with properties view](/static/images/report-designer/report-items/html/html-basic-settings.png '#width=425px')
 3. Select `URL` as the source type and enter the dashboard showcase URL in the input box.
-   ![HTML URL input](/static/assets/on-premise/images/report-designer/report-items/html/raw-html-content.png '#width=425px')
+   ![HTML URL input](/static/images/report-designer/report-items/html/raw-html-content.png '#width=425px')
    The example above uses the [Health Tracker Dashboard](https://ej2.syncfusion.com/showcase/typescript/healthtracker/) sample.
 4. Click the `Preview` button to view the HTML content in the report.
-   ![Preview button](/static/assets/on-premise/images/report-designer/report-items/html/preview-button.png '#width=425px')
+   ![Preview button](/static/images/report-designer/report-items/html/preview-button.png '#width=425px')
 5. Review the result. During the report preview, the `Health Tracker Dashboard` displays as follows:
-   ![preview the report](/static/assets/on-premise/images/report-designer/report-items/html/preview-report.png '#width=425px')
+   ![preview the report](/static/images/report-designer/report-items/html/preview-report.png '#width=425px')
 
 > Download the [HTML report design (RDL) from GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/html/design-ssrs-rdl-report-using-html-report-item.rdl).
 

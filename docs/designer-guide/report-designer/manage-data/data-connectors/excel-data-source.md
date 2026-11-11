@@ -24,55 +24,55 @@ To use spreadsheet data in {{site.productNameTM}}, create an Excel data source t
 To create an Excel data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Excel connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![New Data Panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=355px')
+   ![New Data Panel](/static/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=355px')
 3. In the connection type panel, choose the `Excel` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/connection-types.png '#width=355px')
+   ![Connection types panel](/static/images/report-designer/manage-data/excel-data-source/connection-types.png '#width=355px')
 4. Specify the data source name without special characters in the **Name** field.
-   ![Excel datasource properties](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/initial-panel.png '#width=355px')
+   ![Excel datasource properties](/static/images/report-designer/manage-data/excel-data-source/initial-panel.png '#width=355px')
 
 You can connect Excel data using the following two options:
 
 * **File Path** - Load from disk.
 * **External** - Load from external URL.
 
-![Source types](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/types.png '#width=335px')
+![Source types](/static/images/report-designer/manage-data/excel-data-source/types.png '#width=335px')
 
 ### How do I load an Excel file from disk?
 
 To load an Excel file from disk in the {{site.productNameTM}} Web Report Designer, upload the file, choose an extract type, and connect.
 
 1. Choose the `File` option in the `Type` field. The upload option appears, as shown in the following image.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-upload-option.png '#width=335px')
+   ![New connection panel](/static/images/report-designer/manage-data/excel-data-source/file-upload-option.png '#width=335px')
 2. Click the three-dotted button to open the upload box. Browse the Excel file and click open.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/browse-file.png '#width=335px')
+   ![New connection panel](/static/images/report-designer/manage-data/excel-data-source/browse-file.png '#width=335px')
 3. Choose an `Extract Type`. To learn about each type, see [Importing data](./../../../manage-data/data-connectors/excel-data-source/#importing-data).
-   ![Choose extract type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/extract-type.png '#width=350px')
+   ![Choose extract type](/static/images/report-designer/manage-data/excel-data-source/extract-type.png '#width=350px')
 4. Click `Connect` to open the query design pane. The query design pane shows the worksheets/tables in a tree view on the left side pane.
-   ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
+   ![Left schema](/static/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
 5. Drag and drop the worksheet/table you want to analyze from the left pane in the query design view page and execute.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
+   ![New connection panel](/static/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
     > NOTE: The Excel data source does not allow multiple joins across sheets or tables.
 6. Click `Finish` to save the data source with a relevant name and continue designing the report.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-data-list.png '#width=355px')
+   ![New connection panel](/static/images/report-designer/manage-data/excel-data-source/file-data-list.png '#width=355px')
 
 ### How do I load Excel data from an external URL?
 
 To load Excel data from an external URL in the {{site.productNameTM}} Web Report Designer, specify the URL, choose an extract type, and connect.
 
 1. Choose the `External` option in the `Type` field.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/external-type.png '#width=355px')
+   ![New connection panel](/static/images/report-designer/manage-data/excel-data-source/external-type.png '#width=355px')
 2. Specify an external URL in the `External` text area.
-   ![Choose source type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/specify-web-service.png '#width=355px')
+   ![Choose source type](/static/images/report-designer/manage-data/excel-data-source/specify-web-service.png '#width=355px')
 3. Choose an `Extract Type`. To learn about each type, see [Importing data](./../../../manage-data/data-connectors/excel-data-source/#importing-data).
-   ![Choose extract type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/extract-type.png '#width=355px')
+   ![Choose extract type](/static/images/report-designer/manage-data/excel-data-source/extract-type.png '#width=355px')
 4. Click `Connect` to open the query design pane. The query design pane shows the worksheets/tables in a tree view on the left side pane.
-   ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
+   ![Left schema](/static/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
 5. Drag and drop the table from the left pane in the query design view page and execute.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
+   ![New connection panel](/static/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
 6. Click `Finish` to save the data source with a relevant name and continue designing the report.
-   ![Dataset list view](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-data-list.png '#width=355px')
+   ![Dataset list view](/static/images/report-designer/manage-data/excel-data-source/file-data-list.png '#width=355px')
 
 ## Importing data
 
@@ -87,29 +87,29 @@ To load Excel data from an external URL in the {{site.productNameTM}} Web Report
 
 The {{site.productNameTM}} Excel data connector connects data from different worksheets. The following Excel file has two worksheets.
 
-![Excel with multiple worksheet](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/multiple-worksheet.png '#width=600px')
+![Excel with multiple worksheet](/static/images/report-designer/manage-data/excel-data-source/multiple-worksheet.png '#width=600px')
 
 To connect an entire worksheet along with tables, choose `Worksheets` in Extract type.
 
-![Choose worksheet as extract type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/choose-worksheet-type.png '#width=350px')
+![Choose worksheet as extract type](/static/images/report-designer/manage-data/excel-data-source/choose-worksheet-type.png '#width=350px')
 
 Click `Connect`. The query designer shows the worksheets in a tree view on the left side pane.
 
-![Left schema](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
+![Left schema](/static/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
 
 ### How do I import tables?
 
 The {{site.productNameTM}} `Excel` data connector connects multiple tables across the worksheets. In the following workbook, the `Order Details` worksheet has two different tables.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/spreadsheet-tables.png '#width=600px')
+![New connection panel](/static/images/report-designer/manage-data/excel-data-source/spreadsheet-tables.png '#width=600px')
 
 To connect one or more tables from your worksheets, choose `Tables` in Extract type.
 
-![Choose tables as extract type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/choose-table-type.png '#width=350px')
+![Choose tables as extract type](/static/images/report-designer/manage-data/excel-data-source/choose-table-type.png '#width=350px')
 
 Click `Connect`. The query designer shows the tables in a tree view on the left side pane.
 
-![Tables listed in left pane](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/tables-list.png '#width=250px')
+![Tables listed in left pane](/static/images/report-designer/manage-data/excel-data-source/tables-list.png '#width=250px')
 
 ## What are the limitations of the Excel data source?
 

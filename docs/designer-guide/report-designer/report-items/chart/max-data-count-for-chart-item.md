@@ -20,23 +20,23 @@ You configure the Max Data Count property in the `Preview Data Limit` section of
 1. Select the chart and go to the `Properties` pane.
 2. Navigate to the `Preview Data Limit` section.
 
-    ![Preview Data Limit](/static/assets/on-premise/images/report-designer/report-items/chart/preview-data-limit.png)
+    ![Preview Data Limit](/static/images/report-designer/report-items/chart/preview-data-limit.png)
 
 3. Set a `Max Data Count` for the chart report item.
 
-    ![Max Data Count](/static/assets/on-premise/images/report-designer/report-items/chart/max-data-count-configure.png)
+    ![Max Data Count](/static/images/report-designer/report-items/chart/max-data-count-configure.png)
 
 ## What is the default Max Data Count value?
 
 The Web Report Designer shows the default value for `MaxDataCount` in the following image.
 
-![Max Data Count Default](/static/assets/on-premise/images/report-designer/report-items/chart/max-data-count-default.png)
+![Max Data Count Default](/static/images/report-designer/report-items/chart/max-data-count-default.png)
 
 ## What happens when the data exceeds the limit?
 
 If the data exceeds the Max Data Count limit, the Web Report Designer displays a user-friendly error message in the designer UI. The message indicates that the data exceeds the allowable range.
 
-![User-friendly Error Message](/static/assets/on-premise/images/report-designer/report-items/chart/user-friendly-error-msg-maxdatacount.png)
+![User-friendly Error Message](/static/images/report-designer/report-items/chart/user-friendly-error-msg-maxdatacount.png)
 
 ## What are the best practices for Max Data Count?
 

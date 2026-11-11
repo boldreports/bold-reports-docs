@@ -14,11 +14,11 @@ You apply a color palette to map shapes in the {{site.productNameTM}} Web Report
 1. Under the `Shape Color Rule` category, choose the **Color Palette** option in the type dropdown.
 2. Choose a palette from the **Palette** dropdown that appears under the type dropdown.
 
-![Map palette types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/palette-types.png '#width=385px')
+![Map palette types](/static/images/report-designer/report-items/map/shape-color-rule/palette-types.png '#width=385px')
 
 For example, set the palette type to `BrightPastel`. The map design with sample data then looks like the following image.
 
-![Color palette](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/bright-pastel.png)
+![Color palette](/static/images/report-designer/report-items/map/shape-color-rule/bright-pastel.png)
 
 During report processing, {{site.productNameTM}} automatically distributes the map shape colors on the map surface based on the selected palette and distribution type.
 

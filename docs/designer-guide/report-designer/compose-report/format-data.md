@@ -8,7 +8,7 @@ keywords: ejReportDesigner, reportdesigner, number, currency, scientific, decima
 
 The Format option in {{site.productNameTM}} Web Report Designer displays textbox values in various forms, including **Numbers**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage**, and **Custom** formats.
 
-![open-format-dialog](/static/assets/on-premise/images/report-designer/compose-report/format-data/formatdialog.png '#width=400px')
+![open-format-dialog](/static/images/report-designer/compose-report/format-data/formatdialog.png '#width=400px')
 
 ## How do I format numbers?
 
@@ -22,11 +22,11 @@ The **Number** format in the Web Report Designer formats the numeric values in a
 
 * **Thousand Separator** separates the value in terms of thousands in number positions.
 
-   ![number-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-numbers.png '#width=400px')
+   ![number-format](/static/images/report-designer/compose-report/format-data/format-numbers.png '#width=400px')
 
 * **Use Regional Formatting**: Enable this option to apply default local culture settings to the numeric values.
 
-   ![regional-option-in-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-by-regional-option.png '#width=400px')
+   ![regional-option-in-format](/static/images/report-designer/compose-report/format-data/format-by-regional-option.png '#width=400px')
 
 ## How do I format currency?
 
@@ -50,25 +50,25 @@ The **Currency** format in the Web Report Designer formats the currency values i
 
    For example, if the field value is 1,789,905,394, you select currency culture as `English(United States)`, and the include space checkbox is enabled, the value displayed in the report is `US$ 1,789,905,394`.
 
-    ![currency-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-currency.png '#width=400px')
+    ![currency-format](/static/images/report-designer/compose-report/format-data/format-currency.png '#width=400px')
 
 ## How do I format a date?
 
 The **Date** format in the Web Report Designer formats a date and time field to display only the date in the textbox. The supported date formats are listed in the `Date` drop-down list.
 
-![date-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-a-date.png '#width=400px')
+![date-format](/static/images/report-designer/compose-report/format-data/format-a-date.png '#width=400px')
 
 ## How do I format a time?
 
 The **Time** format in the Web Report Designer formats a date and time field to display only the time in the textbox. The supported time formats are listed in the `Time` drop-down list.
 
-![time-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-a-time.png '#width=400px')
+![time-format](/static/images/report-designer/compose-report/format-data/format-a-time.png '#width=400px')
 
 ## How do I use scientific format?
 
 The **Scientific** format in the Web Report Designer displays numbers in scientific notation. The number is transformed into a real number followed by E+n, where E (which stands for Exponent) multiplies the real number by 10 to the nth power.
 
-![scientific-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-scientific.png '#width=400px')
+![scientific-format](/static/images/report-designer/compose-report/format-data/format-scientific.png '#width=400px')
 
 For example, a 2-decimal scientific format displays 12345678901 as `1.23E+10`, which is `1.23` times 10 to the 10th power.
 
@@ -80,13 +80,13 @@ The **Percentage** format in the Web Report Designer displays the value multipli
 
 * **Include Space**: Enable this option to include a space between the percent symbol and the value.
 
-   ![percentage-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-percentage.png '#width=400px')
+   ![percentage-format](/static/images/report-designer/compose-report/format-data/format-percentage.png '#width=400px')
 
 ## How do I create a custom format?
 
 The **Custom** format in the Web Report Designer modifies the predefined formats to create a new custom number format.
 
-![custom-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-by-custom.png '#width=400px')
+![custom-format](/static/images/report-designer/compose-report/format-data/format-by-custom.png '#width=400px')
 
 ## Frequently asked questions
 

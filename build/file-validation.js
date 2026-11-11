@@ -23,7 +23,9 @@ function getSubFolders(baseFolder, folderList = []) {
 }
 
 gulp.task('file-validation', (done) => {
-    customNames = readFileSync('./.customnames', 'utf8').split(/\s+/);
+    // File and folder name parts that are not dictionary words are listed in .spelling,
+    // the same word list that the spell check uses.
+    customNames = readFileSync('./.spelling', 'utf8').split(/\s+/);
     let folderNames = getSubFolders('./docs/');
     for (let i = 0; i < folderNames.length; i++) {
         checkFileNames(folderNames[i]);

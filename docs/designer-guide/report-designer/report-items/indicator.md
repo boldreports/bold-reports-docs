@@ -13,11 +13,11 @@ In the {{site.productNameTM}} Web Report Designer, an indicator report item is a
 You add an indicator to a {{site.productNameTM}} report by dragging the indicator report item from the item panel into the design area.
 
 1. Find the indicator report item in the item panel under the `KPI` category.
-   ![Indicator item in item panel](/static/assets/on-premise/images/report-designer/report-items/indicator/item-panel.png '#width=145px')
+   ![Indicator item in item panel](/static/images/report-designer/report-items/indicator/item-panel.png '#width=145px')
 2. Drag and drop the indicator report item into the design area from the item panel.
-   ![Drag and drop indicator report item into design area](/static/assets/on-premise/images/report-designer/report-items/indicator/item-drag.png '#width=285px')
+   ![Drag and drop indicator report item into design area](/static/images/report-designer/report-items/indicator/item-drag.png '#width=285px')
 3. Drop the indicator item in the design area. The properties panel then lists the item properties.
-   ![Indicator item with properties view](/static/assets/on-premise/images/report-designer/report-items/indicator/designer-area.png '#width=385px')
+   ![Indicator item with properties view](/static/images/report-designer/report-items/indicator/designer-area.png '#width=385px')
 
 ## Which properties can I set for an indicator?
 
@@ -47,7 +47,7 @@ The Data category of the indicator holds the dataset property.
 
 The Dataset property assigns a dataset to the indicator report item. The `Dataset` property dropdown lists the available datasets in the report. Choose the dataset you want from the dropdown.
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/indicator/dataset.png '#width=355px')
+![Data category](/static/images/report-designer/report-items/indicator/dataset.png '#width=355px')
 
 > To add a dataset to your report, see the [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section.
 
@@ -55,13 +55,13 @@ The Dataset property assigns a dataset to the indicator report item. The `Datase
 
 The Indicator value property assigns the value for indicator states. You can also set the indicator value based on dynamic values by using expressions.
 
-![Indicator Numeric Value](/static/assets/on-premise/images/report-designer/report-items/indicator/numeric-value.png '#width=355px')
+![Indicator Numeric Value](/static/images/report-designer/report-items/indicator/numeric-value.png '#width=355px')
 
 #### Measurement unit
 
 The Measurement unit property sets how the indicator value is measured. Select `Percentage` or `Numeric` from the dropdown. If you select the `Percentage` option, the `Minimum` and `Maximum` properties appear in the properties panel.
 
-![Indicator Percentage Value](/static/assets/on-premise/images/report-designer/report-items/indicator/percentage-value.png '#width=355px')
+![Indicator Percentage Value](/static/images/report-designer/report-items/indicator/percentage-value.png '#width=355px')
 
 ##### Minimum
 
@@ -75,15 +75,15 @@ The maximum property assigns the maximum value of the indicator. You can also se
 
 The Indicator types property selects predefined indicator states from the dropdown.
 
-![Indicator Type](/static/assets/on-premise/images/report-designer/report-items/indicator/types.png '#width=345px')
+![Indicator Type](/static/images/report-designer/report-items/indicator/types.png '#width=345px')
 
 ### Indicator states
 
 The Indicator states property customizes the states of the indicator.
 
-![Indicator States](/static/assets/on-premise/images/report-designer/report-items/indicator/states.png '#width=345px')
+![Indicator States](/static/images/report-designer/report-items/indicator/states.png '#width=345px')
 
-![Indicator States Panel](/static/assets/on-premise/images/report-designer/report-items/indicator/states-panel.png '#width=355px')
+![Indicator States Panel](/static/images/report-designer/report-items/indicator/states-panel.png '#width=355px')
 
 #### How do I customize a state?
 
@@ -109,25 +109,25 @@ To add a new indicator state, click the `Add icon`. The new state is created wit
 * End - ''
 * Scale Factor - 1
 
-![Adding indicator states](/static/assets/on-premise/images/report-designer/report-items/indicator/states-add.png '#width=355px')
+![Adding indicator states](/static/images/report-designer/report-items/indicator/states-add.png '#width=355px')
 
 #### How do I delete a state?
 
 To delete an indicator state, click the `delete icon`.
 
-![Deleting indicator states](/static/assets/on-premise/images/report-designer/report-items/indicator/states-delete.png '#width=355px')
+![Deleting indicator states](/static/images/report-designer/report-items/indicator/states-delete.png '#width=355px')
 
 ### Data Element
 
 The Data element properties control the visibility of an indicator when you export the report in XML format. The properties panel lists these properties under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
+![Data element properties](/static/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 Use the `Name` field to assign a custom name to the indicator element. The indicator is exported with the name you provide.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
+![Data element name property](/static/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -138,7 +138,7 @@ The `Output` property controls the visibility of the indicator when you export t
 * **Auto** or **Output**: Exports the indicator report item.
 * **NoOutput**: Does not export the indicator report item.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=355px')
+![Data element output property](/static/images/report-designer/report-items/tablix/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -152,7 +152,7 @@ The Miscellaneous category holds the page name, custom attributes, document map,
 
 The page name property names the first worksheet of the Excel workbook when you export the report to Excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/indicator/page-name.png '#width=355px')
+![Page name property](/static/images/report-designer/report-items/indicator/page-name.png '#width=355px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -180,7 +180,7 @@ The Tooltip property displays informative text or a value when the user hovers o
 
 The `Custom Style` property lets you use external CSS to style report items, giving more flexibility than the built-in styling options. Use this property to meet specific design requirements and keep styling consistent across multiple reports. For a step-by-step guide on setting up custom styles in your report, see the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/indicator/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/indicator/custom-style-property.png '#width=355px')
 
 ## How do I set an expression on an indicator property?
 

@@ -13,22 +13,22 @@ The `Signature` report item in the {{site.productNameTM}} Web Report Designer le
 You add an electronic signature in the {{site.productNameTM}} Web Report Designer by dragging the **Electronic signature** item from the item panel into the design area.
 
 1. Find the **Electronic signature** report item in the item panel under the `Signatures` category.
-   ![Electronic Signature listed in item panel](/static/assets/on-premise/images/report-designer/report-items/signature/signature-item-in-item-panel.png '#width=215px')
+   ![Electronic Signature listed in item panel](/static/images/report-designer/report-items/signature/signature-item-in-item-panel.png '#width=215px')
 2. Drag and drop the `Electronic Signature` item from the item panel into the design area.
-   ![Drag and drop signature report item into design area](/static/assets/on-premise/images/report-designer/report-items/signature/drag-and-drop-signature.png '#width=425px')
+   ![Drag and drop signature report item into design area](/static/images/report-designer/report-items/signature/drag-and-drop-signature.png '#width=425px')
 3. Review the item properties, which appear in the properties panel after you place the report item in the design area.
-   ![Signature item with properties view](/static/assets/on-premise/images/report-designer/report-items/signature/signature-properties.png '#width=425px')
+   ![Signature item with properties view](/static/images/report-designer/report-items/signature/signature-properties.png '#width=425px')
 
 ## How do I add a PDF signature report item?
 
 You add a PDF signature in the {{site.productNameTM}} Web Report Designer by dragging the **PDF signature** item from the item panel into the design area.
 
 1. Find the **PDF signature** report item in the item panel under the `Signatures` category.
-   ![PDF Signature listed in item panel](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature-item-in-item-panel.png '#width=215px')
+   ![PDF Signature listed in item panel](/static/images/report-designer/report-items/signature/pdf-signature-item-in-item-panel.png '#width=215px')
 2. Drag and drop the `PDF Signature` item from the item panel into the design area.
-   ![Drag and drop PDF signature report item into design area](/static/assets/on-premise/images/report-designer/report-items/signature/drag-drop-pdf-signature.png '#width=425px')
+   ![Drag and drop PDF signature report item into design area](/static/images/report-designer/report-items/signature/drag-drop-pdf-signature.png '#width=425px')
 3. Review the item properties, which appear in the properties panel after you place the report item in the design area.
-   ![PDF Signature item with properties view](/static/assets/on-premise/images/report-designer/report-items/signature/pdf-signature-properties.png '#width=425px')
+   ![PDF Signature item with properties view](/static/images/report-designer/report-items/signature/pdf-signature-properties.png '#width=425px')
 
 ## General Properties
 
@@ -78,7 +78,7 @@ The `Custom Style` property enables the use of external CSS for styling report i
 
 The following image shows the `Custom Style` property in the properties panel.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/signature/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/signature/custom-style-property.png '#width=355px')
 
 ## How do I set an expression on a signature property?
 

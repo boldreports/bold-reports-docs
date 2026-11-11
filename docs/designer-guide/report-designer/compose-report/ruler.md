@@ -9,7 +9,7 @@ The **Ruler** in {{site.productNameTM}} Web Report Designer helps you place repo
 
 With rulers, you can design, adjust, and finalize reports efficiently and keep them print-ready and ready for export.
 
-![Ruler user interface](/static/assets/on-premise/images/report-designer/compose-report/ruler/ruler-user-interface.png '#width=500px')
+![Ruler user interface](/static/images/report-designer/compose-report/ruler/ruler-user-interface.png '#width=500px')
 
 ## What are error indication lines?
 
@@ -41,7 +41,7 @@ A horizontal indication line appears if the following condition is met:
 Page Width - (Page Left Margin + Page Right Margin) < Body Width
 ```
 
-![horizontal Error indication lines](/static/assets/on-premise/images/report-designer/compose-report/ruler/horizontal-error-indication-line.png '#width=500px')
+![horizontal Error indication lines](/static/images/report-designer/compose-report/ruler/horizontal-error-indication-line.png '#width=500px')
 
 A vertical indication line appears if the following condition is met:
 
@@ -49,7 +49,7 @@ A vertical indication line appears if the following condition is met:
 Page Height - (Page Top Margin + Page Bottom Margin) < (Header Height + Body Height + Footer Height)
 ```
 
-![vertical Error indication lines](/static/assets/on-premise/images/report-designer/compose-report/ruler/vertical-error-indication-line.png '#width=500px')
+![vertical Error indication lines](/static/images/report-designer/compose-report/ruler/vertical-error-indication-line.png '#width=500px')
 
 For example, the report width is `816 px`, with a left margin of `100 px` and a right margin of `100px`. To check whether the body fits within the printable area, use the following formula:
 
@@ -74,13 +74,13 @@ To understand how page margin and usable area are calculated, read the [Page Lay
 
 Web Report Designer provides separate vertical rulers for the **Header**, **Body**, and **Footer** to clearly separate and measure each section.
 
-![Separate vertical rulers for each section](/static/assets/on-premise/images/report-designer/compose-report/ruler/separate-vertical-rulers.png '#width=500px')
+![Separate vertical rulers for each section](/static/images/report-designer/compose-report/ruler/separate-vertical-rulers.png '#width=500px')
 
 ### Section Lines
 
 Section lines in Web Report Designer visually separate report sections like header, body, and footer. They make it easier to calculate each section's height.
 
-![Section lines between header, body, footer](/static/assets/on-premise/images/report-designer/compose-report/ruler/section-lines.png '#width=500px')
+![Section lines between header, body, footer](/static/images/report-designer/compose-report/ruler/section-lines.png '#width=500px')
 
 ### Mouse Position Indicator
 
@@ -90,7 +90,7 @@ The mouse position indicator in Web Report Designer shows where your cursor is o
 * These lines help you position report items accurately.
 * They disappear when the mouse moves outside the design area.
 
-![Mouse position indicator line](/static/assets/on-premise/images/report-designer/compose-report/ruler/mouse-position-indicator.png '#width=500px')
+![Mouse position indicator line](/static/images/report-designer/compose-report/ruler/mouse-position-indicator.png '#width=500px')
 
 ### Show or hide Ruler
 
@@ -99,7 +99,7 @@ You show or hide the Ruler in Web Report Designer from the View menu.
 1. Open the View menu in the toolbar.
 2. Click the Ruler option in the menu.
 
-![Show or hide report header](/static/assets/on-premise/images/report-designer/compose-report/ruler/enable-rulers.png '#width=200px')
+![Show or hide report header](/static/images/report-designer/compose-report/ruler/enable-rulers.png '#width=200px')
 
 ## Frequently asked questions
 

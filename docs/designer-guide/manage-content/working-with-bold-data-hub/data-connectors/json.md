@@ -40,33 +40,33 @@ You connect a JSON file by creating a pipeline in Bold Data Hub, adding the `JSO
 
 1. Click the `Data Hub` icon on the Navigation Pane.
 
-    ![JSON Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/clickdatahub.png#max-width=100%)
+    ![JSON Data Hub- Reports](/static/images/manage-content/working-with-etl/clickdatahub.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created pipeline and add the `JSON` template.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/jsontemplate.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/jsontemplate.png#max-width=100%)
 
 4. Click the **Upload File** button to upload your JSON file.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/uploadfile.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/uploadfile.png#max-width=100%)
 
 5. Copy the file path and paste it into the filePath property.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/jsoncopypath.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/jsoncopypath.png#max-width=100%)
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/jsonshowpath.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/jsonshowpath.png#max-width=100%)
 
 6. Click **Save** and choose the destination to save the pipeline.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ## How do I schedule the JSON pipeline?
 
@@ -74,21 +74,21 @@ You schedule the JSON pipeline in Bold Data Hub from the schedules tab, or you r
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![JSON Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![JSON Data Hub - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ## Frequently asked questions
 

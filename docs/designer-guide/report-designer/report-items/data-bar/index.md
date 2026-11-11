@@ -13,11 +13,11 @@ A data bar in the {{site.productNameTM}} Web Report Designer is a small, simple 
 The {{site.productNameTM}} Web Report Designer lists the data bar report item in the item panel under the `KPI` category.
 
 1. Find the data bar report item under the `KPI` category in the item panel.
-   ![Data bar item in item panel](/static/assets/on-premise/images/report-designer/report-items/data-bar/item-panel.png '#width=145px')
+   ![Data bar item in item panel](/static/images/report-designer/report-items/data-bar/item-panel.png '#width=145px')
 2. Drag and drop the data bar report item from the item panel into the design area or inside a tablix cell.
-   ![Drag and drop data bar report item into design area](/static/assets/on-premise/images/report-designer/report-items/data-bar/item-drag.png '#width=355px')
+   ![Drag and drop data bar report item into design area](/static/images/report-designer/report-items/data-bar/item-drag.png '#width=355px')
 3. Review the item properties. After you drop the data bar item in the design area or inside a tablix cell, the properties panel lists its properties.
-   ![Data bar item with properties view](/static/assets/on-premise/images/report-designer/report-items/data-bar/designer-area.png)
+   ![Data bar item with properties view](/static/images/report-designer/report-items/data-bar/designer-area.png)
 
 ## How do I create data for the data bar?
 
@@ -43,31 +43,31 @@ To configure data in the data bar, follow these steps:
 
 1. Select the data bar report item to bind data to it.
 2. Click the `Properties` icon in the configuration panel to open the property pane. Then, switch to the `DATA` tab.
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/data-bar/chart-properties-pane.png)
+   ![Chart properties pane](/static/images/report-designer/report-items/data-bar/chart-properties-pane.png)
 3. Choose a dataset in the dropdown list. The dropdown lists the data available in the report.
-   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/data-bar/data-assign-drop-down.png '#width=385px')
+   ![Choose the dataset for chart](/static/images/report-designer/report-items/data-bar/data-assign-drop-down.png '#width=385px')
 4. Review the fields. The `Measures` section lists numeric columns and numeric expressions. The `Dimensions` section lists other types of columns and dimension expressions.
-   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/data-bar/measures-dimensions-category.png '#width=385px')
+   ![Measures and dimensions](/static/images/report-designer/report-items/data-bar/measures-dimensions-category.png '#width=385px')
 5. **Drag and Drop Measure Element**:
    Drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
-   ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/data-bar/add-y-values-field.png '#width=385px')
+   ![Add a Y-value field](/static/images/report-designer/report-items/data-bar/add-y-values-field.png '#width=385px')
    The following image shows the report item design after you add the Y value field.
-   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/data-bar/y-value-chart-design-view.png '#width=385px')
+   ![Preview after adding y-value field](/static/images/report-designer/report-items/data-bar/y-value-chart-design-view.png '#width=385px')
 6. **Aggregate Options**:
    Click the `Settings` icon (highlighted in the image) to open the aggregation type dropdown list.
-   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/data-bar/aggregation-settings-icon.png '#width=195px')
+   ![Aggregate settings icon](/static/images/report-designer/report-items/data-bar/aggregation-settings-icon.png '#width=195px')
    Set the aggregation type that computes the selected column.
-   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/data-bar/aggregation-settings-menu.png '#width=395px')
+   ![Aggregate menu list](/static/images/report-designer/report-items/data-bar/aggregation-settings-menu.png '#width=395px')
 7. **Drag and Drop Dimension Element**:
    Drag the dimension element from the `Dimensions` section and drop it into the `Column(s)` section. The dimension measures against the numeric column(s) selected in the `Y Value(s)` section.
-   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/data-bar/add-field-to-column-section.png '#width=395px')
+   ![Add dimension field](/static/images/report-designer/report-items/data-bar/add-field-to-column-section.png '#width=395px')
    The following image shows the report item design after you add the dimension field.
-   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/data-bar/column-field-design-preview.png '#width=385px')
+   ![Preview after adding dimension field](/static/images/report-designer/report-items/data-bar/column-field-design-preview.png '#width=385px')
 8. **Grouping**:
    Group the added column element with another column by adding the respective dimension element into the Row(s) section.
-   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/data-bar/add-field-to-rows-section.png '#width=395px')
+   ![Achieve grouping by row values](/static/images/report-designer/report-items/data-bar/add-field-to-rows-section.png '#width=395px')
    The following image shows the report item design after you add the row field.
-   ![Preview of row value grouping](/static/assets/on-premise/images/report-designer/report-items/data-bar/row-field-design-preview.png '#width=385px')
+   ![Preview of row value grouping](/static/images/report-designer/report-items/data-bar/row-field-design-preview.png '#width=385px')
 
 ## Which properties can I set for a data bar?
 
@@ -77,19 +77,19 @@ The {{site.productNameTM}} data bar properties control its name, series, appeara
 
 The **Name** property provides a unique name for the data bar item in the report.
 
-![Name property](/static/assets/on-premise/images/report-designer/report-items/data-bar/name-property.png '#width=375px')
+![Name property](/static/images/report-designer/report-items/data-bar/name-property.png '#width=375px')
 
 ### Basic Settings
 
 The data bar **Basic Settings** category is shown in the following image.
 
-![Chart Basic settings](/static/assets/on-premise/images/report-designer/report-items/data-bar/basic-settings.png '#width=375px')
+![Chart Basic settings](/static/images/report-designer/report-items/data-bar/basic-settings.png '#width=375px')
 
 ### Choose Series
 
 The data bar lists all series you add in the `Choose Series` dropdown. To customize a series appearance, choose the required series name in the dropdown.
 
-![Choose series](/static/assets/on-premise/images/report-designer/report-items/data-bar/single-series-list-in-drop-down.png '#width=375px')
+![Choose series](/static/images/report-designer/report-items/data-bar/single-series-list-in-drop-down.png '#width=375px')
 
 To customize each series using the properties panel, see [Series](../chart/series/).
 
@@ -97,19 +97,19 @@ To customize each series using the properties panel, see [Series](../chart/serie
 
 The data bar **Appearance** properties (border style, color, width, and background color) style the chart and customize its appearance in the report design. The properties panel lists these properties under the `Appearance` category.
 
-![Chart appearance](/static/assets/on-premise/images/report-designer/report-items/chart/appearance-property.png '#width=375px')
+![Chart appearance](/static/images/report-designer/report-items/chart/appearance-property.png '#width=375px')
 
 ### Chart Area
 
 The data bar **Chart Area** properties, such as border width, color, shadow color, shadow offset, and background color, customize the area of the chart design. The properties panel lists these properties under the `Chart Area` category.
 
-![Chart Area](/static/assets/on-premise/images/report-designer/report-items/data-bar/chart-area.png '#width=375px')
+![Chart Area](/static/images/report-designer/report-items/data-bar/chart-area.png '#width=375px')
 
 ### No Data
 
 The data bar **No Data** property displays static text when a dataset returns empty or zero rows at run time.
 
-![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/no-data.png '#width=355px')
+![Chart No data message](/static/images/report-designer/report-items/chart/no-data/no-data.png '#width=355px')
 
 To set or reset no data message properties, see the [No Data Message](../chart/no-data-message/) property section.
 
@@ -118,27 +118,27 @@ To set or reset no data message properties, see the [No Data Message](../chart/n
 The data bar **page break** property controls the amount of information on each page when you preview the report. To apply the page break property to the data bar report item, follow these steps:
 
 1. Choose a `Break Location` type in the dropdown. The Break Location property specifies where the page break occurs.
-   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
+   ![Break location](/static/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
 2. To restart the page numbering on each page, enable the `Page Number Reset` property checkbox.
-   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
+   ![Reset page number](/static/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
 
 ### Position
 
 The data bar **Position** property sets the width, height, left, and top position of the data bar in the report design. To handle these properties using the properties panel, see the [Position](./../../compose-report/common-properties/#position) section.
 
-![Chart postion](/static/assets/on-premise/images/report-designer/report-items/data-bar/position.png '#width=355px')
+![Chart postion](/static/images/report-designer/report-items/data-bar/position.png '#width=355px')
 
 ### Data Element
 
 The data bar **Data element** properties control the visibility of a report item when you export the report in XML format. The properties panel lists them under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
+![Data element properties](/static/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
 
 #### Name
 
 The `Name` field assigns a custom name to the data bar element. The data bar exports with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
+![Data element name property](/static/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -149,13 +149,13 @@ The `Output` property controls the visibility of the data bar when you export th
 * **Auto** or **Output** - Exports the data bar report item.
 * **NoOutput** - Does not export the data bar report item.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=355px')
+![Data element output property](/static/images/report-designer/report-items/tablix/output-property.png '#width=355px')
 
 ### Visibility
 
 The data bar **Visibility** property conditionally shows or hides the data bar report item on report preview or export. To set the visibility of a data bar item using the properties panel, see the [Visibility](./../../compose-report/common-properties/#visibility) section.
 
-![Chart visibility](/static/assets/on-premise/images/report-designer/report-items/data-bar/visibility.png '#width=355px')
+![Chart visibility](/static/images/report-designer/report-items/data-bar/visibility.png '#width=355px')
 
 ### Miscellaneous
 
@@ -165,7 +165,7 @@ The data bar **Miscellaneous** category contains the page name, document map, bo
 
 The **page name** property names the first worksheet of the Excel workbook when you export the report to Excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/data-bar/page-name.png '#width=355px')
+![Page name property](/static/images/report-designer/report-items/data-bar/page-name.png '#width=355px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -193,7 +193,7 @@ The **Tooltip** property displays informative text or values when the user hover
 
 The `Custom Style` property enables external CSS for styling report items, giving more flexibility than the built-in styling options. Use this property to meet specific design requirements and keep styling consistent across multiple reports. For a step-by-step guide on setting up custom styles in your report, see the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/data-bar/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/data-bar/custom-style-property.png '#width=355px')
 
 ## How do I set an expression on a data bar property?
 

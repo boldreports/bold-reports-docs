@@ -13,7 +13,7 @@ You set equal interval distribution for map shapes in the {{site.productNameTM}}
 
 1. Set a value for the `Data Value` property. The properties required to configure the distribution type appear under the shape color rule category.
 
-   ![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-properties.png '#width=355px')
+   ![Map distribution types](/static/images/report-designer/report-items/map/shape-color-rule/distribution-properties.png '#width=355px')
 
 2. Choose `Equal Interval` in the `Distribution Type` dropdown.
 
@@ -25,24 +25,24 @@ The start and end values set the limits that {{site.productNameTM}} splits into 
 
 For example, to display the population of each country on a map, set the minimum population as the start value and the maximum population as the end value.
 
-![Specify start and end value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/equal-interval-start-end-value.png '#width=385px')
+![Specify start and end value](/static/images/report-designer/report-items/map/shape-color-rule/equal-interval-start-end-value.png '#width=385px')
 
 ## Bucket count
 
 The bucket count sets how many data ranges {{site.productNameTM}} creates. For example, if you specify a bucket count of 25, the data between the start and end values is split into 25 ranges.
 
-![Bucket count](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/equal-interval-bucket-count.png '#width=385px')
+![Bucket count](/static/images/report-designer/report-items/map/shape-color-rule/equal-interval-bucket-count.png '#width=385px')
 
 You can also set the bucket count based on dynamic values by using `Expressions`. To open the set or reset expression menu in the properties panel, see the [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) sections.
 If you enable the legend in the map design, the legend items are split into 25 ranges.
 
-![Bucket count in legend](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/bucket-count-legend.png '#width=385px')
+![Bucket count in legend](/static/images/report-designer/report-items/map/shape-color-rule/bucket-count-legend.png '#width=385px')
 
 ## Legend text
 
 The Legend text property sets the format of the content in a {{site.productNameTM}} map legend. To format the legend content, use map legend keywords and custom formats.
 
-![Legend text](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/legend-text.png '#width=385px')
+![Legend text](/static/images/report-designer/report-items/map/shape-color-rule/legend-text.png '#width=385px')
 
 | Format | Description |
 |---------------------|-----------|

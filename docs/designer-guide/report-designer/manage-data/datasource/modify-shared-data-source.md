@@ -13,15 +13,15 @@ You edit a shared data source from the `DATASOURCE` panel of the {{site.productN
 
 1. Select the data source in the `DATASOURCE` panel that you want to edit.
 
-   ![Data source item menu icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png '#width=385px')
+   ![Data source item menu icon](/static/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png '#width=385px')
 
 2. Click the highlighted icon shown in the previous image to open the `Edit` context menu of the selected data source.
 
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png '#width=410px')
+   ![Data panel context menu](/static/images/report-designer/manage-data/datasource/data-panel-context-menu.png '#width=410px')
 
 3. Choose the `Edit` option from the context menu to open the `Edit Connection` panel.
 
-   ![Edit connection panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/edit-shared-data-source-panel.png '#width=385px')
+   ![Edit connection panel](/static/images/report-designer/manage-data/datasource/edit-shared-data-source-panel.png '#width=385px')
 
 4. After you modify the fields, click the `Save` button.
 

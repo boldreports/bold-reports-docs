@@ -57,33 +57,33 @@ You connect SQLite by creating a pipeline in Bold Data Hub, adding the SQLite co
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created pipeline and choose the SQLite connector. Double-click it, or click the **Add Template** option, to add the template.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/SQLite_yaml.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/SQLite_yaml.png#max-width=100%)
 
 4. Click the **Upload File** button to upload your credentials JSON file.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/uploadfile.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/uploadfile.png#max-width=100%)
 
 5. Copy the file path and paste it into the credentials_path property, if it's a JSON file.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/sqlite_copypath.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/sqlite_copypath.png#max-width=100%)
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/sqlite_final_template.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/sqlite_final_template.png#max-width=100%)
 
 6. Click **Save** and choose the destination to save the pipeline.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![SQLite - BoldBI](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ### Configuration Parameters
 
@@ -100,21 +100,21 @@ You schedule the SQLite pipeline in Bold Data Hub from the schedules tab, or you
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![SQLite - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![SQLite - BoldBI](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

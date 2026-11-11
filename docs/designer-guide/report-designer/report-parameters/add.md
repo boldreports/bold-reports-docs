@@ -18,11 +18,11 @@ Prefer watching over reading? Watch this video about report parameters:
 You create a {{site.productNameTM}} report parameter from the `PARAMETERS` panel of the Web Report Designer. Follow these steps:
 
 1. Click the `Parameter` icon in the `Data Configuration` panel. The `PARAMETERS` panel opens.
-   ![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/parameter-icon.png '#width=250px')
+   ![Parameter icon](/static/images/report-designer/report-parameters/add-report-parameter/parameter-icon.png '#width=250px')
 2. Click the `NEW PARAMETER` button in the `PARAMETERS` panel.
-   ![Parameters pane](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/parameters-pane.png '#width=350px')
+   ![Parameters pane](/static/images/report-designer/report-parameters/add-report-parameter/parameters-pane.png '#width=350px')
 3. The following wizard is displayed.
-   ![Parameter configuration panel](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/parameter-configuration-panel.png '#width=350px')
+   ![Parameter configuration panel](/static/images/report-designer/report-parameters/add-report-parameter/parameter-configuration-panel.png '#width=350px')
 
    * In the **Name** field, type the name of the parameter or use the default name. By default, manually created parameter names are similar to `ReportParameter1`.
    * In the **Prompt** field, type the text that appears next to the parameter when the user previews the report.
@@ -38,28 +38,28 @@ You create a {{site.productNameTM}} report parameter from the `PARAMETERS` panel
      1. Select **Visible** to display the report parameter at the top of the report while running the report. Use this option to select parameter values at run time.
      2. Select **Hidden** to hide the report parameter in the published report. The report parameter values can still be set on a report URL, in a subscription definition, or on the {{site.productNameTM}} Report Server.
      3. Select **Internal** to hide the report parameter. In the published report, the report parameter can only be viewed in the report definition.
-        ![Create new parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-new-parameter.png '#width=350px')
+        ![Create new parameter](/static/images/report-designer/report-parameters/add-report-parameter/create-new-parameter.png '#width=350px')
 4. Click the `Save` button. The parameter is listed under the `PARAMETERS` pane, as shown in the following image.
-   ![Product id parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/product-id-parameter.png '#width=350px')
+   ![Product id parameter](/static/images/report-designer/report-parameters/add-report-parameter/product-id-parameter.png '#width=350px')
 
 ## How do I filter table data based on a report parameter?
 
 A {{site.productNameTM}} report parameter can filter table data at run time. In this example, the `ProductID` parameter filters the `ProductID` field values.
 
 1. Select the table report item to enable the grouping panel in the designer.
-   ![Open table data assign menu](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/enable-grouping-panel.png '#width=400px')
+   ![Open table data assign menu](/static/images/report-designer/report-parameters/add-report-parameter/enable-grouping-panel.png '#width=400px')
 2. Click the `(Details)` member field in the grouping panel to open the tablix member properties.
-   ![Open tablix member properties](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-properties.png)
+   ![Open tablix member properties](/static/images/report-designer/report-parameters/add-report-parameter/tablix-member-properties.png)
 3. In the `Tablix Member` properties, click the `Set Filters...` button.
-   ![Open filter dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-set-filters.png '#width=350px')
+   ![Open filter dialog](/static/images/report-designer/report-parameters/add-report-parameter/tablix-member-set-filters.png '#width=350px')
 4. See the [Set filters](./../../compose-report/filter-data/) section to create a new filter expression.
-   ![Create filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-product-id-filter.png '#width=400px')
+   ![Create filter](/static/images/report-designer/report-parameters/add-report-parameter/create-product-id-filter.png '#width=400px')
 5. Choose the `Equal` operator and assign the `ProductID` parameter in the **Value** field. Save the filter.
-   ![Save filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/save-filter-equation.png '#width=400px')
+   ![Save filter](/static/images/report-designer/report-parameters/add-report-parameter/save-filter-equation.png '#width=400px')
 6. Preview the report. The following view is displayed.
-   ![Textbox parameter type](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/textbox-parameter-type.png '#width=350px')
+   ![Textbox parameter type](/static/images/report-designer/report-parameters/add-report-parameter/textbox-parameter-type.png '#width=350px')
 7. Enter a valid `ProductID` in the textbox and click `View Report`.
-   ![Filter product id values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/filter-product-id-values.png '#width=400px')
+   ![Filter product id values](/static/images/report-designer/report-parameters/add-report-parameter/filter-product-id-values.png '#width=400px')
 
 > Download this report design from the [filter table data based on report parameter RDL sample](https://github.com/boldreports/resources/tree/master/docs/report-designer/report-parameters/filter-table-data-based-on-report-parameter.rdl).
 

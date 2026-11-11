@@ -13,7 +13,7 @@ You can delete reports individually or delete multiple reports from {{site.produ
 ## How do I delete a report?
 
 To delete a report from Report Server, click the **Delete** option in the report's context menu.
-![Delete Report](/static/assets/on-premise/images/manage-content/manage-reports/delete-report.png)
+![Delete Report](/static/images/manage-content/manage-reports/delete-report.png)
 
 > Reports cannot be deleted when they are scheduled by a user.
 
@@ -22,7 +22,7 @@ To delete a report from Report Server, click the **Delete** option in the report
 You can delete all {{site.productNameTM}} sample reports at once by removing their category.
 
 Click the **Delete** option in the context menu to delete all sample reports as well as the sample category.
-![Delete All Sample Reports](/static/assets/on-premise/images/manage-content/manage-reports/delete-all-sample-reports.png)
+![Delete All Sample Reports](/static/images/manage-content/manage-reports/delete-all-sample-reports.png)
 
 > **Note:** If the sample category contains any modified sample reports, scheduled reports, or newly added reports, those reports are skipped, and the category is not deleted.
 

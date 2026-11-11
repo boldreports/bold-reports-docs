@@ -13,21 +13,21 @@ The `PDF` report item in the {{site.productNameTM}} Web Report Designer includes
 You add a PDF report item in the {{site.productNameTM}} Web Report Designer by dragging it into the design area and setting its source. Follow these steps:
 
 1. Drag and drop the PDF report item from the item panel into the design area.
-   ![Drag and drop pdf report item into design area](/static/assets/on-premise/images/report-designer/report-items/pdf/drag-and-drop-pdf.png '#width=425px')
+   ![Drag and drop pdf report item into design area](/static/images/report-designer/report-items/pdf/drag-and-drop-pdf.png '#width=425px')
 2. After you place the PDF item in the design area, its properties are displayed in the properties panel.
-   ![PDF item with properties view](/static/assets/on-premise/images/report-designer/report-items/pdf/pdf-item-basic-settings.png '#width=425px')
+   ![PDF item with properties view](/static/images/report-designer/report-items/pdf/pdf-item-basic-settings.png '#width=425px')
 3. Select the source type as `URL`.
-   ![upload the pdf document](/static/assets/on-premise/images/report-designer/report-items/pdf/upload-pdf-file.png '#width=425px')
+   ![upload the pdf document](/static/images/report-designer/report-items/pdf/upload-pdf-file.png '#width=425px')
 4. In the input box, enter the URL of your PDF document using either of the following methods:
 
      * Enter a local file path or a publicly accessible web URL that points to the PDF file:
-     ![PDF URL Link](/static/assets/on-premise/images/report-designer/report-items/pdf/uploaded-pdf-url.png '#width=425px')
+     ![PDF URL Link](/static/images/report-designer/report-items/pdf/uploaded-pdf-url.png '#width=425px')
      * Paste the complete `Base64` encoded content of the PDF document:
-     ![PDF URL Base64](/static/assets/on-premise/images/report-designer/report-items/pdf/pdf-url-raw-content.png '#width=425px')
+     ![PDF URL Base64](/static/images/report-designer/report-items/pdf/pdf-url-raw-content.png '#width=425px')
 5. Click the `Preview` button in the report header.
-   ![Preview button](/static/assets/on-premise/images/report-designer/report-items/pdf/preview-button.png '#width=425px')
+   ![Preview button](/static/images/report-designer/report-items/pdf/preview-button.png '#width=425px')
 6. During the report preview, the `Sales order details` document is displayed.
-   ![preview the report](/static/assets/on-premise/images/report-designer/report-items/pdf/preview-report.png '#width=425px')
+   ![preview the report](/static/images/report-designer/report-items/pdf/preview-report.png '#width=425px')
 
 > Download the [PDF report item report design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/pdf/design-ssrs-rdl-report-using-pdf-report-item.rdl).
 

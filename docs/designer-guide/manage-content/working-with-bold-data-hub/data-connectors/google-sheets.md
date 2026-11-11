@@ -21,7 +21,7 @@ You get Google service account credentials for Bold Data Hub from the Google Clo
 
 1. Sign in to [https://console.cloud.google.com](https://console.cloud.google.com).
 
-    ![Google Sheets- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/gcloudconsole.png#max-width=100%)
+    ![Google Sheets- DataHub](/static/images/manage-content/working-with-etl/gcloudconsole.png#max-width=100%)
 
 2. Create a service account if needed.
 3. Enable the **Google Sheets API** (refer to Google documentation for comprehensive instructions).
@@ -76,11 +76,11 @@ OAuth authentication with Google Sheets in Bold Data Hub uses your client ID and
 
 1. Double-click the connector. An Authentication Setup window opens.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Enter the Client ID and Client Secret and click **Ok**.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/authentication.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/authentication.png#max-width=100%)
 
 3. Click **Allow** in the authorization window to accept the scopes requested by Bold DataHub.
 
@@ -88,11 +88,11 @@ OAuth authentication with Google Sheets in Bold Data Hub uses your client ID and
 
 5. Click **Save** and choose the destination to save the pipeline.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/sheets_auth_template.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/sheets_auth_template.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 #### Service Authentication with Google Sheets
 
@@ -100,19 +100,19 @@ Service authentication with Google Sheets in Bold Data Hub uses the client email
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Project` and enter a name for the new project.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created project and add the `Google Sheets` template.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/sheets_service_template.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/sheets_service_template.png#max-width=100%)
 
 4. Update the project ID, client email, and private key in the template. Also, update the resources in the `properties` property and save it to the Data Store.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/sheets_yaml.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/sheets_yaml.png#max-width=100%)
 
 >**Warning:**
 
@@ -125,21 +125,21 @@ You schedule the Google Sheets pipeline in Bold Data Hub from the schedules tab,
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Google Sheets - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![Google Sheets - Data Hub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

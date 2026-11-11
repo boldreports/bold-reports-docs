@@ -29,7 +29,7 @@ To render each type of map, you specify the rules that vary the style or distrib
 
 The following image shows the different elements used in a {{site.productNameTM}} map.
 
-![Map parts](/static/assets/on-premise/images/report-designer/report-items/map/over-view/parts.png)
+![Map parts](/static/images/report-designer/report-items/map/over-view/parts.png)
 
 ## How do I add a map to the report?
 
@@ -37,15 +37,15 @@ You add a map to a {{site.productNameTM}} report by dragging the `Map` report it
 
 1. Find the `Map` report item under the `Data Regions` category in the item panel.
 
-   ![Map listed in item panel](/static/assets/on-premise/images/report-designer/report-items/map/over-view/map-listed-in-item-panel.png '#width=175px')
+   ![Map listed in item panel](/static/images/report-designer/report-items/map/over-view/map-listed-in-item-panel.png '#width=175px')
 
 2. Drag and drop the map from the item panel into the design area.
 
-   ![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/over-view/drag-map-item.png '#width=355px')
+   ![Drag map into design surface](/static/images/report-designer/report-items/map/over-view/drag-map-item.png '#width=355px')
 
 3. Check the result. The map item renders in the design area, and the properties panel lists the map properties.
 
-   ![Basic map rendering](/static/assets/on-premise/images/report-designer/report-items/map/over-view/initial-map-rendering.png)
+   ![Basic map rendering](/static/images/report-designer/report-items/map/over-view/initial-map-rendering.png)
 
 Configure data and format the map to visualize the analytical data with a geographical background.
 

@@ -12,11 +12,11 @@ In the {{site.productNameTM}} Web Report Designer, chart data markers give the u
 
 In the Web Report Designer, you show or hide markers in a chart series by toggling the `Show Marker` checkbox in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/show-maker-checkbox.png '#width=355px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/show-maker-checkbox.png '#width=355px')
 
 When you enable the `Show Marker` checkbox, the Web Report Designer displays the marker in the respective series of the chart. In the following image, the `Sales1` series is selected in the `Choose Series` drop-down, so the marker is enabled for that specific series in the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/chart-marker-indication.png)
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/chart-marker-indication.png)
 
 You can also enable or disable the marker based on dynamic values by using `Expressions`. To open the set or reset expression menu in the properties panel, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -24,21 +24,21 @@ You can also enable or disable the marker based on dynamic values by using `Expr
 
 The Border property in the Web Report Designer sets the border color and width for the data marker in the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/border-properties.png '#width=355px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/border-properties.png '#width=355px')
 
 The following image shows the border color and width applied to the markers in the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/border-property-design.png '#width=355px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/border-property-design.png '#width=355px')
 
 ## Color
 
 The Color property in the Web Report Designer sets the color for the chart marker.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/marker-color.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/marker-color.png '#width=385px')
 
 The following image shows the color property applied to the marker in the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/marker-color-design.png '#width=355px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/marker-color-design.png '#width=355px')
 
 You can also apply marker color based on dynamic values by using `Expressions`. To open the set or reset expression menu in the properties panel, refer to the [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -46,11 +46,11 @@ You can also apply marker color based on dynamic values by using `Expressions`. 
 
 The `Marker Type property` in the Web Report Designer lets you add different shapes to the chart marker, such as rectangle, circle, and diamond. Choose the required shape in the drop-down.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/marker-types.png '#width=355px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/marker-types.png '#width=355px')
 
 In the following design, the `Circle` shape is applied to the marker.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/marker-type-design.png '#width=355px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/marker-type-design.png '#width=355px')
 
 You can also apply marker shapes based on dynamic values by using `Expressions`. To open the set or reset expression menu in the properties panel, refer to the [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -58,11 +58,11 @@ You can also apply marker shapes based on dynamic values by using `Expressions`.
 
 The Size property in the Web Report Designer customizes the size of the marker in the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/size-property.png '#width=355px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/size-property.png '#width=355px')
 
 Increase or decrease the size value in the Size property. The following image shows the resized marker in the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-marker/size-property-design.png '#width=355px')
+![Chart Types](/static/images/report-designer/report-items/chart/show-marker/size-property-design.png '#width=355px')
 
 ## Frequently asked questions
 

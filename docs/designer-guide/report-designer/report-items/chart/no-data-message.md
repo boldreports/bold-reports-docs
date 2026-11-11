@@ -9,31 +9,31 @@ In the {{site.productNameTM}} Web Report Designer, the No Data property displays
 
 The following image shows the no data message properties of the chart.
 
-![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/no-data.png '#width=355px')
+![Chart No data message](/static/images/report-designer/report-items/chart/no-data/no-data.png '#width=355px')
 
 ## Font
 
 The Font properties in the Web Report Designer set the font family, color, size, style, and weight of the chart no data message.
 
-![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/font-properties.png '#width=355px')
+![Chart No data message](/static/images/report-designer/report-items/chart/no-data/font-properties.png '#width=355px')
 
 ### Font Family
 
 The Web Report Designer lists the supported font family names in the drop-down list. Choose the required font family from the drop-down list to change the `Font Family` of the no data message.
 
-![Font family](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/font-family.png '#width=355px')
+![Font family](/static/images/report-designer/report-items/chart/no-data/font-family.png '#width=355px')
 
 ### Font Color
 
 To set the font color for the no data message in the Web Report Designer, click the color palette icon and choose the required color in the `Color Palette`.
 
-![Font color](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/font-color.png '#width=355px')
+![Font color](/static/images/report-designer/report-items/chart/no-data/font-color.png '#width=355px')
 
 ### Font Size
 
 The Font size property in the Web Report Designer increases the size of the text in the no data message. You can increase the font size using the numeric drop-down highlighted in the following image.
 
-![Font size](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/font-size.png '#width=355px')
+![Font size](/static/images/report-designer/report-items/chart/no-data/font-size.png '#width=355px')
 
 ### Font Styles
 
@@ -43,29 +43,29 @@ To change the font style of the no data message in the Web Report Designer, choo
 * Normal
 * Italic
 
-![Font style](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/font-style.png '#width=355px')
+![Font style](/static/images/report-designer/report-items/chart/no-data/font-style.png '#width=355px')
 
 ### Font Weight
 
 To change the font weight of the no data message in the Web Report Designer, choose the required type of font weight property from the drop-down list.
 
-![Font weight](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/font-weight.png '#width=355px')
+![Font weight](/static/images/report-designer/report-items/chart/no-data/font-weight.png '#width=355px')
 
 ## Message
 
 The Message property in the Web Report Designer holds the text shown when the chart dataset has no rows. Provide the required text in the message textbox. The message is displayed to the user when the dataset returns empty or zero rows.
 
-![Message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/message.png '#width=355px')
+![Message](/static/images/report-designer/report-items/chart/no-data/message.png '#width=355px')
 
 To customize the message appearance, open the `Advanced Panel`.
 
-![Advanced properties](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/advanced.png '#width=355px')
+![Advanced properties](/static/images/report-designer/report-items/chart/no-data/advanced.png '#width=355px')
 
 ### Hide No Data
 
 To show or hide the message on the chart surface in the Web Report Designer, toggle the `Hide No Data` checkbox.
 
-![Hide message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/hide-no-data.png '#width=355px')
+![Hide message](/static/images/report-designer/report-items/chart/no-data/hide-no-data.png '#width=355px')
 
 If you disable the `Hide No Data` checkbox, the no data message is displayed on the chart area during preview.
 
@@ -75,13 +75,13 @@ You can also show or hide the message based on dynamic values by using `Expressi
 
 The Border property in the Web Report Designer sets the border color and width for the no data message container.
 
-![Border](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/border.png '#width=355px')
+![Border](/static/images/report-designer/report-items/chart/no-data/border.png '#width=355px')
 
 ### Background color
 
 The Background color property in the Web Report Designer sets the background color for the no data message container.
 
-![Background color](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/bg-color.png '#width=355px')
+![Background color](/static/images/report-designer/report-items/chart/no-data/bg-color.png '#width=355px')
 
 The background color property is applied to the no data message container during preview.
 
@@ -91,13 +91,13 @@ You can also apply the background color based on dynamic values by using `Expres
 
 The Position property in the Web Report Designer places the no data message container in different positions inside the chart area. The supported positioning patterns are listed in the `Position` drop-down.
 
-![Position](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/position.png '#width=355px')
+![Position](/static/images/report-designer/report-items/chart/no-data/position.png '#width=355px')
 
 By default, the message container is placed in the `TopCenter` position.
 
 All the customizations are applied to the no data message container when you preview the report.
 
-![Preview](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/preview.png '#width=400px')
+![Preview](/static/images/report-designer/report-items/chart/no-data/preview.png '#width=400px')
 
 ## Frequently asked questions
 

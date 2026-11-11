@@ -13,13 +13,13 @@ In Bold Data Hub, the Schedule page lists your pipelines and lets you configure 
 
 The following screenshot shows the schedule icon for a pipeline.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_icon.png)
+![Source](/static/images/manage-content/working-with-etl/schedule_icon.png)
 
 ## How do I run a pipeline on demand?
 
 Bold Data Hub refreshes pipeline data on demand when you select the **Run Now** option.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png)
+![Source](/static/images/manage-content/working-with-etl/schedule_runnow.png)
 
  > **Note:** ``Run Now`` option only works if you save the ``pipeline`` in ``Extract`` tab.
 
@@ -29,7 +29,7 @@ Bold Data Hub runs a pipeline at regular intervals when you configure an interva
 
 1. Click the **Schedules** tab, select the created pipeline, and click the schedule icon to configure it.
 
-![Zendesk Support - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+![Zendesk Support - {{site.productName}}](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
 1. Select the recurrence type, recurrence, start date, and end date in the **Refresh Setting** dialog box. Scheduling supports two recurrence types: ``Daily`` and ``Weekly``.
 
@@ -41,7 +41,7 @@ You can choose one of the following options:
 1. Every N day(s): Runs the schedule once every specified number of days. Example: Every 3 days.
 2. Every Weekday: Runs the schedule Monday to Friday only.
 
-![Schedule - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/scheduleDaily.png#max-width=100%)
+![Schedule - {{site.productName}}](/static/images/manage-content/working-with-etl/scheduleDaily.png#max-width=100%)
 
 ### Hourly
 
@@ -50,17 +50,17 @@ The Hourly recurrence type in Bold Data Hub runs the schedule at fixed intervals
 Recur every H hour(s) and M minute(s): Runs the schedule after the specified number of hours and minutes have passed.
 Example: Every 0 hours and 5 minutes (runs every 5 minutes).
 
-![Schedule - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/schedulehourly.png#max-width=100%)
+![Schedule - {{site.productName}}](/static/images/manage-content/working-with-etl/schedulehourly.png#max-width=100%)
 
 1. Check the schedule history using the **History** option and the logs.
 
-![Zendesk Support - {{site.productName}}](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+![Zendesk Support - {{site.productName}}](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 ## Mail Alert
 
 The **Mail Alert** feature in Bold Data Hub lets you configure email notifications for each pipeline. When a pipeline's scheduled execution completes, an alert is sent to the specified recipients.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_mailalert.png)
+![Source](/static/images/manage-content/working-with-etl/schedule_mailalert.png)
 
  > **Note:** Configure the ``Sender mail`` in the ``Settings`` tab before you schedule or run the pipeline.
 
@@ -68,7 +68,7 @@ The **Mail Alert** feature in Bold Data Hub lets you configure email notificatio
 
 You set up Bold Data Hub mail alerts for a pipeline in the mail alert dialog, shown in the following screenshot.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/mailalert_popup.png)
+![Source](/static/images/manage-content/working-with-etl/mailalert_popup.png)
 
  1. **Add Recipients**
     * Enter one or more email addresses in the **Recipients** field.

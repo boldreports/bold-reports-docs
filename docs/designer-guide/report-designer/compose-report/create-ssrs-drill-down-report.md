@@ -46,15 +46,15 @@ You add a drilldown action in the Web Report Designer by setting the visibility 
 
 1. Design a [simple table report with a row group](./../../report-items/tablix/insert-or-delete-a-row-group-ssrs/#insert-a-row-group) that has a parent group and a child group.
 
-    ![Table design](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/table-final-design.png '#width=350px')
+    ![Table design](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/table-final-design.png '#width=350px')
 
 2. Select the `SubCat` field in the grouping panel. The group properties load in the properties panel.
 
-    ![Group properties](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/open-group-properties.png)
+    ![Group properties](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/open-group-properties.png)
 
 3. In the `Visiblity` property, set the visibility of the `SubCat` group to show or hide the group when you first preview the report.
 
-    ![Visibility property](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/visibility-property.png '#width=350px')
+    ![Visibility property](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/visibility-property.png '#width=350px')
 
     * Enable the checkbox to display the group.
     * Disable the checkbox to hide the group.
@@ -66,21 +66,21 @@ To show the group expanded on preview in the Web Report Designer, set the `SubCa
 
 1. Set the visibility for the `SubCat` group as `true` in the report. The sub-category group values are in expanded state on preview.
 
-    ![Initial visible state](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/initial-visible-state.png)
+    ![Initial visible state](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/initial-visible-state.png)
 
 2. Open the `Toggle` property drop-down list. It lists the available textbox report items in the report. Choose the `ProdCat` field textbox to expand or collapse the `SubCat` group based on product categories.
 
-    ![Select group to toggle](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/select-group-to-toggle.png '#width=350px')
+    ![Select group to toggle](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/select-group-to-toggle.png '#width=350px')
 
     > The text box that you use for the toggle must be in a containing scope that controls the item that you want to show or hide.
 
 3. To differentiate the values, apply background color and font styles for the parent and child group.
 
-    ![Improve table appearance](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/improve-table-appearance.png '#width=350px')
+    ![Improve table appearance](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/improve-table-appearance.png '#width=350px')
 
 4. Click the `Preview` button to see the report preview. The `>` symbol before each product category is the drilldown action.
 
-    ![SSRS Drill down report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-group.png '#width=400px')
+    ![SSRS Drill down report](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-group.png '#width=400px')
 
 **Initial Toggle state**:
 
@@ -88,11 +88,11 @@ The `Initial Toggle State` property in the Web Report Designer keeps the drilldo
 
 1. In the `ProdCat` textbox properties, change the `Initial Toggle State` to `false`.
 
-    ![Initial toggle state](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/initial-toggle-state.png)
+    ![Initial toggle state](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/initial-toggle-state.png)
 
 2. Click the `Preview` button. The drilldown symbol is now in expanded state.
 
-    ![Initial toggle state](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/drill-down-action-indicator.png '#width=400px')
+    ![Initial toggle state](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/drill-down-action-indicator.png '#width=400px')
 
 ### How do I hide the group on initial display?
 
@@ -100,19 +100,19 @@ To hide the `SubCat` group values on preview in the Web Report Designer, set the
 
 1. Set the visibility for the `SubCat` group as `false`.
 
-    ![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/disable-initial-visible-state.png)
+    ![Hide group visibility on preview](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/disable-initial-visible-state.png)
 
 2. Set the `Initial Toggle State` as `True` in the `ProdCat` textbox properties.
 
-    ![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/toggle-drill-down-indicator.png)
+    ![Hide group visibility on preview](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/toggle-drill-down-indicator.png)
 
 3. Click the `Preview` button to see the report preview. The sub-category group values are in collapsed state, and the drilldown action symbol is also in collapsed state.
 
-    ![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-group-hidden.png '#width=350px')
+    ![Hide group visibility on preview](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-group-hidden.png '#width=350px')
 
 4. To see the sub-category products and their sales values, click the `>` symbol to expand the group.
 
-    ![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-single-group.png '#width=350px')
+    ![Hide group visibility on preview](/static/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-single-group.png '#width=350px')
 
 > Download the above report design from the [drilldown sample report on GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-ssrs-drill-down-report.rdl)
 

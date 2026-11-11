@@ -56,11 +56,11 @@ You add a Bold Data Hub data store destination from the **Settings** tab in five
 
 Step 1: Click **Settings**.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_newsettings.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_newsettings.png)
 
 Step 2: Choose the **Connection Type**.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_settingtype.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_settingtype.png)
 
 * **New**: Choose this option if you are creating a new connection to a destination for which you have not previously created credentials.
 
@@ -68,7 +68,7 @@ Step 2: Choose the **Connection Type**.
 
 Step 3: Choose the destination where you want to move the data.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_destination.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_destination.png)
 
 Step 4: Enter the credentials for the respective destination.
 
@@ -80,7 +80,7 @@ The Bold IMDB Datastore fetches the destination credentials from the {{site.prod
 
 The data is moved based on the credentials given in the {{site.productNameTM}} data store.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_imdb.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_imdb.png)
 
 ## PostgreSQL
 
@@ -93,13 +93,13 @@ Bold Data Hub needs the following credentials for a PostgreSQL destination:
 6. Check the SSL (Secure Sockets Layer) checkbox if needed.
 7. Database name : To move the data to an existing database on the server, select the existing database radio button and enter the database name in the textbox. To create a new database, select new database and enter the database name in the textbox.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_post.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_post.png)
 
 ## Apache Doris
 
 Bold Data Hub connects to an Apache Doris destination with the credentials you enter in the settings shown below.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/etl_doris.png)
+![Source](/static/images/manage-content/working-with-etl/etl_doris.png)
 
 Click **Save** to save the credentials.
 If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
@@ -114,7 +114,7 @@ Bold Data Hub needs the following credentials for a SQL Server destination:
 4. Check the SSL (Secure Sockets Layer) checkbox if needed.
 5. Database name : To move the data to an existing database on the server, select the existing database radio button and enter the database name in the textbox. To create a new database, select new database and enter the database name in the textbox.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_sql.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_sql.png)
 
 ## MySQL
 
@@ -127,7 +127,7 @@ Bold Data Hub needs the following credentials for a MySQL destination:
 5. Check the SSL (Secure Sockets Layer) checkbox if needed.
 6. Database name : To move the data to an existing database on the server, select the existing database radio button and enter the database name in the textbox. To create a new database, select new database and enter the database name in the textbox.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_mysql.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_mysql.png)
 
 ## Snow Flake
 
@@ -140,7 +140,7 @@ Bold Data Hub needs the following credentials for a Snowflake destination:
 4. **Warehouse**: Enter your Snowflake warehouse name.
 5. **Database** : Enter your Snowflake database name.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_snowflake.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_snowflake.png)
 
 Click **Save** to save the credentials.
 If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
@@ -156,7 +156,7 @@ Bold Data Hub needs the following credentials for an Oracle destination:
 5. **Password**: Input your Oracle database password.
 6. **Database**: Input your Oracle database name (Database name should be same as user name).
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_oracle.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_oracle.png)
 
 Click **Save** to save the credentials.
 If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
@@ -170,7 +170,7 @@ Bold Data Hub needs the following credentials for a Google BigQuery destination:
 
 See [Steps to download the service account JSON file](../data-store/#steps-to-download-the-service-account-json-file) to learn how to get the Google BigQuery service account JSON file.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_google_bigquery.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_google_bigquery.png)
 
 Click **Save** to save the credentials.
 If all the given credentials are valid, the “Datastore settings are saved successfully” message appears near the **Save** button.
@@ -212,7 +212,7 @@ Bold Data Hub needs the following credentials for a ClickHouse destination:
 8. Password: Input your Clickhouse password.
 9. Database: Enter your Clickhouse database name.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/clickhousedatastore.png)
+![Source](/static/images/manage-content/working-with-etl/clickhousedatastore.png)
 
 Click **Save** to save the credentials.
 
@@ -232,7 +232,7 @@ Bold Data Hub needs the following credentials for a Firebolt destination:
 6. Enter your Engine Name.
 7. Database: Enter your Clickhouse database name.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/fireboltdatastore.png)
+![Source](/static/images/manage-content/working-with-etl/fireboltdatastore.png)
 
 Click **Save** to save the credentials.
 
@@ -252,7 +252,7 @@ Bold Data Hub needs the following credentials for a Teradata destination:
 6. Password: Input your Teradata password.
 7. Database: Enter your Teradata database name.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/teradata_dastore.png)
+![Source](/static/images/manage-content/working-with-etl/teradata_dastore.png)
 
 Click **Save** to save the credentials.
 
@@ -272,7 +272,7 @@ Bold Data Hub needs the following credentials for a SAP HANA Cloud destination:
 6. Password: Input your SAP HANA password.
 7. Database: Enter your SAP HANA database name.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/saphanacloud_destination.png)
+![Source](/static/images/manage-content/working-with-etl/saphanacloud_destination.png)
 
 Click **Save** to save the credentials.
 
@@ -293,7 +293,7 @@ Bold Data Hub needs the following credentials for an IBMDB2 destination:
 7. Database: Enter your IBMDB2 database name.
 8. Enter the IBM client library path.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/ibmdb2_destination.png)
+![Source](/static/images/manage-content/working-with-etl/ibmdb2_destination.png)
 
 Click **Save** to save the credentials.
 
@@ -314,13 +314,13 @@ Bold Data Hub needs the following credentials for an Azure Synapse destination:
 
   For faster data transfers with large datasets, use Azure Blob. When staging is not set, the isDirectImport property is not supported.
 
-  ![Source](/static/assets/on-premise/images/manage-content/working-with-etl/azuresynapse_destination.png)
+  ![Source](/static/images/manage-content/working-with-etl/azuresynapse_destination.png)
 
 1. When using staging, enter the Azure ContainerName, Account Name, Account Key, SAS token.
 
 The following screenshot shows the Azure Blob staging fields.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/azuresynapse_destination_blob.png)
+![Source](/static/images/manage-content/working-with-etl/azuresynapse_destination_blob.png)
 
 Click **Save** to save the credentials.
 
@@ -344,7 +344,7 @@ For faster data transfers with large datasets, use s3 blob. When staging is not 
 * If Anonymous Access is not selected, enter Bucket Name, Key Name, Region, Access Key ID, Secret Access Key, and Role (if needed).
 * Click **Save** to store the credentials and complete the setup.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/Redshift_destination.png)
+![Source](/static/images/manage-content/working-with-etl/Redshift_destination.png)
 
 Click **Save** to save the credentials.
 
@@ -361,7 +361,7 @@ Bold Data Hub needs the following credentials for a MinIO destination:
 7. Secret Key: Enter the secret key associated with your MinIO access.
 8. Bucket Name: Provide the MinIO bucket name where the data will be stored.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/Minio_destination.png)
+![Source](/static/images/manage-content/working-with-etl/Minio_destination.png)
 
 Click **Save** to save the credentials.
 
@@ -380,7 +380,7 @@ Bold Data Hub needs the following credentials for a StarRocks destination:
 7. Enter the password.
 8. Enter the database Name.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/starrocks_destination.png)
+![Source](/static/images/manage-content/working-with-etl/starrocks_destination.png)
 
 Click **Save** to save the credentials.
 

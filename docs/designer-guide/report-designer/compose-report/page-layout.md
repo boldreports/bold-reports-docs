@@ -71,7 +71,7 @@ Body Width <= Page Width - (Left Margin + Right Margin)
 
 The usable page area is the area of the physical page left after space is allocated for margins, column spacing, and the page header and footer. Margins are applied only when you render the report in the print layout and print reports. The following image shows the margin and usable page area of a physical page.
 
-![Page layout](/static/assets/on-premise/images/report-designer/page-layout.png)
+![Page layout](/static/images/report-designer/page-layout.png)
 
 Use the following formulas to calculate the usable area for report rendering.
 

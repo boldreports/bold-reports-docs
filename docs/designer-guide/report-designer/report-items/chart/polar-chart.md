@@ -14,11 +14,11 @@ The Web Report Designer categorizes polar charts under the `Distribution` catego
 
 Drag and drop the polar chart from the item panel into the design area.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/drag-a-chart-from-item-panel.png '#width=225px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/drag-a-chart-from-item-panel.png '#width=225px')
 
 The polar chart is rendered in the design area, and the chart properties are listed in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/initial-view-of-polar-chart.png)
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/initial-view-of-polar-chart.png)
 
 ## How do I create data for the polar chart?
 
@@ -61,55 +61,55 @@ To configure data in a polar chart, follow these steps:
 
 2. Click the `Properties` icon in the configuration panel to open the property pane. Then, switch to the `DATA` tab.
 
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/chart-properties-pane.png '#width=425px')
+   ![Chart properties pane](/static/images/report-designer/report-items/chart/polar-chart/chart-properties-pane.png '#width=425px')
 
 3. The available data in the report is listed in the dropdown. Choose a data in the dropdown list.
 
-   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/data-assign-drop-down.png '#width=385px')
+   ![Choose the dataset for chart](/static/images/report-designer/report-items/chart/polar-chart/data-assign-drop-down.png '#width=385px')
 
 4. The numeric columns and numeric expressions are listed under the `Measures` section. Other types of columns and dimension expressions are listed under the `Dimensions` section.
 
-   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/measures-dimensions-category.png '#width=385px')
+   ![Measures and dimensions](/static/images/report-designer/report-items/chart/polar-chart/measures-dimensions-category.png '#width=385px')
 
 5. **Drag and Drop Measure Element**:
 
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Value(s)` section.
 
-   ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/add-y-values-field.png '#width=385px')
+   ![Add a Y-value field](/static/images/report-designer/report-items/chart/polar-chart/add-y-values-field.png '#width=385px')
 
    The report item design looks like the following image.
 
-   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/y-value-chart-design-view.png '#width=355px')
+   ![Preview after adding y-value field](/static/images/report-designer/report-items/chart/polar-chart/y-value-chart-design-view.png '#width=355px')
 
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted in the following image) to open the aggregation type dropdown list.
 
-   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/aggregation-settings-icon.png '#width=185px')
+   ![Aggregate settings icon](/static/images/report-designer/report-items/chart/polar-chart/aggregation-settings-icon.png '#width=185px')
 
    Set the aggregation type used to compute the selected column.
 
-   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/aggregation-settings-menu.png '#width=385px')
+   ![Aggregate menu list](/static/images/report-designer/report-items/chart/polar-chart/aggregation-settings-menu.png '#width=385px')
 
 7. **Drag and Drop Dimension Element**:
 
    Select and drag the dimension element from the `Dimensions` section and drop it into the `Column` section. The dimension is measured against the selected numeric column(s) in the `Y Value(s)` section.
 
-   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/add-field-to-column-section.png '#width=385px')
+   ![Add dimension field](/static/images/report-designer/report-items/chart/polar-chart/add-field-to-column-section.png '#width=385px')
 
    The report item design looks like the following image.
 
-   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/column-field-design-preview.png '#width=385px')
+   ![Preview after adding dimension field](/static/images/report-designer/report-items/chart/polar-chart/column-field-design-preview.png '#width=385px')
 
 8. **Grouping**:
 
    Group the added column element with another column by adding the respective dimension element into the `Row(s)` section.
 
-   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/add-field-to-rows-section.png '#width=385px')
+   ![Achieve grouping by row values](/static/images/report-designer/report-items/chart/polar-chart/add-field-to-rows-section.png '#width=385px')
 
    The report item design looks like the following image.
 
-   ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/row-field-design-preview.png '#width=385px')
+   ![Preview of row value grouping ](/static/images/report-designer/report-items/chart/polar-chart/row-field-design-preview.png '#width=385px')
 
 9. **Formatting Column and Row(s) sections**:
 
@@ -117,11 +117,11 @@ To configure data in a polar chart, follow these steps:
 
    For example, here the `Month` field is sorted using the `=Month(cdate("1-" & Fields!Month.Value))` expression.
 
-   ![Column row settings](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/column-row-settings.png '#width=195px')
+   ![Column row settings](/static/images/report-designer/report-items/chart/polar-chart/column-row-settings.png '#width=195px')
 
-   ![Sorting options](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/sorting-options.png '#width=385px')
+   ![Sorting options](/static/images/report-designer/report-items/chart/polar-chart/sorting-options.png '#width=385px')
 
-   ![Set expression](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/set-expression.png '#width=385px')
+   ![Set expression](/static/images/report-designer/report-items/chart/polar-chart/set-expression.png '#width=385px')
 
 ## How do I format the polar chart?
 
@@ -133,7 +133,7 @@ To format a polar chart, follow these steps:
 2. Configure the data for the polar chart.
 3. Focus on the polar chart and click the `Properties` icon in the configuration panel to open the property pane.
 
-   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/open-chart-properties.png)
+   ![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/open-chart-properties.png)
 
 The property pane lists the properties available for the report item with their default values.
 
@@ -141,13 +141,13 @@ The property pane lists the properties available for the report item with their 
 
 The **Name** property in the Web Report Designer provides a unique name for the chart item in the report.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/name-property.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/name-property.png '#width=385px')
 
 ### Basic Settings
 
 The Basic Settings category in the Web Report Designer holds the Show Legend and Choose Series properties of the polar chart.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/basic-settings.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/basic-settings.png '#width=385px')
 
 #### Show Legend
 
@@ -157,15 +157,15 @@ A legend in a {{site.productNameTM}} chart is text used to describe the data plo
 
 The `Choose Series` dropdown in the Web Report Designer lists the available series when you add multiple series to the chart. To customize a series appearance, choose the required series name in the dropdown.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/multi-series-list-in-drop-down.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/multi-series-list-in-drop-down.png '#width=385px')
 
 You can edit the selected series by clicking the edit button.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/edit-series.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/edit-series.png '#width=385px')
 
 **Marker Property**: In this example, the `show Marker` property is enabled, the `Marker type` is set to `Diamond`, and `Size(pixel)` is set to `6.000`.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/marker-settings.png)
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/marker-settings.png)
 
 Refer to the [Series](./../../../report-items/chart/series/) section to customize each series using the properties panel.
 
@@ -173,35 +173,35 @@ Refer to the [Series](./../../../report-items/chart/series/) section to customiz
 
 The Appearance properties in the Web Report Designer, such as border style, color, width, and background color, style the chart and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/appearance-property.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/appearance-property.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/appearance-design.png)
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/appearance-design.png)
 
 ### Chart Area
 
 The **Chart Area** property in the Web Report Designer customizes the area of the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/chart-area-sketch.png '#width=410px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/chart-area-sketch.png '#width=410px')
 
 Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. The `Color Palette` is listed under the `Chart Area` category.
 
 In this example, the `Color Palette` is set to `EarthTones`, and the design is shown in the following image.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/chart-area-design.png)
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/chart-area-design.png)
 
 ### Title
 
 The polar chart title in the Web Report Designer is shown or hidden by toggling the `Show Chart Title` checkbox. You customize the **chart title** by editing the `Title Text` property of the chart. You can customize the font color, font text, font style, border, background, and position of the title.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/chart-title.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/chart-title.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/chart-title-design.png)
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/chart-title-design.png)
 
 ### No Data
 
 The **No Data** property in the Web Report Designer displays static text when a dataset returns empty or zero rows at runtime.
 
-![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/no-data.png '#width=385px')
+![Chart No data message](/static/images/report-designer/report-items/chart/polar-chart/no-data.png '#width=385px')
 
 To set or reset no data message properties, refer to the [No Data Message](./../../../report-items/chart/no-data-message/) property section.
 
@@ -209,19 +209,19 @@ To set or reset no data message properties, refer to the [No Data Message](./../
 
 The **Grid line** properties in the Web Report Designer can be set for the category and value axis of the polar chart.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/grid-line.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/grid-line.png '#width=385px')
 
 #### Category Axis
 
 To show the grid line for the category axis, enable the `Category Axis` checkbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/category-axis-grid-line.png '#width=410px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/category-axis-grid-line.png '#width=410px')
 
 #### Value Axis
 
 To show the grid line for the value axis, enable the `Value Axis` checkbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/value-axis-grid-line.png '#width=410px')
+![Chart Types](/static/images/report-designer/report-items/chart/polar-chart/value-axis-grid-line.png '#width=410px')
 
 ### Page break
 
@@ -229,27 +229,27 @@ The **page break** property in the Web Report Designer controls the amount of in
 
 1. The **Break Location** property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
 
-   ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/break-location-types.png '#width=385px')
+   ![Break location](/static/images/report-designer/report-items/chart/polar-chart/break-location-types.png '#width=385px')
 
 2. To prevent predefined page breaks from being applied during report preview, enable the `Break Disabled` property checkbox. You can also control the application of page breaks during report preview by using expressions. For details on setting and resetting page breaks dynamically, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
-   ![Page Break Disabled](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-disabled.png '#width=355px')
+   ![Page Break Disabled](/static/images/report-designer/report-items/rectangle/page-break-disabled.png '#width=355px')
 
 3. To restart page numbering on each page, enable the `Page Number Reset` property checkbox.
 
-   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/page-break-property.png '#width=385px')
+   ![Reset page number](/static/images/report-designer/report-items/chart/polar-chart/page-break-property.png '#width=385px')
 
 ### Data Element
 
 The Data element properties in the Web Report Designer control the visibility of a report item when you export the report in XML format. The Data element properties are listed in the properties panel under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/data-element-properties.png '#width=385px')
+![Data element properties](/static/images/report-designer/report-items/chart/polar-chart/data-element-properties.png '#width=385px')
 
 #### Name
 
 The Data Element `Name` field assigns a custom name to the chart element. The chart report item is exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/data-element-name-properties.png '#width=385px')
+![Data element name property](/static/images/report-designer/report-items/chart/polar-chart/data-element-name-properties.png '#width=385px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -260,7 +260,7 @@ The `Output` property controls the visibility of the chart when you export the r
 * **Auto** or **Output** - Exports the chart report item.
 * **NoOutput** - Does not export the chart report item.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/output-property.png '#width=385px')
+![Data element output property](/static/images/report-designer/report-items/chart/polar-chart/output-property.png '#width=385px')
 
 ### Miscellaneous
 
@@ -270,7 +270,7 @@ The Miscellaneous category in the Web Report Designer holds the page name, toolt
 
 The **page name** property names the first worksheet of the Excel workbook when you export the report to Excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/page-name.png '#width=385px')
+![Page name property](/static/images/report-designer/report-items/chart/polar-chart/page-name.png '#width=385px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -294,7 +294,7 @@ You can set static or dynamic text as the value for the bookmark property. To se
 
 The `Custom Style` property enables the use of external CSS for styling report items, providing enhanced flexibility beyond the built-in styling options. Use this property to meet specific design requirements and maintain consistent styling across multiple reports. For a step-by-step guide on setting up custom styles in your report, check the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/chart/polar-chart/custom-style-property.png '#width=355px')
 
 ## How do I preview the polar chart report?
 
@@ -302,11 +302,11 @@ To preview the polar chart report in the Web Report Designer, review the final d
 
 1. The final design view of the report is shown in the following image.
 
-   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/preview-icon.png '#width=455px')
+   ![Preview icon in design view](/static/images/report-designer/report-items/chart/polar-chart/preview-icon.png '#width=455px')
 
 2. The report preview appears as shown in the following image.
 
-   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/report-preview-page.png '#width=455px')
+   ![Chart report preview](/static/images/report-designer/report-items/chart/polar-chart/report-preview-page.png '#width=455px')
 
 > Download the [polar chart report design file from GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/polar-chart.rdl).
 

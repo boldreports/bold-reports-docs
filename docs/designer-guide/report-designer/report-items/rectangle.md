@@ -13,11 +13,11 @@ The rectangle report item in the {{site.productNameTM}} Web Report Designer visu
 You add a rectangle in the {{site.productNameTM}} Web Report Designer from the item panel. Follow these steps:
 
 1. Find the rectangle report item in the item panel under the `Basic Items` category.
-   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-in-item-panel.png '#width=165px')
+   ![Rectangle listed in item panel](/static/images/report-designer/report-items/rectangle/rectangle-item-in-item-panel.png '#width=165px')
 2. Drag and drop the rectangle report item from the item panel into the design area.
-   ![Drag and drop rectangle report item into design area](/static/assets/on-premise/images/report-designer/report-items/rectangle/drag-and-drop-rectangle.png '#width=225px')
+   ![Drag and drop rectangle report item into design area](/static/images/report-designer/report-items/rectangle/drag-and-drop-rectangle.png '#width=225px')
 3. After you drop the rectangle item into the design area, its properties are listed in the properties panel.
-   ![Rectangle item with properties view](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-with-properties-view.png)
+   ![Rectangle item with properties view](/static/images/report-designer/report-items/rectangle/rectangle-item-with-properties-view.png)
 
 ## Properties
 
@@ -27,7 +27,7 @@ The rectangle report item in the {{site.productNameTM}} Web Report Designer is c
 
 The Basic Settings properties style the rectangle and customize its appearance in the report design. They include border style, color, width, and background color. These properties are listed under the `Basic Settings` category in the properties panel.
 
-![Rectangle basic settings](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-basic-settings.png '#width=355px')
+![Rectangle basic settings](/static/images/report-designer/report-items/rectangle/rectangle-basic-settings.png '#width=355px')
 
 #### Border
 
@@ -41,21 +41,21 @@ The Background color property colors the rectangle background. To set the backgr
 
 The Background image property displays company logos, watermarks, or any other background image in the rectangle. To set a background image for the report, see [Background Image](./../../compose-report/background-image/).
 
-![Background image](/static/assets/on-premise/images/report-designer/report-items/rectangle/background-image.png '#width=355px')
+![Background image](/static/images/report-designer/report-items/rectangle/background-image.png '#width=355px')
 
 ### Page break
 
 The Page break property controls the amount of information on each page when you preview the report. To apply the page break property to the rectangle item, follow these steps:
 
 1. Choose any `Break Location` type in the drop-down.
-   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
+   ![Break location](/static/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
 
 2. To prevent predefined page breaks from being applied during report preview, enable the `Break Disabled` property checkbox. You can also control page breaks during report preview by using expressions. For details on setting and resetting page breaks dynamically, see the [Set Expression](./#set-expression) and [Reset Expression](./#reset-expression) sections.
 
-   ![Page Break Disabled](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-disabled.png '#width=355px')
+   ![Page Break Disabled](/static/images/report-designer/report-items/rectangle/page-break-disabled.png '#width=355px')
 
 3. To restart page numbering on each page, enable the `Page Number Reset` property checkbox.
-   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
+   ![Reset page number](/static/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
 
 ### Position
 
@@ -65,13 +65,13 @@ The Position property sets the width, height, left, and top position of the rect
 
 The Data Element properties control the visibility of a report item when you export the report in XML format. The Data Element properties are listed in the properties panel under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/rectangle/data-element-properties.png '#width=355px')
+![Data element properties](/static/images/report-designer/report-items/rectangle/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 You can assign a custom name for the rectangle element using the `Name` field. The rectangle is exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/rectangle/name-property.png '#width=355px')
+![Data element name property](/static/images/report-designer/report-items/rectangle/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -83,7 +83,7 @@ When you export the report, the `Output` property controls the visibility of the
 * **NoOutput** - Does not export the rectangle report item.
 * **ContentsOnly** - Does not export the rectangle report item, only the contents of it are exported.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/rectangle/output-property.png '#width=355px')
+![Data element output property](/static/images/report-designer/report-items/rectangle/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -97,13 +97,13 @@ The Miscellaneous category of the rectangle report item holds the keep together,
 
 The Keep together property displays the report item or a section of a report on a single page on report preview or export. Enable the checkbox to keep the content on a single page. Otherwise, it spans across multiple pages.
 
-![Keep together property](/static/assets/on-premise/images/report-designer/report-items/rectangle/keep-together-property.png '#width=355px')
+![Keep together property](/static/images/report-designer/report-items/rectangle/keep-together-property.png '#width=355px')
 
 #### Page name
 
 The Page name property names the first worksheet of the Excel workbook when you export the report to Excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-name-property.png '#width=355px')
+![Page name property](/static/images/report-designer/report-items/rectangle/page-name-property.png '#width=355px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, see [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression).
 
@@ -129,7 +129,7 @@ Bookmark links let users navigate to different parts of an SSRS report. You can 
 
 The `Custom Style` property enables the use of external CSS for styling report items, providing enhanced flexibility beyond the built-in styling options. Use this property to meet specific design requirements and keep styling consistent across multiple reports. For a step-by-step guide on setting up custom styles in your report, check the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/rectangle/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/rectangle/custom-style-property.png '#width=355px')
 
 ## Set expression
 

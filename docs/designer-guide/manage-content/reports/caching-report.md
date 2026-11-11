@@ -19,7 +19,7 @@ You enable Report Server caching by adding a `CacheStorage` node to the reportin
    <CacheStorage  Provider="File" ItemTypes= "Report" EnableRequestLimiting= "true"></CacheStorage >
    ```
 
-   ![Add Node](/static/assets/on-premise/images/manage-content/manage-reports/add-node.png)
+   ![Add Node](/static/images/manage-content/manage-reports/add-node.png)
 
 ## Why should I cache a report?
 
@@ -27,7 +27,7 @@ You enable Report Server caching by adding a `CacheStorage` node to the reportin
 
 * Caching can shorten the time required to retrieve a report if the report is large or accessed frequently.
 * To process the report, click the Actions button in the Reports grid context menu and select Processing Options.
-   ![Click Provessing Option](/static/assets/on-premise/images/manage-content/manage-reports/processing-option.png)
+   ![Click Provessing Option](/static/images/manage-content/manage-reports/processing-option.png)
 
 ## Which processing options are available?
 
@@ -39,7 +39,7 @@ Report Server offers two options in the Report Processing Options.
 
 The `Always run this report with the most recent data` option in Report Server keeps the report data up to date when the user selects the report. If a cached copy of the report is available, Report Server returns it to the user. Otherwise, Report Server retrieves the data and renders the report at the time of selection.
 
-   ![Report With Recent Data](/static/assets/on-premise/images/manage-content/manage-reports/report-with-recent-data.png)
+   ![Report With Recent Data](/static/images/manage-content/manage-reports/report-with-recent-data.png)
 
 To enhance efficiency, Report Server can temporarily cache a report and its associated data when a user generates it. This cache is cleared if the user closes the report tab or opens the same report in a new tab.
 
@@ -60,7 +60,7 @@ The `Cache a temporary copy of the report` option in Report Server caches a repo
 
 Report Server automatically clears cached reports based on intervals you define. You can set these intervals in minutes or schedule a specific date and time to clear the cache.
 
-   ![Cache a Temporary Copy](/static/assets/on-premise/images/manage-content/manage-reports/cache-temporary-copy.png)
+   ![Cache a Temporary Copy](/static/images/manage-content/manage-reports/cache-temporary-copy.png)
 
   **Functionality**:
 * When a report is run for the first time with specific parameters, the output is stored in the cache.

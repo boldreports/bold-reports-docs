@@ -23,15 +23,15 @@ Yes. Prefer watching over reading? Check out this video on applying filters to a
 You set a filter on a chart category group from the `DATA` tab of the {{site.productNameTM}} Web Report Designer properties panel.
 
 1. Select the chart data region in the design area.
-   ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/select-data-region.png)
+   ![Filter dialog](/static/images/report-designer/report-items/chart/add-filter-to-chart-data-region/select-data-region.png)
 2. Switch to the `DATA` tab.
-   ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/switch-to-data-tab.png '#width=385px')
+   ![Filter dialog](/static/images/report-designer/report-items/chart/add-filter-to-chart-data-region/switch-to-data-tab.png '#width=385px')
 3. In the `DATA` assign panel, under the column section, click the `Settings` icon.
-   ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/filter-data-menu.png '#width=315px')
+   ![Filter dialog](/static/images/report-designer/report-items/chart/add-filter-to-chart-data-region/filter-data-menu.png '#width=315px')
 4. Click the `Filters...` option in the menu. The filter dialog opens, as shown below.
-   ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/filters-dialog.png '#width=385px')
+   ![Filter dialog](/static/images/report-designer/report-items/chart/add-filter-to-chart-data-region/filters-dialog.png '#width=385px')
 5. Refer to the [Filter Data](./../../../compose-report/filter-data/) section, create the required filter expression in the filter dialog, and click `OK`.
-   ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/create-filter-expressions.png '#width=385px')
+   ![Filter dialog](/static/images/report-designer/report-items/chart/add-filter-to-chart-data-region/create-filter-expressions.png '#width=385px')
 
 In the above image, the filter equation filters the data in the data region based on the `Product Category` data field.
 
@@ -39,7 +39,7 @@ In the above image, the filter equation filters the data in the data region base
 
 On report preview, the {{site.productNameTM}} chart displays the sales of `Q1`, `Q2`, `Q3`, and `Q4` based on the applied filters and the `OrderYear` and `ProductCategory` report parameters.
 
-![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/report-preview.png '#width=550px')
+![Filter dialog](/static/images/report-designer/report-items/chart/add-filter-to-chart-data-region/report-preview.png '#width=550px')
 
 ## Can I filter a chart series group?
 

@@ -13,13 +13,13 @@ In {{site.productNameTM}} Web Report Designer, the dataset fields available in t
 The Web Report Designer adds a dataset field to an expression when you double-click it in the fields collection list.
 
 1. Choose the **Dataset Fields** that are listed in the **data** option.
-   ![list-of-dataset-fields](/static/assets/on-premise/images/report-designer/compose-report/expressions/dataset-fields-listed.png '#width=350px')
+   ![list-of-dataset-fields](/static/images/report-designer/compose-report/expressions/dataset-fields-listed.png '#width=350px')
 
 2. The list view shows the fields collections. Double-click any fields collection.
-   ![field collection in list view](/static/assets/on-premise/images/report-designer/compose-report/expressions/field-collection-list.png '#width=150px')
+   ![field collection in list view](/static/images/report-designer/compose-report/expressions/field-collection-list.png '#width=150px')
 
 3. The dataset field value is shown as an expression in the text area. Click **OK** to save the selected expression.
-   ![field collection in list view](/static/assets/on-premise/images/report-designer/compose-report/expressions/selected-expression.png '#width=400px')
+   ![field collection in list view](/static/images/report-designer/compose-report/expressions/selected-expression.png '#width=400px')
 
 ## See also
 

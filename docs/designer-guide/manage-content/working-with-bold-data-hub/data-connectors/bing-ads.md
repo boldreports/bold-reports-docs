@@ -28,7 +28,7 @@ You register a Microsoft Entra ID application in the Azure portal to get the cli
 
 1. Go to the [Azure portal](https://portal.azure.com).
 
-    ![Bing ADs](/static/assets/on-premise/images/manage-content/working-with-etl/bingadsCredential.png#max-width=100%)
+    ![Bing ADs](/static/images/manage-content/working-with-etl/bingadsCredential.png#max-width=100%)
 
 2. Navigate to Microsoft Entra ID (formerly Azure Active Directory) > App registrations > New registration.
 3. Name the app, choose supported account types, and set a redirect URI (for example, `https://localhost` or your app's redirect URL).
@@ -118,25 +118,25 @@ You connect Microsoft (Bing) Ads by creating a pipeline in Bold Data Hub and aut
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Bing ADs](/static/assets/on-premise/images/manage-content/working-with-etl/boldbi_panel.png#max-width=100%)
+    ![Bing ADs](/static/images/manage-content/working-with-etl/boldbi_panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![Bing ADs](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Bing ADs](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Double-click the Bing Ads connector. An Authentication Setup window opens.
 
-    ![Bing ADs](/static/assets/on-premise/images/manage-content/working-with-etl/bingads_oauth.png#max-width=100%)
+    ![Bing ADs](/static/images/manage-content/working-with-etl/bingads_oauth.png#max-width=100%)
 
 4. Enter the Client ID and Client Secret and click **Ok**.
 5. Click **Allow** in the authorization window to accept the scopes requested by Bold DataHub.
 6. Update the developer token and IDs in the template. Adjust the columns and date window as needed, then save to the {{site.productNameTM}} Data Store.
 
-    ![Bing Ads - Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/bingads_template.png#max-width=100%)
+    ![Bing Ads - Data Hub](/static/images/manage-content/working-with-etl/bingads_template.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![Bing Ads - Bold Data Hub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ## Which reports does the template include?
 
@@ -151,21 +151,21 @@ You schedule the Microsoft (Bing) Ads pipeline in Bold Data Hub from the schedul
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Bing Ads - Bold Data Hub](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Bing Ads - Bold Data Hub](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Bing Ads - Bold Data Hub](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Bing Ads - Bold Data Hub](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Bing Ads - Bold Data Hub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![Bing Ads - Bold Data Hub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

@@ -8,13 +8,13 @@ keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productNa
 
 In the {{site.productNameTM}} Web Report Designer, you customize the chart series color with the color palette property. You can change the color palette for a chart series by choosing from a predefined set of color palettes or defining a custom palette. The **Color Palette** property is listed under the `Chart Area` category in the chart properties panel.
 
-![Color Palette property](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/color-palette-property.png '#width=385px')
+![Color Palette property](/static/images/report-designer/report-items/chart/color-palette/color-palette-property.png '#width=385px')
 
 ## How do I use a built-in color palette?
 
 The {{site.productNameTM}} Web Report Designer lets you switch between the predefined color palette options available in the `Color Palette` dropdown.
 
-![Built in Color Palettes](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/built-in-color-palette.png)
+![Built in Color Palettes](/static/images/report-designer/report-items/chart/color-palette/built-in-color-palette.png)
 
 ## Define custom color palette
 
@@ -22,39 +22,39 @@ You define a custom color palette for a {{site.productNameTM}} chart in the **Cu
 
 1. Select the `Custom` option from the `Color Palette` dropdown.
 
-    ![Custom color palette option](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/custom-option.png '#width=385px')
+    ![Custom color palette option](/static/images/report-designer/report-items/chart/color-palette/custom-option.png '#width=385px')
 
 2. Find the `Custom Colors` field, which now displays under the color palette dropdown.
 
-    ![Custom color palette field](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/custom-colors-field.png '#width=385px')
+    ![Custom color palette field](/static/images/report-designer/report-items/chart/color-palette/custom-colors-field.png '#width=385px')
 
 3. Click the edit icon on the right side of the `Custom Colors` property.
 
-    ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/edit-icon.png '#width=385px')
+    ![Edit icon](/static/images/report-designer/report-items/chart/color-palette/edit-icon.png '#width=385px')
 
 4. The **Custom Colors** panel opens.
 
-    ![Custom colors panel](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/custom-colors-panel.png '#width=385px')
+    ![Custom colors panel](/static/images/report-designer/report-items/chart/color-palette/custom-colors-panel.png '#width=385px')
 
 5. Click the ADD icon in the top-right corner. A new **Color** field is added to the panel.
 
-    ![Add icon](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/add-icon.png '#width=385px')
+    ![Add icon](/static/images/report-designer/report-items/chart/color-palette/add-icon.png '#width=385px')
 
 6. Set the desired color in the color field.
 
-    ![Choose color](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/choose-color.png '#width=385px')
+    ![Choose color](/static/images/report-designer/report-items/chart/color-palette/choose-color.png '#width=385px')
 
 7. Click **Update**.
 
 Repeat these steps to define multiple color sets or edit existing color sets. In the following example, three colors are added in the custom colors panel. The chart applies them based on the number of series.
 
-![Multiple colors](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/multiple-colors.png)
+![Multiple colors](/static/images/report-designer/report-items/chart/color-palette/multiple-colors.png)
 
 ### How do I set colors with expressions?
 
 You can set a custom chart color based on dynamic values by using [Expressions](./../../../compose-report/expressions/). Click the square icon on the right side of each field to open the expression menu.
 
-![Expression menu](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/expression-menu.png '#width=385px')
+![Expression menu](/static/images/report-designer/report-items/chart/color-palette/expression-menu.png '#width=385px')
 
 > Note: To set and reset expressions for custom colors, see the [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -66,7 +66,7 @@ You delete a custom color set from the **Chart Custom Colors** panel. Follow the
 2. Click the `Delete` icon in the right corner of the required color set.
 3. Click **Update**.
 
-![Delete binding expression](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/delete-custom-colors.png '#width=385px')
+![Delete binding expression](/static/images/report-designer/report-items/chart/color-palette/delete-custom-colors.png '#width=385px')
 
 ## Frequently asked questions
 

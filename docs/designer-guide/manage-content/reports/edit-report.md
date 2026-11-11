@@ -52,10 +52,10 @@ You edit a Report Server report either in Web Report Designer or as XML.
 You open a Report Server report in Web Report Designer from the `Edit` icon on the report listing page.
 
 1. Click the `Edit` icon on the report listing page to open the report in Web Report Designer.
-    ![Edit report in Report Designer](/static/assets/on-premise/images/manage-content/manage-reports/open-in-Report-designer.png)
+    ![Edit report in Report Designer](/static/images/manage-content/manage-reports/open-in-Report-designer.png)
 
 2. Make your changes in the designer, where the selected report opens.
-    ![Edit report in Report Designer](/static/assets/on-premise/images/manage-content/manage-reports/edit-report.png)
+    ![Edit report in Report Designer](/static/images/manage-content/manage-reports/edit-report.png)
 
     > **Note:** Editing an existing report requires permission from your administrator.
 
@@ -64,10 +64,10 @@ You open a Report Server report in Web Report Designer from the `Edit` icon on t
 The Report Server XML editor provides a straightforward way to modify a report's underlying definition directly on the server, without downloading it or using a separate text editor.
 
 1. Select the `Edit As XML` option from the report's context menu.
-    ![Edit report in XML](/static/assets/on-premise/images/manage-content/manage-reports/edit-report-xml.png)
+    ![Edit report in XML](/static/images/manage-content/manage-reports/edit-report-xml.png)
 
 2. Make your modifications in the new tab, where the report opens as XML. Publish from the XML editor to save your edits.
-    ![Edit report XML View](/static/assets/on-premise/images/manage-content/manage-reports/edit-report-xml-view.png)
+    ![Edit report XML View](/static/images/manage-content/manage-reports/edit-report-xml-view.png)
 
 ## What are the key features?
 

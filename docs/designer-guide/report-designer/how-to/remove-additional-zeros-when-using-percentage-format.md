@@ -15,9 +15,9 @@ The percentage format in {{site.productNameTM}} Report Designer automatically co
 You remove the extra zeros in {{site.productNameTM}} Report Designer by dividing the field value by 100 in an expression.
 
 1. Click the textbox field value in the tablix, and apply an expression to **divide** the field value by 100.
-   ![expression page](/static/assets/on-premise/images/report-designer/how-to/remove-additional-zeros-when-using-percentage-format/field-expression.png '#width=500px')
+   ![expression page](/static/images/report-designer/how-to/remove-additional-zeros-when-using-percentage-format/field-expression.png '#width=500px')
 2. Click **Preview**. The percentage value is shown as in the following image.
-   ![output image](/static/assets/on-premise/images/report-designer/how-to/remove-additional-zeros-when-using-percentage-format/percentage-output-image.png)
+   ![output image](/static/images/report-designer/how-to/remove-additional-zeros-when-using-percentage-format/percentage-output-image.png)
 
 ## See also
 

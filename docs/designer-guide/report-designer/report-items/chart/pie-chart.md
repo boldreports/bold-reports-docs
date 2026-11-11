@@ -14,11 +14,11 @@ The Web Report Designer lists the pie chart under the `Proportion` category in t
 
 Drag and drop the `Pie` chart from the item panel into the design area.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/drag-chart-from-item-panel.png '#width=245px')
+![Chart Types](/static/images/report-designer/report-items/chart/pie-chart/drag-chart-from-item-panel.png '#width=245px')
 
 The pie chart is rendered in the design area, and the chart properties are listed in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/initial-view-of-pie-chart.png)
+![Chart Types](/static/images/report-designer/report-items/chart/pie-chart/initial-view-of-pie-chart.png)
 
 ## How do I create data for the pie chart?
 
@@ -45,31 +45,31 @@ To configure data in the pie chart, follow these steps:
 
 1. To bind data to a chart report item placed in the design area, focus on that report item.
 2. Click the `Properties` icon in the configuration panel to open the property pane. Then, switch to the `DATA` tab.
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/chart-properties-pane.png '#width=425px')
+   ![Chart properties pane](/static/images/report-designer/report-items/chart/pie-chart/chart-properties-pane.png '#width=425px')
 3. The available data in the report is listed in the drop-down. Choose a data in the drop-down list.
-   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/data-assign-drop-down.png '#width=385px')
+   ![Choose the dataset for chart](/static/images/report-designer/report-items/chart/data-assign-drop-down.png '#width=385px')
 4. The numeric columns and numeric expressions are listed under the `Measures` section. Other types of columns and dimension expressions are listed under the `Dimensions` section.
-   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/measures-dimensions-category.png '#width=385px')
+   ![Measures and dimensions](/static/images/report-designer/report-items/chart/pie-chart/measures-dimensions-category.png '#width=385px')
 5. **Drag and Drop Measure Element**:
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
-   ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/add-y-values-field.png '#width=385px')
+   ![Add a Y-value field](/static/images/report-designer/report-items/chart/column-chart/add-y-values-field.png '#width=385px')
    The report item design looks like the following image.
-   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/y-value-chart-design-view.png '#width=385px')
+   ![Preview after adding y-value field](/static/images/report-designer/report-items/chart/pie-chart/y-value-chart-design-view.png '#width=385px')
 6. **Aggregate Options**:
    Click the `Settings` icon (highlighted in the following image) to open the aggregation type drop-down list.
-   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/aggregation-settings-icon.png '#width=245px')
+   ![Aggregate settings icon](/static/images/report-designer/report-items/chart/aggregation-settings-icon.png '#width=245px')
    Set the aggregation type used to compute the selected column.
-   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/aggregation-settings-menu.png '#width=385px')
+   ![Aggregate menu list](/static/images/report-designer/report-items/chart/aggregation-settings-menu.png '#width=385px')
 7. **Drag and Drop Dimension Element**:
    Select and drag the dimension element from the `Dimensions` section and drop it into the `Column` section. The dimension is measured against the selected numeric column(s) in the `Y Value(s)` section.
-   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/add-field-to-column-section.png '#width=385px')
+   ![Add dimension field](/static/images/report-designer/report-items/chart/column-chart/add-field-to-column-section.png '#width=385px')
    The report item design looks like the following image.
-   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/column-field-design-preview.png '#width=355px')
+   ![Preview after adding dimension field](/static/images/report-designer/report-items/chart/pie-chart/column-field-design-preview.png '#width=355px')
 8. **Grouping**:
    Group the added column element with another column by adding the respective dimension element into the Row(s) section.
-   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/add-field-to-rows-section.png '#width=235px')
+   ![Achieve grouping by row values](/static/images/report-designer/report-items/chart/pie-chart/add-field-to-rows-section.png '#width=235px')
    The report item design looks like the following image.
-   ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/row-field-design-preview.png '#width=385px')
+   ![Preview of row value grouping ](/static/images/report-designer/report-items/chart/pie-chart/row-field-design-preview.png '#width=385px')
 
 > Follow the above steps to assign data for other chart categories such as bar, line, area, pie and polar.
 
@@ -82,7 +82,7 @@ To format a pie chart, follow these steps:
 1. Drag and drop the pie chart into the design area and resize it to the required size.
 2. Configure the data for the pie chart.
 3. Focus on the pie chart and click the `Properties` icon in the configuration panel to open the property pane.
-   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/open-chart-properties.png)
+   ![Chart Types](/static/images/report-designer/report-items/chart/pie-chart/open-chart-properties.png)
 
 The property pane lists the properties available for the report item with their default values.
 
@@ -90,13 +90,13 @@ The property pane lists the properties available for the report item with their 
 
 The Name property in the Web Report Designer provides a unique name for the chart item in the report.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/name-property.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/name-property.png '#width=385px')
 
 ### Basic Settings
 
 The Basic Settings category in the Web Report Designer holds the Show Legend and Choose Series properties of the pie chart.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/basic-settings.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/basic-settings.png '#width=385px')
 
 #### Show Legend
 
@@ -106,7 +106,7 @@ A legend in a {{site.productNameTM}} chart is text used to describe the data plo
 
 The `Choose Series` drop-down in the Web Report Designer lists the available series when you add multiple series to the chart. To customize a series appearance, choose the required series name in the drop-down.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/series/multi-series-list-in-drop-down.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/series/multi-series-list-in-drop-down.png '#width=385px')
 
 Refer to the [Series](./../../../report-items/chart/series/) section to customize each series using the properties panel.
 
@@ -114,17 +114,17 @@ Refer to the [Series](./../../../report-items/chart/series/) section to customiz
 
 The Appearance properties in the Web Report Designer, such as border style, color, width, and background color, style the chart and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/appearance-property.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/appearance-property.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/appearance-design.png)
+![Chart Types](/static/images/report-designer/report-items/chart/pie-chart/appearance-design.png)
 
 ### Chart Area
 
 The **Chart Area** property in the Web Report Designer customizes the area of the chart. You can customize the chart series color using the [Color Palette](./../../../report-items/chart/color-palette/) property.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/color-palatte.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/pie-chart/color-palatte.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/color-palatte-design.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/pie-chart/color-palatte-design.png '#width=385px')
 
 ### Title
 
@@ -132,7 +132,7 @@ The pie chart title in the Web Report Designer is customized by editing the `Tit
 
 To show or hide the chart title, toggle the `Show Chart Title` checkbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-title.png '#width=385px')
+![Chart Types](/static/images/report-designer/report-items/chart/chart-title.png '#width=385px')
 
 Using these properties, you can customize the font color, font text, font style, border, background, and position of the title in the chart design.
 
@@ -140,7 +140,7 @@ Using these properties, you can customize the font color, font text, font style,
 
 The No Data property in the Web Report Designer displays static text when a dataset returns empty or zero rows at run time.
 
-![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/no-data.png '#width=385px')
+![Chart No data message](/static/images/report-designer/report-items/chart/no-data/no-data.png '#width=385px')
 
 To set or reset no data message properties, refer to the [No Data Message](./../../../report-items/chart/no-data-message/) property section.
 
@@ -149,24 +149,24 @@ To set or reset no data message properties, refer to the [No Data Message](./../
 The page break property in the Web Report Designer controls the amount of information on each page when you preview the report. To apply the page break property to the chart report item, follow these steps.
 
 1. The Break Location property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
-   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=385px')
+   ![Break location](/static/images/report-designer/report-items/rectangle/break-location-types.png '#width=385px')
 2. To prevent predefined page breaks from being applied during report preview, enable the `Break Disabled` property checkbox. You can also control the application of page breaks during report preview by using expressions. For details on setting and resetting page breaks dynamically, refer to the [Set Expression](./../../../compose-report/properties-panel/#reset-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
-   ![Page Break Disabled](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-disabled.png '#width=355px')
+   ![Page Break Disabled](/static/images/report-designer/report-items/rectangle/page-break-disabled.png '#width=355px')
 3. To restart page numbering on each page, enable the `Page Number Reset` property checkbox.
-   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=385px')
+   ![Reset page number](/static/images/report-designer/report-items/rectangle/page-break-property.png '#width=385px')
 
 ### Data Element
 
 The Data element properties in the Web Report Designer control the visibility of a report item when you export the report in XML format. The Data element properties are listed in the properties panel under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=385px')
+![Data element properties](/static/images/report-designer/report-items/tablix/data-element-properties.png '#width=385px')
 
 #### Name
 
 The Data Element `Name` field assigns a custom name for the chart element. The chart report item is exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=385px')
+![Data element name property](/static/images/report-designer/report-items/tablix/name-property.png '#width=385px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -177,7 +177,7 @@ The `Output` property controls the visibility of the chart when you export the r
 * **Auto** or **Output** - Exports the chart report item.
 * **NoOutput** - Does not export the chart report item.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=385px')
+![Data element output property](/static/images/report-designer/report-items/tablix/output-property.png '#width=385px')
 
 ### Miscellaneous
 
@@ -187,7 +187,7 @@ The Miscellaneous category in the Web Report Designer holds the page name, docum
 
 The page name property names the first worksheet of the Excel workbook when you export the report to Excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/page-name.png '#width=355px')
+![Page name property](/static/images/report-designer/report-items/chart/page-name.png '#width=355px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -215,16 +215,16 @@ The Tooltip property displays informative text or a value when the user hovers o
 
 The `Custom Style` property enables the use of external CSS for styling report items, providing enhanced flexibility beyond the built-in styling options. Use this property to meet specific design requirements and maintain consistent styling across multiple reports. For a step-by-step guide on setting up custom styles in your report, check the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/chart/pie-chart/custom-style-property.png '#width=355px')
 
 ## How do I preview the pie chart report?
 
 To preview the pie chart report in the Web Report Designer, follow these steps:
 
 1. Click the **Preview** button in the top-right corner of the report header.
-   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/preview-icon.png '#width=455px')
+   ![Preview icon in design view](/static/images/report-designer/report-items/chart/pie-chart/preview-icon.png '#width=455px')
 2. The report preview appears as shown in the following image.
-   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/report-preview-page.png '#width=455px')
+   ![Chart report preview](/static/images/report-designer/report-items/chart/pie-chart/report-preview-page.png '#width=455px')
 
 > Download the [pie chart report design file from GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/pie-chart.rdl).
 

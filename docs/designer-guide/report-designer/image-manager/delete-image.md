@@ -13,9 +13,9 @@ You delete an embedded image in {{site.productNameTM}} Web Report Designer from 
 You delete an embedded image in Web Report Designer by hovering over it in the `IMAGE MANAGER` pane and clicking its `Delete` icon.
 
 1. Hover the mouse over the image you want to delete in the `IMAGE MANAGER` pane.
-   ![delete-image-icon](/static/assets/on-premise/images/report-designer/imagemanager/delete-an-image.png '#width=250px')
+   ![delete-image-icon](/static/images/report-designer/imagemanager/delete-an-image.png '#width=250px')
 2. Click the highlighted `Delete` icon. A confirmation dialog opens, as shown below.
-   ![delete-alert-dialog](/static/assets/on-premise/images/report-designer/imagemanager/delete-image-alert.png '#width=300px')
+   ![delete-alert-dialog](/static/images/report-designer/imagemanager/delete-image-alert.png '#width=300px')
 3. Click the `Yes` button to remove the image from the report.
 
 ## See also

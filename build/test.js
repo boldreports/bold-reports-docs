@@ -30,8 +30,9 @@ gulp.task('typo', (done) => {
     writeFileSync('./node_modules/.bin/.spelling', getSpelling());
     // goto .bin location
     cd('./node_modules/.bin/');
-    // run mdspell command
-    const mdspellcmd = `mdspell ../../docs/**/*.md ../../*.md !../../docs/**/${apiBaseFolder}/**/*.md -r -n -a -x --color --en-us`;
+    // run mdspell command (called by path so it does not depend on the shell's search rules)
+    const mdspell = process.platform === 'win32' ? '.\\mdspell' : './mdspell';
+    const mdspellcmd = `${mdspell} ../../docs/**/*.md ../../*.md !../../docs/**/${apiBaseFolder}/**/*.md -r -n -a -x --color --en-us`;
     const output = exec(mdspellcmd);
     // return root location
     cd('../../');
@@ -40,6 +41,11 @@ gulp.task('typo', (done) => {
     }
     done();
 });
+
+// Words that the spell check accepts, one per line, from the .spelling file in the repository root.
+function getSpelling() {
+    return readFileSync('./.spelling', 'utf8');
+}
 
 // Gulp task to find the image width in document for syntax modification
 gulp.task('modify-image-width-syntax', (done) => {
@@ -76,10 +82,6 @@ gulp.task('validate-image-alt-text', function(done) {
     // withoutAltTextImagesContent ? process.exit(1) : done(); - for CI fail we need to enable this.
     done();
 })
-function getSpelling() {
-    return readFileSync('./.spelling', 'utf8');
-}
-
 function normalizePath(filePath) {
     return filePath.replace(/\\/g, '/');
 }

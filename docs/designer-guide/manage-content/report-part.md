@@ -15,49 +15,49 @@ You can create `Report Parts` directly from the {{site.productNameTM}} Report Se
 You create a report part in Report Server from the `+` menu, design it in the Web Report Designer, and then publish it.
 
 1. Click the `+` icon in the left menu and then select `Create Report Part`.
-    ![Click Plus Icon](/static/assets/on-premise/images/manage-content/report-parts/click-plus-icon.png)
-    ![Click Create Report Part](/static/assets/on-premise/images/manage-content/report-parts/click-create-report-part.png)
+    ![Click Plus Icon](/static/images/manage-content/report-parts/click-plus-icon.png)
+    ![Click Create Report Part](/static/images/manage-content/report-parts/click-create-report-part.png)
 
 2. Enter the report part name and then click the `Add and Design` button.
-    ![Click Add Design Button](/static/assets/on-premise/images/manage-content/report-parts/click-add-design.png)
+    ![Click Add Design Button](/static/images/manage-content/report-parts/click-add-design.png)
 
 3. Design and customize report items such as tables, charts, maps, indicators, and other elements in the Web Report Designer page that opens.
 
 4. After you complete the design of your report elements, click the `Publish` option.
-    ![Click Publish Icon](/static/assets/on-premise/images/manage-content/report-parts/click-publish.png)
-    ![Click Publish](/static/assets/on-premise/images/manage-content/report-parts/click-publish2.png)
+    ![Click Publish Icon](/static/images/manage-content/report-parts/click-publish.png)
+    ![Click Publish](/static/images/manage-content/report-parts/click-publish2.png)
 
 5. View published report parts under the `Report Parts` section.
-    ![report-part-listing-page](/static/assets/on-premise/images/manage-content/report-parts/report-part.png)
+    ![report-part-listing-page](/static/images/manage-content/report-parts/report-part.png)
 
 6. Choose the `Edit` icon to edit the report part.
-    ![edit-report-part](/static/assets/on-premise/images/manage-content/report-parts/edit-report-part.png)
+    ![edit-report-part](/static/images/manage-content/report-parts/edit-report-part.png)
 
 7. To view the Report Part Info, click `Info` in the menu.
-    ![Edit Report Part](/static/assets/on-premise/images/manage-content/report-parts/report-part-info.png)
+    ![Edit Report Part](/static/images/manage-content/report-parts/report-part-info.png)
 
     Report Part Info provides information about the Report Part id, Report Part Type, Created by, Created on, Last modified by, Last modified on, and Linked Reports.
 
-    ![Open Report Part Info](/static/assets/on-premise/images/manage-content/report-parts/open-report-part-info.png)
+    ![Open Report Part Info](/static/images/manage-content/report-parts/open-report-part-info.png)
 
 8. To view the version history, click `Version History` in the menu.
-    ![Report Part Version History](/static/assets/on-premise/images/manage-content/report-parts/report-part-version-history.png)
+    ![Report Part Version History](/static/images/manage-content/report-parts/report-part-version-history.png)
 
     The Version History dialog displays all available versions of the selected report part along with the version details.
     The latest version includes only the `Edit` option, while previous versions provide both `Edit` and `Restore` options.
 
-    ![Report Part Version List](/static/assets/on-premise/images/manage-content/report-parts/report-part-version-list.png)
+    ![Report Part Version List](/static/images/manage-content/report-parts/report-part-version-list.png)
 
     To restore a previous version, click `Restore` from the corresponding version menu.
 
-    ![Restore Report Part Version](/static/assets/on-premise/images/manage-content/report-parts/restore-report-part-version.png)
+    ![Restore Report Part Version](/static/images/manage-content/report-parts/restore-report-part-version.png)
 
     The File Logs tab displays the history of changes made to the report part. The Report Server records details such as the event, user, and date for each modification.
 
-    ![Report Part File Logs](/static/assets/on-premise/images/manage-content/report-parts/report-part-file-logs.png)
+    ![Report Part File Logs](/static/images/manage-content/report-parts/report-part-file-logs.png)
 
 9. Choose the delete option to delete the report part.
-    ![delete-report-part](/static/assets/on-premise/images/manage-content/report-parts/report-part-delete.png)
+    ![delete-report-part](/static/images/manage-content/report-parts/report-part-delete.png)
 
    > **Note:** To learn more, see [Report Parts in the Web Report Designer](../../report-designer/report-parts/).
 
@@ -65,7 +65,7 @@ You create a report part in Report Server from the `+` menu, design it in the We
 
 Report Server keeps unpublished report parts under the `Report Parts` category in the `Drafts` section.
 
-![delete-report-part](/static/assets/on-premise/images/manage-content/report-parts/draft-report-parts.png)
+![delete-report-part](/static/images/manage-content/report-parts/draft-report-parts.png)
 
 ## Frequently asked questions
 

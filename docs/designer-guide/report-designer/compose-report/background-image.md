@@ -16,7 +16,7 @@ Prefer watching over reading? Watch the video on setting a background image for 
 
 The Web Report Designer lists the background image properties under the `Background Image` category in the properties panel. Open the properties of the report section (page header, page footer, or report body) to which you want to add a background image.
 
-![Background image property](/static/assets/on-premise/images/report-designer/compose-report/background-image/background-image-property.png '#width=350px')
+![Background image property](/static/images/report-designer/compose-report/background-image/background-image-property.png '#width=350px')
 
 ## Source
 
@@ -24,15 +24,15 @@ The Web Report Designer `Source` property sets where the background image comes 
 
 **External** - An image that can be accessed via a URL.
 
-![Background image source external](/static/assets/on-premise/images/report-designer/compose-report/background-image/source-external.png '#width=350px')
+![Background image source external](/static/images/report-designer/compose-report/background-image/source-external.png '#width=350px')
 
 **Embedded** - An image that is part of the report definition.
 
-![Background image source embedded](/static/assets/on-premise/images/report-designer/compose-report/background-image/source-embedded.png '#width=350px')
+![Background image source embedded](/static/images/report-designer/compose-report/background-image/source-embedded.png '#width=350px')
 
 **Database** - An image stored in a database, which is accessed through a dataset.
 
-![Background image source database](/static/assets/on-premise/images/report-designer/compose-report/background-image/source-database.png '#width=350px')
+![Background image source database](/static/images/report-designer/compose-report/background-image/source-database.png '#width=350px')
 
 ## Value
 
@@ -40,27 +40,27 @@ The Web Report Designer `Value` property depends on the selected `Source`.
 
 If `External`, provide the image URL.
 
-![External value as image](/static/assets/on-premise/images/report-designer/compose-report/background-image/external-value.png  '#width=350px')
+![External value as image](/static/images/report-designer/compose-report/background-image/external-value.png  '#width=350px')
 
 If `Embedded`, set the embedded image name.
 
-![Embedded value as image](/static/assets/on-premise/images/report-designer/compose-report/background-image/embedded-value.png '#width=350px')
+![Embedded value as image](/static/images/report-designer/compose-report/background-image/embedded-value.png '#width=350px')
 
 If `Database`, choose the dataset field that contains the image.
 
-![Database value as image](/static/assets/on-premise/images/report-designer/compose-report/background-image/database-value.png '#width=350px')
+![Database value as image](/static/images/report-designer/compose-report/background-image/database-value.png '#width=350px')
 
 ## MIME Type
 
 The Web Report Designer `MIME Type` property must be set for images from the database to work. If the `Source` property is set to `External` or `Embedded`, the value of MIME type is ignored.
 
-![MIME property](/static/assets/on-premise/images/report-designer/compose-report/background-image/mime-type-property.png '#width=350px')
+![MIME property](/static/images/report-designer/compose-report/background-image/mime-type-property.png '#width=350px')
 
 ## Background repeat
 
 The Web Report Designer background repeat property controls how the image fills the container. The options are listed below the image.
 
-![Background repeat](/static/assets/on-premise/images/report-designer/compose-report/background-image/background-repeat.png '#width=350px')
+![Background repeat](/static/images/report-designer/compose-report/background-image/background-repeat.png '#width=350px')
 
 **Repeat**: Repeats the image in both horizontal and vertical direction.
 
@@ -78,23 +78,23 @@ You add a company logo as a report background in Web Report Designer by embeddin
 
 1. Open the `Body` properties in properties pane.
 
-    ![Body properties](/static/assets/on-premise/images/report-designer/compose-report/background-image/body-properties.png '#width=350px')
+    ![Body properties](/static/images/report-designer/compose-report/background-image/body-properties.png '#width=350px')
 
 2. [Embed the required image](./../../image-manager/add-image/) in the report.
 3. Set the `Source` type as `Embedded` and choose the embedded image in the `Value` field.
 4. Set the background repeat as required.
 
-    ![Set Bacground for report body](/static/assets/on-premise/images/report-designer/compose-report/background-image/set-bg-image-in-body.png '#width=350px')
+    ![Set Bacground for report body](/static/images/report-designer/compose-report/background-image/set-bg-image-in-body.png '#width=350px')
 
 > Similarly, you can set background image in report header, footer and overall report.
 
 The following image shows how the background image appears in Design mode:
 
-![Background image design](/static/assets/on-premise/images/report-designer/compose-report/background-image/design-mode.png '#width=350px')
+![Background image design](/static/images/report-designer/compose-report/background-image/design-mode.png '#width=350px')
 
 The following image shows how the background image appears in Preview mode:
 
-![Background image preview](/static/assets/on-premise/images/report-designer/compose-report/background-image/preview-mode.png '#width=350px')
+![Background image preview](/static/images/report-designer/compose-report/background-image/preview-mode.png '#width=350px')
 
 ## Frequently asked questions
 

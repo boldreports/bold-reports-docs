@@ -35,24 +35,24 @@ With report upload in Report Server, you can:
 You upload reports to {{site.productNameTM}} Report Server from the `[+]` icon in the left side panel.
 
 1. Click the `[+]` icon in the left side panel, then select the `Upload Report(s)` option.
-    ![Plus Icon](/static/assets/on-premise/images/manage-content/manage-reports/plus-icon.png)
-    ![Upload button](/static/assets/on-premise/images/manage-content/manage-reports/upload-reports.png)
+    ![Plus Icon](/static/images/manage-content/manage-reports/plus-icon.png)
+    ![Upload button](/static/images/manage-content/manage-reports/upload-reports.png)
 
 2. Select a category, enter a description, upload one or more RDL files, and create or choose tags to organize the reports.
     > Click `New Tag` to create a tag that doesn't already exist.
 
-    ![Upload Report](/static/assets/on-premise/images/manage-content/manage-reports/upload-reports-new.png)
-    ![Upload Report](/static/assets/on-premise/images/manage-content/manage-reports/upload-reports-dialog.png)
+    ![Upload Report](/static/images/manage-content/manage-reports/upload-reports-new.png)
+    ![Upload Report](/static/images/manage-content/manage-reports/upload-reports-dialog.png)
 
     > When multiple reports are uploaded together, the Name field is disabled and auto-filled using each `.rdl` file's name.
 
 3. Click the `Next` button to open a dialog for configuring each uploaded report individually.
     > The left panel lists every uploaded report. Select a report to update its name, category, description, and tags.
 
-    ![Upload Report](/static/assets/on-premise/images/manage-content/manage-reports/upload-report-listing-dialog.png)
+    ![Upload Report](/static/images/manage-content/manage-reports/upload-report-listing-dialog.png)
 
 4. Click the `Save` button to add the reports to the Report Server.
-    ![Upload Report](/static/assets/on-premise/images/manage-content/manage-reports/save-upload-reports.png)
+    ![Upload Report](/static/images/manage-content/manage-reports/save-upload-reports.png)
 
 ## What are the key features of report upload?
 

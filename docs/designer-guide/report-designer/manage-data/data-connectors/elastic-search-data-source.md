@@ -12,11 +12,11 @@ To connect {{site.productNameTM}} to Elastic Search, open the **Data** configura
 To create an Elastic Search data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Elastic Search connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=355px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=355px')
 3. In the connection type panel, choose the `Elastic Search` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/connection-types.png '#width=355px')
+   ![Connection types panel](/static/images/report-designer/manage-data/elastic-search-data-source/connection-types.png '#width=355px')
 
 ### How do I configure the basic options?
 
@@ -37,24 +37,24 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
    * Basic HTTP Authentication
 
 6. If the Elastic Search server uses **Basic HTTP Authentication** as the Authentication type, enter a valid Elastic Search username in the **Username** text box and a valid Elastic Search password in the **Password** text box.
-   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/authentication-type.png '#width=355px')
+   ![Web datasource properties](/static/images/report-designer/manage-data/elastic-search-data-source/authentication-type.png '#width=355px')
 
 7. Select a database that you want to query in the listed database associated with the given Elastic Search server in the database combo-box.
-   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/basic-options.png '#width=355px')
+   ![Web datasource properties](/static/images/report-designer/manage-data/elastic-search-data-source/basic-options.png '#width=355px')
 
 After you connect the data source, the data design view page opens. The page lists the schemas and tables from the Elastic Search server in a `treeview` section.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/execute-schema.png)
+![New connection panel](/static/images/report-designer/manage-data/elastic-search-data-source/execute-schema.png)
 
 Drag and drop the required table from the tree view list.
 
-![Tree View List](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/tree-view-list.png)
+![Tree View List](/static/images/report-designer/manage-data/elastic-search-data-source/tree-view-list.png)
 
 > Multiple joins are not supported for the Elastic Search data source in {{site.productNameTM}}.
 
 Click `Finish` to save the data source with a relevant name and continue designing the report.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/data-list.png '#width=355px')
+![New connection panel](/static/images/report-designer/manage-data/elastic-search-data-source/data-list.png '#width=355px')
 
 ## How do I connect through a custom query?
 
@@ -66,11 +66,11 @@ After the connect action, the query design view opens.
 
 The {{site.productNameTM}} query design view opens in design view by default. To switch to code view, enable the slider option in the tools pane, as highlighted in the following image.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/code-switcher.png '#width=355px')
+![New connection panel](/static/images/report-designer/manage-data/data-connectors/code-switcher.png '#width=355px')
 
 The query editor pane then switches to code view, as shown in the following image.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/query-mode.png)
+![New connection panel](/static/images/report-designer/manage-data/elastic-search-data-source/query-mode.png)
 
 ### How do I write and execute a query?
 
@@ -79,11 +79,11 @@ In the {{site.productNameTM}} `Query Editor` pane, you can write your own query 
 1. Write your query in the `Query Editor` pane.
 2. Click the `Execute` option in the tools pane. The data for your query appears at the bottom of the `Query Editor`.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/enter-query.png)
+![New connection panel](/static/images/report-designer/manage-data/elastic-search-data-source/enter-query.png)
 
 If you disable the Code Slider in the tools pane to switch back to design view, an alert message asks you to confirm removing your query. Proceeding with this action resets the code view query.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/switcher-alert.png)
+![New connection panel](/static/images/report-designer/manage-data/elastic-search-data-source/switcher-alert.png)
 
 Click `Yes` to discard the query and go to design view, or click `No` to keep it. Save the data source by clicking the `Finish` button.
 
@@ -93,11 +93,11 @@ The {{site.productNameTM}} `Query Editor` pane shows the query for a data source
 
 For example, drag the `kibana_sample_data_flights` table in design view.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/design-view.png)
+![New connection panel](/static/images/report-designer/manage-data/elastic-search-data-source/design-view.png)
 
 Then, enable the `Code Switcher` to view the query. The query reflects the changes made in the table.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/design-to-query.png)
+![New connection panel](/static/images/report-designer/manage-data/elastic-search-data-source/design-to-query.png)
 
 ## Frequently asked questions
 

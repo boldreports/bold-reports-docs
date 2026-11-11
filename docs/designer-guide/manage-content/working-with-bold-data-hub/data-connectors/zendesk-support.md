@@ -171,20 +171,20 @@ You connect Zendesk Support by creating a project in Bold Data Hub and adding th
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Zendesk Support Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![Zendesk Support Data Hub - Reports](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Project` and enter a name for the new project.
 
-    ![Zendesk Support Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Zendesk Support Data Hub - Reports](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created project and add the `Zendesk Support` template.
 
-    ![Zendesk Support Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/support_addtemplate.png#max-width=100%)
+    ![Zendesk Support Data Hub - Reports](/static/images/manage-content/working-with-etl/support_addtemplate.png#max-width=100%)
 
 4. Update the subdomain, email address, password, or token (API or OAuth) in the template, and update the resources in the `select` property.
 5. Save the pipeline to the Data Store.
 
-    ![Zendesk Support Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/support_yaml.png#max-width=100%)
+    ![Zendesk Support Data Hub - Reports](/static/images/manage-content/working-with-etl/support_yaml.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
@@ -212,21 +212,21 @@ You schedule the Zendesk Support pipeline in Bold Data Hub from the schedules ta
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Zendesk Support - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Zendesk Support - Reports](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Zendesk Support - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Zendesk Support - Reports](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Zendesk Support - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Zendesk Support - Reports](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Zendesk Support - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Zendesk Support - Reports](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Zendesk Support - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![Zendesk Support - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

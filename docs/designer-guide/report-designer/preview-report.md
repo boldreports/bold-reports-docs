@@ -13,10 +13,10 @@ You preview a report in the {{site.productNameTM}} Web Report Designer by clicki
 You preview a report from the header of the {{site.productNameTM}} Web Report Designer page with the following steps:
 
 1. Click the **Preview** button in the header of the report designer page.
-   ![Preview button in report designer](/static/assets/on-premise/images/report-designer/preview-report/preview-button-location.png)
+   ![Preview button in report designer](/static/images/report-designer/preview-report/preview-button-location.png)
 
 2. View the report, which is previewed using the inbuilt Report Viewer.
-   ![Report preview using Report Viewer](/static/assets/on-premise/images/report-designer/preview-report/preview-in-report-viewer.png)
+   ![Report preview using Report Viewer](/static/images/report-designer/preview-report/preview-in-report-viewer.png)
 
 ## Frequently asked questions
 

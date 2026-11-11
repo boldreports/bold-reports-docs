@@ -18,11 +18,11 @@ The **Disable Process Schedule** option in the Report Server schedule control se
 
 1. Click the `Settings` option in the Report Server left-side panel and navigate to the `Reports` tab.
 
-    ![Schedule report settings tab in Report Server](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
+    ![Schedule report settings tab in Report Server](/static/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
 
 2. Enable the **Disable Process Schedule** option. All scheduled tasks for this site are stopped.
 
-    ![Schedule report settings tab in Report Server](/static/assets/on-premise/images/manage-schedule/schedule-settings/disable-process-schedule.png)
+    ![Schedule report settings tab in Report Server](/static/images/manage-schedule/schedule-settings/disable-process-schedule.png)
 
 3. After you configure the schedule control settings, click the `Save` button to apply the changes.
 
@@ -34,7 +34,7 @@ The Report Server `Schedule` settings tab lets you compress exported reports int
 
 2. Switch to the `Schedule` tab, as shown in the following image.
 
-    ![Schedule report settings tab in Report Server](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
+    ![Schedule report settings tab in Report Server](/static/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
 
 3. Check the `Enable File Compression` option and click the `Save` button to save the settings.
 
@@ -44,7 +44,7 @@ The Report Server `Schedule` settings tab lets you compress exported reports int
 
 5. Customize the password protection rules for exporting reports by choosing the `Custom Password` option. However, the username or first name is mandatory in the password condition.
 
-    ![Custom password compression settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/custom-password-for-compression.png)
+    ![Custom password compression settings](/static/images/manage-schedule/schedule-settings/custom-password-for-compression.png)
 
 6. When you configure a <b>Custom Password</b> for exported reports, the available password conditions depend on the recipient type:
     <ul>
@@ -56,7 +56,7 @@ The Report Server `Schedule` settings tab lets you compress exported reports int
         </li>
     </ul>
 
-    ![Custom Password](/static/assets/on-premise/images/manage-schedule/schedule-settings/custom-password.png)
+    ![Custom Password](/static/images/manage-schedule/schedule-settings/custom-password.png)
 
 7. For instance, consider a sample user with the following details:
 
@@ -121,15 +121,15 @@ The **Export path** setting in the Report Server `Schedule` tab sets the root lo
 
 2. Switch to the `Schedule` tab, as shown in the following image.
 
-    ![Schedule report settings tab in Report Server](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
+    ![Schedule report settings tab in Report Server](/static/images/manage-schedule/schedule-settings/schedule-report-settings-tab.png)
 
 3. Save the export path value for exporting reports to the specified location. By default, the directory root path will be **C:\BoldServices\app_data\reporting\Jobs**.
 
-    ![Default Export path Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-export-default.png)
+    ![Default Export path Settings](/static/images/manage-schedule/schedule-settings/schedule-report-settings-export-default.png)
 
 4. Edit the default directory root path value in the **Export path** option, and then click the `Save` button to save the changes.
 
-    ![Required Export path Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/schedule-report-settings-export-required.png)
+    ![Required Export path Settings](/static/images/manage-schedule/schedule-settings/schedule-report-settings-export-required.png)
 
 ## FTP or SFTP Settings
 
@@ -141,7 +141,7 @@ The Report Server can export scheduled reports to an FTP location when you confi
 
 The following image shows the FTP location settings.
 
-![FTP Location](/static/assets/on-premise/images/manage-schedule/schedule-settings/ftp-location.png)
+![FTP Location](/static/images/manage-schedule/schedule-settings/ftp-location.png)
 
 ## S3 Bucket Settings
 
@@ -161,7 +161,7 @@ The **Access Key** credential type authenticates to the Amazon S3 bucket with an
 
 * **Region:** Select the AWS region in which the S3 bucket is hosted.
 
-    ![S3 Bucket Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/s3-bucket-settings.png)
+    ![S3 Bucket Settings](/static/images/manage-schedule/schedule-settings/s3-bucket-settings.png)
 
 ### KMS Key
 
@@ -173,7 +173,7 @@ The **KMS Key** credential type uses an AWS KMS key to access and encrypt object
 
 * **Region:** Select the AWS region in which the S3 bucket is hosted.
 
-    ![S3 Bucket Settings](/static/assets/on-premise/images/manage-schedule/schedule-settings/kms-key-settings.png)
+    ![S3 Bucket Settings](/static/images/manage-schedule/schedule-settings/kms-key-settings.png)
 
 > **NOTE:** When using a KMS key, the environment hosting the {{site.productNameTM}} application must have the necessary AWS permissions to access both the specified Amazon S3 bucket and the AWS KMS key. Ensure that the configured IAM user or role has the required S3 and KMS permissions.
 

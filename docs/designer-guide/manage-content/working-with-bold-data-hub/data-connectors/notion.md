@@ -17,7 +17,7 @@ You get the Notion credentials for Bold Data Hub by creating an integration in y
 
 1. If you don't have a Notion account, create one.
 
-    ![Notion Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/notion.png#max-width=100%)
+    ![Notion Data Hub - Reports](/static/images/manage-content/working-with-etl/notion.png#max-width=100%)
 
 2. Access your Notion account and navigate to **My Integrations**.
 3. Click **New Integration** on the left and give it a suitable name.
@@ -63,15 +63,15 @@ You connect Notion by creating a project in Bold Data Hub and adding the `Notion
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Notion Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![Notion Data Hub - Reports](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Project` and enter a name for the new project.
 
-    ![Notion Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Notion Data Hub - Reports](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created project and add the `Notion` template.
 
-    ![Notion Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/notion_addtemplate.png#max-width=100%)
+    ![Notion Data Hub - Reports](/static/images/manage-content/working-with-etl/notion_addtemplate.png#max-width=100%)
 
 4. Update the API key in the template, and update the resources in the `select` property.
 5. Click **Save** and choose the destination to save the pipeline.
@@ -89,21 +89,21 @@ You schedule the Notion pipeline in Bold Data Hub from the schedules tab, or you
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Notion - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Notion - Reports](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Notion - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Notion - Reports](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Notion - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Notion - Reports](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Notion - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Notion - Reports](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Notion - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![Notion - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

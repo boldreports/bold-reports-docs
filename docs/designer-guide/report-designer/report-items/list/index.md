@@ -8,7 +8,7 @@ keywords: ejReportDesigner, reportdesigner, list, reportitem, {{site.productName
 
 The list report item in the {{site.productNameTM}} Web Report Designer creates free-form layouts. You can arrange text boxes, images, and other data regions anywhere within the list to create a form. The list acts as a container that places multiple report items side by side. A simple list design has a single cell in a row associated with the detail group, and the cell contains a `Rectangle` report item.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/initial-list-design.png '#width=165px')
+![Tablix listed in item panel](/static/images/report-designer/report-items/tablix/initial-list-design.png '#width=165px')
 
 By default, no group expression is defined on a List. When no group expression is defined, the List repeats for each row in the datasource. When a group expression is defined on a List, the List repeats for each group in the datasource.
 
@@ -18,21 +18,21 @@ By default, no group expression is defined on a List. When no group expression i
 
 To add report items to a {{site.productNameTM}} list cell, drag report items from the item panel or data fields from the `Data` panel to the cell. By default, the cell contains a rectangle that acts as a container.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-report-item-to-list.png '#width=385px')
+![Initial design](/static/images/report-designer/report-items/list/drag-and-drop-report-item-to-list.png '#width=385px')
 
 The report item now drops into the list container, as shown in the following image.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-report-item-to-list-design.png '#width=385px')
+![Initial design](/static/images/report-designer/report-items/list/drag-and-drop-report-item-to-list-design.png '#width=385px')
 
 > When you right-click in the list cell, the menu that appears applies to the cell. If you insert a report item into the cell by using the `Insert` option from the cell context menu, the new report item replaces the rectangle in the cell. To insert items inside the list cell, drag and drop the report item into the cell that contains the rectangle.
 
 The following image shows a simple design that uses the list to display product details.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/initial-design.png '#width=385px')
+![Initial design](/static/images/report-designer/report-items/list/initial-design.png '#width=385px')
 
 On report preview, the List repeats for each row in the datasource.
 
-![Initial design](/static/assets/on-premise/images/report-designer/report-items/list/list-reportitem-design-preview.png '#width=410px')
+![Initial design](/static/images/report-designer/report-items/list/list-reportitem-design-preview.png '#width=410px')
 
 ## Which properties can I set for a list?
 
@@ -42,7 +42,7 @@ The {{site.productNameTM}} properties panel lists every list property described 
 
 The Data category of the list holds the dataset, filter, and sort properties.
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/data-category-property.png '#width=385px')
+![Data category](/static/images/report-designer/report-items/tablix/data-category-property.png '#width=385px')
 
 #### Dataset
 
@@ -50,7 +50,7 @@ The Dataset property assigns a dataset to the list. The `Dataset` property dropd
 
 > Each list report item can only show data from one dataset.
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/dataset-drop-down-view.png '#width=355px')
+![Data category](/static/images/report-designer/report-items/tablix/dataset-drop-down-view.png '#width=355px')
 
 > To add a dataset to your report, see the [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section.
 
@@ -58,7 +58,7 @@ The Dataset property assigns a dataset to the list. The `Dataset` property dropd
 
 Filters limit the data shown in the list. To open the `Filter` dialog, click the `Set Filters...` button. The filter dialog opens as shown in the following image.
 
-![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png '#width=355px')
+![Filter dialog](/static/images/report-designer/report-items/tablix/filters-dialog.png '#width=355px')
 
 To add or remove filters in the filter dialog, see the [Filter Data](./../../compose-report/filter-data/) section.
 
@@ -66,7 +66,7 @@ To add or remove filters in the filter dialog, see the [Filter Data](./../../com
 
 Sorting orders a numeric or string field in the list. You can apply sorting to the whole data region or to each group, including the details group. To open the sort dialog, click the `Set Sorts...` button. The sort dialog opens as shown in the following image.
 
-![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png '#width=355px')
+![Sort dialog](/static/images/report-designer/report-items/tablix/sort-dialog.png '#width=355px')
 
 To add or remove sort expressions in the sort dialog, see the [Sort Data](./../../compose-report/sort-data/) section.
 
@@ -90,7 +90,7 @@ The Position property sets the width, height, left, and top position of the list
 
 The No Rows property displays static text when the dataset returns empty or zero rows at run time.
 
-![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/no-rows.png '#width=355px')
+![Tablix No rows message](/static/images/report-designer/report-items/tablix/no-rows/no-rows.png '#width=355px')
 
 To set or reset the no data message properties, see the [No Rows](../tablix/no-rows-message/) property section.
 
@@ -98,13 +98,13 @@ To set or reset the no data message properties, see the [No Rows](../tablix/no-r
 
 The Data element properties control the visibility of a list when you export the report in XML format. The properties panel lists these properties under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
+![Data element properties](/static/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 Use the `Name` field to assign a custom name to the list element. The list report item is exported with the name you provide.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
+![Data element name property](/static/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -115,7 +115,7 @@ The `Output` property controls the visibility of the list when you export the re
 * **Auto** or **Output**: Exports the list report item.
 * **NoOutput**: Does not export the list report item.
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=355px')
+![Data element output property](/static/images/report-designer/report-items/tablix/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -129,7 +129,7 @@ The Miscellaneous category holds the page name, document map, bookmark, custom a
 
 The page name property names the first worksheet of the Excel workbook when you export the report to Excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/list/page-name.png '#width=355px')
+![Page name property](/static/images/report-designer/report-items/list/page-name.png '#width=355px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, see the [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections.
 
@@ -157,7 +157,7 @@ The Tooltip property displays informative text or a value when the user hovers o
 
 The `Custom Style` property lets you use external CSS to style report items, giving more flexibility than the built-in styling options. Use this property to meet specific design requirements and keep styling consistent across multiple reports. For a step-by-step guide on setting up custom styles in your report, see the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/list/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/list/custom-style-property.png '#width=355px')
 
 ## How do I set an expression on a list property?
 

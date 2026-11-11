@@ -12,11 +12,11 @@ The chart report item in the {{site.productNameTM}} Web Report Designer summariz
 
 To add a `Chart data` region to a report in the {{site.productNameTM}} Web Report Designer, drag and drop the chart type of your choice from the item panel into the design area.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/drag-chart-from-item-panel.png '#width=245px')
+![Chart Types](/static/images/report-designer/report-items/chart/drag-chart-from-item-panel.png '#width=245px')
 
 The chart item renders in the design area, and the properties panel lists the chart properties.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/initial-view-of-column-chart.png '#width=600px')
+![Chart Types](/static/images/report-designer/report-items/chart/initial-view-of-column-chart.png '#width=600px')
 
 Configure data and format the chart to visualize the data.
 
@@ -26,7 +26,7 @@ Configure data and format the chart to visualize the data.
 
 A {{site.productNameTM}} chart is made up of several elements. The following image shows the different elements used in the chart.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-parts.png '#width=600px')
+![Chart Types](/static/images/report-designer/report-items/chart/chart-parts.png '#width=600px')
 
 ## See also
 

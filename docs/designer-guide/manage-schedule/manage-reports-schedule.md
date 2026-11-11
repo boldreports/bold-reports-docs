@@ -14,7 +14,7 @@ You can add, edit, delete, and manage report schedules in {{site.productNameTM}}
 
 The schedules page displays the schedules that are accessible to the user based on their permissions.
 
-![Manage Schedules](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/manage-schedules.png)
+![Manage Schedules](/static/images/manage-schedule/manage-report-schedules/manage-schedules.png)
 
 ## How do I add a schedule?
 
@@ -30,15 +30,15 @@ The `+` icon in the Report Server left side menu opens the schedule dialog for a
 
 1. Click the `+` icon in the left side menu and choose `Schedule` to create a new schedule.
 
-    ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/create-schedule1.png)
+    ![Create Schedule](/static/images/manage-schedule/manage-report-schedules/create-schedule1.png)
 
 2. Choose the required category from the **Category** dropdown. Once you select a category, the reports under that category appear in the **Report** dropdown menu.
 
-    ![Create Category](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-category.png)
+    ![Create Category](/static/images/manage-schedule/manage-report-schedules/select-category.png)
 
 3. Select the desired report from the dropdown menu.
 
-    ![Select Report](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-desired-report.png)
+    ![Select Report](/static/images/manage-schedule/manage-report-schedules/select-desired-report.png)
 
 ### How do I add a schedule from the context menu of the respective reports?
 
@@ -46,11 +46,11 @@ The reports grid context menu in the Report Server opens the schedule dialog wit
 
 1. Click the `Actions` button in the reports grid context menu, then select **Create Schedule** to schedule the corresponding report.
 
-    ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/create-schedule.png)
+    ![Create Schedule](/static/images/manage-schedule/manage-report-schedules/create-schedule.png)
 
 2. When the dialog box opens, the category and report values are preselected by default.
 
-    ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/category-report-preselect.png)
+    ![Create Schedule](/static/images/manage-schedule/manage-report-schedules/category-report-preselect.png)
 
     > Categories or Reports can be changed from the schedule dialog box.
 
@@ -62,19 +62,19 @@ The **Schedules** page in the Report Server has a `Create Schedule` button that 
 
 1. Click `Schedules` in the left side panel of the Report Server, and then click the `Create Schedule` button.
 
-    ![Create Schedule from schedule page](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/add-schedule-from-schedule-page.png)
+    ![Create Schedule from schedule page](/static/images/manage-schedule/manage-report-schedules/add-schedule-from-schedule-page.png)
 
 2. Select the required category from the `Category` dropdown. After you select the category, the reports under that category appear in the `Report` dropdown.
 
-    ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-category.png)
+    ![Create Schedule](/static/images/manage-schedule/manage-report-schedules/select-category.png)
 
 3. Select the required report from the dropdown.
 
-    ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-report.png)
+    ![Create Schedule](/static/images/manage-schedule/manage-report-schedules/select-report.png)
 
 4. Select the export name from the dropdown options, which include Schedule Name, Report Name, Timestamp and Date Format.
 
-    ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-export-name.png)
+    ![Create Schedule](/static/images/manage-schedule/manage-report-schedules/select-export-name.png)
 
 #### Export FileName predefined variables
 
@@ -91,21 +91,21 @@ The Report Server offers the following predefined variables for the export file 
 
 * When you select the **Send mail without attachment** option, the system sends an email notification without attaching the report if the report has no data.
 
-    ![Set Parameter](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/no-data-options.png)
+    ![Set Parameter](/static/images/manage-schedule/manage-report-schedules/no-data-options.png)
 
 * When you select the **Do not send mail** option, no email is sent if the scheduled report contains no data.
 
-    ![Set Parameter](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/no-data-send-mail.png)
+    ![Set Parameter](/static/images/manage-schedule/manage-report-schedules/no-data-send-mail.png)
 
 ## How do I configure report parameters in a schedule?
 
 The Report Server scheduler dialog displays the parameters available for the report.
 
-![Set Parameter](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/set-parameter.png)
+![Set Parameter](/static/images/manage-schedule/manage-report-schedules/set-parameter.png)
 
 Select the parameter values to schedule and export the reports with these filters.
 
-![Available Parameter](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/available-parameters.png)
+![Available Parameter](/static/images/manage-schedule/manage-report-schedules/available-parameters.png)
 
 > **Note:** To modify the parameter values, enable the `Set Parameters` option in the schedule dialog box.
 
@@ -117,7 +117,7 @@ The `Add Schedule` dialog box in the Report Server lets you select the recurrenc
 
 * The application's time zone appears below the date picker. The start time of the schedule is converted to the client's time zone and shown on the right side for your convenience.
 
-    ![Add Schedule 1](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/add-schedule-1.png)
+    ![Add Schedule 1](/static/images/manage-schedule/manage-report-schedules/add-schedule-1.png)
 
 ## How do I compress and password-protect exported files?
 
@@ -125,7 +125,7 @@ The Report Server schedule dialog lets you compress exported reports into a zip 
 
 * You can compress the exported reports into a zip file by selecting the **Enable File Compression** option in the schedule dialog box. Compression is not mandatory, and you can turn it off at any time by unchecking that option.
 
-    ![File Compression](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/file-compression.png)
+    ![File Compression](/static/images/manage-schedule/manage-report-schedules/file-compression.png)
 
 * You can make exported reports more secure with password protection by enabling the **Enable Password Protection** option in the schedule dialog box. The **Default Password** option is selected by default.
 
@@ -134,7 +134,7 @@ The Report Server schedule dialog lets you compress exported reports into a zip 
 * You can customize the password protection rules for exporting reports by choosing the **Custom Password** option.
 * However, the username or first name is mandatory in the password condition.
 
-    ![Custom Password](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/custom-password.png)
+    ![Custom Password](/static/images/manage-schedule/manage-report-schedules/custom-password.png)
 
 * When you configure a <b>Custom Password</b> for exported reports, the available password conditions depend on the recipient type:
     <ul>
@@ -146,7 +146,7 @@ The Report Server schedule dialog lets you compress exported reports into a zip 
         </li>
     </ul>
 
-    ![Custom Password](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/schedule-custom-password.png)
+    ![Custom Password](/static/images/manage-schedule/manage-report-schedules/schedule-custom-password.png)
 
 For instance, consider a sample user with the following details:
 
@@ -212,7 +212,7 @@ The mail template in a Report Server schedule defines the text that is sent via 
 
 * You can also customize the email template to your preference.
 
-    ![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/customize-email-template1.png)
+    ![Customize Email Template](/static/images/manage-schedule/manage-report-schedules/customize-email-template1.png)
 
 ### Schedule Email Templates
 
@@ -224,7 +224,7 @@ When you configure a schedule email, the **Choose a template** dropdown displays
 * **Timed Report Export** - Uses the system default email template.
 * Templates created for the **Timed Report Export** notification type are listed in the dropdown using their template names. For example, if a template named **test** is created in the Email Templates settings page, it will appear as **test** in the template selection list.
 
-    ![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/schedule-email-template-selection.png)
+    ![Customize Email Template](/static/images/manage-schedule/manage-report-schedules/schedule-email-template-selection.png)
 
 > **NOTE:** When **Inherit default from settings** is selected, the schedule uses the template marked as **Default** in the Email Templates settings page. Any custom templates created for the **Timed Report Export** notification type are also listed in the template dropdown.
 
@@ -250,7 +250,7 @@ Predefined variables in the Report Server mail template insert user and schedule
 
 A Report Server schedule can export reports in one or multiple formats such as **PDF**, **Word**, **Excel**, **HTML**, **PPT**, **CSV**, and **XML**.
 
-![Email Attachment Checkbox](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/multiple-export-types.png)
+![Email Attachment Checkbox](/static/images/manage-schedule/manage-report-schedules/multiple-export-types.png)
 
 > **NOTE:** Multiple selected export formats are delivered as a single `.zip` attachment. When only one export format is selected, the report is attached in the corresponding file format.
 
@@ -260,7 +260,7 @@ The **Email attachment** option in a Report Server schedule sends exported repor
 
 * You can also send the exported reports to external recipients by providing their **Email addresses**. You can add multiple external recipients at once by separating the emails with a comma(,). For example: [recipient1@gmail.com,recipients2@gmail.com].
 
-    ![Email Attachment Checkbox](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/email-attachment-checkbox.png)
+    ![Email Attachment Checkbox](/static/images/manage-schedule/manage-report-schedules/email-attachment-checkbox.png)
 
     > **Note:** Email attachment is selected by default.
 
@@ -272,11 +272,11 @@ The **Combine Recipients** option in a Report Server schedule sends a single ema
 
 * When disabled, separate emails are sent to each selected recipient.
 
-    ![Combine Recipients Option](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/combine-recipients-option.png)
+    ![Combine Recipients Option](/static/images/manage-schedule/manage-report-schedules/combine-recipients-option.png)
 
 * When the **Combine Recipients** option is enabled, the **CC** section becomes available. You can add users, groups, and external recipients as CC recipients.
 
-    ![CC Recipients Section](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/combine-recipients-cc-section.png)
+    ![CC Recipients Section](/static/images/manage-schedule/manage-report-schedules/combine-recipients-cc-section.png)
 
 > **Note:** When the **Combine Recipients** option is selected and no **CC** recipients are added, all selected users, groups, and external recipients in the **To** field receive a single email. When the **Combine Recipients** option is not selected, separate emails are sent to each recipient.
 
@@ -284,8 +284,8 @@ The **Combine Recipients** option in a Report Server schedule sends a single ema
 
 The **Save as file** option in a Report Server schedule saves exported reports to any location.
 
-![Save As Checkbox](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/save-as-checkbox.png)
-![Select Users](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-users.png)
+![Save As Checkbox](/static/images/manage-schedule/manage-report-schedules/save-as-checkbox.png)
+![Select Users](/static/images/manage-schedule/manage-report-schedules/select-users.png)
 
 #### Local Export
 
@@ -307,7 +307,7 @@ Local export in a Report Server schedule saves the exported report to a folder. 
 
 FTP or SFTP export in a Report Server schedule saves the exported file at a network location.
 
-![FTP Location](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/ftp-location.png)
+![FTP Location](/static/images/manage-schedule/manage-report-schedules/ftp-location.png)
 
 * To save the exported file at a network location, you must provide the path in UNC(Universal Naming Convention). For example, `ftp://192.168.203.23/Export` or `sftp://192.168.203.23/Export`.
 
@@ -330,9 +330,9 @@ S3 Bucket Location Export in a Report Server schedule exports reports directly t
 
 **Credential Type:** Select either **Access Key** or **KMS Key** to authenticate and access the Amazon S3 bucket.
 
-![S3 Bucket](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/access-key-schedule.png)
+![S3 Bucket](/static/images/manage-schedule/manage-report-schedules/access-key-schedule.png)
 
-![S3 Bucket](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/kms-key-schedule.png)
+![S3 Bucket](/static/images/manage-schedule/manage-report-schedules/kms-key-schedule.png)
 
 > **NOTE:** When using the **KMS Key** credential type, the environment hosting the {{site.productNameTM}} application must have the required permissions to access both the Amazon S3 bucket and the specified AWS KMS key.
 
@@ -342,13 +342,13 @@ You can set the default export location in the [schedule report settings](./../.
 
 The reply to email option in a Report Server schedule becomes enabled when an email attachment is selected. You can specify a `Reply-To` email address. When recipients reply to the scheduled email, replies go to the configured address instead of the sender’s email.
 
-![Reply to Email](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/reply-to-email.png)
+![Reply to Email](/static/images/manage-schedule/manage-report-schedules/reply-to-email.png)
 
 #### Sending Schedule failure notification to the owner and recipients
 
 The Report Server supports sending notifications of schedule failure to both the schedule owner and recipients. If a schedule export fails, an email containing a failure error message can be sent to both the owner and recipients.
 
-![Sending Failure Status](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/sending-failure-status.png)
+![Sending Failure Status](/static/images/manage-schedule/manage-report-schedules/sending-failure-status.png)
 
 > **Note:** When scheduling emails, attachment size limits can cause failures if the total email size exceeds the allowed threshold. See the [email service sending limits KB article](https://support.boldreports.com/agent/kb/19380) for the email service and its sending limits.
 
@@ -356,30 +356,30 @@ The Report Server supports sending notifications of schedule failure to both the
 
 The **Run Now** option in the Report Server schedule grid context menu runs a schedule on demand. The report is exported in the specified format and sent to the recipients via email, along with a link to the report in {{site.productNameTM}}.
 
-![Run now schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/run-now-schedule.png)
+![Run now schedule](/static/images/manage-schedule/manage-report-schedules/run-now-schedule.png)
 
 ## How do I view the run history of a schedule?
 
 The **Run History** option in the Report Server schedule grid context menu shows the run history of a schedule.
 
-![Run History](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/run-history-option.png)
-![Dialog Box](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/product-line-sales-dialog.png)
+![Run History](/static/images/manage-schedule/manage-report-schedules/run-history-option.png)
+![Dialog Box](/static/images/manage-schedule/manage-report-schedules/product-line-sales-dialog.png)
 
 You can also view failure information by clicking the failed link in the Run History dialog.
 
-![Failure Info](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/failure-info.png)
+![Failure Info](/static/images/manage-schedule/manage-report-schedules/failure-info.png)
 
 ## How do I enable or disable a schedule?
 
 You can disable a Report Server schedule at any time, and it ignores any future occurrences. When you enable it again, it gets the next occurrence and runs accordingly.
 
-![Enable Disable Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/enable-disable-schedule.png)
+![Enable Disable Schedule](/static/images/manage-schedule/manage-report-schedules/enable-disable-schedule.png)
 
 ## How do I edit a schedule?
 
 The **Edit Schedule** dialog box in the Report Server lets you change the category, report, name, recurrence type, recurrence interval, start and end dates, export format, and recipients.
 
-![Enable Disable Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/edit-schedule.png)
+![Enable Disable Schedule](/static/images/manage-schedule/manage-report-schedules/edit-schedule.png)
 
 ## How do I delete a schedule?
 
@@ -388,7 +388,7 @@ You can delete schedules from the Report Server when you no longer need them.
 1. Click the **Actions** button in the schedules grid context menu.
 2. Select **Delete** to delete the schedule.
 
-![Delete schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/delete-schedule.png)
+![Delete schedule](/static/images/manage-schedule/manage-report-schedules/delete-schedule.png)
 
 ## REST API reference
 

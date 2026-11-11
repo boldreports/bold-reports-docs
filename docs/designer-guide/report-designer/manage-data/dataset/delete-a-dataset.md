@@ -14,15 +14,15 @@ You delete a dataset from the `DATA` panel of the {{site.productNameTM}} Web Rep
 
 1. Select the data in the `DATA` panel that you want to delete.
 
-   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=385px')
+   ![Data item menu icon](/static/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=385px')
 
 2. Click the highlighted icon shown in the previous image to open the context menu for the selected data.
 
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png '#width=385px')
+   ![Data panel context menu](/static/images/report-designer/manage-data/dataset/data-panel-context-menu.png '#width=385px')
 
 3. Choose `Delete` from the context menu. The confirmation dialog opens, as shown below.
 
-   ![Delete data confirmation](/static/assets/on-premise/images/report-designer/manage-data/dataset/delete-data-confirmation.png '#width=345px')
+   ![Delete data confirmation](/static/images/report-designer/manage-data/dataset/delete-data-confirmation.png '#width=345px')
 
 4. Click the `Yes` button to remove the data from the report data list.
 

@@ -91,23 +91,23 @@ You connect GitHub by creating a project in Bold Data Hub and adding the `GitHub
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Project` and enter a name for the new project.
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created project and add the `GitHub` template.
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/githubaddtemplate.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/githubaddtemplate.png#max-width=100%)
 
 4. Update the access token and repo in the template and save it to the Data Store.
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/github_template.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/github_template.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![FileSystem - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![FileSystem - DataHub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 >**Warning:**
 
@@ -120,21 +120,21 @@ You schedule the GitHub pipeline in Bold Data Hub from the schedules tab, or you
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![GitHub - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![GitHub - DataHub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

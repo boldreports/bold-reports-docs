@@ -12,13 +12,13 @@ To use JSON data in {{site.productNameTM}}, create a JSON data source that retri
 To create a JSON data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the JSON connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![New Data Panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=355px')
+   ![New Data Panel](/static/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=355px')
 3. In the connection type panel, choose the `JSON` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/connection-types.png '#width=355px')
+   ![Connection types panel](/static/images/report-designer/manage-data/json-data-source/connection-types.png '#width=355px')
 4. Specify the data source name without special characters in the **Name** field.
-   ![JSON datasource properties](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/initial-panel.png '#width=350px')
+   ![JSON datasource properties](/static/images/report-designer/manage-data/json-data-source/initial-panel.png '#width=350px')
 
 You can connect JSON data using the following three options:
 
@@ -26,7 +26,7 @@ You can connect JSON data using the following three options:
 * **File Path** - Load from disk.
 * **External** - Load from external URL.
 
-![Source types](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/types.png '#width=325px')
+![Source types](/static/images/report-designer/manage-data/json-data-source/types.png '#width=325px')
 
 ### Inline data
 
@@ -54,42 +54,42 @@ To use inline JSON data in the {{site.productNameTM}} Web Report Designer, paste
    ```
 
 3. Click `Connect` to open the query design pane. The query design pane shows the specified JSON data's structure in the left pane.
-   ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/left-schema.png '#width=410px')
+   ![Left schema](/static/images/report-designer/manage-data/json-data-source/left-schema.png '#width=410px')
 4. Drag and drop the table from the left pane in the query design view page and execute.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/execute-schema.png)
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/execute-schema.png)
 5. Click `Finish` to save the data source with a relevant name and continue designing the report.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/data-list.png '#width=355px')
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/data-list.png '#width=355px')
 
 ### Load from disk
 
 To load a JSON file from disk in the {{site.productNameTM}} Web Report Designer, upload the file and connect.
 
 1. Choose the `File` option in the `Type` field. The upload option appears, as shown in the following image.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/file-upload-option.png '#width=335px')
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/file-upload-option.png '#width=335px')
 2. Click the three-dotted button to open the upload box. Browse the JSON file and click open.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/browse-file.png '#width=410px')
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/browse-file.png '#width=410px')
 3. Click `Connect` to open the query design pane.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/connect-data.png '#width=385px')
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/connect-data.png '#width=385px')
 4. The query design pane shows the specified JSON data's structure in the left pane.
-   ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/json-file-left-schema.png '#width=355px')
+   ![Left schema](/static/images/report-designer/manage-data/json-data-source/json-file-left-schema.png '#width=355px')
 5. Drag and drop the table from the left pane in the query design view page and execute.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/execute-schema-file.png)
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/execute-schema-file.png)
 6. Click `Finish` to save the data source with a relevant name and continue designing the report.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/file-data-list.png '#width=385px')
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/file-data-list.png '#width=385px')
 
 ### Load from external URL
 
 To load JSON data from an external URL in the {{site.productNameTM}} Web Report Designer, specify the URL and connect.
 
 1. Choose the `External` option in the `Type` field.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/external-type.png '#width=385px')
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/external-type.png '#width=385px')
 2. Specify an external URL in the `External` text area.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/specify-web-service.png '#width=385px')
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/specify-web-service.png '#width=385px')
 3. Click `Connect` to open the query design pane. The query design pane shows the specified JSON data's structure in the left pane.
 4. Drag and drop the table from the left pane in the query design view page and execute.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/execute-schema-external.png)
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/execute-schema-external.png)
 5. Click `Finish` to save the data source with a relevant name and continue designing the report.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/external-data-list.png '#width=355px')
+   ![New connection panel](/static/images/report-designer/manage-data/json-data-source/external-data-list.png '#width=355px')
 
    > **Note:**
    > * In schema tree, the nested fields in the JSON data will be shown as flat structure.

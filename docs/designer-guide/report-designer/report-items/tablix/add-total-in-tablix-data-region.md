@@ -14,12 +14,12 @@ You add a total to the tablix body in the {{site.productNameTM}} Web Report Desi
 
 1. Select the cell that contains a numeric field in the tablix data region body area.
 2. Right-click in the cell and click the `Add Total` option in the menu.
-   ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/open-cell-menu.png '#width=385px')
+   ![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/open-cell-menu.png '#width=385px')
 3. Check that a new row or column is added outside the respective cell in the data region.
-   ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/add-total-to-body-cell-output.png '#width=385px')
+   ![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/add-total-to-body-cell-output.png '#width=385px')
 
 If the cell in the body area is common to a row and column group, as shown in the following image, the `Row` and `Column` options are listed in the `Add Total` menu.
-![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/row-and-column-total-menu.png '#width=385px')
+![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/row-and-column-total-menu.png '#width=385px')
 
 ## How do I add a total for a row group?
 
@@ -27,13 +27,13 @@ You add a row group total in the {{site.productNameTM}} Web Report Designer by c
 
 1. Select the cell in the row group area for which you want a total in the tablix data region.
 2. Right-click in the cell and click the `Add Total` option in the menu.
-   ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/add-total-row-group-menu.png '#width=385px')
+   ![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/add-total-row-group-menu.png '#width=385px')
 3. Click the `Before` or `After` option to add the total before or after a group in the tablix data region.
 4. Check that a new row is added outside the current group in the data region, with a default total for each numeric field in the row.
     * **Add total before**:
-        ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/row-group-add-total-before.png '#width=385px')
+        ![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/row-group-add-total-before.png '#width=385px')
     * **Add total after**:
-        ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/row-group-add-total-after.png '#width=385px')
+        ![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/row-group-add-total-after.png '#width=385px')
 
 ## How do I add a total for a column group?
 
@@ -41,13 +41,13 @@ You add a column group total in the {{site.productNameTM}} Web Report Designer b
 
 1. Select the cell in the column group area for which you want a total in the tablix data region.
 2. Right-click in the cell and click the `Add Total` option in the menu.
-   ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/add-total-column-group-menu.png '#width=385px')
+   ![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/add-total-column-group-menu.png '#width=385px')
 3. Click the `Before` or `After` option to add the total before or after a group in the tablix data region.
 4. Check that a new column is added outside the current group in the data region, with a default total for each numeric field in the column.
     * **Add total before**:
-        ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/column-group-add-total-before.png '#width=385px')
+        ![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/column-group-add-total-before.png '#width=385px')
     * **Add total after**:
-        ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/add-total-to-tablix-data-region/column-group-add-total-after.png '#width=385px')
+        ![Enable grouping panel](/static/images/report-designer/report-items/add-total-to-tablix-data-region/column-group-add-total-after.png '#width=385px')
 
 ## Frequently asked questions
 

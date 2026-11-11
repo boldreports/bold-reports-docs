@@ -12,11 +12,11 @@ To connect {{site.productNameTM}} to an Amazon Redshift database, open the **Dat
 To create an Amazon Redshift data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Amazon Redshift connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
 3. In the connection type panel, choose the `Amazon Redshift` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/amazon-redshift-data-source/connection-types.png '#width=350px')
+   ![Connection types panel](/static/images/report-designer/manage-data/amazon-redshift-data-source/connection-types.png '#width=350px')
 
 ### How do I configure the basic options?
 
@@ -27,15 +27,15 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 3. Enter a valid Amazon Redshift username in the **UserName** text box.
 4. Enter a valid Amazon Redshift password in the **Password** text box.
 5. Select a database that you want to query in the listed database associated with the given Amazon Redshift server in the database drop-down.
-   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/amazon-redshift-data-source/basic-options.png '#width=350px')
+   ![Web datasource properties](/static/images/report-designer/manage-data/amazon-redshift-data-source/basic-options.png '#width=350px')
 6. Click `Connect` to open the query design pane.
 7. Enter the required query and execute it. The corresponding values appear in a grid for preview.
 
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/amazon-redshift-data-source/execute-schema.png)
+   ![New connection panel](/static/images/report-designer/manage-data/amazon-redshift-data-source/execute-schema.png)
 
 8. Click `Finish` to save the data source with a relevant name and continue designing the report.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/amazon-redshift-data-source/data-list.png '#width=350px')
+![New connection panel](/static/images/report-designer/manage-data/amazon-redshift-data-source/data-list.png '#width=350px')
 
 ## Frequently asked questions
 

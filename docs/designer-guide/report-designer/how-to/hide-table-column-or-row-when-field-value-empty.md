@@ -15,12 +15,12 @@ documentation: ug
 You hide an empty table column in {{site.productNameTM}} Report Designer by setting an `IsNothing` expression on the column's **Visibility** property.
 
 1. Drag and drop the table, select the dataset, and assign the field values. Select the tablix, enable the advanced mode, and set the visibility expression for the columns to hide them when they contain empty data.
-   ![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-table-design.png)
-   ![table deisgn advanced](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-table-design-advanced.png)
+   ![table deisgn](/static/images/report-designer/how-to/hide-row-column/hide-column-table-design.png)
+   ![table deisgn advanced](/static/images/report-designer/how-to/hide-row-column/hide-column-table-design-advanced.png)
 2. In the Properties window or pane, find the **Visibility** property. Click the expression button (a white box) next to the `Visibility` property.
-   ![hide column visibility](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-visibility.png)
+   ![hide column visibility](/static/images/report-designer/how-to/hide-row-column/hide-column-visibility.png)
 3. The Expression Editor opens, where you define the logic for hiding the column based on data presence. Enter the following expression, selecting the field that indicates the absence of data:
-   ![hide column visibility expression](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-visibility-expression.png)
+   ![hide column visibility expression](/static/images/report-designer/how-to/hide-row-column/hide-column-visibility-expression.png)
 
    ```csharp
     =IsNothing(<Your_field_name>)
@@ -34,7 +34,7 @@ You hide an empty table column in {{site.productNameTM}} Report Designer by sett
 
 4. Click the **OK** option to save the Expression Editor.
 5. Save your report and `preview` it. The column visibility now adjusts dynamically based on the availability of data.
-   ![output-column](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-output.png)
+   ![output-column](/static/images/report-designer/how-to/hide-row-column/hide-column-output.png)
 
 > The IsNothing(Fields!Clothing.Value) expression evaluates to True when the field value is null or empty, and False when it contains data. By setting the **Visibility** property to False, the column will be hidden when the expression evaluates to True.
 
@@ -45,12 +45,12 @@ You can download the finished sample report from the [hide empty column sample r
 You hide an empty table row in {{site.productNameTM}} Report Designer by setting an `IsNothing` expression on the row's **Visibility** property.
 
 1. Drag and drop the table, select the dataset, and assign the field values. Select the tablix, enable the advanced mode, and set the visibility expression for the rows to hide them when they contain empty data.
-   ![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-table-design.png)
-   ![table deisgn advanced](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-table-design-advanced.png)
+   ![table deisgn](/static/images/report-designer/how-to/hide-row-column/hide-row-table-design.png)
+   ![table deisgn advanced](/static/images/report-designer/how-to/hide-row-column/hide-row-table-design-advanced.png)
 2. In the Properties window or pane, find the **Visibility** property. Click the expression button (a white box) next to the `Visibility` property.
-   ![hide row visibility](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-visibility.png)
+   ![hide row visibility](/static/images/report-designer/how-to/hide-row-column/hide-row-visibility.png)
 3. The Expression Editor opens, where you define the logic for hiding the row based on data presence. Enter the following expression, selecting the field that indicates the absence of data:
-   ![hide row visibility expression](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-visibility-expression.png)
+   ![hide row visibility expression](/static/images/report-designer/how-to/hide-row-column/hide-row-visibility-expression.png)
 
    ```csharp
     =IsNothing(<Your_field_name>)
@@ -64,7 +64,7 @@ You hide an empty table row in {{site.productNameTM}} Report Designer by setting
 
 4. Click the **OK** option to save the Expression Editor.
 5. Save your report and `preview` it. The row visibility now adjusts dynamically based on the availability of data.
-   ![output-row](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-output.png)
+   ![output-row](/static/images/report-designer/how-to/hide-row-column/hide-row-output.png)
 
 > The IsNothing(Fields!Bikes.Value) expression evaluates to True when the field value is null or empty, and False when it contains data. By setting the **Visibility** property to False, the row will be hidden when the expression evaluates to True.
 

@@ -1,14 +1,15 @@
 import React from 'react';
+import { withPrefix } from 'gatsby';
+import config from '../../config.json';
 import Header from '../components/Header'
-import Footer from '../components/Footer'
 import '../assets/css/404.css'
 
 const ErrorTemplate = () => {
 	return <>
-		<title>File Not Found | 404 | Bold Reports</title>
+		<title>{`File Not Found | 404 | ${config.product.name}`}</title>
 		<meta charSet="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="https://demos.boldreports.com/home/favicon.ico" />
+		<link rel="shortcut icon" href={withPrefix("/favicon.ico")} />
 		<meta name="description" content="The documentation page you are looking for is not available. It may have been moved to a new location or been removed." />
 		<link
 			rel="stylesheet"
@@ -77,7 +78,6 @@ const ErrorTemplate = () => {
 			</div>
 		</div>
 		
-		<Footer />
 	</>
 }
 

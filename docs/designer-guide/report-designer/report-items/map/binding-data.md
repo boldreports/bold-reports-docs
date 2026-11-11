@@ -17,21 +17,21 @@ Before you bind data to a map in the {{site.productNameTM}} Web Report Designer,
 You match analytical and shape data in the {{site.productNameTM}} Web Report Designer through the **Binding Field Pairs** panel. Follow these steps:
 
 1. In the properties panel, under the **Basic Settings** category, choose **World Map** in the **Shapes** property and the dataset in the **DataSet** property.
-   ![Set shape data and analytical data](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/select-shape-and-dataset.png '#width=385px')
+   ![Set shape data and analytical data](/static/images/report-designer/report-items/map/binding-data/select-shape-and-dataset.png '#width=385px')
 2. Click the edit icon for the `Binding Data` property under **Basic Settings**.
-   ![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/edit-icon.png '#width=385px')
+   ![Edit analytical and spatial link](/static/images/report-designer/report-items/map/binding-data/edit-icon.png '#width=385px')
 3. Use the **Binding Field Pairs** panel that opens to link the analytical data and shape data.
-   ![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/binding-field-pairs-panel.png '#width=385px')
+   ![Edit analytical and spatial link](/static/images/report-designer/report-items/map/binding-data/binding-field-pairs-panel.png '#width=385px')
 4. Click the **ADD** icon in the top-right corner. **Field Name** is a shape field, and **Binding expression** is an analytical field.
-   ![Add new binding expression](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/add-binding-expression.png '#width=385px')
+   ![Add new binding expression](/static/images/report-designer/report-items/map/binding-data/add-binding-expression.png '#width=385px')
     * The **Field Name** dropdown lists the available fields in the selected shape data.
-       ![Field name](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/field-name-drop-down.png '#width=385px')
+       ![Field name](/static/images/report-designer/report-items/map/binding-data/field-name-drop-down.png '#width=385px')
     * The **Binding expression** dropdown lists the available fields in the selected dataset.
-       ![Binding expression](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/binding-expression.png '#width=385px')
+       ![Binding expression](/static/images/report-designer/report-items/map/binding-data/binding-expression.png '#width=385px')
 
       For example, to match the map surface with the country name, choose **admin** in the **Field Name** dropdown and choose the **=Fields!Country.Value** expression in the **Binding Expression** dropdown. You can also set expressions that evaluate to a field value in the **Field Name** and **Binding expression** dropdowns.
 
-      ![Link shape and analytical data](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/link-shape-analytical.png '#width=385px')
+      ![Link shape and analytical data](/static/images/report-designer/report-items/map/binding-data/link-shape-analytical.png '#width=385px')
 
       > The **admin** field holds the names of the countries in the world.
 
@@ -47,7 +47,7 @@ To delete an existing binding relationship in the {{site.productNameTM}} map rep
 2. Click the `Delete` icon in the right corner of the binding expression you want to remove.
 3. Click **Update**.
 
-![Delete binding expression](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/delet-binding-expression.png '#width=385px')
+![Delete binding expression](/static/images/report-designer/report-items/map/binding-data/delet-binding-expression.png '#width=385px')
 
 ## Frequently asked questions
 

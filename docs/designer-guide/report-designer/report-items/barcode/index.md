@@ -17,27 +17,27 @@ One-dimensional barcodes in {{site.productNameTM}} represent data in the widths 
 You add a one-dimensional barcode from the `Barcodes` category of the Web Report Designer item panel.
 
 1. Find the one-dimensional barcode report item, which is listed in the item panel under the `Barcodes` category.
-   ![Barcodes listed in item panel](/static/assets/on-premise/images/report-designer/report-items/barcode/barcode-item-in-item-panel.png '#width=245px')
+   ![Barcodes listed in item panel](/static/images/report-designer/report-items/barcode/barcode-item-in-item-panel.png '#width=245px')
 2. Drag the 1-D barcode report item from the item panel and drop it into the design area.
-   ![Drag and drop barcode report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/drag-and-drop-1D-barcode.png '#width=425px')
+   ![Drag and drop barcode report item into design area](/static/images/report-designer/report-items/barcode/drag-and-drop-1D-barcode.png '#width=425px')
 3. Review the properties panel. Once you drop the barcode item into the design area, its item properties are listed in the properties panel.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-barcode-properties.png '#width=425px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/1D-barcode-properties.png '#width=425px')
 
 ### Properties
 
 The properties required to generate 1D barcodes in the Web Report Designer are listed under the `Basic Settings` category in the properties panel.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-basic-settings.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/1D-basic-settings.png '#width=385px')
 
 <span style="font-weight:bold">Symbology Type</span>
 
 The `Symbology Type` drop-down list provides the supported 1D barcode symbologies.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/symbology-types.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/symbology-types.png '#width=385px')
 
 To change the type of an existing 1D barcode in the report, select the barcode item and choose the symbology type in the drop-down. The report design then renders the selected 1D barcode type.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/symbology-design.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/symbology-design.png '#width=385px')
 
 <span style="font-weight:bold">Text</span>
 
@@ -46,15 +46,15 @@ The `Text` property specifies the value to be encoded in the barcode.
 Each barcode type requires a different type and length of input value for encoding, so provide valid values for the 1D barcode type. The [Supported Barcode Types](./../../report-items/barcode/supported-barcode-types/) section lists the supported barcode types and their valid input values.
 If you provide invalid values, the barcode item displays an error message, as shown below.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/invalid-encoding.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/invalid-encoding.png '#width=385px')
 
 You can also encode values in barcodes dynamically by using `Expressions`.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-barcode-expression-menu.png '#width=355px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/1D-barcode-expression-menu.png '#width=355px')
 
 In the expression builder, create an expression using built-in functions or data fields and click `OK`.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-expression-demo.png)
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/1D-expression-demo.png)
 
 The expression value is then encoded in the barcode at run time. Refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections to open the set or reset expression menu in the properties panel.
 
@@ -62,26 +62,26 @@ The expression value is then encoded in the barcode at run time. Refer to the [S
 
 The `Text Visibility` property shows or hides the label text of the barcode. The label shows the value of the barcode. The following images show the `Code39` barcode with and without label text.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-label-visible.png '#width=410px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/1D-label-visible.png '#width=410px')
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-label-hidden.png '#width=410px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/1D-label-hidden.png '#width=410px')
 
 <span style="font-weight:bold">Rotation</span>
 
 The `Rotation` property determines how a 1D barcode is displayed within the report. You can select the required orientation from the Rotation drop-down menu.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-barcode-rotation-menu.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/1D-barcode-rotation-menu.png '#width=385px')
 
 To update the orientation of a 1D barcode, select the barcode item in the Web Report Designer and choose a rotation value from the Rotation list. The barcode is displayed according to the selected orientation in both the design view and the generated report.
 
 1. `None` - Displays the 1D barcode in its default orientation.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/Rotation-type-none.png '#width=385px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/Rotation-type-none.png '#width=385px')
 2. `90` - Displays the 1D barcode rotated 90 degrees clockwise.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/Rotation-type-90.png '#width=385px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/Rotation-type-90.png '#width=385px')
 3. `180` - Displays the 1D barcode rotated 180 degrees from its default orientation.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/Rotation-type-180.png '#width=385px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/Rotation-type-180.png '#width=385px')
 4. `270` - Displays the 1D barcode rotated 270 degrees clockwise.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/Rotation-type-270.png '#width=385px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/Rotation-type-270.png '#width=385px')
 
 ## What are two-dimensional barcodes?
 
@@ -92,41 +92,41 @@ Two-dimensional (2D) barcodes in {{site.productNameTM}} code large amounts of in
 You add a two-dimensional barcode from the `Barcodes` category of the Web Report Designer item panel.
 
 1. Find the two-dimensional barcode report item, which is listed in the item panel under the `Barcodes` category.
-   ![Barcodes listed in item panel](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-barcode-item-in-item-panel.png '#width=245px')
+   ![Barcodes listed in item panel](/static/images/report-designer/report-items/barcode/2D-barcode-item-in-item-panel.png '#width=245px')
 2. Drag the 2-D barcode report item from the item panel and drop it into the design area.
-   ![Drag and drop barcode report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/drag-and-drop-2D-barcode.png '#width=410px')
+   ![Drag and drop barcode report item into design area](/static/images/report-designer/report-items/barcode/drag-and-drop-2D-barcode.png '#width=410px')
 3. Review the properties panel. Once you drop the barcode item into the design area, its item properties are listed in the properties panel.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-barcode-properties.png)
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-barcode-properties.png)
 
 ### Properties
 
 The properties required to generate a 2D barcode item in the Web Report Designer are listed under the `Basic Settings` category in the properties panel.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-basic-settings.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-basic-settings.png '#width=385px')
 
 <span style="font-weight:bold">Symbology Type</span>
 
 The `Symbology Type` drop-down list provides the supported 2D barcode symbologies.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-symbology-types.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-symbology-types.png '#width=385px')
 
 To change the type of an existing 2D barcode in the report, select the barcode item and choose the symbology type in the drop-down. The report design then renders the selected 2D barcode type.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-symbology-design.png '#width=410px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-symbology-design.png '#width=410px')
 
 <span style="font-weight:bold">Text</span>
 
 The `Text` property specifies the value to be encoded in the 2D barcode.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-text-property.png '#width=410px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-text-property.png '#width=410px')
 
 You can also encode values in barcodes dynamically by using `Expressions`.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/expression-menu.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/expression-menu.png '#width=385px')
 
 In the expression builder, create an expression using built-in functions or data fields and click `OK`.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-expression-demo.png)
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/1D-expression-demo.png)
 
 The expression value is then encoded in the barcode at run time. Refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections to open the set or reset expression menu in the properties panel.
 
@@ -134,9 +134,9 @@ The expression value is then encoded in the barcode at run time. Refer to the [S
 
 The `Text Visibility` property shows or hides the label text of the barcode. The label shows the value of the barcode. The following images show the `QR` barcode with and without label text.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-label-visible.png '#width=410px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-label-visible.png '#width=410px')
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-label-hidden.png '#width=410px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-label-hidden.png '#width=410px')
 
 > Note: The `Text Visibility` property is only supported for QR Barcode.
 
@@ -149,7 +149,7 @@ The `Correction Level` property determines the amount of error recovery applied 
 <span style="font-weight:bold">QR Barcode</span>
 
 The `QR Barcode` symbology type supports multiple correction level options that you can select from the Correction Level drop-down list.
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/Qr-barcode-correction-menu.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/Qr-barcode-correction-menu.png '#width=385px')
 
 * <span style="font-weight:bold">Low</span> - The `Low` correction level provides a basic level of error correction while maximizing the amount of data that can be stored in the barcode.
 
@@ -162,7 +162,7 @@ The `QR Barcode` symbology type supports multiple correction level options that 
 <span style="font-weight:bold">PDF417</span>
 
 The `PDF417` symbology type supports multiple correction level options that you can select from the `Correction Level` drop-down list. The available options include `Auto` and error correction levels ranging from `Level 0` to `Level 8`.
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/PDF417-correction-menu.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/PDF417-correction-menu.png '#width=385px')
 
 * <span style="font-weight:bold">Auto</span> - The `Auto` option automatically selects an appropriate correction level based on the barcode content and the amount of data being encoded.
 
@@ -172,18 +172,18 @@ The `PDF417` symbology type supports multiple correction level options that you 
 
 The `Rotation` property specifies the angle at which the 2D barcode is displayed. The selected rotation setting is applied when rendering the barcode in the report. The `Rotation` drop-down list provides the supported rotation options.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-barcode-rotation-menu.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-barcode-rotation-menu.png '#width=385px')
 
 To change the orientation of an existing 2D barcode, select the barcode item and choose the required rotation value from the Rotation drop-down list.
 
 1. `None` - Displays the 2D barcode in its default orientation.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-Rotation-type-none.png '#width=385px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-Rotation-type-none.png '#width=385px')
 2. `90` - Displays the 2D barcode rotated 90 degrees clockwise.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-Rotation-type-90.png '#width=385px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-Rotation-type-90.png '#width=385px')
 3. `180` - Displays the 2D barcode rotated 180 degrees from its default orientation.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-Rotation-type-180.png '#width=385px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-Rotation-type-180.png '#width=385px')
 4. `270` - Displays the 2D barcode rotated 270 degrees clockwise.
-   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-Rotation-type-270.png '#width=385px')
+   ![Barcode item with properties view](/static/images/report-designer/report-items/barcode/2D-Rotation-type-270.png '#width=385px')
 
 ## General properties
 
@@ -200,7 +200,7 @@ The border style, color, width, and background color properties style the barcod
 ### Link
 
 The Linking property in {{site.productNameTM}} lets you create interactive and user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. Refer to the [Linking](./../../compose-report/link-data/) section to know more about linking.
-![Barcode link property](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
+![Barcode link property](/static/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
 
 ### Border
 
@@ -210,7 +210,7 @@ The border properties add or customize the border around a barcode item to visua
 
 The background color property colors the barcode background. To set the background color using the properties panel, refer to the [Background color](./../../compose-report/common-properties/#background-color) section.
 
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/appearance.png '#width=385px')
+![Barcode item with properties view](/static/images/report-designer/report-items/barcode/appearance.png '#width=385px')
 
 ### Position
 
@@ -238,7 +238,7 @@ You can set static or dynamic text as the value for the bookmark property. To se
 
 The `Custom Style` property enables the use of external CSS for styling report items, providing more flexibility than the built-in styling options. Use this property to meet specific design requirements and maintain consistent styling across multiple reports. For a step-by-step guide on setting up custom styles in your report, check the **How To*** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/barcode/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/barcode/custom-style-property.png '#width=355px')
 
 ## How do I set an expression?
 

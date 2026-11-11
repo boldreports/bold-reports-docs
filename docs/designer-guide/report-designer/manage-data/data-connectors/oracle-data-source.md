@@ -14,11 +14,11 @@ Using the `Oracle` connection type in the {{site.productNameTM}} Web Report Desi
 To choose the Oracle data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and select the Oracle connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![New Data Panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
+   ![New Data Panel](/static/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
 3. In the connection type panel, choose the `Oracle` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/connection-types.png '#width=350px')
+   ![Connection types panel](/static/images/report-designer/manage-data/oracle-data-source/connection-types.png '#width=350px')
 
 ### How do I create an Oracle data source with basic options?
 
@@ -33,12 +33,12 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 6. Specify the password of your Oracle server in the **Password** field.
 7. Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 8. Choose or enter an existing valid database, e.g. ADVENTUREWORKS.
-   ![Basic Option](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/basic-options.png '#width=355px')
+   ![Basic Option](/static/images/report-designer/manage-data/oracle-data-source/basic-options.png '#width=355px')
 9. Click `Connect` to connect {{site.productNameTM}} with the Oracle database.
 10. Drag and drop the table from the table schema in the query design view page.
-    ![Query Designer](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/query-designer.png)
+    ![Query Designer](/static/images/report-designer/manage-data/oracle-data-source/query-designer.png)
 11. Click `Finish` to save the data source with a relevant name and continue designing the report.
-    ![Data List](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/data-list.png '#width=355px')
+    ![Data List](/static/images/report-designer/manage-data/oracle-data-source/data-list.png '#width=355px')
 
 ### How do I create an Oracle data source with advanced options?
 
@@ -46,7 +46,7 @@ The {{site.productNameTM}} advanced options let you build your own connection st
 
 1. Click `Advanced Options` in the `New Data` panel.
 
-   ![Advance Option](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/advanced-options.png '#width=355px')
+   ![Advance Option](/static/images/report-designer/manage-data/oracle-data-source/advanced-options.png '#width=355px')
 
 2. The panel switches to Advanced Options. Enter a valid connection string, as shown below, and an authentication type to connect with the specified data source.
 
@@ -56,18 +56,18 @@ The {{site.productNameTM}} advanced options let you build your own connection st
 
 3. Set the connection string and input the username and password of the Oracle server.
 
-   ![Advance Connection](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/advanced-connection.png '#width=355px')
+   ![Advance Connection](/static/images/report-designer/manage-data/oracle-data-source/advanced-connection.png '#width=355px')
 
 4. Drag and drop the table from the table schema in the query design view page.
 
-   ![Query Designer](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/query-designer.png)
+   ![Query Designer](/static/images/report-designer/manage-data/oracle-data-source/query-designer.png)
 
 5. Click `Finish` to save the data source with a relevant name and continue designing the report.
 
-![Data List](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/data-list.png '#width=355px')
+![Data List](/static/images/report-designer/manage-data/oracle-data-source/data-list.png '#width=355px')
 
 > Click `Basic Options` to switch back to the basic connection settings.
-![Switch Basic Option](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/switch-basic-options.png '#width=355px')
+![Switch Basic Option](/static/images/report-designer/manage-data/oracle-data-source/switch-basic-options.png '#width=355px')
 
 #### Connection string
 
@@ -89,11 +89,11 @@ Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=myserver.dom
 
 The {{site.productNameTM}} Oracle data source supports Oracle database credentials, prompted credentials, or no credentials.
 
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/advanced-authentication.png '#width=385px')
+![Advanced authentication](/static/images/report-designer/manage-data/oracle-data-source/advanced-authentication.png '#width=385px')
 
 **Authentication** - A user name and password must be supplied to access the oracle database, the credentials might be for a database login. The credentials are passed to the data source for authentication.
 
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/authentication.png '#width=385px')
+![Advanced authentication](/static/images/report-designer/manage-data/oracle-data-source/authentication.png '#width=385px')
 
 Enable the Save password option to embed the credentials within the report when saving it in Report Server.
 
@@ -101,7 +101,7 @@ Enable the Save password option to embed the credentials within the report when 
 
 **Prompt** - When you configure a data source connection to use prompted credentials, each user who accesses the report must enter a user name and password on preview action to retrieve the data.
 
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/prompt.png '#width=385px')
+![Advanced authentication](/static/images/report-designer/manage-data/oracle-data-source/prompt.png '#width=385px')
 
 **None** - Choose the authentication type as `None` when the authentication details or any other arguments required to connect with the data source are provided in the connection string.
 

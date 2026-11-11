@@ -15,7 +15,7 @@ Bold Data Hub in {{site.productNameTM}} sends pipeline **mail alerts** through t
 
 The following screenshot shows the **Email settings** section in the Bold Data Hub **Settings** tab.
 
-![Email Settings](/static/assets/on-premise/images/manage-content/working-with-etl/email-settings.png)
+![Email Settings](/static/images/manage-content/working-with-etl/email-settings.png)
 
 ----
 

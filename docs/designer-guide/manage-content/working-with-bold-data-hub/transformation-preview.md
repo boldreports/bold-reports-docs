@@ -17,11 +17,11 @@ You create a transform table in Bold Data Hub from the Transform tab of a projec
 
 1. After the project data has been successfully transferred to the designated destination database, choose a specific project and open the **Transform** tab in the right side panel.
 
-![Transform1](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_t1.png)
+![Transform1](/static/images/manage-content/working-with-etl/datahub_t1.png)
 
 1. To create a table in the designated location through SQL scripts, click the **Add Table** button.
 
-![Transform3](/static/assets/on-premise/images/manage-content/working-with-etl/plus-circle.png)
+![Transform3](/static/images/manage-content/working-with-etl/plus-circle.png)
 
 1. Enter the table name in the **Table Name** field. If necessary, you can provide primary key values in a comma-separated format in the **Unique Column Name(s)** text box for further customization.
 
@@ -32,12 +32,12 @@ Click **Save** to apply changes or **Close** to cancel.
 
 The following screenshot shows the transform table dialog with the **Table Name**, **Unique Column Name(s)**, and **Drop Table** options.
 
-![Transform2](/static/assets/on-premise/images/manage-content/working-with-etl/transform_popup.png)
+![Transform2](/static/images/manage-content/working-with-etl/transform_popup.png)
 
 ### What happens if I skip Drop Table and the primary key?
 
 Bold Data Hub displays a data duplication warning popup if you do not select the **Drop Table** option and do not specify any primary key.
-![Transform2](/static/assets/on-premise/images/manage-content/working-with-etl/duplication_warning.png)
+![Transform2](/static/images/manage-content/working-with-etl/duplication_warning.png)
 
 #### Which options does the duplication warning offer?
 
@@ -56,7 +56,7 @@ Bold Data Hub first moves the extracted data to `DuckDB` and builds a default se
 
 3. The **Extracted Tables** list shows the tables extracted with their columns and data types. Double-click a table or column to include it in the code editor for easy transformation.
 
-![Transform4](/static/assets/on-premise/images/manage-content/working-with-etl/etl_extractedtables.png)
+![Transform4](/static/images/manage-content/working-with-etl/etl_extractedtables.png)
 
 Sample transformation script:
 
@@ -67,7 +67,7 @@ group by date_part('year',SalesDate),date_part('month',SalesDate)
 
 The following screenshot shows a transformation script in the Bold Data Hub code editor.
 
-![Transform4](/static/assets/on-premise/images/manage-content/working-with-etl/etl_t6.png)
+![Transform4](/static/images/manage-content/working-with-etl/etl_t6.png)
 
 Note: You can minimize the Transform Tables and Extracted Tables to use the code editor area fully.
 
@@ -75,7 +75,7 @@ Note: You can minimize the Transform Tables and Extracted Tables to use the code
 
 Bold Data Hub shows the results of your transformation query when you click the **Run** button.
 
-![Transform5](/static/assets/on-premise/images/manage-content/working-with-etl/etl_t5.png)
+![Transform5](/static/images/manage-content/working-with-etl/etl_t5.png)
 
 > **Note:** The preview option only works after the source table data has been moved to destination database. You can also minimize the preview after you use it.
 
@@ -85,7 +85,7 @@ Bold Data Hub transformation lets you add multiple tables, edit or delete them, 
 
 1. In the Transform section, you can incorporate multiple tables into your projects.
 
-![Transform5](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_edit_transformtable.png)
+![Transform5](/static/images/manage-content/working-with-etl/datahub_edit_transformtable.png)
 
 1. Edit/Delete Table Confirmation Popup:
 When you click Edit or Delete, a confirmation popup appears:
@@ -94,31 +94,31 @@ Deleting/Editing the table will affect reports that depend on it. Are you sure y
     Proceed: Continue with edit or delete.  
     Cancel: Abort the action.
 
-![Transform](/static/assets/on-premise/images/manage-content/working-with-etl/edit_warning.png)
+![Transform](/static/images/manage-content/working-with-etl/edit_warning.png)
 
 1. Drag and drop the transform tables to reorder the sequence in which the transform tables run. You can also reuse these tables for future analyses.
 
-![Transform](/static/assets/on-premise/images/manage-content/working-with-etl/dragdrop.png)
+![Transform](/static/images/manage-content/working-with-etl/dragdrop.png)
 
 1. To add primary keys to the transform tables, enter the primary key values when you add or edit the tables.
 
-![Transform](/static/assets/on-premise/images/manage-content/working-with-etl/transform_popup.png)
+![Transform](/static/images/manage-content/working-with-etl/transform_popup.png)
 
 > **IMPORTANT:** If a primary key is added, it must also be referenced in the SQL query. If the primary key is missing in the query, an error popup appears.
 
-![Transform](/static/assets/on-premise/images/manage-content/working-with-etl/missing_primary_key.png)
+![Transform](/static/images/manage-content/working-with-etl/missing_primary_key.png)
 
 1. After you finish the transformation, click the ``Save and Transform`` button. The tables are transferred to the destination database during this process. The data is then transformed and moved to the destination.
 
- ![Transform](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_transform_save.png)
+ ![Transform](/static/images/manage-content/working-with-etl/datahub_transform_save.png)
 
 1. Use ``Save as Draft`` to switch between the transform and other tabs without losing the transformation query.
 
 > **IMPORTANT:** After you finish the transformation, you can see the results in the Destination tab.
 
- ![Transform](/static/assets/on-premise/images/manage-content/working-with-etl/transform_results.png)
+ ![Transform](/static/images/manage-content/working-with-etl/transform_results.png)
 
- ![Transform](/static/assets/on-premise/images/manage-content/working-with-etl/transform_results_destination.png)
+ ![Transform](/static/images/manage-content/working-with-etl/transform_results_destination.png)
 
 ## Frequently asked questions
 

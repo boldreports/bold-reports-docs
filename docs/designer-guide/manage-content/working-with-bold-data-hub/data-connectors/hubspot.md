@@ -62,15 +62,15 @@ You connect HubSpot by creating a project in Bold Data Hub and adding the `Hubsp
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![Hubspot - DataHub](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Project` and enter a name for the new project.
 
-    ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Hubspot - DataHub](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created project and add the `Hubspot` template.
 
-    ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/hubspot_addtemplate.png#max-width=100%)
+    ![Hubspot - DataHub](/static/images/manage-content/working-with-etl/hubspot_addtemplate.png#max-width=100%)
 
 4. Update the API Key in the template, and update the resources in the `select` property.
 
@@ -78,7 +78,7 @@ You connect HubSpot by creating a project in Bold Data Hub and adding the `Hubsp
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![Hubspot  - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![Hubspot  - DataHub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ### Which HubSpot resources can I load?
 
@@ -106,21 +106,21 @@ You schedule the HubSpot pipeline in Bold Data Hub from the schedules tab, or yo
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Hubspot - DataHub](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Hubspot - DataHub](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Hubspot - DataHub](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Hubspot - DataHub](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Hubspot - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![Hubspot - DataHub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

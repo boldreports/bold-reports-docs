@@ -13,13 +13,13 @@ You can view report information, such as the creator and category, in {{site.pro
 To view report info in Report Server, click `Info` in the report's context menu.
 
 * Click `Info` from the context menu to view the Report Info.
-    ![Report Info](/static/assets/on-premise/images/manage-content/manage-reports/info-report.png)
+    ![Report Info](/static/images/manage-content/manage-reports/info-report.png)
 
 ## Report Info Elements
 
 The following report info elements are available in {{site.productNameTM}} On-Premises Edition. The **Report Info** action provides information about the Report ID, Report Creator Name, Report Created Date, Report Modifier Name, Report Modified Date, and Report Category.
 
-![Report Info Elements](/static/assets/on-premise/images/manage-content/manage-reports/info-report1.png)
+![Report Info Elements](/static/images/manage-content/manage-reports/info-report1.png)
 
 ## See also
 

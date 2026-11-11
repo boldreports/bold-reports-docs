@@ -14,7 +14,7 @@ You can download reports from the {{site.productNameTM}} On-Premises Edition Rep
 
 To download a report from Report Server in `.rdl` format, click the **Download Report** option in the report's context menu.
 
-![Download Report](/static/assets/on-premise/images/manage-content/manage-reports/download-report.png)
+![Download Report](/static/images/manage-content/manage-reports/download-report.png)
 
 > This option is available on {{site.productNameTM}} On-Premises Edition from version `2.2.28` onwards.
 

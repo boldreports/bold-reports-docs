@@ -20,11 +20,11 @@ You set multiple-column properties in the Web Report Designer under the `Page Co
 
 1. Open or create a table report.
 
-    ![Grouping Aggregate](/static/assets/on-premise/images/report-designer/compose-report/multi-column/report-design.png '#width=300px')
+    ![Grouping Aggregate](/static/images/report-designer/compose-report/multi-column/report-design.png '#width=300px')
 
 2. Click outside the design area to open the `Report Properties` in the properties panel. Multi-column properties are listed under the `Page Column` category in the properties list.
 
-    ![Page column properties](/static/assets/on-premise/images/report-designer/compose-report/multi-column/multi-column-properties.png '#width=300px')
+    ![Page column properties](/static/images/report-designer/compose-report/multi-column/multi-column-properties.png '#width=300px')
 
 3. In the `Columns` property, provide the number of columns in the report.
 
@@ -32,7 +32,7 @@ You set multiple-column properties in the Web Report Designer under the `Page Co
 
 5. Set the required `Margin` and `Paper Size` properties.
 
-    ![Set page column properties](/static/assets/on-premise/images/report-designer/compose-report/multi-column/set-properties.png '#width=300px')
+    ![Set page column properties](/static/images/report-designer/compose-report/multi-column/set-properties.png '#width=300px')
 
 ## How do I preview a multiple-column report?
 
@@ -42,7 +42,7 @@ The Web Report Designer preview displays a multiple-column report as a single co
 
 2. Click the `Print Layout` option in the Report Viewer toolbar to view the table in multi-column layout.
 
-    ![Print Layout](/static/assets/on-premise/images/report-designer/compose-report/multi-column/print-layout.png '#width=250px')
+    ![Print Layout](/static/images/report-designer/compose-report/multi-column/print-layout.png '#width=250px')
 
 ## Which export formats show multiple columns?
 
@@ -50,7 +50,7 @@ Only the `PDF` and `Power Point` rendering formats in {{site.productNameTM}} dis
 
 The following image shows a multi-column report.
 
-![Multi column report](/static/assets/on-premise/images/report-designer/compose-report/multi-column/multi-column-report.png)
+![Multi column report](/static/images/report-designer/compose-report/multi-column/multi-column-report.png)
 
 > Download the above report design from the [multiple-column sample report on GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-multiple-column-report-ssrs.rdl)
 

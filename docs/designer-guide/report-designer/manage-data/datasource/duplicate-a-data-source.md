@@ -13,13 +13,13 @@ You duplicate a data source in the {{site.productNameTM}} Web Report Designer by
 You duplicate a data source from the `DATASOURCE` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the data source that you need to duplicate in the `DATASOURCE` panel.
-   ![Data source item menu icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png '#width=385px')
+   ![Data source item menu icon](/static/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png '#width=385px')
 2. Click the highlighted icon shown in the previous image to open the context menu.
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png '#width=410px')
+   ![Data panel context menu](/static/images/report-designer/manage-data/datasource/data-panel-context-menu.png '#width=410px')
 3. Choose the `Clone` option from the context menu to duplicate the selected data source.
-   ![Image represents the duplicate datasource icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/clone-data-source-option.png '#width=410px')
+   ![Image represents the duplicate datasource icon](/static/images/report-designer/manage-data/datasource/clone-data-source-option.png '#width=410px')
 4. Check the `DATASOURCE` panel. A duplicated data source is created, as shown below.
-   ![Image represents the datasource is duplicated](/static/assets/on-premise/images/report-designer/manage-data/datasource/duplicate-data-source-represenation.png '#width=410px')
+   ![Image represents the datasource is duplicated](/static/images/report-designer/manage-data/datasource/duplicate-data-source-represenation.png '#width=410px')
 
 ## See also
 

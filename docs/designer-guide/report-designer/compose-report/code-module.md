@@ -13,11 +13,11 @@ The Code Module in {{site.productNameTM}} Web Report Designer adds custom code o
 You add custom code in Web Report Designer from the `Code` category of **Report Properties**, writing the code in Visual Basic (VB).
 
 1. Click the outer grey surface of the report area, and then click the **Properties** icon to open the **Report Properties**.
-    ![open-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/open-properties.png '#width=400px')
+    ![open-properies](/static/images/report-designer/compose-report/unit-switcher/open-properties.png '#width=400px')
 2. The custom code option is listed under the `Code` category. Click **Code...** to open the Code Module dialog.
-    ![report-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/report-properties.png)
+    ![report-properies](/static/images/report-designer/compose-report/unit-switcher/report-properties.png)
 3. In the code tab, type the code in the Visual Basic (VB) language.
-    ![Open code module](/static/assets/on-premise/images/report-designer/compose-report/code-module/open-code-module.png '#width=350px')
+    ![Open code module](/static/images/report-designer/compose-report/code-module/open-code-module.png '#width=350px')
 4. The following code example shows a custom function that returns the color string based on the given value range:
 
     ```basic
@@ -36,13 +36,13 @@ You add custom code in Web Report Designer from the `Code` category of **Report 
     End Function
     ```
 
-    ![Enter custom code](/static/assets/on-premise/images/report-designer/compose-report/code-module/code-section.png '#width=350px')
+    ![Enter custom code](/static/images/report-designer/compose-report/code-module/code-section.png '#width=350px')
 5. Click **OK**.
 6. Use the following expression to call the custom code function in the report.
-    ![Call custom code function](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-expression.png '#width=400px')
+    ![Call custom code function](/static/images/report-designer/compose-report/code-module/custom-code-expression.png '#width=400px')
     To learn more about handling expressions, see the [Expression](./../../compose-report/expressions/) section.
 7. To view the color changes based on the price range in a report, click `Preview`.
-   ![Preview custom code](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png '#width=450px')
+   ![Preview custom code](/static/images/report-designer/compose-report/code-module/custom-code-preview.png '#width=450px')
 
 ## How do I add assembly references?
 
@@ -53,10 +53,10 @@ You embed custom assemblies in a Web Report Designer report by creating a simple
 You create a custom assembly for {{site.productNameTM}} as a Visual Studio class library that you build into a `.dll`.
 
 1. Create a Visual Studio class library. Go to **Installed > Visual C#**, and then select **Class Library (.Net Framework)** from the listed templates. Change the application name, and then click **OK**.
-   ![To create c sharp class library](/static/assets/on-premise/images/report-designer/compose-report/code-module/assembly-references.png '#width=450px')
+   ![To create c sharp class library](/static/images/report-designer/compose-report/code-module/assembly-references.png '#width=450px')
 
 2. Open the class file and create a simple function.
-   ![To create a simple function](/static/assets/on-premise/images/report-designer/compose-report/code-module/add-references.png)
+   ![To create a simple function](/static/images/report-designer/compose-report/code-module/add-references.png)
 
 3. After defining the required functions, build the project. The assembly `(.dll)` is generated in the bin folder of the respective application.
 
@@ -67,34 +67,34 @@ You create a custom assembly for {{site.productNameTM}} as a Visual Studio class
 You add a custom assembly reference in the Web Report Designer Code Module from the **References** tab.
 
 1. Switch to the **References** tab.
-   ![Code module assembly references](/static/assets/on-premise/images/report-designer/compose-report/code-module/references-tab.png '#width=350px')
+   ![Code module assembly references](/static/images/report-designer/compose-report/code-module/references-tab.png '#width=350px')
 
 2. To add an **Assembly** reference, click the **Add** icon.
-   ![Add assemby references](/static/assets/on-premise/images/report-designer/compose-report/code-module/reference-add-icon.png '#width=350px')
+   ![Add assemby references](/static/images/report-designer/compose-report/code-module/reference-add-icon.png '#width=350px')
 
 3. Specify the assembly name and click **OK**.
-   ![Given assemby references name](/static/assets/on-premise/images/report-designer/compose-report/code-module/assembly-reference-name.png '#width=350px')
+   ![Given assemby references name](/static/images/report-designer/compose-report/code-module/assembly-reference-name.png '#width=350px')
 
 ## How do I add class instances?
 
 You add a class instance in the Web Report Designer Code Module from the **Classes** tab.
 
 1. Switch to the **Classes** tab.
-    ![Switch to class instance tab](/static/assets/on-premise/images/report-designer/compose-report/code-module/classinstance-tab.png '#width=350px')
+    ![Switch to class instance tab](/static/images/report-designer/compose-report/code-module/classinstance-tab.png '#width=350px')
 
 2. To add a **Class instance** reference, click the **Add** icon.
-    ![Code module class instance](/static/assets/on-premise/images/report-designer/compose-report/code-module/listed-class-instance.png '#width=350px')
+    ![Code module class instance](/static/images/report-designer/compose-report/code-module/listed-class-instance.png '#width=350px')
 
 3. Specify the assembly name and instance name, and click **OK**. The custom code assembly and instance are now embedded into the report.
-    ![Added class instance name](/static/assets/on-premise/images/report-designer/compose-report/code-module/added-class-instances.png '#width=350px')
+    ![Added class instance name](/static/images/report-designer/compose-report/code-module/added-class-instances.png '#width=350px')
 
 4. Use the following expression to call the embedded custom code function in the report.
 
-    ![Call the method using expression](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-assembly-expression.png '#width=350px')
+    ![Call the method using expression](/static/images/report-designer/compose-report/code-module/custom-assembly-expression.png '#width=350px')
     To learn more about handling expressions, see the [Expression](./../../compose-report/expressions/) section.
 
 5. To view the color changes based on the price range in a report, click `Preview`.
-    ![Preview the record](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png '#width=400px')
+    ![Preview the record](/static/images/report-designer/compose-report/code-module/custom-code-preview.png '#width=400px')
 
 > Download the above report design from the [code module sample report on GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/code-module.rdl)
 

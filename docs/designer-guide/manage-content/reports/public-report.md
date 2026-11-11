@@ -24,15 +24,15 @@ Follow these steps to make a report accessible to anonymous users:
 
 1. Click the context menu of the report and choose the `Make Public` option.
 
-    ![Make public menu](/static/assets/on-premise/images/manage-content/manage-reports/make-public-menu.png)
+    ![Make public menu](/static/images/manage-content/manage-reports/make-public-menu.png)
 
 2. Click `Make Public` in the confirmation dialog box.
 
-    ![Make public Dialog](/static/assets/on-premise/images/manage-content/manage-reports/make-public-dialog.png)
+    ![Make public Dialog](/static/images/manage-content/manage-reports/make-public-dialog.png)
 
 3. Copy the report link from the dialog box that appears after the report is made public, and share the link with users.
 
-    ![Get link public Dialog](/static/assets/on-premise/images/manage-content/manage-reports/get-link-public.png)
+    ![Get link public Dialog](/static/images/manage-content/manage-reports/get-link-public.png)
 
 ## Make Private
 
@@ -42,11 +42,11 @@ Follow these steps to make a report accessible only to users in the Report Serve
 
 1. Click the context menu of the report and choose the `Make Private` option.
 
-    ![Make Private menu](/static/assets/on-premise/images/manage-content/manage-reports/make-private-menu.png)
+    ![Make Private menu](/static/images/manage-content/manage-reports/make-private-menu.png)
 
 2. Click `Make Private` in the confirmation dialog box.
 
-    ![Make Private dialog](/static/assets/on-premise/images/manage-content/manage-reports/make-private-dialog.png)
+    ![Make Private dialog](/static/images/manage-content/manage-reports/make-private-dialog.png)
 
 After the report is made private, a dialog box with a confirmation message is displayed.
 
@@ -54,7 +54,7 @@ After the report is made private, a dialog box with a confirmation message is di
 
 Report Server lists public reports under the public section, as shown in the following image.
 
- ![Public Reports](/static/assets/on-premise/images/manage-content/manage-reports/public-reports.png)
+ ![Public Reports](/static/images/manage-content/manage-reports/public-reports.png)
 
 ## Frequently asked questions
 

@@ -13,31 +13,31 @@ The ordering option in {{site.productNameTM}} Web Report Designer changes the la
 * Send To Back
 * Bring To Front
 
-![ordering-layout](/static/assets/on-premise/images/report-designer/compose-report/layout-ordering/layout-ordering.png '#width=300px')
+![ordering-layout](/static/images/report-designer/compose-report/layout-ordering/layout-ordering.png '#width=300px')
 
 ## Send Backward
 
 Send Backward in the Web Report Designer visually moves the selected object behind its closest intersected object on the designer surface.
 
-![send-backward-item](/static/assets/on-premise/images/report-designer/compose-report/layout-ordering/send-backward.png '#width=350px')
+![send-backward-item](/static/images/report-designer/compose-report/layout-ordering/send-backward.png '#width=350px')
 
 ## Bring Forward
 
 Bring Forward in the Web Report Designer visually moves the selected object over its closest intersected object on the designer surface.
 
-![bring-the-object-forward](/static/assets/on-premise/images/report-designer/compose-report/layout-ordering/bring-forward.png '#width=350px')
+![bring-the-object-forward](/static/images/report-designer/compose-report/layout-ordering/bring-forward.png '#width=350px')
 
 ## Send To Back
 
 Send To Back in the Web Report Designer visually moves the selected object behind all other intersected objects on the designer surface.
 
-![send-all-object-back](/static/assets/on-premise/images/report-designer/compose-report/layout-ordering/send-to-back.png '#width=350px')
+![send-all-object-back](/static/images/report-designer/compose-report/layout-ordering/send-to-back.png '#width=350px')
 
 ## Bring To Front
 
 Bring To Front in the Web Report Designer visually moves the selected object over all other intersected objects on the designer surface.
 
-![send-all-object-front](/static/assets/on-premise/images/report-designer/compose-report/layout-ordering/bring-to-front.png '#width=350px')
+![send-all-object-front](/static/images/report-designer/compose-report/layout-ordering/bring-to-front.png '#width=350px')
 
 ## Frequently asked questions
 

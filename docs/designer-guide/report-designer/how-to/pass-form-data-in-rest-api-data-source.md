@@ -15,14 +15,14 @@ You post form data from the {{site.productNameTM}} REST API data source by setti
 2. Choose the `Method` type as `POST`.
 3. Choose `Parameters` in `Request Body`. Enter the key and values to post the data.
 4. In `Header(s)`, enter the `Content-Type` of the form data.
-   ![POST form data](/static/assets/on-premise/images/report-designer/how-to/pass-form-data/post-with-parameters.png '#width=350px')
+   ![POST form data](/static/images/report-designer/how-to/pass-form-data/post-with-parameters.png '#width=350px')
 
 ## Do I need a Content-Type header for raw data?
 
 No. For a `POST` action with `Raw` data, the {{site.productNameTM}} REST API data source handles the `Content-Type` request header based on the `Data Format` field value.
 
 > NOTE: For `POST` action with `Raw` data, the `Content-Type` request header is handled based on the `Data Format` field value. So, you do not need to pass this header explicitly in the Header(s) list. Passing it leads to the [Misused Header name](./../pass-form-data-in-rest-api-data-source/) error.
-![Misused header name error](/static/assets/on-premise/images/report-designer/how-to/pass-form-data/misused-header-error.png '#width=400px')
+![Misused header name error](/static/images/report-designer/how-to/pass-form-data/misused-header-error.png '#width=400px')
 
 ## See also
 

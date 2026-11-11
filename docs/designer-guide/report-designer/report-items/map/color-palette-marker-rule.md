@@ -14,11 +14,11 @@ You apply a color palette to map markers in the {{site.productNameTM}} Web Repor
 1. Under the `Marker Color Rule` category, choose the **Color Palette** option in the type dropdown.
 2. Choose a palette from the **Palette** dropdown that appears under the type dropdown.
 
-![Map palette types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/palette-types.png '#width=385px')
+![Map palette types](/static/images/report-designer/report-items/map/marker-color-rule/palette-types.png '#width=385px')
 
 For example, set the palette type to `BrightPastel`. The map design with sample data then looks like the following image.
 
-![Color palette](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/bright-pastel.png)
+![Color palette](/static/images/report-designer/report-items/map/marker-color-rule/bright-pastel.png)
 
 ## How are the palette colors distributed?
 

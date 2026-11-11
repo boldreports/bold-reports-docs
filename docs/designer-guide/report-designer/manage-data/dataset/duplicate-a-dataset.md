@@ -13,13 +13,13 @@ You duplicate a dataset in the {{site.productNameTM}} Web Report Designer by cho
 You duplicate a dataset from the `DATA` panel of the {{site.productNameTM}} Web Report Designer with the following steps:
 
 1. Select the dataset that you need to duplicate in the `DATA` panel.
-   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=385px')
+   ![Data item menu icon](/static/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=385px')
 2. Click the highlighted icon shown in the previous image to open the context menu.
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png '#width=385px')
+   ![Data panel context menu](/static/images/report-designer/manage-data/dataset/data-panel-context-menu.png '#width=385px')
 3. Choose the `Clone` option from the context menu to duplicate the selected dataset.
-   ![Image represents the duplicate dataset icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/clone-data-menu.png '#width=385px')
+   ![Image represents the duplicate dataset icon](/static/images/report-designer/manage-data/dataset/clone-data-menu.png '#width=385px')
 4. Check the `DATA` panel. A duplicated dataset is created, as shown below.
-   ![Image represents the dataset is duplicated](/static/assets/on-premise/images/report-designer/manage-data/dataset/clone-data-representation.png '#width=385px')
+   ![Image represents the dataset is duplicated](/static/images/report-designer/manage-data/dataset/clone-data-representation.png '#width=385px')
 
 ## See also
 

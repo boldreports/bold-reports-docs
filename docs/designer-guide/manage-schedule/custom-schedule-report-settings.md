@@ -16,23 +16,23 @@ The {{site.productNameTM}} Report Server lets you customize the email content th
 
 1. Open the schedule email content page. The page initially displays default content, as shown in the following image.
 
-    ![Default Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/default-mail-content.png)
+    ![Default Email Template](/static/images/manage-schedule/manage-report-schedules/default-mail-content.png)
 
 2. Use the default email subject, or customize it by selecting variables from the dropdown menu. Once you select a variable from this dropdown, the default subject content resets to accommodate your customization.
 
-    ![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/customize-email-template.png)
+    ![Customize Email Template](/static/images/manage-schedule/manage-report-schedules/customize-email-template.png)
 
 3. Customize the email body content. Improve its readability with formatting options such as bold, italic, bullet points, numbers, links, and quotations. The following image shows examples of these formatting options.
 
-    ![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/schedule-mail-bold-points.png)
+    ![Customize Email Template](/static/images/manage-schedule/manage-report-schedules/schedule-mail-bold-points.png)
 
 4. Insert links into your content as needed. The following image shows the insert link option.
 
-    ![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/insert-link.png)
+    ![Customize Email Template](/static/images/manage-schedule/manage-report-schedules/insert-link.png)
 
 5. Use the `Preview option` to see the actual email format while scheduling.
 
-    ![Preview Window](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/preview-window.png)
+    ![Preview Window](/static/images/manage-schedule/manage-report-schedules/preview-window.png)
 
 6. After you customize the email content, click `Next` in the schedule dialog.
 

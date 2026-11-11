@@ -13,13 +13,13 @@ In the {{site.productNameTM}} Web Report Designer, the Details group displays th
 You add a details group in the {{site.productNameTM}} Web Report Designer by adding a child group with `Show detail data` selected.
 
 1. Select the tablix data region in the design area. The `Grouping Panel` is enabled in the design view.
-   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/enable-grouping.png '#width=410px')
+   ![Open group menu](/static/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/enable-grouping.png '#width=410px')
 2. Go to the `Row Groups` pane in the grouping panel and open the context menu on the innermost child group. Click `Add Group`, and then click the `Child Group` option.
-   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/add-child-group-menu.png '#width=385px')
+   ![Open group menu](/static/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/add-child-group-menu.png '#width=385px')
 3. Configure the grouping in the `Tablix Group` dialog that opens after you click the `Child Group` option.
-   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/tablix-group-dialog.png '#width=385px')
+   ![Open group menu](/static/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/tablix-group-dialog.png '#width=385px')
 4. Select `Show detail data` and click the `OK` button.
-   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/enable-show-detail-data.png '#width=385px')
+   ![Open group menu](/static/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/enable-show-detail-data.png '#width=385px')
 
 > Cannot insert a multi-value item into a detail cell. Detail members can only contain the static inner members.
 
@@ -28,9 +28,9 @@ You add a details group in the {{site.productNameTM}} Web Report Designer by add
 You delete a details group in the {{site.productNameTM}} Web Report Designer using either the cell context menu or the group menu in the grouping panel.
 
 1. Click the icon in the right corner of the `Details` group member. Click the `Delete Group` option in the menu.
-   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/delete-group.png '#width=385px')
+   ![Open group menu](/static/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/delete-group.png '#width=385px')
 2. Choose an option in the confirmation dialog that opens.
-   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/delete-group-dialog.png '#width=385px')
+   ![Open group member properties](/static/images/report-designer/report-items/tablix/delete-group-dialog.png '#width=385px')
 
 * Choose the `Delete group and related rows and columns` option to delete all the rows and columns associated with the respective group.
 

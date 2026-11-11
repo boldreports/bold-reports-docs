@@ -12,7 +12,7 @@ The Shape report item in the {{site.productNameTM}} Web Report Designer supports
 
 The {{site.productNameTM}} Web Report Designer supports the following basic shapes.
 
-  ![Shape Types](/static/assets/on-premise/images/report-designer/report-items/shape/shape-types.png '#width=450px')
+  ![Shape Types](/static/images/report-designer/report-items/shape/shape-types.png '#width=450px')
 
 | Types           |Description           |
 |-----------------------|-----------------------|

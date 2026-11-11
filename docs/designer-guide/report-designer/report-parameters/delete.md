@@ -14,11 +14,11 @@ The Web Report Designer removes a parameter after you confirm the delete action.
 
 1. In the configuration panel, click the `Parameters` icon to open the `PARAMETERS` panel.
 2. Hover the cursor over the report parameter you want to delete in the list of parameters.
-   ![Parameter list view](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/parameter-list-view.png '#width=350px')
+   ![Parameter list view](/static/images/report-designer/report-parameters/delete-report-parameter/parameter-list-view.png '#width=350px')
 3. Click the `menu` icon in the right corner to open the context menu.
-   ![Open context menu](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/open-context-menu.png '#width=350px')
+   ![Open context menu](/static/images/report-designer/report-parameters/delete-report-parameter/open-context-menu.png '#width=350px')
 4. Choose `Delete` from the context menu. The confirmation dialog opens, as in the following image.
-   ![Parameter delete confirmation dialog](/static/assets/on-premise/images/report-designer/report-parameters/delete-report-parameter/parameter-delete-confirmation-dialog.png '#width=300px')
+   ![Parameter delete confirmation dialog](/static/images/report-designer/report-parameters/delete-report-parameter/parameter-delete-confirmation-dialog.png '#width=300px')
 5. Click the `Yes` button. The Web Report Designer removes the report parameter from the report parameter list.
 
 ## See also

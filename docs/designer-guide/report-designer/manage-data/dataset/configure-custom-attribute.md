@@ -26,25 +26,25 @@ The user level attribute has higher priority than the other levels. The user lev
 
 A site admin sets the user level attribute for a user in the Report Server user management profile page. The user's attribute listing also shows the attributes inherited from the group and site levels.
 
-![User Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-user-level.png)
+![User Level Add Custom Attribute Button](/static/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-user-level.png)
 
 ## How do I set a group level attribute?
 
 A site admin sets the group level attribute for a group in the Report Server group profile page. The group's attribute listing also shows the attributes inherited from the site level.
 
-![Group Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-group-level.png)
+![Group Level Add Custom Attribute Button](/static/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-group-level.png)
 
 ## How do I set a site level attribute?
 
 The UMS admin sets the site level attribute for a site in the Report Server site details page.
 
-![Site Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-tenant-level.png)
+![Site Level Add Custom Attribute Button](/static/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-tenant-level.png)
 
 ## How do I add a custom attribute?
 
 A custom attribute in Report Server is a name-value pair associated with users, groups, and sites. The custom attribute window has the following fields.
 
-![Custom Attribute Window](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/adding-custom-attribute.png '#width=385px')
+![Custom Attribute Window](/static/images/report-designer/manage-data/configure-custom-attribute/adding-custom-attribute.png '#width=385px')
 
 Name – Name of the attribute.
 
@@ -58,11 +58,11 @@ Encrypt – Store it as encrypted one in database and the value will be shown as
 
 Each Report Server user can hold a different value for the same custom attribute name. For example, the user **Adam** has the custom attribute value **Resource_Name IN (‘Oil’,‘Injection’)** with the attribute name **Resources**.
 
-![Use custom attribute for user Adam](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-user-Adam.png '#width=385px')
+![Use custom attribute for user Adam](/static/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-user-Adam.png '#width=385px')
 
 The user **Christ** has the custom attribute value **Resource_Name IN (‘Oil & Gas’,‘Salt Water Disposal’)** with the attribute name **Resources**.
 
-![Use custom attribute for user Christ](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-user-Christ.png '#width=385px')
+![Use custom attribute for user Christ](/static/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-user-Christ.png '#width=385px')
 
 ## Where can I use a custom attribute?
 
@@ -77,15 +77,15 @@ You use a custom attribute in a custom query by entering the custom attribute na
 
 Syntax: `${{:AttributeName}}`.
 
-![Use custom attribute in code view](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-in-code-view.png)
+![Use custom attribute in code view](/static/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-in-code-view.png)
 
 In a simple report created for **Adam**, the data is retrieved based on the condition for the column `Resource_Name` given in the custom attribute **Resources**.
 
-![Sample Report for user Adam](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-sample-report-Adam.png)
+![Sample Report for user Adam](/static/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-sample-report-Adam.png)
 
 For **Christ**, the data is retrieved based on the condition for the column `Resource_Name` given in the custom attribute **Resources**.
 
-![Sample Report for user Christ](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-sample-report-Christ.png)
+![Sample Report for user Christ](/static/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-sample-report-Christ.png)
 
 ## 2. Web Connection window
 
@@ -102,13 +102,13 @@ Use the following syntax for the custom attribute.
 
 Syntax: `${{:AttributeName}}`.
 
-![Use custom attribute in web connection](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/set-custom-attribute.png '#width=355px')
+![Use custom attribute in web connection](/static/images/report-designer/manage-data/configure-custom-attribute/set-custom-attribute.png '#width=355px')
 
-![Use custom attribute in web connection](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/web-connection-custom-attribute.png '#width=355px')
+![Use custom attribute in web connection](/static/images/report-designer/manage-data/configure-custom-attribute/web-connection-custom-attribute.png '#width=355px')
 
 In the simple report created here, data is retrieved based on the condition for the column `country`.
 
-![Use custom attribute in report](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/report-custom-attribute.png '#width=355px')
+![Use custom attribute in report](/static/images/report-designer/manage-data/configure-custom-attribute/report-custom-attribute.png '#width=355px')
 
 ## Frequently asked questions
 

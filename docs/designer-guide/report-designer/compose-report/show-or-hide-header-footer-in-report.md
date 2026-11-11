@@ -15,11 +15,11 @@ The report header in Web Report Designer is hidden by default when you create a 
 1. Open the `View` menu in the toolbar.
 2. Click the `Header` option in the menu.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-icon-disabled.png '#width=250px')
+![Rectangle listed in item panel](/static/images/report-designer/report-items/properties-panel/header-icon-disabled.png '#width=250px')
 
 The `Header` section is now shown in the report.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-icon-enabled.png '#width=400px')
+![Rectangle listed in item panel](/static/images/report-designer/report-items/properties-panel/header-icon-enabled.png '#width=400px')
 
 To hide the report header, click the `Header` option in the menu again.
 
@@ -30,11 +30,11 @@ The report footer in Web Report Designer is shown by default when you create a n
 1. Open the `View` menu in the toolbar.
 2. Click the `Footer` option in the menu.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/footer-icon-enabled.png '#width=250px')
+![Rectangle listed in item panel](/static/images/report-designer/report-items/properties-panel/footer-icon-enabled.png '#width=250px')
 
 The `Footer` section is now hidden in the report.
 
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/footer-icon-disabled.png '#width=400px')
+![Rectangle listed in item panel](/static/images/report-designer/report-items/properties-panel/footer-icon-disabled.png '#width=400px')
 
 To show the report footer, click the `Footer` option in the menu again.
 

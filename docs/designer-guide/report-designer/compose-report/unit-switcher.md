@@ -25,14 +25,14 @@ You switch the unit type in Web Report Designer from the **Page Units** category
 
 1. Click the **Properties** icon to open **Report Properties**.
 
-    ![open-report-properties](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/open-report-properties.png '#width=350px')
+    ![open-report-properties](/static/images/report-designer/compose-report/unit-switcher/open-report-properties.png '#width=350px')
 
 2. Under the **Page Units** category, select the **Page Unit** dropdown to switch the report unit type.
 
-    ![propertypanel-unitswitch](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/unitswitcher-properties.png '#width=350px')
+    ![propertypanel-unitswitch](/static/images/report-designer/compose-report/unit-switcher/unitswitcher-properties.png '#width=350px')
 
 3. The selected unit type is applied to the report.
-    ![Pixels unit type](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/unittype-in-pixels.png '#width=350px')
+    ![Pixels unit type](/static/images/report-designer/compose-report/unit-switcher/unittype-in-pixels.png '#width=350px')
 
 ## See also
 

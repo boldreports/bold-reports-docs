@@ -12,7 +12,7 @@ Gauge report items in the {{site.productNameTM}} Web Report Designer visualize t
 
 The {{site.productNameTM}} Web Report Designer offers two gauge types, `Linear` and `Radial`. You find both in the item panel under the `Deviation category`.
 
-![Gauge Types](/static/assets/on-premise/images/report-designer/report-items/gauge/gauge-types-in-item-panel.png '#width=145px')
+![Gauge Types](/static/images/report-designer/report-items/gauge/gauge-types-in-item-panel.png '#width=145px')
 
 The image shows the linear and radial gauge items in the item panel.
 

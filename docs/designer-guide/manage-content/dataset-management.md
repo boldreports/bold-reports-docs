@@ -18,7 +18,7 @@ A shared dataset in {{site.productNameTM}} Report Server is a dataset stored on 
 
 The Report Server includes tools to manage datasets. You can create, edit, update, share permissions for, and delete datasets in {{site.productNameTM}} On-Premises Edition. The following image shows the list of options available to manage a dataset.
 
-![Options available to manage data sets](/static/assets/on-premise/images/manage-content/manage-data-sets/managing-datasets.png)
+![Options available to manage data sets](/static/images/manage-content/manage-data-sets/managing-datasets.png)
 
 ## How do I create a dataset?
 
@@ -33,16 +33,16 @@ You can create datasets in the following ways:
 #### Add dataset from Menu
 
 * Click the `+` button in the left side menu and choose `Create Dataset` to add a dataset.
-    ![Create a dataset menu option](/static/assets/on-premise/images/manage-content/manage-data-sets/create-dataset-option.png)
+    ![Create a dataset menu option](/static/images/manage-content/manage-data-sets/create-dataset-option.png)
 
 #### Add dataset from Dataset listing page
 
 * Click **Dataset** in the left side panel of the Report Server. If no datasets are listed, click the **Create my first Dataset** button. Otherwise, click the **Create Dataset** button.
-   ![Create a dataset menu option listing](/static/assets/on-premise/images/manage-content/manage-data-sets/create-dataset-option-listing.png)
+   ![Create a dataset menu option listing](/static/images/manage-content/manage-data-sets/create-dataset-option-listing.png)
 
 * A dataset requires a data source, which can be a new or an existing data source. For more information, see [Create a new data source](./../data-sources-management/#create-new-datasource).
 
-    ![Data source listing](/static/assets/on-premise/images/manage-content/manage-data-sets/datasource-listing.png)
+    ![Data source listing](/static/images/manage-content/manage-data-sets/datasource-listing.png)
 
     > `Read Write Delete` permission for that `Specific Dataset` is added for the user who created the dataset.
 
@@ -51,42 +51,42 @@ You can create datasets in the following ways:
 You can upload an existing `.rsd` dataset file to {{site.productNameTM}} Report Server from the `+` menu.
 
 1. Click the `+` icon in the left side menu and choose `Upload Dataset`.
-    ![Upload DataSet](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-option.png)
+    ![Upload DataSet](/static/images/manage-content/manage-data-sets/upload-dataset-option.png)
 
 2. Enter the name and description of the dataset.
 
 3. Click `Browse` and select the `.rsd` file to upload.
-    ![Auto-Filled Dataset Name](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-name.png)
+    ![Auto-Filled Dataset Name](/static/images/manage-content/manage-data-sets/upload-dataset-name.png)
 
     > If you leave the name field blank, the system auto-populates it with the name of the uploaded `.rsd` file.
 
 4. Select the `Data Source`. In the select data source dialog, either choose a data source from the Report Server or create a new data source.
-    ![Select a data source for the uploaded dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-dialog.png)
+    ![Select a data source for the uploaded dataset](/static/images/manage-content/manage-data-sets/upload-dataset-dialog.png)
 
 5. Click the `Save` option. The dataset is uploaded to {{site.productNameTM}} On-Premise and displayed in the list.
-    ![Added datasets list view](/static/assets/on-premise/images/manage-content/manage-data-sets/uploaded-datasets-list.png)
+    ![Added datasets list view](/static/images/manage-content/manage-data-sets/uploaded-datasets-list.png)
 
     > `Read, Write, and Delete` permissions for that `Specific Dataset` are granted to the user who created it.
 
 ## How do I create a report from a dataset?
 
 To create a new report from a dataset in Report Server, click the `Actions` button in the dataset grid context menu and select `Create Reports`.
-    ![Create new report with dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/create-new-report-with-dataset.png)
+    ![Create new report with dataset](/static/images/manage-content/manage-data-sets/create-new-report-with-dataset.png)
 
 ## How do I create a report part from a dataset?
 
 To create a new report part from a dataset in Report Server, click the `Actions` button in the dataset grid context menu and select `Create Report Part`.
-    ![Create new report part with dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/create-new-report-part-with-dataset.png)
+    ![Create new report part with dataset](/static/images/manage-content/manage-data-sets/create-new-report-part-with-dataset.png)
 
 ## How do I download a dataset?
 
 To download a dataset from Report Server as a `.rsd file`, click the Actions menu button in the dataset grid's context menu and select `Download Dataset`.
-    ![Download Dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/download-dataset.png)
+    ![Download Dataset](/static/images/manage-content/manage-data-sets/download-dataset.png)
 
 ## How do I edit a dataset?
 
 To edit a dataset in Report Server, click the `Actions` menu button in the dataset grid context menu and select `Edit Dataset`.
-    ![Edit dataset properties](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset.png)
+    ![Edit dataset properties](/static/images/manage-content/manage-data-sets/edit-dataset.png)
 
 ## How do I change the data source of a dataset?
 
@@ -95,15 +95,15 @@ You can change the data source for a dataset that you already created in Report 
 ### Steps to change data source
 
 1. Select the `Change data source` option from the dataset grid context menu.
-    ![Click Change Datasource](/static/assets/on-premise/images/manage-content/manage-data-sets/click-change-datasource.png)
+    ![Click Change Datasource](/static/images/manage-content/manage-data-sets/click-change-datasource.png)
 
 2. Enter the name of the dataset.
 
 3. Enable the **Overwrite** option to overwrite the existing dataset.
-    ![Overwrite Dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/dataset-overwrite.png)
+    ![Overwrite Dataset](/static/images/manage-content/manage-data-sets/dataset-overwrite.png)
 
 4. Select the new data source from the dropdown menu, then click the `Save` button.
-    ![Click Save](/static/assets/on-premise/images/manage-content/manage-data-sets/save-change-datasource.png)
+    ![Click Save](/static/images/manage-content/manage-data-sets/save-change-datasource.png)
 
 ## How do I share a dataset?
 
@@ -112,72 +112,72 @@ You can share a dataset with other users on the Report Server by setting sharing
 ### Steps to share a dataset
 
 1. Click the `Actions` menu button in the dataset grid context menu and select the `Sharing Permissions` option.
-    ![Manage dataset permission option](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permissions.png)
+    ![Manage dataset permission option](/static/images/manage-content/manage-data-sets/manage-dataset-permissions.png)
 
 2. Click the `Manage Access` button.
-    ![Set permissions to share a dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permission-dialog.png)
+    ![Set permissions to share a dataset](/static/images/manage-content/manage-data-sets/manage-dataset-permission-dialog.png)
 
 3. Select the permission access and the users or groups to share the dataset with.
 4. Click the `Add` button.
-    ![Add permission to dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/add-dataset-permission.png)
-    ![Add button](/static/assets/on-premise/images/manage-content/manage-data-sets/add-access-dataset-permission.png)
+    ![Add permission to dataset](/static/images/manage-content/manage-data-sets/add-dataset-permission.png)
+    ![Add button](/static/images/manage-content/manage-data-sets/add-access-dataset-permission.png)
     > Only users who have share permission can share the dataset with other Report Server users.
 
 ### How do I remove dataset permission?
 
 A Report Server user with specific permissions can remove the shared dataset permissions by using the `Remove` option in the `Access` column.
-![Remove Permission](/static/assets/on-premise/images/manage-content/manage-data-sets/remove-dataset-permission.png)
+![Remove Permission](/static/images/manage-content/manage-data-sets/remove-dataset-permission.png)
 
 ## Version history
 
 The Report Server keeps versions and file logs for each dataset, capturing every change made to the dataset. To access this information, click the grid context menu and select the `Version History` option.
-![Version History Option](/static/assets/on-premise/images/manage-content/manage-data-sets/versions-history-option.png)
+![Version History Option](/static/images/manage-content/manage-data-sets/versions-history-option.png)
 
 ### Versions
 
 Report Server creates a new version for each change in the `.rsd` file, so you can open every version individually.
-![Versions](/static/assets/on-premise/images/manage-content/manage-data-sets/versions.png)
+![Versions](/static/images/manage-content/manage-data-sets/versions.png)
 
 ### File logs
 
 Report Server file logs track each change made to the dataset, including alterations in the event, user, and date.
-![File logs](/static/assets/on-premise/images/manage-content/manage-data-sets/file-logs.png)
+![File logs](/static/images/manage-content/manage-data-sets/file-logs.png)
 
 ### Info
 
 The `Info` option in Report Server shows the details and linked reports of a dataset.
 
 1. Click the Actions menu button in the Dataset grid context menu and select `Info`.
-    ![Click Info](/static/assets/on-premise/images/manage-content/manage-data-sets/click-info.png)
+    ![Click Info](/static/images/manage-content/manage-data-sets/click-info.png)
 
 2. Review the Dataset info. It shows the Dataset Id, Created by, Created on, Last modified by, Last modified on, and Linked Reports.
-    ![File DEtails](/static/assets/on-premise/images/manage-content/manage-data-sets/dataset-info-details.png)
+    ![File DEtails](/static/images/manage-content/manage-data-sets/dataset-info-details.png)
 
 3. Click `Show` to view the linked reports.
-    ![File logs](/static/assets/on-premise/images/manage-content/manage-data-sets/click-show.png)
-    ![Linked Reports](/static/assets/on-premise/images/manage-content/manage-data-sets/linked-reports.png)
+    ![File logs](/static/images/manage-content/manage-data-sets/click-show.png)
+    ![Linked Reports](/static/images/manage-content/manage-data-sets/linked-reports.png)
 
 ## How do I edit a dataset as XML?
 
 The Report Server XML editor provides a user-friendly interface for making modifications to a dataset. You can change the dataset without downloading it and using a separate text editor.
 
 1. Click the context menu icon in the dataset grid and select `Edit As XML` to edit a dataset.
-    ![Edit dataset in XML](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset-xml.png)
+    ![Edit dataset in XML](/static/images/manage-content/manage-data-sets/edit-dataset-xml.png)
 
 2. Make your modifications in the new tab, where the dataset opens as XML. Save the edited dataset by publishing it from the XML editor.
-    ![Edit dataset XML View](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset-xml-view.png)
+    ![Edit dataset XML View](/static/images/manage-content/manage-data-sets/edit-dataset-xml-view.png)
 
 ## How do I update a dataset?
 
 You update the details of a dataset in Report Server from the dataset grid context menu.
 
 1. Click the `Actions` menu button in the dataset grid context menu and select `Update Dataset`.
-    ![Update DataSet](/static/assets/on-premise/images/manage-content/manage-data-sets/update-dataset-option.png)
+    ![Update DataSet](/static/images/manage-content/manage-data-sets/update-dataset-option.png)
 
 2. Change the name, description, and other required details of the dataset.
 3. Click the **Update** option in the update dataset dialog box.
 
-    ![Select a data source for the uploaded dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/update-dataset-dialog.png)
+    ![Select a data source for the uploaded dataset](/static/images/manage-content/manage-data-sets/update-dataset-dialog.png)
 
 ## How do I delete a dataset?
 
@@ -185,7 +185,7 @@ You can delete datasets from the Report Server when they are no longer needed.
 
 To delete a dataset, click the `Actions` menu button in the dataset grid context menu and then select the `Delete` option.
 
-![Delete Dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/delete-datasets.png)
+![Delete Dataset](/static/images/manage-content/manage-data-sets/delete-datasets.png)
 
 > A dataset cannot be deleted if it is being used by any report.
 

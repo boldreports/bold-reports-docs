@@ -7,13 +7,13 @@ description: Resolve the misused header name error in the {{site.productName}} R
 
 To resolve the misused header name error in a REST API data source in {{site.productNameTM}}, remove the `Content-Type` and `Content-Length` reserved headers from the `Header(s)` list.
 
-![Misused header name error](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/misused-header-error.png '#width=400px')
+![Misused header name error](/static/images/report-designer/how-to/resolve-misused-header-name-error/misused-header-error.png '#width=400px')
 
 ## When does the error occur?
 
 The misused header name error in the {{site.productNameTM}} REST API data source occurs when you explicitly pass the `Content-Type` or `Content-Length` reserved headers in the `Header(s)` list.
 
-![Reserved headers](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/reserved-headers.png '#width=400px')
+![Reserved headers](/static/images/report-designer/how-to/resolve-misused-header-name-error/reserved-headers.png '#width=400px')
 
 ## Why does the error occur?
 
@@ -27,7 +27,7 @@ You fix the error in the {{site.productNameTM}} REST API data source by removing
 
 2. Choose the content type in the `Data Format` field.
 
-    ![Data Format](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/data-format.png '#width=450px')
+    ![Data Format](/static/images/report-designer/how-to/resolve-misused-header-name-error/data-format.png '#width=450px')
 
 ## See also
 

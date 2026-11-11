@@ -11,7 +11,7 @@ To get distinct values in a parameter dropdown in {{site.productNameTM}} Report 
 
 A {{site.productNameTM}} parameter dropdown shows duplicates when the dataset query returns duplicate records. At report run time, these values are listed in the parameter dropdown as they are.
 
-![Duplicate values in ssrs parameter drop down](/static/assets/on-premise/images/report-designer/how-to/distinct-values-parameter/parameters-with-duplicate-values.png '#width=300px')
+![Duplicate values in ssrs parameter drop down](/static/images/report-designer/how-to/distinct-values-parameter/parameters-with-duplicate-values.png '#width=300px')
 
 ## Steps to configure distinct values for parameters
 
@@ -19,12 +19,12 @@ A {{site.productNameTM}} parameter dropdown shows duplicates when the dataset qu
 
 1. [Create a new parameter](./../../report-parameters/add/) or [edit an existing parameter](./../../report-parameters/edit/).
 2. In the parameters configuration panel, enable the `Show unique values` checkbox.
-   ![Enable unique values](/static/assets/on-premise/images/report-designer/how-to/distinct-values-parameter/enable-unique-value.png '#width=350px')
+   ![Enable unique values](/static/images/report-designer/how-to/distinct-values-parameter/enable-unique-value.png '#width=350px')
 3. Save the parameter.
 
 When the report runs, the unique values are listed in the parameter dropdown.
 
-![Unique values in ssrs parameter drop down](/static/assets/on-premise/images/report-designer/how-to/distinct-values-parameter/parameters-with-unique-values.png '#width=300px')
+![Unique values in ssrs parameter drop down](/static/images/report-designer/how-to/distinct-values-parameter/parameters-with-unique-values.png '#width=300px')
 > The ability to get distinct values from parameter drop down feature was introduced in the {{site.productNameTM}} version 5.2.26. Ensure you have upgraded your report server to this version or later to access this feature.
 
 ## Frequently asked questions

@@ -2,6 +2,7 @@ const gulp = require('gulp');
 const { existsSync, readFileSync, statSync } = require('fs');
 const { sync } = require('glob');
 var path = require('path');
+const { replaceProductName } = require('./product-name.js');
 
 
 let checkedFiles = {
@@ -37,7 +38,8 @@ gulp.task('seo-validation', (done) => {
 
 
 function validateDescLength(filePath) {
-    let content = readFileSync(filePath, 'utf8');
+    // Validate the text as it is published, with the product name placeholders filled in.
+    let content = replaceProductName(readFileSync(filePath, 'utf8'));
     let metadata, metaPattern = /\n-{3}/g;
     let metaJson = {};
     if (content.slice(0, 3) === '---') {
@@ -105,7 +107,7 @@ function validateDescLength(filePath) {
 }
 
 function validateImage() {
-    const fileNames = sync('./static/assets/**/*.**');
+    const fileNames = sync('./static/images/**/*.**');
     for (let i = 0; i < fileNames.length; i++) {
         if (statSync(fileNames[i]).isDirectory()) continue;
         let exe = fileNames[i].split('.')[2];

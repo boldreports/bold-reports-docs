@@ -30,7 +30,7 @@ You find the Asana workspace ID for Bold Data Hub in your browser's address bar.
 
 1. Log in to your Asana account.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/asana.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/asana.png#max-width=100%)
 
 2. Open any project or task within the workspace you want to connect.
 3. Check the URL in your browser's address bar. The Workspace ID is the number that appears after /0/ in the URL. Example: ``https://app.asana.com/0/{workspaceId}/list``.
@@ -94,27 +94,27 @@ You connect Asana by creating a pipeline in Bold Data Hub and adding the Asana c
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created pipeline and choose the Asana connector. Double-click it, or click the **Add Template** option, to add the template.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/asana_addtemplate.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/asana_addtemplate.png#max-width=100%)
 
 4. Paste the access token into the access_token property and add the other details, using the configuration parameters below.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/asana_finaltemplate.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/asana_finaltemplate.png#max-width=100%)
 
 5. Click **Save** and choose the destination to save the pipeline.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![Asana - DataHub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 >**Note:**
 For tasks and sections, projectID is required.
@@ -138,21 +138,21 @@ You schedule the Asana pipeline in Bold Data Hub from the schedules tab, or you 
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Asana - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![Asana - DataHub](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

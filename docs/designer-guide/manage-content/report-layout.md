@@ -16,19 +16,19 @@ You switch the Report Server report listing page to grid view from the layout me
 
 1. Review the standard card view. The following image shows the default card view on the Report Server.
 
-    ![default-layout](/static/assets/on-premise/images/manage-content/manage-layout/default-layout.png)
+    ![default-layout](/static/images/manage-content/manage-layout/default-layout.png)
 
 2. Navigate to the top-right corner of the page to change the layout of the report listing page to the grid view.
 
-    ![layout-menu](/static/assets/on-premise/images/manage-content/manage-layout/layout-menu.png)
+    ![layout-menu](/static/images/manage-content/manage-layout/layout-menu.png)
 
 3. Select `Grid View` from the dropdown menu.
 
-    ![switching-to-grid](/static/assets/on-premise/images/manage-content/manage-layout/switching-to-grid-view.png)
+    ![switching-to-grid](/static/images/manage-content/manage-layout/switching-to-grid-view.png)
 
 The report listing page then shows the reports in grid view.
 
-![switching-to-grid](/static/assets/on-premise/images/manage-content/manage-layout/grid-view.png)
+![switching-to-grid](/static/images/manage-content/manage-layout/grid-view.png)
 
 ## See also
 

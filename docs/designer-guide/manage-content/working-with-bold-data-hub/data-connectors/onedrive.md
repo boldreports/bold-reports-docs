@@ -65,23 +65,23 @@ The Bold Data Hub OneDrive connector uses OAuth to authenticate with your Micros
 
 1. Double-click the connector. An **Authentication Setup** window opens.
 
-    ![OneDrive Data Hub - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/oauth_onedrive.png#max-width=100%)
+    ![OneDrive Data Hub - BoldBI](/static/images/manage-content/working-with-etl/oauth_onedrive.png#max-width=100%)
 
 2. Fill in the Client ID and Client Secret and click **Ok**.
 
-    ![OneDrive Data Hub - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/onedrive_authentication.png#max-width=100%)
+    ![OneDrive Data Hub - BoldBI](/static/images/manage-content/working-with-etl/onedrive_authentication.png#max-width=100%)
 
 3. Click **Allow** in the authorization window to accept the scopes requested by Bold DataHub.
 4. Update the Tenant ID, File Path, client ID, and client secret in the template, and update the resources in the `properties` property.
 5. Click **Save** and choose the destination to save the pipeline.
 
-    ![OneDrive Data Hub - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/onedrive_auth_template.png#max-width=100%)
+    ![OneDrive Data Hub - BoldBI](/static/images/manage-content/working-with-etl/onedrive_auth_template.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub. For more information on how a Bold Data Hub pipeline relates to its data sources in {{site.productNameTM}}, see the following article.
 
 [Relationship between Bold Data Hub Pipeline and associated data sources](https://help.boldbi.com/working-with-data-sources/working-with-bold-data-hub/relationship-between-bold-data-hub-pipeline-and-associated-data-sources-in-boldbi/)
 
-![OneDrive - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![OneDrive - BoldBI](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ## How do I schedule the OneDrive pipeline?
 
@@ -89,21 +89,21 @@ You schedule the OneDrive pipeline in Bold Data Hub from the schedules tab, or y
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![OneDrive - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![OneDrive - BoldBI](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![OneDrive - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![OneDrive - BoldBI](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![OneDrive - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![OneDrive - BoldBI](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![OneDrive - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![OneDrive - BoldBI](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![OneDrive - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![OneDrive - BoldBI](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

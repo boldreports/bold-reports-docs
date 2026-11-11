@@ -43,33 +43,33 @@ You connect an Excel file by creating a pipeline in Bold Data Hub, adding the `E
 
 1. Click the `Data Hub` icon on the Navigation Pane.
 
-    ![Excel Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![Excel Data Hub- Reports](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![Excel Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Excel Data Hub- Reports](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created pipeline and add the `Excel` template.
 
-    ![Excel Data Hub- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/exceltemplate.png#max-width=100%)
+    ![Excel Data Hub- Reports](/static/images/manage-content/working-with-etl/exceltemplate.png#max-width=100%)
 
 4. Click the **Upload File** button to upload your Excel file.
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/uploadfile.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/uploadfile.png#max-width=100%)
 
 5. Copy the file path and paste it into the filePath property. Also, enter the appropriate sheet name.
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/copypathExcel.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/copypathExcel.png#max-width=100%)
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/showpathexcel.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/showpathexcel.png#max-width=100%)
 
 6. Click **Save** and choose the destination to save the pipeline.
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![Excel- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![Excel- Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ### Configuration Parameters
 
@@ -87,21 +87,21 @@ You schedule the Excel pipeline in Bold Data Hub from the schedules tab, or you 
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Excel - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![Excel - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ## Frequently asked questions
 

@@ -14,11 +14,11 @@ The Web Report Designer opens the `EDIT PARAMETER` panel, where you change the p
 
 1. In the configuration panel, click the `Parameters` icon to open the `PARAMETERS` panel.
 2. Hover the cursor over the parameter you want to edit in the list of parameters.
-   ![Parameter list view](/static/assets/on-premise/images/report-designer/report-parameters/edit-report-parameter/parameter-list-view.png '#width=350px')
+   ![Parameter list view](/static/images/report-designer/report-parameters/edit-report-parameter/parameter-list-view.png '#width=350px')
 3. Click the `menu` icon in the right corner to open the context menu.
-   ![Open context menu](/static/assets/on-premise/images/report-designer/report-parameters/edit-report-parameter/open-context-menu.png '#width=350px')
+   ![Open context menu](/static/images/report-designer/report-parameters/edit-report-parameter/open-context-menu.png '#width=350px')
 4. Choose `Edit` from the context menu. The `EDIT PARAMETER` panel opens.
-   ![Edit report parameter](/static/assets/on-premise/images/report-designer/report-parameters/edit-report-parameter/edit-report-parameter.png '#width=350px')
+   ![Edit report parameter](/static/images/report-designer/report-parameters/edit-report-parameter/edit-report-parameter.png '#width=350px')
 5. Modify the parameter fields and click `Save`.
 
 ## See also

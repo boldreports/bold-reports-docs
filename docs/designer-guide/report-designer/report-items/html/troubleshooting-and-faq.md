@@ -15,7 +15,7 @@ The Blink files missing error appears when the Chromium packages that the {{site
 ### Reason
 
 The HTML report item in {{site.productNameTM}} relies on the Chromium browser to process and render HTML content. If the Chromium packages are not available in the installed Enterprise build location, the HTML report item does not work. In that case, you see an error similar to the following image:
-![missing blink files](/static/assets/on-premise/images/report-designer/report-items/html/missing-blink-files.png '#width=425px')
+![missing blink files](/static/images/report-designer/report-items/html/missing-blink-files.png '#width=425px')
 
 ### Solution
 
@@ -24,7 +24,7 @@ You can resolve the {{site.productNameTM}} Blink files error in one of the follo
 * **During Build Installation**
 
     When you set up the Enterprise build, enable the checkbox to download the Chromium package.
-    ![download chromium package](/static/assets/on-premise/images/report-designer/report-items/html/download-chromium-package.png '#width=425px')
+    ![download chromium package](/static/images/report-designer/report-items/html/download-chromium-package.png '#width=425px')
 
 * **Manual Approach**
 
@@ -54,11 +54,11 @@ The {{site.productNameTM}} HTML report item does not execute `script` tags by de
 To enable script execution for the HTML report item in {{site.productNameTM}}, add the `EnableJavascript` property to the reporting configuration file.
 
 1. Click the profile icon in the top-right corner and navigate to **Manage Sites**.
-   ![manage sites](/static/assets/on-premise/images/report-designer/report-items/html/manage-sites.png '#width=425px')
+   ![manage sites](/static/images/report-designer/report-items/html/manage-sites.png '#width=425px')
 2. Navigate to **Settings > Configuration**, then select the `reporting\config.xml` file.
-   ![config file](/static/assets/on-premise/images/report-designer/report-items/html/config-file.png '#width=425px')
+   ![config file](/static/images/report-designer/report-items/html/config-file.png '#width=425px')
 3. Add the `EnableJavascript` property inside the `<Exporting>` XML tag, as shown in the following image.
-   ![script-support](/static/assets/on-premise/images/report-designer/report-items/html/script-support.png '#width=425px')
+   ![script-support](/static/images/report-designer/report-items/html/script-support.png '#width=425px')
 
 ## See also
 

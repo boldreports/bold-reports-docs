@@ -13,24 +13,24 @@ An embedded data source in the {{site.productNameTM}} Web Report Designer is a d
 You add a new embedded data source from the `DATASOURCE` panel of the {{site.productNameTM}} Web Report Designer. To bind data to a report item, you need a minimum of one data source. Create a data source with these steps:
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-icon-configuration-panel.png '#width=235px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/datasource/data-icon-configuration-panel.png '#width=235px')
 2. In the `Data` panel, click `DATASOURCE` in the top-left corner.
-   ![Data panel switcher icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-switcher-icon.png '#width=395px')
+   ![Data panel switcher icon](/static/images/report-designer/manage-data/datasource/data-panel-switcher-icon.png '#width=395px')
 3. In the `DATASOURCE` configuration panel, click the `NEW DATASOURCE` button.
-   ![New data source panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/new-data-source-panel.PNG '#width=385px')
+   ![New data source panel](/static/images/report-designer/manage-data/datasource/new-data-source-panel.PNG '#width=385px')
 4. In the connection type panel, choose the data source type that you want to connect.
    > Here, `SQL` connection type is used for demonstration.
 
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/connection-types-panel.png '#width=395px')
+   ![Connection types panel](/static/images/report-designer/manage-data/datasource/connection-types-panel.png '#width=395px')
 5. In the new connection panel, set the following fields:
     * In the **Name** field, specify the data source name without special characters.
     * In the **Server Name** field, select an existing server in the local network from the drop-down list, or specify a remote server name like `myserver.domain.com`.
     * In the **Authentication Type** field, choose **Windows** or **SQL Server** authentication.
     * If you chose **SQL Server** authentication, specify the **username** and **password** of the server.
     * In the **Database** field, choose or enter an existing valid database, for example, AdventureWorks.
-      ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/save-new-data-source.png '#width=395px')
+      ![New connection panel](/static/images/report-designer/manage-data/datasource/save-new-data-source.png '#width=395px')
 6. Click the `Save` button. The new embedded data source is added to the data source list pane, as shown below.
-   ![Data source list view](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-list-view.png '#width=385px')
+   ![Data source list view](/static/images/report-designer/manage-data/datasource/data-source-list-view.png '#width=385px')
 7. Use the data source. The embedded data source is now created in the report and ready for you to create or use data.
 
 ## Frequently asked questions

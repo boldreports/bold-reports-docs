@@ -14,11 +14,11 @@ You reorder data sources in the `DATASOURCE` panel of the {{site.productNameTM}}
 
 1. Open the `DATASOURCE` panel. The panel lists the data sources in the report.
 2. Click and hold the drag indicator icon of the data source item that you want to reorder.
-   ![Data source drag icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/drag-icon.png '#width=385px')
+   ![Data source drag icon](/static/images/report-designer/manage-data/datasource/drag-icon.png '#width=385px')
 3. Drag the selected data source item and drop it at the required position in the data sources list.
-   ![Datasource reorder](/static/assets/on-premise/images/report-designer/manage-data/datasource/reorder-datasource.png '#width=385px')
+   ![Datasource reorder](/static/images/report-designer/manage-data/datasource/reorder-datasource.png '#width=385px')
 4. Check the list. The data source item is rearranged to the dropped position.
-   ![Rearranged datasources](/static/assets/on-premise/images/report-designer/manage-data/datasource/rearranged-datasources.png '#width=385px')
+   ![Rearranged datasources](/static/images/report-designer/manage-data/datasource/rearranged-datasources.png '#width=385px')
 
 ## See also
 

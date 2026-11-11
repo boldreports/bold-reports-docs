@@ -14,15 +14,15 @@ You delete a data source from the `DATASOURCE` panel of the {{site.productNameTM
 
 1. Select the data source in the `DATASOURCE` panel that you want to delete.
 
-   ![Data source item menu icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png '#width=385px')
+   ![Data source item menu icon](/static/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png '#width=385px')
 
 2. Click the highlighted icon shown in the previous image to open the context menu for the selected data source.
 
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png '#width=410px')
+   ![Data panel context menu](/static/images/report-designer/manage-data/datasource/data-panel-context-menu.png '#width=410px')
 
 3. Choose `Delete` from the context menu. The confirmation dialog opens, as shown below.
 
-   ![Delete data source confirmation](/static/assets/on-premise/images/report-designer/manage-data/datasource/delete-data-source-confirmation.png '#width=410px')
+   ![Delete data source confirmation](/static/images/report-designer/manage-data/datasource/delete-data-source-confirmation.png '#width=410px')
 
 4. Click the `Yes` button to remove the data source from the report.
 

@@ -21,19 +21,19 @@ You can download the [invoice sample report (RDL)](https://github.com/boldreport
 You add the signature item in the Web Report Designer by dragging it onto the report and drawing the signature in the signature dialog.
 
 1. Open the downloaded `invoice` report.
-    ![Open the invoice report](/static/assets/on-premise/images/report-designer/report-items/signature/open-invoice-report.png '#width=425px')
+    ![Open the invoice report](/static/images/report-designer/report-items/signature/open-invoice-report.png '#width=425px')
 2. Drag and drop the signature report item into the required area of the report.
-   ![Drag and drop signature into invoice report](/static/assets/on-premise/images/report-designer/report-items/signature/drag-and-drop-signature-invoice.png '#width=425px')
+   ![Drag and drop signature into invoice report](/static/images/report-designer/report-items/signature/drag-and-drop-signature-invoice.png '#width=425px')
 3. Check that the item properties are now listed in the properties panel. Click the `Draw...` button to open the signature dialog.
-   ![Signature item with properties view](/static/assets/on-premise/images/report-designer/report-items/signature/design-signature-properties.png '#width=485px')
+   ![Signature item with properties view](/static/images/report-designer/report-items/signature/design-signature-properties.png '#width=485px')
 4. Draw the signature using a mouse or touch input within the dialog. You can also:
    * `Stroke width` - Adjust the thickness of the signature lines.
    * `Stroke color` - Change the color of the signature lines to enhance visibility and match the design of your document.
-      ![Stroke width and color](/static/assets/on-premise/images/report-designer/report-items/signature/stroke-width-color.png '#width=400px')
+      ![Stroke width and color](/static/images/report-designer/report-items/signature/stroke-width-color.png '#width=400px')
    * Click the `Crop` button to enable cropping and fine-tune the visible portion of the signature.
-      ![Croping in signature](/static/assets/on-premise/images/report-designer/report-items/signature/crop-signature.png '#width=400px')
+      ![Croping in signature](/static/images/report-designer/report-items/signature/crop-signature.png '#width=400px')
 5. Click `OK`. The signature is updated on the canvas in the Designer Area. You can change the height and width of the signature.
-   ![Signature in invoice report](/static/assets/on-premise/images/report-designer/report-items/signature/authority-signature.png '#width=425px')
+   ![Signature in invoice report](/static/images/report-designer/report-items/signature/authority-signature.png '#width=425px')
 
 > Note: The electronic signatures are intended to visually represent a person’s signature on a report. They do not include cryptographic security or digital certificate validation, and are not legally binding. This feature is best used for adding a personal touch or indicating informal approval within internal workflows.
 
@@ -42,13 +42,13 @@ You add the signature item in the Web Report Designer by dragging it onto the re
 You can edit an electronic signature in the {{site.productNameTM}} Web Report Designer preview without returning to design mode.
 
 1. Click the `Preview` button in the report header.
-   ![Preview button](/static/assets/on-premise/images/report-designer/report-items/signature/preview-button.png '#width=425px')
+   ![Preview button](/static/images/report-designer/report-items/signature/preview-button.png '#width=425px')
 2. Hover over the signature to see the `Edit` icon, and click it to open the Signature Dialog.
-   ![Signature preview edit icon](/static/assets/on-premise/images/report-designer/report-items/signature/preview-edit-icon.png '#width=425px')
+   ![Signature preview edit icon](/static/images/report-designer/report-items/signature/preview-edit-icon.png '#width=425px')
 3. If needed, clear the existing signature and draw a new one directly within the dialog.
-   ![Draw signature in dialog](/static/assets/on-premise/images/report-designer/report-items/signature/draw-signature-preview-dialog.png '#width=400px')
+   ![Draw signature in dialog](/static/images/report-designer/report-items/signature/draw-signature-preview-dialog.png '#width=400px')
 4. Click `OK`. The updated signature appears in the Preview Area.
-   ![Signature in preview area](/static/assets/on-premise/images/report-designer/report-items/signature/preview-signature.png '#width=425px')
+   ![Signature in preview area](/static/images/report-designer/report-items/signature/preview-signature.png '#width=425px')
 
 ## Is the signature included when I export the report?
 

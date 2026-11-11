@@ -18,7 +18,7 @@ You can create and store a data source on the {{site.productNameTM}} Report Serv
 
 Report Server data source management lets you add, update, share, and delete shared data sources. The following image shows the list of options available for managing data sources.
 
-![Options available to manage data sources in the Report Server](/static/assets/on-premise/images/manage-content/manage-data-sources/managing-data-sources.png)
+![Options available to manage data sources in the Report Server](/static/images/manage-content/manage-data-sources/managing-data-sources.png)
 
 ## Add or create data sources
 
@@ -27,7 +27,7 @@ You can add a data source to the Report Server only if you have the `Create All 
 ### Steps to add a data source
 
 1. Click the `Create Data Source` button on the Data Sources listing page.
-    ![Create data source menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/create-data-source-menu-option.png)
+    ![Create data source menu option](/static/images/manage-content/manage-data-sources/create-data-source-menu-option.png)
 
    > While adding a data source, you can also add a new dataset to the Report Server. Use either the `Create New Data source` option or the `Use existing Data source` option.
 
@@ -36,20 +36,20 @@ You can add a data source to the Report Server only if you have the `Create All 
 The `Create New Datasource` option in Report Server creates a new data source and then a dataset that uses it.
 
 1. Click the `Create New Datasource` option. Report Server shows the enabled connectors, as shown in the following image.
-    ![Set data connectors type](/static/assets/on-premise/images/manage-content/manage-data-sources/connectors-type.png)
+    ![Set data connectors type](/static/images/manage-content/manage-data-sources/connectors-type.png)
 
 2. Choose the data source, enter the name, description, and other required details of the data source, and then click the **Save and Create DataSet** option.
-    ![Set data source properties](/static/assets/on-premise/images/manage-content/manage-data-sources/add-new-data-source.png)
+    ![Set data source properties](/static/images/manage-content/manage-data-sources/add-new-data-source.png)
 
 3. Enter the name and description of the dataset and click the `Proceed to Query Designer` option.
-    ![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
+    ![Proceed to designer](/static/images/manage-content/manage-data-sources/proceed-to-designer.png).
 
 4. After designing the dataset, click the `save` option.
 
     >`Read, Write, Delete` permission for the `Specific Data Source` is added for the user who created the data source.
 
     > **Note**: Security Content
-    > ![password encryption](/static/assets/on-premise/images/manage-content/manage-data-sources/password-encryption.png)
+    > ![password encryption](/static/images/manage-content/manage-data-sources/password-encryption.png)
     > * A password is encrypted and saved in the database.
     > * When the `save password` option is not enabled, the credentials are not stored in the database, and the system prompts for the username and password on every occasion.
     > * When the `Save Password` option is enabled, the password is encrypted and the credentials are stored in the database. The system then does not prompt for the username and password on every occasion.
@@ -59,13 +59,13 @@ The `Create New Datasource` option in Report Server creates a new data source an
 The `Use existing Datasource` option in Report Server creates a new dataset from a data source that already exists.
 
 1. Click the `Use existing Datasource` option when creating a dataset. Report Server shows all existing data sources.
-   ![Use existing Datasource](/static/assets/on-premise/images/manage-content/manage-data-sources/existing-datasource.png)
+   ![Use existing Datasource](/static/images/manage-content/manage-data-sources/existing-datasource.png)
 
 2. Select the existing data source and click the `Connect` button to create a new dataset.
-   ![Set Use existing Datasource](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source-existing.png)
+   ![Set Use existing Datasource](/static/images/manage-content/manage-data-sources/add-data-source-existing.png)
 
 3. Enter the name and description of the dataset and click the `Proceed to Query Designer` option.
-   ![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
+   ![Proceed to designer](/static/images/manage-content/manage-data-sources/proceed-to-designer.png).
 
 4. After designing the dataset, click the `Save` option.
     >`Read, Write, Delete` permissions for the `Specific Data Source` are granted to the user who created the data source.
@@ -77,46 +77,46 @@ You can share data sources with other users in the Report Server by setting shar
 ### Steps to share a data source
 
 1. Click the `Actions` menu button in the Data source grid context menu and select the `Sharing Permissions` option.
-   ![Sharing permission menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/manage-datasource-permission-context-menu.png)
+   ![Sharing permission menu option](/static/images/manage-content/manage-data-sources/manage-datasource-permission-context-menu.png)
 
 2. Click the `Manage Access` button.
-   ![Select data source access permission](/static/assets/on-premise/images/manage-content/manage-data-sources/select-datasource-permission-dialog.png)
+   ![Select data source access permission](/static/images/manage-content/manage-data-sources/select-datasource-permission-dialog.png)
 
 3. Select the permissions to access and the users or groups to share the data source with.
-   ![Add permission to a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/add-datasource-permission.png)
+   ![Add permission to a data source](/static/images/manage-content/manage-data-sources/add-datasource-permission.png)
 
 4. After selecting the access and users or groups, click the `Add` button.
-   ![Add button](/static/assets/on-premise/images/manage-content/manage-data-sources/add-access-datasource-permission.png)
+   ![Add button](/static/images/manage-content/manage-data-sources/add-access-datasource-permission.png)
    > **Note:** Only users who have share permission can share the data source with other Report Server users.
 
 ### How do I remove data source permission?
 
 A Report Server user with specific permissions can remove the shared permissions using the `Remove` icon in the `Access` column.
-![Add Permission](/static/assets/on-premise/images/manage-content/manage-data-sources/remove-datasource-permission.png)
+![Add Permission](/static/images/manage-content/manage-data-sources/remove-datasource-permission.png)
 
 ### Info
 
 The `Info` option in Report Server shows the details and linked reports of a data source.
 
 1. Click the Actions menu button in the Data source grid context menu and select `Info`.
-    ![Datasource Info](/static/assets/on-premise/images/manage-content/manage-data-sources/datasource-info.png)
+    ![Datasource Info](/static/images/manage-content/manage-data-sources/datasource-info.png)
 
 2. Review the Data Source info. It shows the Data source Id, Created by, Created on, Last modified by, Last modified on, and Linked Reports.
-    ![Show Info](/static/assets/on-premise/images/manage-content/manage-data-sources/show-info.png)
+    ![Show Info](/static/images/manage-content/manage-data-sources/show-info.png)
 
 3. Click `Show` to view the linked reports.
-    ![Click Show Report](/static/assets/on-premise/images/manage-content/manage-data-sources/click-show-report.png)
-    ![Click Show Report](/static/assets/on-premise/images/manage-content/manage-data-sources/linked-reports.png)
+    ![Click Show Report](/static/images/manage-content/manage-data-sources/click-show-report.png)
+    ![Click Show Report](/static/images/manage-content/manage-data-sources/linked-reports.png)
 
 ## How do I edit a data source as XML?
 
 The Report Server XML editor provides a user-friendly interface for making modifications to a data source. You can change the data source without downloading it or using a separate text editor.
 
 1. Click the `Actions` menu button in the data source grid context menu and select `Edit As XML` to edit a data source.
-    ![Edit datasource in XML](/static/assets/on-premise/images/manage-content/manage-data-sources/edit-datasource-xml.png)
+    ![Edit datasource in XML](/static/images/manage-content/manage-data-sources/edit-datasource-xml.png)
 
 2. Make your modifications in the new tab, where the data source opens as XML. Save the edited data source by publishing it from the XML editor.
-    ![Edit datasource XML View](/static/assets/on-premise/images/manage-content/manage-data-sources/edit-datasource-xml-view.png)
+    ![Edit datasource XML View](/static/images/manage-content/manage-data-sources/edit-datasource-xml-view.png)
 
 ## How do I update a data source?
 
@@ -125,10 +125,10 @@ You can update shared data sources in {{site.productNameTM}} Report Server from 
 ### Steps to update the data source
 
 1. Click the `Actions` menu button in the data sources grid context menu and select the `Update` option.
-   ![Update datasource menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-datasource-option.png)
+   ![Update datasource menu option](/static/images/manage-content/manage-data-sources/update-datasource-option.png)
 
 2. Change the name, description, and other required details, and then select the `Update` option in the update data source dialog box.
-   ![Update option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-option.png)
+   ![Update option](/static/images/manage-content/manage-data-sources/update-option.png)
    >**Note:** This option is available in {{site.productNameTM}} On-Premises Edition from version `2.2.28` onwards.
 
 ## How do I delete a data source?
@@ -136,7 +136,7 @@ You can update shared data sources in {{site.productNameTM}} Report Server from 
 You can delete data sources from the Report Server when they are no longer required.
 
 Click the `Actions` menu button in the data sources grid context menu and select `Delete` to delete the data source.
-![Delete a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/delete-data-source.png)
+![Delete a data source](/static/images/manage-content/manage-data-sources/delete-data-source.png)
 
 > Data Sources cannot be deleted if a report or dataset uses them.
 

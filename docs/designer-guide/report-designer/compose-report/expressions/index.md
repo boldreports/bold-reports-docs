@@ -8,16 +8,16 @@ keywords: ejReportDesigner, reportdesigner, expression, built-in-fields
 
 The Expression Builder in {{site.productNameTM}} Web Report Designer lets you write expressions that control the content, style, data, value, and behavior of your reports. Expressions must start with an equal sign (=). Otherwise, the value is treated as a string literal.
 
-![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/set-expression.png '#width=400px')
+![set-an-expression](/static/images/report-designer/compose-report/expressions/set-expression.png '#width=400px')
 
 ## How do I set an expression?
 
 You set an expression in the Web Report Designer by picking items from the two drop-down lists in the Expression Builder.
 
 1. Choose **Options** from the first drop-down list to set an expression with **Built-in-fields**, **Operators**, and **Functions**.
-   ![expression-in-options](/static/assets/on-premise/images/report-designer/compose-report/expressions/options-dropdown.png '#width=250px')
+   ![expression-in-options](/static/images/report-designer/compose-report/expressions/options-dropdown.png '#width=250px')
 2. Choose **Data** from the second drop-down list to set an expression with **Parameters** and **Dataset Fields**.
-   ![expression-in-data](/static/assets/on-premise/images/report-designer/compose-report/expressions/data-dropdown.png '#width=250px')
+   ![expression-in-data](/static/images/report-designer/compose-report/expressions/data-dropdown.png '#width=250px')
 
 ## Which expressions are supported?
 

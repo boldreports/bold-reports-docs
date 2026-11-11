@@ -12,11 +12,11 @@ To connect {{site.productNameTM}} to AWS Open Search, open the **Data** configur
 To create an AWS Open Search data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Elastic Search connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
 3. In the connection type panel, choose the `Elastic Search` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/connection-types.png '#width=350px')
+   ![Connection types panel](/static/images/report-designer/manage-data/aws-opensearch-data-source/connection-types.png '#width=350px')
 
 ### How do I configure the basic options?
 
@@ -31,21 +31,21 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 5. Enter the **Port** in which the server is running in the port text box.
 6. Enter a valid username in the **Username** text box.
 7. Enter a valid password in the **Password** text box.
-   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/basic-options.png '#width=360px')
+   ![Web datasource properties](/static/images/report-designer/manage-data/aws-opensearch-data-source/basic-options.png '#width=360px')
 
 After you connect the data source, the data design view page opens. The page lists the schemas and tables from the AWS Open Search server in a `treeview` section.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/execute-schema.png)
+![New connection panel](/static/images/report-designer/manage-data/aws-opensearch-data-source/execute-schema.png)
 
 Drag and drop the required table from the tree view list.
 
-![Tree View List](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/tree-view-list.png)
+![Tree View List](/static/images/report-designer/manage-data/aws-opensearch-data-source/tree-view-list.png)
 
 > Multiple joins are not supported for the AWS Open Search data source in {{site.productNameTM}}.
 
 Click `Finish` to save the data source with a relevant name and continue designing the report.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/data-list.png '#width=360px')
+![New connection panel](/static/images/report-designer/manage-data/aws-opensearch-data-source/data-list.png '#width=360px')
 
 ## How do I connect through a custom query?
 
@@ -57,11 +57,11 @@ After the connect action, the query design view opens.
 
 The {{site.productNameTM}} query design view opens in design view by default. To switch to code view, enable the slider option in the tools pane, as highlighted in the following image.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/code-switcher.png '#width=550px')
+![New connection panel](/static/images/report-designer/manage-data/data-connectors/code-switcher.png '#width=550px')
 
 The query editor pane then switches to code view, as shown in the following image.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/query-mode.png '#width=415px')
+![New connection panel](/static/images/report-designer/manage-data/aws-opensearch-data-source/query-mode.png '#width=415px')
 
 ### How do I write and execute a query?
 
@@ -70,11 +70,11 @@ In the {{site.productNameTM}} `Query Editor` pane, you can write your own query 
 1. Write your query in the `Query Editor` pane.
 2. Click the `Execute` option in the tools pane. The data for your query appears at the bottom of the `Query Editor`.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/enter-query.png)
+![New connection panel](/static/images/report-designer/manage-data/aws-opensearch-data-source/enter-query.png)
 
 If you disable the Code Slider in the tools pane to switch back to design view, an alert message asks you to confirm removing your query. Proceeding with this action resets the code view query.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/switcher-alert.png '#width=650px')
+![New connection panel](/static/images/report-designer/manage-data/aws-opensearch-data-source/switcher-alert.png '#width=650px')
 
 Click `Yes` to discard the query and go to design view, or click `No` to keep it. Save the data source by clicking the `Finish` button.
 
@@ -84,11 +84,11 @@ The {{site.productNameTM}} `Query Editor` pane shows the query for a data source
 
 For example, drag the `kibana_sample_data_flights` table in design view.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/design-view.png)
+![New connection panel](/static/images/report-designer/manage-data/aws-opensearch-data-source/design-view.png)
 
 Then, enable the `Code Switcher` to view the query. The query reflects the changes made in the table.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/design-to-query.png)
+![New connection panel](/static/images/report-designer/manage-data/aws-opensearch-data-source/design-to-query.png)
 
 ## Frequently asked questions
 

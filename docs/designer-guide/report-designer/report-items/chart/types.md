@@ -12,7 +12,7 @@ The {{site.productNameTM}} Web Report Designer lists the supported chart types i
 * Proportion
 * Distribution
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-types-in-item-panel.png '#width=225px')
+![Chart Types](/static/images/report-designer/report-items/chart/chart-types-in-item-panel.png '#width=225px')
 
 Choose an appropriate chart type based on the type of data you present.
 

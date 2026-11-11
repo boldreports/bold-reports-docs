@@ -16,15 +16,15 @@ You set the no rows message for a table, matrix, list, or subreport in {{site.pr
 1. Select the table, matrix, or list data region or subreport on the design surface. The `Properties` panel displays the properties for the selected item.
 2. Under the `No Rows` category in the properties panel, enter the text you want to display in the `Message` property field.
 
-![No data for table](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-table.png)
+![No data for table](/static/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-table.png)
 
 You can also set the message text from dynamic values using `Expressions`. To open the set or reset expression menu in the properties panel, read the [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections.
 
-![No rows message as expression](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-table.png '#width=350px')
+![No rows message as expression](/static/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-table.png '#width=350px')
 
 During report preview, the specified message is displayed if the user-specified value is not available in the database.
 
-![No data for table](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-table-preview.png)
+![No data for table](/static/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-table-preview.png)
 
 ## To set the NoDataMessage property for a chart
 
@@ -33,15 +33,15 @@ You set the no data message for a chart in {{site.productNameTM}} Report Designe
 1. Select the chart on the design surface. The `Properties` panel displays the properties for the selected item.
 2. Under the `No Data` category in the properties panel, enter the text you want to display in the `Message` property field.
 
-![No data for chart](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-chart.png)
+![No data for chart](/static/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-chart.png)
 
 You can also set the message text from dynamic values using `Expressions`. To open the set or reset expression menu in the properties panel, read the [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections.
 
-![No data message as expression](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-chart.png '#width=350px')
+![No data message as expression](/static/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-chart.png '#width=350px')
 
 During report preview, the specified message is displayed if the user-specified value is not available in the database.
 
-![No data for chart](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-chart-preview.png)
+![No data for chart](/static/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-chart-preview.png)
 
 ## Frequently asked questions
 

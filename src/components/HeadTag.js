@@ -5,6 +5,7 @@ import favicon192 from '../assets/img/favicon-192x192.png';
 import favicon180 from '../assets/img/favicon-180x180.png';
 import favicon270 from '../assets/img/favicon-270x270.png';
 import ogImg from '../assets/img/og-img.png';
+import config from '../../config.json';
 
 //UUID Passing to GTM - Starts Here
 export const visitorUidScript = `
@@ -103,9 +104,9 @@ const HeadTag = ({ pageContext = {} }) => {
 				<meta property="og:image:width" content="1200" />
 				<meta property="og:image:height" content="630" />
 				<meta property="og:image:type" content="image/png" />
-				<meta property="og:image:alt" content="Bold Reports Documentation" />
+				<meta property="og:image:alt" content={`${config.product.name} Documentation`} />
 				<meta property="og:type" content="article" />
-				<meta property="og:site_name" content="Bold Reports Docs" />
+				<meta property="og:site_name" content={`${config.product.name} Docs`} />
 				<meta property="og:locale" content="en_US" />
 
 				<meta name="twitter:card" content="summary_large_image" />

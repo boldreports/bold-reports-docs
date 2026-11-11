@@ -13,31 +13,31 @@ You switch a series chart type in the {{site.productNameTM}} Report Designer fro
 
 1. To open the properties of a specific series, choose the series name in the `Choose Series` dropdown.
 
-   ![Series selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/chose-series.png '#width=385px')
+   ![Series selection](/static/images/report-designer/report-items/chart/switch-chart-type/chose-series.png '#width=385px')
 
 2. Click the `Edit` icon. The properties panel displays the properties of that series.
 
-   ![Series properties](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/series-properties.png '#width=385px')
+   ![Series properties](/static/images/report-designer/report-items/chart/switch-chart-type/series-properties.png '#width=385px')
 
 3. Find the chart type switcher under `Basic Settings` and choose a type in the `Chart Type` dropdown.
 
-   ![Chart type switcher](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/chart-type.png '#width=385px')
+   ![Chart type switcher](/static/images/report-designer/report-items/chart/switch-chart-type/chart-type.png '#width=385px')
 
 ## Which chart types can I switch to?
 
 The {{site.productNameTM}} Report Designer lists only the types compatible with the present series chart type in the chart type dropdown. For example, if the existing series chart type is pie chart, the chart type dropdown lists the compatible types shown in the following image.
 
-![Supported chart types](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/supported-types.png)
+![Supported chart types](/static/images/report-designer/report-items/chart/switch-chart-type/supported-types.png)
 
 ## Chart with single series
 
 When a {{site.productNameTM}} chart has a single series, changing the series chart type changes the whole chart to the expected chart type. For example, the following report has a column chart with a single series.
 
-![Single series](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/single-series.png '#width=355px')
+![Single series](/static/images/report-designer/report-items/chart/switch-chart-type/single-series.png '#width=355px')
 
 To change the series chart type to `Line`, choose `Line` in the chart type dropdown.
 
-![Line chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/line-chart.png)
+![Line chart](/static/images/report-designer/report-items/chart/switch-chart-type/line-chart.png)
 
 ## Chart with multiple series
 
@@ -72,19 +72,19 @@ The Report Designer switches only the selected series to the new chart type for 
 
 For example, the following report has a column chart with multiple series.
 
-![Multiple series column chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/multiple-series-column.png '#width=385px')
+![Multiple series column chart](/static/images/report-designer/report-items/chart/switch-chart-type/multiple-series-column.png '#width=385px')
 
 1. Choose the series whose type you want to change.
 
-   ![Series selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-multi-series.png '#width=385px')
+   ![Series selection](/static/images/report-designer/report-items/chart/switch-chart-type/choose-multi-series.png '#width=385px')
 
 2. To change the chart series type to `Line`, choose `Line` in the chart type dropdown.
 
-   ![Series type selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-chart-type-line.png '#width=385px')
+   ![Series type selection](/static/images/report-designer/report-items/chart/switch-chart-type/choose-chart-type-line.png '#width=385px')
 
 The following image shows the resulting chart with mixed column and line series.
 
-![Column Line mixed series chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/column-line-mixed-series.png '#width=385px')
+![Column Line mixed series chart](/static/images/report-designer/report-items/chart/switch-chart-type/column-line-mixed-series.png '#width=385px')
 
 ### Combined Chart Series Type Switching
 
@@ -121,19 +121,19 @@ The Report Designer switches all series in the chart together in the following t
 
     For example, the following report has a column chart with multiple series.
 
-    ![Multiple series column chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/multiple-series-column.png '#width=385px')
+    ![Multiple series column chart](/static/images/report-designer/report-items/chart/switch-chart-type/multiple-series-column.png '#width=385px')
 
     Choose the series whose type you want to change.
 
-    ![Series selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-multi-series.png '#width=385px')
+    ![Series selection](/static/images/report-designer/report-items/chart/switch-chart-type/choose-multi-series.png '#width=385px')
 
     To change the chart series type to `Stacked Column`, choose `Stacked Column` in the chart type dropdown.
 
-    ![Series type selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-chart-type-stacked-column.png '#width=385px')
+    ![Series type selection](/static/images/report-designer/report-items/chart/switch-chart-type/choose-chart-type-stacked-column.png '#width=385px')
 
     The following image shows all series switched to stacked column.
 
-    ![Multiple series Stacked Chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/multiple-series-stacked-column.png '#width=385px')
+    ![Multiple series Stacked Chart](/static/images/report-designer/report-items/chart/switch-chart-type/multiple-series-stacked-column.png '#width=385px')
 
 * All series chart types convert to the new type for the following source and target combinations. A warning dialog asks you to confirm this action before it proceeds.
 
@@ -154,27 +154,27 @@ The Report Designer switches all series in the chart together in the following t
 
     For example, take a column chart with multiple series.
 
-    ![Multiple series column chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/multiple-series-column.png '#width=385px')
+    ![Multiple series column chart](/static/images/report-designer/report-items/chart/switch-chart-type/multiple-series-column.png '#width=385px')
 
     Choose the series whose type you want to change.
 
-    ![Series selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-multi-series.png '#width=385px')
+    ![Series selection](/static/images/report-designer/report-items/chart/switch-chart-type/choose-multi-series.png '#width=385px')
 
     To change the series chart type to `Bar`, choose `Bar` in the chart type dropdown.
 
-    ![Series type selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-chart-type-bar.png '#width=385px')
+    ![Series type selection](/static/images/report-designer/report-items/chart/switch-chart-type/choose-chart-type-bar.png '#width=385px')
 
     The following confirmation dialog appears.
 
-    ![Confirmation dialog](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/confirmation.png '#width=385px')
+    ![Confirmation dialog](/static/images/report-designer/report-items/chart/switch-chart-type/confirmation.png '#width=385px')
 
     Click `Yes` to change the existing series types to `Bar`.
 
-    ![Multiple series Bar Chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/multiple-series-bar.png '#width=385px')
+    ![Multiple series Bar Chart](/static/images/report-designer/report-items/chart/switch-chart-type/multiple-series-bar.png '#width=385px')
 
     Click `No` to leave the respective series unchanged.
 
-    ![Multiple series column chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/multiple-series-column.png '#width=385px')
+    ![Multiple series column chart](/static/images/report-designer/report-items/chart/switch-chart-type/multiple-series-column.png '#width=385px')
 
 ## Frequently asked questions
 

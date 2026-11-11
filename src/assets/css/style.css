@@ -477,7 +477,6 @@ body.dark-mode {
 	--focus-dropdown-divider-color: #393F48;
 
 	/* Images */
-	--logo: url('../img/boldreports-logo-dark.svg');
 	--theme-toggle-icon: url('../img/light-mode-sun-icon.svg');
 	--focus-btn-on-icon: url('../img/focus-mode-on-dark.svg');
 	--focus-btn-off-icon: url('../img/focus-mode-off-dark.svg');

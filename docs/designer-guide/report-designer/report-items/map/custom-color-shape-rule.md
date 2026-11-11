@@ -14,7 +14,7 @@ You apply a custom color rule to map shapes in the {{site.productNameTM}} Web Re
 1. Under the `Shape Color Rule` category, choose the **Custom** option in the type dropdown.
 2. Use the **Custom Colors** field that appears under the type dropdown to set your colors.
 
-![Map palette types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/custom-colors-field.png '#width=445px')
+![Map palette types](/static/images/report-designer/report-items/map/shape-color-rule/custom-colors-field.png '#width=445px')
 
 The {{site.productNameTM}} custom color option lets you define any number of color sets based on the output you want. To define custom colors, see the [Custom colors](./../../../report-items/map/define-custom-colors/) section.
 

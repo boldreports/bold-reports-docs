@@ -8,7 +8,7 @@ keywords: ejReportDesigner, reportdesigner, built-in fields, references, express
 
 Built-in fields in {{site.productNameTM}} Web Report Designer are global variables that specify the report name, page number, and execution time in a report. They include the Globals and the User collections.
 
-![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/build-in-fields.png '#width=400px')
+![set-an-expression](/static/images/report-designer/compose-report/expressions/build-in-fields.png '#width=400px')
 
 ## Global Collection
 

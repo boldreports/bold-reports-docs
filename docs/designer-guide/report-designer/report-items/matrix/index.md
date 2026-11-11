@@ -8,7 +8,7 @@ keywords: ejReportDesigner, reportdesigner, tablix, reportitem, {{site.productNa
 
 The matrix report item in the {{site.productNameTM}} Web Report Designer displays summarized data. It lets you group and summarize data by both rows and columns. A simple matrix design contains a row group, a column group, a corner cell, and a data cell.
 
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/initial-matrix-design.png '#width=315px')
+![Matrix simple design](/static/images/report-designer/report-items/matrix/initial-matrix-design.png '#width=315px')
 
 ## Properties
 
@@ -19,9 +19,9 @@ The matrix report item in the {{site.productNameTM}} Web Report Designer uses th
 You add a matrix in the {{site.productNameTM}} Web Report Designer by dragging it from the item panel. Follow these steps:
 
 1. Find the matrix report item in the item panel under the `Data Regions` category.
-   ![Matrix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/matrix/item-panel-view.png '#width=195px')
+   ![Matrix listed in item panel](/static/images/report-designer/report-items/matrix/item-panel-view.png '#width=195px')
 2. Drag and drop the matrix report item from the item panel into the design area. The properties of the matrix report item are listed in the properties panel. By default, it is named `Tablix1`.
-   ![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/drag-and-drop-matrix.png '#width=385px')
+   ![Drag and drop tablix report item into design area](/static/images/report-designer/report-items/matrix/drag-and-drop-matrix.png '#width=385px')
 
 ## See also
 

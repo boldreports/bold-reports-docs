@@ -14,21 +14,21 @@ The Web Report Designer selects a report item when you hover over it and click i
 
 1. Hover the mouse over the report item that you want to select.
 
-    ![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-selection/mouse-hover-on-the-report-item.png '#width=250px')
+    ![Resize the table column](/static/images/report-designer/compose-report/design-surface/report-item-selection/mouse-hover-on-the-report-item.png '#width=250px')
 
 2. Click the left or right mouse button. The selection is applied to the report item.
 
-    ![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-selection/selection-output.png '#width=250px')
+    ![Resize the table column](/static/images/report-designer/compose-report/design-surface/report-item-selection/selection-output.png '#width=250px')
 
 To select multiple report items in the design surface:
 
 1. Hold the mouse button and draw a bounding rectangle around the required items.
 
-    ![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-selection/draw-bouding-rectangle.png '#width=250px')
+    ![Resize the table column](/static/images/report-designer/compose-report/design-surface/report-item-selection/draw-bouding-rectangle.png '#width=250px')
 
 2. Release the mouse button. The selection is applied to those report items in the designer surface.
 
-    ![Resize the table column](/static/assets/on-premise/images/report-designer/compose-report/design-surface/report-item-selection/multiple-selection-using-mouse.png '#width=250px')
+    ![Resize the table column](/static/images/report-designer/compose-report/design-surface/report-item-selection/multiple-selection-using-mouse.png '#width=250px')
 
 ## Which keyboard shortcuts select report items?
 

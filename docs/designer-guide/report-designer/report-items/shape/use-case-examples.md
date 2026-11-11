@@ -12,7 +12,7 @@ You can use shape report items in {{site.productNameTM}} to design workflow diag
 
 The Manufacturing Workflow for Tablet PC report in {{site.productNameTM}} shows a manufacturing workflow. It uses shapes for the start node, decision points, process steps, and connected paths.
 
-![Manufacturing Workflow for Tablet PC](/static/assets/on-premise/images/report-designer/report-items/shape/use-case-manufacturing-workflow.png '#width=500px')
+![Manufacturing Workflow for Tablet PC](/static/images/report-designer/report-items/shape/use-case-manufacturing-workflow.png '#width=500px')
 
 > Download the [Manufacturing Workflow for Tablet PC report design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/shape/manufacturing-workflow-for-tablet-pc-with-sim-and-touch-functionality-options.rdl)
 
@@ -20,7 +20,7 @@ The Manufacturing Workflow for Tablet PC report in {{site.productNameTM}} shows 
 
 The Employee Leave Calculation and Approval Workflow report in {{site.productNameTM}} uses shapes to represent leave types, calculation steps, approval decisions, and final processing.
 
-![Employee Leave Calculation Workflow](/static/assets/on-premise/images/report-designer/report-items/shape/use-case-employee-leave-workflow.png '#width=500px')
+![Employee Leave Calculation Workflow](/static/images/report-designer/report-items/shape/use-case-employee-leave-workflow.png '#width=500px')
 
 > Download the [Employee Leave Calculation and Approval Workflow report design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/shape/employee-leave-calculation-and-approval-workflow.rdl)
 
@@ -28,7 +28,7 @@ The Employee Leave Calculation and Approval Workflow report in {{site.productNam
 
 The E-Commerce Order Processing and Payment Workflow report in {{site.productNameTM}} shows order amount handling, tax calculation, installment selection, and order confirmation paths.
 
-![E-Commerce Order Processing Workflow](/static/assets/on-premise/images/report-designer/report-items/shape/use-case-ecommerce-workflow.png '#width=500px')
+![E-Commerce Order Processing Workflow](/static/images/report-designer/report-items/shape/use-case-ecommerce-workflow.png '#width=500px')
 
 > Download the [E-Commerce Order Processing and Payment Workflow report design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/shape/e-commerce-order-processing-and-payment-workflow.rdl)
 

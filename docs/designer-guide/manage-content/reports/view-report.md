@@ -35,28 +35,28 @@ With the {{site.productNameTM}} Report Viewer, you can:
 You view a report in {{site.productNameTM}} Report Server by opening it from the report list.
 
 1. Click the `Open` icon, or click the report tile in the list, to open the report.
-    ![Open a report](/static/assets/on-premise/images/manage-content/manage-reports/open-report.png)
-    ![Open a report](/static/assets/on-premise/images/manage-content/manage-reports/open-by-report-name.png)
+    ![Open a report](/static/images/manage-content/manage-reports/open-report.png)
+    ![Open a report](/static/images/manage-content/manage-reports/open-by-report-name.png)
 
 2. Review the report, which opens in the Report Viewer.
-    ![view report](/static/assets/on-premise/images/manage-content/manage-reports/view-report.png)
+    ![view report](/static/images/manage-content/manage-reports/view-report.png)
 
     > **Note:** You can switch viewer modes using the `toggle` option in the page header, or by setting your preferred viewer mode under [Viewer / Designer preference](./../../../../administrator-guide/user-profile/) on the user profile page.
-    > ![switching viewer](/static/assets/on-premise/images/manage-content/manage-reports/toggling-option.png)
+    > ![switching viewer](/static/images/manage-content/manage-reports/toggling-option.png)
 
 ## Breaking changes from v6.x
 
 {{site.productNameTM}} v6.1 changed the default Report Viewer. These are the breaking changes:
 
 * From v6.1, reports display by default using the `new Report Viewer`. The `old viewer` look has been `deprecated`.
-   ![Config File](/static/assets/on-premise/images/manage-content/manage-reports/new-viewer.png)
+   ![Config File](/static/images/manage-content/manage-reports/new-viewer.png)
 
 * If you still prefer the old viewer look, navigate to `Settings -> Configuration -> reporting/config.xml`, set the `IsOldViewerDesigner` node to **true**, and save the changes.<br>`<IsOldViewerDesigner>true</IsOldViewerDesigner>`
-   ![Config File](/static/assets/on-premise/images/manage-content/manage-reports/config-file.png)
-   ![Config File](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/switch-old-designer.png)
+   ![Config File](/static/images/manage-content/manage-reports/config-file.png)
+   ![Config File](/static/images/manage-content/manage-reports/create-reports/switch-old-designer.png)
 
 * The report viewer then looks as follows:
-   ![Config File](/static/assets/on-premise/images/manage-content/manage-reports/old-viewer.png)
+   ![Config File](/static/images/manage-content/manage-reports/old-viewer.png)
 
 * If you previously saved a viewer preference on the user profile page, that saved preference is no longer considered, and the related options are no longer available.
 

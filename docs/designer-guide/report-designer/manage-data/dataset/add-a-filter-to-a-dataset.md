@@ -17,11 +17,11 @@ You need a dataset in the {{site.productNameTM}} Web Report Designer before you 
 You apply dataset filters from the `DATA` panel of the Web Report Designer.
 
 1. Select the data in the `DATA` panel to which you want to apply the filter.
-   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=355px')
+   ![Data item menu icon](/static/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=355px')
 2. Click the highlighted icon shown in the previous image to open the filter menu for the selected data.
-   ![Dataset filter menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-context-menu.png '#width=355px')
+   ![Dataset filter menu](/static/images/report-designer/manage-data/dataset/filter-context-menu.png '#width=355px')
 3. Click the `Filter...` option in the context menu. The filter dialog opens, as shown below.
-   ![Filter dialog](/static/assets/on-premise/images/report-designer/manage-data/dataset/filters-dialog.png '#width=345px')
+   ![Filter dialog](/static/images/report-designer/manage-data/dataset/filters-dialog.png '#width=345px')
 
 ### How do I add filters?
 
@@ -40,10 +40,10 @@ You remove a dataset filter equation from the same filter dialog in the Web Repo
 The following {{site.productNameTM}} example filters the `ProductID` field values at the dataset level:
 
 1. Create a filter equation as shown in the following image, and click `OK`.
-   ![Filter equation for product id field](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-product-id-field.png '#width=355px')
+   ![Filter equation for product id field](/static/images/report-designer/manage-data/dataset/filter-product-id-field.png '#width=355px')
 2. Assign the dataset to the `Table` report item. Refer to the [Design a basic table report](./../../../design-rdl-report-in-web-report-designer/) section.
 3. Preview the report. The following image displays the records for the `ProductID` value **712** based on the filter equation.
-   ![Preview output for dataset filters](/static/assets/on-premise/images/report-designer/manage-data/dataset/dataset-filter-preview.png '#width=410px')
+   ![Preview output for dataset filters](/static/images/report-designer/manage-data/dataset/dataset-filter-preview.png '#width=410px')
 
 ## Frequently asked questions
 

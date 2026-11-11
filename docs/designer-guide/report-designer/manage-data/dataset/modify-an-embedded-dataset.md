@@ -13,15 +13,15 @@ You edit an embedded dataset from the `DATA` panel of the {{site.productNameTM}}
 
 1. Select the data in the `DATA` panel that you want to edit.
 
-   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=385px')
+   ![Data item menu icon](/static/images/report-designer/manage-data/dataset/data-item-menu-icon.png '#width=385px')
 
 2. Click the highlighted icon shown in the previous image to open the `Edit` context menu of the selected data.
 
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png '#width=385px')
+   ![Data panel context menu](/static/images/report-designer/manage-data/dataset/data-panel-context-menu.png '#width=385px')
 
 3. Choose the `Edit` option from the context menu. The query designer edit view opens, where you can make your changes.
 
-   ![Query designer edit view](/static/assets/on-premise/images/report-designer/manage-data/dataset/query-designer-edit-view.png '#width=385px')
+   ![Query designer edit view](/static/images/report-designer/manage-data/dataset/query-designer-edit-view.png '#width=385px')
 
 4. After you modify the fields, click the `Finish` button.
 

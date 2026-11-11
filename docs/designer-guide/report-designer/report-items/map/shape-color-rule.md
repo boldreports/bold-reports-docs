@@ -7,7 +7,7 @@ description: Define a shape color rule in {{site.productName}} Web Report Design
 
 In the {{site.productNameTM}} Web Report Designer, the shape color rule properties define color filling rules for map shapes or polygons with a user-specified number of ranges. Shape color rules play a major role when you design choropleth maps.
 
-![Map Shape](/static/assets/on-premise/images/report-designer/report-items/map/shape-settings/sketch.png '#width=385px')
+![Map Shape](/static/images/report-designer/report-items/map/shape-settings/sketch.png '#width=385px')
 
 ## Which shape color rules and distribution types are available?
 
@@ -30,26 +30,26 @@ You can apply shape color rules in the {{site.productNameTM}} Web Report Designe
 
 The shape color rule properties are listed under **Shape Color Rule** in the map properties. To enable or disable the shape color rule on the map surface, toggle the `Enable Color Rule` checkbox.
 
-![Map Shape properties](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/initial.png '#width=550px')
+![Map Shape properties](/static/images/report-designer/report-items/map/shape-color-rule/initial.png '#width=550px')
 
 After you enable the shape color rule, the other properties required for defining it appear under the **Shape Color Rule** category. By default, the **Color Range** type is applied on the map surface.
 
-![Map shape color rule](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/enable-color-rule.png)
+![Map shape color rule](/static/images/report-designer/report-items/map/shape-color-rule/enable-color-rule.png)
 
 ### Data value
 
 The data value field in the {{site.productNameTM}} Web Report Designer lists the available shape data fields and analytical data fields. The list depends on the source of shape data and analytical data in the report.
 
-![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/data-value.png '#width=355px')
+![Map data value](/static/images/report-designer/report-items/map/shape-color-rule/data-value.png '#width=355px')
 
 For example, to display the population of each country on a map, choose the sum of population data field as the data value. You can also set the data value based on dynamic values by using `Expressions`. See [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) to open the set or reset expression menu in the properties panel.
-![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/data-value-expression.png '#width=355px')
+![Map data value](/static/images/report-designer/report-items/map/shape-color-rule/data-value-expression.png '#width=355px')
 
 ### Type
 
 The map shape color rule in the {{site.productNameTM}} Web Report Designer has three types of color rules: Color Range, Color Palette, and Custom. These options are listed in the **Type** drop-down.
 
-![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/types.png '#width=355px')
+![Map color rule types](/static/images/report-designer/report-items/map/shape-color-rule/types.png '#width=355px')
 
 See the following sections to learn about each shape color rule:
 
@@ -61,11 +61,11 @@ See the following sections to learn about each shape color rule:
 
 The color distribution options in the {{site.productNameTM}} Web Report Designer govern how colors are visualized on the map surface. After you set a value for the `Data Value` property, the properties required to configure the distribution type appear under the shape color rule category.
 
-![Map distribution properties](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-properties.png '#width=355px')
+![Map distribution properties](/static/images/report-designer/report-items/map/shape-color-rule/distribution-properties.png '#width=355px')
 
 The options are listed in the **Distribution Type** drop-down.
 
-![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/distribution-types.png '#width=355px')
+![Map distribution types](/static/images/report-designer/report-items/map/shape-color-rule/distribution-types.png '#width=355px')
 
 See the following sections to design a map using each distribution type:
 

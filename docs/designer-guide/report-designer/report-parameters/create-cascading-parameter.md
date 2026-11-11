@@ -16,7 +16,7 @@ You create {{site.productNameTM}} cascading parameters in five stages: create th
 The main dataset holds the report data and one query parameter for each cascading parameter. Create a new dataset by following the steps in the [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/#design-query-data) section, then continue with these steps:
 1. In the **Name** field, type the name of the dataset. This example uses **SalesbyCategory** as the dataset name.
 2. Click the `switcher` in the query designer toolbar to switch to query mode.
-    ![Code switcher icon](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/code-switcher-icon.png)
+    ![Code switcher icon](/static/images/report-designer/report-parameters/create-cascading-parameter/code-switcher-icon.png)
 3. Make sure the query has the following parts:
     * A list of column fields in `SELECT` statement to fetch from any specific table.
     * One query parameter for each cascading parameter.
@@ -46,20 +46,20 @@ The main dataset holds the report data and one query parameter for each cascadin
        ```
 
         Paste the preceding query in the query editor.
-          ![Query of Sales by category dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-dataset-query.png)
+          ![Query of Sales by category dataset](/static/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-dataset-query.png)
 
 4. Click the `Run` icon in the toolbar. The **Parameters** dialog opens automatically. Type the value you want for each query parameter in the parameter value column.
    For example:
      * In the **@Category** parameter, type `Components` as the value.
      * In the **@Subcategory** parameter, type `Brakes` as the value.
 
-       ![Query parameter dialog](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-parameters-dialog.png '#width=400px')
+       ![Query parameter dialog](/static/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-parameters-dialog.png '#width=400px')
 
 5. Click the `Finish` button. The `SalesbyCategory` dataset is listed under the `DATA` pane.
 
 After you save the dataset, equivalent report parameters are created under the `PARAMETERS` panel, as shown in the following image.
 
-   ![Report parameter list for sales by category dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-parameter-list.png '#width=350px')
+   ![Report parameter list for sales by category dataset](/static/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-parameter-list.png '#width=350px')
 
 ### How do I create a dataset for the independent parameter?
 
@@ -74,9 +74,9 @@ The independent parameter dataset supplies the list of values for the first para
    ```
 
    The preceding query uses the column **Name** and the table **ProductCategory** to create the dataset for the independent parameter `Category`.
-    ![Category values dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/category-values-dataset.png)
+    ![Category values dataset](/static/images/report-designer/report-parameters/create-cascading-parameter/category-values-dataset.png)
 4. Click the `Run` icon in the toolbar to see the result.
-    ![Category values dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/category-values-dataset-preview-data.png)
+    ![Category values dataset](/static/images/report-designer/report-parameters/create-cascading-parameter/category-values-dataset-preview-data.png)
 5. Click the `Finish` button. The `CategoryValues` dataset is listed under the `DATA` pane.
 
 ### How do I set available values for the independent parameter?
@@ -84,13 +84,13 @@ The independent parameter dataset supplies the list of values for the first para
 You assign the `CategoryValues` dataset as the available values of the {{site.productNameTM}} **Category** parameter. Follow these steps:
 
 1. Click the `Parameter` icon in the configuration panel to open the `PARAMETERS` panel.
-    ![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/parameter-icon.png '#width=250px')
+    ![Parameter icon](/static/images/report-designer/report-parameters/create-cascading-parameter/parameter-icon.png '#width=250px')
 2. Edit the **Category** parameter. In the name field, verify that the name is **Category**.
     See the [Edit Report Parameter](./../../report-parameters/edit/) section.
 3. Click `Assign Value >>` to open the `Parameter Assign` dialog.
 4. Select the `Query Value` option under the `Available Value` tab.
 5. Select `CategoryValues` in the dataset field, and `Category` in the value and label fields.
-    ![Define available values for category parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/category-parameter-query-value.png '#width=400px')
+    ![Define available values for category parameter](/static/images/report-designer/report-parameters/create-cascading-parameter/category-parameter-query-value.png '#width=400px')
 6. Click the `Ok` button and `Save` the parameter.
 
 ### How do I create a dataset for the dependent parameter?
@@ -110,11 +110,11 @@ The dependent parameter dataset returns values filtered by the independent param
     ```
 
     The preceding query joins the **Name** column of the **ProductSubCategory** table with the **ProductCategory** table. It includes a condition on the independent parameter `Category` to create the dataset for the dependent parameter `SubCategory`.
-    ![Sub category values dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-values-dataset-query.png)
+    ![Sub category values dataset](/static/images/report-designer/report-parameters/create-cascading-parameter/sub-category-values-dataset-query.png)
 4. Click the `Run` icon in the toolbar. The **Parameters** dialog opens automatically. For example, in the **@Category** parameter, type `Components` as the value.
-    ![Query parameters dialog](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/query-parameter-dialog-for-category-parameter.png '#width=400px')
+    ![Query parameters dialog](/static/images/report-designer/report-parameters/create-cascading-parameter/query-parameter-dialog-for-category-parameter.png '#width=400px')
 5. Click the `OK` button. The result set displays 14 rows.
-    ![Preview data for sub category values dataset ](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-values-preview-data.png)
+    ![Preview data for sub category values dataset ](/static/images/report-designer/report-parameters/create-cascading-parameter/sub-category-values-preview-data.png)
 6. Click the `Finish` button. The `SubcategoryValues` dataset is listed under the `DATA` pane.
 
 ### How do I set available values for the dependent parameter?
@@ -126,7 +126,7 @@ You assign the `SubcategoryValues` dataset as the available values of the {{site
 3. Click `Assign Value>>` to open the `Parameter Assign` dialog.
 4. Select the `Query Value` option under the `Available Value` tab.
 5. Select `SubcategoryValues` in the dataset field, and `Subcategory` in the value and label fields.
-    ![Define available values for Subcategory parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/subcategory-parameter-query-value.png '#width=400px')
+    ![Define available values for Subcategory parameter](/static/images/report-designer/report-parameters/create-cascading-parameter/subcategory-parameter-query-value.png '#width=400px')
 6. Click the `Ok` button and `Save` the `Subcategory` parameter.
 
 ## How do I filter table data based on cascading parameters?
@@ -134,13 +134,13 @@ You assign the `SubcategoryValues` dataset as the available values of the {{site
 You filter a {{site.productNameTM}} table with cascading parameters by assigning the main dataset to the table and choosing values at preview. Follow these steps:
 
 1. Design a simple table report and assign the `SalesbyCategory` dataset to the table.
-    ![Design table report](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/simple-table-report-design.png)
+    ![Design table report](/static/images/report-designer/report-parameters/create-cascading-parameter/simple-table-report-design.png)
    > To create a table report in the Web Report Designer, see the [Design a simple table report](./../../design-rdl-report-in-web-report-designer/#add-table-report-item) section.
 2. Click the `Preview` button in the report header.
 3. Choose `Accessories` in the `Category` parameter dropdown. The `SubCategory` dropdown is populated with values based on the `Accessories` category.
-    ![Choose value for Category parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-parameter-drop-down.png '#width=350px')
+    ![Choose value for Category parameter](/static/images/report-designer/report-parameters/create-cascading-parameter/sub-category-parameter-drop-down.png '#width=350px')
 4. Choose `Bike Racks` in the `Subcategory` dropdown and click the `View Report` button.
-    ![Final report preview](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/report-preview-final-view.png '#width=450px')
+    ![Final report preview](/static/images/report-designer/report-parameters/create-cascading-parameter/report-preview-final-view.png '#width=450px')
 
 > Download this report design from the [create cascading parameter RDL sample](https://github.com/boldreports/resources/tree/master/docs/report-designer/report-parameters/create-cascading-parameter.rdl).
 

@@ -17,27 +17,27 @@ If you prefer watching over reading, see this video for the shape report item:
 You add a shape in the {{site.productNameTM}} Web Report Designer from the item panel. Follow these steps:
 
 1. Find the shape report item in the item panel under the `Shapes` category.
-   ![Shape listed in item panel](/static/assets/on-premise/images/report-designer/report-items/shape/shape-item-in-item-panel.png '#width=215px')
+   ![Shape listed in item panel](/static/images/report-designer/report-items/shape/shape-item-in-item-panel.png '#width=215px')
 2. Drag and drop the shape report item from the item panel into the design area.
-   ![Drag and drop shape report item into design area](/static/assets/on-premise/images/report-designer/report-items/shape/drag-and-drop-shape.png '#width=355px')
+   ![Drag and drop shape report item into design area](/static/images/report-designer/report-items/shape/drag-and-drop-shape.png '#width=355px')
 3. After the shape item is placed in the design area, its properties are displayed in the properties panel.
-   ![Adding Shape to design](/static/assets/on-premise/images/report-designer/report-items/shape/shape-properties.png '#width=440px')
+   ![Adding Shape to design](/static/images/report-designer/report-items/shape/shape-properties.png '#width=440px')
 
 ### Common Shape Properties
 
 The common properties of a shape report item in the {{site.productNameTM}} Web Report Designer are listed under the `Basic Settings` category in the properties panel.
 
-![Shape item with properties view](/static/assets/on-premise/images/report-designer/report-items/shape/shape-basic-settings.png '#width=400px')
+![Shape item with properties view](/static/images/report-designer/report-items/shape/shape-basic-settings.png '#width=400px')
 
 <span style="font-weight:bold">Shapes</span>
 
 The `Shapes` drop-down menu lists the supported shapes.
 
-![Shape Types](/static/assets/on-premise/images/report-designer/report-items/shape/shape-types-list.png '#width=400px')
+![Shape Types](/static/images/report-designer/report-items/shape/shape-types-list.png '#width=400px')
 
 Select a shape in the design area, and then choose a new shape type from the drop-down menu. The design updates accordingly.
 
-![Shape types Dropdown](/static/assets/on-premise/images/report-designer/report-items/shape/shape-types-change.png '#width=385px')
+![Shape types Dropdown](/static/images/report-designer/report-items/shape/shape-types-change.png '#width=385px')
 
 The supported shape types are listed in the [Shape Types](./../../report-items/shape/shape-types/) section.
 
@@ -45,13 +45,13 @@ The supported shape types are listed in the [Shape Types](./../../report-items/s
 
 The `Rotation Angle` property rotates a specific shape to a desired angle. The range is from 0 to 360 degrees.
 
-![Shape Rotation Angle](/static/assets/on-premise/images/report-designer/report-items/shape/shape-angle.png '#width=385px')
+![Shape Rotation Angle](/static/images/report-designer/report-items/shape/shape-angle.png '#width=385px')
 
 <span style="font-weight:bold">Fill Color</span>
 
 The `Fill Color` property sets a fill color for a particular shape report item.
 
-![Shape fill color](/static/assets/on-premise/images/report-designer/report-items/shape/shape-fillcolor.png '#width=410px')
+![Shape fill color](/static/images/report-designer/report-items/shape/shape-fillcolor.png '#width=410px')
 
 <span style="font-weight:bold">Line Style</span>
 
@@ -61,55 +61,55 @@ The `Line Style` property sets a stroke color, stroke width, and stroke style fo
 
 The `Line Style` property sets the border style for a particular shape report item.
 
-![Shape border style](/static/assets/on-premise/images/report-designer/report-items/shape/shape-stroke-styles.png '#width=410px')
+![Shape border style](/static/images/report-designer/report-items/shape/shape-stroke-styles.png '#width=410px')
 
 <span style="font-weight:bold">Line Color</span>
 
 The `Line color` property sets the border color for a particular shape report item.
 
-![Shape border color](/static/assets/on-premise/images/report-designer/report-items/shape/shape-line-color.png '#width=410px')
+![Shape border color](/static/images/report-designer/report-items/shape/shape-line-color.png '#width=410px')
 
 <span style="font-weight:bold">Line width</span>
 
 The `Line width` property sets the border width for a particular shape report item.
 
-![Shape border width](/static/assets/on-premise/images/report-designer/report-items/shape/shape-line-width.png '#width=410px')
+![Shape border width](/static/images/report-designer/report-items/shape/shape-line-width.png '#width=410px')
 
 ### Additional properties for Star shape
 
 The Star shape in the {{site.productNameTM}} Web Report Designer has two unique properties: `Star Count` and `Concavity`.
 
-![Start shape properties](/static/assets/on-premise/images/report-designer/report-items/shape/star-shape-basic-settings.png '#width=400px')
+![Start shape properties](/static/images/report-designer/report-items/shape/star-shape-basic-settings.png '#width=400px')
 
 <span style="font-weight:bold">Star Count</span>
 
 The `Star Count` property specifies the number of points on the star. The range is between 3 and 8.
 
-![Start shape count](/static/assets/on-premise/images/report-designer/report-items/shape/shape-star-count.png '#width=410px')
+![Start shape count](/static/images/report-designer/report-items/shape/shape-star-count.png '#width=410px')
 
 <span style="font-weight:bold">Concavity</span>
 
 The `Concavity` property adjusts the depth of the star’s inner points. It ranges from 0.3 to 1.0, where lower values create sharper indents.
 
-![Start shape concavity](/static/assets/on-premise/images/report-designer/report-items/shape/shape-star-concavity.png '#width=410px')
+![Start shape concavity](/static/images/report-designer/report-items/shape/shape-star-concavity.png '#width=410px')
 
 ### Additional properties for Arrow shape
 
 The Arrow shape in the {{site.productNameTM}} Web Report Designer has two unique properties: `Arrow Height` and `Arrow Width`.
 
-![Arrow shape properties](/static/assets/on-premise/images/report-designer/report-items/shape/arrow-shape-basic-settings.png '#width=400px')
+![Arrow shape properties](/static/images/report-designer/report-items/shape/arrow-shape-basic-settings.png '#width=400px')
 
 <span style="font-weight:bold">Arrow Height</span>
 
 The `Arrow Height` property defines the height of the arrowhead, with a range from 0 to 100.
 
-![Arrow shape height](/static/assets/on-premise/images/report-designer/report-items/shape/shape-arrow-height.png '#width=410px')
+![Arrow shape height](/static/images/report-designer/report-items/shape/shape-arrow-height.png '#width=410px')
 
 <span style="font-weight:bold">Arrow Width</span>
 
 The `Arrow Width` property defines the width of the arrow's stem, with a range from 0 to 100.
 
-![Arrow shape width](/static/assets/on-premise/images/report-designer/report-items/shape/shape-arrow-width.png '#width=410px')
+![Arrow shape width](/static/images/report-designer/report-items/shape/shape-arrow-width.png '#width=410px')
 
 ## General properties
 
@@ -126,7 +126,7 @@ The Appearance properties style the shape and customize its look in the report d
 ### Link
 
 The Linking property lets you create interactive and user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. See [Linking](./../../compose-report/link-data/) to learn more about linking.
-![Shape link property](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
+![Shape link property](/static/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
 
 #### Border
 
@@ -162,7 +162,7 @@ You can set static or dynamic text as the value for the bookmark property. To se
 
 The `Custom Style` property enables the application of external CSS for styling report items, providing enhanced flexibility beyond the built-in styling options. Use this feature to meet specific design requirements and keep styling consistent across multiple reports. For a step-by-step guide on setting up custom styles in your report, check the How To section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/shape/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/shape/custom-style-property.png '#width=355px')
 
 ## Set expression
 

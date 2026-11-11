@@ -27,8 +27,7 @@ sitemap.xml
 
 # static
 static/*
-!static/assets/
+!static/images/
 !static/404.js
 !static/favicon.ico
 !static/robots.txt
-!static/js/

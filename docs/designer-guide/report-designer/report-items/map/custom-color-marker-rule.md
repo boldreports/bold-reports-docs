@@ -14,7 +14,7 @@ You apply a custom color rule to map markers in the {{site.productNameTM}} Web R
 1. Under the `Marker Color Rule` category, choose the **Custom** option in the type dropdown.
 2. Use the **Custom Colors** field that appears under the type dropdown to set your colors.
 
-![Map palette types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/custom-colors-field.png '#width=445px')
+![Map palette types](/static/images/report-designer/report-items/map/marker-color-rule/custom-colors-field.png '#width=445px')
 
 ## How do I define the custom colors?
 

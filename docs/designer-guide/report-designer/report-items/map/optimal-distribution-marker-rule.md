@@ -11,7 +11,7 @@ In the {{site.productNameTM}} Web Report Designer, the optimal distribution type
 
 You configure optimal distribution in the {{site.productNameTM}} Web Report Designer after you select the data value. The properties required to configure the distribution type then appear under the marker color rule category.
 
-![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/distribution-properties.png '#width=385px')
+![Map distribution types](/static/images/report-designer/report-items/map/marker-color-rule/distribution-properties.png '#width=385px')
 
 You can also apply the distribution type based on dynamic values by using `Expressions`. See [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) to open the set or reset expression menu in the properties panel.
 
@@ -21,13 +21,13 @@ The start and end values in the {{site.productNameTM}} Web Report Designer set t
 
 For example, to display the population of each country on a map, you can set the minimum population as the start value and the maximum population as the end value.
 
-![Specify start and end value](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/start-end-value.png '#width=355px')
+![Specify start and end value](/static/images/report-designer/report-items/map/marker-color-rule/start-end-value.png '#width=355px')
 
 ## Bucket count
 
 The bucket count in the {{site.productNameTM}} Web Report Designer sets how many data ranges are created. For example, if you specify a bucket count of 25, the data between the start and end values is split into 25 ranges.
 
-![Bucket count](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/bucket-count.png '#width=355px')
+![Bucket count](/static/images/report-designer/report-items/map/marker-color-rule/bucket-count.png '#width=355px')
 
 You can also set the bucket count based on dynamic values by using `Expressions`. See [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) to open the set or reset expression menu in the properties panel.
 

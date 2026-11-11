@@ -67,27 +67,27 @@ You connect Sybase by creating a pipeline in Bold Data Hub and adding the Sybase
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/boldbi_panel.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/boldbi_panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created pipeline and choose the Sybase connector. Double-click it, or click the **Add Template** option, to add the template.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/sybase_yaml.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/sybase_yaml.png#max-width=100%)
 
 4. Update the template, using the configuration parameters below. The following screenshot shows the completed Sybase template.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/Sybase_final_template.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/Sybase_final_template.png#max-width=100%)
 
 5. Click **Save** and choose the destination to save the pipeline.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![Sybase - BoldBI](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ### Configuration Parameters
 
@@ -106,21 +106,21 @@ You schedule the Sybase pipeline in Bold Data Hub from the schedules tab, or you
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Sybase - BoldBI](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![Sybase - BoldBI](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

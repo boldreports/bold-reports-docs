@@ -29,13 +29,13 @@ To configure an SSH tunnel in the {{site.productNameTM}} Designer, fill in the f
 
 The following image shows the **SSH Authentication Type** selection dropdown.
 
-![SSH Authentication Type selection dropdown](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/ssh-authentication-type.png '#width=355px')
+![SSH Authentication Type selection dropdown](/static/images/report-designer/manage-data/data-connectors/ssh-authentication-type.png '#width=355px')
 
 ### How do I use password authentication?
 
 If you use password authentication in the {{site.productNameTM}} Designer, select **Password** as the **SSH Authentication Type**. Then, specify the secure password associated with the SSH username.
 
-![Enable-SSH](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/ssh-password.png '#width=385px')
+![Enable-SSH](/static/images/report-designer/manage-data/data-connectors/ssh-password.png '#width=385px')
 
 **SSH Password**: Specify the secure password for the SSH username (keep this confidential).
 
@@ -43,7 +43,7 @@ If you use password authentication in the {{site.productNameTM}} Designer, selec
 
 If you use public key authentication in the {{site.productNameTM}} Designer, select **Public key** as the **SSH Authentication Type**. Upload your encrypted private key file and provide the associated passphrase.
 
-![Enable-SSH](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/ssh-public-key.png '#width=385px')
+![Enable-SSH](/static/images/report-designer/manage-data/data-connectors/ssh-public-key.png '#width=385px')
 
 **SSH Private Key**: Upload your encrypted private key file for authentication (keep this confidential).
 

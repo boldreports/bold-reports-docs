@@ -30,7 +30,7 @@ You create a data-driven schedule in the Report Server from the context menu of 
 
 The following image shows the schedule dialog with the data-driven option selected.
 
-![data-driven-schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/data-driven-schedule.png)
+![data-driven-schedule](/static/images/manage-schedule/manage-report-schedules/data-driven-schedule.png)
 
 > **NOTE:** Before creating a Data-Driven Schedule, create the required datasource and dataset in the {{site.productNameTM}} application. The dataset should contain the recipient information, report parameters, delivery settings, export options, and other schedule configuration values required for report generation. Only datasets associated with the selected datasource are available for selection during schedule configuration.
 
@@ -38,7 +38,7 @@ The following image shows the schedule dialog with the data-driven option select
 
 The datasource and dataset in a Report Server data-driven schedule contain the records used to configure recipients, report parameters, delivery settings, export formats, and other schedule options. Each row in the selected dataset represents an individual report generation request.
 
-![data-driven-datasource-selection](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/data-driven-datasource-selection.png)
+![data-driven-datasource-selection](/static/images/manage-schedule/manage-report-schedules/data-driven-datasource-selection.png)
 
 1. Select the required **Data Source**.
 
@@ -85,7 +85,7 @@ The following sample JSON dataset record shows values that a {{site.productNameT
 
 The Delivery Settings page in a Report Server data-driven schedule determines how the generated reports are delivered for each dataset row. After you select the datasource and dataset, click the `Next` button to open it.
 
-![data-driven-delivery-settings](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/data-driven-delivery-settings.png)
+![data-driven-delivery-settings](/static/images/manage-schedule/manage-report-schedules/data-driven-delivery-settings.png)
 
 All schedule properties support two configuration methods:
 
@@ -102,7 +102,7 @@ All schedule properties support two configuration methods:
 * **Recipient Email** - Email address used for notifications.
 * **Max Report Count** - Specifies the maximum number of reports that can be generated during a single schedule execution. Ensure that this value is greater than or equal to the number of records in the selected dataset; otherwise, some dataset records may not be processed.
 
-![data-driven-save-location](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/data-driven-save-location.png)
+![data-driven-save-location](/static/images/manage-schedule/manage-report-schedules/data-driven-save-location.png)
 
 ### Email
 
@@ -112,7 +112,7 @@ All schedule properties support two configuration methods:
 * **Recipient Email** - Email address of the report recipient.
 * **Reply To** - Email address used for reply responses.
 
-![data-driven-email](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/data-driven-email.png)
+![data-driven-email](/static/images/manage-schedule/manage-report-schedules/data-driven-email.png)
 
 ### Attachment Settings
 
@@ -140,7 +140,7 @@ Click the `Next` button after you configure the delivery settings.
 
 The Report Parameter Mapping page in a Report Server data-driven schedule supplies parameter values dynamically for each dataset row.
 
-![Configure Parameters](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/data-driven-parameter-mapping.png)
+![Configure Parameters](/static/images/manage-schedule/manage-report-schedules/data-driven-parameter-mapping.png)
 
 For each report parameter, select the source from the **Source of value** dropdown. The following options are available:
 
@@ -177,7 +177,7 @@ Click the `Next` button after you configure the parameter mappings.
 
 The recurrence settings of a Report Server data-driven schedule are similar to those available in a standard schedule. Specify when and how often the data-driven schedule should run.
 
-![data-driven-recurrence](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/data-driven-recurrence.png)
+![data-driven-recurrence](/static/images/manage-schedule/manage-report-schedules/data-driven-recurrence.png)
 
 Configure the following schedule options:
 

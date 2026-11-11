@@ -12,11 +12,11 @@ To visualize and analyze Google Cloud SQL data in {{site.productNameTM}}, create
 To create a Google Cloud SQL data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Google Cloud SQL connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
 3. In the connection type panel, choose the `Google Cloud SQL` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/connection-types.png '#width=350px')
+   ![Connection types panel](/static/images/report-designer/manage-data/google-cloud-sql-data-source/connection-types.png '#width=350px')
 
 ### How do I configure the basic options?
 
@@ -28,15 +28,15 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 4. Enter a valid Google Cloud SQL username in the **UserName** text box.
 5. Enter a valid Google Cloud SQL password in the **Password** text box.
 6. Select a database that you want to query in the listed database associated with the given Google Cloud SQL server in the database drop-down.
-   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/basic-options.png '#width=385px')
+   ![Web datasource properties](/static/images/report-designer/manage-data/google-cloud-sql-data-source/basic-options.png '#width=385px')
 7. Click `Connect` to open the query design pane.
 8. Enter the required query and execute it. The corresponding values appear in a grid for preview.
 
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/execute-schema.png)
+   ![New connection panel](/static/images/report-designer/manage-data/google-cloud-sql-data-source/execute-schema.png)
 
 9. Click `Finish` to save the data source with a relevant name and continue designing the report.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/data-list.png '#width=355px')
+![New connection panel](/static/images/report-designer/manage-data/google-cloud-sql-data-source/data-list.png '#width=355px')
 
 #### Google Cloud SQL supported database engine in {{site.productNameTM}}
 
@@ -47,7 +47,7 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 
 The following image shows the **Database Engine** drop-down.
 
-![Database Engine](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/database-engine.png '#width=355px')
+![Database Engine](/static/images/report-designer/manage-data/google-cloud-sql-data-source/database-engine.png '#width=355px')
 
 ## Frequently asked questions
 

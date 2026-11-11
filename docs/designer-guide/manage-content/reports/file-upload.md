@@ -19,16 +19,16 @@ You can upload files to the {{site.productNameTM}} On-Premises Report Server so 
 You upload a file to Report Server from the `Upload File` option in the `[+]` menu.
 
 1. Click the `[+]` icon in the left side panel and select the `Upload File` option from the menu.
-    ![Plus Icon](/static/assets/on-premise/images/manage-content/manage-reports/plus-icon.png)
-    ![Upload button](/static/assets/on-premise/images/manage-content/manage-reports/file-upload-option.png)
+    ![Plus Icon](/static/images/manage-content/manage-reports/plus-icon.png)
+    ![Upload button](/static/images/manage-content/manage-reports/file-upload-option.png)
 
 2. In the upload dialog, provide a Name and optional Description for the file.
-    ![Upload File](/static/assets/on-premise/images/manage-content/manage-reports/upload-file-dialog.png)
+    ![Upload File](/static/images/manage-content/manage-reports/upload-file-dialog.png)
 
     > If you leave the name field blank, the system auto-populates it with the name of the uploaded file.
 
 3. Click the `Browse` button to choose a file from your device.
-    ![Upload File](/static/assets/on-premise/images/manage-content/manage-reports/file-upload-dialog-sample.png)
+    ![Upload File](/static/images/manage-content/manage-reports/file-upload-dialog-sample.png)
 
     >Supported file formats include `.jpg`, `.jpeg`, `.png`, `.html`, `.pdf`, `.json` and `.pfx`.
 

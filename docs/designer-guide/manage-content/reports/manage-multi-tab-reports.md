@@ -18,14 +18,14 @@ You enable multi-tabbed reports in {{site.productNameTM}} Report Server through 
     `<EnableMultiTabbedReports>true</EnableMultiTabbedReports>`
     ```
 
-![Multitab Node](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-report-node.png)
+![Multitab Node](/static/images/manage-content/manage-reports/multi-tab-report-node.png)
 
 ## What can I do with multi-tabbed reports?
 
 You can create, edit, render, and delete multi-tabbed reports in {{site.productNameTM}}.
 
 * The reports listing page displays the multi-tabbed reports that you can access, depending on your permissions.
-![Multitab Report](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-report.png)
+![Multitab Report](/static/images/manage-content/manage-reports/multi-tab-report.png)
 
 ## Who can create a multi-tabbed report?
 
@@ -36,40 +36,40 @@ To create a multi-tabbed report in Report Server, you must have access to report
 You create a multi-tabbed report in Report Server from the `[+]` menu and then add two or more reports to it.
 
 1. Click the `[+]` icon on the left side of the menu area and select the multi-tabbed report option.
-![Multitab Sidebar Option](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-sidebar-option.png)
+![Multitab Sidebar Option](/static/images/manage-content/manage-reports/multi-tab-sidebar-option.png)
 
 2. Fill out the form with the name of the multi-tab report and select the category from the Select Category drop-down menu.
-![Multitab Category Selection](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-category-selection.png)
+![Multitab Category Selection](/static/images/manage-content/manage-reports/multi-tab-category-selection.png)
 
     >NOTE: The plus icon next to the `Select Category` drop-down appears only if the user has permission to create categories.
 
 3. Click `Add Reports` in the Create Multi-Tabbed Reports dialog box.
-![Multitab Add Report Button](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-add-report-button.png)
+![Multitab Add Report Button](/static/images/manage-content/manage-reports/multi-tab-add-report-button.png)
 
 4. Select the category from the `Select Category` drop-down menu. The reports in that category are displayed in the `Select Reports` drop-down menu.
 
 5. Select the reports from the Select report drop-down menu. The `Add` button becomes enabled.
 6. Click the `Add` button.
-![Multitab Add Reports](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-adding-reports.png)
+![Multitab Add Reports](/static/images/manage-content/manage-reports/multi-tab-adding-reports.png)
 
 7. Add a minimum of two or more reports to create the multi-tabbed report. The added reports are displayed in the multi-tabbed report.
 8. To edit the tab name of a report, click the edit icon.
 9. Edit the tab name and click the check icon to apply the edited tab name. Use the cancel icon to reset the tab name.
-![Multitab Edit Button](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-edit-button.png)
-![Multitab Edit Report](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-edit-reports.png)
+![Multitab Edit Button](/static/images/manage-content/manage-reports/multi-tab-edit-button.png)
+![Multitab Edit Report](/static/images/manage-content/manage-reports/multi-tab-edit-reports.png)
 
 10. After adding reports to the multi-tabbed report, click `Create`.
-![Multitab Create Report](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-create-report.png)
+![Multitab Create Report](/static/images/manage-content/manage-reports/multi-tab-create-report.png)
 
 ## How do I open a multi-tabbed report?
 
 You identify a multi-tabbed report in Report Server by the `multi-tab` badge icon on the report listing page.
-![Multitab Report Badge](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-badge.png)
+![Multitab Report Badge](/static/images/manage-content/manage-reports/multi-tab-badge.png)
 
 * Click the multi-tabbed report in the list to open it.
 
 * Switch between tabs to view the other reports.
-![Multitab Switch Report](/static/assets/on-premise/images/manage-content/manage-reports/multi-tab-switch-reports.png)
+![Multitab Switch Report](/static/images/manage-content/manage-reports/multi-tab-switch-reports.png)
 
 ## What are the limits of multi-tabbed reports?
 

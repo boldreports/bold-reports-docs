@@ -28,19 +28,19 @@ See the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/
 You configure the list by adding the list report item to the design area and assigning the dataset to it.
 
 1. Find the list report item in the item panel under the `Data Regions` category.
-   ![List item listed in item panel](/static/assets/on-premise/images/report-designer/report-items/list/item-panel-view.png '#width=165px')
+   ![List item listed in item panel](/static/images/report-designer/report-items/list/item-panel-view.png '#width=165px')
 2. Drag and drop the list report item into the design area from the item panel.
-   ![Drag and drop list report item into design area](/static/assets/on-premise/images/report-designer/report-items/list/drag-and-drop-list.png '#width=395px')
+   ![Drag and drop list report item into design area](/static/images/report-designer/report-items/list/drag-and-drop-list.png '#width=395px')
 3. Check the properties panel. It lists the list properties.
-   ![List item with properties view](/static/assets/on-premise/images/report-designer/report-items/list/list-item-with-properties-view.png)
+   ![List item with properties view](/static/images/report-designer/report-items/list/list-item-with-properties-view.png)
 4. In the `DataSet` dropdown list, choose the dataset you need.
-   ![Assign dataset](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset.png '#width=385px')
+   ![Assign dataset](/static/images/report-designer/report-items/list/assign-dataset.png '#width=385px')
 
 ## What does the initial list design look like?
 
 When you drop the list item, the {{site.productNameTM}} Web Report Designer renders a `Table` with a single cell in a row associated with the detail group. By default, the cell contains a rectangle that acts as a container.
 
-![List basic view](/static/assets/on-premise/images/report-designer/report-items/list/list-basic-view.png '#width=245px')
+![List basic view](/static/images/report-designer/report-items/list/list-basic-view.png '#width=245px')
 
 > The cell in a list contains a rectangle. You can replace a default report item in a cell with any other report item.
 
@@ -49,48 +49,48 @@ When you drop the list item, the {{site.productNameTM}} Web Report Designer rend
 In {{site.productNameTM}} list data regions, you can place report items anywhere instead of being limited to a table layout. To create a mail merge template, place images, rectangles, and textboxes inside the list report item in a free-form manner.
 
 1. Drag and drop two rectangle report items inside the list to display the employee image and personal details side by side. Resize the list report item width and height as needed.
-   ![Add rectangle item](/static/assets/on-premise/images/report-designer/report-items/list/add-rectangle-item.png '#width=425px')
+   ![Add rectangle item](/static/images/report-designer/report-items/list/add-rectangle-item.png '#width=425px')
 2. Drag and drop the image item into the left rectangle to display the employee image in the report.
-   ![Add image item](/static/assets/on-premise/images/report-designer/report-items/list/add-image-item.png)
+   ![Add image item](/static/images/report-designer/report-items/list/add-image-item.png)
 3. Bind the `Photo` field from the database to the image item.
-   ![Bind data to the image](/static/assets/on-premise/images/report-designer/report-items/list/bind-data-to-the-image.png '#width=355px')
+   ![Bind data to the image](/static/images/report-designer/report-items/list/bind-data-to-the-image.png '#width=355px')
 4. Add a textbox below the image report item to display the employee name.
-   ![Add textbox item](/static/assets/on-premise/images/report-designer/report-items/list/add-textbox-item.png)
+   ![Add textbox item](/static/images/report-designer/report-items/list/add-textbox-item.png)
 5. Right-click the textbox and click the `Expression` option.
-   ![Assign expression in textbox](/static/assets/on-premise/images/report-designer/report-items/list/open-textbox-menu.png '#width=355px')
+   ![Assign expression in textbox](/static/images/report-designer/report-items/list/open-textbox-menu.png '#width=355px')
 6. In the expression editor, choose the `FirstName` field from the dataset.
-   ![Bind data to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset-field-in-textbox.png '#width=550px')
+   ![Bind data to the textbox](/static/images/report-designer/report-items/list/assign-dataset-field-in-textbox.png '#width=550px')
 7. Assign the `LastName` field in the same way and create another expression. Then, customize the text appearance by using the textbox properties in the properties panel.
-   ![Bind data field to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-expression-in-textbox.png)
+   ![Bind data field to the textbox](/static/images/report-designer/report-items/list/assign-expression-in-textbox.png)
    > To assign an expression in a textbox report item, see the [Display dynamic text using expression](./../../../report-items/textbox/design-rdl-report-using-textbox/#display-dynamic-text-using-expression) section.
 8. Place other report items in the list item to display other employee details. In the following image, textboxes hold the employee information, and the values are bound as expressions to fetch dynamic data from the database.
-   ![Mail merge template](/static/assets/on-premise/images/report-designer/report-items/list/mail-merge-template.png)
+   ![Mail merge template](/static/images/report-designer/report-items/list/mail-merge-template.png)
 9. Separate each employee record with a line. On report preview, each employee's details display as a list, so drag and drop a line report item into the inside bottom position of the list cell.
-   ![Mail merge template](/static/assets/on-premise/images/report-designer/report-items/list/add-line-report-item.png)
+   ![Mail merge template](/static/images/report-designer/report-items/list/add-line-report-item.png)
 
 ## How do I add a report header?
 
 You add a report title in {{site.productNameTM}} by enabling the report header and placing a textbox in it.
 
 1. Enable the report `Header` to add a title to the report.
-   ![Enable header tag](/static/assets/on-premise/images/report-designer/report-items/list/enable-header-tag.png '#width=200px')
+   ![Enable header tag](/static/images/report-designer/report-items/list/enable-header-tag.png '#width=200px')
    > To add or remove the header or footer in the report, see the [Show or hide header and footer](./../../../compose-report/show-or-hide-header-footer-in-report/) section.
 2. Add a rectangle report item in the report header area and a textbox within the rectangle.
-   ![Add report items in header area](/static/assets/on-premise/images/report-designer/report-items/list/add-report-items-in-header-area.png)
+   ![Add report items in header area](/static/images/report-designer/report-items/list/add-report-items-in-header-area.png)
 3. Set the report title text in the textbox. Customize the title appearance by using the textbox and rectangle properties in the properties panel.
-   ![Report title text](/static/assets/on-premise/images/report-designer/report-items/list/report-title-text.png)
+   ![Report title text](/static/images/report-designer/report-items/list/report-title-text.png)
 
 ## What does the final design look like?
 
 The final design of the {{site.productNameTM}} Mail Merge Report looks like the following image.
 
-![Mail merge report design](/static/assets/on-premise/images/report-designer/report-items/list/final-design.png)
+![Mail merge report design](/static/images/report-designer/report-items/list/final-design.png)
 
 ## How does the report look on preview?
 
 On report preview, the {{site.productNameTM}} mail merge report displays as follows.
 
-![Mail merge report preview](/static/assets/on-premise/images/report-designer/report-items/list/report-preview.png)
+![Mail merge report preview](/static/images/report-designer/report-items/list/report-preview.png)
 
 > Download the [mail merge report design (RDL) from GitHub](https://github.com/boldreports/resources/tree/master/docs/report-designer/list/design-ssrs-rdl-report-using-list.rdl)
 

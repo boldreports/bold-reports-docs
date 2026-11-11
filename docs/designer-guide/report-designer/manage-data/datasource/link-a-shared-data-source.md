@@ -13,33 +13,33 @@ You link a shared data source from the `DATASOURCE` panel of the {{site.productN
 
 1. Click the `Data` icon in the configuration panel to launch the `Data` configuration.
 
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-icon-configuration-panel.png '#width=225px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/datasource/data-icon-configuration-panel.png '#width=225px')
 
 2. In the `Data` panel, click `DATASOURCE` in the top-left corner.
 
-   ![Data panel switcher icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-switcher-icon.png '#width=385px')
+   ![Data panel switcher icon](/static/images/report-designer/manage-data/datasource/data-panel-switcher-icon.png '#width=385px')
 
 3. In the `DATASOURCE` configuration panel, click the `NEW DATASOURCE` button.
 
-   ![New data source panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/new-data-source-panel.PNG '#width=385px')
+   ![New data source panel](/static/images/report-designer/manage-data/datasource/new-data-source-panel.PNG '#width=385px')
 
 4. In the connection type panel, choose the `Shared` data source type.
 
-   ![Connection types shared data](/static/assets/on-premise/images/report-designer/manage-data/datasource/connection-types-shared-data.png '#width=385px')
+   ![Connection types shared data](/static/images/report-designer/manage-data/datasource/connection-types-shared-data.png '#width=385px')
 
 5. Review the new connection wizard, which opens after you choose the `Shared` data source type, as shown below.
 
-   ![Shared data source fields](/static/assets/on-premise/images/report-designer/manage-data/datasource/shared-data-source-fields.png '#width=385px')
+   ![Shared data source fields](/static/images/report-designer/manage-data/datasource/shared-data-source-fields.png '#width=385px')
 
 6. In the **Name** field, specify the data source name without special characters.
 
 7. In the **Shared DataSource** field, select an existing shared data source in the server from the drop-down list.
 
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/save-new-shared-data-source.png '#width=385px')
+   ![New connection panel](/static/images/report-designer/manage-data/datasource/save-new-shared-data-source.png '#width=385px')
 
 8. Click the `Save` button. The new shared data source is added to the data list pane, as shown below.
 
-   ![Data source list view](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-list-view.png '#width=385px')
+   ![Data source list view](/static/images/report-designer/manage-data/datasource/data-source-list-view.png '#width=385px')
 
    > Note: You can link multiple shared data sources into the report.
 

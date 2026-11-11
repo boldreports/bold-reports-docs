@@ -48,41 +48,41 @@ SELECT [Sales].[vStoreWithDemographics].[CustomerID],
 You add a matrix in the {{site.productNameTM}} Web Report Designer by dropping the tablix wizard into the design area and assigning values, columns, and rows.
 
 1. Find the tablix wizard in the item panel under the `Data Regions` category.
-   ![Tablix Wizard listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/item-panel-view.png '#width=195px')
+   ![Tablix Wizard listed in item panel](/static/images/report-designer/report-items/tablix-wizard/item-panel-view.png '#width=195px')
 
 2. Drag and drop the tablix wizard report item into the design area from the item panel.
-   ![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/drag-and-drop.png '#width=600px')
+   ![Drag and drop tablix report item into design area](/static/images/report-designer/report-items/tablix-wizard/drag-and-drop.png '#width=600px')
 
 3. Choose a dataset from the drop-down list, which lists the available datasets in the report.
-   ![Tablix wizard with Dataset](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/tablix-dataset.png '#width=600px')
+   ![Tablix wizard with Dataset](/static/images/report-designer/report-items/tablix-wizard/tablix-dataset.png '#width=600px')
 
 4. Drag and drop `AnnualSales` into the `Values` section.
-   ![Tablix wizard with row values](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/tablix-wizard-value.png '#width=600px')
+   ![Tablix wizard with row values](/static/images/report-designer/report-items/tablix-wizard/tablix-wizard-value.png '#width=600px')
 
 5. Hover on the `AnnualSales` field to enable the `Settings` icon, then click the `Settings` icon (highlighted below) to open the aggregation menu.
-   ![Tablix wizard config icon](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/config-icon.png '#width=500px')
+   ![Tablix wizard config icon](/static/images/report-designer/report-items/tablix-wizard/config-icon.png '#width=500px')
 
    Set the aggregation type used to compute the selected value.
-   ![Tablix wizard with aggregation](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/value-with-aggregation.png '#width=600px')
+   ![Tablix wizard with aggregation](/static/images/report-designer/report-items/tablix-wizard/value-with-aggregation.png '#width=600px')
 
 6. Drag and drop `CountryRegionName` into the `Columns` group and `BankName` into the `Rows` group.
-    ![Tablix wizard with column and values](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/tablix-wizard-col-row.png '#width=600px')
+    ![Tablix wizard with column and values](/static/images/report-designer/report-items/tablix-wizard/tablix-wizard-col-row.png '#width=600px')
 
 7. Click the `Ok` button. The matrix is rendered on the design surface.
-    ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/rendered-matrix.png '#width=600px')
+    ![Matrix simple design](/static/images/report-designer/report-items/tablix-wizard/rendered-matrix.png '#width=600px')
 
 ## How do I format the matrix design?
 
 You format the matrix in the {{site.productNameTM}} Web Report Designer by adding a report header and updating cell styles. In the following design, the report header has been added, and the background color and font styles in the matrix cells have been updated to enhance the report design.
 
-![Formated Tablix Wizard](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/format-design.png '#width=410px')
+![Formated Tablix Wizard](/static/images/report-designer/report-items/tablix-wizard/format-design.png '#width=410px')
 
 > Refer to the [Cell Properties](./../../../report-items/tablix/cell-properties/#cell-properties) section to style the matrix cells and the [Show or hide header and footer](./../../../compose-report/show-or-hide-header-footer-in-report/) section to add or remove the header and footer in the report.
 
 ## What does the report preview show?
 
 The {{site.productNameTM}} report preview displays the Annual Sales Report, as shown in the following image.
-![Matrix overall design](/static/assets/on-premise/images/report-designer/report-items/tablix-wizard/matrix-design-preview.png)
+![Matrix overall design](/static/images/report-designer/report-items/tablix-wizard/matrix-design-preview.png)
 
 > Download the [tablix wizard matrix report design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix-wizard/design-ssrs-matrix-report-using-tablix-wizard.rdl).
 

@@ -21,7 +21,7 @@ You get Google service account credentials for Bold Data Hub from the Google Clo
 
 1. Sign in to [https://console.cloud.google.com](https://console.cloud.google.com).
 
-    ![Google Bigquery- DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/gcloudconsole.png#max-width=100%)
+    ![Google Bigquery- DataHub](/static/images/manage-content/working-with-etl/gcloudconsole.png#max-width=100%)
 
 2. Create a service account if necessary.
 3. Enable the **BigQuery API** (refer to Google documentation for detailed instructions).
@@ -86,39 +86,39 @@ You connect Google BigQuery by creating a pipeline in Bold Data Hub, adding the 
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created pipeline and choose the Google BigQuery connector. Double-click it, or click the **Add Template** option, to add the template.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/google_bigquery_yaml.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/google_bigquery_yaml.png#max-width=100%)
 
 4. Click the **Upload File** button to upload your credentials JSON file.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/uploadfile.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/uploadfile.png#max-width=100%)
 
 5. Copy the file path of the JSON file and paste it into the credentials_path property.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/bigquery_copypath.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/bigquery_copypath.png#max-width=100%)
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/google_bigquery_filepath.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/google_bigquery_filepath.png#max-width=100%)
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/google_bigquery_final_template.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/google_bigquery_final_template.png#max-width=100%)
 
 6. Click **Save** and choose the destination to save the pipeline.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/csv_destination.png#max-width=100%)
 
 7. The pipeline is saved and starts automatically. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/bigquery_logs.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/bigquery_logs.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_bigquery_created.png#max-width=100%)
+![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/pipeline_bigquery_created.png#max-width=100%)
 
 >**Warning:**
 
@@ -142,21 +142,21 @@ You schedule the Google BigQuery pipeline in Bold Data Hub from the schedules ta
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![Google Bigquery - DataHub](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_bigquery_created.png#max-width=100%)
+    ![Google Bigquery - DataHub](/static/images/manage-content/working-with-etl/pipeline_bigquery_created.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

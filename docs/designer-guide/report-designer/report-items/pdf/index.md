@@ -13,11 +13,11 @@ The `PDF` report item in the {{site.productNameTM}} Web Report Designer lets you
 You add a PDF report item in the {{site.productNameTM}} Web Report Designer from the item panel. Follow these steps:
 
 1. Find the PDF report item in the item panel under the `Documents` category.
-   ![PDF listed in item panel](/static/assets/on-premise/images/report-designer/report-items/pdf/pdf-item-in-item-panel.png '#width=215px')
+   ![PDF listed in item panel](/static/images/report-designer/report-items/pdf/pdf-item-in-item-panel.png '#width=215px')
 2. Drag and drop the PDF report item from the item panel into the design area.
-   ![Drag and drop PDF report item into design area](/static/assets/on-premise/images/report-designer/report-items/pdf/drag-and-drop-pdf.png '#width=425px')
+   ![Drag and drop PDF report item into design area](/static/images/report-designer/report-items/pdf/drag-and-drop-pdf.png '#width=425px')
 3. After you place the PDF item in the design area, its properties are displayed in the properties panel.
-   ![PDF item with properties view](/static/assets/on-premise/images/report-designer/report-items/pdf/pdf-properties.png '#width=425px')
+   ![PDF item with properties view](/static/images/report-designer/report-items/pdf/pdf-properties.png '#width=425px')
 
 ## General Properties
 
@@ -27,12 +27,12 @@ The general properties of the PDF report item in the {{site.productNameTM}} Web 
 
 The Basic Settings category of the PDF report item contains the `Source`, `URL`, and `Sizing` properties.
 
-![pdf custom reportitem basic settings](/static/assets/on-premise/images/report-designer/report-items/pdf/upload-pdf-file.png '#width=355px')
+![pdf custom reportitem basic settings](/static/images/report-designer/report-items/pdf/upload-pdf-file.png '#width=355px')
 
 #### Source
 
 The `Source` property specifies the input type for the PDF document. You can choose from `URL`, `Database`, or `Server`.
-![pdf source property](/static/assets/on-premise/images/report-designer/report-items/pdf/pdf-source.png '#width=425px')
+![pdf source property](/static/images/report-designer/report-items/pdf/pdf-source.png '#width=425px')
 
 * **URL**
 
@@ -49,7 +49,7 @@ The `Source` property specifies the input type for the PDF document. You can cho
 #### Sizing
 
 The Sizing property lets you `control the size` of the PDF document displayed as an image in the report viewer. It offers two options to adjust the size of the rendered image: **AutoSize** and **FitToPageSize**.
-![pdf sizing property](/static/assets/on-premise/images/report-designer/report-items/pdf/pdf-sizing.png '#width=425px')
+![pdf sizing property](/static/images/report-designer/report-items/pdf/pdf-sizing.png '#width=425px')
 
 * **AutoSize**
 
@@ -74,7 +74,7 @@ The appearance properties of the PDF report item include border style, color, an
 ### Link
 
 The Linking property lets you create interactive and user-friendly reports by adding actions such as **Hyperlink** and **Report Linking**. See [Linking](./../../compose-report/link-data/) to learn more about linking.
-![PDF link property](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
+![PDF link property](/static/images/report-designer/report-items/gauge/linear-gauge/enable-link-action.png '#width=355px')
 
 #### Border
 
@@ -106,7 +106,7 @@ You can set static or dynamic text as the value for the bookmark property. To se
 
 The `Custom Style` property enables the use of external CSS for styling report items, providing enhanced flexibility beyond the built-in styling options. Use this property to meet specific design requirements and keep styling consistent across multiple reports. For a step-by-step guide on setting up custom styles in your report, check the **How To** section of this guide.
 
-![custom style property](/static/assets/on-premise/images/report-designer/report-items/pdf/custom-style-property.png '#width=355px')
+![custom style property](/static/images/report-designer/report-items/pdf/custom-style-property.png '#width=355px')
 
 ## Set expression
 

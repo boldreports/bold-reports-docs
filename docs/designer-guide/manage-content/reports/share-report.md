@@ -15,16 +15,16 @@ You share reports with users and groups in {{site.productNameTM}} On-Premises Ed
 You share a report in {{site.productNameTM}} Report Server from the report listing page by adding access permissions for users or groups.
 
 1. Click the `Share` icon on the report listing page.
-   ![Manage Permission](/static/assets/on-premise/images/manage-content/manage-reports/manage-permission-context.png)
+   ![Manage Permission](/static/images/manage-content/manage-reports/manage-permission-context.png)
 
 2. Click the `Manage Access` button.
-   ![Manage Access Button](/static/assets/on-premise/images/manage-content/manage-reports/manage-access-button.png)
+   ![Manage Access Button](/static/images/manage-content/manage-reports/manage-access-button.png)
 
 3. Select the access permissions and the users or groups to share the report with.
-   ![Share Report](/static/assets/on-premise/images/manage-content/manage-reports/share-report.png)
+   ![Share Report](/static/images/manage-content/manage-reports/share-report.png)
 
 4. Click the `Add` button.
-   ![Add button](/static/assets/on-premise/images/manage-content/manage-reports/add-button.png)
+   ![Add button](/static/images/manage-content/manage-reports/add-button.png)
    > **NOTE:** Only the user who created the report, administrators, and users with share permissions can share the report with other Report Server users.
 
 ## How do I remove a shared report permission?
@@ -32,13 +32,13 @@ You share a report in {{site.productNameTM}} Report Server from the report listi
 You remove a shared report permission in Report Server with the `Remove` icon in the `Actions` column of each permission. Only a user with the specific permissions can remove them.
 
 1. Click the `Manage Access` button.
-   ![Click Manage Access](/static/assets/on-premise/images/manage-content/manage-reports/click-manage-access.png)
+   ![Click Manage Access](/static/images/manage-content/manage-reports/click-manage-access.png)
 
 2. Click the remove icon to revoke access from the user or group.
-   ![Click Remove Icon](/static/assets/on-premise/images/manage-content/manage-reports/click-remove.png)
+   ![Click Remove Icon](/static/images/manage-content/manage-reports/click-remove.png)
 
 3. Click `Save`.
-   ![Add Permission](/static/assets/on-premise/images/manage-content/manage-reports/remove-permission.png)
+   ![Add Permission](/static/images/manage-content/manage-reports/remove-permission.png)
 
 ## How do I share a report link with users?
 
@@ -53,17 +53,17 @@ You can share a report link with users in {{site.productNameTM}} On-Premises Edi
 The `Get Link` option in Report Server is available for all reports. Follow these steps to get the link for a report:
 
 1. Click the context menu of the report and select the `Get Link` option.
-    ![Get Link Menu](/static/assets/on-premise/images/manage-content/manage-reports/get-link-menu.png)
+    ![Get Link Menu](/static/images/manage-content/manage-reports/get-link-menu.png)
 
 2. Copy the link for the report from the `Get Link` dialog box. The dialog looks different for public and private reports.
 
     **For Public Reports**:
 
-    ![Get Link Dialog](/static/assets/on-premise/images/manage-content/manage-reports/get-link-public.png)
+    ![Get Link Dialog](/static/images/manage-content/manage-reports/get-link-public.png)
 
     **For Private Reports**:
 
-    ![Get Link Dialog](/static/assets/on-premise/images/manage-content/manage-reports/get-link-private.png)
+    ![Get Link Dialog](/static/images/manage-content/manage-reports/get-link-private.png)
 
 ## Frequently asked questions
 

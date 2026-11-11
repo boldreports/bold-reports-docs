@@ -10,7 +10,7 @@ The {{site.productNameTM}} Web Report Designer toolbar contains icons and button
 
 The following image shows the toolbar items.
 
-![toolbar items](/static/assets/on-premise/images/report-designer/compose-report/toolbar/toolbar-menu.png)
+![toolbar items](/static/images/report-designer/compose-report/toolbar/toolbar-menu.png)
 
 ## Cut
 
@@ -72,7 +72,7 @@ Size to grid in Web Report Designer snaps the selected report item to the closes
 
 The `View` menu in Web Report Designer contains options to show or hide `Header`, `Footer`, `Grid Lines`, `Snap To Shape`, `Ruler`, `Page Margin`, and `Full Screen` in the report design.
 
-![View Menu](/static/assets/on-premise/images/report-designer/compose-report/toolbar/view-menu.png '#width=200px')
+![View Menu](/static/images/report-designer/compose-report/toolbar/view-menu.png '#width=200px')
 
 **Header** : Enables or disables the header area in the report. To add and remove the header on the designer surface, read the [Header](./../../compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-header) section.
 

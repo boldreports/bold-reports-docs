@@ -33,7 +33,7 @@ With Bold Data Hub, you can:
 
 The integrated Bold Data Hub architecture connects Bold Data Hub with {{site.productNameTM}} Report Server. The following diagram shows the integrated Bold Data Hub architecture.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/archietecture.png)
+![Source](/static/images/manage-content/working-with-etl/archietecture.png)
 
 ## Which Python version does the ETL server need?
 
@@ -65,15 +65,15 @@ For a dedicated venv, enable the virtual environment setting and point the Bold 
 
 You open Bold Data Hub from the Report Server by clicking the `Data Hub` icon. Bold Data Hub opens in a new tab.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/etl_datahub.png)
+![Source](/static/images/manage-content/working-with-etl/etl_datahub.png)
 
 The icon is located under the same working-with-etl section.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/etl_reports.png)
+![Source](/static/images/manage-content/working-with-etl/etl_reports.png)
 
 Clicking the icon redirects you to the Bold Data Hub homepage.
 
-![Source](/static/assets/on-premise/images/manage-content/working-with-etl/datahub_homepage.png)
+![Source](/static/images/manage-content/working-with-etl/datahub_homepage.png)
 
 > **Important:** {{site.productNameTM}} and Bold Data Hub are integrated with the same Identity Provider (IdP), so you can access both with a single set of login credentials.
 

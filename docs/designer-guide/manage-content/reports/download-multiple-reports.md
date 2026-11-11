@@ -18,7 +18,7 @@ You download several reports at once in {{site.productNameTM}} Report Server by 
     > **Note:** The multi-select options are checkboxes next to each report and near the `All` option at the top of the report list, so you can select multiple reports.
 
 2. Click the `Download` button, located near `All`, to start downloading the selected reports.
-    ![Download Multiple Reports](/static/assets/on-premise/images/manage-content/manage-reports/download-reports.png)
+    ![Download Multiple Reports](/static/images/manage-content/manage-reports/download-reports.png)
 
     > This option is available on {{site.productNameTM}} On-Premises Edition from version `11.1.10` onwards.
 

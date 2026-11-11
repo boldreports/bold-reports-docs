@@ -74,15 +74,15 @@ You connect Salesforce Reports by creating a pipeline in Bold Data Hub and addin
 
 1. Click the `Bold Data Hub` icon on the Navigation Pane.
 
-    ![SalesforceReports Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
+    ![SalesforceReports Data Hub - Reports](/static/images/manage-content/working-with-etl/Reports_panel.png#max-width=100%)
 
 2. Click `Add Pipeline` and enter a name for the new pipeline.
 
-    ![SalesforceReports Data Hub - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
+    ![SalesforceReports Data Hub - Reports](/static/images/manage-content/working-with-etl/addpipeline.png#max-width=100%)
 
 3. Select the newly created pipeline, then double-click the `Salesforce Reports` connector in the list of available connectors. The add template pop-up appears.
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/salesforcereports_addtemplate.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/salesforcereports_addtemplate.png#max-width=100%)
 
 Bold Data Hub offers two methods to authenticate for Salesforce Reports:
 1. OAuth
@@ -94,12 +94,12 @@ You authenticate Salesforce Reports with OAuth by entering your client ID and cl
 
 1. Click the `Configure OAuth` button. In the pop-up, enter the client ID and client secret, and click **Ok**.
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/salesforce_oauth.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/salesforce_oauth.png#max-width=100%)
 
 2. Bold Data Hub redirects you to the Salesforce authentication page.
 3. After the redirection completes, the Salesforce Reports template is added with the client ID and secret.
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/salesforce_templatedetails.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/salesforce_templatedetails.png#max-width=100%)
 
 ### For Export Option
 
@@ -108,16 +108,16 @@ You authenticate Salesforce Reports with the export option by choosing it in the
 1. Double-click the Salesforce Reports connector in the list of available connectors. The add template pop-up appears.
 2. Choose the export option and click the **add template** button.
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/salesforcereports_exportpopup.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/salesforcereports_exportpopup.png#max-width=100%)
 
 3. Add the necessary details in the YAML template.
 4. Click **Save** and choose the destination to save the pipeline.
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/salesforcereports_exportdetails.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/salesforcereports_exportdetails.png#max-width=100%)
 
 Creating a pipeline in Bold Data Hub automatically creates a data source in {{site.productNameTM}}. The {{site.productNameTM}} data source is a live data source to the destination database used in Bold Data Hub.
 
-![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 ## How do I schedule the Salesforce Reports pipeline?
 
@@ -125,21 +125,21 @@ You schedule the Salesforce Reports pipeline in Bold Data Hub from the schedules
 
 1. To configure interval-based scheduling, click the schedules tab, select the created pipeline, click the schedule icon, and configure the schedule.
 
-    ![SalesforceReports- Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
+    ![SalesforceReports- Reports](/static/images/manage-content/working-with-etl/schedule_schedules.png#max-width=100%)
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/schedule_scheduledialog.png#max-width=100%)
 
 2. For an on-demand refresh, click the `Run Now` button.
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/schedule_runnow.png#max-width=100%)
 
 3. Check the schedule history with the history option and the logs.
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/schedule_history.png#max-width=100%)
 
 4. Click **Logs** to see whether the run is completed and the data source is created in {{site.productNameTM}}.
 
-    ![SalesforceReports - Reports](/static/assets/on-premise/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
+    ![SalesforceReports - Reports](/static/images/manage-content/working-with-etl/pipeline_DsCreated.png#max-width=100%)
 
 5. Click the `Edit DataSource` option to view the created tables.
 

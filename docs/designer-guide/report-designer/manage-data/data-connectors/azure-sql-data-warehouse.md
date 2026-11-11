@@ -12,11 +12,11 @@ To visualize Azure SQL Data Warehouse data in {{site.productNameTM}}, create an 
 To create an Azure SQL Data Warehouse data source in the {{site.productNameTM}} Web Report Designer, open the **Data** configuration panel and choose the Azure SQL Data Warehouse connection type.
 
 1. Click the **Data** icon in the configuration panel.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=415px')
 2. In the `DATA` configuration panel, click the `NEW DATA` button.
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
+   ![Data icon configuration panel](/static/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=350px')
 3. In the connection type panel, choose the `Azure SQL Data Warehouse` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/connection-types.png '#width=350px')
+   ![Connection types panel](/static/images/report-designer/manage-data/azure-sql-data-source/connection-types.png '#width=350px')
 
 ### Create Azure SQL Data Warehouse data source with basic options
 
@@ -29,15 +29,15 @@ When you create a new data source in the Web Report Designer, the `NEW DATASOURC
 5. Select a database that you want to query in the listed database associated with the given Azure SQL Data Warehouse server in the database combo box.
 6. Configure the `Encrypt` and `Trust Server Certificate` options based on your SQL Server configuration.
 7. Click `Connect` to connect {{site.productNameTM}} with the Azure SQL Data Warehouse server database.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/basic-options.png '#width=350px')
+   ![New connection panel](/static/images/report-designer/manage-data/azure-sql-data-source/basic-options.png '#width=350px')
 8. Drag and drop the table from the table schema in the query design view page.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png)
+   ![New connection panel](/static/images/report-designer/manage-data/data-connectors/query-designer.png)
 9. Click `Finish` to save the data source with a relevant name and continue designing the report.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png '#width=350px')
+   ![New connection panel](/static/images/report-designer/manage-data/data-connectors/data-list.png '#width=350px')
 
 Enable the Save password option to embed the credentials within the report when saving it in {{site.productNameTM}} Report Server.
 
-![Save password](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/save-password.png '#width=350px')
+![Save password](/static/images/report-designer/manage-data/azure-sql-data-source/save-password.png '#width=350px')
 
 > On report download action, the credentials will be not be saved with report data.
 
@@ -47,22 +47,22 @@ The {{site.productNameTM}} advanced options let you build your own connection st
 
 1. Click `Advanced Options` in the `New Data` panel.
 
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/advanced-options.png '#width=355px')
+   ![New connection panel](/static/images/report-designer/manage-data/azure-sql-data-source/advanced-options.png '#width=355px')
 
 2. The panel switches to advanced options. Set the connection string and authentication type as required, then click `Connect`.
 
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/advanced-connection.png '#width=355px')
+   ![New connection panel](/static/images/report-designer/manage-data/azure-sql-data-source/advanced-connection.png '#width=355px')
 
 3. Drag and drop the table from the table schema in the query design view page.
 
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png)
+   ![New connection panel](/static/images/report-designer/manage-data/data-connectors/query-designer.png)
 
 4. Click `Finish` to save the data source with a relevant name and continue designing the report.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png '#width=350px')
+![New connection panel](/static/images/report-designer/manage-data/data-connectors/data-list.png '#width=350px')
 
 > Click `Basic Options` to switch back to the basic connection settings.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/switch-basic-options.png '#width=350px')
+![New connection panel](/static/images/report-designer/manage-data/azure-sql-data-source/switch-basic-options.png '#width=350px')
 
 #### Connection string
 
@@ -102,11 +102,11 @@ Data Source=myserver.database.windows.net;Initial Catalog=AdventureWorks;Authent
 
 {{site.productNameTM}} advanced connections support Azure SQL server credentials, prompted credentials, or no credentials.
 
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/advanced-authentication.png '#width=410px')
+![Advanced authentication](/static/images/report-designer/manage-data/azure-sql-data-source/advanced-authentication.png '#width=410px')
 
 **SQL Server** - A user name and password must be supplied to access the Azure SQL Server database, the credentials might be for a database login. The credentials are passed to the data source for authentication.
 
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/advanced-sql-server.png '#width=410px')
+![Advanced authentication](/static/images/report-designer/manage-data/data-connectors/advanced-sql-server.png '#width=410px')
 
 Enable the Save password option to embed the credentials within the report when saving it in Report Server.
 
@@ -114,7 +114,7 @@ Enable the Save password option to embed the credentials within the report when 
 
 **Prompt** - When you configure a data source connection to use prompted credentials, each user who accesses the report must enter a user name and password on preview action to retrieve the data.
 
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/prompt.png '#width=410px')
+![Advanced authentication](/static/images/report-designer/manage-data/data-connectors/prompt.png '#width=410px')
 
 **None** - Choose the authentication type as `None` when the authentication details or any other arguments required to connect with the data source are provided in the connection string.
 
@@ -128,11 +128,11 @@ Connect to the Azure SQL Server database with [Basic Options](./../../../manage-
 
 The {{site.productNameTM}} query design view opens in design view by default. To switch to code view, enable the slider option in the tools pane, as highlighted in the following image.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/code-switcher.png '#width=425px')
+![New connection panel](/static/images/report-designer/manage-data/data-connectors/code-switcher.png '#width=425px')
 
 The query editor pane then switches to code view, as shown in the following image.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-mode.png '#width=425px')
+![New connection panel](/static/images/report-designer/manage-data/data-connectors/query-mode.png '#width=425px')
 
 ### How do I write and execute a query?
 
@@ -141,11 +141,11 @@ In the {{site.productNameTM}} `Query Editor` pane, you can write your own query 
 1. Write your query in the `Query Editor` pane.
 2. Click the `Execute` option in the tools pane. The data for your query appears at the bottom of the `Query Editor`.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enter-query.png)
+![New connection panel](/static/images/report-designer/manage-data/data-connectors/enter-query.png)
 
 If you disable the Code Slider in the tools pane to switch back to design view, an alert message asks you to confirm removing your query. Proceeding with this action resets the code view query.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/switcher-alert.png '#width=425px')
+![New connection panel](/static/images/report-designer/manage-data/data-connectors/switcher-alert.png '#width=425px')
 
 Click `Yes` to discard the query and go to design view, or click `No` to keep it. Save the data source by clicking the `Finish` button.
 
@@ -157,7 +157,7 @@ For example, drag the `SalesOrderDetail` table in design view and apply filters.
 
 Then, enable the `Code Switcher` to view the query. The query shows the applied filters and the changes made in the table.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/design-to-query.png)
+![New connection panel](/static/images/report-designer/manage-data/data-connectors/design-to-query.png)
 
 ## Frequently asked questions
 

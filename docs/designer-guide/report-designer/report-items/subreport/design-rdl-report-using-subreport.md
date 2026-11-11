@@ -20,12 +20,12 @@ The main report in the {{site.productNameTM}} Web Report Designer holds the empl
       FROM
       Employees
       ```
-      ![create a dataset](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-dataset.png '#width=410px')
+      ![create a dataset](/static/images/report-designer/report-items/subreport/main-report-dataset.png '#width=410px')
 2. Create two parameters named `Employee-A` and `Employee-B` in the main report to compare the employee details. Assign the required dataset field value to the parameters as shown in the following images. Refer to the [Parameter](./../../../report-parameters/add/#create-parameter) and [Assign Value](./../../../report-parameters/define-available-values-for-parameter/#query-values) sections to create and assign values to the parameters.
-   ![Create a parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-parameter.png '#width=385px')
-   ![Assign parameter values](/static/assets/on-premise/images/report-designer/report-items/subreport/assign-parameter-values.png '#width=455px')
+   ![Create a parameter](/static/images/report-designer/report-items/subreport/main-report-parameter.png '#width=385px')
+   ![Assign parameter values](/static/images/report-designer/report-items/subreport/assign-parameter-values.png '#width=455px')
 3. Design a simple report using textbox and line report items.
-   ![create a main report](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-textbox.png '#width=355px')
+   ![create a main report](/static/images/report-designer/report-items/subreport/main-report-textbox.png '#width=355px')
    > Note: Refer to the [Textbox](./../../../report-items/textbox/) and [Line](./../../../report-items/line/) sections to create the above report design.
 
 ### How do I add the subreport items?
@@ -33,9 +33,9 @@ The main report in the {{site.productNameTM}} Web Report Designer holds the empl
 You add subreport items in the Web Report Designer from the `Sub Reports` category of the item panel.
 
 1. Drag and drop the subreport item listed in the item panel under the `Sub Reports` category.
-   ![Subreport listed in item panel](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-itempanel.png '#width=385px')
+   ![Subreport listed in item panel](/static/images/report-designer/report-items/subreport/subreportitem-itempanel.png '#width=385px')
 2. Drag and drop two subreport items side by side in the design area to compare the employee details.
-   ![Drag and drop subreportitem into design area](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-designarea.png '#width=410px')
+   ![Drag and drop subreportitem into design area](/static/images/report-designer/report-items/subreport/subreportitem-designarea.png '#width=410px')
 
 ## How do I create the subreport?
 
@@ -69,14 +69,14 @@ The subreport uses three datasets from the `Northwind` database, each filtered b
       ```
 
       The datasets created in the report are now listed in the `Data panel`.
-      ![Subreport three dataset](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-three-dataset.png '#width=385px')
+      ![Subreport three dataset](/static/images/report-designer/report-items/subreport/subreport-three-dataset.png '#width=385px')
 4. Check the report parameters. Based on the `@SalesPersonID` query parameter created in the dataset query, an equivalent report parameter is created automatically in the report.
-   ![Subreport parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-parameter.png '#width=385px')
+   ![Subreport parameter](/static/images/report-designer/report-items/subreport/subreport-parameter.png '#width=385px')
 
 ### How do I design the subreport layout?
 
 The sample subreport in the Web Report Designer is a simple design that uses image, textbox and table report items, as shown in the following image.
-![subreport item with properties view](/static/assets/on-premise/images/report-designer/report-items/subreport/create-a-subreport.png '#width=425px')
+![subreport item with properties view](/static/images/report-designer/report-items/subreport/create-a-subreport.png '#width=425px')
 > Note: Refer to the [Image](./../../../report-items/image/), [Line](./../../../report-items/line/), and [Table](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) sections to design the above subreport.
 
 ### How do I assign fields in the subreport?
@@ -89,7 +89,7 @@ The subreport assigns fields in the Web Report Designer with the following expre
 * To display the employee `First Name` and `Last Name`, the `=First(Fields!FirstName.Value, "EmployeePersonalDetails")+" "+" "+First(Fields!LastName.Value, "EmployeePersonalDetails")` expression is used in the textbox report item.
 * To present the sales details of the respective employee, the `EmployeeSalesDetails` dataset is assigned to the table report item.
 * To display the employee image in the report, the `=First(Fields!Photo.Value, "EmployeeImages")` expression is assigned to the image report item value property.
-![subreport item with properties view](/static/assets/on-premise/images/report-designer/report-items/subreport/assign-value-to-image-report-item.png '#width=355px')
+![subreport item with properties view](/static/images/report-designer/report-items/subreport/assign-value-to-image-report-item.png '#width=355px')
 
 > Download the [side-by-side subreport design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/subreport/side-by-side.rdl).
 
@@ -97,24 +97,24 @@ The subreport assigns fields in the Web Report Designer with the following expre
 
 You link a subreport in the {{site.productNameTM}} Web Report Designer from the **Report** option in the properties panel. After you drag and drop the subreport item into the design area, its item properties are listed in the properties panel.
 
-![subreport item with properties view](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-properties.png)
+![subreport item with properties view](/static/images/report-designer/report-items/subreport/subreportitem-properties.png)
 
 Follow these steps to link the subreport into the main report:
 1. Click the browse button in the **Report** option.
 
-    ![Report link-fields](/static/assets/on-premise/images/report-designer/report-items/subreport/report-linking-option.png '#width=315px')
+    ![Report link-fields](/static/images/report-designer/report-items/subreport/report-linking-option.png '#width=315px')
 
 2. In the Browse dialog that opens, click the **Sample Reports** folder.
 
-      ![browse-from-dialog](/static/assets/on-premise/images/report-designer/report-items/subreport/sample-folder.png '#width=385px')
+      ![browse-from-dialog](/static/images/report-designer/report-items/subreport/sample-folder.png '#width=385px')
 
 3. Select the already designed subreport and click **Open**.
 
-      ![select report from folder](/static/assets/on-premise/images/report-designer/report-items/subreport/browse-report-dialog.png '#width=385px')
+      ![select report from folder](/static/images/report-designer/report-items/subreport/browse-report-dialog.png '#width=385px')
 
 4. Check that the selected report path is linked in the **Report** option and the subreport item in the design area.
 
-      ![selected report path](/static/assets/on-premise/images/report-designer/report-items/subreport/report-path.png)
+      ![selected report path](/static/images/report-designer/report-items/subreport/report-path.png)
 
 Set the report path for the other subreport item by following the same steps.
 
@@ -123,17 +123,17 @@ Set the report path for the other subreport item by following the same steps.
 You pass parameter values from the main report to the subreport in the {{site.productNameTM}} Web Report Designer with the **Set Parameters** option. Follow these steps:
 
 1. Click the **Set Parameters** button and click the **ADD** icon.
-   ![selected report path](/static/assets/on-premise/images/report-designer/report-items/subreport/parameter-add-icon.png '#width=385px')
+   ![selected report path](/static/images/report-designer/report-items/subreport/parameter-add-icon.png '#width=385px')
 2. Choose the parameter name in the `Parameters Name` drop-down, which lists the available parameters in the subreport, and assign values. Here, the expression `=Parameters!Employee-A.Value` is assigned to the `SalesPersonID` parameter of the subreport.
-   ![Pass the parameter value](/static/assets/on-premise/images/report-designer/report-items/subreport/parameter-values-passed.png '#width=385px')
+   ![Pass the parameter value](/static/images/report-designer/report-items/subreport/parameter-values-passed.png '#width=385px')
 3. Set the parameter name and assign values for the other subreport item by following the same steps.
 
 The report path and parameters are now set for both subreport items, as shown in the following image.
-![side by side subreport](/static/assets/on-premise/images/report-designer/report-items/subreport/side-by-side-subreport.png)
+![side by side subreport](/static/images/report-designer/report-items/subreport/side-by-side-subreport.png)
 
 Preview the report, choose the required employee names in the `Left Side Employee` and `Right Side Employee` parameter drop-downs, and click view report. The report preview shows the comparison report for the two employees based on the values selected in the parameter drop-downs.
 
-![Preview the highlighted parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/preview-highlighted-parameter.png)
+![Preview the highlighted parameter](/static/images/report-designer/report-items/subreport/preview-highlighted-parameter.png)
 
 > Download the [main report design (RDL)](https://github.com/boldreports/resources/tree/master/docs/report-designer/subreport/main-report.rdl).
 
