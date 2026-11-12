@@ -1,0 +1,140 @@
+/* Previous / Next page buttons shown under each page, plus shared helper classes. */
+/* =========================================================
+   Navigation Buttons Container
+   ========================================================= */
+#nav-buttons {
+    width: 100%;
+    display: var(--footer-display-flex);
+    gap: 30px;
+    align-items: var(--footer-align-center);
+    justify-content: flex-end;
+    border-top: 1px solid var(--border-color-grey);
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+
+/* =========================================================
+   Prev / Next Buttons
+   ========================================================= */
+#prev-button,
+#next-button {
+    width: calc(100% / 2);
+    box-sizing: border-box;
+}
+
+.doc-no-right-toc #next-button {
+    margin-right: 100px !important;
+}
+
+/* =========================================================
+   Links Inside Buttons
+   ========================================================= */
+#prev-link,
+#next-link {
+    display: var(--footer-display-flex);
+    padding: 12px;
+    width: 100%;
+    align-items: var(--footer-align-center);
+    text-decoration: none;
+    border: 1px solid var(--border-color-grey);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+#prev-link:hover,
+#next-link:hover {
+    border-radius: 8px !important;
+    background-color: var(--navigation-hover-color);
+}
+
+#next-link {
+    flex-direction: var(--footer-flex-row-reverse);
+}
+
+/* =========================================================
+   Button Text & Icons
+   ========================================================= */
+.nav-prev-text,
+.nav-next-text {
+    flex: 1;
+    min-width: 0;
+    font-size: var(--footer-font-size-sm);
+}
+
+.nav-prev-text {
+    padding-left: 15px;
+}
+
+.nav-next-text {
+    padding-right: 13px;
+}
+
+.nav-title {
+    display: var(--footer-display-block);
+    font-weight: var(--footer-font-weight-semibold);
+    color: var(--footer-text-secondary);
+    white-space: var(--footer-white-space-nowrap);
+    overflow: var(--footer-overflow-hidden);
+    text-overflow: var(--footer-text-overflow-ellipsis);
+}
+
+.nav-label {
+    font-size: var(--footer-font-size-xs);
+    color: var(--footer-text-muted);
+    white-space: var(--footer-white-space-nowrap);
+}
+
+.nav-prev-icon,
+.nav-next-icon {
+    margin-top: 10px;
+}
+
+/* =========================================================
+   Feedback Button
+   ========================================================= */
+.doc-feedback-up {
+    background: linear-gradient(90deg, #4f46e5, #06b6d4);
+    color: var(--footer-text-inverse) !important;
+    box-shadow: var(--footer-feedback-shadow);
+}
+
+/* =========================================================
+   Utilities
+   ========================================================= */
+.visually-hidden {
+    position: var(--footer-position-absolute) !important;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: var(--footer-overflow-hidden);
+}
+
+/* =========================================================
+   Responsive – Tablet & Below
+   ========================================================= */
+
+/* =========================================================
+   Responsive – Compact Nav Buttons
+   ========================================================= */
+@media (max-width: 684px) {
+    .nav-title {
+        display: var(--footer-display-none) !important;
+    }
+
+    .nav-prev-text {
+        text-align: var(--footer-text-align-left);
+    }
+
+    .nav-next-text {
+        text-align: var(--footer-text-align-right);
+    }
+
+    .doc-icons {
+        display: var(--footer-display-flex);
+        align-items: var(--footer-align-center);
+        justify-content: var(--footer-justify-center);
+        width: 32px;
+        margin: 0px;
+    }
+}
+

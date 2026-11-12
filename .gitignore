@@ -1,0 +1,33 @@
+.cache/
+.vscode
+.git
+
+# dist
+public/
+
+# packages
+node_modules/
+yarn.lock
+package-lock.json
+
+# generated pages
+/src/pages/
+
+# common
+stack.json
+/.markdownlint.json
+
+# misc
+cireports
+docs-utilities/
+temp/
+url-validation-error.log
+left-toc.json
+sitemap.xml
+
+# static
+static/*
+!static/images/
+!static/404.js
+!static/branding/
+!static/robots.txt
